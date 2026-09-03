@@ -48,7 +48,14 @@
     "legendNone": "TODO",
     "scrollHint": "TODO",
     "programLink": "Programm",
-    "emptyCell": "—"
+    "emptyCell": "—",
+    "partiesLabel": "TODO",
+    "showAll": "Alle",
+    "showMajor": "TODO",
+    "selectedCount": "TODO",
+    "expandTopic": "TODO",
+    "collapseTopic": "TODO",
+    "openProgram": "TODO"
   },
   "analysis": {
     "title": "TODO",

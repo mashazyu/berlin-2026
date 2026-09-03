@@ -53,9 +53,16 @@
     "legendAgainst": "Against / opposing",
     "legendMixed": "Mixed / qualified / unclear",
     "legendNone": "Not found in excerpts",
-    "scrollHint": "Scroll horizontally to see all parties",
+    "scrollHint": "Showing selected parties only — add more with the chips above.",
     "programLink": "Program",
-    "emptyCell": "—"
+    "emptyCell": "—",
+    "partiesLabel": "Parties to compare",
+    "showAll": "All",
+    "showMajor": "Major 4",
+    "selectedCount": "{count} selected",
+    "expandTopic": "Show positions",
+    "collapseTopic": "Hide",
+    "openProgram": "Party program"
   },
   "analysis": {
     "title": "Reading the table",

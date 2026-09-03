@@ -57,6 +57,13 @@ export type Translations = {
     scrollHint: string
     programLink: string
     emptyCell: string
+    partiesLabel: string
+    showAll: string
+    showMajor: string
+    selectedCount: string
+    expandTopic: string
+    collapseTopic: string
+    openProgram: string
   }
   analysis: {
     title: string

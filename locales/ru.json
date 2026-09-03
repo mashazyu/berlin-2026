@@ -53,9 +53,16 @@
     "legendAgainst": "Против",
     "legendMixed": "Смешанно / с оговорками / неясно",
     "legendNone": "В отрывках не найдено",
-    "scrollHint": "Прокрутите горизонтально, чтобы увидеть все партии",
+    "scrollHint": "Показаны только выбранные партии — добавьте другие чипами выше.",
     "programLink": "Программа",
-    "emptyCell": "—"
+    "emptyCell": "—",
+    "partiesLabel": "Партии для сравнения",
+    "showAll": "Все",
+    "showMajor": "Основные 4",
+    "selectedCount": "Выбрано: {count}",
+    "expandTopic": "Показать позиции",
+    "collapseTopic": "Скрыть",
+    "openProgram": "Программа партии"
   },
   "analysis": {
     "title": "Как читать таблицу",
