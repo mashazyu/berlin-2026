@@ -12,6 +12,8 @@ export type Translations = {
     homeDescription: string
     privacyTitle: string
     privacyDescription: string
+    aiDisclosureTitle: string
+    aiDisclosureDescription: string
     keywords: string[]
   }
   brand: {
@@ -63,11 +65,24 @@ export type Translations = {
     partyFeaturesTitle: string
   }
   footer: {
-    aiNote: string
+    aiNotice: string
+    aiDisclosure: string
     relatedSite: string
     contact: string
     privacy: string
     unaffiliated: string
+  }
+  aiDisclosure: {
+    title: string
+    intro: string
+    howWeUseAi: string
+    howWeUseAiContent: string
+    humanResponsibility: string
+    humanResponsibilityContent: string
+    reviewAndAccuracy: string
+    reviewAndAccuracyContent: string
+    contact: string
+    contactContent: string
   }
   privacy: {
     title: string

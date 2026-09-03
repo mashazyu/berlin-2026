@@ -4,6 +4,8 @@
     "homeDescription": "TODO",
     "privacyTitle": "TODO",
     "privacyDescription": "TODO",
+    "aiDisclosureTitle": "TODO",
+    "aiDisclosureDescription": "TODO",
     "keywords": []
   },
   "brand": {
@@ -55,11 +57,24 @@
     "partyFeaturesTitle": "TODO"
   },
   "footer": {
-    "aiNote": "TODO",
+    "aiNotice": "TODO",
+    "aiDisclosure": "KI-Hinweis",
     "relatedSite": "TODO",
     "contact": "TODO",
     "privacy": "Datenschutz",
     "unaffiliated": "TODO"
+  },
+  "aiDisclosure": {
+    "title": "KI-Hinweis",
+    "intro": "TODO",
+    "howWeUseAi": "TODO",
+    "howWeUseAiContent": "TODO",
+    "humanResponsibility": "TODO",
+    "humanResponsibilityContent": "TODO",
+    "reviewAndAccuracy": "TODO",
+    "reviewAndAccuracyContent": "TODO",
+    "contact": "TODO",
+    "contactContent": "TODO"
   },
   "privacy": {
     "title": "Datenschutzerklärung",

@@ -9,13 +9,29 @@ export function SiteFooter() {
   return (
     <footer className="border-t border-border bg-white">
       <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6">
-        <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+        <p className="text-sm leading-relaxed text-muted-foreground">
+          {t.footer.aiNotice}
+        </p>
+
+        <div className="mt-5 flex flex-col gap-4 border-t border-border pt-5 sm:flex-row sm:items-center sm:justify-between">
           <p className="font-display text-sm font-bold tracking-tight">
             <span className="text-primary">Berlin</span>
             <span className="mx-1 text-border">·</span>
             <span className="text-accent">2026</span>
           </p>
           <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-muted-foreground">
+            <Link
+              href={`/${language}/ai-disclosure`}
+              className="transition-colors hover:text-foreground"
+            >
+              {t.footer.aiDisclosure}
+            </Link>
+            <Link
+              href={`/${language}/privacy`}
+              className="transition-colors hover:text-foreground"
+            >
+              {t.footer.privacy}
+            </Link>
             <a
               href="https://www.berlinvote.help/"
               target="_blank"
@@ -30,19 +46,12 @@ export function SiteFooter() {
             >
               {t.footer.contact}
             </a>
-            <Link
-              href={`/${language}/privacy`}
-              className="transition-colors hover:text-foreground"
-            >
-              {t.footer.privacy}
-            </Link>
           </div>
         </div>
 
-        <div className="mt-5 space-y-2 border-t border-border pt-5 text-sm leading-relaxed text-muted-foreground">
-          <p>{t.footer.aiNote}</p>
-          <p>{t.footer.unaffiliated}</p>
-        </div>
+        <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
+          {t.footer.unaffiliated}
+        </p>
       </div>
     </footer>
   )
