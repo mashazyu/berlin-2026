@@ -18,7 +18,7 @@ export function HomePageClient({
   const comparison = comparisonByLang[language] ?? comparisonByLang.en
 
   return (
-    <div className="mesh-bg lang-fade min-h-screen" key={language}>
+    <div className="lang-fade min-h-screen bg-background" key={language}>
       <SiteHeader />
       <main>
         <Hero />

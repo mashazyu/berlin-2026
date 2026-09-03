@@ -25,9 +25,6 @@
   --stance-against: 8 78% 52%;
   --stance-mixed: 38 92% 48%;
   --stance-none: 210 12% 62%;
-  --mesh-1: 188 90% 88%;
-  --mesh-2: 82 80% 88%;
-  --mesh-3: 8 90% 90%;
 }
 
 @theme inline {
@@ -118,14 +115,6 @@
     font-weight: 700;
     letter-spacing: -0.02em;
   }
-}
-
-.mesh-bg {
-  background-color: hsl(var(--background));
-  background-image:
-    radial-gradient(ellipse 80% 60% at 10% 0%, hsl(var(--mesh-1)) 0%, transparent 55%),
-    radial-gradient(ellipse 70% 50% at 90% 10%, hsl(var(--mesh-2)) 0%, transparent 50%),
-    radial-gradient(ellipse 60% 40% at 50% 100%, hsl(var(--mesh-3)) 0%, transparent 55%);
 }
 
 .lang-fade {

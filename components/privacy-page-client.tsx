@@ -18,7 +18,7 @@ export function PrivacyPageClient() {
   ]
 
   return (
-    <div className="mesh-bg min-h-screen">
+    <div className="min-h-screen bg-background">
       <SiteHeader />
       <main className="mx-auto max-w-3xl px-4 py-14 sm:px-6 sm:py-20">
         <h1 className="font-display text-3xl font-bold tracking-tight sm:text-4xl">
