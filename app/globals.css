@@ -1,30 +1,32 @@
 @import "tailwindcss";
 
 :root {
-  --background: 180 40% 98%;
-  --foreground: 210 40% 12%;
+  --background: 0 0% 100%;
+  --foreground: 210 24% 12%;
   --card: 0 0% 100%;
-  --card-foreground: 210 40% 12%;
+  --card-foreground: 210 24% 12%;
   --popover: 0 0% 100%;
-  --popover-foreground: 210 40% 12%;
-  --primary: 188 92% 38%;
+  --popover-foreground: 210 24% 12%;
+  --primary: 16 88% 48%;
   --primary-foreground: 0 0% 100%;
-  --secondary: 82 78% 48%;
-  --secondary-foreground: 210 40% 10%;
-  --muted: 180 24% 93%;
-  --muted-foreground: 210 16% 40%;
-  --accent: 8 92% 58%;
+  --secondary: 24 90% 94%;
+  --secondary-foreground: 16 50% 28%;
+  --muted: 30 20% 96%;
+  --muted-foreground: 210 12% 40%;
+  --accent: 16 92% 52%;
   --accent-foreground: 0 0% 100%;
   --destructive: 0 78% 52%;
   --destructive-foreground: 0 0% 100%;
-  --border: 188 28% 84%;
-  --input: 188 28% 84%;
-  --ring: 188 92% 38%;
+  --border: 30 14% 88%;
+  --input: 30 14% 88%;
+  --ring: 16 88% 48%;
   --radius: 0.75rem;
   --stance-for: 158 72% 36%;
   --stance-against: 8 78% 52%;
   --stance-mixed: 38 92% 48%;
   --stance-none: 210 12% 62%;
+  --section-warm: 24 85% 96%;
+  --header-offset: 3.5rem;
 }
 
 @theme inline {
@@ -51,6 +53,7 @@
   --color-stance-against: hsl(var(--stance-against));
   --color-stance-mixed: hsl(var(--stance-mixed));
   --color-stance-none: hsl(var(--stance-none));
+  --color-section-warm: hsl(var(--section-warm));
   --font-sans: var(--font-dm-sans), ui-sans-serif, system-ui, sans-serif;
   --font-display: var(--font-syne), ui-sans-serif, system-ui, sans-serif;
   --radius-sm: calc(var(--radius) - 4px);
@@ -99,6 +102,7 @@
 
   html {
     scroll-behavior: smooth;
+    overscroll-behavior-y: none;
   }
 
   body {
@@ -119,4 +123,71 @@
 
 .lang-fade {
   animation: fade-in 0.35s ease-out;
+}
+
+.section-title {
+  position: relative;
+  padding-bottom: 0.75rem;
+}
+
+.section-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 2.5rem;
+  height: 3px;
+  border-radius: 999px;
+  background: hsl(var(--accent));
+}
+
+.section-title-center::after {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@keyframes edge-bounce-top {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  35% {
+    transform: translate3d(0, 12px, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes edge-bounce-bottom {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  35% {
+    transform: translate3d(0, -12px, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+/* Bounce content only — keep sticky header still (avoids a double/janky feel) */
+body.edge-bounce-top main,
+body.edge-bounce-top footer {
+  animation: edge-bounce-top 0.7s cubic-bezier(0.22, 1.2, 0.36, 1);
+  will-change: transform;
+}
+
+body.edge-bounce-bottom main,
+body.edge-bounce-bottom footer {
+  animation: edge-bounce-bottom 0.7s cubic-bezier(0.22, 1.2, 0.36, 1);
+  will-change: transform;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body.edge-bounce-top main,
+  body.edge-bounce-top footer,
+  body.edge-bounce-bottom main,
+  body.edge-bounce-bottom footer {
+    animation: none;
+  }
 }

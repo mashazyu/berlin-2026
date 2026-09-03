@@ -15,9 +15,9 @@ export function SiteFooter() {
 
         <div className="mt-5 flex flex-col gap-4 border-t border-border pt-5 sm:flex-row sm:items-center sm:justify-between">
           <p className="font-display text-sm font-bold tracking-tight">
-            <span className="text-primary">Berlin</span>
+            <span className="text-accent">Berlin</span>
             <span className="mx-1 text-border">·</span>
-            <span className="text-accent">2026</span>
+            <span className="text-foreground">2026</span>
           </p>
           <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-muted-foreground">
             <Link

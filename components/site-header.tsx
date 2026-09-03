@@ -1,10 +1,14 @@
 "use client"
 
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import Link from "next/link"
 import { Menu, X } from "lucide-react"
 import { useLanguage } from "@/components/language-provider"
 import { LanguageSwitcher } from "@/components/language-switcher"
+import {
+  handleSectionLinkClick,
+  scrollToSection,
+} from "@/lib/scroll-to-section"
 import { cn } from "@/lib/utils"
 
 export function SiteHeader() {
@@ -12,14 +16,22 @@ export function SiteHeader() {
   const [open, setOpen] = useState(false)
 
   const links = [
-    { href: `#about`, label: t.navigation.about },
-    { href: `#table`, label: t.navigation.table },
-    { href: `#analysis`, label: t.navigation.analysis },
+    { href: "about", label: t.navigation.about },
+    { href: "table", label: t.navigation.table },
+    { href: "analysis", label: t.navigation.analysis },
   ]
 
   function closeMenu() {
     setOpen(false)
   }
+
+  useEffect(() => {
+    const hash = window.location.hash.replace(/^#/, "")
+    if (!hash) return
+    // Wait for layout after language / content paint
+    const timer = window.setTimeout(() => scrollToSection(hash), 80)
+    return () => window.clearTimeout(timer)
+  }, [])
 
   return (
     <header className="sticky top-0 z-40 border-b border-border bg-white">
@@ -29,9 +41,9 @@ export function SiteHeader() {
           className="flex h-9 shrink-0 items-center font-display text-base font-bold tracking-tight text-foreground"
           onClick={closeMenu}
         >
-          <span className="text-primary">Berlin</span>
+          <span className="text-accent">Berlin</span>
           <span className="mx-1 text-border">·</span>
-          <span className="text-accent">2026</span>
+          <span className="text-foreground">2026</span>
         </Link>
 
         <div className="flex h-9 items-center gap-1 sm:gap-2">
@@ -39,8 +51,9 @@ export function SiteHeader() {
             {links.map((link) => (
               <a
                 key={link.href}
-                href={link.href}
+                href={`#${link.href}`}
                 className="inline-flex h-9 items-center px-3 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
+                onClick={(event) => handleSectionLinkClick(event, link.href)}
               >
                 {link.label}
               </a>
@@ -74,9 +87,11 @@ export function SiteHeader() {
           {links.map((link) => (
             <a
               key={link.href}
-              href={link.href}
-              onClick={closeMenu}
+              href={`#${link.href}`}
               className="flex h-11 items-center rounded-md px-3 text-sm font-medium text-foreground transition-colors hover:bg-muted"
+              onClick={(event) =>
+                handleSectionLinkClick(event, link.href, closeMenu)
+              }
             >
               {link.label}
             </a>

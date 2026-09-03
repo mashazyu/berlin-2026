@@ -2,14 +2,15 @@
 
 import { Button } from "@/components/ui/button"
 import { useLanguage } from "@/components/language-provider"
+import { handleSectionLinkClick } from "@/lib/scroll-to-section"
 
 export function Hero() {
   const { translations: t } = useLanguage()
 
   return (
-    <section className="px-4 pb-16 pt-14 sm:px-6 sm:pb-20 sm:pt-20">
-      <div className="mx-auto max-w-4xl animate-[rise_0.55s_ease-out_both] text-center">
-        <p className="mb-4 font-display text-sm font-semibold uppercase tracking-[0.2em] text-primary sm:text-base">
+    <section className="bg-white px-4 pb-16 pt-14 sm:px-6 sm:pb-20 sm:pt-20">
+      <div className="mx-auto max-w-4xl text-center">
+        <p className="mb-4 font-display text-sm font-semibold uppercase tracking-[0.2em] text-accent sm:text-base">
           {t.brand.name}
         </p>
         <h1 className="font-display text-4xl font-bold leading-[1.05] tracking-tight text-foreground sm:text-5xl md:text-6xl">
@@ -23,7 +24,12 @@ export function Hero() {
         </p>
         <div className="mt-8 flex justify-center">
           <Button asChild size="lg">
-            <a href="#table">{t.hero.cta}</a>
+            <a
+              href="#table"
+              onClick={(event) => handleSectionLinkClick(event, "table")}
+            >
+              {t.hero.cta}
+            </a>
           </Button>
         </div>
       </div>
