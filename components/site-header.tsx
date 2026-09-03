@@ -22,34 +22,36 @@ export function SiteHeader() {
   }
 
   return (
-    <header className="sticky top-0 z-40 border-b border-border/60 bg-white/90 backdrop-blur-md">
-      <div className="mx-auto flex max-w-7xl items-center justify-between gap-3 px-4 py-3 sm:px-6">
+    <header className="sticky top-0 z-40 border-b border-border bg-white">
+      <div className="mx-auto flex h-14 max-w-7xl items-center justify-between gap-4 px-4 sm:px-6">
         <Link
           href={`/${language}`}
-          className="font-display text-lg font-bold tracking-tight text-foreground sm:text-xl"
+          className="flex h-9 shrink-0 items-center font-display text-base font-bold tracking-tight text-foreground"
           onClick={closeMenu}
         >
-          <span className="text-primary">Berlin</span>{" "}
+          <span className="text-primary">Berlin</span>
+          <span className="mx-1 text-border">·</span>
           <span className="text-accent">2026</span>
         </Link>
 
-        <nav className="hidden items-center gap-6 md:flex" aria-label="Primary">
-          {links.map((link) => (
-            <a
-              key={link.href}
-              href={link.href}
-              className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
-            >
-              {link.label}
-            </a>
-          ))}
-        </nav>
+        <div className="flex h-9 items-center gap-1 sm:gap-2">
+          <nav className="hidden h-9 items-center md:flex" aria-label="Primary">
+            {links.map((link) => (
+              <a
+                key={link.href}
+                href={link.href}
+                className="inline-flex h-9 items-center px-3 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
+              >
+                {link.label}
+              </a>
+            ))}
+          </nav>
 
-        <div className="flex items-center gap-2">
           <LanguageSwitcher />
+
           <button
             type="button"
-            className="inline-flex h-10 w-10 items-center justify-center rounded-lg border border-border bg-white text-foreground md:hidden"
+            className="inline-flex h-9 w-9 items-center justify-center rounded-md text-foreground transition-colors hover:bg-muted md:hidden"
             aria-expanded={open}
             aria-controls="mobile-nav"
             aria-label={open ? "Close menu" : "Open menu"}
@@ -63,18 +65,18 @@ export function SiteHeader() {
       <nav
         id="mobile-nav"
         className={cn(
-          "border-t border-border/60 bg-white md:hidden",
+          "border-t border-border bg-white md:hidden",
           open ? "block" : "hidden"
         )}
         aria-label="Mobile"
       >
-        <div className="mx-auto flex max-w-7xl flex-col gap-1 px-4 py-3 sm:px-6">
+        <div className="mx-auto flex max-w-7xl flex-col px-2 py-2 sm:px-4">
           {links.map((link) => (
             <a
               key={link.href}
               href={link.href}
               onClick={closeMenu}
-              className="rounded-lg px-3 py-2.5 text-sm font-medium text-foreground transition-colors hover:bg-muted"
+              className="flex h-11 items-center rounded-md px-3 text-sm font-medium text-foreground transition-colors hover:bg-muted"
             >
               {link.label}
             </a>

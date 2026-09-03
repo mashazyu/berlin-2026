@@ -32,7 +32,7 @@ export function LanguageSwitcher({ className }: { className?: string }) {
   return (
     <div
       className={cn(
-        "inline-flex items-center gap-0.5 rounded-full border border-border/80 bg-white/70 p-1 shadow-sm backdrop-blur-sm",
+        "inline-flex h-9 items-center rounded-md border border-border bg-muted/40 p-0.5",
         className
       )}
       role="group"
@@ -44,9 +44,9 @@ export function LanguageSwitcher({ className }: { className?: string }) {
           type="button"
           onClick={() => switchTo(lang)}
           className={cn(
-            "rounded-full px-2.5 py-1 text-xs font-semibold tracking-wide transition-all duration-200",
+            "inline-flex h-8 min-w-8 items-center justify-center rounded-[5px] px-2 text-xs font-semibold tracking-wide transition-colors",
             language === lang
-              ? "bg-primary text-primary-foreground shadow-sm"
+              ? "bg-primary text-primary-foreground"
               : "text-muted-foreground hover:text-foreground"
           )}
           aria-pressed={language === lang}
@@ -54,7 +54,6 @@ export function LanguageSwitcher({ className }: { className?: string }) {
           {LABELS[lang]}
         </button>
       ))}
-      {/* Keep crawlable alternates */}
       <span className="sr-only">
         {SUPPORTED_LANGUAGES.map((lang) => (
           <Link key={lang} href={`/${lang}`}>
