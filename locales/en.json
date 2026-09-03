@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "homeTitle": "Berlin 2026 — Party comparison on climate, transport & city",
+    "homeDescription": "Side-by-side comparison of Berlin party positions for the 20 September 2026 Abgeordnetenhaus election — climate, transport, urban space, energy, and animals.",
+    "privacyTitle": "Privacy Policy — Berlin 2026",
+    "privacyDescription": "How Berlin 2026 handles personal data in line with GDPR.",
+    "keywords": [
+      "Berlin",
+      "election 2026",
+      "Abgeordnetenhaus",
+      "party comparison",
+      "climate",
+      "transport"
+    ]
+  },
+  "brand": {
+    "name": "Berlin 2026",
+    "tagline": "Climate, transport & city — party positions side by side"
+  },
+  "navigation": {
+    "about": "About",
+    "table": "Comparison",
+    "analysis": "Analysis",
+    "privacy": "Privacy"
+  },
+  "hero": {
+    "headline": "Berlin votes on 20 September 2026",
+    "support": "Compare how parties stand on climate, transport, and the city — in one table.",
+    "cta": "Explore the table",
+    "electionDate": "Abgeordnetenhaus election · 20 September 2026"
+  },
+  "about": {
+    "title": "About",
+    "berlinVotesTitle": "Berlin votes on 20 September 2026",
+    "berlinVotesBody": "Every 5 years Berlin votes for a new parliament that will shape the city's policies.",
+    "accessibilityTitle": "Accessibility and Language",
+    "accessibilityBody": "About 16% of German citizens in Berlin have a migration background. Election programs are only published in German and can run up to 200 pages. That's a hard read even for native speakers. Wahl-O-Mat helps, but it's not built to go deep.",
+    "clarityTitle": "Clarity and Substance",
+    "clarityBody": "Much of the 200 pages is rhetoric, hard to translate into anything concrete. We wanted tangible answers separating commitments tied to numbers from general statements of intent.",
+    "whatWeDidTitle": "What we did",
+    "whatWeDidBody": "We compared the positions of 10 Berlin parties against key points across transport and urban spaces, climate and energy — and turned their programs into one side-by-side table focused on eco topics.",
+    "beforeYouVoteTitle": "Before you vote",
+    "beforeYouVoteBody": "The table is made with the help of AI, and we recommend double-checking important information: full translations of the main parties' programs are published on [BerlinVote.Help](https://www.berlinvote.help/).",
+    "disclaimer": "This project is not campaign material and is not affiliated with any party."
+  },
+  "table": {
+    "title": "Party comparison",
+    "subtitle": "Climate, transport, cleanliness, energy, nature, and animals. Stance markers: for, against, mixed / unclear, or not found.",
+    "topicColumn": "Topic",
+    "legendFor": "For / supportive",
+    "legendAgainst": "Against / opposing",
+    "legendMixed": "Mixed / qualified / unclear",
+    "legendNone": "Not found in excerpts",
+    "scrollHint": "Scroll horizontally to see all parties",
+    "programLink": "Program",
+    "emptyCell": "—"
+  },
+  "analysis": {
+    "title": "Reading the table",
+    "consensusTitle": "What almost everyone has",
+    "dividesTitle": "Where the main divides are",
+    "partyFeaturesTitle": "Party-specific features"
+  },
+  "footer": {
+    "aiNote": "This table was created with AI assistance. Please double-check points that matter to you.",
+    "relatedSite": "Full program translations: BerlinVote.Help",
+    "contact": "Questions? Contact Nina Harz",
+    "privacy": "Privacy",
+    "unaffiliated": "Independent, non-partisan. Not affiliated with any party or the City of Berlin."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "intro": "This privacy policy explains how we collect, use, and protect your personal information when you visit our website, in compliance with the General Data Protection Regulation (GDPR) and applicable German data protection laws.",
+    "responsibleParty": "Responsible Party",
+    "responsiblePartyContent": "Berlin 2026 project\nContact: Nina Harz\nEmail: nina.harz@pm.me",
+    "dataProcessed": "Data Processed",
+    "dataProcessedContent": "When you visit our website, our hosting provider may automatically process technical data required to deliver the site (for example IP address, browser type, and request timestamps in server logs). We do not operate our own user accounts and we do not ask you for your name or email on this site.\n\nThis technical processing is based on our legitimate interest (Art. 6(1)(f) GDPR) in providing a secure, functioning website.",
+    "hosting": "Hosting",
+    "hostingContent": "This website is hosted by Vercel Inc. Server infrastructure and content delivery may involve processing outside the EU under appropriate safeguards. See [Vercel's Privacy Policy](https://vercel.com/legal/privacy-policy) for details.",
+    "purposeOfProcessing": "Purpose of Processing",
+    "purposeOfProcessingContent": "We process technical data only to:\n\n• Provide and maintain this website\n• Detect, prevent and address technical issues\n• Ensure the security and proper functioning of the site\n\nThis processing is necessary for our legitimate interests in providing the service (Art. 6(1)(f) GDPR).",
+    "cookies": "Cookies and Tracking Technologies",
+    "cookiesContent": "This website does not use analytics or advertising cookies. The language preference may be stored in a small cookie or local storage so we can show your chosen language on return visits. You can delete cookies and site data in your browser settings at any time.",
+    "yourRights": "Your Rights Under GDPR",
+    "yourRightsIntro": "Under the General Data Protection Regulation (GDPR), you have the following rights regarding your personal data:",
+    "yourRightsList": "• Right to access (Art. 15 GDPR): You have the right to request access to your personal data\n• Right to rectification (Art. 16 GDPR): You have the right to request correction of inaccurate personal data\n• Right to erasure (Art. 17 GDPR): You have the right to request deletion of your personal data\n• Right to restrict processing (Art. 18 GDPR): You have the right to request restriction of processing of your personal data\n• Right to data portability (Art. 20 GDPR): You have the right to request transfer of your personal data\n• Right to object (Art. 21 GDPR): You have the right to object to processing of your personal data\n• Right to lodge a complaint (Art. 77 GDPR): You have the right to lodge a complaint with a supervisory authority",
+    "contactInfo": "If you wish to exercise any of these rights or have questions about your data, please contact us at nina.harz@pm.me."
+  }
+}

@@ -1,0 +1,133 @@
+@import "tailwindcss";
+
+:root {
+  --background: 180 40% 98%;
+  --foreground: 210 40% 12%;
+  --card: 0 0% 100%;
+  --card-foreground: 210 40% 12%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 210 40% 12%;
+  --primary: 188 92% 38%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 82 78% 48%;
+  --secondary-foreground: 210 40% 10%;
+  --muted: 180 24% 93%;
+  --muted-foreground: 210 16% 40%;
+  --accent: 8 92% 58%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 0 78% 52%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 188 28% 84%;
+  --input: 188 28% 84%;
+  --ring: 188 92% 38%;
+  --radius: 0.75rem;
+  --stance-for: 158 72% 36%;
+  --stance-against: 8 78% 52%;
+  --stance-mixed: 38 92% 48%;
+  --stance-none: 210 12% 62%;
+  --mesh-1: 188 90% 88%;
+  --mesh-2: 82 80% 88%;
+  --mesh-3: 8 90% 90%;
+}
+
+@theme inline {
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+  --color-popover: hsl(var(--popover));
+  --color-popover-foreground: hsl(var(--popover-foreground));
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+  --color-stance-for: hsl(var(--stance-for));
+  --color-stance-against: hsl(var(--stance-against));
+  --color-stance-mixed: hsl(var(--stance-mixed));
+  --color-stance-none: hsl(var(--stance-none));
+  --font-sans: var(--font-dm-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-syne), ui-sans-serif, system-ui, sans-serif;
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --animate-fade-in: fade-in 0.45s ease-out both;
+  --animate-rise: rise 0.55s ease-out both;
+  --animate-chip: chip-in 0.4s ease-out both;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes chip-in {
+  from {
+    opacity: 0;
+    transform: scale(0.92);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: var(--font-sans);
+    min-height: 100vh;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+}
+
+.mesh-bg {
+  background-color: hsl(var(--background));
+  background-image:
+    radial-gradient(ellipse 80% 60% at 10% 0%, hsl(var(--mesh-1)) 0%, transparent 55%),
+    radial-gradient(ellipse 70% 50% at 90% 10%, hsl(var(--mesh-2)) 0%, transparent 50%),
+    radial-gradient(ellipse 60% 40% at 50% 100%, hsl(var(--mesh-3)) 0%, transparent 55%);
+}
+
+.lang-fade {
+  animation: fade-in 0.35s ease-out;
+}

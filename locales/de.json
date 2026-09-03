@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "homeTitle": "TODO",
+    "homeDescription": "TODO",
+    "privacyTitle": "TODO",
+    "privacyDescription": "TODO",
+    "keywords": []
+  },
+  "brand": {
+    "name": "Berlin 2026",
+    "tagline": "TODO"
+  },
+  "navigation": {
+    "about": "Über uns",
+    "table": "Vergleich",
+    "analysis": "Analyse",
+    "privacy": "Datenschutz"
+  },
+  "hero": {
+    "headline": "TODO",
+    "support": "TODO",
+    "cta": "TODO",
+    "electionDate": "TODO"
+  },
+  "about": {
+    "title": "Über uns",
+    "berlinVotesTitle": "TODO",
+    "berlinVotesBody": "TODO",
+    "accessibilityTitle": "TODO",
+    "accessibilityBody": "TODO",
+    "clarityTitle": "TODO",
+    "clarityBody": "TODO",
+    "whatWeDidTitle": "TODO",
+    "whatWeDidBody": "TODO",
+    "beforeYouVoteTitle": "TODO",
+    "beforeYouVoteBody": "TODO",
+    "disclaimer": "TODO"
+  },
+  "table": {
+    "title": "TODO",
+    "subtitle": "TODO",
+    "topicColumn": "Thema",
+    "legendFor": "TODO",
+    "legendAgainst": "TODO",
+    "legendMixed": "TODO",
+    "legendNone": "TODO",
+    "scrollHint": "TODO",
+    "programLink": "Programm",
+    "emptyCell": "—"
+  },
+  "analysis": {
+    "title": "TODO",
+    "consensusTitle": "TODO",
+    "dividesTitle": "TODO",
+    "partyFeaturesTitle": "TODO"
+  },
+  "footer": {
+    "aiNote": "TODO",
+    "relatedSite": "TODO",
+    "contact": "TODO",
+    "privacy": "Datenschutz",
+    "unaffiliated": "TODO"
+  },
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "intro": "TODO",
+    "responsibleParty": "Verantwortliche Stelle",
+    "responsiblePartyContent": "TODO",
+    "dataProcessed": "Verarbeitete Daten",
+    "dataProcessedContent": "TODO",
+    "hosting": "Hosting",
+    "hostingContent": "TODO",
+    "purposeOfProcessing": "Zweck der Verarbeitung",
+    "purposeOfProcessingContent": "TODO",
+    "cookies": "Cookies",
+    "cookiesContent": "TODO",
+    "yourRights": "Ihre Rechte",
+    "yourRightsIntro": "TODO",
+    "yourRightsList": "TODO",
+    "contactInfo": "TODO"
+  }
+}

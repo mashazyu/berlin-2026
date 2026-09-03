@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Berlin 2026
 
-## Getting Started
+Informational comparison of Berlin party positions on climate, transport, and the city for the **20 September 2026** Abgeordnetenhaus election.
 
-First, run the development server:
+Live domain: [www.berlin-2026.de](https://www.berlin-2026.de)
+
+Languages: English, German (placeholders → English fallback), Russian.
+
+## Stack
+
+- Next.js 15 (App Router) + TypeScript + pnpm
+- Tailwind CSS 4 + shadcn-style UI primitives
+- Locale JSON in `locales/{en,de,ru}.json`
+- Comparison dataset in `data/comparison.json`
+
+## Develop
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+pnpm install
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) (redirects to `/en` or negotiated language).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+pnpm build
+pnpm type-check
+pnpm encode:comparison   # rebuild data/comparison.json from Notion scrapes (script paths)
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Deploy (Vercel)
 
-## Learn More
+1. Push this repo to GitHub (`mashazyu/berlin-2026`).
+2. Import the repo in [Vercel](https://vercel.com) — Framework: Next.js, production branch: `main`.
+3. Every merge/push to `main` deploys automatically.
+4. Add domains `berlin-2026.de` and `www.berlin-2026.de`. Apex redirects to `www` via `next.config.ts`.
 
-To learn more about Next.js, take a look at the following resources:
+## Content notes
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Table cells and analysis are AI-assisted summaries of official party programs. Double-check what matters; full translations: [BerlinVote.Help](https://www.berlinvote.help/).
+- Contact: nina.harz@pm.me
+- Not affiliated with any party or the City of Berlin.
