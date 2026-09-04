@@ -23,8 +23,8 @@ export function HomePageClient({
       <SiteHeader />
       <main>
         <Hero />
-        <AboutSection />
         <ComparisonTable comparison={comparison} />
+        <AboutSection />
       </main>
       <SiteFooter />
     </div>

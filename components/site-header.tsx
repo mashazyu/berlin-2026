@@ -16,8 +16,8 @@ export function SiteHeader() {
   const [open, setOpen] = useState(false)
 
   const links = [
-    { href: "about", label: t.navigation.about },
     { href: "table", label: t.navigation.table },
+    { href: "about", label: t.navigation.about },
   ]
 
   function closeMenu() {
