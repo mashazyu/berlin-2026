@@ -27,7 +27,8 @@
   "hero": {
     "headline": "Берлин голосует 20 сентября 2026",
     "support": "Сравните позиции партий по климату, транспорту и городу — в одной таблице.",
-    "cta": "К сравнению"
+    "cta": "К сравнению",
+    "disclaimer": "Этот проект не является агитацией и не аффилиирован ни с одной партией."
   },
   "about": {
     "title": "Мотивация",
@@ -42,8 +43,7 @@
     "beforeYouVoteTitle": "Перед голосованием",
     "beforeYouVoteBody": "Таблица сделана с помощью ИИ; важные для вас пункты лучше перепроверить. Полные переводы программ основных партий опубликованы на [BerlinVote.Help](https://www.berlinvote.help/).",
     "furtherReadingTitle": "Дополнительно",
-    "furtherReadingBody": "- [RBB: FAQ о выборах в Берлине 2026 (на английском)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: выборы на простом языке (Leichte Sprache)](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Брошюра о выборах 2026 от политической образовательной службы Берлина (PDF, EN)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)\n- [BerlinVote.Help — полные переводы программ](https://www.berlinvote.help/)",
-    "disclaimer": "Этот проект не является агитацией и не аффилиирован ни с одной партией."
+    "furtherReadingBody": "- [RBB: FAQ о выборах в Берлине 2026 (на английском)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: выборы на простом языке (Leichte Sprache)](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Брошюра о выборах 2026 от политической образовательной службы Берлина (PDF, EN)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
   },
   "table": {
     "title": "Сравнение предвыборных программ",
@@ -68,9 +68,8 @@
     "aiNotice": "Тексты и сравнительная таблица на этом сайте созданы с помощью ИИ.",
     "aiDisclosure": "Уведомление об ИИ",
     "relatedSite": "Полные переводы программ: BerlinVote.Help",
-    "contact": "Напишите мне",
-    "privacy": "Конфиденциальность",
-    "unaffiliated": "Независимый, внепартийный проект. Не связан ни с партиями, ни с городом Берлин."
+    "contact": "Контакт",
+    "privacy": "Конфиденциальность"
   },
   "aiDisclosure": {
     "title": "Уведомление об ИИ",

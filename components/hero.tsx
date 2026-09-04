@@ -8,8 +8,8 @@ export function Hero() {
   const { translations: t } = useLanguage()
 
   return (
-    <section className="flex min-h-[calc(100svh-3.5rem)] items-center bg-section-muted px-4 py-16 sm:px-6">
-      <div className="mx-auto max-w-4xl text-center">
+    <section className="flex min-h-[calc(100svh-3.5rem)] flex-col bg-section-muted px-4 py-16 sm:px-6">
+      <div className="mx-auto flex w-full max-w-4xl flex-1 flex-col items-center justify-center text-center">
         <h1 className="font-display text-4xl font-semibold leading-[1.1] tracking-[-0.01em] text-foreground sm:text-5xl md:text-6xl">
           {t.hero.headline}
         </h1>
@@ -27,6 +27,9 @@ export function Hero() {
           </Button>
         </div>
       </div>
+      <p className="mx-auto mt-10 max-w-xl border-l-4 border-accent pl-4 text-left text-sm font-medium text-foreground/80 sm:mt-12">
+        {t.hero.disclaimer}
+      </p>
     </section>
   )
 }

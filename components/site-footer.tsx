@@ -33,14 +33,6 @@ export function SiteFooter() {
               {t.footer.privacy}
             </Link>
             <a
-              href="https://www.berlinvote.help/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="transition-colors hover:text-foreground"
-            >
-              BerlinVote.Help
-            </a>
-            <a
               href="mailto:nina.harz@pm.me"
               className="transition-colors hover:text-foreground"
             >
@@ -48,10 +40,6 @@ export function SiteFooter() {
             </a>
           </div>
         </div>
-
-        <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
-          {t.footer.unaffiliated}
-        </p>
       </div>
     </footer>
   )

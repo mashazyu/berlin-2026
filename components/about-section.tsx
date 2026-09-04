@@ -33,9 +33,6 @@ export function AboutSection() {
               </div>
             </div>
           ))}
-          <p className="border-l-4 border-accent pl-4 text-sm font-medium text-foreground/80">
-            {about.disclaimer}
-          </p>
         </div>
       </div>
     </section>

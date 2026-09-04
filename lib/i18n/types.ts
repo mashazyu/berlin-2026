@@ -29,6 +29,7 @@ export type Translations = {
     headline: string
     support: string
     cta: string
+    disclaimer: string
   }
   about: {
     title: string
@@ -44,7 +45,6 @@ export type Translations = {
     beforeYouVoteBody: string
     furtherReadingTitle: string
     furtherReadingBody: string
-    disclaimer: string
   }
   table: {
     title: string
@@ -71,7 +71,6 @@ export type Translations = {
     relatedSite: string
     contact: string
     privacy: string
-    unaffiliated: string
   }
   aiDisclosure: {
     title: string

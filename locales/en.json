@@ -27,7 +27,8 @@
   "hero": {
     "headline": "Berlin votes on 20 September 2026",
     "support": "Compare how parties stand on climate, transport, and the city — in one table.",
-    "cta": "To comparison"
+    "cta": "To comparison",
+    "disclaimer": "This project is not campaign material and is not affiliated with any party."
   },
   "about": {
     "title": "Motivation",
@@ -42,8 +43,7 @@
     "beforeYouVoteTitle": "Before you vote",
     "beforeYouVoteBody": "The table is made with the help of AI, and we recommend double-checking important information: full translations of the main parties' programs are published on [BerlinVote.Help](https://www.berlinvote.help/).",
     "furtherReadingTitle": "Further reading",
-    "furtherReadingBody": "- [RBB: Berlin Elections 2026 FAQ (English)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: Elections in easy language (Leichte Sprache)](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Berlin political education: Elections 2026 brochure (PDF)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)\n- [BerlinVote.Help — full program translations](https://www.berlinvote.help/)",
-    "disclaimer": "This project is not campaign material and is not affiliated with any party."
+    "furtherReadingBody": "- [RBB: Berlin Elections 2026 FAQ (English)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: Elections in easy language (Leichte Sprache)](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Berlin political education: Elections 2026 brochure (PDF)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
   },
   "table": {
     "title": "Party election program comparison",
@@ -69,8 +69,7 @@
     "aiDisclosure": "AI disclosure",
     "relatedSite": "Full program translations: BerlinVote.Help",
     "contact": "Contact me",
-    "privacy": "Privacy",
-    "unaffiliated": "Independent, non-partisan. Not affiliated with any party or the City of Berlin."
+    "privacy": "Privacy"
   },
   "aiDisclosure": {
     "title": "AI Disclosure",
