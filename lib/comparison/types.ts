@@ -9,9 +9,24 @@ export type Party = {
   programUrl: string
 }
 
+export type TopicGroup =
+  | "transport"
+  | "waste"
+  | "climate_energy"
+  | "animals"
+  | "housing"
+  | "security"
+  | "education"
+  | "health"
+  | "migration"
+  | "economy"
+  | "society"
+  | "democracy"
+  | "other"
+
 export type Topic = {
   id: string
-  group: "climate_energy" | "transport" | "public_space" | "waste" | "animals"
+  group: TopicGroup
   label: LocalizedString
   sortOrder: number
 }

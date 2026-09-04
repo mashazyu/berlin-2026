@@ -1,6 +1,6 @@
 /**
- * Encodes EN + RU Notion markdown tables into data/comparison.json
- * Sources: agent-tools scrapes of Nina Harz Notion pages.
+ * Encodes EN + DE + RU Notion full comparison tables into data/comparison.json
+ * Sources: agent-tools scrapes of Nina Harz Notion pages (51 topics × 10 parties).
  */
 import fs from "node:fs"
 import path from "node:path"
@@ -10,9 +10,11 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const ROOT = path.resolve(__dirname, "..")
 
 const EN_SRC =
-  "/Users/maria/.cursor/projects/Users-maria-fun-berlin-2026/agent-tools/cb09712b-83fb-4266-bfa2-aaeafb094144.txt"
+  "/Users/maria/.cursor/projects/Users-maria-fun-berlin-2026/agent-tools/b64c5f38-bd24-48cb-abba-ff49d39b8f68.txt"
+const DE_SRC =
+  "/Users/maria/.cursor/projects/Users-maria-fun-berlin-2026/agent-tools/fd6d007d-c4ee-4343-900a-bda5098b54d7.txt"
 const RU_SRC =
-  "/Users/maria/.cursor/projects/Users-maria-fun-berlin-2026/agent-tools/a3e40517-c910-44b5-933e-5e29fe2d514b.txt"
+  "/Users/maria/.cursor/projects/Users-maria-fun-berlin-2026/agent-tools/dc248330-5b31-48b6-be62-2a99db9f520a.txt"
 
 const PARTY_ORDER = [
   "cdu",
@@ -27,36 +29,79 @@ const PARTY_ORDER = [
   "oedp",
 ]
 
-const TOPIC_META = [
-  { id: "climate-neutrality", group: "climate_energy" },
-  { id: "a100", group: "transport" },
-  { id: "road-construction", group: "transport" },
-  { id: "public-transport", group: "transport" },
-  { id: "cycling", group: "transport" },
-  { id: "parking", group: "transport" },
-  { id: "ev-charging", group: "transport" },
-  { id: "tempelhofer-feld", group: "public_space" },
-  { id: "trees", group: "public_space" },
-  { id: "heat-protection", group: "public_space" },
-  { id: "sponge-city", group: "public_space" },
-  { id: "zero-waste", group: "waste" },
-  { id: "bsr", group: "waste" },
-  { id: "cleanliness", group: "waste" },
-  { id: "solar", group: "climate_energy" },
-  { id: "wind", group: "climate_energy" },
-  { id: "gas", group: "climate_energy" },
-  { id: "hydrogen", group: "climate_energy" },
-  { id: "heat-pumps", group: "climate_energy" },
-  { id: "heating-networks", group: "climate_energy" },
-  { id: "nuclear", group: "climate_energy" },
-  { id: "animal-protection", group: "animals" },
-]
+const SHORT = {
+  cdu: "CDU",
+  spd: "SPD",
+  gruene: "Grüne",
+  linke: "Linke",
+  fdp: "FDP",
+  afd: "AfD",
+  bsw: "BSW",
+  volt: "Volt",
+  tierschutz: "Tierschutz",
+  oedp: "ÖDP",
+}
+
+/** @type {Record<string, string>} */
+const NAME_DE = {
+  cdu: "CDU",
+  spd: "SPD",
+  gruene: "Bündnis 90/Die Grünen",
+  linke: "Die Linke",
+  fdp: "FDP",
+  afd: "AfD",
+  bsw: "BSW",
+  volt: "Volt",
+  tierschutz: "Tierschutzpartei",
+  oedp: "ÖDP Berlin",
+}
+
+function slugify(label) {
+  return label
+    .toLowerCase()
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/&/g, " and ")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .slice(0, 72)
+}
+
+function inferGroup(enLabel) {
+  const t = enLabel.toLowerCase()
+  if (t.startsWith("public transport") || t.startsWith("road and") || t.includes("ber airport") || t.includes("parking"))
+    return "transport"
+  if (t.startsWith("cleanliness") || t.includes("waste") || t.includes("bsr"))
+    return "waste"
+  if (t.startsWith("environment") || t.includes("climate") || t.includes("energy"))
+    return "climate_energy"
+  if (t.startsWith("animal"))
+    return "animals"
+  if (t.startsWith("housing") || t.includes("tempelhof"))
+    return "housing"
+  if (t.startsWith("security"))
+    return "security"
+  if (t.startsWith("kitas") || t.startsWith("schools") || t.includes("education") || t.includes("vocational") || t.includes("higher education") || t.includes("continuing") || t.includes("shortage of qualified"))
+    return "education"
+  if (t.startsWith("healthcare") || t.startsWith("care ") || t.startsWith("drug"))
+    return "health"
+  if (t.startsWith("migration"))
+    return "migration"
+  if (t.startsWith("economy") || t.startsWith("innovation") || t.startsWith("business") || t.startsWith("small business") || t.startsWith("taxes"))
+    return "economy"
+  if (t.startsWith("ban on firecrackers") || t.includes("fireworks"))
+    return "society"
+  if (t.startsWith("governance") || t.startsWith("digitalization") || t.startsWith("social") || t.startsWith("culture") || t.startsWith("sports"))
+    return "society"
+  if (t.startsWith("democracy") || t.startsWith("women") || t.startsWith("queer") || t.startsWith("elections") || t.startsWith("party donations") || t.startsWith("advertising"))
+    return "democracy"
+  return "other"
+}
 
 function splitRow(line) {
   const trimmed = line.trim()
   if (!trimmed.startsWith("|")) return null
-  const parts = trimmed.split("|").slice(1, -1).map((c) => c.trim())
-  return parts
+  return trimmed.split("|").slice(1, -1).map((c) => c.trim())
 }
 
 function isSeparatorRow(parts) {
@@ -65,8 +110,8 @@ function isSeparatorRow(parts) {
 
 function parseHeaderLink(cell) {
   const m = cell.match(/\[([^\]]+)\]\(([^)]+)\)/)
-  if (!m) return { name: cell, url: "" }
-  return { name: m[1].trim(), url: m[2].replace(/\\_/g, "_") }
+  if (!m) return { name: cell.replace(/\s+/g, " ").trim(), url: "" }
+  return { name: m[1].replace(/\s+/g, " ").trim(), url: m[2].replace(/\\_/g, "_") }
 }
 
 function parseStance(text) {
@@ -97,7 +142,6 @@ function parseTable(markdown) {
       header = parts
       continue
     }
-    // Stop when we leave the table (short non-table content already filtered)
     if (parts.length < header.length - 2) break
     rows.push(parts)
   }
@@ -106,11 +150,7 @@ function parseTable(markdown) {
 
   const parties = header.slice(1).map((cell, i) => {
     const { name, url } = parseHeaderLink(cell)
-    return {
-      id: PARTY_ORDER[i],
-      name,
-      url,
-    }
+    return { id: PARTY_ORDER[i], name, url }
   })
 
   const topics = []
@@ -118,18 +158,12 @@ function parseTable(markdown) {
 
   rows.forEach((parts, rowIndex) => {
     const topicLabel = parts[0]
-    const meta = TOPIC_META[rowIndex]
-    if (!meta) {
-      console.warn(`Extra row ${rowIndex}: ${topicLabel}`)
-      return
-    }
-    topics.push({ id: meta.id, group: meta.group, label: topicLabel, sortOrder: rowIndex + 1 })
-
+    topics.push({ label: topicLabel, sortOrder: rowIndex + 1 })
     for (let i = 0; i < PARTY_ORDER.length; i++) {
       const raw = parts[i + 1] ?? ""
       const { stance, summary } = parseStance(raw)
       cells.push({
-        topicId: meta.id,
+        rowIndex,
         partyId: PARTY_ORDER[i],
         stance,
         summary,
@@ -141,99 +175,69 @@ function parseTable(markdown) {
 }
 
 function main() {
-  const enMd = fs.readFileSync(EN_SRC, "utf8")
-  const ruMd = fs.readFileSync(RU_SRC, "utf8")
+  const en = parseTable(fs.readFileSync(EN_SRC, "utf8"))
+  const de = parseTable(fs.readFileSync(DE_SRC, "utf8"))
+  const ru = parseTable(fs.readFileSync(RU_SRC, "utf8"))
 
-  const en = parseTable(enMd)
-  const ru = parseTable(ruMd)
+  if (en.topics.length !== de.topics.length || en.topics.length !== ru.topics.length) {
+    console.warn(
+      `Topic count mismatch: EN=${en.topics.length} DE=${de.topics.length} RU=${ru.topics.length}`
+    )
+  }
 
-  if (en.topics.length !== TOPIC_META.length) {
-    console.warn(`EN topics: ${en.topics.length}, expected ${TOPIC_META.length}`)
-  }
-  if (ru.topics.length !== TOPIC_META.length) {
-    console.warn(`RU topics: ${ru.topics.length}, expected ${TOPIC_META.length}`)
-  }
+  const usedIds = new Set()
+  const topics = en.topics.map((topic, i) => {
+    let id = slugify(topic.label) || `topic-${i + 1}`
+    if (usedIds.has(id)) id = `${id}-${i + 1}`
+    usedIds.add(id)
+    return {
+      id,
+      group: inferGroup(topic.label),
+      label: {
+        en: topic.label,
+        de: de.topics[i]?.label ?? null,
+        ru: ru.topics[i]?.label ?? null,
+      },
+      sortOrder: topic.sortOrder,
+    }
+  })
 
   const parties = en.parties.map((p, i) => ({
     id: p.id,
-    shortName:
-      p.id === "gruene"
-        ? "Grüne"
-        : p.id === "tierschutz"
-          ? "Tierschutz"
-          : p.id === "oedp"
-            ? "ÖDP"
-            : p.id === "linke"
-              ? "Linke"
-              : p.shortName || PARTY_ORDER[i].toUpperCase().replace("GRUENE", "Grüne"),
+    shortName: SHORT[p.id],
     name: {
-      en: p.name.replace(/\s+/g, " ").trim(),
-      ru: ru.parties[i]?.name.replace(/\s+/g, " ").trim() ?? null,
-      de: null,
+      en: p.name,
+      de: NAME_DE[p.id] ?? de.parties[i]?.name ?? null,
+      ru: ru.parties[i]?.name ?? p.name,
     },
-    programUrl: p.url,
+    programUrl: p.url || de.parties[i]?.url || ru.parties[i]?.url || "",
   }))
 
-  // Fix short names properly
-  const SHORT = {
-    cdu: "CDU",
-    spd: "SPD",
-    gruene: "Grüne",
-    linke: "Linke",
-    fdp: "FDP",
-    afd: "AfD",
-    bsw: "BSW",
-    volt: "Volt",
-    tierschutz: "Tierschutz",
-    oedp: "ÖDP",
-  }
-  for (const party of parties) {
-    party.shortName = SHORT[party.id]
-  }
-
-  const topics = en.topics.map((t, i) => ({
-    id: t.id,
-    group: t.group,
-    sortOrder: t.sortOrder,
-    label: {
-      en: t.label,
-      ru: ru.topics[i]?.label ?? null,
-      de: null,
-    },
-  }))
-
-  const ruCellMap = new Map(
-    ru.cells.map((c) => [`${c.topicId}::${c.partyId}`, c])
+  const deByKey = new Map(
+    de.cells.map((c) => [`${c.rowIndex}::${c.partyId}`, c])
+  )
+  const ruByKey = new Map(
+    ru.cells.map((c) => [`${c.rowIndex}::${c.partyId}`, c])
   )
 
   const cells = en.cells.map((c) => {
-    const ruCell = ruCellMap.get(`${c.topicId}::${c.partyId}`)
-    // Prefer EN stance; if EN empty and RU has stance, use RU
-    let stance = c.stance
-    let enSummary = c.summary
-    let ruSummary = ruCell?.summary ?? null
-    if (stance === "none" && ruCell && ruCell.stance !== "none") {
-      stance = ruCell.stance
-      if (!enSummary) enSummary = ruSummary || ""
-    }
+    const key = `${c.rowIndex}::${c.partyId}`
+    const deCell = deByKey.get(key)
+    const ruCell = ruByKey.get(key)
+    const topicId = topics[c.rowIndex].id
     return {
-      topicId: c.topicId,
+      topicId,
       partyId: c.partyId,
-      stance,
+      stance: c.stance,
       summary: {
-        en: enSummary || "",
-        ru: ruSummary || null,
-        de: null,
+        en: c.summary || "",
+        de: deCell?.summary || null,
+        ru: ruCell?.summary || null,
       },
     }
   })
 
-  const out = {
-    parties,
-    topics,
-    cells,
-  }
-
+  const out = { parties, topics, cells }
   const outPath = path.join(ROOT, "data", "comparison.json")
   fs.mkdirSync(path.dirname(outPath), { recursive: true })
   fs.writeFileSync(outPath, JSON.stringify(out, null, 2) + "\n")

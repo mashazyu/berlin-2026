@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "homeTitle": "Berlin 2026 — Wahlprogramme zu Klima, Verkehr und Stadt im Vergleich",
-    "homeDescription": "Vergleich der Berliner Wahlprogramme zur Abgeordnetenhauswahl am 20. September 2026 — Klima, Verkehr, Stadtraum, Energie und Tiere, Seite an Seite.",
+    "homeTitle": "Berlin 2026 — Wahlprogramme im Vergleich",
+    "homeDescription": "Vergleich der Berliner Wahlprogramme zur Abgeordnetenhauswahl am 20. September 2026 — Verkehr, Wohnen, Klima, Sicherheit, Bildung, Gesundheit, Migration und mehr.",
     "privacyTitle": "Datenschutzerklärung — Berlin 2026",
     "privacyDescription": "Wie Berlin 2026 personenbezogene Daten gemäß DSGVO verarbeitet.",
     "aiDisclosureTitle": "KI-Hinweis — Berlin 2026",
@@ -18,7 +18,7 @@
   },
   "brand": {
     "name": "Berlin 2026",
-    "tagline": "Klima, Verkehr & Stadt — Parteipositionen im Vergleich"
+    "tagline": "Parteipositionen im Vergleich"
   },
   "navigation": {
     "about": "Motivation",
@@ -26,8 +26,8 @@
     "privacy": "Datenschutz"
   },
   "hero": {
-    "headline": "Berliner Wahlprogramme zu Klima, Verkehr und Stadt im Vergleich",
-    "support": "Abgeordnetenhauswahl · 20. September 2026 · 10 Parteien im direkten Vergleich",
+    "headline": "Berliner Wahlprogramme im Vergleich",
+    "support": "Abgeordnetenhauswahl · 20. September 2026 · 10 Parteien, über 50 Themen",
     "cta": "Programme vergleichen",
     "disclaimer": "Dieser Beitrag steht in keiner Verbindung zu einer Partei und ist keine Wahlwerbung.",
     "scrollHint": "Zum Vergleich scrollen"
@@ -41,7 +41,7 @@
     "clarityTitle": "Klarheit und Substanz",
     "clarityBody": "Vieles auf diesen 200 Seiten ist Rhetorik und lässt sich kaum in Konkretes übersetzen. Wir wollten greifbare Antworten: Verpflichtungen mit Zahlen von allgemeinen Absichtserklärungen trennen.",
     "whatWeDidTitle": "Was wir gemacht haben",
-    "whatWeDidBody": "Wir haben die Positionen von 10 Berliner Parteien zu zentralen Punkten bei Verkehr und Stadtraum, Klima und Energie verglichen — und die Programme in eine Vergleichstabelle mit Fokus auf Öko-Themen überführt.",
+    "whatWeDidBody": "Wir haben die Positionen von 10 Berliner Parteien zu zentralen Punkten bei Verkehr, Wohnen, Klima und Energie, Sicherheit, Bildung, Gesundheit, Migration, Wirtschaft und Demokratie verglichen — und die Programme in eine Vergleichstabelle überführt.",
     "beforeYouVoteTitle": "Bevor Sie wählen",
     "beforeYouVoteBody": "Diese Tabelle wurde mithilfe von KI erstellt. Bitte überprüfen Sie die Punkte, die für Sie wichtig sind, noch einmal. Auf [BerlinVote.Help](https://www.berlinvote.help/) finden Sie möglicherweise die vollständigen Übersetzungen der Programme.",
     "furtherReadingTitle": "Weiterlesen",
@@ -49,7 +49,7 @@
   },
   "table": {
     "title": "Vergleich der Wahlprogramme",
-    "subtitle": "Positionen zu Klima, Verkehr, Sauberkeit, Energie, Natur und Tieren — im direkten Vergleich.",
+    "subtitle": "Positionen zu Verkehr, Wohnen, Klima, Sicherheit, Bildung, Gesundheit, Migration und mehr — im direkten Vergleich.",
     "topicColumn": "Thema",
     "legendFor": "Dafür / befürwortend",
     "legendAgainst": "Dagegen",

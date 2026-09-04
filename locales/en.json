@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "homeTitle": "Berlin 2026 — How parties stand on climate, transport & the city",
-    "homeDescription": "Compare Berlin party election programs for the Abgeordnetenhaus vote on 20 September 2026 — climate, transport, urban space, energy, and animals, side by side.",
+    "homeTitle": "Berlin 2026 — How parties stand on the big issues",
+    "homeDescription": "Compare Berlin party election programs for the Abgeordnetenhaus vote on 20 September 2026 — transport, housing, climate, security, education, health, migration, and more, side by side.",
     "privacyTitle": "Privacy Policy — Berlin 2026",
     "privacyDescription": "How Berlin 2026 handles personal data in line with GDPR.",
     "aiDisclosureTitle": "AI Disclosure — Berlin 2026",
@@ -17,7 +17,7 @@
   },
   "brand": {
     "name": "Berlin 2026",
-    "tagline": "Climate, transport & city — party positions side by side"
+    "tagline": "Party positions side by side"
   },
   "navigation": {
     "about": "Motivation",
@@ -25,8 +25,8 @@
     "privacy": "Privacy"
   },
   "hero": {
-    "headline": "How Berlin’s parties stand on climate, transport, and the city",
-    "support": "Abgeordnetenhaus election · 20 September 2026 · 10 parties, side by side",
+    "headline": "How Berlin’s parties stand on the big issues",
+    "support": "Abgeordnetenhaus election · 20 September 2026 · 10 parties, 50+ topics side by side",
     "cta": "Compare programs",
     "disclaimer": "This project is not campaign material and is not affiliated with any party.",
     "scrollHint": "Scroll to comparison"
@@ -40,7 +40,7 @@
     "clarityTitle": "Clarity and Substance",
     "clarityBody": "Much of the 200 pages is rhetoric, hard to translate into anything concrete. We wanted tangible answers separating commitments tied to numbers from general statements of intent.",
     "whatWeDidTitle": "What we did",
-    "whatWeDidBody": "We compared the positions of 10 Berlin parties against key points across transport and urban spaces, climate and energy — and turned their programs into one side-by-side table focused on eco topics.",
+    "whatWeDidBody": "We compared the positions of 10 Berlin parties on key points across transport, housing, climate and energy, security, education, health, migration, the economy, and democracy — and turned their programs into one side-by-side table.",
     "beforeYouVoteTitle": "Before you vote",
     "beforeYouVoteBody": "The table is made with the help of AI, and we recommend double-checking important information: full translations of the main parties' programs are published on [BerlinVote.Help](https://www.berlinvote.help/).",
     "furtherReadingTitle": "Further reading",
@@ -48,7 +48,7 @@
   },
   "table": {
     "title": "Party election program comparison",
-    "subtitle": "Positions on climate, transport, street cleaning, energy, nature, and animals — side by side.",
+    "subtitle": "Positions across transport, housing, climate, security, education, health, migration, and more — side by side.",
     "topicColumn": "Topic",
     "legendFor": "For / supportive",
     "legendAgainst": "Against / opposing",
