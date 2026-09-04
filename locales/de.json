@@ -15,7 +15,6 @@
   "navigation": {
     "about": "Über uns",
     "table": "Vergleich",
-    "analysis": "Analyse",
     "privacy": "Datenschutz"
   },
   "hero": {
@@ -56,12 +55,6 @@
     "expandTopic": "TODO",
     "collapseTopic": "TODO",
     "openProgram": "TODO"
-  },
-  "analysis": {
-    "title": "TODO",
-    "consensusTitle": "TODO",
-    "dividesTitle": "TODO",
-    "partyFeaturesTitle": "TODO"
   },
   "footer": {
     "aiNotice": "TODO",

@@ -37,6 +37,6 @@ pnpm encode:comparison   # rebuild data/comparison.json from Notion scrapes (scr
 
 ## Content notes
 
-- Table cells and analysis are AI-assisted summaries of official party programs. Double-check what matters; full translations: [BerlinVote.Help](https://www.berlinvote.help/).
+- Table cells are AI-assisted summaries of official party programs. Double-check what matters; full translations: [BerlinVote.Help](https://www.berlinvote.help/).
 - Contact: nina.harz@pm.me
 - Not affiliated with any party or the City of Berlin.

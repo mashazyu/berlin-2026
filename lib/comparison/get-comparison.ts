@@ -38,24 +38,6 @@ export function getComparison(lang: Language): ResolvedComparison {
         displayLabel: pickLocalized(topic.label, lang),
       })),
     cellsByKey,
-    analysis: {
-      consensus: data.analysis.consensus.map((item) => ({
-        id: item.id,
-        title: pickLocalized(item.title, lang),
-        body: pickLocalized(item.body, lang),
-      })),
-      divides: data.analysis.divides.map((item) => ({
-        id: item.id,
-        title: pickLocalized(item.title, lang),
-        body: pickLocalized(item.body, lang),
-      })),
-      partyFeatures: data.analysis.partyFeatures.map((item) => ({
-        id: item.id,
-        title: pickLocalized(item.title, lang),
-        body: pickLocalized(item.body, lang),
-        partyId: item.partyId,
-      })),
-    },
   }
 }
 

@@ -1,7 +1,6 @@
 "use client"
 
 import { AboutSection } from "@/components/about-section"
-import { AnalysisSection } from "@/components/analysis-section"
 import { ComparisonTable } from "@/components/comparison-table"
 import { Hero } from "@/components/hero"
 import { SectionScrollSnap } from "@/components/section-scroll-snap"
@@ -26,7 +25,6 @@ export function HomePageClient({
         <Hero />
         <AboutSection />
         <ComparisonTable comparison={comparison} />
-        <AnalysisSection comparison={comparison} />
       </main>
       <SiteFooter />
     </div>

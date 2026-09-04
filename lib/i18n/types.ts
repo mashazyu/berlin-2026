@@ -23,7 +23,6 @@ export type Translations = {
   navigation: {
     about: string
     table: string
-    analysis: string
     privacy: string
   }
   hero: {
@@ -64,12 +63,6 @@ export type Translations = {
     expandTopic: string
     collapseTopic: string
     openProgram: string
-  }
-  analysis: {
-    title: string
-    consensusTitle: string
-    dividesTitle: string
-    partyFeaturesTitle: string
   }
   footer: {
     aiNotice: string

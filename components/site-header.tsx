@@ -18,7 +18,6 @@ export function SiteHeader() {
   const links = [
     { href: "about", label: t.navigation.about },
     { href: "table", label: t.navigation.table },
-    { href: "analysis", label: t.navigation.analysis },
   ]
 
   function closeMenu() {
