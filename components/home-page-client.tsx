@@ -1,8 +1,8 @@
 "use client"
 
+import type { ReactNode } from "react"
 import { AboutSection } from "@/components/about-section"
 import { ComparisonTable } from "@/components/comparison-table"
-import { Hero } from "@/components/hero"
 import { SectionScrollSnap } from "@/components/section-scroll-snap"
 import { SiteFooter } from "@/components/site-footer"
 import { SiteHeader } from "@/components/site-header"
@@ -11,8 +11,10 @@ import { useLanguage } from "@/components/language-provider"
 
 export function HomePageClient({
   comparisonByLang,
+  hero,
 }: {
   comparisonByLang: Record<string, ResolvedComparison>
+  hero: ReactNode
 }) {
   const { language } = useLanguage()
   const comparison = comparisonByLang[language] ?? comparisonByLang.en
@@ -22,7 +24,7 @@ export function HomePageClient({
       <SectionScrollSnap />
       <SiteHeader />
       <main>
-        <Hero />
+        {hero}
         <ComparisonTable comparison={comparison} />
         <AboutSection />
       </main>

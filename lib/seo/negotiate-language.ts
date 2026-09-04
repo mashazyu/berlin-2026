@@ -5,7 +5,7 @@ export const LANGUAGE_COOKIE = "b2026_lang"
 
 /**
  * Pick the best supported language from the browser Accept-Language header.
- * Unsupported languages fall back to English.
+ * Unsupported languages fall back to German (site default).
  */
 export function negotiateLanguage(acceptLanguage: string | null): Language {
   if (!acceptLanguage) return DEFAULT_LANGUAGE
@@ -49,7 +49,7 @@ export function languageFromCookie(value: string | undefined): Language | null {
 }
 
 /**
- * Cookie (explicit user choice) wins; otherwise browser language; else English.
+ * Cookie (explicit user choice) wins; otherwise browser language; else German.
  */
 export function resolveRequestLanguage(opts: {
   cookieValue?: string
