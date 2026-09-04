@@ -1,24 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <rect width="32" height="32" rx="8" fill="#ffffff"/>
-  <rect x="0.6" y="0.6" width="30.8" height="30.8" rx="7.4" stroke="#E5DFD8" stroke-width="1.2"/>
+  <style>
+    .tile { fill: #ffffff; }
+    .ring { stroke: #E5E8EB; fill: none; }
+    .mark { fill: #171E25; }
+    @media (prefers-color-scheme: dark) {
+      .tile { fill: #171E25; }
+      .ring { stroke: #3A424A; }
+      .mark { fill: #ffffff; }
+    }
+  </style>
+  <rect class="tile" width="32" height="32" rx="8"/>
+  <rect class="ring" x="0.6" y="0.6" width="30.8" height="30.8" rx="7.4" stroke-width="1.2"/>
   <text
+    class="mark"
     x="16"
-    y="14"
+    y="21.5"
     text-anchor="middle"
-    fill="#F55A1F"
     font-family="ui-sans-serif, system-ui, -apple-system, sans-serif"
-    font-size="8"
+    font-size="13"
     font-weight="800"
-    letter-spacing="-0.3"
-  >Berlin</text>
-  <text
-    x="16"
-    y="24.5"
-    text-anchor="middle"
-    fill="#171E25"
-    font-family="ui-sans-serif, system-ui, -apple-system, sans-serif"
-    font-size="8"
-    font-weight="800"
-    letter-spacing="-0.2"
-  >2026</text>
+    letter-spacing="-0.6"
+  >’26</text>
 </svg>

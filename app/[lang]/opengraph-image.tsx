@@ -28,7 +28,7 @@ export default async function OpenGraphImage({
           flexDirection: "column",
           justifyContent: "space-between",
           padding: "64px 72px",
-          background: "#F4F6F8",
+          background: "#ffffff",
           color: "#171E25",
           fontFamily: "ui-sans-serif, system-ui, sans-serif",
         }}
