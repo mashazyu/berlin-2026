@@ -7,6 +7,11 @@ export const metadata: Metadata = {
     default: "Berlin 2026",
     template: "%s",
   },
+  verification: {
+    other: {
+      "msvalidate.01": "4DBD54B1791F00A8281324ADFFC4C59A",
+    },
+  },
 }
 
 /** Passthrough so `[lang]/layout` owns `<html lang>` for correct SEO/a11y. */
