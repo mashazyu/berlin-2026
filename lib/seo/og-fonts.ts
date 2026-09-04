@@ -1,25 +1,45 @@
-/** Fonts for `next/og` ImageResponse — must include Latin + Cyrillic. */
+/** Subsetted Noto Sans TTFs for `next/og` (Latin + Cyrillic as needed). */
 
-const NOTO_SANS_REGULAR =
-  "https://cdn.jsdelivr.net/gh/notofonts/notofonts.github.io/fonts/NotoSans/full/ttf/NotoSans-Regular.ttf"
-const NOTO_SANS_BOLD =
-  "https://cdn.jsdelivr.net/gh/notofonts/notofonts.github.io/fonts/NotoSans/full/ttf/NotoSans-Bold.ttf"
+const GOOGLE_CSS =
+  "https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap&text="
 
-let regularPromise: Promise<ArrayBuffer> | null = null
-let boldPromise: Promise<ArrayBuffer> | null = null
+/** Old Safari UA → Google returns `truetype` instead of woff2. */
+const FONT_UA =
+  "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_8; de-at) AppleWebKit/533.21.1 (KHTML, like Gecko) Version/5.0.5 Safari/533.21.1"
 
-async function loadFont(url: string): Promise<ArrayBuffer> {
-  const res = await fetch(url)
-  if (!res.ok) {
-    throw new Error(`Failed to load OG font: ${url} (${res.status})`)
-  }
-  return res.arrayBuffer()
+function uniqueChars(text: string): string {
+  return [...new Set(text.replace(/\s+/g, " "))].join("")
 }
 
-export async function getOgFonts() {
-  regularPromise ??= loadFont(NOTO_SANS_REGULAR)
-  boldPromise ??= loadFont(NOTO_SANS_BOLD)
-  const [regular, bold] = await Promise.all([regularPromise, boldPromise])
+async function loadWeight(chars: string, weight: 400 | 700): Promise<ArrayBuffer> {
+  const cssUrl = `${GOOGLE_CSS}${encodeURIComponent(chars)}`
+  const css = await fetch(cssUrl, {
+    headers: { "User-Agent": FONT_UA },
+  }).then((res) => {
+    if (!res.ok) throw new Error(`OG font CSS failed: ${res.status}`)
+    return res.text()
+  })
+
+  const block = css
+    .split("@font-face")
+    .find((part) => part.includes(`font-weight: ${weight}`))
+
+  const match = block?.match(/src:\s*url\(([^)]+)\)\s*format\('truetype'\)/)
+  if (!match?.[1]) {
+    throw new Error(`No truetype URL for Noto Sans weight ${weight}`)
+  }
+
+  const fontRes = await fetch(match[1])
+  if (!fontRes.ok) throw new Error(`OG font download failed: ${fontRes.status}`)
+  return fontRes.arrayBuffer()
+}
+
+export async function getOgFonts(text: string) {
+  const chars = uniqueChars(`Berlin2026· ${text}`)
+  const [regular, bold] = await Promise.all([
+    loadWeight(chars, 400),
+    loadWeight(chars, 700),
+  ])
 
   return [
     {

@@ -18,7 +18,7 @@ export default async function OpenGraphImage({
   const { lang } = await params
   const language = toSafeLanguage(lang) as Language
   const t = getTranslations(language)
-  const fonts = await getOgFonts()
+  const fonts = await getOgFonts(`${t.hero.headline} ${t.hero.support}`)
 
   return new ImageResponse(
     (
