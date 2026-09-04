@@ -1,6 +1,6 @@
 "use client"
 
-import { useMemo, useState } from "react"
+import { useMemo, useRef, useState } from "react"
 import { ChevronDown, ExternalLink } from "lucide-react"
 import { useLanguage } from "@/components/language-provider"
 import { StanceBadge } from "@/components/stance-badge"
@@ -9,6 +9,8 @@ import type { ResolvedComparison, Stance } from "@/lib/comparison/types"
 import { cn } from "@/lib/utils"
 
 const MAJOR_PARTY_IDS = ["cdu", "spd", "gruene", "linke"] as const
+const TOPIC_COL_PX = 220
+const PARTY_COL_PX = 160
 
 export function ComparisonTable({
   comparison,
@@ -21,10 +23,26 @@ export function ComparisonTable({
   const [selectedIds, setSelectedIds] = useState<string[]>([...MAJOR_PARTY_IDS])
   const [openTopicId, setOpenTopicId] = useState<string | null>(topics[0]?.id ?? null)
 
+  const headerScrollRef = useRef<HTMLDivElement>(null)
+  const bodyScrollRef = useRef<HTMLDivElement>(null)
+  const syncingScroll = useRef(false)
+
   const selectedParties = useMemo(
     () => parties.filter((party) => selectedIds.includes(party.id)),
     [parties, selectedIds]
   )
+
+  const tableMinWidth = TOPIC_COL_PX + selectedParties.length * PARTY_COL_PX
+
+  function syncScroll(source: "header" | "body") {
+    const header = headerScrollRef.current
+    const body = bodyScrollRef.current
+    if (!header || !body || syncingScroll.current) return
+    syncingScroll.current = true
+    if (source === "body") header.scrollLeft = body.scrollLeft
+    else body.scrollLeft = header.scrollLeft
+    syncingScroll.current = false
+  }
 
   function toggleParty(id: string) {
     setSelectedIds((current) => {
@@ -188,14 +206,28 @@ export function ComparisonTable({
           })}
         </div>
 
-        <div className="mt-8 hidden overflow-hidden rounded-xl border border-border bg-white lg:block">
-          <div className="overflow-x-auto">
-            <table className="w-full border-collapse text-left text-sm">
+        {/* Desktop: viewport-sticky party header + scroll-synced body */}
+        <div className="mt-8 hidden lg:block">
+          <div
+            ref={headerScrollRef}
+            onScroll={() => syncScroll("header")}
+            className="sticky top-14 z-30 overflow-x-auto rounded-t-xl border border-border bg-muted shadow-[0_1px_0_hsl(var(--border))] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+          >
+            <table
+              className="w-full table-fixed border-collapse text-left text-sm"
+              style={{ minWidth: tableMinWidth }}
+            >
+              <colgroup>
+                <col style={{ width: TOPIC_COL_PX }} />
+                {selectedParties.map((party) => (
+                  <col key={party.id} style={{ width: PARTY_COL_PX }} />
+                ))}
+              </colgroup>
               <thead>
                 <tr>
                   <th
                     scope="col"
-                    className="sticky left-0 z-30 w-[220px] min-w-[200px] max-w-[260px] border-b border-r border-border bg-muted px-3 py-3 font-display text-xs font-bold uppercase tracking-wide text-foreground"
+                    className="sticky left-0 z-40 border-r border-border bg-muted px-3 py-3 font-display text-xs font-bold uppercase tracking-wide text-foreground"
                   >
                     {t.table.topicColumn}
                   </th>
@@ -203,7 +235,7 @@ export function ComparisonTable({
                     <th
                       key={party.id}
                       scope="col"
-                      className="z-20 min-w-[150px] border-b border-border bg-muted px-3 py-3 font-display text-xs font-bold uppercase tracking-wide"
+                      className="bg-muted px-3 py-3 font-display text-xs font-bold uppercase tracking-wide"
                     >
                       <a
                         href={party.programUrl}
@@ -219,6 +251,24 @@ export function ComparisonTable({
                   ))}
                 </tr>
               </thead>
+            </table>
+          </div>
+
+          <div
+            ref={bodyScrollRef}
+            onScroll={() => syncScroll("body")}
+            className="overflow-x-auto rounded-b-xl border border-t-0 border-border bg-white"
+          >
+            <table
+              className="w-full table-fixed border-collapse text-left text-sm"
+              style={{ minWidth: tableMinWidth }}
+            >
+              <colgroup>
+                <col style={{ width: TOPIC_COL_PX }} />
+                {selectedParties.map((party) => (
+                  <col key={party.id} style={{ width: PARTY_COL_PX }} />
+                ))}
+              </colgroup>
               <tbody>
                 {topics.map((topic, rowIndex) => (
                   <tr
@@ -232,7 +282,7 @@ export function ComparisonTable({
                         backgroundColor:
                           rowIndex % 2 === 0
                             ? "#ffffff"
-                            : "hsl(180 24% 96%)",
+                            : "hsl(30 20% 96%)",
                       }}
                     >
                       {topic.displayLabel}
