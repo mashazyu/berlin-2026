@@ -1,10 +1,10 @@
 import type { Metadata } from "next"
-import { Syne, DM_Sans } from "next/font/google"
+import { Lora, DM_Sans } from "next/font/google"
 import "./globals.css"
 
-const syne = Syne({
-  subsets: ["latin"],
-  variable: "--font-syne",
+const lora = Lora({
+  subsets: ["latin", "latin-ext", "cyrillic"],
+  variable: "--font-lora",
   display: "swap",
 })
 
@@ -29,7 +29,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${syne.variable} ${dmSans.variable} font-sans antialiased`}>
+      <body className={`${lora.variable} ${dmSans.variable} font-sans antialiased`}>
         {children}
       </body>
     </html>

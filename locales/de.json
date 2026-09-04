@@ -13,18 +13,17 @@
     "tagline": "TODO"
   },
   "navigation": {
-    "about": "Über uns",
+    "about": "Motivation",
     "table": "Vergleich",
     "privacy": "Datenschutz"
   },
   "hero": {
     "headline": "TODO",
     "support": "TODO",
-    "cta": "TODO",
-    "electionDate": "TODO"
+    "cta": "Zum Vergleich"
   },
   "about": {
-    "title": "Über uns",
+    "title": "Motivation",
     "berlinVotesTitle": "TODO",
     "berlinVotesBody": "TODO",
     "accessibilityTitle": "TODO",
@@ -35,16 +34,18 @@
     "whatWeDidBody": "TODO",
     "beforeYouVoteTitle": "TODO",
     "beforeYouVoteBody": "TODO",
+    "furtherReadingTitle": "Weiterlesen",
+    "furtherReadingBody": "- [RBB: FAQ zu den Berlin-Wahlen 2026 (Englisch)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: Wahlen in Leichter Sprache](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Broschüre Wahlen 2026 der Berliner Landeszentrale für politische Bildung (PDF, EN)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)\n- [BerlinVote.Help — vollständige Programmübersetzungen](https://www.berlinvote.help/)",
     "disclaimer": "TODO"
   },
   "table": {
-    "title": "TODO",
-    "subtitle": "TODO",
+    "title": "Vergleich der Wahlprogramme",
+    "subtitle": "Positionen zu Klima, Verkehr, Sauberkeit, Energie, Natur und Tieren — im direkten Vergleich.",
     "topicColumn": "Thema",
-    "legendFor": "TODO",
-    "legendAgainst": "TODO",
-    "legendMixed": "TODO",
-    "legendNone": "TODO",
+    "legendFor": "Dafür",
+    "legendAgainst": "Dagegen",
+    "legendMixed": "Gemischt / unklar",
+    "legendNone": "Nicht gefunden",
     "scrollHint": "TODO",
     "programLink": "Programm",
     "emptyCell": "—",

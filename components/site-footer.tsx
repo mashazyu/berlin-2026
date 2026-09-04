@@ -14,7 +14,7 @@ export function SiteFooter() {
         </p>
 
         <div className="mt-5 flex flex-col gap-4 border-t border-border pt-5 sm:flex-row sm:items-center sm:justify-between">
-          <p className="font-display text-sm font-bold tracking-tight">
+          <p className="font-display text-sm font-semibold tracking-[-0.01em]">
             <span className="text-accent">Berlin</span>
             <span className="mx-1 text-border">·</span>
             <span className="text-foreground">2026</span>

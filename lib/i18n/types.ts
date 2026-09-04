@@ -29,7 +29,6 @@ export type Translations = {
     headline: string
     support: string
     cta: string
-    electionDate: string
   }
   about: {
     title: string
@@ -43,6 +42,8 @@ export type Translations = {
     whatWeDidBody: string
     beforeYouVoteTitle: string
     beforeYouVoteBody: string
+    furtherReadingTitle: string
+    furtherReadingBody: string
     disclaimer: string
   }
   table: {

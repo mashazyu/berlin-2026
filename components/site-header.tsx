@@ -37,7 +37,7 @@ export function SiteHeader() {
       <div className="mx-auto flex h-14 max-w-7xl items-center justify-between gap-4 px-4 sm:px-6">
         <Link
           href={`/${language}`}
-          className="flex h-9 shrink-0 items-center font-display text-base font-bold tracking-tight text-foreground"
+          className="flex h-9 shrink-0 items-center font-display text-base font-semibold tracking-[-0.01em] text-foreground"
           onClick={closeMenu}
         >
           <span className="text-accent">Berlin</span>
@@ -46,7 +46,7 @@ export function SiteHeader() {
         </Link>
 
         <div className="flex h-9 items-center gap-1 sm:gap-2">
-          <nav className="hidden h-9 items-center md:flex" aria-label="Primary">
+          <nav className="mr-3 hidden h-9 items-center md:mr-5 md:flex" aria-label="Primary">
             {links.map((link) => (
               <a
                 key={link.href}

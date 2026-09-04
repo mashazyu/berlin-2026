@@ -70,11 +70,11 @@ export function ComparisonTable({
   return (
     <section id="table" className="scroll-mt-[4.25rem] bg-white px-4 py-16 sm:px-6 sm:py-20">
       <div className="mx-auto max-w-3xl">
-        <h2 className="section-title font-display text-3xl font-bold tracking-tight sm:text-4xl">
+        <h2 className="section-title font-display text-3xl font-semibold tracking-[-0.01em] sm:text-4xl">
           {t.table.title}
         </h2>
-        <p className="mt-3 text-muted-foreground">{t.table.subtitle}</p>
-        <div className="mt-5 flex flex-wrap gap-3 text-xs text-muted-foreground">
+        <p className="text-muted-foreground">{t.table.subtitle}</p>
+        <div className="mt-8 flex flex-wrap gap-3 text-xs text-muted-foreground sm:mt-10">
           <Legend stance="for" label={t.table.legendFor} />
           <Legend stance="against" label={t.table.legendAgainst} />
           <Legend stance="mixed" label={t.table.legendMixed} />
@@ -154,7 +154,7 @@ export function ComparisonTable({
                     )
                   }
                 >
-                  <span className="font-display text-sm font-semibold leading-snug text-foreground sm:text-base">
+                  <span className="text-sm font-semibold leading-snug text-foreground sm:text-base">
                     {topic.displayLabel}
                   </span>
                   <span className="inline-flex shrink-0 items-center gap-1 text-xs font-medium text-muted-foreground">
@@ -227,7 +227,7 @@ export function ComparisonTable({
                 <tr>
                   <th
                     scope="col"
-                    className="sticky left-0 z-40 border-r border-border bg-muted px-3 py-3 font-display text-xs font-bold uppercase tracking-wide text-foreground"
+                    className="sticky left-0 z-40 border-r border-border bg-muted px-3 py-3 text-xs font-semibold uppercase tracking-wide text-foreground"
                   >
                     {t.table.topicColumn}
                   </th>
@@ -235,7 +235,7 @@ export function ComparisonTable({
                     <th
                       key={party.id}
                       scope="col"
-                      className="bg-muted px-3 py-3 font-display text-xs font-bold uppercase tracking-wide"
+                      className="bg-muted px-3 py-3 text-xs font-semibold uppercase tracking-wide"
                     >
                       <a
                         href={party.programUrl}

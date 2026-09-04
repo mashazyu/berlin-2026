@@ -20,18 +20,17 @@
     "tagline": "Climate, transport & city — party positions side by side"
   },
   "navigation": {
-    "about": "About",
+    "about": "Motivation",
     "table": "Comparison",
     "privacy": "Privacy"
   },
   "hero": {
     "headline": "Berlin votes on 20 September 2026",
     "support": "Compare how parties stand on climate, transport, and the city — in one table.",
-    "cta": "Explore the table",
-    "electionDate": "Abgeordnetenhaus election · 20 September 2026"
+    "cta": "To comparison"
   },
   "about": {
-    "title": "About",
+    "title": "Motivation",
     "berlinVotesTitle": "Berlin votes on 20 September 2026",
     "berlinVotesBody": "Every 5 years Berlin votes for a new parliament that will shape the city's policies.",
     "accessibilityTitle": "Accessibility and Language",
@@ -42,11 +41,13 @@
     "whatWeDidBody": "We compared the positions of 10 Berlin parties against key points across transport and urban spaces, climate and energy — and turned their programs into one side-by-side table focused on eco topics.",
     "beforeYouVoteTitle": "Before you vote",
     "beforeYouVoteBody": "The table is made with the help of AI, and we recommend double-checking important information: full translations of the main parties' programs are published on [BerlinVote.Help](https://www.berlinvote.help/).",
+    "furtherReadingTitle": "Further reading",
+    "furtherReadingBody": "- [RBB: Berlin Elections 2026 FAQ (English)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: Elections in easy language (Leichte Sprache)](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Berlin political education: Elections 2026 brochure (PDF)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)\n- [BerlinVote.Help — full program translations](https://www.berlinvote.help/)",
     "disclaimer": "This project is not campaign material and is not affiliated with any party."
   },
   "table": {
-    "title": "Party comparison",
-    "subtitle": "Climate, transport, cleanliness, energy, nature, and animals. Stance markers: for, against, mixed / unclear, or not found.",
+    "title": "Party election program comparison",
+    "subtitle": "Positions on climate, transport, street cleaning, energy, nature, and animals — side by side.",
     "topicColumn": "Topic",
     "legendFor": "For / supportive",
     "legendAgainst": "Against / opposing",
