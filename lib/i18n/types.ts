@@ -30,6 +30,7 @@ export type Translations = {
     support: string
     cta: string
     disclaimer: string
+    scrollHint: string
   }
   about: {
     title: string

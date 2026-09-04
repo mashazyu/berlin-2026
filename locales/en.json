@@ -25,10 +25,11 @@
     "privacy": "Privacy"
   },
   "hero": {
-    "headline": "Berlin votes on 20 September 2026",
-    "support": "Compare how parties stand on climate, transport, and the city — in one table.",
-    "cta": "To comparison",
-    "disclaimer": "This project is not campaign material and is not affiliated with any party."
+    "headline": "How Berlin’s parties stand on climate, transport, and the city",
+    "support": "Abgeordnetenhaus election · 20 September 2026 · 10 parties, side by side",
+    "cta": "Compare programs",
+    "disclaimer": "This project is not campaign material and is not affiliated with any party.",
+    "scrollHint": "Scroll to comparison"
   },
   "about": {
     "title": "Motivation",

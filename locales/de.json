@@ -26,10 +26,11 @@
     "privacy": "Datenschutz"
   },
   "hero": {
-    "headline": "Berlin wählt am 20. September 2026",
-    "support": "Vergleichen Sie, wie die Parteien zu Klima, Verkehr und Stadt stehen — in einer Tabelle.",
-    "cta": "Zum Vergleich",
-    "disclaimer": "Dieser Beitrag steht in keiner Verbindung zu einer Partei und ist keine Wahlwerbung."
+    "headline": "Berliner Wahlprogramme zu Klima, Verkehr und Stadt im Vergleich",
+    "support": "Abgeordnetenhauswahl · 20. September 2026 · 10 Parteien im direkten Vergleich",
+    "cta": "Programme vergleichen",
+    "disclaimer": "Dieser Beitrag steht in keiner Verbindung zu einer Partei und ist keine Wahlwerbung.",
+    "scrollHint": "Zum Vergleich scrollen"
   },
   "about": {
     "title": "Motivation",
