@@ -16,13 +16,7 @@ const KNOWN_PAGE_PATHS = new Set(
     .filter(Boolean)
 )
 
-function permanentRedirect(request: NextRequest, pathname: string) {
-  const url = request.nextUrl.clone()
-  url.pathname = pathname
-  return NextResponse.redirect(url, 308)
-}
-
-function negotiatedRedirect(request: NextRequest, pathname: string) {
+function temporaryRedirect(request: NextRequest, pathname: string) {
   const url = request.nextUrl.clone()
   url.pathname = pathname
   return NextResponse.redirect(url, 307)
@@ -54,13 +48,14 @@ export function middleware(request: NextRequest) {
   }
 
   if (pathname === "/") {
-    const response = permanentRedirect(request, `/${preferredLanguage}`)
+    // 307 (not 308): do not permanently cache negotiated language in the browser
+    const response = temporaryRedirect(request, `/${preferredLanguage}`)
     response.headers.set("Vary", "Accept-Language, Cookie")
     return response
   }
 
   if (KNOWN_PAGE_PATHS.has(pathname)) {
-    return negotiatedRedirect(request, `/${preferredLanguage}${pathname}`)
+    return temporaryRedirect(request, `/${preferredLanguage}${pathname}`)
   }
 
   return new NextResponse("Not Found", { status: 404 })
