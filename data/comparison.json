@@ -6,7 +6,7 @@
       "name": {
         "en": "CDU",
         "ru": "CDU",
-        "de": null
+        "de": "CDU"
       },
       "programUrl": "https://cdu.berlin/wofuer-wir-stehen"
     },
@@ -16,7 +16,7 @@
       "name": {
         "en": "SPD",
         "ru": "SPD",
-        "de": null
+        "de": "SPD"
       },
       "programUrl": "https://spd.berlin/media/2026/08/SPD%5FBerlin%5FWahlprogramm%5F20260521-v4-1.pdf"
     },
@@ -26,7 +26,7 @@
       "name": {
         "en": "Bündnis 90/Die Grünen",
         "ru": "Bündnis 90/Die Grünen",
-        "de": null
+        "de": "Bündnis 90/Die Grünen"
       },
       "programUrl": "https://gruene.berlin/wahlprogramm"
     },
@@ -36,7 +36,7 @@
       "name": {
         "en": "Die Linke",
         "ru": "Die Linke",
-        "de": null
+        "de": "Die Linke"
       },
       "programUrl": "https://dielinke.berlin/fileadmin/download/2026/0106%5FWahlprogramm%5FLVB%5FA5.pdf"
     },
@@ -46,7 +46,7 @@
       "name": {
         "en": "FDP",
         "ru": "FDP",
-        "de": null
+        "de": "FDP"
       },
       "programUrl": "https://www.fdp-berlin.de/sites/default/files/2026-07/Wahlprogramm%5FFDP%20Berlin%5FAbgeordnetenhauswahl%202026%5FFINAL.pdf"
     },
@@ -56,7 +56,7 @@
       "name": {
         "en": "AfD",
         "ru": "AfD",
-        "de": null
+        "de": "AfD"
       },
       "programUrl": "https://afd.berlin/abgeordnetenhauswahl/"
     },
@@ -66,7 +66,7 @@
       "name": {
         "en": "BSW",
         "ru": "BSW",
-        "de": null
+        "de": "BSW"
       },
       "programUrl": "https://bsw.berlin/allgemein/entwurf-des-landeswahlprogramms-des-berliner-bsw/"
     },
@@ -76,7 +76,7 @@
       "name": {
         "en": "Volt",
         "ru": "Volt",
-        "de": null
+        "de": "Volt"
       },
       "programUrl": "https://voltdeutschland.org/berlin/programm/programme"
     },
@@ -86,7 +86,7 @@
       "name": {
         "en": "Tierschutzpartei / Klimaliste",
         "ru": "Tierschutzpartei / Klimaliste",
-        "de": null
+        "de": "Tierschutzpartei"
       },
       "programUrl": "https://berlin.tierschutzpartei.de/berliner-wahlen-2026"
     },
@@ -96,7 +96,7 @@
       "name": {
         "en": "ÖDP Berlin",
         "ru": "ÖDP Berlin",
-        "de": null
+        "de": "ÖDP Berlin"
       },
       "programUrl": "https://www.oedp-berlin.de/wahlen/abgeordnetenhauswahl-2026/tv-spot-u-bahn-werbung-flyer-co"
     }
@@ -109,7 +109,7 @@
       "label": {
         "en": "Climate neutrality",
         "ru": "Климатическая нейтральность",
-        "de": null
+        "de": "Klimaneutralität"
       }
     },
     {
@@ -119,7 +119,7 @@
       "label": {
         "en": "A100 construction",
         "ru": "Строительство A100",
-        "de": null
+        "de": "Bau der A100"
       }
     },
     {
@@ -129,7 +129,7 @@
       "label": {
         "en": "Road construction",
         "ru": "Строительство дорог",
-        "de": null
+        "de": "Straßenbau"
       }
     },
     {
@@ -139,7 +139,7 @@
       "label": {
         "en": "New U-Bahn construction / line extensions",
         "ru": "Общественный транспорт: U-Bahn, S-Bahn, Bus, Tram",
-        "de": null
+        "de": "Neubau/Verlängerung von U-Bahn-Linien"
       }
     },
     {
@@ -149,7 +149,7 @@
       "label": {
         "en": "Cycling infrastructure",
         "ru": "Велосипедная инфраструктура",
-        "de": null
+        "de": "Radverkehrsinfrastruktur"
       }
     },
     {
@@ -159,7 +159,7 @@
       "label": {
         "en": "Parking",
         "ru": "Парковки",
-        "de": null
+        "de": "Parken"
       }
     },
     {
@@ -169,7 +169,7 @@
       "label": {
         "en": "EV charging",
         "ru": "Зарядки для электромобилей",
-        "de": null
+        "de": "Ladeinfrastruktur für E-Autos"
       }
     },
     {
@@ -179,7 +179,7 @@
       "label": {
         "en": "Tempelhofer Feld development / “edge development”",
         "ru": "Tempelhofer Feld застройка / «застройка по краям»",
-        "de": null
+        "de": "Bebauung Tempelhofer Feld / Randbebauung"
       }
     },
     {
@@ -189,7 +189,7 @@
       "label": {
         "en": "Large-scale tree planting and/or tree care",
         "ru": "Массовая посадка деревьев и/или уход за деревьями",
-        "de": null
+        "de": "Baumpflanzung und Baumpflege"
       }
     },
     {
@@ -199,7 +199,7 @@
       "label": {
         "en": "Heat protection",
         "ru": "Hitzeschutz / защита от жары",
-        "de": null
+        "de": "Hitzeschutz"
       }
     },
     {
@@ -209,7 +209,7 @@
       "label": {
         "en": "“Sponge city” / rainwater retention / unsealing surfaces",
         "ru": "«Город-губка» / удержание дождевой воды / дегерметизация",
-        "de": null
+        "de": "Schwammstadt / Regenwasserrückhalt / Entsiegelung"
       }
     },
     {
@@ -219,7 +219,7 @@
       "label": {
         "en": "Zero waste / waste prevention",
         "ru": "Zero Waste / предотвращение отходов",
-        "de": null
+        "de": "Zero Waste / Abfallvermeidung"
       }
     },
     {
@@ -229,7 +229,7 @@
       "label": {
         "en": "BSR / waste collection and infrastructure",
         "ru": "BSR (Berliner Stadtreinigung)",
-        "de": null
+        "de": "BSR / Abfallentsorgung und Infrastruktur"
       }
     },
     {
@@ -239,7 +239,7 @@
       "label": {
         "en": "Cleanliness / enforcement / litter",
         "ru": "Чистота / контроль / мусор",
-        "de": null
+        "de": "Sauberkeit / Ordnung / Littering"
       }
     },
     {
@@ -249,7 +249,7 @@
       "label": {
         "en": "Solar energy / photovoltaics",
         "ru": "Солнечная энергия фотовольтаика",
-        "de": null
+        "de": "Solarenergie / Photovoltaik"
       }
     },
     {
@@ -259,7 +259,7 @@
       "label": {
         "en": "Wind energy",
         "ru": "Ветряная энергия",
-        "de": null
+        "de": "Windenergie"
       }
     },
     {
@@ -269,7 +269,7 @@
       "label": {
         "en": "Gas / gas network",
         "ru": "Газ / газовая сеть",
-        "de": null
+        "de": "Gas / Gasnetz"
       }
     },
     {
@@ -279,7 +279,7 @@
       "label": {
         "en": "Hydrogen",
         "ru": "Водород",
-        "de": null
+        "de": "Wasserstoff"
       }
     },
     {
@@ -289,7 +289,7 @@
       "label": {
         "en": "Heat pumps",
         "ru": "Тепловые насосы",
-        "de": null
+        "de": "Wärmepumpen"
       }
     },
     {
@@ -299,7 +299,7 @@
       "label": {
         "en": "Heating supply / networks: decarbonization and/or transformation",
         "ru": "Теплоснабжение / сети: декарбонизация и/или трансформация",
-        "de": null
+        "de": "Wärmeversorgung / Netze: Dekarbonisierung und Umbau"
       }
     },
     {
@@ -309,7 +309,7 @@
       "label": {
         "en": "Nuclear energy",
         "ru": "Атомная энергетика",
-        "de": null
+        "de": "Atomenergie"
       }
     },
     {
@@ -319,7 +319,7 @@
       "label": {
         "en": "Animal protection",
         "ru": "Защита животных",
-        "de": null
+        "de": "Tierschutz"
       }
     }
   ],

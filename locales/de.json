@@ -1,16 +1,24 @@
 {
   "metadata": {
-    "homeTitle": "TODO",
-    "homeDescription": "TODO",
-    "privacyTitle": "TODO",
-    "privacyDescription": "TODO",
-    "aiDisclosureTitle": "TODO",
-    "aiDisclosureDescription": "TODO",
-    "keywords": []
+    "homeTitle": "Berlin 2026 — Vergleich der Wahlprogramme: Klima, Verkehr & Stadt",
+    "homeDescription": "Vergleich der Positionen Berliner Parteien zur Abgeordnetenhauswahl am 20. September 2026 — Klima, Verkehr, Stadtraum, Energie und Tiere.",
+    "privacyTitle": "Datenschutzerklärung — Berlin 2026",
+    "privacyDescription": "Wie Berlin 2026 personenbezogene Daten gemäß DSGVO verarbeitet.",
+    "aiDisclosureTitle": "KI-Hinweis — Berlin 2026",
+    "aiDisclosureDescription": "Wie wir KI-Tools beim Verfassen von Websitetexten und beim Vergleich von Wahlprogrammen nutzen — und wie Menschen für Ideen, Inhalt und Genauigkeit verantwortlich bleiben.",
+    "keywords": [
+      "Berlin",
+      "Wahl 2026",
+      "Abgeordnetenhaus",
+      "Wahlprogramme",
+      "Parteivergleich",
+      "Klima",
+      "Verkehr"
+    ]
   },
   "brand": {
     "name": "Berlin 2026",
-    "tagline": "TODO"
+    "tagline": "Klima, Verkehr & Stadt — Parteipositionen im Vergleich"
   },
   "navigation": {
     "about": "Motivation",
@@ -18,81 +26,81 @@
     "privacy": "Datenschutz"
   },
   "hero": {
-    "headline": "TODO",
-    "support": "TODO",
+    "headline": "Berlin wählt am 20. September 2026",
+    "support": "Vergleichen Sie, wie die Parteien zu Klima, Verkehr und Stadt stehen — in einer Tabelle.",
     "cta": "Zum Vergleich"
   },
   "about": {
     "title": "Motivation",
-    "berlinVotesTitle": "TODO",
-    "berlinVotesBody": "TODO",
-    "accessibilityTitle": "TODO",
-    "accessibilityBody": "TODO",
-    "clarityTitle": "TODO",
-    "clarityBody": "TODO",
-    "whatWeDidTitle": "TODO",
-    "whatWeDidBody": "TODO",
-    "beforeYouVoteTitle": "TODO",
-    "beforeYouVoteBody": "TODO",
+    "berlinVotesTitle": "Berlin wählt am 20. September 2026",
+    "berlinVotesBody": "Alle fünf Jahre wählt Berlin ein neues Parlament, das die Politik der Stadt prägt.",
+    "accessibilityTitle": "Zugänglichkeit und Sprache",
+    "accessibilityBody": "Etwa 16 % der deutschen Staatsangehörigen in Berlin haben einen Migrationshintergrund. Wahlprogramme erscheinen nur auf Deutsch und können bis zu 200 Seiten umfassen. Das ist selbst für Muttersprachler:innen schwer zu lesen. Der Wahl-O-Mat hilft, geht aber nicht in die Tiefe.",
+    "clarityTitle": "Klarheit und Substanz",
+    "clarityBody": "Vieles auf diesen 200 Seiten ist Rhetorik und lässt sich kaum in Konkretes übersetzen. Wir wollten greifbare Antworten: Verpflichtungen mit Zahlen von allgemeinen Absichtserklärungen trennen.",
+    "whatWeDidTitle": "Was wir gemacht haben",
+    "whatWeDidBody": "Wir haben die Positionen von 10 Berliner Parteien zu zentralen Punkten bei Verkehr und Stadtraum, Klima und Energie verglichen — und die Programme in eine Vergleichstabelle mit Fokus auf Öko-Themen überführt.",
+    "beforeYouVoteTitle": "Bevor Sie wählen",
+    "beforeYouVoteBody": "Diese Tabelle wurde mithilfe von KI erstellt. Bitte überprüfen Sie die Punkte, die für Sie wichtig sind, noch einmal. Auf [BerlinVote.Help](https://www.berlinvote.help/) finden Sie möglicherweise die vollständigen Übersetzungen der Programme.",
     "furtherReadingTitle": "Weiterlesen",
     "furtherReadingBody": "- [RBB: FAQ zu den Berlin-Wahlen 2026 (Englisch)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: Wahlen in Leichter Sprache](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Broschüre Wahlen 2026 der Berliner Landeszentrale für politische Bildung (PDF, EN)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)\n- [BerlinVote.Help — vollständige Programmübersetzungen](https://www.berlinvote.help/)",
-    "disclaimer": "TODO"
+    "disclaimer": "Dieser Beitrag steht in keiner Verbindung zu einer Partei und ist keine Wahlwerbung."
   },
   "table": {
     "title": "Vergleich der Wahlprogramme",
     "subtitle": "Positionen zu Klima, Verkehr, Sauberkeit, Energie, Natur und Tieren — im direkten Vergleich.",
     "topicColumn": "Thema",
-    "legendFor": "Dafür",
+    "legendFor": "Dafür / befürwortend",
     "legendAgainst": "Dagegen",
-    "legendMixed": "Gemischt / unklar",
-    "legendNone": "Nicht gefunden",
-    "scrollHint": "TODO",
+    "legendMixed": "Gemischt / mit Einschränkungen / unklar",
+    "legendNone": "In den Ausschnitten nicht gefunden",
+    "scrollHint": "Nur ausgewählte Parteien werden angezeigt — fügen Sie weitere über die Chips oben hinzu.",
     "programLink": "Programm",
     "emptyCell": "—",
-    "partiesLabel": "TODO",
+    "partiesLabel": "Parteien zum Vergleich",
     "showAll": "Alle",
-    "showMajor": "TODO",
-    "selectedCount": "TODO",
-    "expandTopic": "TODO",
-    "collapseTopic": "TODO",
-    "openProgram": "TODO"
+    "showMajor": "Große 4",
+    "selectedCount": "{count} ausgewählt",
+    "expandTopic": "Positionen anzeigen",
+    "collapseTopic": "Ausblenden",
+    "openProgram": "Wahlprogramm"
   },
   "footer": {
-    "aiNotice": "TODO",
+    "aiNotice": "Texte und die Vergleichstabelle auf dieser Website wurden mit KI-Unterstützung erstellt. Ideen, Inhalt und redaktionelle Verantwortung liegen beim Projekt Berlin 2026.",
     "aiDisclosure": "KI-Hinweis",
-    "relatedSite": "TODO",
-    "contact": "TODO",
+    "relatedSite": "Vollständige Programmübersetzungen: BerlinVote.Help",
+    "contact": "Fragen? Kontakt: Nina Harz",
     "privacy": "Datenschutz",
-    "unaffiliated": "TODO"
+    "unaffiliated": "Unabhängig und überparteilich. Nicht verbunden mit einer Partei oder dem Land Berlin."
   },
   "aiDisclosure": {
     "title": "KI-Hinweis",
-    "intro": "TODO",
-    "howWeUseAi": "TODO",
-    "howWeUseAiContent": "TODO",
-    "humanResponsibility": "TODO",
-    "humanResponsibilityContent": "TODO",
-    "reviewAndAccuracy": "TODO",
-    "reviewAndAccuracyContent": "TODO",
-    "contact": "TODO",
-    "contactContent": "TODO"
+    "intro": "Diese Seite erklärt, wie wir Tools der künstlichen Intelligenz (KI) beim Erstellen von Inhalten für diese Website nutzen — und wie menschliche Redaktion für das Veröffentlichte verantwortlich bleibt.",
+    "howWeUseAi": "Wie wir KI nutzen",
+    "howWeUseAiContent": "Wir nutzen KI-Tools, um Websitetexte zu entwerfen und zu schärfen — etwa Seitentexte und Kurzfassungen offizieller Wahlprogramme. KI hilft bei Formulierung, Struktur und dem Herausarbeiten vergleichbarer Positionen; sie entscheidet nicht, was wir veröffentlichen oder wie Sie wählen sollen.",
+    "humanResponsibility": "Menschliche Ideen und redaktionelle Verantwortung",
+    "humanResponsibilityContent": "Alle Ideen, Ziele und inhaltlichen Entscheidungen hinter dieser Website stammen von Menschen im Projekt Berlin 2026. Vor der Veröffentlichung wird der Inhalt auf Klarheit und Passung zum Informationszweck geprüft. Die redaktionelle Verantwortung liegt beim Projekt Berlin 2026 (Kontakt: Nina Harz).",
+    "reviewAndAccuracy": "Prüfung und Genauigkeit",
+    "reviewAndAccuracyContent": "Die Vergleichstabelle der Parteipositionen wurde mit wesentlicher KI-Unterstützung aus den offiziellen Wahlprogrammen erstellt. Bitte überprüfen Sie Punkte, die für Sie wichtig sind, noch einmal. Vollständige Übersetzungen der Programme der großen Parteien finden Sie auf BerlinVote.Help. Wir prüfen Inhalte auf Genauigkeit, dennoch können Fehler und verlorene Nuancen vorkommen. Wenn Ihnen etwas auffällt, schreiben Sie uns bitte.",
+    "contact": "Kontakt",
+    "contactContent": "Fragen zur KI-Nutzung oder zu Inhalten auf dieser Website? Schreiben Sie an nina.harz@pm.me."
   },
   "privacy": {
     "title": "Datenschutzerklärung",
-    "intro": "TODO",
+    "intro": "Diese Datenschutzerklärung erklärt, wie wir personenbezogene Daten erheben, nutzen und schützen, wenn Sie unsere Website besuchen — in Übereinstimmung mit der Datenschutz-Grundverordnung (DSGVO) und geltendem deutschen Datenschutzrecht.",
     "responsibleParty": "Verantwortliche Stelle",
-    "responsiblePartyContent": "TODO",
+    "responsiblePartyContent": "Projekt Berlin 2026\nKontakt: Nina Harz\nE-Mail: nina.harz@pm.me",
     "dataProcessed": "Verarbeitete Daten",
-    "dataProcessedContent": "TODO",
+    "dataProcessedContent": "Beim Besuch unserer Website kann unser Hosting-Anbieter automatisch technische Daten verarbeiten, die für die Auslieferung der Seite nötig sind (zum Beispiel IP-Adresse, Browsertyp und Zeitstempel in Server-Logs). Wir betreiben keine eigenen Nutzerkonten und fragen auf dieser Website nicht nach Ihrem Namen oder Ihrer E-Mail-Adresse.\n\nDiese technische Verarbeitung beruht auf unserem berechtigten Interesse (Art. 6 Abs. 1 lit. f DSGVO) an einer sicheren und funktionsfähigen Website.",
     "hosting": "Hosting",
-    "hostingContent": "TODO",
+    "hostingContent": "Diese Website wird von Vercel Inc. gehostet. Serverinfrastruktur und Content Delivery können eine Verarbeitung außerhalb der EU unter geeigneten Garantien umfassen. Details finden Sie in der [Datenschutzerklärung von Vercel](https://vercel.com/legal/privacy-policy).",
     "purposeOfProcessing": "Zweck der Verarbeitung",
-    "purposeOfProcessingContent": "TODO",
-    "cookies": "Cookies",
-    "cookiesContent": "TODO",
-    "yourRights": "Ihre Rechte",
-    "yourRightsIntro": "TODO",
-    "yourRightsList": "TODO",
-    "contactInfo": "TODO"
+    "purposeOfProcessingContent": "Wir verarbeiten technische Daten nur, um:\n\n• diese Website bereitzustellen und zu betreiben\n• technische Probleme zu erkennen, zu verhindern und zu beheben\n• Sicherheit und ordnungsgemäße Funktion der Website sicherzustellen\n\nDiese Verarbeitung ist für unsere berechtigten Interessen an der Bereitstellung des Angebots erforderlich (Art. 6 Abs. 1 lit. f DSGVO).",
+    "cookies": "Cookies und Tracking-Technologien",
+    "cookiesContent": "Diese Website verwendet keine Analyse- oder Werbe-Cookies. Die Sprachpräferenz kann in einem kleinen Cookie oder im lokalen Speicher abgelegt werden, damit wir bei einem erneuten Besuch Ihre gewählte Sprache anzeigen können. Cookies und Website-Daten können Sie jederzeit in den Browsereinstellungen löschen.",
+    "yourRights": "Ihre Rechte nach der DSGVO",
+    "yourRightsIntro": "Nach der Datenschutz-Grundverordnung (DSGVO) haben Sie folgende Rechte in Bezug auf Ihre personenbezogenen Daten:",
+    "yourRightsList": "• Auskunftsrecht (Art. 15 DSGVO): Sie können Auskunft über Ihre personenbezogenen Daten verlangen\n• Recht auf Berichtigung (Art. 16 DSGVO): Sie können die Berichtigung unrichtiger personenbezogener Daten verlangen\n• Recht auf Löschung (Art. 17 DSGVO): Sie können die Löschung Ihrer personenbezogenen Daten verlangen\n• Recht auf Einschränkung der Verarbeitung (Art. 18 DSGVO): Sie können die Einschränkung der Verarbeitung verlangen\n• Recht auf Datenübertragbarkeit (Art. 20 DSGVO): Sie können die Übertragung Ihrer personenbezogenen Daten verlangen\n• Widerspruchsrecht (Art. 21 DSGVO): Sie können der Verarbeitung Ihrer personenbezogenen Daten widersprechen\n• Beschwerderecht (Art. 77 DSGVO): Sie können sich bei einer Aufsichtsbehörde beschweren",
+    "contactInfo": "Wenn Sie eines dieser Rechte ausüben möchten oder Fragen zu Ihren Daten haben, schreiben Sie bitte an nina.harz@pm.me."
   }
 }
