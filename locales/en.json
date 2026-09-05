@@ -9,7 +9,8 @@
     "keywords": [
       "Berlin",
       "Berlin state election 2026",
-      "House of Representatives",
+      "Abgeordnetenhaus",
+      "state parliament",
       "party programs",
       "party comparison",
       "climate",
@@ -21,32 +22,32 @@
     "tagline": "Party positions side by side"
   },
   "navigation": {
-    "about": "Motivation",
+    "about": "About",
     "table": "Comparison",
     "privacy": "Privacy"
   },
   "hero": {
     "headline": "Compare party programs for the 2026 Berlin state election",
-    "support": "20 September 2026 · Berlin House of Representatives · 10 parties · 50+ topics",
-    "blurb": "Side-by-side positions from official programs — not a voting advice tool.",
+    "support": "20 September 2026 · Berlin state parliament · 10 parties · 50+ topics",
+    "blurb": "Side-by-side positions from official programs — not voting advice.",
     "cta": "Compare programs",
     "disclaimer": "This project is not campaign material and is not affiliated with any party.",
     "scrollHint": "Scroll to comparison"
   },
   "about": {
-    "title": "Motivation",
+    "title": "About",
     "berlinVotesTitle": "Berlin votes on 20 September 2026",
-    "berlinVotesBody": "Every 5 years Berlin elects a new House of Representatives (Abgeordnetenhaus), the state parliament that shapes the city’s policies.",
-    "accessibilityTitle": "Accessibility and Language",
-    "accessibilityBody": "About 16% of German citizens in Berlin have a migration background. Election programs are only published in German and can run up to 200 pages. That's a hard read even for native speakers. Wahl-O-Mat helps, but it's not built to go deep.",
-    "clarityTitle": "Clarity and Substance",
-    "clarityBody": "Much of the 200 pages is rhetoric, hard to translate into anything concrete. We wanted tangible answers separating commitments tied to numbers from general statements of intent.",
+    "berlinVotesBody": "Every five years Berlin elects a new state parliament (Abgeordnetenhaus) — the body that shapes the city’s policies.",
+    "accessibilityTitle": "Accessibility and language",
+    "accessibilityBody": "About 16% of German citizens in Berlin come from immigrant families. Election programs are only published in German and can run up to 200 pages. That's a hard read even for native speakers. Wahl-O-Mat helps, but it's not built to go deep.",
+    "clarityTitle": "Clarity and substance",
+    "clarityBody": "Much of the 200 pages is rhetoric, hard to translate into anything concrete. We wanted tangible answers: separating commitments tied to numbers from general statements of intent.",
     "whatWeDidTitle": "What we did",
     "whatWeDidBody": "We compared the positions of 10 Berlin parties on key points across transport, housing, climate and energy, security, education, health, migration, the economy, and democracy — and turned their programs into one side-by-side table.",
     "beforeYouVoteTitle": "Before you vote",
-    "beforeYouVoteBody": "The table is made with the help of AI, and we recommend double-checking important information: full translations of the main parties' programs are published on [BerlinVote.Help](https://www.berlinvote.help/).",
+    "beforeYouVoteBody": "The table is made with the help of AI; we recommend double-checking points that matter to you. Full translations of the main parties' programs are published on [BerlinVote.Help](https://www.berlinvote.help/).",
     "furtherReadingTitle": "Further reading",
-    "furtherReadingBody": "- [RBB: Berlin Elections 2026 FAQ (English)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: Elections in easy language (Leichte Sprache)](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Berlin political education: Elections 2026 brochure (PDF)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
+    "furtherReadingBody": "- [RBB: Berlin Elections 2026 FAQ (English)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: Elections in easy language (Leichte Sprache)](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Berlin State Centre for Political Education: Elections 2026 brochure (PDF)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
   },
   "table": {
     "title": "Party programs for the 2026 Berlin state election",
@@ -56,7 +57,7 @@
     "legendAgainst": "Against / opposing",
     "legendMixed": "Mixed / qualified / unclear",
     "legendNone": "Not found in excerpts",
-    "scrollHint": "Showing selected parties only — add more with the chips above.",
+    "scrollHint": "Showing selected parties only — add more with the labels above.",
     "programLink": "Program",
     "emptyCell": "—",
     "partiesLabel": "Parties to compare",
@@ -71,7 +72,7 @@
     "aiNotice": "Texts and the comparison table on this website were created with AI assistance.",
     "aiDisclosure": "AI disclosure",
     "relatedSite": "Full program translations: BerlinVote.Help",
-    "contact": "Contact me",
+    "contact": "Contact",
     "privacy": "Privacy"
   },
   "aiDisclosure": {
@@ -82,26 +83,26 @@
     "humanResponsibility": "Human ideas and editorial responsibility",
     "humanResponsibilityContent": "All ideas, goals, and substantive decisions behind this website come from people working on the Berlin 2026 project. Before anything is published, content is reviewed for clarity and fit with the project’s informational purpose. Editorial responsibility for this website lies with the Berlin 2026 project.",
     "reviewAndAccuracy": "Review and accuracy",
-    "reviewAndAccuracyContent": "The party comparison table is compiled with substantial AI assistance from official party programs. We recommend double-checking points that matter to you. Full translations of the main parties’ programs are published on BerlinVote.Help. We check content for accuracy, but errors and lost nuances can still occur. If you spot a mistake, please let us know.",
+    "reviewAndAccuracyContent": "The party comparison table is compiled with substantial AI assistance from official party programs. We recommend double-checking points that matter to you. Full translations of the main parties’ programs are published on BerlinVote.Help. We check content for accuracy, but errors can still occur and some nuance may be missed. If you spot a mistake, please let us know.",
     "contact": "Contact",
     "contactContent": "Questions about how we use AI or about the content on this site? Write to us at nina.harz@pm.me."
   },
   "privacy": {
     "title": "Privacy Policy",
     "intro": "This privacy policy explains how we collect, use, and protect your personal information when you visit our website, in compliance with the General Data Protection Regulation (GDPR) and applicable German data protection laws.",
-    "responsibleParty": "Responsible Party",
+    "responsibleParty": "Responsible party",
     "responsiblePartyContent": "Berlin 2026 project\nEmail: nina.harz@pm.me",
-    "dataProcessed": "Data Processed",
+    "dataProcessed": "Data processed",
     "dataProcessedContent": "When you visit our website, our hosting provider may automatically process technical data required to deliver the site (for example IP address, browser type, and request timestamps in server logs). We do not operate our own user accounts and we do not ask you for your name or email on this site.\n\nThis technical processing is based on our legitimate interest (Art. 6(1)(f) GDPR) in providing a secure, functioning website.",
     "hosting": "Hosting",
     "hostingContent": "This website is hosted by Vercel Inc. Server infrastructure and content delivery may involve processing outside the EU under appropriate safeguards. See [Vercel's Privacy Policy](https://vercel.com/legal/privacy-policy) for details.",
-    "purposeOfProcessing": "Purpose of Processing",
+    "purposeOfProcessing": "Purpose of processing",
     "purposeOfProcessingContent": "We process technical data only to:\n\n• Provide and maintain this website\n• Detect, prevent and address technical issues\n• Ensure the security and proper functioning of the site\n\nThis processing is necessary for our legitimate interests in providing the service (Art. 6(1)(f) GDPR).",
-    "cookies": "Cookies and Tracking Technologies",
+    "cookies": "Cookies and tracking technologies",
     "cookiesContent": "This website does not use analytics or advertising cookies. The language preference may be stored in a small cookie or local storage so we can show your chosen language on return visits. You can delete cookies and site data in your browser settings at any time.",
-    "yourRights": "Your Rights Under GDPR",
-    "yourRightsIntro": "Under the General Data Protection Regulation (GDPR), you have the following rights regarding your personal data:",
-    "yourRightsList": "• Right to access (Art. 15 GDPR): You have the right to request access to your personal data\n• Right to rectification (Art. 16 GDPR): You have the right to request correction of inaccurate personal data\n• Right to erasure (Art. 17 GDPR): You have the right to request deletion of your personal data\n• Right to restrict processing (Art. 18 GDPR): You have the right to request restriction of processing of your personal data\n• Right to data portability (Art. 20 GDPR): You have the right to request transfer of your personal data\n• Right to object (Art. 21 GDPR): You have the right to object to processing of your personal data\n• Right to lodge a complaint (Art. 77 GDPR): You have the right to lodge a complaint with a supervisory authority",
+    "yourRights": "Your rights under GDPR",
+    "yourRightsIntro": "Under the GDPR, you have the following rights regarding your personal data:",
+    "yourRightsList": "• Right of access (Art. 15 GDPR)\n• Right to rectification (Art. 16 GDPR)\n• Right to erasure (Art. 17 GDPR)\n• Right to restrict processing (Art. 18 GDPR)\n• Right to data portability (Art. 20 GDPR)\n• Right to object (Art. 21 GDPR)\n• Right to lodge a complaint with a supervisory authority (Art. 77 GDPR)",
     "contactInfo": "If you wish to exercise any of these rights or have questions about your data, please contact us at nina.harz@pm.me."
   }
 }
