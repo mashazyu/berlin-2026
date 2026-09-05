@@ -70,6 +70,10 @@
     "openProgram": "Программа партии",
     "expandGroup": "Развернуть группу",
     "collapseGroup": "Свернуть группу",
+    "searchPlaceholder": "Поиск по темам…",
+    "searchClear": "Очистить поиск",
+    "searchNoResults": "Ничего не найдено.",
+    "searchResultsCount": "{count} тем",
     "groups": {
       "transport": "Транспорт",
       "waste": "Чистота и мусор",

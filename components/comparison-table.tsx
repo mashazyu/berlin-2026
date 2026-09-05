@@ -1,7 +1,7 @@
 "use client"
 
-import { useMemo, useRef, useState } from "react"
-import { ChevronDown, ExternalLink } from "lucide-react"
+import { useDeferredValue, useMemo, useRef, useState } from "react"
+import { ChevronDown, ExternalLink, Search, X } from "lucide-react"
 import { useLanguage } from "@/components/language-provider"
 import { StanceBadge } from "@/components/stance-badge"
 import { groupTopics, TOPIC_GROUP_ORDER } from "@/lib/comparison/groups"
@@ -23,6 +23,8 @@ export function ComparisonTable({
 
   const [selectedIds, setSelectedIds] = useState<string[]>([...MAJOR_PARTY_IDS])
   const [openTopicId, setOpenTopicId] = useState<string | null>(null)
+  const [topicQuery, setTopicQuery] = useState("")
+  const deferredQuery = useDeferredValue(topicQuery)
   const [collapsedGroups, setCollapsedGroups] = useState<Set<TopicGroup>>(
     () => new Set(TOPIC_GROUP_ORDER)
   )
@@ -31,7 +33,22 @@ export function ComparisonTable({
   const bodyScrollRef = useRef<HTMLDivElement>(null)
   const syncingScroll = useRef(false)
 
-  const topicGroups = useMemo(() => groupTopics(topics), [topics])
+  const normalizedQuery = deferredQuery.trim().toLowerCase()
+  const isSearching = normalizedQuery.length > 0
+
+  const filteredTopics = useMemo(() => {
+    if (!isSearching) return topics
+    return topics.filter((topic) => {
+      const label = topic.displayLabel.toLowerCase()
+      const groupLabel = t.table.groups[topic.group].toLowerCase()
+      return label.includes(normalizedQuery) || groupLabel.includes(normalizedQuery)
+    })
+  }, [topics, isSearching, normalizedQuery, t.table.groups])
+
+  const topicGroups = useMemo(
+    () => groupTopics(filteredTopics),
+    [filteredTopics]
+  )
 
   const selectedParties = useMemo(
     () => parties.filter((party) => selectedIds.includes(party.id)),
@@ -78,9 +95,19 @@ export function ComparisonTable({
     })
   }
 
+  function isGroupCollapsed(group: TopicGroup) {
+    if (isSearching) return false
+    return collapsedGroups.has(group)
+  }
+
   const countLabel = t.table.selectedCount.replace(
     "{count}",
     String(selectedParties.length)
+  )
+
+  const searchCountLabel = t.table.searchResultsCount.replace(
+    "{count}",
+    String(filteredTopics.length)
   )
 
   const desktopRows = useMemo(() => {
@@ -160,15 +187,50 @@ export function ComparisonTable({
               )
             })}
           </div>
+
+          <div className="relative mt-4">
+            <Search
+              className="pointer-events-none absolute top-1/2 left-3 h-4 w-4 -translate-y-1/2 text-muted-foreground"
+              aria-hidden
+            />
+            <input
+              type="search"
+              value={topicQuery}
+              onChange={(event) => setTopicQuery(event.target.value)}
+              placeholder={t.table.searchPlaceholder}
+              aria-label={t.table.searchPlaceholder}
+              className="h-10 w-full rounded-md border border-border bg-background pr-10 pl-9 text-sm text-foreground outline-none transition-colors placeholder:text-muted-foreground focus:border-primary focus:ring-2 focus:ring-primary/20"
+            />
+            {topicQuery && (
+              <button
+                type="button"
+                onClick={() => setTopicQuery("")}
+                className="absolute top-1/2 right-2 inline-flex h-7 w-7 -translate-y-1/2 items-center justify-center rounded-md text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
+                aria-label={t.table.searchClear}
+              >
+                <X className="h-4 w-4" />
+              </button>
+            )}
+          </div>
+          {isSearching && (
+            <p className="mt-2 text-xs text-muted-foreground">{searchCountLabel}</p>
+          )}
+
           <p className="mt-3 text-xs text-muted-foreground lg:hidden">
             {t.table.scrollHint}
           </p>
         </div>
 
+        {isSearching && filteredTopics.length === 0 ? (
+          <p className="mt-6 rounded-xl border border-border bg-white px-4 py-8 text-center text-sm text-muted-foreground">
+            {t.table.searchNoResults}
+          </p>
+        ) : (
+        <>
         {/* Mobile: grouped topic accordions */}
         <div className="mt-6 space-y-4 lg:hidden">
           {topicGroups.map(({ group, topics: groupTopicList }) => {
-            const collapsed = collapsedGroups.has(group)
+            const collapsed = isGroupCollapsed(group)
             const groupLabel = t.table.groups[group]
             return (
               <div
@@ -177,11 +239,12 @@ export function ComparisonTable({
               >
                 <button
                   type="button"
-                  className="flex w-full items-center justify-between gap-3 bg-muted/50 px-4 py-3.5 text-left"
+                  className="flex w-full items-center justify-between gap-3 bg-muted/50 px-4 py-3.5 text-left disabled:cursor-default"
                   aria-expanded={!collapsed}
                   aria-label={
                     collapsed ? t.table.expandGroup : t.table.collapseGroup
                   }
+                  disabled={isSearching}
                   onClick={() => toggleGroup(group)}
                 >
                   <span className="font-display text-base font-semibold tracking-[-0.01em] text-foreground">
@@ -343,7 +406,7 @@ export function ComparisonTable({
               </colgroup>
               <tbody>
                 {desktopRows.map(({ group, topics: groupTopicList }) => {
-                  const collapsed = collapsedGroups.has(group)
+                  const collapsed = isGroupCollapsed(group)
                   const groupLabel = t.table.groups[group]
                   return (
                     <GroupRows
@@ -355,6 +418,7 @@ export function ComparisonTable({
                       topicColPx={TOPIC_COL_PX}
                       expandLabel={t.table.expandGroup}
                       collapseLabel={t.table.collapseGroup}
+                      disableToggle={isSearching}
                       onToggle={() => toggleGroup(group)}
                     >
                       {!collapsed &&
@@ -408,6 +472,8 @@ export function ComparisonTable({
             </table>
           </div>
         </div>
+        </>
+        )}
       </div>
     </section>
   )
@@ -421,6 +487,7 @@ function GroupRows({
   topicColPx,
   expandLabel,
   collapseLabel,
+  disableToggle,
   onToggle,
   children,
 }: {
@@ -431,6 +498,7 @@ function GroupRows({
   topicColPx: number
   expandLabel: string
   collapseLabel: string
+  disableToggle?: boolean
   onToggle: () => void
   children: React.ReactNode
 }) {
@@ -445,9 +513,10 @@ function GroupRows({
           <button
             type="button"
             onClick={onToggle}
+            disabled={disableToggle}
             aria-expanded={!collapsed}
             aria-label={collapsed ? expandLabel : collapseLabel}
-            className="flex w-full items-center justify-between gap-3 px-3 py-2.5 text-left transition-colors hover:bg-muted/80"
+            className="flex w-full items-center justify-between gap-3 px-3 py-2.5 text-left transition-colors hover:bg-muted/80 disabled:cursor-default disabled:hover:bg-transparent"
           >
             <span className="font-display text-sm font-semibold tracking-[-0.01em] text-foreground">
               {groupLabel}

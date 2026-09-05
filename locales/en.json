@@ -71,6 +71,10 @@
     "openProgram": "Party program",
     "expandGroup": "Expand group",
     "collapseGroup": "Collapse group",
+    "searchPlaceholder": "Search topics…",
+    "searchClear": "Clear search",
+    "searchNoResults": "No topics match your search.",
+    "searchResultsCount": "{count} topics",
     "groups": {
       "transport": "Transport",
       "waste": "Cleanliness & waste",

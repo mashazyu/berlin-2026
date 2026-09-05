@@ -70,6 +70,10 @@ export type Translations = {
     openProgram: string
     expandGroup: string
     collapseGroup: string
+    searchPlaceholder: string
+    searchClear: string
+    searchNoResults: string
+    searchResultsCount: string
     groups: {
       transport: string
       waste: string

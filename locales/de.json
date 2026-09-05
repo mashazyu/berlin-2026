@@ -71,6 +71,10 @@
     "openProgram": "Wahlprogramm",
     "expandGroup": "Gruppe ausklappen",
     "collapseGroup": "Gruppe einklappen",
+    "searchPlaceholder": "Themen suchen…",
+    "searchClear": "Suche löschen",
+    "searchNoResults": "Keine Themen passen zur Suche.",
+    "searchResultsCount": "{count} Themen",
     "groups": {
       "transport": "Verkehr",
       "waste": "Sauberkeit & Müll",
