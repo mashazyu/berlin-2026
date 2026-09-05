@@ -1,7 +1,7 @@
 "use client"
 
 import type { ReactNode } from "react"
-import { AboutSection } from "@/components/about-section"
+import { MotivationSection } from "@/components/motivation-section"
 import { ComparisonTable } from "@/components/comparison-table"
 import { SectionScrollSnap } from "@/components/section-scroll-snap"
 import { SiteFooter } from "@/components/site-footer"
@@ -26,7 +26,7 @@ export function HomePageClient({
       <main>
         {hero}
         <ComparisonTable comparison={comparison} />
-        <AboutSection />
+        <MotivationSection />
       </main>
       <SiteFooter />
     </div>

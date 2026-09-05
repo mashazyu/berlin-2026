@@ -21,7 +21,7 @@
     "tagline": "Позиции партий — рядом"
   },
   "navigation": {
-    "about": "Мотивация",
+    "motivation": "Мотивация",
     "table": "Сравнение",
     "privacy": "Защита данных"
   },
@@ -33,7 +33,7 @@
     "disclaimer": "Этот проект не является агитацией и не связан ни с одной партией.",
     "scrollHint": "К сравнению"
   },
-  "about": {
+  "motivation": {
     "title": "Мотивация",
     "berlinVotesTitle": "Берлин голосует 20 сентября 2026 года",
     "berlinVotesBody": "Каждые пять лет Берлин избирает новую Палату депутатов (Abgeordnetenhaus) — земельный парламент, который формирует политику города.",
@@ -45,17 +45,17 @@
     "whatWeDidBody": "Мы сравнили позиции 10 берлинских партий по ключевым темам: транспорт, жильё, климат и энергия, безопасность, образование, здравоохранение, миграция, экономика и демократия — и свели программы в одну сравнительную таблицу.",
     "beforeYouVoteTitle": "Перед голосованием",
     "beforeYouVoteBody": "Таблица сделана с помощью ИИ; важные для вас пункты лучше перепроверить. Полные переводы программ основных партий опубликованы на [BerlinVote.Help](https://www.berlinvote.help/).",
-    "furtherReadingTitle": "Дополнительно",
-    "furtherReadingBody": "- [Wahl-O-Mat Берлин 2026](https://www.wahl-o-mat.de/berlin2026/app/main_app.html)\n- [RBB: FAQ о выборах в Берлине 2026 (на английском)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: выборы на простом языке (Leichte Sprache)](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Брошюра о выборах 2026 земельного центра политического образования Берлина (PDF, EN)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
+    "furtherReadingIntro": "Также может пригодиться следующее:",
+    "furtherReadingBody": "- [Wahl-O-Mat Берлин 2026](https://www.wahl-o-mat.de/berlin2026/app/main_app.html)\n- [Википедия: земельные выборы в Берлине 2026](https://en.wikipedia.org/wiki/2026_Berlin_state_election)\n- [RBB: FAQ о выборах в Берлине 2026 (на английском)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: выборы на простом языке (Leichte Sprache)](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Брошюра о выборах 2026 земельного центра политического образования Берлина (PDF, EN)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
   },
   "table": {
     "title": "Программы к земельным выборам в Берлине 2026",
-    "subtitle": "10 партий · за / против / смешанно · по официальным программам. Темы: транспорт, жильё, климат, безопасность, образование, здравоохранение, миграция и другое.",
+    "subtitle": "Позиции 10 крупнейших партий по транспорту, жилью, климату, безопасности, образованию, здравоохранению, миграции и другим вопросам — из их официальных программ.",
     "topicColumn": "Тема",
     "legendFor": "За / поддерживает",
     "legendAgainst": "Против",
     "legendMixed": "Смешанно / с оговорками / неясно",
-    "legendNone": "В отрывках не найдено",
+    "legendNone": "В программе не найдено",
     "scrollHint": "Показаны только выбранные партии — добавьте другие метками выше.",
     "programLink": "Программа",
     "emptyCell": "—",

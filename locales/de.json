@@ -22,7 +22,7 @@
     "tagline": "Parteipositionen im Vergleich"
   },
   "navigation": {
-    "about": "Hintergrund",
+    "motivation": "Motivation",
     "table": "Vergleich",
     "privacy": "Datenschutz"
   },
@@ -34,8 +34,8 @@
     "disclaimer": "Dieses Projekt steht in keiner Verbindung zu einer Partei und ist keine Wahlwerbung.",
     "scrollHint": "Zum Vergleich scrollen"
   },
-  "about": {
-    "title": "Hintergrund",
+  "motivation": {
+    "title": "Motivation",
     "berlinVotesTitle": "Berlin wählt am 20. September 2026",
     "berlinVotesBody": "Alle fünf Jahre wählt Berlin ein neues Abgeordnetenhaus — das Landesparlament, das die Politik der Stadt prägt.",
     "accessibilityTitle": "Zugang und Sprache",
@@ -46,17 +46,17 @@
     "whatWeDidBody": "Wir haben die Positionen von 10 Berliner Parteien zu zentralen Punkten bei Verkehr, Wohnen, Klima und Energie, Sicherheit, Bildung, Gesundheit, Migration, Wirtschaft und Demokratie verglichen — und die Programme in eine Vergleichstabelle überführt.",
     "beforeYouVoteTitle": "Bevor Sie wählen",
     "beforeYouVoteBody": "Diese Tabelle wurde mithilfe von KI erstellt. Bitte überprüfen Sie die Punkte, die für Sie wichtig sind, noch einmal. Vollständige Übersetzungen der Programme der großen Parteien finden Sie auf [BerlinVote.Help](https://www.berlinvote.help/).",
-    "furtherReadingTitle": "Weiterlesen",
-    "furtherReadingBody": "- [Wahl-O-Mat Berlin 2026](https://www.wahl-o-mat.de/berlin2026/app/main_app.html)\n- [RBB: FAQ zu den Berlin-Wahlen 2026 (Englisch)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: Wahlen in Leichter Sprache](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Berliner Landeszentrale für politische Bildung: Broschüre Wahlen 2026 (PDF, EN)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
+    "furtherReadingIntro": "Vielleicht finden Sie auch Folgendes hilfreich:",
+    "furtherReadingBody": "- [Wahl-O-Mat Berlin 2026](https://www.wahl-o-mat.de/berlin2026/app/main_app.html)\n- [Wikipedia: Wahl zum Abgeordnetenhaus von Berlin 2026](https://de.wikipedia.org/wiki/Wahl_zum_Abgeordnetenhaus_von_Berlin_2026)\n- [RBB: FAQ zu den Berlin-Wahlen 2026 (Englisch)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: Wahlen in Leichter Sprache](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Berliner Landeszentrale für politische Bildung: Broschüre Wahlen 2026 (PDF, EN)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
   },
   "table": {
     "title": "Wahlprogramme zur Abgeordnetenhauswahl 2026",
-    "subtitle": "10 Parteien · dafür / dagegen / gemischt · nach den offiziellen Programmen. Themen u. a. Verkehr, Wohnen, Klima, Sicherheit, Bildung, Gesundheit und Migration.",
+    "subtitle": "Positionen der 10 größten Parteien zu Verkehr, Wohnen, Klima, Sicherheit, Bildung, Gesundheit, Migration und weiteren Themen — aus ihren offiziellen Wahlprogrammen.",
     "topicColumn": "Thema",
     "legendFor": "Dafür / befürwortend",
     "legendAgainst": "Dagegen / ablehnend",
     "legendMixed": "Gemischt / mit Einschränkungen / unklar",
-    "legendNone": "In den Ausschnitten nicht gefunden",
+    "legendNone": "Im Programm nicht gefunden",
     "scrollHint": "Nur ausgewählte Parteien werden angezeigt — fügen Sie weitere über die Markierungen oben hinzu.",
     "programLink": "Programm",
     "emptyCell": "—",

@@ -6,7 +6,7 @@ import { useLanguage } from "@/components/language-provider"
 import { StanceBadge } from "@/components/stance-badge"
 import { cellKey } from "@/lib/comparison/get-comparison"
 import type { ResolvedComparison, Stance } from "@/lib/comparison/types"
-import { cn } from "@/lib/utils"
+import { cn, renderParagraphs } from "@/lib/utils"
 
 const MAJOR_PARTY_IDS = ["cdu", "spd", "gruene", "linke"] as const
 const TOPIC_COL_PX = 220
@@ -17,7 +17,7 @@ export function ComparisonTable({
 }: {
   comparison: ResolvedComparison
 }) {
-  const { translations: t } = useLanguage()
+  const { language, translations: t } = useLanguage()
   const { parties, topics, cellsByKey } = comparison
 
   const [selectedIds, setSelectedIds] = useState<string[]>([...MAJOR_PARTY_IDS])
@@ -73,7 +73,9 @@ export function ComparisonTable({
         <h2 className="section-title font-display text-3xl font-semibold tracking-[-0.01em] sm:text-4xl">
           {t.table.title}
         </h2>
-        <p className="text-muted-foreground">{t.table.subtitle}</p>
+        <div className="mt-1 space-y-2 text-base">
+          {renderParagraphs(t.table.subtitle, "text-muted-foreground leading-relaxed", language)}
+        </div>
         <div className="mt-8 flex flex-wrap gap-3 text-xs text-muted-foreground sm:mt-10">
           <Legend stance="for" label={t.table.legendFor} />
           <Legend stance="against" label={t.table.legendAgainst} />

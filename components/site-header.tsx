@@ -17,7 +17,7 @@ export function SiteHeader() {
 
   const links = [
     { href: "table", label: t.navigation.table },
-    { href: "about", label: t.navigation.about },
+    { href: "motivation", label: t.navigation.motivation },
   ]
 
   function closeMenu() {

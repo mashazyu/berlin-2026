@@ -22,7 +22,7 @@
     "tagline": "Party positions side by side"
   },
   "navigation": {
-    "about": "About",
+    "motivation": "Motivation",
     "table": "Comparison",
     "privacy": "Privacy"
   },
@@ -34,8 +34,8 @@
     "disclaimer": "This project is not campaign material and is not affiliated with any party.",
     "scrollHint": "Scroll to comparison"
   },
-  "about": {
-    "title": "About",
+  "motivation": {
+    "title": "Motivation",
     "berlinVotesTitle": "Berlin votes on 20 September 2026",
     "berlinVotesBody": "Every five years Berlin elects a new state parliament (Abgeordnetenhaus) — the body that shapes the city’s policies.",
     "accessibilityTitle": "Accessibility and language",
@@ -46,17 +46,17 @@
     "whatWeDidBody": "We compared the positions of 10 Berlin parties on key points across transport, housing, climate and energy, security, education, health, migration, the economy, and democracy — and turned their programs into one side-by-side table.",
     "beforeYouVoteTitle": "Before you vote",
     "beforeYouVoteBody": "The table is made with the help of AI; we recommend double-checking points that matter to you. Full translations of the main parties' programs are published on [BerlinVote.Help](https://www.berlinvote.help/).",
-    "furtherReadingTitle": "Further reading",
-    "furtherReadingBody": "- [Wahl-O-Mat Berlin 2026](https://www.wahl-o-mat.de/berlin2026/app/main_app.html)\n- [RBB: Berlin Elections 2026 FAQ (English)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: Elections in easy language (Leichte Sprache)](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Berlin State Centre for Political Education: Elections 2026 brochure (PDF)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
+    "furtherReadingIntro": "You might also find the following useful:",
+    "furtherReadingBody": "- [Wahl-O-Mat Berlin 2026](https://www.wahl-o-mat.de/berlin2026/app/main_app.html)\n- [Wikipedia: 2026 Berlin state election](https://en.wikipedia.org/wiki/2026_Berlin_state_election)\n- [RBB: Berlin Elections 2026 FAQ (English)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: Elections in easy language (Leichte Sprache)](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Berlin State Centre for Political Education: Elections 2026 brochure (PDF)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
   },
   "table": {
     "title": "Party programs for the 2026 Berlin state election",
-    "subtitle": "10 parties · for / against / mixed · from official programs. Topics include transport, housing, climate, security, education, health, migration, and more.",
+    "subtitle": "Positions of the 10 largest parties on transport, housing, climate, security, education, health, migration, and other issues — from their official programs.",
     "topicColumn": "Topic",
     "legendFor": "For / supportive",
     "legendAgainst": "Against / opposing",
     "legendMixed": "Mixed / qualified / unclear",
-    "legendNone": "Not found in excerpts",
+    "legendNone": "Not found in the program",
     "scrollHint": "Showing selected parties only — add more with the labels above.",
     "programLink": "Program",
     "emptyCell": "—",

@@ -21,7 +21,7 @@ export type Translations = {
     tagline: string
   }
   navigation: {
-    about: string
+    motivation: string
     table: string
     privacy: string
   }
@@ -33,7 +33,7 @@ export type Translations = {
     disclaimer: string
     scrollHint: string
   }
-  about: {
+  motivation: {
     title: string
     berlinVotesTitle: string
     berlinVotesBody: string
@@ -45,7 +45,7 @@ export type Translations = {
     whatWeDidBody: string
     beforeYouVoteTitle: string
     beforeYouVoteBody: string
-    furtherReadingTitle: string
+    furtherReadingIntro: string
     furtherReadingBody: string
   }
   table: {
