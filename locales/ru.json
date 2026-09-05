@@ -67,7 +67,24 @@
     "selectedCount": "Выбрано: {count}",
     "expandTopic": "Показать позиции",
     "collapseTopic": "Скрыть",
-    "openProgram": "Программа партии"
+    "openProgram": "Программа партии",
+    "expandGroup": "Развернуть группу",
+    "collapseGroup": "Свернуть группу",
+    "groups": {
+      "transport": "Транспорт",
+      "waste": "Чистота и мусор",
+      "climate_energy": "Климат и энергия",
+      "animals": "Животные",
+      "housing": "Жильё",
+      "security": "Безопасность",
+      "education": "Образование",
+      "health": "Здравоохранение",
+      "migration": "Миграция",
+      "economy": "Экономика",
+      "society": "Общество и культура",
+      "democracy": "Демократия",
+      "other": "Другое"
+    }
   },
   "footer": {
     "aiNotice": "Тексты и сравнительная таблица на этом сайте созданы с помощью ИИ.",

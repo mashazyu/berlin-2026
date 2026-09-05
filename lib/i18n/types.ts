@@ -68,6 +68,23 @@ export type Translations = {
     expandTopic: string
     collapseTopic: string
     openProgram: string
+    expandGroup: string
+    collapseGroup: string
+    groups: {
+      transport: string
+      waste: string
+      climate_energy: string
+      animals: string
+      housing: string
+      security: string
+      education: string
+      health: string
+      migration: string
+      economy: string
+      society: string
+      democracy: string
+      other: string
+    }
   }
   footer: {
     aiNotice: string

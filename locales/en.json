@@ -68,7 +68,24 @@
     "selectedCount": "{count} selected",
     "expandTopic": "Show positions",
     "collapseTopic": "Hide",
-    "openProgram": "Party program"
+    "openProgram": "Party program",
+    "expandGroup": "Expand group",
+    "collapseGroup": "Collapse group",
+    "groups": {
+      "transport": "Transport",
+      "waste": "Cleanliness & waste",
+      "climate_energy": "Climate & energy",
+      "animals": "Animals",
+      "housing": "Housing",
+      "security": "Security",
+      "education": "Education",
+      "health": "Health",
+      "migration": "Migration",
+      "economy": "Economy",
+      "society": "Society & culture",
+      "democracy": "Democracy",
+      "other": "Other"
+    }
   },
   "footer": {
     "aiNotice": "Texts and the comparison table on this website were created with AI assistance.",

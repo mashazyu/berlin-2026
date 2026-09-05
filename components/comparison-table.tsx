@@ -4,8 +4,9 @@ import { useMemo, useRef, useState } from "react"
 import { ChevronDown, ExternalLink } from "lucide-react"
 import { useLanguage } from "@/components/language-provider"
 import { StanceBadge } from "@/components/stance-badge"
+import { groupTopics, TOPIC_GROUP_ORDER } from "@/lib/comparison/groups"
 import { cellKey } from "@/lib/comparison/get-comparison"
-import type { ResolvedComparison, Stance } from "@/lib/comparison/types"
+import type { ResolvedComparison, Stance, TopicGroup } from "@/lib/comparison/types"
 import { cn, renderParagraphs } from "@/lib/utils"
 
 const MAJOR_PARTY_IDS = ["cdu", "spd", "gruene", "linke"] as const
@@ -21,11 +22,16 @@ export function ComparisonTable({
   const { parties, topics, cellsByKey } = comparison
 
   const [selectedIds, setSelectedIds] = useState<string[]>([...MAJOR_PARTY_IDS])
-  const [openTopicId, setOpenTopicId] = useState<string | null>(topics[0]?.id ?? null)
+  const [openTopicId, setOpenTopicId] = useState<string | null>(null)
+  const [collapsedGroups, setCollapsedGroups] = useState<Set<TopicGroup>>(
+    () => new Set(TOPIC_GROUP_ORDER)
+  )
 
   const headerScrollRef = useRef<HTMLDivElement>(null)
   const bodyScrollRef = useRef<HTMLDivElement>(null)
   const syncingScroll = useRef(false)
+
+  const topicGroups = useMemo(() => groupTopics(topics), [topics])
 
   const selectedParties = useMemo(
     () => parties.filter((party) => selectedIds.includes(party.id)),
@@ -33,6 +39,7 @@ export function ComparisonTable({
   )
 
   const tableMinWidth = TOPIC_COL_PX + selectedParties.length * PARTY_COL_PX
+  const colSpan = 1 + selectedParties.length
 
   function syncScroll(source: "header" | "body") {
     const header = headerScrollRef.current
@@ -62,10 +69,30 @@ export function ComparisonTable({
     setSelectedIds(parties.map((party) => party.id))
   }
 
+  function toggleGroup(group: TopicGroup) {
+    setCollapsedGroups((current) => {
+      const next = new Set(current)
+      if (next.has(group)) next.delete(group)
+      else next.add(group)
+      return next
+    })
+  }
+
   const countLabel = t.table.selectedCount.replace(
     "{count}",
     String(selectedParties.length)
   )
+
+  const desktopRows = useMemo(() => {
+    let rowIndex = 0
+    return topicGroups.map(({ group, topics: groupTopicList }) => ({
+      group,
+      topics: groupTopicList.map((topic) => ({
+        topic,
+        rowIndex: rowIndex++,
+      })),
+    }))
+  }, [topicGroups])
 
   return (
     <section id="table" className="scroll-mt-[4.25rem] bg-white px-4 py-16 sm:px-6 sm:py-20">
@@ -138,77 +165,120 @@ export function ComparisonTable({
           </p>
         </div>
 
-        <div className="mt-6 space-y-3 lg:hidden">
-          {topics.map((topic) => {
-            const open = openTopicId === topic.id
+        {/* Mobile: grouped topic accordions */}
+        <div className="mt-6 space-y-4 lg:hidden">
+          {topicGroups.map(({ group, topics: groupTopicList }) => {
+            const collapsed = collapsedGroups.has(group)
+            const groupLabel = t.table.groups[group]
             return (
               <div
-                key={topic.id}
+                key={group}
                 className="overflow-hidden rounded-xl border border-border bg-white"
               >
                 <button
                   type="button"
-                  className="flex w-full items-start justify-between gap-3 px-4 py-3.5 text-left"
-                  aria-expanded={open}
-                  onClick={() =>
-                    setOpenTopicId((current) =>
-                      current === topic.id ? null : topic.id
-                    )
+                  className="flex w-full items-center justify-between gap-3 bg-muted/50 px-4 py-3.5 text-left"
+                  aria-expanded={!collapsed}
+                  aria-label={
+                    collapsed ? t.table.expandGroup : t.table.collapseGroup
                   }
+                  onClick={() => toggleGroup(group)}
                 >
-                  <span className="text-sm font-semibold leading-snug text-foreground sm:text-base">
-                    {topic.displayLabel}
+                  <span className="font-display text-base font-semibold tracking-[-0.01em] text-foreground">
+                    {groupLabel}
+                    <span className="ml-2 text-sm font-normal text-muted-foreground">
+                      ({groupTopicList.length})
+                    </span>
                   </span>
-                  <span className="inline-flex shrink-0 items-center gap-1 text-xs font-medium text-muted-foreground">
-                    {open ? t.table.collapseTopic : t.table.expandTopic}
-                    <ChevronDown
-                      className={cn(
-                        "h-4 w-4 transition-transform",
-                        open && "rotate-180"
-                      )}
-                    />
-                  </span>
+                  <ChevronDown
+                    className={cn(
+                      "h-4 w-4 shrink-0 text-muted-foreground transition-transform",
+                      !collapsed && "rotate-180"
+                    )}
+                  />
                 </button>
 
-                {open && (
-                  <ul className="divide-y divide-border border-t border-border">
-                    {selectedParties.map((party) => {
-                      const cell = cellsByKey[cellKey(topic.id, party.id)]
-                      const stance = cell?.stance ?? "none"
-                      const summary = cell?.summary?.trim() ?? ""
+                {!collapsed && (
+                  <div className="space-y-2 border-t border-border p-2">
+                    {groupTopicList.map((topic) => {
+                      const open = openTopicId === topic.id
                       return (
-                        <li key={party.id} className="px-4 py-3">
-                          <div className="mb-2 flex items-center justify-between gap-2">
-                            <div className="flex items-center gap-2">
-                              <StanceBadge stance={stance} />
-                              <span className="text-sm font-semibold text-foreground">
-                                {party.shortName}
-                              </span>
-                            </div>
-                            <a
-                              href={party.programUrl}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="inline-flex items-center gap-1 text-xs text-primary hover:underline"
-                            >
-                              {t.table.openProgram}
-                              <ExternalLink className="h-3 w-3" aria-hidden />
-                            </a>
-                          </div>
-                          <p className="text-sm leading-relaxed text-muted-foreground">
-                            {summary || t.table.emptyCell}
-                          </p>
-                        </li>
+                        <div
+                          key={topic.id}
+                          className="overflow-hidden rounded-lg border border-border bg-white"
+                        >
+                          <button
+                            type="button"
+                            className="flex w-full items-start justify-between gap-3 px-3 py-3 text-left"
+                            aria-expanded={open}
+                            onClick={() =>
+                              setOpenTopicId((current) =>
+                                current === topic.id ? null : topic.id
+                              )
+                            }
+                          >
+                            <span className="text-sm font-semibold leading-snug text-foreground">
+                              {topic.displayLabel}
+                            </span>
+                            <span className="inline-flex shrink-0 items-center gap-1 text-xs font-medium text-muted-foreground">
+                              {open ? t.table.collapseTopic : t.table.expandTopic}
+                              <ChevronDown
+                                className={cn(
+                                  "h-4 w-4 transition-transform",
+                                  open && "rotate-180"
+                                )}
+                              />
+                            </span>
+                          </button>
+
+                          {open && (
+                            <ul className="divide-y divide-border border-t border-border">
+                              {selectedParties.map((party) => {
+                                const cell =
+                                  cellsByKey[cellKey(topic.id, party.id)]
+                                const stance = cell?.stance ?? "none"
+                                const summary = cell?.summary?.trim() ?? ""
+                                return (
+                                  <li key={party.id} className="px-3 py-3">
+                                    <div className="mb-2 flex items-center justify-between gap-2">
+                                      <div className="flex items-center gap-2">
+                                        <StanceBadge stance={stance} />
+                                        <span className="text-sm font-semibold text-foreground">
+                                          {party.shortName}
+                                        </span>
+                                      </div>
+                                      <a
+                                        href={party.programUrl}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="inline-flex items-center gap-1 text-xs text-primary hover:underline"
+                                      >
+                                        {t.table.openProgram}
+                                        <ExternalLink
+                                          className="h-3 w-3"
+                                          aria-hidden
+                                        />
+                                      </a>
+                                    </div>
+                                    <p className="text-sm leading-relaxed text-muted-foreground">
+                                      {summary || t.table.emptyCell}
+                                    </p>
+                                  </li>
+                                )
+                              })}
+                            </ul>
+                          )}
+                        </div>
                       )
                     })}
-                  </ul>
+                  </div>
                 )}
               </div>
             )
           })}
         </div>
 
-        {/* Desktop: viewport-sticky party header + scroll-synced body */}
+        {/* Desktop: grouped table */}
         <div className="mt-8 hidden lg:block">
           <div
             ref={headerScrollRef}
@@ -272,52 +342,130 @@ export function ComparisonTable({
                 ))}
               </colgroup>
               <tbody>
-                {topics.map((topic, rowIndex) => (
-                  <tr
-                    key={topic.id}
-                    className={rowIndex % 2 === 0 ? "bg-white" : "bg-muted/30"}
-                  >
-                    <th
-                      scope="row"
-                      className="sticky left-0 z-10 border-r border-border px-3 py-3 align-top text-left font-medium text-foreground"
-                      style={{
-                        backgroundColor:
-                          rowIndex % 2 === 0
-                            ? "#ffffff"
-                            : "hsl(30 20% 96%)",
-                      }}
+                {desktopRows.map(({ group, topics: groupTopicList }) => {
+                  const collapsed = collapsedGroups.has(group)
+                  const groupLabel = t.table.groups[group]
+                  return (
+                    <GroupRows
+                      key={group}
+                      groupLabel={groupLabel}
+                      topicCount={groupTopicList.length}
+                      collapsed={collapsed}
+                      colSpan={colSpan}
+                      topicColPx={TOPIC_COL_PX}
+                      expandLabel={t.table.expandGroup}
+                      collapseLabel={t.table.collapseGroup}
+                      onToggle={() => toggleGroup(group)}
                     >
-                      {topic.displayLabel}
-                    </th>
-                    {selectedParties.map((party) => {
-                      const cell = cellsByKey[cellKey(topic.id, party.id)]
-                      const stance = cell?.stance ?? "none"
-                      const summary = cell?.summary?.trim() ?? ""
-                      return (
-                        <td
-                          key={party.id}
-                          className="border-b border-border/50 px-3 py-3 align-top text-muted-foreground"
-                        >
-                          <div className="flex gap-2">
-                            <StanceBadge
-                              stance={stance}
-                              className="mt-0.5 shrink-0"
-                            />
-                            <span className="min-w-0 flex-1 text-[13px] leading-snug">
-                              {summary || t.table.emptyCell}
-                            </span>
-                          </div>
-                        </td>
-                      )
-                    })}
-                  </tr>
-                ))}
+                      {!collapsed &&
+                        groupTopicList.map(({ topic, rowIndex }) => (
+                            <tr
+                              key={topic.id}
+                              className={
+                                rowIndex % 2 === 0 ? "bg-white" : "bg-muted/30"
+                              }
+                            >
+                              <th
+                                scope="row"
+                                className="sticky left-0 z-10 border-r border-border px-3 py-3 align-top text-left font-medium text-foreground"
+                                style={{
+                                  backgroundColor:
+                                    rowIndex % 2 === 0
+                                      ? "#ffffff"
+                                      : "hsl(210 14% 96%)",
+                                }}
+                              >
+                                {topic.displayLabel}
+                              </th>
+                              {selectedParties.map((party) => {
+                                const cell =
+                                  cellsByKey[cellKey(topic.id, party.id)]
+                                const stance = cell?.stance ?? "none"
+                                const summary = cell?.summary?.trim() ?? ""
+                                return (
+                                  <td
+                                    key={party.id}
+                                    className="border-b border-border/50 px-3 py-3 align-top text-muted-foreground"
+                                  >
+                                    <div className="flex gap-2">
+                                      <StanceBadge
+                                        stance={stance}
+                                        className="mt-0.5 shrink-0"
+                                      />
+                                      <span className="min-w-0 flex-1 text-[13px] leading-snug">
+                                        {summary || t.table.emptyCell}
+                                      </span>
+                                    </div>
+                                  </td>
+                                )
+                              })}
+                            </tr>
+                          ))}
+                    </GroupRows>
+                  )
+                })}
               </tbody>
             </table>
           </div>
         </div>
       </div>
     </section>
+  )
+}
+
+function GroupRows({
+  groupLabel,
+  topicCount,
+  collapsed,
+  colSpan,
+  topicColPx,
+  expandLabel,
+  collapseLabel,
+  onToggle,
+  children,
+}: {
+  groupLabel: string
+  topicCount: number
+  collapsed: boolean
+  colSpan: number
+  topicColPx: number
+  expandLabel: string
+  collapseLabel: string
+  onToggle: () => void
+  children: React.ReactNode
+}) {
+  return (
+    <>
+      <tr className="bg-section-muted">
+        <th
+          colSpan={colSpan}
+          className="sticky left-0 z-20 border-y border-border p-0 text-left"
+          style={{ minWidth: topicColPx }}
+        >
+          <button
+            type="button"
+            onClick={onToggle}
+            aria-expanded={!collapsed}
+            aria-label={collapsed ? expandLabel : collapseLabel}
+            className="flex w-full items-center justify-between gap-3 px-3 py-2.5 text-left transition-colors hover:bg-muted/80"
+          >
+            <span className="font-display text-sm font-semibold tracking-[-0.01em] text-foreground">
+              {groupLabel}
+              <span className="ml-2 text-xs font-normal text-muted-foreground">
+                ({topicCount})
+              </span>
+            </span>
+            <ChevronDown
+              className={cn(
+                "h-4 w-4 shrink-0 text-muted-foreground transition-transform",
+                !collapsed && "rotate-180"
+              )}
+            />
+          </button>
+        </th>
+      </tr>
+      {children}
+    </>
   )
 }
 

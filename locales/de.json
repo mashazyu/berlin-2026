@@ -68,7 +68,24 @@
     "selectedCount": "{count} ausgewählt",
     "expandTopic": "Positionen anzeigen",
     "collapseTopic": "Ausblenden",
-    "openProgram": "Wahlprogramm"
+    "openProgram": "Wahlprogramm",
+    "expandGroup": "Gruppe ausklappen",
+    "collapseGroup": "Gruppe einklappen",
+    "groups": {
+      "transport": "Verkehr",
+      "waste": "Sauberkeit & Müll",
+      "climate_energy": "Klima & Energie",
+      "animals": "Tiere",
+      "housing": "Wohnen",
+      "security": "Sicherheit",
+      "education": "Bildung",
+      "health": "Gesundheit",
+      "migration": "Migration",
+      "economy": "Wirtschaft",
+      "society": "Gesellschaft & Kultur",
+      "democracy": "Demokratie",
+      "other": "Sonstiges"
+    }
   },
   "footer": {
     "aiNotice": "Texte und die Vergleichstabelle auf dieser Website wurden mit KI-Unterstützung erstellt.",
