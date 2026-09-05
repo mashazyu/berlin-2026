@@ -9,7 +9,8 @@
     "start": "next start",
     "lint": "eslint . --ignore-pattern .next --ignore-pattern next-env.d.ts",
     "type-check": "tsc --noEmit --incremental false",
-    "encode:comparison": "node scripts/encode-comparison.mjs"
+    "encode:comparison": "node scripts/encode-comparison.mjs",
+    "regen:og-fonts": "node scripts/regen-og-fonts.mjs"
   },
   "dependencies": {
     "@radix-ui/react-scroll-area": "^1.2.18",
