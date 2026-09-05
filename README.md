@@ -1,10 +1,10 @@
 # Berlin 2026
 
-Informational comparison of Berlin party positions on climate, transport, and the city for the **20 September 2026** Abgeordnetenhaus election.
+Informational comparison of Berlin party positions for the **20 September 2026** Berlin state election (Wahl zum Abgeordnetenhaus).
 
 Live domain: [www.berlin-2026.de](https://www.berlin-2026.de)
 
-Languages: English, German (placeholders → English fallback), Russian.
+Languages: English, German, Russian.
 
 ## Stack
 
@@ -20,7 +20,7 @@ pnpm install
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) (redirects to `/en` or negotiated language).
+Open [http://localhost:3000](http://localhost:3000) (redirects to `/de` or negotiated language).
 
 ```bash
 pnpm build

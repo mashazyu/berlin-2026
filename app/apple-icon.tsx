@@ -3,7 +3,7 @@ import { ImageResponse } from "next/og"
 export const size = { width: 180, height: 180 }
 export const contentType = "image/png"
 
-/** Share / home-screen icon — Berlin (orange) + 2026 (black), header style. */
+/** Share / home-screen icon — big ’26, same size, horizontal. */
 export default function AppleIcon() {
   return new ImageResponse(
     (
@@ -12,40 +12,20 @@ export default function AppleIcon() {
           width: "100%",
           height: "100%",
           display: "flex",
-          flexDirection: "column",
           alignItems: "center",
           justifyContent: "center",
-          background: "#ffffff",
+          background: "#F3F5F7",
           borderRadius: 40,
-          border: "6px solid #E5E8EB",
+          overflow: "hidden",
           fontFamily: "ui-sans-serif, system-ui, sans-serif",
+          fontSize: 92,
+          fontWeight: 800,
+          letterSpacing: -3,
+          color: "#F55A1F",
+          lineHeight: 1,
         }}
       >
-        <div
-          style={{
-            display: "flex",
-            fontSize: 42,
-            fontWeight: 800,
-            letterSpacing: -1.2,
-            color: "#F55A1F",
-            lineHeight: 1,
-          }}
-        >
-          Berlin
-        </div>
-        <div
-          style={{
-            display: "flex",
-            marginTop: 8,
-            fontSize: 42,
-            fontWeight: 800,
-            letterSpacing: -1,
-            color: "#171E25",
-            lineHeight: 1,
-          }}
-        >
-          2026
-        </div>
+        ’26
       </div>
     ),
     { ...size }

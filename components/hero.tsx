@@ -13,6 +13,9 @@ export function Hero({ language }: { language: Language }) {
         <p className="mx-auto mt-5 max-w-2xl text-base text-muted-foreground sm:text-lg">
           {t.hero.support}
         </p>
+        <p className="mx-auto mt-3 max-w-xl text-sm text-muted-foreground">
+          {t.hero.blurb}
+        </p>
         <HeroCta />
       </div>
 

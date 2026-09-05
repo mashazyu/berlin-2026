@@ -30,7 +30,12 @@ export function JsonLd({ language }: { language: Language }) {
         inLanguage: language,
         about: {
           "@type": "Event",
-          name: "Abgeordnetenhaus election Berlin 2026",
+          name:
+            language === "de"
+              ? "Wahl zum Abgeordnetenhaus von Berlin 2026"
+              : language === "ru"
+                ? "Земельные выборы в Берлине 2026"
+                : "2026 Berlin state election",
           startDate: "2026-09-20",
           location: {
             "@type": "Place",

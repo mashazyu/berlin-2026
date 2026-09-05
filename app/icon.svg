@@ -1,24 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <style>
-    .tile { fill: #ffffff; }
-    .ring { stroke: #E5E8EB; fill: none; }
-    .mark { fill: #171E25; }
-    @media (prefers-color-scheme: dark) {
-      .tile { fill: #171E25; }
-      .ring { stroke: #3A424A; }
-      .mark { fill: #ffffff; }
-    }
-  </style>
-  <rect class="tile" width="32" height="32" rx="8"/>
-  <rect class="ring" x="0.6" y="0.6" width="30.8" height="30.8" rx="7.4" stroke-width="1.2"/>
+  <rect width="32" height="32" rx="8" fill="#F3F5F7"/>
   <text
-    class="mark"
     x="16"
-    y="21.5"
+    y="23"
     text-anchor="middle"
+    fill="#F55A1F"
     font-family="ui-sans-serif, system-ui, -apple-system, sans-serif"
-    font-size="13"
+    font-size="18"
     font-weight="800"
-    letter-spacing="-0.6"
+    letter-spacing="-1"
   >’26</text>
 </svg>

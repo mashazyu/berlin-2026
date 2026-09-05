@@ -1,15 +1,16 @@
 {
   "metadata": {
-    "homeTitle": "Berlin 2026 — How parties stand on the big issues",
-    "homeDescription": "Compare Berlin party election programs for the Abgeordnetenhaus vote on 20 September 2026 — transport, housing, climate, security, education, health, migration, and more, side by side.",
+    "homeTitle": "Berlin 2026 — Compare party programs for the state election",
+    "homeDescription": "Side-by-side comparison of official party programs for the Berlin state election on 20 September 2026 — transport, housing, climate, security, education, health, migration, and more.",
     "privacyTitle": "Privacy Policy — Berlin 2026",
     "privacyDescription": "How Berlin 2026 handles personal data in line with GDPR.",
     "aiDisclosureTitle": "AI Disclosure — Berlin 2026",
     "aiDisclosureDescription": "How we use AI tools to help write website text and compare party programs, and how humans remain responsible for ideas, substance, and accuracy.",
     "keywords": [
       "Berlin",
-      "election 2026",
-      "Abgeordnetenhaus",
+      "Berlin state election 2026",
+      "House of Representatives",
+      "party programs",
       "party comparison",
       "climate",
       "transport"
@@ -25,8 +26,9 @@
     "privacy": "Privacy"
   },
   "hero": {
-    "headline": "How Berlin’s parties stand on the big issues",
-    "support": "Abgeordnetenhaus election · 20 September 2026 · 10 parties, 50+ topics side by side",
+    "headline": "Compare party programs for the 2026 Berlin state election",
+    "support": "20 September 2026 · Berlin House of Representatives · 10 parties · 50+ topics",
+    "blurb": "Side-by-side positions from official programs — not a voting advice tool.",
     "cta": "Compare programs",
     "disclaimer": "This project is not campaign material and is not affiliated with any party.",
     "scrollHint": "Scroll to comparison"
@@ -34,7 +36,7 @@
   "about": {
     "title": "Motivation",
     "berlinVotesTitle": "Berlin votes on 20 September 2026",
-    "berlinVotesBody": "Every 5 years Berlin votes for a new parliament that will shape the city's policies.",
+    "berlinVotesBody": "Every 5 years Berlin elects a new House of Representatives (Abgeordnetenhaus), the state parliament that shapes the city’s policies.",
     "accessibilityTitle": "Accessibility and Language",
     "accessibilityBody": "About 16% of German citizens in Berlin have a migration background. Election programs are only published in German and can run up to 200 pages. That's a hard read even for native speakers. Wahl-O-Mat helps, but it's not built to go deep.",
     "clarityTitle": "Clarity and Substance",
@@ -47,8 +49,8 @@
     "furtherReadingBody": "- [RBB: Berlin Elections 2026 FAQ (English)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: Elections in easy language (Leichte Sprache)](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Berlin political education: Elections 2026 brochure (PDF)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
   },
   "table": {
-    "title": "Party election program comparison",
-    "subtitle": "Positions across transport, housing, climate, security, education, health, migration, and more — side by side.",
+    "title": "Party programs for the 2026 Berlin state election",
+    "subtitle": "10 parties · for / against / mixed · from official programs. Topics include transport, housing, climate, security, education, health, migration, and more.",
     "topicColumn": "Topic",
     "legendFor": "For / supportive",
     "legendAgainst": "Against / opposing",

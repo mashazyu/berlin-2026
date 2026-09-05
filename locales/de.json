@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "homeTitle": "Berlin 2026 — Wahlprogramme im Vergleich",
-    "homeDescription": "Vergleich der Berliner Wahlprogramme zur Abgeordnetenhauswahl am 20. September 2026 — Verkehr, Wohnen, Klima, Sicherheit, Bildung, Gesundheit, Migration und mehr.",
+    "homeTitle": "Berlin 2026 — Wahlprogramme zur Abgeordnetenhauswahl vergleichen",
+    "homeDescription": "Wahlprogramme zur Wahl zum Abgeordnetenhaus am 20. September 2026 im Vergleich — Verkehr, Wohnen, Klima, Sicherheit, Bildung, Gesundheit, Migration und mehr.",
     "privacyTitle": "Datenschutzerklärung — Berlin 2026",
     "privacyDescription": "Wie Berlin 2026 personenbezogene Daten gemäß DSGVO verarbeitet.",
     "aiDisclosureTitle": "KI-Hinweis — Berlin 2026",
@@ -10,6 +10,7 @@
       "Berlin",
       "Wahl 2026",
       "Abgeordnetenhaus",
+      "Abgeordnetenhauswahl",
       "Wahlprogramme",
       "Parteivergleich",
       "Klima",
@@ -26,8 +27,9 @@
     "privacy": "Datenschutz"
   },
   "hero": {
-    "headline": "Berliner Wahlprogramme im Vergleich",
-    "support": "Abgeordnetenhauswahl · 20. September 2026 · 10 Parteien, über 50 Themen",
+    "headline": "Wahlprogramme zur Abgeordnetenhauswahl 2026 im Vergleich",
+    "support": "20. September 2026 · Abgeordnetenhaus · 10 Parteien · über 50 Themen",
+    "blurb": "Positionen aus den offiziellen Wahlprogrammen nebeneinander — keine Wahlempfehlung.",
     "cta": "Programme vergleichen",
     "disclaimer": "Dieser Beitrag steht in keiner Verbindung zu einer Partei und ist keine Wahlwerbung.",
     "scrollHint": "Zum Vergleich scrollen"
@@ -35,7 +37,7 @@
   "about": {
     "title": "Motivation",
     "berlinVotesTitle": "Berlin wählt am 20. September 2026",
-    "berlinVotesBody": "Alle fünf Jahre wählt Berlin ein neues Parlament, das die Politik der Stadt prägt.",
+    "berlinVotesBody": "Alle fünf Jahre wählt Berlin ein neues Abgeordnetenhaus — das Landesparlament, das die Politik der Stadt prägt.",
     "accessibilityTitle": "Zugänglichkeit und Sprache",
     "accessibilityBody": "Etwa 16 % der deutschen Staatsangehörigen in Berlin haben einen Migrationshintergrund. Wahlprogramme erscheinen nur auf Deutsch und können bis zu 200 Seiten umfassen. Das ist selbst für Muttersprachler:innen schwer zu lesen. Der Wahl-O-Mat hilft, geht aber nicht in die Tiefe.",
     "clarityTitle": "Klarheit und Substanz",
@@ -48,8 +50,8 @@
     "furtherReadingBody": "- [RBB: FAQ zu den Berlin-Wahlen 2026 (Englisch)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: Wahlen in Leichter Sprache](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Broschüre Wahlen 2026 der Berliner Landeszentrale für politische Bildung (PDF, EN)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
   },
   "table": {
-    "title": "Vergleich der Wahlprogramme",
-    "subtitle": "Positionen zu Verkehr, Wohnen, Klima, Sicherheit, Bildung, Gesundheit, Migration und mehr — im direkten Vergleich.",
+    "title": "Wahlprogramme zur Abgeordnetenhauswahl 2026",
+    "subtitle": "10 Parteien · dafür / dagegen / gemischt · nach den offiziellen Programmen. Themen u. a. Verkehr, Wohnen, Klima, Sicherheit, Bildung, Gesundheit und Migration.",
     "topicColumn": "Thema",
     "legendFor": "Dafür / befürwortend",
     "legendAgainst": "Dagegen",

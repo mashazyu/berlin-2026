@@ -28,6 +28,7 @@ export type Translations = {
   hero: {
     headline: string
     support: string
+    blurb: string
     cta: string
     disclaimer: string
     scrollHint: string
