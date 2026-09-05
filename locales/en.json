@@ -2,6 +2,8 @@
   "metadata": {
     "homeTitle": "Berlin 2026 — Compare party programs for the state election",
     "homeDescription": "Side-by-side comparison of official party programs for the Berlin state election on 20 September 2026 — transport, housing, climate, security, education, health, migration, and more.",
+    "aboutTitle": "About — Berlin 2026",
+    "aboutDescription": "Who runs Berlin 2026: Nina compares party programs and develops the project; Masha handles the technical side.",
     "privacyTitle": "Privacy Policy — Berlin 2026",
     "privacyDescription": "How Berlin 2026 handles personal data in line with GDPR.",
     "aiDisclosureTitle": "AI Disclosure — Berlin 2026",
@@ -73,7 +75,12 @@
     "aiDisclosure": "AI disclosure",
     "relatedSite": "Full program translations: BerlinVote.Help",
     "contact": "Contact",
+    "about": "About",
     "privacy": "Privacy"
+  },
+  "about": {
+    "title": "About",
+    "body": "Berlin 2026 is an independent project comparing party programs across policy areas ahead of the 2026 Berlin state election. Official programs are published only in German — we translate them into languages spoken in Berlin.\n\nNina compares the programs and develops the project; Masha handles the technical side. In parallel we work on [Water for All / Wasser für alle](https://www.water4all.com.de) — an open atlas of free drinking water in Berlin. The project makes access to water visible and helps residents push for new drinking fountains.\n\nContent was created with AI assistance (see [more about AI](/{lang}/ai-disclosure)). Write to us via Contact at the bottom of the page."
   },
   "aiDisclosure": {
     "title": "AI Disclosure",

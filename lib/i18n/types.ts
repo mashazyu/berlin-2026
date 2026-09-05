@@ -10,6 +10,8 @@ export type Translations = {
   metadata: {
     homeTitle: string
     homeDescription: string
+    aboutTitle: string
+    aboutDescription: string
     privacyTitle: string
     privacyDescription: string
     aiDisclosureTitle: string
@@ -72,7 +74,12 @@ export type Translations = {
     aiDisclosure: string
     relatedSite: string
     contact: string
+    about: string
     privacy: string
+  }
+  about: {
+    title: string
+    body: string
   }
   aiDisclosure: {
     title: string

@@ -21,6 +21,12 @@ export function SiteFooter() {
           </p>
           <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-muted-foreground">
             <Link
+              href={`/${language}/about`}
+              className="transition-colors hover:text-foreground"
+            >
+              {t.footer.about}
+            </Link>
+            <Link
               href={`/${language}/ai-disclosure`}
               className="transition-colors hover:text-foreground"
             >

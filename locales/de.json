@@ -2,6 +2,8 @@
   "metadata": {
     "homeTitle": "Berlin 2026 — Wahlprogramme zur Abgeordnetenhauswahl vergleichen",
     "homeDescription": "Berliner Wahlprogramme zur Abgeordnetenhauswahl am 20. September 2026 im Vergleich — Verkehr, Wohnen, Klima, Sicherheit, Bildung, Gesundheit, Migration und mehr.",
+    "aboutTitle": "Über uns — Berlin 2026",
+    "aboutDescription": "Wer hinter Berlin 2026 steckt: Nina vergleicht die Programme und treibt das Projekt voran; Mascha sorgt für die technische Umsetzung.",
     "privacyTitle": "Datenschutzerklärung — Berlin 2026",
     "privacyDescription": "Wie Berlin 2026 personenbezogene Daten gemäß DSGVO verarbeitet.",
     "aiDisclosureTitle": "KI-Hinweis — Berlin 2026",
@@ -73,7 +75,12 @@
     "aiDisclosure": "KI-Hinweis",
     "relatedSite": "Vollständige Programmübersetzungen: BerlinVote.Help",
     "contact": "Kontakt",
+    "about": "Über uns",
     "privacy": "Datenschutz"
+  },
+  "about": {
+    "title": "Über uns",
+    "body": "Berlin 2026 ist ein unabhängiges Projekt zum Vergleich von Parteiprogrammen zu verschiedenen Politikfeldern vor der Abgeordnetenhauswahl 2026 in Berlin. Offizielle Programme erscheinen nur auf Deutsch — wir übersetzen sie in Sprachen, die in Berlin gesprochen werden.\n\nNina vergleicht die Programme und treibt das Projekt voran, Mascha sorgt für die technische Umsetzung. Parallel arbeiten wir an [Wasser für alle / Water for All](https://www.water4all.com.de/de) — einem offenen Atlas freier Trinkwasserstellen in Berlin. Das Projekt macht den Zugang zu Wasser sichtbar und hilft den Menschen vor Ort, sich für neue Trinkbrunnen einzusetzen.\n\nDie Inhalte entstanden mit KI-Unterstützung (siehe [mehr zum KI-Hinweis](/{lang}/ai-disclosure)). Schreiben Sie uns über „Kontakt“ unten auf der Seite."
   },
   "aiDisclosure": {
     "title": "KI-Hinweis",

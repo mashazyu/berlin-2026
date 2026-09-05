@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react"
 import Link from "next/link"
+import { usePathname } from "next/navigation"
 import { Menu, X } from "lucide-react"
 import { useLanguage } from "@/components/language-provider"
 import { LanguageSwitcher } from "@/components/language-switcher"
@@ -13,11 +14,15 @@ import { cn } from "@/lib/utils"
 
 export function SiteHeader() {
   const { language, translations: t } = useLanguage()
+  const pathname = usePathname()
   const [open, setOpen] = useState(false)
 
-  const links = [
-    { href: "table", label: t.navigation.table },
-    { href: "motivation", label: t.navigation.motivation },
+  const homePath = `/${language}`
+  const onHome = pathname === homePath || pathname === `${homePath}/`
+
+  const sectionLinks = [
+    { id: "table", label: t.navigation.table },
+    { id: "motivation", label: t.navigation.motivation },
   ]
 
   function closeMenu() {
@@ -25,18 +30,18 @@ export function SiteHeader() {
   }
 
   useEffect(() => {
+    if (!onHome) return
     const hash = window.location.hash.replace(/^#/, "")
     if (!hash) return
-    // Wait for layout after language / content paint
     const timer = window.setTimeout(() => scrollToSection(hash), 80)
     return () => window.clearTimeout(timer)
-  }, [])
+  }, [onHome])
 
   return (
     <header className="sticky top-0 z-40 border-b border-border bg-white">
       <div className="mx-auto flex h-14 max-w-7xl items-center justify-between gap-4 px-4 sm:px-6">
         <Link
-          href={`/${language}`}
+          href={homePath}
           className="flex h-9 shrink-0 items-center font-display text-base font-semibold tracking-[-0.01em] text-foreground"
           onClick={closeMenu}
         >
@@ -47,16 +52,27 @@ export function SiteHeader() {
 
         <div className="flex h-9 items-center gap-1 sm:gap-2">
           <nav className="mr-3 hidden h-9 items-center md:mr-5 md:flex" aria-label="Primary">
-            {links.map((link) => (
-              <a
-                key={link.href}
-                href={`#${link.href}`}
-                className="inline-flex h-9 items-center px-3 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
-                onClick={(event) => handleSectionLinkClick(event, link.href)}
-              >
-                {link.label}
-              </a>
-            ))}
+            {sectionLinks.map((link) =>
+              onHome ? (
+                <a
+                  key={link.id}
+                  href={`#${link.id}`}
+                  className="inline-flex h-9 items-center px-3 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
+                  onClick={(event) => handleSectionLinkClick(event, link.id)}
+                >
+                  {link.label}
+                </a>
+              ) : (
+                <Link
+                  key={link.id}
+                  href={`${homePath}#${link.id}`}
+                  className="inline-flex h-9 items-center px-3 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
+                  onClick={closeMenu}
+                >
+                  {link.label}
+                </Link>
+              )
+            )}
           </nav>
 
           <LanguageSwitcher />
@@ -83,18 +99,29 @@ export function SiteHeader() {
         aria-label="Mobile"
       >
         <div className="mx-auto flex max-w-7xl flex-col px-2 py-2 sm:px-4">
-          {links.map((link) => (
-            <a
-              key={link.href}
-              href={`#${link.href}`}
-              className="flex h-11 items-center rounded-md px-3 text-sm font-medium text-foreground transition-colors hover:bg-muted"
-              onClick={(event) =>
-                handleSectionLinkClick(event, link.href, closeMenu)
-              }
-            >
-              {link.label}
-            </a>
-          ))}
+          {sectionLinks.map((link) =>
+            onHome ? (
+              <a
+                key={link.id}
+                href={`#${link.id}`}
+                className="flex h-11 items-center rounded-md px-3 text-sm font-medium text-foreground transition-colors hover:bg-muted"
+                onClick={(event) =>
+                  handleSectionLinkClick(event, link.id, closeMenu)
+                }
+              >
+                {link.label}
+              </a>
+            ) : (
+              <Link
+                key={link.id}
+                href={`${homePath}#${link.id}`}
+                className="flex h-11 items-center rounded-md px-3 text-sm font-medium text-foreground transition-colors hover:bg-muted"
+                onClick={closeMenu}
+              >
+                {link.label}
+              </Link>
+            )
+          )}
         </div>
       </nav>
     </header>
