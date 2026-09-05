@@ -39,7 +39,7 @@
     "berlinVotesTitle": "Berlin votes on 20 September 2026",
     "berlinVotesBody": "Every five years Berlin elects a new state parliament (Abgeordnetenhaus) — the body that shapes the city’s policies.",
     "accessibilityTitle": "Accessibility and language",
-    "accessibilityBody": "About 16% of German citizens in Berlin come from immigrant families. Election programs are only published in German and can run up to 200 pages. That's a hard read even for native speakers. Wahl-O-Mat helps, but it's not built to go deep.",
+    "accessibilityBody": "About 16% of German citizens in Berlin come from immigrant families. Election programs are only published in German and can run up to 200 pages. That's a hard read even for native speakers. [Wahl-O-Mat](https://www.wahl-o-mat.de/berlin2026/app/main_app.html) helps, but it's not built to go deep.",
     "clarityTitle": "Clarity and substance",
     "clarityBody": "Much of the 200 pages is rhetoric, hard to translate into anything concrete. We wanted tangible answers: separating commitments tied to numbers from general statements of intent.",
     "whatWeDidTitle": "What we did",
@@ -47,7 +47,7 @@
     "beforeYouVoteTitle": "Before you vote",
     "beforeYouVoteBody": "The table is made with the help of AI; we recommend double-checking points that matter to you. Full translations of the main parties' programs are published on [BerlinVote.Help](https://www.berlinvote.help/).",
     "furtherReadingTitle": "Further reading",
-    "furtherReadingBody": "- [RBB: Berlin Elections 2026 FAQ (English)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: Elections in easy language (Leichte Sprache)](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Berlin State Centre for Political Education: Elections 2026 brochure (PDF)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
+    "furtherReadingBody": "- [Wahl-O-Mat Berlin 2026](https://www.wahl-o-mat.de/berlin2026/app/main_app.html)\n- [RBB: Berlin Elections 2026 FAQ (English)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: Elections in easy language (Leichte Sprache)](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Berlin State Centre for Political Education: Elections 2026 brochure (PDF)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
   },
   "table": {
     "title": "Party programs for the 2026 Berlin state election",

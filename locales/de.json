@@ -39,7 +39,7 @@
     "berlinVotesTitle": "Berlin wählt am 20. September 2026",
     "berlinVotesBody": "Alle fünf Jahre wählt Berlin ein neues Abgeordnetenhaus — das Landesparlament, das die Politik der Stadt prägt.",
     "accessibilityTitle": "Zugang und Sprache",
-    "accessibilityBody": "Etwa 16 % der deutschen Staatsangehörigen in Berlin haben einen Migrationshintergrund. Wahlprogramme erscheinen nur auf Deutsch und können bis zu 200 Seiten umfassen. Das ist selbst für Muttersprachler:innen schwer zu lesen. Der Wahl-O-Mat hilft, geht aber nicht tief genug.",
+    "accessibilityBody": "Etwa 16 % der deutschen Staatsangehörigen in Berlin haben einen Migrationshintergrund. Wahlprogramme erscheinen nur auf Deutsch und können bis zu 200 Seiten umfassen. Das ist selbst für Muttersprachler:innen schwer zu lesen. Der [Wahl-O-Mat](https://www.wahl-o-mat.de/berlin2026/app/main_app.html) hilft, geht aber nicht tief genug.",
     "clarityTitle": "Klarheit und Substanz",
     "clarityBody": "Vieles auf diesen 200 Seiten ist Rhetorik und lässt sich kaum in Konkretes übersetzen. Wir wollten greifbare Antworten: Verpflichtungen mit Zahlen von allgemeinen Absichtserklärungen trennen.",
     "whatWeDidTitle": "Was wir gemacht haben",
@@ -47,7 +47,7 @@
     "beforeYouVoteTitle": "Bevor Sie wählen",
     "beforeYouVoteBody": "Diese Tabelle wurde mithilfe von KI erstellt. Bitte überprüfen Sie die Punkte, die für Sie wichtig sind, noch einmal. Vollständige Übersetzungen der Programme der großen Parteien finden Sie auf [BerlinVote.Help](https://www.berlinvote.help/).",
     "furtherReadingTitle": "Weiterlesen",
-    "furtherReadingBody": "- [RBB: FAQ zu den Berlin-Wahlen 2026 (Englisch)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: Wahlen in Leichter Sprache](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Berliner Landeszentrale für politische Bildung: Broschüre Wahlen 2026 (PDF, EN)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
+    "furtherReadingBody": "- [Wahl-O-Mat Berlin 2026](https://www.wahl-o-mat.de/berlin2026/app/main_app.html)\n- [RBB: FAQ zu den Berlin-Wahlen 2026 (Englisch)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: Wahlen in Leichter Sprache](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Berliner Landeszentrale für politische Bildung: Broschüre Wahlen 2026 (PDF, EN)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
   },
   "table": {
     "title": "Wahlprogramme zur Abgeordnetenhauswahl 2026",
