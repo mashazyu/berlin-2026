@@ -1,22 +1,26 @@
 {
   "metadata": {
-    "homeTitle": "Berlin 2026 — Wahlprogramme zur Abgeordnetenhauswahl vergleichen",
-    "homeDescription": "Berliner Wahlprogramme zur Abgeordnetenhauswahl am 20. September 2026 im Vergleich — Verkehr, Wohnen, Klima, Sicherheit, Bildung, Gesundheit, Migration und mehr.",
+    "homeTitle": "Berlin 2026 — Wahlprogramme zur Abgeordnetenhauswahl 2026 im Vergleich",
+    "homeDescription": "Offizielle Programme der 10 größten Parteien zu über 50 Themen im Vergleich — Abgeordnetenhauswahl Berlin am 20. September 2026. Keine Wahlempfehlung.",
     "aboutTitle": "Über uns — Berlin 2026",
-    "aboutDescription": "Wer hinter Berlin 2026 steckt: Nina vergleicht die Programme und treibt das Projekt voran; Mascha sorgt für die technische Umsetzung.",
+    "aboutDescription": "Wer hinter Berlin 2026 steckt: Nina vergleicht die Programme und treibt das Projekt voran; Mascha sorgt für die Technik. Unabhängig, keine Parteibindung.",
     "privacyTitle": "Datenschutzerklärung — Berlin 2026",
     "privacyDescription": "Wie Berlin 2026 personenbezogene Daten gemäß DSGVO verarbeitet.",
     "aiDisclosureTitle": "KI-Hinweis — Berlin 2026",
-    "aiDisclosureDescription": "Wie wir KI-Tools beim Verfassen von Website-Texten und beim Vergleich von Wahlprogrammen nutzen — und wie Menschen für Ideen, Inhalt und Genauigkeit verantwortlich bleiben.",
+    "aiDisclosureDescription": "Wie wir KI beim Verfassen von Website-Texten und beim Vergleich von Wahlprogrammen nutzen — und wie Menschen für Ideen, Inhalt und Genauigkeit verantwortlich bleiben.",
     "keywords": [
       "Berlin",
-      "Wahl 2026",
+      "Abgeordnetenhauswahl 2026",
       "Abgeordnetenhaus",
-      "Abgeordnetenhauswahl",
       "Wahlprogramme",
       "Parteivergleich",
+      "Verkehr",
+      "Wohnen",
       "Klima",
-      "Verkehr"
+      "Sicherheit",
+      "Bildung",
+      "Gesundheit",
+      "Migration"
     ]
   },
   "brand": {

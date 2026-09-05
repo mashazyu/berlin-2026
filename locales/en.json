@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "homeTitle": "Berlin 2026 — Compare party programs for the state election",
-    "homeDescription": "Side-by-side comparison of official party programs for the Berlin state election on 20 September 2026 — transport, housing, climate, security, education, health, migration, and more.",
+    "homeTitle": "Berlin 2026 — Compare party programs for the 2026 Berlin state election",
+    "homeDescription": "Compare official programs of the 10 largest parties across 50+ topics for the Berlin state election on 20 September 2026 — not voting advice.",
     "aboutTitle": "About — Berlin 2026",
-    "aboutDescription": "Who runs Berlin 2026: Nina compares party programs and develops the project; Masha handles the technical side.",
+    "aboutDescription": "Who builds Berlin 2026: Nina compares party programs and develops the project; Masha handles the technical side. Independent, not affiliated with any party.",
     "privacyTitle": "Privacy Policy — Berlin 2026",
     "privacyDescription": "How Berlin 2026 handles personal data in line with GDPR.",
     "aiDisclosureTitle": "AI Disclosure — Berlin 2026",
-    "aiDisclosureDescription": "How we use AI tools to help write website text and compare party programs, and how humans remain responsible for ideas, substance, and accuracy.",
+    "aiDisclosureDescription": "How we use AI to help draft site text and compare party programs — and how humans stay responsible for ideas, substance, and accuracy.",
     "keywords": [
       "Berlin",
       "Berlin state election 2026",
@@ -15,8 +15,13 @@
       "state parliament",
       "party programs",
       "party comparison",
+      "transport",
+      "housing",
       "climate",
-      "transport"
+      "security",
+      "education",
+      "health",
+      "migration"
     ]
   },
   "brand": {

@@ -1,6 +1,5 @@
 /**
- * Refresh local Noto Sans files used by next/og (full Latin + Greek + Cyrillic).
- * Prefer full unhinted TTFs over Google CSS `text=` subsets (those miss glyphs when copy changes).
+ * Refresh local Noto Sans files used by next/og and next/font/local.
  *
  *   pnpm regen:og-fonts
  */
@@ -16,6 +15,14 @@ const FILES = [
   {
     url: "https://cdn.jsdelivr.net/gh/notofonts/notofonts.github.io/fonts/NotoSans/unhinted/ttf/NotoSans-Regular.ttf",
     out: "NotoSans-400.ttf",
+  },
+  {
+    url: "https://cdn.jsdelivr.net/gh/notofonts/notofonts.github.io/fonts/NotoSans/unhinted/ttf/NotoSans-Medium.ttf",
+    out: "NotoSans-500.ttf",
+  },
+  {
+    url: "https://cdn.jsdelivr.net/gh/notofonts/notofonts.github.io/fonts/NotoSans/unhinted/ttf/NotoSans-SemiBold.ttf",
+    out: "NotoSans-600.ttf",
   },
   {
     url: "https://cdn.jsdelivr.net/gh/notofonts/notofonts.github.io/fonts/NotoSans/unhinted/ttf/NotoSans-Bold.ttf",

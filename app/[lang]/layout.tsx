@@ -1,5 +1,5 @@
 import type React from "react"
-import { Lora, Source_Sans_3 } from "next/font/google"
+import localFont from "next/font/local"
 import { notFound } from "next/navigation"
 import { LanguageProvider } from "@/components/language-provider"
 import {
@@ -8,17 +8,33 @@ import {
 } from "@/lib/i18n/get-translations"
 import { CONTENT_LANGUAGE } from "@/lib/seo/constants"
 
-const lora = Lora({
-  subsets: ["latin", "latin-ext", "cyrillic"],
-  variable: "--font-lora",
+/** Local Noto Sans (Latin + Cyrillic). Google webfonts were inconsistent for RU. */
+const notoSans = localFont({
+  src: [
+    {
+      path: "../../assets/fonts/NotoSans-400.ttf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../../assets/fonts/NotoSans-500.ttf",
+      weight: "500",
+      style: "normal",
+    },
+    {
+      path: "../../assets/fonts/NotoSans-600.ttf",
+      weight: "600",
+      style: "normal",
+    },
+    {
+      path: "../../assets/fonts/NotoSans-700.ttf",
+      weight: "700",
+      style: "normal",
+    },
+  ],
+  variable: "--font-noto-sans",
   display: "swap",
-})
-
-/** Source Sans 3 (not DM Sans): DM Sans has no Cyrillic glyphs → RU body fell back to Arial. */
-const sourceSans = Source_Sans_3({
-  subsets: ["latin", "latin-ext", "cyrillic", "cyrillic-ext"],
-  variable: "--font-source-sans",
-  display: "swap",
+  adjustFontFallback: false,
 })
 
 export function generateStaticParams() {
@@ -40,9 +56,7 @@ export default async function LangLayout({
 
   return (
     <html lang={CONTENT_LANGUAGE[language]} suppressHydrationWarning>
-      <body
-        className={`${lora.variable} ${sourceSans.variable} font-sans antialiased`}
-      >
+      <body className={`${notoSans.variable} font-sans antialiased`}>
         <LanguageProvider initialLanguage={language}>{children}</LanguageProvider>
       </body>
     </html>

@@ -32,7 +32,7 @@ export default async function OpenGraphImage({
           padding: "64px 72px",
           background: "#ffffff",
           color: "#171E25",
-          fontFamily: '"Noto Sans"',
+          fontFamily: "Noto Sans",
         }}
       >
         <div style={{ display: "flex", alignItems: "baseline", gap: 16 }}>
@@ -41,7 +41,7 @@ export default async function OpenGraphImage({
               fontSize: 52,
               fontWeight: 700,
               color: "#F55A1F",
-              fontFamily: '"Noto Sans"',
+              fontFamily: "Noto Sans",
             }}
           >
             Berlin
@@ -52,7 +52,7 @@ export default async function OpenGraphImage({
               fontSize: 52,
               fontWeight: 700,
               color: "#171E25",
-              fontFamily: '"Noto Sans"',
+              fontFamily: "Noto Sans",
             }}
           >
             2026
@@ -65,7 +65,7 @@ export default async function OpenGraphImage({
               fontWeight: 700,
               lineHeight: 1.2,
               maxWidth: 980,
-              fontFamily: '"Noto Sans"',
+              fontFamily: "Noto Sans",
             }}
           >
             {t.hero.headline}
@@ -76,7 +76,7 @@ export default async function OpenGraphImage({
               color: "#5A6570",
               maxWidth: 900,
               fontWeight: 400,
-              fontFamily: '"Noto Sans"',
+              fontFamily: "Noto Sans",
             }}
           >
             {t.hero.support}

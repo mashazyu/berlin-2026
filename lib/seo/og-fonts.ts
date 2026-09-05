@@ -2,9 +2,16 @@ import { readFile } from "node:fs/promises"
 import path from "node:path"
 
 /** Local full Noto Sans (Latin + Cyrillic) for `next/og` — no network at build.
- *  Refresh with `pnpm regen:og-fonts` (full TTFs, not Google `text=` subsets). */
+ *  Refresh with `pnpm regen:og-fonts`. */
 
 const FONT_DIR = path.join(process.cwd(), "assets", "fonts")
+
+function toArrayBuffer(buf: Buffer): ArrayBuffer {
+  return buf.buffer.slice(
+    buf.byteOffset,
+    buf.byteOffset + buf.byteLength
+  ) as ArrayBuffer
+}
 
 let fontsPromise: Promise<
   {
@@ -24,13 +31,13 @@ async function loadLocalFonts() {
   return [
     {
       name: "Noto Sans",
-      data: Uint8Array.from(regularBuf).buffer,
+      data: toArrayBuffer(regularBuf),
       style: "normal" as const,
       weight: 400 as const,
     },
     {
       name: "Noto Sans",
-      data: Uint8Array.from(boldBuf).buffer,
+      data: toArrayBuffer(boldBuf),
       style: "normal" as const,
       weight: 700 as const,
     },
