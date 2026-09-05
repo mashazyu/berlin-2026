@@ -21,7 +21,7 @@ export function SiteHeader() {
   const onHome = pathname === homePath || pathname === `${homePath}/`
 
   const sectionLinks = [
-    { id: "table", label: t.navigation.table },
+    { id: "comparison", label: t.navigation.comparison },
     { id: "motivation", label: t.navigation.motivation },
   ]
 

@@ -76,7 +76,7 @@ export function ComparisonTable({
       }
       if (!isSearching) return true
       const label = topic.displayLabel.toLowerCase()
-      const groupLabel = t.table.groups[topic.group].toLowerCase()
+      const groupLabel = t.comparison.groups[topic.group].toLowerCase()
       return (
         label.includes(normalizedQuery) || groupLabel.includes(normalizedQuery)
       )
@@ -88,7 +88,7 @@ export function ComparisonTable({
     cellsByKey,
     isSearching,
     normalizedQuery,
-    t.table.groups,
+    t.comparison.groups,
   ])
 
   const topicGroups = useMemo(
@@ -151,12 +151,12 @@ export function ComparisonTable({
     return openMobileGroup === group
   }
 
-  const countLabel = t.table.selectedCount.replace(
+  const countLabel = t.comparison.selectedCount.replace(
     "{count}",
     String(selectedParties.length)
   )
 
-  const searchCountLabel = t.table.searchResultsCount.replace(
+  const searchCountLabel = t.comparison.searchResultsCount.replace(
     "{count}",
     String(filteredTopics.length)
   )
@@ -173,19 +173,19 @@ export function ComparisonTable({
   }, [topicGroups])
 
   return (
-    <section id="table" className="scroll-mt-[4.25rem] bg-white px-4 py-16 sm:px-6 sm:py-20">
+    <section id="comparison" className="scroll-mt-[4.25rem] bg-white px-4 py-16 sm:px-6 sm:py-20">
       <div className="mx-auto max-w-3xl">
         <h2 className="section-title font-display text-3xl font-semibold tracking-[-0.01em] sm:text-4xl">
-          {t.table.title}
+          {t.comparison.title}
         </h2>
         <div className="mt-1 space-y-2 text-base">
-          {renderParagraphs(t.table.subtitle, "text-muted-foreground leading-relaxed", language)}
+          {renderParagraphs(t.comparison.subtitle, "text-muted-foreground leading-relaxed", language)}
         </div>
         <div className="mt-8 flex flex-wrap gap-3 text-xs text-muted-foreground sm:mt-10">
-          <Legend stance="for" label={t.table.legendFor} />
-          <Legend stance="against" label={t.table.legendAgainst} />
-          <Legend stance="mixed" label={t.table.legendMixed} />
-          <Legend stance="none" label={t.table.legendNone} />
+          <Legend stance="for" label={t.comparison.legendFor} />
+          <Legend stance="against" label={t.comparison.legendAgainst} />
+          <Legend stance="mixed" label={t.comparison.legendMixed} />
+          <Legend stance="none" label={t.comparison.legendNone} />
         </div>
       </div>
 
@@ -193,7 +193,7 @@ export function ComparisonTable({
         <div className="rounded-xl border border-border bg-white p-4 sm:p-5">
           <div className="flex flex-wrap items-center justify-between gap-3">
             <p className="text-sm font-medium text-foreground">
-              {t.table.partiesLabel}
+              {t.comparison.partiesLabel}
               <span className="ml-2 font-normal text-muted-foreground">
                 ({countLabel})
               </span>
@@ -203,7 +203,7 @@ export function ComparisonTable({
                 active={selectedIds.length === parties.length}
                 onClick={selectAll}
               >
-                {t.table.showAll}
+                {t.comparison.showAll}
               </PresetButton>
               <PresetButton
                 active={
@@ -212,7 +212,7 @@ export function ComparisonTable({
                 }
                 onClick={selectMajor}
               >
-                {t.table.showMajor}
+                {t.comparison.showMajor}
               </PresetButton>
             </div>
           </div>
@@ -244,17 +244,17 @@ export function ComparisonTable({
               active={topicFilter === "all"}
               onClick={() => setTopicFilter("all")}
             >
-              {t.table.filterAll}
+              {t.comparison.filterAll}
             </PresetButton>
             <PresetButton
               active={topicFilter === "disagreement"}
               onClick={() => setTopicFilter("disagreement")}
             >
-              {t.table.filterDisagreement}
+              {t.comparison.filterDisagreement}
             </PresetButton>
           </div>
           <p className="mt-2 text-xs leading-relaxed text-muted-foreground">
-            {t.table.filterDisagreementHint}
+            {t.comparison.filterDisagreementHint}
           </p>
 
           <div className="relative mt-4">
@@ -266,8 +266,8 @@ export function ComparisonTable({
               type="search"
               value={topicQuery}
               onChange={(event) => setTopicQuery(event.target.value)}
-              placeholder={t.table.searchPlaceholder}
-              aria-label={t.table.searchPlaceholder}
+              placeholder={t.comparison.searchPlaceholder}
+              aria-label={t.comparison.searchPlaceholder}
               className="h-10 w-full rounded-md border border-border bg-background pr-10 pl-9 text-sm text-foreground outline-none transition-colors placeholder:text-muted-foreground focus:border-primary focus:ring-2 focus:ring-primary/20"
             />
             {topicQuery && (
@@ -275,7 +275,7 @@ export function ComparisonTable({
                 type="button"
                 onClick={() => setTopicQuery("")}
                 className="absolute top-1/2 right-2 inline-flex h-7 w-7 -translate-y-1/2 items-center justify-center rounded-md text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
-                aria-label={t.table.searchClear}
+                aria-label={t.comparison.searchClear}
               >
                 <X className="h-4 w-4" />
               </button>
@@ -286,13 +286,13 @@ export function ComparisonTable({
           )}
 
           <p className="mt-3 text-xs text-muted-foreground lg:hidden">
-            {t.table.scrollHint}
+            {t.comparison.scrollHint}
           </p>
         </div>
 
         {filteredTopics.length === 0 ? (
           <p className="mt-6 rounded-xl border border-border bg-white px-4 py-8 text-center text-sm text-muted-foreground">
-            {t.table.searchNoResults}
+            {t.comparison.searchNoResults}
           </p>
         ) : (
         <>
@@ -300,7 +300,7 @@ export function ComparisonTable({
         <div className="mt-6 space-y-3 lg:hidden">
           {topicGroups.map(({ group, topics: groupTopicList }) => {
             const open = isMobileGroupOpen(group)
-            const groupLabel = t.table.groups[group]
+            const groupLabel = t.comparison.groups[group]
             return (
               <div
                 key={group}
@@ -310,7 +310,7 @@ export function ComparisonTable({
                   type="button"
                   className="flex w-full items-center justify-between gap-3 bg-muted/50 px-4 py-3.5 text-left disabled:cursor-default"
                   aria-expanded={open}
-                  aria-label={open ? t.table.collapseGroup : t.table.expandGroup}
+                  aria-label={open ? t.comparison.collapseGroup : t.comparison.expandGroup}
                   disabled={forceExpandGroups}
                   onClick={() => toggleMobileGroup(group)}
                 >
@@ -403,7 +403,7 @@ export function ComparisonTable({
                                           className="inline-flex items-center gap-1 text-xs text-primary hover:underline"
                                           onClick={(event) => event.stopPropagation()}
                                         >
-                                          {t.table.openProgram}
+                                          {t.comparison.openProgram}
                                           <ExternalLink
                                             className="h-3 w-3"
                                             aria-hidden
@@ -412,7 +412,7 @@ export function ComparisonTable({
                                       ) : null}
                                     </div>
                                     <p className="text-sm leading-relaxed text-muted-foreground">
-                                      {summary || t.table.emptyCell}
+                                      {summary || t.comparison.emptyCell}
                                     </p>
                                   </li>
                                 )
@@ -452,7 +452,7 @@ export function ComparisonTable({
                     scope="col"
                     className="sticky left-0 z-40 border-r border-border bg-muted px-3 py-3 text-xs font-semibold uppercase tracking-wide text-foreground"
                   >
-                    {t.table.topicColumn}
+                    {t.comparison.topicColumn}
                   </th>
                   {selectedParties.map((party) => (
                     <th
@@ -468,7 +468,7 @@ export function ComparisonTable({
                       >
                         {party.shortName}
                         <ExternalLink className="h-3 w-3 opacity-50" aria-hidden />
-                        <span className="sr-only">{t.table.programLink}</span>
+                        <span className="sr-only">{t.comparison.programLink}</span>
                       </a>
                     </th>
                   ))}
@@ -495,7 +495,7 @@ export function ComparisonTable({
               <tbody>
                 {desktopRows.map(({ group, topics: groupTopicList }) => {
                   const collapsed = isDesktopGroupCollapsed(group)
-                  const groupLabel = t.table.groups[group]
+                  const groupLabel = t.comparison.groups[group]
                   return (
                     <GroupRows
                       key={group}
@@ -504,8 +504,8 @@ export function ComparisonTable({
                       collapsed={collapsed}
                       colSpan={colSpan}
                       topicColPx={TOPIC_COL_PX}
-                      expandLabel={t.table.expandGroup}
-                      collapseLabel={t.table.collapseGroup}
+                      expandLabel={t.comparison.expandGroup}
+                      collapseLabel={t.comparison.collapseGroup}
                       disableToggle={forceExpandGroups}
                       onToggle={() => toggleGroup(group)}
                     >
@@ -545,7 +545,7 @@ export function ComparisonTable({
                                         className="mt-0.5 shrink-0"
                                       />
                                       <span className="min-w-0 flex-1 text-[13px] leading-snug">
-                                        {summary || t.table.emptyCell}
+                                        {summary || t.comparison.emptyCell}
                                       </span>
                                     </div>
                                   </td>

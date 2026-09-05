@@ -24,7 +24,7 @@ export type Translations = {
   }
   navigation: {
     motivation: string
-    table: string
+    comparison: string
     privacy: string
   }
   hero: {
@@ -50,7 +50,7 @@ export type Translations = {
     furtherReadingIntro: string
     furtherReadingBody: string
   }
-  table: {
+  comparison: {
     title: string
     subtitle: string
     topicColumn: string

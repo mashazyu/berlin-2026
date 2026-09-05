@@ -12,8 +12,8 @@ export function HeroCta() {
     <div className="mt-8 flex justify-center">
       <Button asChild size="lg">
         <a
-          href="#table"
-          onClick={(event) => handleSectionLinkClick(event, "table")}
+          href="#comparison"
+          onClick={(event) => handleSectionLinkClick(event, "comparison")}
         >
           {t.hero.cta}
         </a>
@@ -27,10 +27,10 @@ export function HeroScrollHint() {
 
   return (
     <a
-      href="#table"
+      href="#comparison"
       className="inline-flex flex-col items-center gap-1 text-muted-foreground transition-colors hover:text-accent"
       aria-label={t.hero.scrollHint}
-      onClick={(event) => handleSectionLinkClick(event, "table")}
+      onClick={(event) => handleSectionLinkClick(event, "comparison")}
     >
       <ChevronDown className="h-6 w-6 motion-safe:animate-bounce" aria-hidden />
     </a>
