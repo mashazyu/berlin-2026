@@ -54,7 +54,7 @@
   --color-stance-mixed: hsl(var(--stance-mixed));
   --color-stance-none: hsl(var(--stance-none));
   --color-section-muted: hsl(var(--section-muted));
-  --font-sans: var(--font-dm-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-source-sans), ui-sans-serif, system-ui, sans-serif;
   --font-display: var(--font-lora), ui-serif, Georgia, serif;
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);

@@ -1,9 +1,8 @@
 import { readFile } from "node:fs/promises"
 import path from "node:path"
 
-/** Local Noto Sans subsets for `next/og` (no network at build).
- *  Regenerated with Latin + full Cyrillic + German via `pnpm regen:og-fonts`.
- *  Do not re-subset from a short hero string alone — missing glyphs become tofu. */
+/** Local full Noto Sans (Latin + Cyrillic) for `next/og` — no network at build.
+ *  Refresh with `pnpm regen:og-fonts` (full TTFs, not Google `text=` subsets). */
 
 const FONT_DIR = path.join(process.cwd(), "assets", "fonts")
 

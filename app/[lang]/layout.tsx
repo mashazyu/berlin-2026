@@ -1,5 +1,5 @@
 import type React from "react"
-import { Lora, DM_Sans } from "next/font/google"
+import { Lora, Source_Sans_3 } from "next/font/google"
 import { notFound } from "next/navigation"
 import { LanguageProvider } from "@/components/language-provider"
 import {
@@ -14,9 +14,10 @@ const lora = Lora({
   display: "swap",
 })
 
-const dmSans = DM_Sans({
-  subsets: ["latin", "latin-ext"],
-  variable: "--font-dm-sans",
+/** Source Sans 3 (not DM Sans): DM Sans has no Cyrillic glyphs → RU body fell back to Arial. */
+const sourceSans = Source_Sans_3({
+  subsets: ["latin", "latin-ext", "cyrillic", "cyrillic-ext"],
+  variable: "--font-source-sans",
   display: "swap",
 })
 
@@ -40,7 +41,7 @@ export default async function LangLayout({
   return (
     <html lang={CONTENT_LANGUAGE[language]} suppressHydrationWarning>
       <body
-        className={`${lora.variable} ${dmSans.variable} font-sans antialiased`}
+        className={`${lora.variable} ${sourceSans.variable} font-sans antialiased`}
       >
         <LanguageProvider initialLanguage={language}>{children}</LanguageProvider>
       </body>
