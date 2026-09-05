@@ -1,11 +1,11 @@
 {
   "metadata": {
     "homeTitle": "Berlin 2026 — Wahlprogramme zur Abgeordnetenhauswahl vergleichen",
-    "homeDescription": "Wahlprogramme zur Wahl zum Abgeordnetenhaus am 20. September 2026 im Vergleich — Verkehr, Wohnen, Klima, Sicherheit, Bildung, Gesundheit, Migration und mehr.",
+    "homeDescription": "Berliner Wahlprogramme zur Abgeordnetenhauswahl am 20. September 2026 im Vergleich — Verkehr, Wohnen, Klima, Sicherheit, Bildung, Gesundheit, Migration und mehr.",
     "privacyTitle": "Datenschutzerklärung — Berlin 2026",
     "privacyDescription": "Wie Berlin 2026 personenbezogene Daten gemäß DSGVO verarbeitet.",
     "aiDisclosureTitle": "KI-Hinweis — Berlin 2026",
-    "aiDisclosureDescription": "Wie wir KI-Tools beim Verfassen von Websitetexten und beim Vergleich von Wahlprogrammen nutzen — und wie Menschen für Ideen, Inhalt und Genauigkeit verantwortlich bleiben.",
+    "aiDisclosureDescription": "Wie wir KI-Tools beim Verfassen von Website-Texten und beim Vergleich von Wahlprogrammen nutzen — und wie Menschen für Ideen, Inhalt und Genauigkeit verantwortlich bleiben.",
     "keywords": [
       "Berlin",
       "Wahl 2026",
@@ -22,7 +22,7 @@
     "tagline": "Parteipositionen im Vergleich"
   },
   "navigation": {
-    "about": "Motivation",
+    "about": "Hintergrund",
     "table": "Vergleich",
     "privacy": "Datenschutz"
   },
@@ -31,33 +31,33 @@
     "support": "20. September 2026 · Abgeordnetenhaus · 10 Parteien · über 50 Themen",
     "blurb": "Positionen aus den offiziellen Wahlprogrammen nebeneinander — keine Wahlempfehlung.",
     "cta": "Programme vergleichen",
-    "disclaimer": "Dieser Beitrag steht in keiner Verbindung zu einer Partei und ist keine Wahlwerbung.",
+    "disclaimer": "Dieses Projekt steht in keiner Verbindung zu einer Partei und ist keine Wahlwerbung.",
     "scrollHint": "Zum Vergleich scrollen"
   },
   "about": {
-    "title": "Motivation",
+    "title": "Hintergrund",
     "berlinVotesTitle": "Berlin wählt am 20. September 2026",
     "berlinVotesBody": "Alle fünf Jahre wählt Berlin ein neues Abgeordnetenhaus — das Landesparlament, das die Politik der Stadt prägt.",
-    "accessibilityTitle": "Zugänglichkeit und Sprache",
-    "accessibilityBody": "Etwa 16 % der deutschen Staatsangehörigen in Berlin haben einen Migrationshintergrund. Wahlprogramme erscheinen nur auf Deutsch und können bis zu 200 Seiten umfassen. Das ist selbst für Muttersprachler:innen schwer zu lesen. Der Wahl-O-Mat hilft, geht aber nicht in die Tiefe.",
+    "accessibilityTitle": "Zugang und Sprache",
+    "accessibilityBody": "Etwa 16 % der deutschen Staatsangehörigen in Berlin haben einen Migrationshintergrund. Wahlprogramme erscheinen nur auf Deutsch und können bis zu 200 Seiten umfassen. Das ist selbst für Muttersprachler:innen schwer zu lesen. Der Wahl-O-Mat hilft, geht aber nicht tief genug.",
     "clarityTitle": "Klarheit und Substanz",
     "clarityBody": "Vieles auf diesen 200 Seiten ist Rhetorik und lässt sich kaum in Konkretes übersetzen. Wir wollten greifbare Antworten: Verpflichtungen mit Zahlen von allgemeinen Absichtserklärungen trennen.",
     "whatWeDidTitle": "Was wir gemacht haben",
     "whatWeDidBody": "Wir haben die Positionen von 10 Berliner Parteien zu zentralen Punkten bei Verkehr, Wohnen, Klima und Energie, Sicherheit, Bildung, Gesundheit, Migration, Wirtschaft und Demokratie verglichen — und die Programme in eine Vergleichstabelle überführt.",
     "beforeYouVoteTitle": "Bevor Sie wählen",
-    "beforeYouVoteBody": "Diese Tabelle wurde mithilfe von KI erstellt. Bitte überprüfen Sie die Punkte, die für Sie wichtig sind, noch einmal. Auf [BerlinVote.Help](https://www.berlinvote.help/) finden Sie möglicherweise die vollständigen Übersetzungen der Programme.",
+    "beforeYouVoteBody": "Diese Tabelle wurde mithilfe von KI erstellt. Bitte überprüfen Sie die Punkte, die für Sie wichtig sind, noch einmal. Vollständige Übersetzungen der Programme der großen Parteien finden Sie auf [BerlinVote.Help](https://www.berlinvote.help/).",
     "furtherReadingTitle": "Weiterlesen",
-    "furtherReadingBody": "- [RBB: FAQ zu den Berlin-Wahlen 2026 (Englisch)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: Wahlen in Leichter Sprache](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Broschüre Wahlen 2026 der Berliner Landeszentrale für politische Bildung (PDF, EN)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
+    "furtherReadingBody": "- [RBB: FAQ zu den Berlin-Wahlen 2026 (Englisch)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: Wahlen in Leichter Sprache](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Berliner Landeszentrale für politische Bildung: Broschüre Wahlen 2026 (PDF, EN)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
   },
   "table": {
     "title": "Wahlprogramme zur Abgeordnetenhauswahl 2026",
     "subtitle": "10 Parteien · dafür / dagegen / gemischt · nach den offiziellen Programmen. Themen u. a. Verkehr, Wohnen, Klima, Sicherheit, Bildung, Gesundheit und Migration.",
     "topicColumn": "Thema",
     "legendFor": "Dafür / befürwortend",
-    "legendAgainst": "Dagegen",
+    "legendAgainst": "Dagegen / ablehnend",
     "legendMixed": "Gemischt / mit Einschränkungen / unklar",
     "legendNone": "In den Ausschnitten nicht gefunden",
-    "scrollHint": "Nur ausgewählte Parteien werden angezeigt — fügen Sie weitere über die Chips oben hinzu.",
+    "scrollHint": "Nur ausgewählte Parteien werden angezeigt — fügen Sie weitere über die Markierungen oben hinzu.",
     "programLink": "Programm",
     "emptyCell": "—",
     "partiesLabel": "Parteien zum Vergleich",
@@ -72,18 +72,18 @@
     "aiNotice": "Texte und die Vergleichstabelle auf dieser Website wurden mit KI-Unterstützung erstellt.",
     "aiDisclosure": "KI-Hinweis",
     "relatedSite": "Vollständige Programmübersetzungen: BerlinVote.Help",
-    "contact": "Kontaktieren Sie mich",
+    "contact": "Kontakt",
     "privacy": "Datenschutz"
   },
   "aiDisclosure": {
     "title": "KI-Hinweis",
     "intro": "Diese Seite erklärt, wie wir Tools der künstlichen Intelligenz (KI) beim Erstellen von Inhalten für diese Website nutzen — und wie menschliche Redaktion für das Veröffentlichte verantwortlich bleibt.",
     "howWeUseAi": "Wie wir KI nutzen",
-    "howWeUseAiContent": "Wir nutzen KI-Tools, um Websitetexte zu entwerfen und zu schärfen — etwa Seitentexte und Kurzfassungen offizieller Wahlprogramme. KI hilft bei Formulierung, Struktur und dem Herausarbeiten vergleichbarer Positionen; sie entscheidet nicht, was wir veröffentlichen oder wie Sie wählen sollen.",
+    "howWeUseAiContent": "Wir nutzen KI-Tools, um Website-Texte zu entwerfen und zu schärfen — etwa Seitentexte und Kurzfassungen offizieller Wahlprogramme. KI hilft bei Formulierung, Struktur und dem Herausarbeiten vergleichbarer Positionen; sie entscheidet nicht, was wir veröffentlichen oder wie Sie wählen sollen.",
     "humanResponsibility": "Menschliche Ideen und redaktionelle Verantwortung",
     "humanResponsibilityContent": "Alle Ideen, Ziele und inhaltlichen Entscheidungen hinter dieser Website stammen von Menschen im Projekt Berlin 2026. Vor der Veröffentlichung wird der Inhalt auf Klarheit und Passung zum Informationszweck geprüft. Die redaktionelle Verantwortung liegt beim Projekt Berlin 2026.",
     "reviewAndAccuracy": "Prüfung und Genauigkeit",
-    "reviewAndAccuracyContent": "Die Vergleichstabelle der Parteipositionen wurde mit wesentlicher KI-Unterstützung aus den offiziellen Wahlprogrammen erstellt. Bitte überprüfen Sie Punkte, die für Sie wichtig sind, noch einmal. Vollständige Übersetzungen der Programme der großen Parteien finden Sie auf BerlinVote.Help. Wir prüfen Inhalte auf Genauigkeit, dennoch können Fehler und verlorene Nuancen vorkommen. Wenn Ihnen etwas auffällt, schreiben Sie uns bitte.",
+    "reviewAndAccuracyContent": "Die Vergleichstabelle der Parteipositionen wurde zu einem großen Teil mit KI-Unterstützung aus den offiziellen Wahlprogrammen erstellt. Bitte überprüfen Sie Punkte, die für Sie wichtig sind, noch einmal. Vollständige Übersetzungen der Programme der großen Parteien finden Sie auf BerlinVote.Help. Wir prüfen Inhalte auf Genauigkeit, dennoch können Fehler vorkommen und Nuancen untergehen. Wenn Ihnen etwas auffällt, schreiben Sie uns bitte.",
     "contact": "Kontakt",
     "contactContent": "Fragen zur KI-Nutzung oder zu Inhalten auf dieser Website? Schreiben Sie an nina.harz@pm.me."
   },
@@ -101,8 +101,8 @@
     "cookies": "Cookies und Tracking-Technologien",
     "cookiesContent": "Diese Website verwendet keine Analyse- oder Werbe-Cookies. Die Sprachpräferenz kann in einem kleinen Cookie oder im lokalen Speicher abgelegt werden, damit wir bei einem erneuten Besuch Ihre gewählte Sprache anzeigen können. Cookies und Website-Daten können Sie jederzeit in den Browsereinstellungen löschen.",
     "yourRights": "Ihre Rechte nach der DSGVO",
-    "yourRightsIntro": "Nach der Datenschutz-Grundverordnung (DSGVO) haben Sie folgende Rechte in Bezug auf Ihre personenbezogenen Daten:",
-    "yourRightsList": "• Auskunftsrecht (Art. 15 DSGVO): Sie können Auskunft über Ihre personenbezogenen Daten verlangen\n• Recht auf Berichtigung (Art. 16 DSGVO): Sie können die Berichtigung unrichtiger personenbezogener Daten verlangen\n• Recht auf Löschung (Art. 17 DSGVO): Sie können die Löschung Ihrer personenbezogenen Daten verlangen\n• Recht auf Einschränkung der Verarbeitung (Art. 18 DSGVO): Sie können die Einschränkung der Verarbeitung verlangen\n• Recht auf Datenübertragbarkeit (Art. 20 DSGVO): Sie können die Übertragung Ihrer personenbezogenen Daten verlangen\n• Widerspruchsrecht (Art. 21 DSGVO): Sie können der Verarbeitung Ihrer personenbezogenen Daten widersprechen\n• Beschwerderecht (Art. 77 DSGVO): Sie können sich bei einer Aufsichtsbehörde beschweren",
+    "yourRightsIntro": "Nach der DSGVO haben Sie folgende Rechte in Bezug auf Ihre personenbezogenen Daten:",
+    "yourRightsList": "• Auskunftsrecht (Art. 15 DSGVO)\n• Recht auf Berichtigung (Art. 16 DSGVO)\n• Recht auf Löschung (Art. 17 DSGVO)\n• Recht auf Einschränkung der Verarbeitung (Art. 18 DSGVO)\n• Recht auf Datenübertragbarkeit (Art. 20 DSGVO)\n• Widerspruchsrecht (Art. 21 DSGVO)\n• Beschwerderecht bei einer Aufsichtsbehörde (Art. 77 DSGVO)",
     "contactInfo": "Wenn Sie eines dieser Rechte ausüben möchten oder Fragen zu Ihren Daten haben, schreiben Sie bitte an nina.harz@pm.me."
   }
 }
