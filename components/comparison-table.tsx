@@ -23,6 +23,7 @@ export function ComparisonTable({
 
   const [selectedIds, setSelectedIds] = useState<string[]>([...MAJOR_PARTY_IDS])
   const [openTopicId, setOpenTopicId] = useState<string | null>(null)
+  const [openMobileGroup, setOpenMobileGroup] = useState<TopicGroup | null>(null)
   const [topicQuery, setTopicQuery] = useState("")
   const deferredQuery = useDeferredValue(topicQuery)
   const [collapsedGroups, setCollapsedGroups] = useState<Set<TopicGroup>>(
@@ -95,9 +96,19 @@ export function ComparisonTable({
     })
   }
 
-  function isGroupCollapsed(group: TopicGroup) {
+  function toggleMobileGroup(group: TopicGroup) {
+    setOpenMobileGroup((current) => (current === group ? null : group))
+    setOpenTopicId(null)
+  }
+
+  function isDesktopGroupCollapsed(group: TopicGroup) {
     if (isSearching) return false
     return collapsedGroups.has(group)
+  }
+
+  function isMobileGroupOpen(group: TopicGroup) {
+    if (isSearching) return true
+    return openMobileGroup === group
   }
 
   const countLabel = t.table.selectedCount.replace(
@@ -227,10 +238,10 @@ export function ComparisonTable({
           </p>
         ) : (
         <>
-        {/* Mobile: grouped topic accordions */}
-        <div className="mt-6 space-y-4 lg:hidden">
+        {/* Mobile: one group at a time; topics show stance strip at a glance */}
+        <div className="mt-6 space-y-3 lg:hidden">
           {topicGroups.map(({ group, topics: groupTopicList }) => {
-            const collapsed = isGroupCollapsed(group)
+            const open = isMobileGroupOpen(group)
             const groupLabel = t.table.groups[group]
             return (
               <div
@@ -240,12 +251,10 @@ export function ComparisonTable({
                 <button
                   type="button"
                   className="flex w-full items-center justify-between gap-3 bg-muted/50 px-4 py-3.5 text-left disabled:cursor-default"
-                  aria-expanded={!collapsed}
-                  aria-label={
-                    collapsed ? t.table.expandGroup : t.table.collapseGroup
-                  }
+                  aria-expanded={open}
+                  aria-label={open ? t.table.collapseGroup : t.table.expandGroup}
                   disabled={isSearching}
-                  onClick={() => toggleGroup(group)}
+                  onClick={() => toggleMobileGroup(group)}
                 >
                   <span className="font-display text-base font-semibold tracking-[-0.01em] text-foreground">
                     {groupLabel}
@@ -256,53 +265,71 @@ export function ComparisonTable({
                   <ChevronDown
                     className={cn(
                       "h-4 w-4 shrink-0 text-muted-foreground transition-transform",
-                      !collapsed && "rotate-180"
+                      open && "rotate-180"
                     )}
                   />
                 </button>
 
-                {!collapsed && (
-                  <div className="space-y-2 border-t border-border p-2">
+                {open && (
+                  <ul className="divide-y divide-border border-t border-border">
                     {groupTopicList.map((topic) => {
-                      const open = openTopicId === topic.id
+                      const detailOpen = openTopicId === topic.id
                       return (
-                        <div
-                          key={topic.id}
-                          className="overflow-hidden rounded-lg border border-border bg-white"
-                        >
+                        <li key={topic.id}>
                           <button
                             type="button"
-                            className="flex w-full items-start justify-between gap-3 px-3 py-3 text-left"
-                            aria-expanded={open}
+                            className="flex w-full flex-col gap-2.5 px-4 py-3.5 text-left"
+                            aria-expanded={detailOpen}
                             onClick={() =>
                               setOpenTopicId((current) =>
                                 current === topic.id ? null : topic.id
                               )
                             }
                           >
-                            <span className="text-sm font-semibold leading-snug text-foreground">
-                              {topic.displayLabel}
-                            </span>
-                            <span className="inline-flex shrink-0 items-center gap-1 text-xs font-medium text-muted-foreground">
-                              {open ? t.table.collapseTopic : t.table.expandTopic}
+                            <span className="flex items-start justify-between gap-3">
+                              <span className="text-sm font-semibold leading-snug text-foreground">
+                                {topic.displayLabel}
+                              </span>
                               <ChevronDown
                                 className={cn(
-                                  "h-4 w-4 transition-transform",
-                                  open && "rotate-180"
+                                  "mt-0.5 h-4 w-4 shrink-0 text-muted-foreground transition-transform",
+                                  detailOpen && "rotate-180"
                                 )}
                               />
                             </span>
+                            <span className="flex flex-wrap gap-1.5">
+                              {selectedParties.map((party) => {
+                                const cell =
+                                  cellsByKey[cellKey(topic.id, party.id)]
+                                const stance = cell?.stance ?? "none"
+                                return (
+                                  <span
+                                    key={party.id}
+                                    className="inline-flex items-center gap-1 rounded-md bg-muted/60 px-1.5 py-0.5"
+                                    title={`${party.shortName}: ${stance}`}
+                                  >
+                                    <span className="text-[10px] font-semibold tracking-wide text-muted-foreground uppercase">
+                                      {party.shortName}
+                                    </span>
+                                    <StanceBadge
+                                      stance={stance}
+                                      className="h-5 min-w-5"
+                                    />
+                                  </span>
+                                )
+                              })}
+                            </span>
                           </button>
 
-                          {open && (
-                            <ul className="divide-y divide-border border-t border-border">
+                          {detailOpen && (
+                            <ul className="divide-y divide-border border-t border-border bg-muted/20">
                               {selectedParties.map((party) => {
                                 const cell =
                                   cellsByKey[cellKey(topic.id, party.id)]
                                 const stance = cell?.stance ?? "none"
                                 const summary = cell?.summary?.trim() ?? ""
                                 return (
-                                  <li key={party.id} className="px-3 py-3">
+                                  <li key={party.id} className="px-4 py-3">
                                     <div className="mb-2 flex items-center justify-between gap-2">
                                       <div className="flex items-center gap-2">
                                         <StanceBadge stance={stance} />
@@ -310,18 +337,21 @@ export function ComparisonTable({
                                           {party.shortName}
                                         </span>
                                       </div>
-                                      <a
-                                        href={party.programUrl}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="inline-flex items-center gap-1 text-xs text-primary hover:underline"
-                                      >
-                                        {t.table.openProgram}
-                                        <ExternalLink
-                                          className="h-3 w-3"
-                                          aria-hidden
-                                        />
-                                      </a>
+                                      {party.programUrl ? (
+                                        <a
+                                          href={party.programUrl}
+                                          target="_blank"
+                                          rel="noopener noreferrer"
+                                          className="inline-flex items-center gap-1 text-xs text-primary hover:underline"
+                                          onClick={(event) => event.stopPropagation()}
+                                        >
+                                          {t.table.openProgram}
+                                          <ExternalLink
+                                            className="h-3 w-3"
+                                            aria-hidden
+                                          />
+                                        </a>
+                                      ) : null}
                                     </div>
                                     <p className="text-sm leading-relaxed text-muted-foreground">
                                       {summary || t.table.emptyCell}
@@ -331,10 +361,10 @@ export function ComparisonTable({
                               })}
                             </ul>
                           )}
-                        </div>
+                        </li>
                       )
                     })}
-                  </div>
+                  </ul>
                 )}
               </div>
             )
@@ -406,7 +436,7 @@ export function ComparisonTable({
               </colgroup>
               <tbody>
                 {desktopRows.map(({ group, topics: groupTopicList }) => {
-                  const collapsed = isGroupCollapsed(group)
+                  const collapsed = isDesktopGroupCollapsed(group)
                   const groupLabel = t.table.groups[group]
                   return (
                     <GroupRows
