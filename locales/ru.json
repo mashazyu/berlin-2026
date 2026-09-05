@@ -74,6 +74,9 @@
     "searchClear": "Очистить поиск",
     "searchNoResults": "Ничего не найдено.",
     "searchResultsCount": "{count} тем",
+    "filterAll": "Все темы",
+    "filterDisagreement": "Разные позиции",
+    "filterDisagreementHint": "Разные позиции: темы, где у выбранных партий не одна и та же оценка (за, против, смешанно или не найдено).",
     "groups": {
       "transport": "Транспорт",
       "waste": "Чистота и мусор",

@@ -75,6 +75,9 @@
     "searchClear": "Suche löschen",
     "searchNoResults": "Keine Themen passen zur Suche.",
     "searchResultsCount": "{count} Themen",
+    "filterAll": "Alle Themen",
+    "filterDisagreement": "Unterschiedliche Positionen",
+    "filterDisagreementHint": "Unterschiedliche Positionen: Themen, bei denen die ausgewählten Parteien nicht dieselbe Haltung haben (dafür, dagegen, gemischt oder nicht gefunden).",
     "groups": {
       "transport": "Verkehr",
       "waste": "Sauberkeit & Müll",

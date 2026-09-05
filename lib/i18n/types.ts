@@ -74,6 +74,9 @@ export type Translations = {
     searchClear: string
     searchNoResults: string
     searchResultsCount: string
+    filterAll: string
+    filterDisagreement: string
+    filterDisagreementHint: string
     groups: {
       transport: string
       waste: string

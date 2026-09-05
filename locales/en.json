@@ -75,6 +75,9 @@
     "searchClear": "Clear search",
     "searchNoResults": "No topics match your search.",
     "searchResultsCount": "{count} topics",
+    "filterAll": "All topics",
+    "filterDisagreement": "Conflicting stands",
+    "filterDisagreementHint": "Conflicting stands: topics where the selected parties don’t all share the same stance (for, against, mixed, or not found).",
     "groups": {
       "transport": "Transport",
       "waste": "Cleanliness & waste",

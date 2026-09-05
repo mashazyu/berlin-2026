@@ -9,6 +9,22 @@ import { cellKey } from "@/lib/comparison/get-comparison"
 import type { ResolvedComparison, Stance, TopicGroup } from "@/lib/comparison/types"
 import { cn, renderParagraphs } from "@/lib/utils"
 
+type TopicViewFilter = "all" | "disagreement"
+
+function partiesDisagree(
+  topicId: string,
+  partyIds: string[],
+  cellsByKey: ResolvedComparison["cellsByKey"]
+): boolean {
+  if (partyIds.length < 2) return false
+  const stances = new Set(
+    partyIds.map(
+      (partyId) => cellsByKey[cellKey(topicId, partyId)]?.stance ?? "none"
+    )
+  )
+  return stances.size > 1
+}
+
 const MAJOR_PARTY_IDS = ["cdu", "spd", "gruene", "linke"] as const
 const TOPIC_COL_PX = 220
 const PARTY_COL_PX = 160
@@ -26,6 +42,7 @@ export function ComparisonTable({
   const [openMobileGroup, setOpenMobileGroup] = useState<TopicGroup | null>(null)
   const [topicQuery, setTopicQuery] = useState("")
   const deferredQuery = useDeferredValue(topicQuery)
+  const [topicFilter, setTopicFilter] = useState<TopicViewFilter>("all")
   const [collapsedGroups, setCollapsedGroups] = useState<Set<TopicGroup>>(
     () => new Set(TOPIC_GROUP_ORDER)
   )
@@ -34,26 +51,49 @@ export function ComparisonTable({
   const bodyScrollRef = useRef<HTMLDivElement>(null)
   const syncingScroll = useRef(false)
 
+  const selectedParties = useMemo(
+    () => parties.filter((party) => selectedIds.includes(party.id)),
+    [parties, selectedIds]
+  )
+
   const normalizedQuery = deferredQuery.trim().toLowerCase()
   const isSearching = normalizedQuery.length > 0
+  const showDisagreements = topicFilter === "disagreement"
+  const forceExpandGroups = isSearching || showDisagreements
 
   const filteredTopics = useMemo(() => {
-    if (!isSearching) return topics
     return topics.filter((topic) => {
+      if (showDisagreements) {
+        if (
+          !partiesDisagree(
+            topic.id,
+            selectedParties.map((party) => party.id),
+            cellsByKey
+          )
+        ) {
+          return false
+        }
+      }
+      if (!isSearching) return true
       const label = topic.displayLabel.toLowerCase()
       const groupLabel = t.table.groups[topic.group].toLowerCase()
-      return label.includes(normalizedQuery) || groupLabel.includes(normalizedQuery)
+      return (
+        label.includes(normalizedQuery) || groupLabel.includes(normalizedQuery)
+      )
     })
-  }, [topics, isSearching, normalizedQuery, t.table.groups])
+  }, [
+    topics,
+    showDisagreements,
+    selectedParties,
+    cellsByKey,
+    isSearching,
+    normalizedQuery,
+    t.table.groups,
+  ])
 
   const topicGroups = useMemo(
     () => groupTopics(filteredTopics),
     [filteredTopics]
-  )
-
-  const selectedParties = useMemo(
-    () => parties.filter((party) => selectedIds.includes(party.id)),
-    [parties, selectedIds]
   )
 
   const tableMinWidth = TOPIC_COL_PX + selectedParties.length * PARTY_COL_PX
@@ -102,12 +142,12 @@ export function ComparisonTable({
   }
 
   function isDesktopGroupCollapsed(group: TopicGroup) {
-    if (isSearching) return false
+    if (forceExpandGroups) return false
     return collapsedGroups.has(group)
   }
 
   function isMobileGroupOpen(group: TopicGroup) {
-    if (isSearching) return true
+    if (forceExpandGroups) return true
     return openMobileGroup === group
   }
 
@@ -199,6 +239,24 @@ export function ComparisonTable({
             })}
           </div>
 
+          <div className="mt-4 flex flex-wrap gap-2">
+            <PresetButton
+              active={topicFilter === "all"}
+              onClick={() => setTopicFilter("all")}
+            >
+              {t.table.filterAll}
+            </PresetButton>
+            <PresetButton
+              active={topicFilter === "disagreement"}
+              onClick={() => setTopicFilter("disagreement")}
+            >
+              {t.table.filterDisagreement}
+            </PresetButton>
+          </div>
+          <p className="mt-2 text-xs leading-relaxed text-muted-foreground">
+            {t.table.filterDisagreementHint}
+          </p>
+
           <div className="relative mt-4">
             <Search
               className="pointer-events-none absolute top-1/2 left-3 h-4 w-4 -translate-y-1/2 text-muted-foreground"
@@ -223,7 +281,7 @@ export function ComparisonTable({
               </button>
             )}
           </div>
-          {isSearching && (
+          {(isSearching || showDisagreements) && (
             <p className="mt-2 text-xs text-muted-foreground">{searchCountLabel}</p>
           )}
 
@@ -232,7 +290,7 @@ export function ComparisonTable({
           </p>
         </div>
 
-        {isSearching && filteredTopics.length === 0 ? (
+        {filteredTopics.length === 0 ? (
           <p className="mt-6 rounded-xl border border-border bg-white px-4 py-8 text-center text-sm text-muted-foreground">
             {t.table.searchNoResults}
           </p>
@@ -253,7 +311,7 @@ export function ComparisonTable({
                   className="flex w-full items-center justify-between gap-3 bg-muted/50 px-4 py-3.5 text-left disabled:cursor-default"
                   aria-expanded={open}
                   aria-label={open ? t.table.collapseGroup : t.table.expandGroup}
-                  disabled={isSearching}
+                  disabled={forceExpandGroups}
                   onClick={() => toggleMobileGroup(group)}
                 >
                   <span className="font-display text-base font-semibold tracking-[-0.01em] text-foreground">
@@ -448,7 +506,7 @@ export function ComparisonTable({
                       topicColPx={TOPIC_COL_PX}
                       expandLabel={t.table.expandGroup}
                       collapseLabel={t.table.collapseGroup}
-                      disableToggle={isSearching}
+                      disableToggle={forceExpandGroups}
                       onToggle={() => toggleGroup(group)}
                     >
                       {!collapsed &&
