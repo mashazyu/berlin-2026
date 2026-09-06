@@ -40,6 +40,8 @@ export function pageMetadata(key: PageKey) {
     const { path, getMetadata, indexable = true } = PAGES[key]
     const { title, description, keywords } = getMetadata(t)
     const fullUrl = buildAbsoluteUrl(safeLang, path)
+    const ogAlt =
+      key === "home" ? `${t.brand.name} — ${t.hero.headline}` : title
 
     return {
       title,
@@ -62,10 +64,10 @@ export function pageMetadata(key: PageKey) {
         siteName: "Berlin 2026",
         images: [
           {
-            url: `${BASE_URL}/${safeLang}/opengraph-image?v=3`,
+            url: `${BASE_URL}/${safeLang}/opengraph-image?v=4`,
             width: 1200,
             height: 630,
-            alt: title,
+            alt: ogAlt,
           },
         ],
       },
@@ -73,7 +75,7 @@ export function pageMetadata(key: PageKey) {
         card: "summary_large_image",
         title,
         description,
-        images: [`${BASE_URL}/${safeLang}/opengraph-image?v=3`],
+        images: [`${BASE_URL}/${safeLang}/opengraph-image?v=4`],
       },
     }
   }

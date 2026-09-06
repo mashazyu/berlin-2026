@@ -1,9 +1,11 @@
 import { getTranslations, type Language } from "@/lib/i18n/get-translations"
 import { BASE_URL, buildAbsoluteUrl } from "@/lib/seo/constants"
+import { homeSharingMeta } from "@/lib/seo/pages"
 
 export function JsonLd({ language }: { language: Language }) {
   const t = getTranslations(language)
   const url = buildAbsoluteUrl(language, "")
+  const sharing = homeSharingMeta(t)
 
   const data = {
     "@context": "https://schema.org",
@@ -24,8 +26,8 @@ export function JsonLd({ language }: { language: Language }) {
         "@type": "WebPage",
         "@id": `${url}#webpage`,
         url,
-        name: t.metadata.homeTitle,
-        description: t.metadata.homeDescription,
+        name: sharing.title,
+        description: sharing.description,
         isPartOf: { "@id": `${BASE_URL}/#website` },
         inLanguage: language,
         about: {

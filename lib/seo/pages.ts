@@ -20,23 +20,28 @@ export interface PageConfig {
   indexable?: boolean
 }
 
+/** Sharing title/description always mirror on-page hero copy. */
+export function homeSharingMeta(t: Translations): PageMetaStrings {
+  return {
+    title: `${t.brand.name} — ${t.hero.headline}`,
+    description: metaDescription(`${t.hero.support}. ${t.hero.blurb}`),
+    keywords: t.metadata.keywords,
+  }
+}
+
 export const PAGES: Record<PageKey, PageConfig> = {
   home: {
     path: "",
     priority: 1,
     changeFrequency: "weekly",
-    getMetadata: (t) => ({
-      title: t.metadata.homeTitle,
-      description: metaDescription(t.metadata.homeDescription),
-      keywords: t.metadata.keywords,
-    }),
+    getMetadata: homeSharingMeta,
   },
   about: {
     path: "/about",
     priority: 0.6,
     changeFrequency: "monthly",
     getMetadata: (t) => ({
-      title: t.metadata.aboutTitle,
+      title: `${t.about.title} — ${t.brand.name}`,
       description: metaDescription(t.metadata.aboutDescription),
     }),
   },
@@ -44,7 +49,7 @@ export const PAGES: Record<PageKey, PageConfig> = {
     path: "/privacy",
     indexable: false,
     getMetadata: (t) => ({
-      title: t.metadata.privacyTitle,
+      title: `${t.privacy.title} — ${t.brand.name}`,
       description: metaDescription(t.metadata.privacyDescription),
     }),
   },
@@ -52,7 +57,7 @@ export const PAGES: Record<PageKey, PageConfig> = {
     path: "/ai-disclosure",
     indexable: false,
     getMetadata: (t) => ({
-      title: t.metadata.aiDisclosureTitle,
+      title: `${t.aiDisclosure.title} — ${t.brand.name}`,
       description: metaDescription(t.metadata.aiDisclosureDescription),
     }),
   },
