@@ -101,6 +101,34 @@ export type Translations = {
     about: string
     privacy: string
   }
+  feedback: {
+    fabLabel: string
+    title: string
+    intro: string
+    textReportHint: string
+    messageLabel: string
+    messagePlaceholder: string
+    emailLabel: string
+    emailPlaceholder: string
+    submit: string
+    sending: string
+    cancel: string
+    close: string
+    success: string
+    error: string
+    captchaRequired: string
+    captchaMissing: string
+  }
+  textReport: {
+    title: string
+    intro: string
+    selectionAction: string
+    incorrectLabel: string
+    incorrectPlaceholder: string
+    suggestedLabel: string
+    suggestedPlaceholder: string
+    submit: string
+  }
   about: {
     title: string
     body: string

@@ -64,6 +64,34 @@
     "about": "About",
     "privacy": "Privacy"
   },
+  "feedback": {
+    "fabLabel": "Send feedback",
+    "title": "Send feedback",
+    "intro": "Questions or comments about the site? Send a short message. Leave an email if you’d like a reply.",
+    "textReportHint": "Reporting incorrect wording or a factual mistake? Select (or copy) the passage on the page — a small button appears so you can open the correction form.",
+    "messageLabel": "Your message",
+    "messagePlaceholder": "Write your feedback…",
+    "emailLabel": "Email (for a reply)",
+    "emailPlaceholder": "you@example.com",
+    "submit": "Send",
+    "sending": "Sending…",
+    "cancel": "Cancel",
+    "close": "Close",
+    "success": "Thank you. We’ll look at your report as soon as we can.",
+    "error": "Something went wrong. Please try again or email nina.harz@pm.me.",
+    "captchaRequired": "Please complete the security check.",
+    "captchaMissing": "Security check is not configured (missing site key)."
+  },
+  "textReport": {
+    "title": "Report incorrect text",
+    "intro": "Check the selected wording and add how it should read.",
+    "selectionAction": "Report this text",
+    "incorrectLabel": "Incorrect text (as on the page)",
+    "incorrectPlaceholder": "Paste or select text from the page…",
+    "suggestedLabel": "Your version",
+    "suggestedPlaceholder": "Write the corrected wording or factual fix…",
+    "submit": "Send report"
+  },
   "about": {
     "title": "About",
     "body": "Berlin 2026 is an independent project comparing party programs across policy areas ahead of the 2026 Berlin state election. Official programs are published only in German — we translate them into languages spoken in Berlin.\n\nNina compares the programs and develops the project; Masha handles the technical side. In parallel we work on [Water for All / Wasser für alle](https://www.water4all.com.de) — an open atlas of free drinking water in Berlin. The project makes access to water visible and helps residents push for new drinking fountains.\n\nContent was created with AI assistance (see [more about AI](/{lang}/ai-disclosure)). Write to us via Contact at the bottom of the page."
@@ -86,7 +114,7 @@
     "responsibleParty": "Responsible party",
     "responsiblePartyContent": "Berlin 2026 project\nEmail: nina.harz@pm.me",
     "dataProcessed": "Data processed",
-    "dataProcessedContent": "When you visit our website, our hosting provider may automatically process technical data required to deliver the site (for example IP address, browser type, and request timestamps in server logs). We do not operate our own user accounts and we do not ask you for your name or email on this site.\n\nThis technical processing is based on our legitimate interest (Art. 6(1)(f) GDPR) in providing a secure, functioning website.",
+    "dataProcessedContent": "When you visit our website, our hosting provider may automatically process technical data required to deliver the site (for example IP address, browser type, and request timestamps in server logs). We do not operate our own user accounts.\n\nIf you use the optional “Report a text or factual error” form, we process your message, the page URL, language, and any email you choose to provide, plus a Cloudflare Turnstile security token to limit spam. We use this only to review and respond to reports about wording or factual mistakes (Art. 6(1)(f) GDPR; Art. 6(1)(a) if you give an email for a reply).\n\nOther technical processing is based on our legitimate interest (Art. 6(1)(f) GDPR) in providing a secure, functioning website.",
     "hosting": "Hosting",
     "hostingContent": "This website is hosted by Vercel Inc. Server infrastructure and content delivery may involve processing outside the EU under appropriate safeguards. See [Vercel's Privacy Policy](https://vercel.com/legal/privacy-policy) for details.",
     "purposeOfProcessing": "Purpose of processing",

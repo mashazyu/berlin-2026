@@ -63,6 +63,34 @@
     "about": "Über uns",
     "privacy": "Datenschutz"
   },
+  "feedback": {
+    "fabLabel": "Feedback senden",
+    "title": "Feedback senden",
+    "intro": "Fragen oder Anmerkungen zur Website? Schreiben Sie uns kurz. Mit E-Mail antworten wir gerne.",
+    "textReportHint": "Falsche Formulierung oder Sachfehler? Markieren (oder kopieren) Sie die Stelle auf der Seite — es erscheint ein kleiner Button, mit dem Sie das Korrekturformular öffnen können.",
+    "messageLabel": "Ihre Nachricht",
+    "messagePlaceholder": "Ihr Feedback…",
+    "emailLabel": "E-Mail (für eine Antwort)",
+    "emailPlaceholder": "sie@beispiel.de",
+    "submit": "Senden",
+    "sending": "Wird gesendet…",
+    "cancel": "Abbrechen",
+    "close": "Schließen",
+    "success": "Danke. Wir kümmern uns so bald wie möglich um Ihre Meldung.",
+    "error": "Etwas ist schiefgelaufen. Bitte erneut versuchen oder nina.harz@pm.me schreiben.",
+    "captchaRequired": "Bitte den Sicherheitscheck abschließen.",
+    "captchaMissing": "Sicherheitscheck ist nicht konfiguriert (fehlender Site Key)."
+  },
+  "textReport": {
+    "title": "Fehlerhaften Text melden",
+    "intro": "Prüfen Sie den markierten Text und ergänzen Sie Ihre Korrektur.",
+    "selectionAction": "Diesen Text melden",
+    "incorrectLabel": "Fehlerhafter Text (wie auf der Seite)",
+    "incorrectPlaceholder": "Text von der Seite markieren oder einfügen…",
+    "suggestedLabel": "Ihre Version",
+    "suggestedPlaceholder": "Korrigierte Formulierung oder sachliche Korrektur…",
+    "submit": "Meldung senden"
+  },
   "about": {
     "title": "Über uns",
     "body": "Berlin 2026 ist ein unabhängiges Projekt zum Vergleich von Parteiprogrammen zu verschiedenen Politikfeldern vor der Abgeordnetenhauswahl 2026 in Berlin. Offizielle Programme erscheinen nur auf Deutsch — wir übersetzen sie in Sprachen, die in Berlin gesprochen werden.\n\nNina vergleicht die Programme und treibt das Projekt voran, Mascha sorgt für die technische Umsetzung. Parallel arbeiten wir an [Wasser für alle / Water for All](https://www.water4all.com.de/de) — einem offenen Atlas freier Trinkwasserstellen in Berlin. Das Projekt macht den Zugang zu Wasser sichtbar und hilft den Menschen vor Ort, sich für neue Trinkbrunnen einzusetzen.\n\nDie Inhalte entstanden mit KI-Unterstützung (siehe [mehr zum KI-Hinweis](/{lang}/ai-disclosure)). Schreiben Sie uns über „Kontakt“ unten auf der Seite."
@@ -85,7 +113,7 @@
     "responsibleParty": "Verantwortliche Stelle",
     "responsiblePartyContent": "Projekt Berlin 2026\nE-Mail: nina.harz@pm.me",
     "dataProcessed": "Verarbeitete Daten",
-    "dataProcessedContent": "Beim Besuch unserer Website kann unser Hosting-Anbieter automatisch technische Daten verarbeiten, die für die Auslieferung der Seite nötig sind (zum Beispiel IP-Adresse, Browsertyp und Zeitstempel in Server-Logs). Wir betreiben keine eigenen Nutzerkonten und fragen auf dieser Website nicht nach Ihrem Namen oder Ihrer E-Mail-Adresse.\n\nDiese technische Verarbeitung beruht auf unserem berechtigten Interesse (Art. 6 Abs. 1 lit. f DSGVO) an einer sicheren und funktionsfähigen Website.",
+    "dataProcessedContent": "Beim Besuch unserer Website kann unser Hosting-Anbieter automatisch technische Daten verarbeiten, die für die Auslieferung der Seite nötig sind (zum Beispiel IP-Adresse, Browsertyp und Zeitstempel in Server-Logs). Wir betreiben keine eigenen Nutzerkonten.\n\nWenn Sie das optionale Formular „Text- oder Sachfehler melden“ nutzen, verarbeiten wir Ihre Nachricht, die Seiten-URL, die Sprache und eine E-Mail-Adresse, falls Sie eine angeben, sowie ein Cloudflare-Turnstile-Token zur Spam-Abwehr. Wir nutzen diese Daten nur zur Prüfung und Beantwortung von Meldungen zu Formulierungs- oder Sachfehlern (Art. 6 Abs. 1 lit. f DSGVO; Art. 6 Abs. 1 lit. a, wenn Sie eine E-Mail für eine Antwort angeben).\n\nSonstige technische Verarbeitung beruht auf unserem berechtigten Interesse (Art. 6 Abs. 1 lit. f DSGVO) an einer sicheren und funktionsfähigen Website.",
     "hosting": "Hosting",
     "hostingContent": "Diese Website wird von Vercel Inc. gehostet. Serverinfrastruktur und Content Delivery können eine Verarbeitung außerhalb der EU unter geeigneten Garantien umfassen. Details finden Sie in der [Datenschutzerklärung von Vercel](https://vercel.com/legal/privacy-policy).",
     "purposeOfProcessing": "Zweck der Verarbeitung",

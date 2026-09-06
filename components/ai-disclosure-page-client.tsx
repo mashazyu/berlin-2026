@@ -1,6 +1,7 @@
 "use client"
 
 import { SiteFooter } from "@/components/site-footer"
+import { FeedbackFab } from "@/components/feedback-fab"
 import { SiteHeader } from "@/components/site-header"
 import { useLanguage } from "@/components/language-provider"
 import { renderParagraphs } from "@/lib/utils"
@@ -43,6 +44,7 @@ export function AiDisclosurePageClient() {
         </div>
       </main>
       <SiteFooter />
+      <FeedbackFab />
     </div>
   )
 }

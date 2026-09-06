@@ -1,0 +1,208 @@
+"use client"
+
+import { useCallback, useEffect, useId, useState } from "react"
+import { X } from "lucide-react"
+import { Turnstile } from "@marsidev/react-turnstile"
+import { Button } from "@/components/ui/button"
+import { useLanguage } from "@/components/language-provider"
+import { cn } from "@/lib/utils"
+
+type TextReportDialogProps = {
+  open: boolean
+  onClose: () => void
+  initialIncorrect?: string
+}
+
+export function TextReportDialog({
+  open,
+  onClose,
+  initialIncorrect = "",
+}: TextReportDialogProps) {
+  const { language, translations: t } = useLanguage()
+  const tr = t.textReport
+  const titleId = useId()
+  const [incorrect, setIncorrect] = useState("")
+  const [suggested, setSuggested] = useState("")
+  const [company, setCompany] = useState("")
+  const [token, setToken] = useState<string | null>(null)
+  const [status, setStatus] = useState<"idle" | "sending" | "ok" | "error">("idle")
+  const [error, setError] = useState<string | null>(null)
+  const siteKey = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY
+
+  const reset = useCallback(() => {
+    setIncorrect("")
+    setSuggested("")
+    setCompany("")
+    setToken(null)
+    setStatus("idle")
+    setError(null)
+  }, [])
+
+  useEffect(() => {
+    if (!open) {
+      reset()
+      return
+    }
+    setIncorrect(initialIncorrect)
+    setSuggested("")
+    setCompany("")
+    setToken(null)
+    setStatus("idle")
+    setError(null)
+  }, [open, initialIncorrect, reset])
+
+  function handleClose() {
+    reset()
+    onClose()
+  }
+
+  async function onSubmit(e: React.FormEvent) {
+    e.preventDefault()
+    if (!token) {
+      setError(t.feedback.captchaRequired)
+      setStatus("error")
+      return
+    }
+    setStatus("sending")
+    setError(null)
+    try {
+      const res = await fetch("/api/feedback", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({
+          kind: "text-report",
+          incorrectText: incorrect,
+          suggestedText: suggested,
+          pageUrl: typeof window !== "undefined" ? window.location.href : undefined,
+          locale: language,
+          turnstileToken: token,
+          company,
+        }),
+      })
+      const data = (await res.json().catch(() => ({}))) as { error?: string }
+      if (!res.ok) {
+        setError(data.error || t.feedback.error)
+        setStatus("error")
+        return
+      }
+      setStatus("ok")
+    } catch {
+      setError(t.feedback.error)
+      setStatus("error")
+    }
+  }
+
+  if (!open) return null
+
+  return (
+    <div
+      className="fixed inset-0 z-50 flex items-end justify-center bg-foreground/40 p-4 sm:items-center"
+      role="presentation"
+      onClick={(e) => {
+        if (e.target === e.currentTarget) handleClose()
+      }}
+    >
+      <div
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby={titleId}
+        className="relative w-full max-w-lg rounded-xl border border-border bg-white p-5 shadow-lg sm:p-6"
+      >
+        <button
+          type="button"
+          onClick={handleClose}
+          aria-label={t.feedback.close}
+          className="absolute right-3 top-3 inline-flex h-8 w-8 items-center justify-center rounded-md text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
+        >
+          <X className="h-4 w-4" aria-hidden />
+        </button>
+
+        {status === "ok" ? (
+          <p id={titleId} className="pr-8 text-base text-foreground" role="status">
+            {t.feedback.success}
+          </p>
+        ) : (
+          <>
+            <h2 id={titleId} className="pr-8 font-display text-xl font-semibold tracking-[-0.01em]">
+              {tr.title}
+            </h2>
+            <p className="mt-2 text-sm text-muted-foreground">{tr.intro}</p>
+            <form className="mt-5 space-y-4" onSubmit={onSubmit}>
+              <div>
+                <label htmlFor="text-report-incorrect" className="text-sm font-medium text-foreground">
+                  {tr.incorrectLabel}
+                </label>
+                <textarea
+                  id="text-report-incorrect"
+                  required
+                  minLength={3}
+                  maxLength={4000}
+                  rows={3}
+                  value={incorrect}
+                  onChange={(e) => setIncorrect(e.target.value)}
+                  placeholder={tr.incorrectPlaceholder}
+                  className="mt-1.5 w-full rounded-md border border-border bg-background px-3 py-2 text-sm text-foreground outline-none focus:border-primary focus:ring-2 focus:ring-primary/20"
+                />
+              </div>
+              <div>
+                <label htmlFor="text-report-suggested" className="text-sm font-medium text-foreground">
+                  {tr.suggestedLabel}
+                </label>
+                <textarea
+                  id="text-report-suggested"
+                  required
+                  minLength={3}
+                  maxLength={4000}
+                  rows={3}
+                  value={suggested}
+                  onChange={(e) => setSuggested(e.target.value)}
+                  placeholder={tr.suggestedPlaceholder}
+                  className="mt-1.5 w-full rounded-md border border-border bg-background px-3 py-2 text-sm text-foreground outline-none focus:border-primary focus:ring-2 focus:ring-primary/20"
+                />
+              </div>
+              <div aria-hidden="true" className="absolute -left-[9999px] h-0 w-0 overflow-hidden">
+                <label htmlFor="text-report-company">Company</label>
+                <input
+                  id="text-report-company"
+                  tabIndex={-1}
+                  autoComplete="off"
+                  value={company}
+                  onChange={(e) => setCompany(e.target.value)}
+                />
+              </div>
+              {siteKey ? (
+                <Turnstile
+                  siteKey={siteKey}
+                  onSuccess={setToken}
+                  onExpire={() => setToken(null)}
+                  onError={() => setToken(null)}
+                  options={{ theme: "light", size: "flexible" }}
+                />
+              ) : (
+                <p className="text-sm text-destructive">{t.feedback.captchaMissing}</p>
+              )}
+              {error ? (
+                <p className="text-sm text-destructive" role="alert">
+                  {error}
+                </p>
+              ) : null}
+              <div className="flex flex-wrap gap-2 pt-1">
+                <Button type="submit" disabled={status === "sending" || !siteKey}>
+                  {status === "sending" ? t.feedback.sending : tr.submit}
+                </Button>
+                <Button
+                  type="button"
+                  variant="outline"
+                  onClick={handleClose}
+                  className={cn(status === "sending" && "pointer-events-none opacity-50")}
+                >
+                  {t.feedback.cancel}
+                </Button>
+              </div>
+            </form>
+          </>
+        )}
+      </div>
+    </div>
+  )
+}
