@@ -9,8 +9,9 @@ import { cn } from "@/lib/utils"
 const LABELS: Record<Language, string> = {
   en: "EN",
   de: "DE",
-  ru: "RU",
   tr: "TR",
+  pl: "PL",
+  ru: "RU",
 }
 
 export function LanguageSwitcher({ className }: { className?: string }) {

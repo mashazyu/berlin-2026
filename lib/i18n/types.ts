@@ -1,10 +1,11 @@
-export type Language = "en" | "de" | "ru" | "tr"
+export type Language = "en" | "de" | "ru" | "tr" | "pl"
 
 export type LocalizedString = {
   en: string
   de?: string | null
   ru?: string | null
   tr?: string | null
+  pl?: string | null
 }
 
 export type Translations = {

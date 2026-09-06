@@ -2,7 +2,7 @@ import type { Language } from "@/lib/i18n/types"
 
 export const BASE_URL = "https://www.berlin-2026.de"
 
-export const SUPPORTED_LANGUAGES = ["en", "de", "tr", "ru"] as const satisfies readonly Language[]
+export const SUPPORTED_LANGUAGES = ["en", "de", "tr", "pl", "ru"] as const satisfies readonly Language[]
 
 export const DEFAULT_LANGUAGE: Language = "de"
 
@@ -11,6 +11,7 @@ export const CONTENT_LANGUAGE: Record<Language, string> = {
   de: "de-DE",
   ru: "ru-DE",
   tr: "tr-DE",
+  pl: "pl-DE",
 }
 export function toSafeLanguage(lang: string | undefined | null): Language {
   return (SUPPORTED_LANGUAGES as readonly string[]).includes(lang ?? "")

@@ -16,6 +16,7 @@ const OG_LOCALES: Record<Language, string> = {
   de: "de_DE",
   ru: "ru_RU",
   tr: "tr_TR",
+  pl: "pl_PL",
 }
 
 function buildLanguageAlternates(path: string): Record<string, string> {

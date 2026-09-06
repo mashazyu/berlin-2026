@@ -34,6 +34,15 @@ function electionCopy(language: Language) {
       performerName: "Seçime katılan partiler ve adaylar",
     }
   }
+  if (language === "pl") {
+    return {
+      name: "Wybory do berlińskiego Abgeordnetenhaus 2026",
+      description:
+        "Wybory do Izby Deputowanych Berlina (Abgeordnetenhaus) 20 września 2026 r. Wolne wybory do parlamentu landowego Berlina.",
+      organizerName: "Krajowa Komisja Wyborcza Berlina (Landeswahlleitung)",
+      performerName: "Partie i kandydaci startujący w wyborach",
+    }
+  }
   return {
     name: "2026 Berlin Abgeordnetenhaus election",
     description:
@@ -58,7 +67,7 @@ export function JsonLd({ language }: { language: Language }) {
         "@id": `${BASE_URL}/#website`,
         url: BASE_URL,
         name: "Berlin 2026",
-        inLanguage: ["en", "de", "tr", "ru"],
+        inLanguage: ["en", "de", "tr", "pl", "ru"],
         publisher: {
           "@type": "Organization",
           name: "Berlin 2026",
@@ -116,7 +125,9 @@ export function JsonLd({ language }: { language: Language }) {
                   ? "Участие в голосовании"
                   : language === "tr"
                     ? "Seçime katılım (oy hakkı olanlar)"
-                    : "Voting (eligible voters)",
+                    : language === "pl"
+                      ? "Udział w wyborach (osoby uprawnione)"
+                      : "Voting (eligible voters)",
             price: 0,
             priceCurrency: "EUR",
             availability: "https://schema.org/InStock",
