@@ -10,6 +10,7 @@ const LABELS: Record<Language, string> = {
   en: "EN",
   de: "DE",
   ru: "RU",
+  tr: "TR",
 }
 
 export function LanguageSwitcher({ className }: { className?: string }) {

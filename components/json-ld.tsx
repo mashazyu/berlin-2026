@@ -25,6 +25,15 @@ function electionCopy(language: Language) {
       performerName: "Партии и кандидаты, участвующие в выборах",
     }
   }
+  if (language === "tr") {
+    return {
+      name: "2026 Berlin Eyalet Meclisi seçimleri",
+      description:
+        "20 Eylül 2026’da Berlin Temsilciler Meclisi (Abgeordnetenhaus) seçimleri. Berlin eyalet parlamentosunun serbest seçimi.",
+      organizerName: "Berlin Eyalet Seçim Kurulu (Landeswahlleitung)",
+      performerName: "Seçime katılan partiler ve adaylar",
+    }
+  }
   return {
     name: "2026 Berlin Abgeordnetenhaus election",
     description:
@@ -49,7 +58,7 @@ export function JsonLd({ language }: { language: Language }) {
         "@id": `${BASE_URL}/#website`,
         url: BASE_URL,
         name: "Berlin 2026",
-        inLanguage: ["en", "de", "ru"],
+        inLanguage: ["en", "de", "tr", "ru"],
         publisher: {
           "@type": "Organization",
           name: "Berlin 2026",
@@ -105,7 +114,9 @@ export function JsonLd({ language }: { language: Language }) {
                 ? "Teilnahme an der Wahl"
                 : language === "ru"
                   ? "Участие в голосовании"
-                  : "Voting (eligible voters)",
+                  : language === "tr"
+                    ? "Seçime katılım (oy hakkı olanlar)"
+                    : "Voting (eligible voters)",
             price: 0,
             priceCurrency: "EUR",
             availability: "https://schema.org/InStock",
