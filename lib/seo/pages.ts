@@ -20,11 +20,11 @@ export interface PageConfig {
   indexable?: boolean
 }
 
-/** Sharing title/description always mirror on-page hero copy. */
+/** Dedicated sharing copy from locale metadata (not hero — avoids title/desc overlap). */
 export function homeSharingMeta(t: Translations): PageMetaStrings {
   return {
-    title: `${t.brand.name} — ${t.hero.headline}`,
-    description: metaDescription(`${t.hero.support}. ${t.hero.blurb}`),
+    title: t.metadata.homeTitle,
+    description: metaDescription(t.metadata.homeDescription),
     keywords: t.metadata.keywords,
   }
 }
