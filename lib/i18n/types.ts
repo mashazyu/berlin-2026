@@ -101,6 +101,7 @@ export type Translations = {
     contact: string
     about: string
     privacy: string
+    contribute: string
   }
   feedback: {
     fabLabel: string
@@ -133,6 +134,8 @@ export type Translations = {
   about: {
     title: string
     body: string
+    contributeTitle: string
+    contributeBody: string
   }
   aiDisclosure: {
     title: string

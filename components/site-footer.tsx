@@ -27,6 +27,12 @@ export function SiteFooter() {
               {t.footer.about}
             </Link>
             <Link
+              href={`/${language}/about#contribute`}
+              className="transition-colors hover:text-foreground"
+            >
+              {t.footer.contribute}
+            </Link>
+            <Link
               href={`/${language}/ai-disclosure`}
               className="transition-colors hover:text-foreground"
             >

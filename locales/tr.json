@@ -62,7 +62,8 @@
     "relatedSite": "Programların tam çevirileri: BerlinVote.Help",
     "contact": "İletişim",
     "about": "Hakkında",
-    "privacy": "Gizlilik"
+    "privacy": "Gizlilik",
+    "contribute": "Katkı"
   },
   "feedback": {
     "fabLabel": "Geri bildirim gönder",
@@ -94,7 +95,9 @@
   },
   "about": {
     "title": "Hakkında",
-    "body": "Berlin 2026, 2026 Berlin eyalet seçimleri öncesinde farklı politika alanlarında parti programlarını karşılaştıran bağımsız bir projedir. Resmi programlar yalnızca Almanca yayımlanır — biz onları Berlin’de konuşulan dillere çeviriyoruz.\n\nNina programları karşılaştırıyor ve projeyi geliştiriyor; Masha teknik taraftan sorumlu. Paralel olarak [Water for All / Wasser für alle](https://www.water4all.com.de) üzerinde çalışıyoruz — Berlin’deki ücretsiz içme suyu noktalarının açık atlası. Proje suya erişimi görünür kılar ve sakinlerin yeni çeşmeler için ses çıkarmasına yardımcı olur.\n\nİçerik yapay zekâ desteğiyle oluşturulmuştur (bkz. [yapay zekâ hakkında daha fazla](/{lang}/ai-disclosure)). Sayfanın altındaki İletişim üzerinden bize yazın."
+    "body": "Berlin 2026, 2026 Berlin eyalet seçimleri öncesinde farklı politika alanlarında parti programlarını karşılaştıran bağımsız bir projedir. Resmi programlar yalnızca Almanca yayımlanır — biz onları Berlin’de konuşulan dillere çeviriyoruz.\n\nNina programları karşılaştırıyor ve projeyi geliştiriyor; Masha teknik taraftan sorumlu. Paralel olarak [Water for All / Wasser für alle](https://www.water4all.com.de) üzerinde çalışıyoruz — Berlin’deki ücretsiz içme suyu noktalarının açık atlası. Proje suya erişimi görünür kılar ve sakinlerin yeni çeşmeler için ses çıkarmasına yardımcı olur.",
+    "contributeTitle": "Nasıl yardımcı olabilirsiniz",
+    "contributeBody": "Projeyi desteklemek isterseniz en faydalısı duyurmak — işine yarayabilecek insanlarla paylaşmak.\n\nSitede bir hata görürseniz — yanlış bir ifade veya olgusal bir kayma — lütfen bize bildirin, düzeltelim. Bildirimi açmak için sayfadaki metni seçin ya da İletişim üzerinden yazın."
   },
   "aiDisclosure": {
     "title": "Yapay Zekâ Açıklaması",

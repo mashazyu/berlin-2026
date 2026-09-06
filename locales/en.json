@@ -62,7 +62,8 @@
     "relatedSite": "Full program translations: BerlinVote.Help",
     "contact": "Contact",
     "about": "About",
-    "privacy": "Privacy"
+    "privacy": "Privacy",
+    "contribute": "Contribute"
   },
   "feedback": {
     "fabLabel": "Send feedback",
@@ -94,7 +95,9 @@
   },
   "about": {
     "title": "About",
-    "body": "Berlin 2026 is an independent project comparing party programs across policy areas ahead of the 2026 Berlin state election. Official programs are published only in German — we translate them into languages spoken in Berlin.\n\nNina compares the programs and develops the project; Masha handles the technical side. In parallel we work on [Water for All / Wasser für alle](https://www.water4all.com.de) — an open atlas of free drinking water in Berlin. The project makes access to water visible and helps residents push for new drinking fountains.\n\nContent was created with AI assistance (see [more about AI](/{lang}/ai-disclosure)). Write to us via Contact at the bottom of the page."
+    "body": "Berlin 2026 is an independent project comparing party programs across policy areas ahead of the 2026 Berlin state election. Official programs are published only in German — we translate them into languages spoken in Berlin.\n\nNina compares the programs and develops the project; Masha handles the technical side. In parallel we work on [Water for All / Wasser für alle](https://www.water4all.com.de) — an open atlas of free drinking water in Berlin. The project makes access to water visible and helps residents push for new drinking fountains.",
+    "contributeTitle": "How you can help",
+    "contributeBody": "If you’d like to support the project, the most useful thing you can do is spread the word — share it with people who might find it helpful.\n\nAnd if you spot a mistake on the site — wrong wording or a factual slip — please tell us so we can fix it. Select the passage on the page to open a report, or write to us via Contact."
   },
   "aiDisclosure": {
     "title": "AI Disclosure",

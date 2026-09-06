@@ -20,6 +20,19 @@ export function AboutPageClient() {
         <div className="mt-6 space-y-4">
           {renderParagraphs(a.body, "text-muted-foreground leading-relaxed", language)}
         </div>
+
+        <section id="contribute" className="mt-12 scroll-mt-24">
+          <h2 className="font-display text-xl font-semibold">
+            {a.contributeTitle}
+          </h2>
+          <div className="mt-3 space-y-3">
+            {renderParagraphs(
+              a.contributeBody,
+              "text-muted-foreground leading-relaxed",
+              language
+            )}
+          </div>
+        </section>
       </main>
       <SiteFooter />
       <FeedbackFab />

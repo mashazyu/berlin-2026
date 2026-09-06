@@ -61,7 +61,8 @@
     "relatedSite": "Vollständige Programmübersetzungen: BerlinVote.Help",
     "contact": "Kontakt",
     "about": "Über uns",
-    "privacy": "Datenschutz"
+    "privacy": "Datenschutz",
+    "contribute": "Mitmachen"
   },
   "feedback": {
     "fabLabel": "Feedback senden",
@@ -93,7 +94,9 @@
   },
   "about": {
     "title": "Über uns",
-    "body": "Berlin 2026 ist ein unabhängiges Projekt zum Vergleich von Parteiprogrammen zu verschiedenen Politikfeldern vor der Abgeordnetenhauswahl 2026 in Berlin. Offizielle Programme erscheinen nur auf Deutsch — wir übersetzen sie in Sprachen, die in Berlin gesprochen werden.\n\nNina vergleicht die Programme und treibt das Projekt voran, Mascha sorgt für die technische Umsetzung. Parallel arbeiten wir an [Wasser für alle / Water for All](https://www.water4all.com.de/de) — einem offenen Atlas freier Trinkwasserstellen in Berlin. Das Projekt macht den Zugang zu Wasser sichtbar und hilft den Menschen vor Ort, sich für neue Trinkbrunnen einzusetzen.\n\nDie Inhalte entstanden mit KI-Unterstützung (siehe [mehr zum KI-Hinweis](/{lang}/ai-disclosure)). Schreiben Sie uns über „Kontakt“ unten auf der Seite."
+    "body": "Berlin 2026 ist ein unabhängiges Projekt zum Vergleich von Parteiprogrammen zu verschiedenen Politikfeldern vor der Abgeordnetenhauswahl 2026 in Berlin. Offizielle Programme erscheinen nur auf Deutsch — wir übersetzen sie in Sprachen, die in Berlin gesprochen werden.\n\nNina vergleicht die Programme und treibt das Projekt voran, Mascha sorgt für die technische Umsetzung. Parallel arbeiten wir an [Wasser für alle / Water for All](https://www.water4all.com.de/de) — einem offenen Atlas freier Trinkwasserstellen in Berlin. Das Projekt macht den Zugang zu Wasser sichtbar und hilft den Menschen vor Ort, sich für neue Trinkbrunnen einzusetzen.",
+    "contributeTitle": "Wie Sie helfen können",
+    "contributeBody": "Wenn Sie das Projekt unterstützen möchten, hilft uns am meisten, wenn Sie es weitererzählen — an Menschen, denen es nützlich sein könnte.\n\nUnd wenn Ihnen auf der Website ein Fehler auffällt — eine ungenaue Formulierung oder ein sachlicher Irrtum — schreiben Sie uns bitte, damit wir ihn korrigieren können. Markieren Sie die Stelle auf der Seite, um eine Meldung zu öffnen, oder erreichen Sie uns über Kontakt."
   },
   "aiDisclosure": {
     "title": "KI-Hinweis",
