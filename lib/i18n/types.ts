@@ -159,13 +159,19 @@ export type Translations = {
     dataProcessedContent: string
     hosting: string
     hostingContent: string
+    processors: string
+    processorsContent: string
     purposeOfProcessing: string
     purposeOfProcessingContent: string
+    retention: string
+    retentionContent: string
     cookies: string
     cookiesContent: string
     yourRights: string
     yourRightsIntro: string
     yourRightsList: string
+    supervisoryAuthority: string
+    supervisoryAuthorityContent: string
     contactInfo: string
   }
 }

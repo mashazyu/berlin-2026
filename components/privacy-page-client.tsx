@@ -14,7 +14,9 @@ export function PrivacyPageClient() {
     { title: p.responsibleParty, body: p.responsiblePartyContent },
     { title: p.dataProcessed, body: p.dataProcessedContent },
     { title: p.hosting, body: p.hostingContent },
+    { title: p.processors, body: p.processorsContent },
     { title: p.purposeOfProcessing, body: p.purposeOfProcessingContent },
+    { title: p.retention, body: p.retentionContent },
     { title: p.cookies, body: p.cookiesContent },
   ]
 
@@ -58,6 +60,16 @@ export function PrivacyPageClient() {
             <p className="mt-4 text-muted-foreground leading-relaxed">
               {p.contactInfo}
             </p>
+            <h3 className="mt-8 font-display text-lg font-semibold">
+              {p.supervisoryAuthority}
+            </h3>
+            <div className="mt-3 space-y-3 whitespace-pre-line">
+              {renderParagraphs(
+                p.supervisoryAuthorityContent,
+                "text-muted-foreground leading-relaxed",
+                language
+              )}
+            </div>
           </section>
         </div>
       </main>
