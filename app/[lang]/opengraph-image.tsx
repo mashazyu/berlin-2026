@@ -1,14 +1,12 @@
 import { ImageResponse } from "next/og"
 import { getTranslations, type Language } from "@/lib/i18n/get-translations"
-import { SUPPORTED_LANGUAGES, toSafeLanguage } from "@/lib/seo/constants"
+import { toSafeLanguage } from "@/lib/seo/constants"
 import { getOgFonts } from "@/lib/seo/og-fonts"
 
 export const size = { width: 1200, height: 630 }
 export const contentType = "image/png"
-
-export function generateStaticParams() {
-  return SUPPORTED_LANGUAGES.map((lang) => ({ lang }))
-}
+/** Fetch Google font subsets per request — same approach as 882e210 (working TG Cyrillic). */
+export const dynamic = "force-dynamic"
 
 export default async function OpenGraphImage({
   params,
@@ -32,7 +30,7 @@ export default async function OpenGraphImage({
           padding: "64px 72px",
           background: "#ffffff",
           color: "#171E25",
-          fontFamily: "Noto Sans",
+          fontFamily: '"Noto Sans"',
         }}
       >
         <div style={{ display: "flex", alignItems: "baseline", gap: 16 }}>
@@ -41,7 +39,7 @@ export default async function OpenGraphImage({
               fontSize: 52,
               fontWeight: 700,
               color: "#F55A1F",
-              fontFamily: "Noto Sans",
+              fontFamily: '"Noto Sans"',
             }}
           >
             Berlin
@@ -52,7 +50,7 @@ export default async function OpenGraphImage({
               fontSize: 52,
               fontWeight: 700,
               color: "#171E25",
-              fontFamily: "Noto Sans",
+              fontFamily: '"Noto Sans"',
             }}
           >
             2026
@@ -65,7 +63,7 @@ export default async function OpenGraphImage({
               fontWeight: 700,
               lineHeight: 1.2,
               maxWidth: 980,
-              fontFamily: "Noto Sans",
+              fontFamily: '"Noto Sans"',
             }}
           >
             {t.hero.headline}
@@ -76,7 +74,7 @@ export default async function OpenGraphImage({
               color: "#5A6570",
               maxWidth: 900,
               fontWeight: 400,
-              fontFamily: "Noto Sans",
+              fontFamily: '"Noto Sans"',
             }}
           >
             {t.hero.support}

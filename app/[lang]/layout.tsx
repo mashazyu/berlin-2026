@@ -1,5 +1,5 @@
 import type React from "react"
-import localFont from "next/font/local"
+import { Lora, DM_Sans } from "next/font/google"
 import { notFound } from "next/navigation"
 import { LanguageProvider } from "@/components/language-provider"
 import {
@@ -8,33 +8,16 @@ import {
 } from "@/lib/i18n/get-translations"
 import { CONTENT_LANGUAGE } from "@/lib/seo/constants"
 
-/** Local Noto Sans (Latin + Cyrillic). Google webfonts were inconsistent for RU. */
-const notoSans = localFont({
-  src: [
-    {
-      path: "../../assets/fonts/NotoSans-400.ttf",
-      weight: "400",
-      style: "normal",
-    },
-    {
-      path: "../../assets/fonts/NotoSans-500.ttf",
-      weight: "500",
-      style: "normal",
-    },
-    {
-      path: "../../assets/fonts/NotoSans-600.ttf",
-      weight: "600",
-      style: "normal",
-    },
-    {
-      path: "../../assets/fonts/NotoSans-700.ttf",
-      weight: "700",
-      style: "normal",
-    },
-  ],
-  variable: "--font-noto-sans",
+const lora = Lora({
+  subsets: ["latin", "latin-ext", "cyrillic"],
+  variable: "--font-lora",
   display: "swap",
-  adjustFontFallback: false,
+})
+
+const dmSans = DM_Sans({
+  subsets: ["latin", "latin-ext"],
+  variable: "--font-dm-sans",
+  display: "swap",
 })
 
 export function generateStaticParams() {
@@ -56,7 +39,9 @@ export default async function LangLayout({
 
   return (
     <html lang={CONTENT_LANGUAGE[language]} suppressHydrationWarning>
-      <body className={`${notoSans.variable} font-sans antialiased`}>
+      <body
+        className={`${lora.variable} ${dmSans.variable} font-sans antialiased`}
+      >
         <LanguageProvider initialLanguage={language}>{children}</LanguageProvider>
       </body>
     </html>
