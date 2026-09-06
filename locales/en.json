@@ -79,7 +79,7 @@
     "cancel": "Cancel",
     "close": "Close",
     "success": "Thank you. We’ll look at your report as soon as we can.",
-    "error": "Something went wrong. Please try again or email nina.harz@pm.me.",
+    "error": "Something went wrong. Please try again or email feedback.berlin.2026@gmail.com.",
     "captchaRequired": "Please complete the security check.",
     "captchaMissing": "Security check is not configured (missing site key)."
   },
@@ -109,13 +109,13 @@
     "reviewAndAccuracy": "Review and accuracy",
     "reviewAndAccuracyContent": "The party comparison table is compiled with substantial AI assistance from official party programs. We recommend double-checking points that matter to you. Full translations of the main parties’ programs are published on BerlinVote.Help. We check content for accuracy, but errors can still occur and some nuance may be missed. If you spot a mistake, please let us know.",
     "contact": "Contact",
-    "contactContent": "Questions about how we use AI or about the content on this site? Write to us at nina.harz@pm.me."
+    "contactContent": "Questions about how we use AI or about the content on this site? Write to us at feedback.berlin.2026@gmail.com."
   },
   "privacy": {
     "title": "Privacy Policy",
     "intro": "This privacy policy explains how we collect, use, and protect your personal information when you visit our website, in compliance with the General Data Protection Regulation (GDPR) and applicable German data protection law (including the TTDSG).",
     "responsibleParty": "Responsible party (controller)",
-    "responsiblePartyContent": "Berlin 2026 project\nEmail: nina.harz@pm.me",
+    "responsiblePartyContent": "Berlin 2026 project\nEmail: feedback.berlin.2026@gmail.com",
     "dataProcessed": "Data processed",
     "dataProcessedContent": "When you visit our website, our hosting provider may automatically process technical data required to deliver the site (for example IP address, browser/user-agent information, and request timestamps in server logs). We do not operate user accounts or require registration.\n\nIf you use the optional feedback form, we process your message, the page URL, the interface language, and — if you choose to provide it — your email address so we can reply.\n\nIf you report incorrect wording or a factual mistake (including via the “Report this text” control after selecting text), we process the quoted incorrect text, your suggested correction, the page URL, and the interface language.\n\nWhen you submit either form, we also process a Cloudflare Turnstile security token and related technical signals needed to verify that the request is not automated spam.",
     "hosting": "Hosting",
@@ -133,7 +133,7 @@
     "yourRightsList": "• Right of access (Art. 15 GDPR)\n• Right to rectification (Art. 16 GDPR)\n• Right to erasure (Art. 17 GDPR)\n• Right to restriction of processing (Art. 18 GDPR)\n• Right to data portability (Art. 20 GDPR)\n• Right to object to processing based on legitimate interests (Art. 21 GDPR)\n• Right to withdraw consent where processing is based on consent (Art. 7(3) GDPR)\n• Right to lodge a complaint with a supervisory authority (Art. 77 GDPR)",
     "supervisoryAuthority": "Supervisory authority",
     "supervisoryAuthorityContent": "You may lodge a complaint with a data protection supervisory authority. For Berlin, this is typically:\n\nBerliner Beauftragte für Datenschutz und Informationsfreiheit\nAlt-Moabit 59–61, 10555 Berlin, Germany\n[https://www.datenschutz-berlin.de](https://www.datenschutz-berlin.de)",
-    "contactInfo": "To exercise your rights or ask questions about your data, contact us at nina.harz@pm.me."
+    "contactInfo": "To exercise your rights or ask questions about your data, contact us at feedback.berlin.2026@gmail.com."
   },
   "comparison": {
     "title": "Party programs for the 2026 Berlin state election",

@@ -90,7 +90,7 @@ export async function POST(request: Request) {
   const pageUrl = (body.pageUrl ?? "").slice(0, MAX_CONTEXT)
   const locale = (body.locale ?? "").slice(0, 16)
   const context = (body.context ?? "").slice(0, MAX_CONTEXT)
-  const to = process.env.FEEDBACK_TO_EMAIL || "nina.harz@pm.me"
+  const to = process.env.FEEDBACK_TO_EMAIL || "feedback.berlin.2026@gmail.com"
   const subject =
     kind === "text-report"
       ? `[Berlin 2026] Text correction (${locale || "site"})`

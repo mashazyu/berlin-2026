@@ -79,7 +79,7 @@
     "cancel": "İptal",
     "close": "Kapat",
     "success": "Teşekkürler. Bildiriminizi en kısa sürede inceleyeceğiz.",
-    "error": "Bir şeyler ters gitti. Lütfen yeniden deneyin veya nina.harz@pm.me adresine yazın.",
+    "error": "Bir şeyler ters gitti. Lütfen yeniden deneyin veya feedback.berlin.2026@gmail.com adresine yazın.",
     "captchaRequired": "Lütfen güvenlik kontrolünü tamamlayın.",
     "captchaMissing": "Güvenlik kontrolü yapılandırılmamış (site anahtarı eksik)."
   },
@@ -109,13 +109,13 @@
     "reviewAndAccuracy": "Gözden geçirme ve doğruluk",
     "reviewAndAccuracyContent": "Parti karşılaştırma tablosu, resmi parti programlarından büyük ölçüde yapay zekâ desteğiyle derlenmiştir. Sizin için önemli noktaları yeniden kontrol etmenizi öneririz. Büyük partilerin programlarının tam çevirileri BerlinVote.Help’te yayımlanır. İçeriği doğruluk açısından kontrol ederiz; yine de hatalar olabilir ve bazı nüanslar kaçabilir. Bir hata fark ederseniz lütfen bize yazın.",
     "contact": "İletişim",
-    "contactContent": "Yapay zekâ kullanımımız veya sitedeki içerik hakkında sorularınız mı var? nina.harz@pm.me adresine yazın."
+    "contactContent": "Yapay zekâ kullanımımız veya sitedeki içerik hakkında sorularınız mı var? feedback.berlin.2026@gmail.com adresine yazın."
   },
   "privacy": {
     "title": "Gizlilik Politikası",
     "intro": "Bu gizlilik politikası, sitemizi ziyaret ettiğinizde kişisel bilgilerinizi Genel Veri Koruma Yönetmeliği (GDPR) ve geçerli Alman veri koruma yasalarına (TTDSG dahil) uygun olarak nasıl topladığımızı, kullandığımızı ve koruduğumuzu açıklar.",
     "responsibleParty": "Sorumlu taraf (veri sorumlusu)",
-    "responsiblePartyContent": "Berlin 2026 projesi\nE-posta: nina.harz@pm.me",
+    "responsiblePartyContent": "Berlin 2026 projesi\nE-posta: feedback.berlin.2026@gmail.com",
     "dataProcessed": "İşlenen veriler",
     "dataProcessedContent": "Sitemizi ziyaret ettiğinizde, barındırma sağlayıcımız siteyi sunmak için gerekli teknik verileri otomatik olarak işleyebilir (örneğin IP adresi, tarayıcı/user-agent bilgileri ve sunucu günlüklerindeki zaman damgaları). Kullanıcı hesabı işletmiyoruz ve kayıt zorunlu değil.\n\nİsteğe bağlı geri bildirim formunu kullanırsanız mesajınızı, sayfa URL’sini, arayüz dilini ve — verirseniz — yanıt için e-posta adresinizi işleriz.\n\nYanlış ifade veya olgusal hata bildirirseniz (metin seçtikten sonra “Bu metni bildir” dahil), alıntılanan yanlış metni, önerdiğiniz düzeltmeyi, sayfa URL’sini ve arayüz dilini işleriz.\n\nHer iki formu gönderdiğinizde, isteğin otomatik spam olmadığını doğrulamak için Cloudflare Turnstile güvenlik jetonunu ve ilgili teknik sinyalleri de işleriz.",
     "hosting": "Barındırma",
@@ -133,7 +133,7 @@
     "yourRightsList": "• Erişim hakkı (GDPR md. 15)\n• Düzeltme hakkı (GDPR md. 16)\n• Silme hakkı (GDPR md. 17)\n• İşlemeyi kısıtlama hakkı (GDPR md. 18)\n• Veri taşınabilirliği hakkı (GDPR md. 20)\n• Meşru menfaate dayalı işlemeye itiraz hakkı (GDPR md. 21)\n• İşleme rızaya dayanıyorsa rızayı geri çekme hakkı (GDPR md. 7(3))\n• Denetim makamına şikayette bulunma hakkı (GDPR md. 77)",
     "supervisoryAuthority": "Denetim makamı",
     "supervisoryAuthorityContent": "Bir veri koruma denetim makamına şikayette bulunabilirsiniz. Berlin için bu genellikle:\n\nBerliner Beauftragte für Datenschutz und Informationsfreiheit\nAlt-Moabit 59–61, 10555 Berlin, Almanya\n[https://www.datenschutz-berlin.de](https://www.datenschutz-berlin.de)",
-    "contactInfo": "Haklarınızı kullanmak veya verileriniz hakkında soru sormak için nina.harz@pm.me adresine yazın."
+    "contactInfo": "Haklarınızı kullanmak veya verileriniz hakkında soru sormak için feedback.berlin.2026@gmail.com adresine yazın."
   },
   "comparison": {
     "title": "2026 Berlin eyalet seçimleri için parti programları",

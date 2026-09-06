@@ -45,7 +45,7 @@ export function SiteFooter() {
               {t.footer.privacy}
             </Link>
             <a
-              href="mailto:nina.harz@pm.me"
+              href="mailto:feedback.berlin.2026@gmail.com"
               className="transition-colors hover:text-foreground"
             >
               {t.footer.contact}

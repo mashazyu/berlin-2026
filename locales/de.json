@@ -78,7 +78,7 @@
     "cancel": "Abbrechen",
     "close": "Schließen",
     "success": "Danke. Wir kümmern uns so bald wie möglich um Ihre Meldung.",
-    "error": "Etwas ist schiefgelaufen. Bitte erneut versuchen oder nina.harz@pm.me schreiben.",
+    "error": "Etwas ist schiefgelaufen. Bitte erneut versuchen oder feedback.berlin.2026@gmail.com schreiben.",
     "captchaRequired": "Bitte den Sicherheitscheck abschließen.",
     "captchaMissing": "Sicherheitscheck ist nicht konfiguriert (fehlender Site Key)."
   },
@@ -108,13 +108,13 @@
     "reviewAndAccuracy": "Prüfung und Genauigkeit",
     "reviewAndAccuracyContent": "Die Vergleichstabelle der Parteipositionen wurde zu einem großen Teil mit KI-Unterstützung aus den offiziellen Wahlprogrammen erstellt. Bitte überprüfen Sie Punkte, die für Sie wichtig sind, noch einmal. Vollständige Übersetzungen der Programme der großen Parteien finden Sie auf BerlinVote.Help. Wir prüfen Inhalte auf Genauigkeit, dennoch können Fehler vorkommen und Nuancen untergehen. Wenn Ihnen etwas auffällt, schreiben Sie uns bitte.",
     "contact": "Kontakt",
-    "contactContent": "Fragen zur KI-Nutzung oder zu Inhalten auf dieser Website? Schreiben Sie an nina.harz@pm.me."
+    "contactContent": "Fragen zur KI-Nutzung oder zu Inhalten auf dieser Website? Schreiben Sie an feedback.berlin.2026@gmail.com."
   },
   "privacy": {
     "title": "Datenschutzerklärung",
     "intro": "Diese Datenschutzerklärung erklärt, wie wir personenbezogene Daten erheben, nutzen und schützen, wenn Sie unsere Website besuchen — in Übereinstimmung mit der Datenschutz-Grundverordnung (DSGVO) und dem geltenden deutschen Datenschutzrecht (einschließlich TTDSG).",
     "responsibleParty": "Verantwortliche Stelle",
-    "responsiblePartyContent": "Projekt Berlin 2026\nE-Mail: nina.harz@pm.me",
+    "responsiblePartyContent": "Projekt Berlin 2026\nE-Mail: feedback.berlin.2026@gmail.com",
     "dataProcessed": "Verarbeitete Daten",
     "dataProcessedContent": "Beim Besuch unserer Website kann unser Hosting-Anbieter automatisch technische Daten verarbeiten, die für die Auslieferung der Seite nötig sind (zum Beispiel IP-Adresse, Browser-/User-Agent-Informationen und Zeitstempel in Server-Logs). Wir betreiben keine Nutzerkonten und keine Registrierung.\n\nWenn Sie das optionale Feedback-Formular nutzen, verarbeiten wir Ihre Nachricht, die Seiten-URL, die Sprache der Oberfläche und — falls Sie sie angeben — Ihre E-Mail-Adresse, damit wir antworten können.\n\nWenn Sie fehlerhafte Formulierungen oder Sachfehler melden (auch über den Button „Diesen Text melden“ nach einer Textauswahl), verarbeiten wir den zitierten fehlerhaften Text, Ihre Korrekturvorschläge, die Seiten-URL und die Sprache der Oberfläche.\n\nBeim Absenden eines der Formulare verarbeiten wir außerdem ein Cloudflare-Turnstile-Sicherheitstoken sowie damit verbundene technische Signale, die nötig sind, um automatisierten Spam zu erkennen.",
     "hosting": "Hosting",
@@ -132,7 +132,7 @@
     "yourRightsList": "• Auskunftsrecht (Art. 15 DSGVO)\n• Recht auf Berichtigung (Art. 16 DSGVO)\n• Recht auf Löschung (Art. 17 DSGVO)\n• Recht auf Einschränkung der Verarbeitung (Art. 18 DSGVO)\n• Recht auf Datenübertragbarkeit (Art. 20 DSGVO)\n• Widerspruchsrecht gegen Verarbeitung auf Grundlage berechtigter Interessen (Art. 21 DSGVO)\n• Recht, eine erteilte Einwilligung zu widerrufen (Art. 7 Abs. 3 DSGVO)\n• Beschwerderecht bei einer Aufsichtsbehörde (Art. 77 DSGVO)",
     "supervisoryAuthority": "Aufsichtsbehörde",
     "supervisoryAuthorityContent": "Sie können sich bei einer Datenschutzaufsichtsbehörde beschweren. Für Berlin ist dies in der Regel:\n\nBerliner Beauftragte für Datenschutz und Informationsfreiheit\nAlt-Moabit 59–61, 10555 Berlin\n[https://www.datenschutz-berlin.de](https://www.datenschutz-berlin.de)",
-    "contactInfo": "Zur Ausübung Ihrer Rechte oder bei Fragen zu Ihren Daten schreiben Sie an nina.harz@pm.me."
+    "contactInfo": "Zur Ausübung Ihrer Rechte oder bei Fragen zu Ihren Daten schreiben Sie an feedback.berlin.2026@gmail.com."
   },
   "comparison": {
     "title": "Wahlprogramme zur Abgeordnetenhauswahl 2026",
