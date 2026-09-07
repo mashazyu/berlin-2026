@@ -3,29 +3,18 @@
 import { useDeferredValue, useMemo, useRef, useState } from "react"
 import { ChevronDown, ExternalLink, Search, X } from "lucide-react"
 import { useLanguage } from "@/components/language-provider"
-import { StanceBadge } from "@/components/stance-badge"
 import { groupTopics, TOPIC_GROUP_ORDER } from "@/lib/comparison/groups"
 import { cellKey } from "@/lib/comparison/get-comparison"
-import type { ResolvedComparison, Stance, TopicGroup } from "@/lib/comparison/types"
+import type { ResolvedComparison, TopicGroup } from "@/lib/comparison/types"
 import { cn, renderParagraphs } from "@/lib/utils"
 
-type TopicViewFilter = "all" | "disagreement"
-
-function partiesDisagree(
-  topicId: string,
-  partyIds: string[],
-  cellsByKey: ResolvedComparison["cellsByKey"]
-): boolean {
-  if (partyIds.length < 2) return false
-  const stances = new Set(
-    partyIds.map(
-      (partyId) => cellsByKey[cellKey(topicId, partyId)]?.stance ?? "none"
-    )
-  )
-  return stances.size > 1
-}
-
-const MAJOR_PARTY_IDS = ["cdu", "spd", "gruene", "linke"] as const
+const CURRENT_FACTION_PARTY_IDS = [
+  "cdu",
+  "spd",
+  "gruene",
+  "linke",
+  "afd",
+] as const
 const TOPIC_COL_PX = 220
 const PARTY_COL_PX = 160
 
@@ -37,12 +26,13 @@ export function ComparisonTable({
   const { language, translations: t } = useLanguage()
   const { parties, topics, cellsByKey } = comparison
 
-  const [selectedIds, setSelectedIds] = useState<string[]>([...MAJOR_PARTY_IDS])
+  const [selectedIds, setSelectedIds] = useState<string[]>([
+    ...CURRENT_FACTION_PARTY_IDS,
+  ])
   const [openTopicId, setOpenTopicId] = useState<string | null>(null)
   const [openMobileGroup, setOpenMobileGroup] = useState<TopicGroup | null>(null)
   const [topicQuery, setTopicQuery] = useState("")
   const deferredQuery = useDeferredValue(topicQuery)
-  const [topicFilter, setTopicFilter] = useState<TopicViewFilter>("all")
   const [collapsedGroups, setCollapsedGroups] = useState<Set<TopicGroup>>(
     () => new Set(TOPIC_GROUP_ORDER)
   )
@@ -58,22 +48,10 @@ export function ComparisonTable({
 
   const normalizedQuery = deferredQuery.trim().toLowerCase()
   const isSearching = normalizedQuery.length > 0
-  const showDisagreements = topicFilter === "disagreement"
-  const forceExpandGroups = isSearching || showDisagreements
+  const forceExpandGroups = isSearching
 
   const filteredTopics = useMemo(() => {
     return topics.filter((topic) => {
-      if (showDisagreements) {
-        if (
-          !partiesDisagree(
-            topic.id,
-            selectedParties.map((party) => party.id),
-            cellsByKey
-          )
-        ) {
-          return false
-        }
-      }
       if (!isSearching) return true
       const label = topic.displayLabel.toLowerCase()
       const groupLabel = t.comparison.groups[topic.group].toLowerCase()
@@ -81,15 +59,7 @@ export function ComparisonTable({
         label.includes(normalizedQuery) || groupLabel.includes(normalizedQuery)
       )
     })
-  }, [
-    topics,
-    showDisagreements,
-    selectedParties,
-    cellsByKey,
-    isSearching,
-    normalizedQuery,
-    t.comparison.groups,
-  ])
+  }, [topics, isSearching, normalizedQuery, t.comparison.groups])
 
   const topicGroups = useMemo(
     () => groupTopics(filteredTopics),
@@ -119,8 +89,8 @@ export function ComparisonTable({
     })
   }
 
-  function selectMajor() {
-    setSelectedIds([...MAJOR_PARTY_IDS])
+  function selectCurrentFactions() {
+    setSelectedIds([...CURRENT_FACTION_PARTY_IDS])
   }
 
   function selectAll() {
@@ -181,12 +151,6 @@ export function ComparisonTable({
         <div className="mt-1 space-y-2 text-base">
           {renderParagraphs(t.comparison.subtitle, "text-muted-foreground leading-relaxed", language)}
         </div>
-        <div className="mt-8 flex flex-wrap gap-3 text-xs text-muted-foreground sm:mt-10">
-          <Legend stance="for" label={t.comparison.legendFor} />
-          <Legend stance="against" label={t.comparison.legendAgainst} />
-          <Legend stance="mixed" label={t.comparison.legendMixed} />
-          <Legend stance="none" label={t.comparison.legendNone} />
-        </div>
       </div>
 
       <div className="mx-auto mt-8 max-w-7xl">
@@ -207,12 +171,12 @@ export function ComparisonTable({
               </PresetButton>
               <PresetButton
                 active={
-                  selectedIds.length === MAJOR_PARTY_IDS.length &&
-                  MAJOR_PARTY_IDS.every((id) => selectedIds.includes(id))
+                  selectedIds.length === CURRENT_FACTION_PARTY_IDS.length &&
+                  CURRENT_FACTION_PARTY_IDS.every((id) => selectedIds.includes(id))
                 }
-                onClick={selectMajor}
+                onClick={selectCurrentFactions}
               >
-                {t.comparison.showMajor}
+                {t.comparison.showFactions}
               </PresetButton>
             </div>
           </div>
@@ -239,24 +203,6 @@ export function ComparisonTable({
             })}
           </div>
 
-          <div className="mt-4 flex flex-wrap gap-2">
-            <PresetButton
-              active={topicFilter === "all"}
-              onClick={() => setTopicFilter("all")}
-            >
-              {t.comparison.filterAll}
-            </PresetButton>
-            <PresetButton
-              active={topicFilter === "disagreement"}
-              onClick={() => setTopicFilter("disagreement")}
-            >
-              {t.comparison.filterDisagreement}
-            </PresetButton>
-          </div>
-          <p className="mt-2 text-xs leading-relaxed text-muted-foreground">
-            {t.comparison.filterDisagreementHint}
-          </p>
-
           <div className="relative mt-4">
             <Search
               className="pointer-events-none absolute top-1/2 left-3 h-4 w-4 -translate-y-1/2 text-muted-foreground"
@@ -281,7 +227,7 @@ export function ComparisonTable({
               </button>
             )}
           </div>
-          {(isSearching || showDisagreements) && (
+          {isSearching && (
             <p className="mt-2 text-xs text-muted-foreground">{searchCountLabel}</p>
           )}
 
@@ -296,7 +242,7 @@ export function ComparisonTable({
           </p>
         ) : (
         <>
-        {/* Mobile: one group at a time; topics show stance strip at a glance */}
+        {/* Mobile: one group at a time; topics show party short-name strip */}
         <div className="mt-6 space-y-3 lg:hidden">
           {topicGroups.map(({ group, topics: groupTopicList }) => {
             const open = isMobileGroupOpen(group)
@@ -356,26 +302,17 @@ export function ComparisonTable({
                               />
                             </span>
                             <span className="flex flex-wrap gap-1.5">
-                              {selectedParties.map((party) => {
-                                const cell =
-                                  cellsByKey[cellKey(topic.id, party.id)]
-                                const stance = cell?.stance ?? "none"
-                                return (
-                                  <span
-                                    key={party.id}
-                                    className="inline-flex items-center gap-1 rounded-md bg-muted/60 px-1.5 py-0.5"
-                                    title={`${party.shortName}: ${stance}`}
-                                  >
-                                    <span className="text-[10px] font-semibold tracking-wide text-muted-foreground uppercase">
-                                      {party.shortName}
-                                    </span>
-                                    <StanceBadge
-                                      stance={stance}
-                                      className="h-5 min-w-5"
-                                    />
+                              {selectedParties.map((party) => (
+                                <span
+                                  key={party.id}
+                                  className="inline-flex items-center rounded-md bg-muted/60 px-1.5 py-0.5"
+                                  title={party.shortName}
+                                >
+                                  <span className="text-[10px] font-semibold tracking-wide text-muted-foreground uppercase">
+                                    {party.shortName}
                                   </span>
-                                )
-                              })}
+                                </span>
+                              ))}
                             </span>
                           </button>
 
@@ -384,17 +321,13 @@ export function ComparisonTable({
                               {selectedParties.map((party) => {
                                 const cell =
                                   cellsByKey[cellKey(topic.id, party.id)]
-                                const stance = cell?.stance ?? "none"
                                 const summary = cell?.summary?.trim() ?? ""
                                 return (
                                   <li key={party.id} className="px-4 py-3">
                                     <div className="mb-2 flex items-center justify-between gap-2">
-                                      <div className="flex items-center gap-2">
-                                        <StanceBadge stance={stance} />
-                                        <span className="text-sm font-semibold text-foreground">
-                                          {party.shortName}
-                                        </span>
-                                      </div>
+                                      <span className="text-sm font-semibold text-foreground">
+                                        {party.shortName}
+                                      </span>
                                       {party.programUrl ? (
                                         <a
                                           href={party.programUrl}
@@ -532,22 +465,15 @@ export function ComparisonTable({
                               {selectedParties.map((party) => {
                                 const cell =
                                   cellsByKey[cellKey(topic.id, party.id)]
-                                const stance = cell?.stance ?? "none"
                                 const summary = cell?.summary?.trim() ?? ""
                                 return (
                                   <td
                                     key={party.id}
                                     className="border-b border-border/50 px-3 py-3 align-top text-muted-foreground"
                                   >
-                                    <div className="flex gap-2">
-                                      <StanceBadge
-                                        stance={stance}
-                                        className="mt-0.5 shrink-0"
-                                      />
-                                      <span className="min-w-0 flex-1 text-[13px] leading-snug">
-                                        {summary || t.comparison.emptyCell}
-                                      </span>
-                                    </div>
+                                    <span className="text-[13px] leading-snug">
+                                      {summary || t.comparison.emptyCell}
+                                    </span>
                                   </td>
                                 )
                               })}
@@ -648,20 +574,5 @@ function PresetButton({
     >
       {children}
     </button>
-  )
-}
-
-function Legend({
-  stance,
-  label,
-}: {
-  stance: Stance
-  label: string
-}) {
-  return (
-    <span className="inline-flex items-center gap-1.5">
-      <StanceBadge stance={stance} />
-      <span>{label}</span>
-    </span>
   )
 }

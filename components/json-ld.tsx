@@ -34,6 +34,15 @@ function electionCopy(language: Language) {
       performerName: "Seçime katılan partiler ve adaylar",
     }
   }
+  if (language === "uk") {
+    return {
+      name: "Земельні вибори в Берліні 2026",
+      description:
+        "Вибори до Палати депутатів Берліна (Abgeordnetenhaus) 20 вересня 2026 року. Вільні вибори земельного парламенту.",
+      organizerName: "Виборча комісія Берліна (Landeswahlleitung)",
+      performerName: "Партії та кандидати, які беруть участь у виборах",
+    }
+  }
   if (language === "pl") {
     return {
       name: "Wybory do berlińskiego Abgeordnetenhaus 2026",
@@ -67,7 +76,7 @@ export function JsonLd({ language }: { language: Language }) {
         "@id": `${BASE_URL}/#website`,
         url: BASE_URL,
         name: "Berlin 2026",
-        inLanguage: ["en", "de", "tr", "pl", "ru"],
+        inLanguage: ["en", "de", "tr", "uk", "pl", "ru"],
         publisher: {
           "@type": "Organization",
           name: "Berlin 2026",

@@ -17,11 +17,16 @@ const FONT_UA =
 
 function collectChars() {
   const chunks = ["Berlin2026·"]
-  for (const lang of ["en", "de", "ru"]) {
+  for (const lang of ["en", "de", "tr", "uk", "pl", "ru"]) {
     const t = JSON.parse(
       fs.readFileSync(path.join(ROOT, "locales", `${lang}.json`), "utf8")
     )
-    chunks.push(t.hero?.headline ?? "", t.hero?.support ?? "")
+    chunks.push(
+      t.hero?.headline ?? "",
+      t.hero?.support ?? "",
+      t.metadata?.homeTitle ?? "",
+      t.brand?.tagline ?? ""
+    )
   }
   return [...new Set(chunks.join(" ").replace(/\s+/g, " "))].join("")
 }

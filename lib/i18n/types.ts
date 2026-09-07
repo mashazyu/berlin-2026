@@ -1,11 +1,12 @@
-export type Language = "en" | "de" | "ru" | "tr" | "pl"
+export type Language = "en" | "de" | "tr" | "uk" | "pl" | "ru"
 
 export type LocalizedString = {
   en: string
   de?: string | null
-  ru?: string | null
   tr?: string | null
+  uk?: string | null
   pl?: string | null
+  ru?: string | null
 }
 
 export type Translations = {
@@ -56,16 +57,12 @@ export type Translations = {
     title: string
     subtitle: string
     topicColumn: string
-    legendFor: string
-    legendAgainst: string
-    legendMixed: string
-    legendNone: string
     scrollHint: string
     programLink: string
     emptyCell: string
     partiesLabel: string
     showAll: string
-    showMajor: string
+    showFactions: string
     selectedCount: string
     expandTopic: string
     collapseTopic: string
@@ -76,9 +73,6 @@ export type Translations = {
     searchClear: string
     searchNoResults: string
     searchResultsCount: string
-    filterAll: string
-    filterDisagreement: string
-    filterDisagreementHint: string
     groups: {
       transport: string
       waste: string

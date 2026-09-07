@@ -21,10 +21,6 @@
   --input: 210 12% 88%;
   --ring: 16 88% 48%;
   --radius: 0.75rem;
-  --stance-for: 158 72% 36%;
-  --stance-against: 8 78% 52%;
-  --stance-mixed: 38 92% 48%;
-  --stance-none: 210 12% 62%;
   --section-muted: 210 14% 96%;
   --header-offset: 3.5rem;
 }
@@ -49,10 +45,6 @@
   --color-border: hsl(var(--border));
   --color-input: hsl(var(--input));
   --color-ring: hsl(var(--ring));
-  --color-stance-for: hsl(var(--stance-for));
-  --color-stance-against: hsl(var(--stance-against));
-  --color-stance-mixed: hsl(var(--stance-mixed));
-  --color-stance-none: hsl(var(--stance-none));
   --color-section-muted: hsl(var(--section-muted));
   --font-sans: var(--font-dm-sans), ui-sans-serif, system-ui, sans-serif;
   --font-display: var(--font-lora), ui-serif, Georgia, serif;
