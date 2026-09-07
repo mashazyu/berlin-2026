@@ -57,10 +57,6 @@ export type Translations = {
     title: string
     subtitle: string
     topicColumn: string
-    legendFor: string
-    legendAgainst: string
-    legendMixed: string
-    legendNone: string
     scrollHint: string
     programLink: string
     emptyCell: string
@@ -77,9 +73,6 @@ export type Translations = {
     searchClear: string
     searchNoResults: string
     searchResultsCount: string
-    filterAll: string
-    filterDisagreement: string
-    filterDisagreementHint: string
     groups: {
       transport: string
       waste: string
