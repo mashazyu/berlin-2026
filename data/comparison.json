@@ -50,7 +50,7 @@
         "pl": "Die Linke",
         "uk": "Die Linke"
       },
-      "programUrl": "https://dielinke.berlin/fileadmin/download/2026/0106%5FWahlprogramm%5FLVB%5FA5.pdf"
+      "programUrl": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf"
     },
     {
       "id": "fdp",
@@ -2464,14 +2464,14 @@
     {
       "topicId": "zero-waste-waste-prevention",
       "partyId": "linke",
-      "stance": "mixed",
+      "stance": "for",
       "summary": {
-        "en": "no separate Zero Waste strategy; emphasis on public waste management “from a single source”, cheap/low-threshold disposal and mobile recycling stations",
-        "de": "keine eigene Zero-Waste-Strategie; Schwerpunkt auf öffentliche Abfallwirtschaft „aus einer Hand“, günstige/niedrigschwellige Entsorgung und mobile Recyclingstationen",
-        "ru": "отдельной стратегии Zero Waste нет; акцент на общественной системе обращения с отходами «из одних рук», дешевой/низкопороговой утилизации и мобильных пунктах приёма вторсырья",
-        "tr": "ayrı bir Zero Waste stratejisi yok; odak “tek kaynaktan” kamusal atık yönetimi, ucuz/düşük eşikli imha ve mobil geri dönüşüm istasyonları",
-        "pl": "brak osobnej strategii Zero Waste; nacisk na publiczną gospodarkę odpadami „z jednej ręki”, tanią/niskoprogową utylizację i mobilne stacje recyklingu",
-        "uk": "немає окремої стратегії Zero Waste; акцент на утилізацію громадських відходів «з одного джерела», дешеву/низькопорогову утилізацію та мобільні станції переробки"
+        "en": "strengthen the Zero-Waste-Agentur; expand the Reparaturbonus and repair networks; at least one Secondhand store and one neighborhood Kreislaufzentrum per district; raise recycling quotas; leave single-use packaging",
+        "de": "Zero-Waste-Agentur stärken; Reparaturbonus und Reparaturnetzwerke ausweiten; mindestens ein Secondhand-Kaufhaus und ein nachbarschaftliches Kreislaufzentrum je Bezirk; Recyclingquoten erhöhen; Ausstieg aus Einwegverpackungen",
+        "ru": "укрепить Zero-Waste-Agentur; расширить Reparaturbonus и сети ремонта; минимум один секонд-хенд и один квартальный Kreislaufzentrum в каждом районе; повысить квоты переработки; отказ от одноразовой упаковки",
+        "tr": "Zero-Waste-Agentur’ı güçlendirmek; Reparaturbonus ve onarım ağlarını genişletmek; her ilçede en az bir secondhand mağaza ve bir mahalle Kreislaufzentrum; geri dönüşüm kotalarını artırmak; tek kullanımlık ambalajdan çıkış",
+        "pl": "wzmocnić Zero-Waste-Agentur; rozszerzyć Reparaturbonus i sieci napraw; co najmniej jeden secondhand i jedno sąsiedzkie Kreislaufzentrum na dzielnicę; podnieść wskaźniki recyklingu; odejście od opakowań jednorazowych",
+        "uk": "зміцнити Zero-Waste-Agentur; розширити Reparaturbonus і мережі ремонту; щонайменше один секонд-хенд і один квартальний Kreislaufzentrum у кожному районі; підвищити квоти переробки; відмова від одноразової упаковки"
       }
     },
     {
@@ -3636,12 +3636,12 @@
       "partyId": "linke",
       "stance": "none",
       "summary": {
-        "en": "",
-        "de": "",
-        "ru": "",
-        "tr": "",
-        "pl": "",
-        "uk": ""
+        "en": "not addressed in the Berlin Wahlprogramm",
+        "de": "im Berliner Wahlprogramm nicht thematisiert",
+        "ru": "в берлинской предвыборной программе не затрагивается",
+        "tr": "Berlin seçim programında ele alınmıyor",
+        "pl": "nieporuszane w berlińskim programie wyborczym",
+        "uk": "у берлінській передвиборчій програмі не згадується"
       }
     },
     {
@@ -4026,12 +4026,12 @@
       "partyId": "linke",
       "stance": "for",
       "summary": {
-        "en": "up to €2 billion a year for municipal construction and building acquisitions",
-        "de": "bis zu 2 Milliarden € jährlich für kommunalen Neubau und den Ankauf von Gebäuden",
-        "ru": "до 2 млрд € в год на коммунальное строительство и выкуп домов",
-        "tr": "belediye inşaatı ve bina alımları için yılda 2 milyar €'ya kadar",
-        "pl": "do 2 mld € rocznie na budownictwo komunalne i wykup budynków",
-        "uk": "до 2 мільярдів євро на рік на муніципальне будівництво та придбання будівель"
+        "en": "up to €2 billion a year in equity for land-owned housing companies to build 7,500 municipal apartments annually, permanently affordable",
+        "de": "bis zu 2 Milliarden € Eigenkapital jährlich für die Landeseigenen Wohnungsunternehmen zum Bau von 7.500 kommunalen Wohnungen pro Jahr, dauerhaft bezahlbar",
+        "ru": "до 2 млрд € собственного капитала в год земельным жилищным компаниям на строительство 7 500 коммунальных квартир ежегодно, постоянно доступных по цене",
+        "tr": "yılda 7.500 belediye dairesi inşa etmek için araziye ait konut şirketlerine yılda 2 milyar €’ya kadar özsermaye; kalıcı uygun fiyatlı",
+        "pl": "do 2 mld € kapitału własnego rocznie dla spółek mieszkaniowych landu na budowę 7 500 mieszkań komunalnych rocznie, trwale dostępnych cenowo",
+        "uk": "до 2 млрд € власного капіталу на рік земельним житловим компаніям на будівництво 7 500 муніципальних квартир щороку, постійно доступних за ціною"
       }
     },
     {
@@ -4284,14 +4284,14 @@
     {
       "topicId": "housing-municipal-stock-social-housing-wbs",
       "partyId": "linke",
-      "stance": "mixed",
+      "stance": "for",
       "summary": {
-        "en": "Municipal stock expanded to 400,000 apartments, Berlinovo as the seventh municipal company, Sicher-Wohnen-Gesetz: for owners with more than 1,000 apartments, every second vacated unit at a social rent; within the S-Bahn-Ring, only for WBS-Berechtigte",
-        "de": "kommunaler Bestand auf 400,000 Wohnungen erweitern, Berlinovo als siebtes kommunales Unternehmen, Sicher-Wohnen-Gesetz: Bei Eigentümern mit mehr als 1,000 Wohnungen wird jede zweite frei werdende Wohnung zur Sozialmiete vergeben; innerhalb des S-Bahn-Rings nur für WBS-Berechtigte",
-        "ru": "Коммунальный фонд до 400 000 квартир, Berlinovo как 7-я городская компания, Sicher-Wohnen-Gesetz (у владельцев >1000 квартир каждая вторая освобождающаяся — по соццене), внутри S-Bahn-Ring только для WBS-Berechtigte",
-        "tr": "belediye stoku 400.000 daireye genişletilsin, Berlinovo yedinci belediye şirketi olarak, Sicher-Wohnen-Gesetz: 1.000'den fazla dairesi olan sahiplerde her ikinci boşalan birim sosyal kirada; S-Bahn-Ring içinde yalnızca WBS-Berechtigte için",
-        "pl": "zasób komunalny rozbudowany do 400 000 mieszkań, Berlinovo jako siódma spółka komunalna, Sicher-Wohnen-Gesetz: u właścicieli z ponad 1000 mieszkań co drugie zwolnione mieszkanie po czynszu socjalnym; w obrębie S-Bahn-Ring tylko dla WBS-Berechtigte",
-        "uk": "Муніципальний фонд розширений до 400 000 квартир, Берліново як сьома муніципальна компанія, Sicher-Wohnen-Gesetz: для власників з понад 1000 квартирами кожна друга звільнена квартира за соціальною орендою; в межах S-Bahn-Ring, тільки для WBS-Berechtigte"
+        "en": "grow the already ~400,000 LWU apartments (incl. Berlinovo as seventh company); Sicher-Wohnen-Gesetz: landlords with >1,000 units must let every second vacancy affordably; inside the S-Bahn-Ring 100% of vacated LWU units to WBS households (≤220)",
+        "de": "bereits rund 400.000 LWU-Wohnungen weiter ausbauen (inkl. Berlinovo als siebtes Unternehmen); Sicher-Wohnen-Gesetz: Eigentümer mit >1.000 Wohnungen müssen jede zweite Neuvermietung bezahlbar vergeben; innerhalb des S-Bahn-Rings 100 % der frei werdenden LWU-Wohnungen an WBS-Haushalte (≤220)",
+        "ru": "дальше наращивать уже ~400 000 квартир LWU (включая Berlinovo как 7-ю компанию); Sicher-Wohnen-Gesetz: владельцы >1 000 квартир — каждая вторая новая сдача по доступной цене; внутри S-Bahn-Ring 100 % освобождающихся LWU — домохозяйствам с WBS (≤220)",
+        "tr": "zaten ~400.000 LWU dairesini büyütmek (yedinci şirket olarak Berlinovo dahil); Sicher-Wohnen-Gesetz: >1.000 birimli sahipler her ikinci boşalmayı uygun kiraya vermeli; S-Bahn-Ring içinde boşalan LWU’ların %100’ü WBS hanelerine (≤220)",
+        "pl": "dalej rozbudowywać już ok. 400 000 mieszkań LWU (w tym Berlinovo jako siódma spółka); Sicher-Wohnen-Gesetz: właściciele z >1 000 lokali muszą co drugi nowy wynajem oddać tanio; w obrębie S-Bahn-Ring 100% zwalnianych LWU dla gospodarstw z WBS (≤220)",
+        "uk": "далі нарощувати вже ~400 000 квартир LWU (включно з Berlinovo як сьомою компанією); Sicher-Wohnen-Gesetz: власники з >1 000 квартир мають здавати кожну другу вакансію за доступною ціною; всередині S-Bahn-Ring 100% звільнених LWU — домогосподарствам із WBS (≤220)"
       }
     },
     {
@@ -4544,14 +4544,14 @@
     {
       "topicId": "housing-ownership-conversion-of-rental-apartments-into-condominiums-evic",
       "partyId": "linke",
-      "stance": "mixed",
+      "stance": "for",
       "summary": {
-        "en": "Permanent ban on converting rental apartments into condominiums; enshrine the ban on privatizing municipal housing in the city constitution",
-        "de": "Dauerhaftes Verbot der Umwandlung von Miet- in Eigentumswohnungen; Verbot der Privatisierung kommunaler Wohnungen in der Landesverfassung verankern",
-        "ru": "Бессрочный запрет перевода съёмных квартир в собственность, запрет приватизации коммунального жилья прописать в конституции города",
-        "tr": "kiralık dairelerin mülkiyete dönüşümüne kalıcı yasak; belediye konutunun özelleştirilmesi yasağını kent anayasasına işlemek",
-        "pl": "stały zakaz przekształcania mieszkań na wynajem w Eigentumswohnungen; zakaz prywatyzacji mieszkań komunalnych zapisać w konstytucji miasta",
-        "uk": "Постійна заборона перетворення орендних квартир на ОСББ; закріпити в міській конституції заборону приватизації муніципального житла"
+        "en": "permanent ban on converting rentals to condominiums; constitutional ban on privatizing municipal housing; Eigenbedarf only for first-degree relatives with stronger hardship protection; Eigenbedarf database and eviction transparency",
+        "de": "dauerhaftes Umwandlungsverbot Miet- in Eigentumswohnungen; Privatisierungsverbot kommunaler Wohnungen in der Verfassung; Eigenbedarf nur für Verwandte ersten Grades mit stärkerem Härteschutz; Eigenbedarfsdatenbank und Transparenz bei Räumungen",
+        "ru": "бессрочный запрет перевода аренды в собственность; конституционный запрет приватизации коммунального жилья; Eigenbedarf только для родственников первой степени с усиленной защитой; база данных Eigenbedarf и прозрачность выселений",
+        "tr": "kiralığın mülkiyete dönüşümüne kalıcı yasak; belediye konutu özelleştirmesine anayasal yasak; Eigenbedarf yalnızca birinci derece akrabalar için, daha güçlü mağduriyet koruması; Eigenbedarf veritabanı ve tahliye şeffaflığı",
+        "pl": "trwały zakaz przekształcania najmu we własność; konstytucyjny zakaz prywatyzacji mieszkań komunalnych; Eigenbedarf tylko dla krewnych pierwszego stopnia z silniejszą ochroną; baza Eigenbedarf i przejrzystość eksmisji",
+        "uk": "постійна заборона перетворення оренди на власність; конституційна заборона приватизації муніципального житла; Eigenbedarf лише для родичів першого ступеня з сильнішим захистом; база Eigenbedarf і прозорість виселень"
       }
     },
     {
@@ -4676,12 +4676,12 @@
       "partyId": "linke",
       "stance": "against",
       "summary": {
-        "en": "rather the opposite priority: ban the privatization of municipal housing and permanently ban the conversion of rental apartments into condominiums; no first-purchase benefits proposed",
-        "de": "Eher gegenteilige Priorität: Privatisierung kommunaler Wohnungen und Umwandlung von Miet- in Eigentumswohnungen dauerhaft verbieten; keine Vorteile für den Erstkauf vorgeschlagen",
-        "ru": "скорее противоположный приоритет: запрет приватизации коммунального жилья и бессрочный запрет перевода съёмных квартир в собственность; льготы на первую покупку не заявлены",
-        "tr": "daha çok ters öncelik: belediye konutunun özelleştirilmesini yasaklamak ve kiralık dairelerin mülkiyete dönüşümünü kalıcı yasaklamak; ilk alım avantajı önerilmiyor",
-        "pl": "raczej odwrotny priorytet: zakazać prywatyzacji mieszkań komunalnych i trwale zakazać przekształcania mieszkań na wynajem w Eigentumswohnungen; bez proponowanych ulg przy pierwszym zakupie",
-        "uk": "скоріше протилежний пріоритет: заборона приватизації муніципального житла та остаточна заборона перетворення орендних квартир на ОСББ; переваги при першій покупці не пропонуються"
+        "en": "no first-buyer Grunderwerbsteuer relief; raise the rate from 6.0% to 8.0% (at least Brandenburg’s 6.5%); close Share-Deal loopholes at federal level",
+        "de": "keine Entlastung der Grunderwerbsteuer für Ersterwerber; Anhebung von 6,0 % auf 8,0 % (mindestens Brandenburger Niveau 6,5 %); Share Deals bundesweit unterbinden",
+        "ru": "без льгот по Grunderwerbsteuer для первой покупки; повысить ставку с 6,0 % до 8,0 % (минимум уровень Бранденбурга 6,5 %); закрыть лазейки Share Deals на федеральном уровне",
+        "tr": "ilk alıcıya Grunderwerbsteuer indirimi yok; oranı %6,0’dan %8,0’e çıkarmak (en az Brandenburg’un %6,5’i); federal düzeyde Share Deal açıklarını kapatmak",
+        "pl": "bez ulgi w Grunderwerbsteuer dla pierwszego nabywcy; podnieść stawkę z 6,0% do 8,0% (co najmniej poziom Brandenburgii 6,5%); zamknąć luki Share Deals na poziomie federalnym",
+        "uk": "без пільг із Grunderwerbsteuer для першої купівлі; підвищити ставку з 6,0% до 8,0% (щонайменше рівень Бранденбурга 6,5%); закрити лазівки Share Deals на федеральному рівні"
       }
     },
     {
@@ -4804,14 +4804,14 @@
     {
       "topicId": "housing-evictions-and-homelessness",
       "partyId": "linke",
-      "stance": "mixed",
+      "stance": "for",
       "summary": {
-        "en": "Eliminate forced evictions, establish an assistance fund covering heating costs, provide help with deposits, and create 20 district canteens with affordable prices (10 million € per year)",
-        "de": "Zwangsräumungen abschaffen, einen Hilfsfonds zur Übernahme von Heizkosten einrichten, Unterstützung bei Kautionen leisten und 20 Bezirkskantinen mit günstigen Preisen schaffen (10 Millionen € pro Jahr)",
-        "ru": "Исключить принудительные выселения, фонд помощи с оплатой отопления, помощь с залогом, 20 районных столовых с доступными ценами (10 млн € в год)",
-        "tr": "zorla tahliyeleri kaldırmak, ısıtma maliyetlerini karşılayan yardım fonu kurmak, depozito yardımı sağlamak ve uygun fiyatlı 20 ilçe yemekhanesi oluşturmak (yılda 10 milyon €)",
-        "pl": "wyeliminować przymusowe eksmisje, utworzyć fundusz pomocy pokrywający koszty ogrzewania, pomagać przy kaucjach oraz stworzyć 20 stołówek dzielnicowych z przystępnymi cenami (10 mln € rocznie)",
-        "uk": "Усунути примусові виселення, створити фонд допомоги для покриття витрат на опалення, надати допомогу з депозитами та створити 20 районних їдалень за доступними цінами (10 мільйонів євро на рік)"
+        "en": "Housing First; double the Geschützter Wohnungsmarkt to 2,500 apartments/year; 10% of new/re-lets of municipal and funded housing for people affected by homelessness; no LWU forced evictions for rent arrears; limit Amtshilfe for evictions; Eigenbedarf reform",
+        "de": "Housing First; Geschützten Wohnungsmarkt auf 2.500 Wohnungen/Jahr verdoppeln; 10 % der Neu- und Wiedervermietungen landeseigener und geförderter Wohnungen für von Wohnungslosigkeit Betroffene; keine LWU-Zwangsräumungen wegen Mietschulden; Amtshilfe bei Räumungen begrenzen; Eigenbedarfsreform",
+        "ru": "Housing First; удвоить Geschützter Wohnungsmarkt до 2 500 квартир/год; 10 % новых и повторных сдач коммунального и субсидируемого жилья людям без жилья; без принудительных выселений LWU за долги по аренде; ограничить Amtshilfe при выселениях; реформа Eigenbedarf",
+        "tr": "Housing First; Geschützter Wohnungsmarkt’ı yılda 2.500 daireye ikiye katlamak; belediye ve destekli konutların yeni/yeniden kiralamalarının %10’u evsizlikten etkilenenlere; kira borcu nedeniyle LWU zorla tahliyesi yok; tahliyelerde Amtshilfe’yi sınırlamak; Eigenbedarf reformu",
+        "pl": "Housing First; podwoić Geschützter Wohnungsmarkt do 2 500 mieszkań/rok; 10% nowych i ponownych wynajmów mieszkań komunalnych i dofinansowanych dla osób zagrożonych bezdomnością; bez przymusowych eksmisji LWU za zaległości czynszowe; ograniczyć Amtshilfe przy eksmisjach; reforma Eigenbedarf",
+        "uk": "Housing First; подвоїти Geschützter Wohnungsmarkt до 2 500 квартир/рік; 10% нових і повторних здач муніципального та субсидованого житла для людей без житла; без примусових виселень LWU за борги з оренди; обмежити Amtshilfe при виселеннях; реформа Eigenbedarf"
       }
     },
     {
@@ -5456,12 +5456,12 @@
       "partyId": "linke",
       "stance": "mixed",
       "summary": {
-        "en": "“School against the right,” school as a place without military recruitment",
-        "de": "„Schule gegen rechts“, Schule als Ort ohne militärische Rekrutierung",
-        "ru": "«Школа против правых», школа как место без военной агитации",
-        "tr": "“Sağa karşı okul,” askeri işe alımın olmadığı bir okul",
-        "pl": "„Szkoła przeciw prawicy,” szkoła jako miejsce bez rekrutacji wojskowej",
-        "uk": "«Школа проти правих», школа як місце без набору в армію"
+        "en": "shift resources from policing symbolism to social work and crisis services; abolish high-crime locations and weapons-ban zones as gateways to racial profiling; “Schule gegen rechts”; no Bundeswehr recruitment in schools",
+        "de": "Mittel von polizeilicher Symbolpolitik zu Sozialarbeit und Krisendiensten umschichten; kriminalitätsbelastete Orte und Waffenverbotszonen als Einfallstore für Racial Profiling abschaffen; „Schule gegen rechts“; keine Bundeswehr-Rekrutierung an Schulen",
+        "ru": "перенаправить ресурсы с полицейской символики на соцработу и кризисные службы; отменить «криминальные» места и зоны запрета оружия как лазейки для расового профилирования; «школа против правых»; без вербовки Bundeswehr в школах",
+        "tr": "kaynakları polis sembolizminden sosyal hizmet ve kriz hizmetlerine kaydırmak; ırksal profillemeye kapı açan yüksek suçlu yerleri ve silah yasak bölgelerini kaldırmak; „Schule gegen rechts“; okullarda Bundeswehr işe alımı yok",
+        "pl": "przesunąć środki z policyjnej symboliki na pracę socjalną i służby kryzysowe; znieść miejsca wysokiej przestępczości i strefy zakazu broni jako furtki do profilowania rasowego; „Schule gegen rechts“; bez rekrutacji Bundeswehr w szkołach",
+        "uk": "перенаправити ресурси з поліцейської символіки на соцроботу та кризові служби; скасувати «кримінальні» місця та зони заборони зброї як лазівки для расового профілювання; «школа проти правих»; без вербування Bundeswehr у школах"
       }
     },
     {
@@ -5584,14 +5584,14 @@
     {
       "topicId": "kitas-access-and-quality",
       "partyId": "linke",
-      "stance": "mixed",
+      "stance": "for",
       "summary": {
-        "en": "Free from Kita through university",
-        "de": "Kostenfrei von der Kita bis zur Universität",
-        "ru": "Бесплатно от Kita до вуза",
-        "tr": "Kita'dan üniversiteye kadar ücretsiz",
-        "pl": "Bezpłatnie od Kita po uniwersytet",
-        "uk": "Безкоштовно від Кіта через університет"
+        "en": "fee-free education from Kita to university; focus on Kita quality, staffing and child protection; expand free eFöB/Hort and free meals further up the grades",
+        "de": "gebührenfreie Bildung von der Kita bis zur Hochschule; Fokus auf Kita-Qualität, Personal und Kinderschutz; gebührenfreien eFöB/Hort und kostenfreies Essen weiter ausweiten",
+        "ru": "бесплатное образование от детсада до вуза; акцент на качестве Kita, кадрах и защите детей; дальше расширять бесплатный eFöB/Hort и бесплатное питание",
+        "tr": "Kita’dan üniversiteye kadar ücretsiz eğitim; Kita kalitesi, personel ve çocuk korumasına odak; ücretsiz eFöB/Hort ve ücretsiz yemeği üst sınıflara genişletmek",
+        "pl": "bezpłatna edukacja od Kita po uczelnię; nacisk na jakość Kita, kadry i ochronę dzieci; dalsze rozszerzanie bezpłatnego eFöB/Hort i bezpłatnych posiłków",
+        "uk": "безкоштовна освіта від дитсадка до вишу; акцент на якості Kita, кадрах і захисті дітей; далі розширювати безкоштовний eFöB/Hort і безкоштовне харчування"
       }
     },
     {
@@ -5714,14 +5714,14 @@
     {
       "topicId": "schools-language-and-preparation-for-first-grade",
       "partyId": "linke",
-      "stance": "mixed",
+      "stance": "for",
       "summary": {
-        "en": "Bilingual SESB schools in the east of the city plus German-Arabic and Kurdish branches",
-        "de": "Bilinguale SESB-Schulen im Osten der Stadt und deutsch-arabische und kurdische Zweige",
-        "ru": "Двуязычные школы SESB на востоке города плюс немецко-арабская и курдская ветки",
-        "tr": "Kentin doğusunda iki dilli SESB okulları ile Almanca-Arapça ve Kürtçe şubeler",
-        "pl": "Dwujęzyczne szkoły SESB na wschodzie miasta oraz oddziały niemiecko-arabskie i kurdyjskie",
-        "uk": "Двомовні школи SESB на сході міста, і німецько-арабські та курдські філії"
+        "en": "expand Staatliche Europa-Schulen especially in the east; examine creating German-Arabic or German-Kurdish school branches; expand heritage-language teaching; add Arabic and Kurdish as foreign languages",
+        "de": "Staatliche Europa-Schulen ausweiten, besonders im Osten; deutsch-arabischen oder deutsch-kurdischen Schulzweig prüfen; Erstsprachenunterricht ausbauen; Arabisch und Kurdisch als Fremdsprachen aufnehmen",
+        "ru": "расширить Staatliche Europa-Schulen, особенно на востоке; рассмотреть немецко-арабскую или немецко-курдскую ветвь; расширить преподавание родных языков; добавить арабский и курдский как иностранные",
+        "tr": "özellikle doğuda Staatliche Europa-Schulen’i genişletmek; Almanca-Arapça veya Almanca-Kürtçe okul kolunu incelemek; anadil öğretimini genişletmek; Arapça ve Kürtçeyi yabancı dil olarak eklemek",
+        "pl": "rozszerzyć Staatliche Europa-Schulen zwłaszcza na wschodzie; rozważyć niemiecko-arabski lub niemiecko-kurdyjski oddział; rozbudować nauczanie języków dziedzictwa; dodać arabski i kurdyjski jako języki obce",
+        "uk": "розширити Staatliche Europa-Schulen, особливо на сході; розглянути німецько-арабську або німецько-курдську гілку; розширити викладання рідних мов; додати арабську й курдську як іноземні"
       }
     },
     {
@@ -6104,14 +6104,14 @@
     {
       "topicId": "shortage-of-qualified-professionals",
       "partyId": "linke",
-      "stance": "mixed",
+      "stance": "for",
       "summary": {
-        "en": "no separate strategy for recruiting specialists from abroad in the fragments found; emphasis on free education, more public schools, and support for those at risk of being left without a training place",
-        "de": "Keine gesonderte Strategie zur Anwerbung von Fachkräften aus dem Ausland in den gefundenen Abschnitten; Schwerpunkt auf kostenloser Bildung, mehr öffentlichen Schulen und Unterstützung für Menschen, denen ein fehlender Ausbildungsplatz droht",
-        "ru": "отдельной стратегии привлечения специалистов из-за границы в программе нет; фокус — бесплатное образование, больше общественных школ и поддержка тех, кто рискует остаться без места обучения",
-        "tr": "Bulunan parçalarda yurtdışından uzman alımına dair ayrı strateji yok; odak ücretsiz eğitim, daha fazla kamu okulu ve eğitim yeri bulamama riski altındakilere destek",
-        "pl": "w znalezionych fragmentach brak osobnej strategii rekrutacji specjalistów z zagranicy; nacisk na bezpłatną edukację, więcej szkół publicznych i wsparcie osób zagrożonych brakiem miejsca szkoleniowego",
-        "uk": "окремої стратегії залучення спеціалістів з-за кордону у програмі немає; акцент на безкоштовну освіту, більше державних шкіл і підтримку тих, хто ризикує залишитися без місця для навчання"
+        "en": "Fachkräfte chapter: affordable housing so specialists can move to Berlin; train and keep more skilled workers in the city; speed recognition of foreign qualifications",
+        "de": "Kapitel Fachkräfte: bezahlbarer Wohnraum, damit Fachkräfte nach Berlin ziehen können; mehr Ausbildung und Halten von Fachkräften vor Ort; schnellere Anerkennung ausländischer Abschlüsse",
+        "ru": "глава о кадрах: доступное жильё, чтобы специалисты могли переехать в Берлин; больше подготовки и удержания кадров в городе; ускорить признание иностранных дипломов",
+        "tr": "Fachkräfte bölümü: uzmanların Berlin’e taşınabilmesi için uygun konut; kentte daha fazla eğitim ve elde tutma; yabancı diplomaların daha hızlı tanınması",
+        "pl": "rozdział Fachkräfte: dostępne mieszkania, by specjaliści mogli przeprowadzić się do Berlina; więcej kształcenia i zatrzymywania kadr w mieście; szybsze uznawanie zagranicznych kwalifikacji",
+        "uk": "розділ Fachkräfte: доступне житло, щоб фахівці могли переїхати до Берліна; більше підготовки й утримання кадрів у місті; швидше визнання іноземних дипломів"
       }
     },
     {
@@ -6236,12 +6236,12 @@
       "partyId": "linke",
       "stance": "for",
       "summary": {
-        "en": "free education from Kita to university; oppose school segregation, expand Gemeinschaftsschulen, and support those at risk of being left without a school-leaving qualification or training place",
-        "de": "kostenlose Bildung von der Kita bis zur Hochschule; gegen die Segregation von Schulen, mehr Gemeinschaftsschulen und Unterstützung für Menschen, denen ein Schulabschluss oder Ausbildungsplatz zu fehlen droht",
-        "ru": "бесплатное образование от детсада до вуза; против сегрегации школ, больше общественных школ и поддержка тех, кто рискует остаться без аттестата или места обучения",
-        "tr": "Kita'dan üniversiteye kadar ücretsiz eğitim; okul ayrışmasına karşı olmak, Gemeinschaftsschulen'i genişletmek ve mezuniyet belgesi veya eğitim yeri bulamama riski altındakileri desteklemek",
-        "pl": "bezpłatna edukacja od Kita po uniwersytet; przeciw segregacji szkolnej, rozbudowa Gemeinschaftsschulen oraz wsparcie osób zagrożonych brakiem świadectwa lub miejsca szkoleniowego",
-        "uk": "безкоштовне навчання від Кита до університету; протидіяти шкільній сегрегації, розширювати Gemeinschaftsschulen і підтримувати тих, хто ризикує залишитися без диплома про закінчення школи або місця навчання"
+        "en": "strengthen dual training and Ausbildungsverbünde especially in craft trades; support young people at risk of leaving school or training without a place; link skilled-worker policy to local Ausbildung",
+        "de": "duale Ausbildung und Ausbildungsverbünde stärken, besonders im Handwerk; Jugendliche ohne Schulabschluss oder Ausbildungsplatz unterstützen; Fachkräftepolitik an lokale Ausbildung koppeln",
+        "ru": "укрепить дуальное обучение и Ausbildungsverbünde, особенно в ремесле; поддержать молодых без аттестата или места обучения; связать кадровую политику с местной Ausbildung",
+        "tr": "özellikle zanaatta dual eğitimi ve Ausbildungsverbünde’yi güçlendirmek; okul veya staj yeri bulamayan gençleri desteklemek; nitelikli işgücü politikasını yerel Ausbildung’a bağlamak",
+        "pl": "wzmocnić kształcenie dualne i Ausbildungsverbünde, zwłaszcza w rzemiośle; wspierać młodzież zagrożoną brakiem świadectwa lub miejsca szkoleniowego; powiązać politykę kadr z lokalną Ausbildung",
+        "uk": "зміцнити дуальне навчання та Ausbildungsverbünde, особливо в ремеслі; підтримати молодь без атестата чи місця навчання; пов’язати кадрову політику з місцевою Ausbildung"
       }
     },
     {
@@ -6366,12 +6366,12 @@
       "partyId": "linke",
       "stance": "for",
       "summary": {
-        "en": "free education from Kita to university, a special education fund; more Gemeinschaftsschulen as a basis for equal access to university",
-        "de": "kostenlose Bildung von der Kita bis zur Hochschule, Sondervermögen Bildung; mehr Gemeinschaftsschulen als Grundlage für einen gleichberechtigten Hochschulzugang",
-        "ru": "бесплатное образование от детсада до вуза, особый фонд образования; больше общественных школ как база равного доступа к вузу",
-        "tr": "Kita'dan üniversiteye kadar ücretsiz eğitim, özel eğitim fonu; üniversiteye eşit erişimin temeli olarak daha fazla Gemeinschaftsschule",
-        "pl": "bezpłatna edukacja od Kita po uniwersytet, specjalny fundusz edukacyjny; więcej Gemeinschaftsschulen jako podstawa równego dostępu do studiów",
-        "uk": "безкоштовне навчання від Кита до університету, спеціальний фонд освіти; детальніше Gemeinschaftsschulen як основа для рівного доступу до університету"
+        "en": "keep university study tuition-free including for international students; raise Studierendenwerk funding; strengthen Lehrkräftebildung and Zivilklauseln at universities",
+        "de": "Studium weiterhin studiengebührenfrei – auch für internationale Studierende; Zuschüsse an das Studierendenwerk erhöhen; Lehrkräftebildung und Zivilklauseln an Hochschulen stärken",
+        "ru": "сохранить бесплатное обучение в вузах, в том числе для иностранных студентов; повысить финансирование Studierendenwerk; укрепить подготовку учителей и Zivilklauseln в вузах",
+        "tr": "uluslararası öğrenciler dahil üniversiteyi ücretsiz tutmak; Studierendenwerk fonunu artırmak; yüksekokullarda Lehrerbildung ve Zivilklauseln’i güçlendirmek",
+        "pl": "utrzymać bezpłatne studia, także dla studentów międzynarodowych; zwiększyć finansowanie Studierendenwerk; wzmocnić kształcenie nauczycieli i Zivilklauseln na uczelniach",
+        "uk": "зберегти безкоштовне навчання у вишах, зокрема для іноземних студентів; підвищити фінансування Studierendenwerk; зміцнити підготовку вчителів і Zivilklauseln у вишах"
       }
     },
     {
@@ -6624,14 +6624,14 @@
     {
       "topicId": "healthcare-hospitals-and-neighborhood-care",
       "partyId": "linke",
-      "stance": "mixed",
+      "stance": "for",
       "summary": {
-        "en": "Psychotherapist positions in clinics",
-        "de": "Stellen für Psychotherapeut:innen in Kliniken",
-        "ru": "Ставки для психотерапевтов в клиниках",
-        "tr": "Kliniklerde psikoterapist kadroları",
-        "pl": "Etatów psychoterapeutów w klinikach",
-        "uk": "Посади психотерапевта в клініках"
+        "en": "expand municipal Charité and Vivantes; rekommunalisieren hospitals where private operators exit; speed municipal and non-profit MVZ / neighborhood basic care via a Vivantes taskforce",
+        "de": "kommunale Träger Charité und Vivantes ausbauen; Rekommunalisierung, wo Private sich zurückziehen; kommunale und gemeinnützige MVZ / wohnortnahe Grundversorgung beschleunigen (Taskforce Vivantes)",
+        "ru": "расширить муниципальные Charité и Vivantes; рекоммунализация там, где частные уходят; ускорить муниципальные и некоммерческие MVZ / базовую помощь в районах (taskforce Vivantes)",
+        "tr": "belediye taşıyıcıları Charité ve Vivantes’i büyütmek; özel işletmeciler çekildiğinde yeniden belediyeleştirmek; Vivantes görev gücüyle belediye ve kâr amacı gütmeyen MVZ / mahalle temel bakımını hızlandırmak",
+        "pl": "rozbudować komunalne Charité i Vivantes; rekomunalizacja tam, gdzie prywatni się wycofują; przyspieszyć komunalne i non-profit MVZ / podstawową opiekę w dzielnicach (taskforce Vivantes)",
+        "uk": "розширити муніципальні Charité і Vivantes; рекомуналізація там, де приватні йдуть; прискорити муніципальні та неприбуткові MVZ / базову допомогу в районах (taskforce Vivantes)"
       }
     },
     {
@@ -6754,14 +6754,14 @@
     {
       "topicId": "healthcare-mental-health",
       "partyId": "linke",
-      "stance": "mixed",
+      "stance": "for",
       "summary": {
-        "en": "Mental health in the school curriculum, supported housing, psychotherapist positions",
-        "de": "Psychische Gesundheit im Lehrplan, betreutes Wohnen, Stellen für Psychotherapeut:innen",
-        "ru": "Тема психического здоровья в школьной программе, сопровождаемое жильё, ставки психотерапевтов",
-        "tr": "Okul müfredatında ruh sağlığı, destekli konut, psikoterapist kadroları",
-        "pl": "Zdrowie psychiczne w programie szkolnym, mieszkania wspomagane, etaty psychoterapeutów",
-        "uk": "Психічне здоров'я в шкільній програмі, підтримане житло, посади психотерапевта"
+        "en": "create missing psychotherapy Kassensitze for Berlin; oversight of Kostenerstattung; outreach therapy for older and immobile people; more clinic places and pay for therapists in training; supported housing and work",
+        "de": "fehlende Psychotherapie-Kassensitze für Berlin schaffen; Aufsicht über Kostenerstattung; aufsuchende Therapie für ältere und immobile Menschen; mehr Klinikplätze und Vergütung für Psychotherapeut*innen in Weiterbildung; betreutes Wohnen und Arbeit",
+        "ru": "создать недостающие Kassensitze психотерапии для Берлина; контроль Kostenerstattung; выездная терапия для пожилых и маломобильных; больше мест в клиниках и оплата стажировок психотерапевтов; сопровождаемое жильё и труд",
+        "tr": "Berlin için eksik psikoterapi Kassensitze oluşturmak; Kostenerstattung denetimi; yaşlı ve hareketsizler için gezici terapi; klinikte daha fazla yer ve eğitimdeki terapistlere ücret; destekli konut ve iş",
+        "pl": "stworzyć brakujące Kassensitze psychoterapii dla Berlina; nadzór nad Kostenerstattung; terapia wyjazdowa dla starszych i mało mobilnych; więcej miejsc w klinikach i wynagrodzenie dla terapeutów w szkoleniu; mieszkania wspomagane i praca",
+        "uk": "створити відсутні Kassensitze психотерапії для Берліна; нагляд за Kostenerstattung; виїзна терапія для літніх і маломобільних; більше місць у клініках і оплата стажувань психотерапевтів; супроводжуване житло й праця"
       }
     },
     {
@@ -7144,14 +7144,14 @@
     {
       "topicId": "migration-admission-and-deportations",
       "partyId": "linke",
-      "stance": "mixed",
+      "stance": "against",
       "summary": {
-        "en": "“Every deportation is one too many,” Stichtagsregelung for long-term residents, against deportation detention and family separation",
-        "de": "„Jede Abschiebung ist eine zu viel“, Stichtagsregelung für langjährig hier Lebende, gegen Abschiebehaft und Familientrennung",
-        "ru": "«Каждая депортация — одна лишняя», Stichtagsregelung для давно живущих, против депортационного заключения и разделения семей",
-        "tr": "“Her sınır dışı etme bir fazla,” uzun süredir oturanlar için Stichtagsregelung, sınır dışı tutukluluğu ve aile ayrılığına karşı",
-        "pl": "„Każda deportacja to o jedną za dużo,” Stichtagsregelung dla długoterminowych mieszkańców, przeciw aresztowi deportacyjnemu i rozdzielaniu rodzin",
-        "uk": "«Кожна депортація — це забагато», Stichttagsregelung для постійних мешканців, проти утримання під вартою після депортації та розділення сім’ї"
+        "en": "“every deportation is one too many”; Stichtagsregelung and Chancenaufenthalt; reject detention and movement restrictions for refugees and family separation; Landesaufnahmeprogramme (e.g. Syria, Afghanistan, Gaza); use Abschiebestopps",
+        "de": "„jede Abschiebung ist eine zu viel“; Stichtagsregelung und Chancenaufenthalt; Haft und Bewegungseinschränkungen für Geflüchtete sowie Familientrennungen ablehnen; Landesaufnahmeprogramme (u. a. Syrien, Afghanistan, Gaza); Abschiebestopps nutzen",
+        "ru": "«каждая депортация — лишняя»; Stichtagsregelung и Chancenaufenthalt; против заключения и ограничений передвижения беженцев и разделения семей; земельные программы приёма (Сирия, Афганистан, Газа и др.); использовать Abschiebestopps",
+        "tr": "“her sınır dışı bir fazla”; Stichtagsregelung ve Chancenaufenthalt; mülteciler için tutukluluk/hareket kısıtı ve aile ayrılığına hayır; Landesaufnahmeprogramme (Suriye, Afganistan, Gazze vb.); Abschiebestopps kullanmak",
+        "pl": "„każda deportacja to o jedną za dużo”; Stichtagsregelung i Chancenaufenthalt; przeciw aresztowi i ograniczeniom przemieszczania uchodźców oraz rozdzielaniu rodzin; Landesaufnahmeprogramme (Syria, Afganistan, Gaza itd.); korzystać z Abschiebestopps",
+        "uk": "«кожна депортація — зайва»; Stichtagsregelung і Chancenaufenthalt; проти ув’язнення та обмежень пересування біженців і розділення сімей; земельні програми прийому (Сирія, Афганістан, Газа тощо); використовувати Abschiebestopps"
       }
     },
     {
@@ -7794,14 +7794,14 @@
     {
       "topicId": "business-succession",
       "partyId": "linke",
-      "stance": "mixed",
+      "stance": "for",
       "summary": {
-        "en": "no direct business-transfer program; priority is collectively bargained jobs, socially and ecologically just transformation, industry, and municipal procurement serving the public good",
-        "de": "kein direktes Programm zur Unternehmensnachfolge; Priorität haben tarifgebundene Arbeitsplätze, sozial und ökologisch gerechte Transformation, Industrie und gemeinwohlorientierte kommunale Beschaffung",
-        "ru": "прямой программы передачи бизнеса нет; приоритет — тарифные рабочие места, социально и экологически справедливая трансформация, промышленность и общественно полезные городские закупки",
-        "tr": "doğrudan işletme devri programı yok; öncelik toplu sözleşmeli işler, sosyal ve ekolojik adil dönüşüm, sanayi ve kamu yararına hizmet eden belediye alımları",
-        "pl": "brak bezpośredniego programu sukcesji firm; priorytetem są miejsca pracy objęte układami zbiorowymi, społecznie i ekologicznie sprawiedliwa transformacja, przemysł oraz zamówienia komunalne służące dobru publicznemu",
-        "uk": "прямої програми передачі бізнесу немає; пріоритетом є робочі місця за колективним договором, соціально та екологічно справедливі перетворення, промисловість та муніципальні закупівлі, що служать суспільному благу"
+        "en": "secure Unternehmensnachfolge especially in craft trades with the Handwerkskammer; protect against rising commercial rents; strengthen Ausbildungsverbünde",
+        "de": "Unternehmensnachfolge sichern, besonders im Handwerk mit der Handwerkskammer; Schutz vor steigenden Gewerbemieten; Ausbildungsverbünde stärken",
+        "ru": "обеспечить передачу предприятий, особенно в ремесле с Handwerkskammer; защита от роста коммерческой аренды; укрепить Ausbildungsverbünde",
+        "tr": "özellikle Handwerkskammer ile zanaatta Unternehmensnachfolge’yi güvenceye almak; yükselen işyeri kiralarına karşı koruma; Ausbildungsverbünde’yi güçlendirmek",
+        "pl": "zabezpieczyć sukcesję firm, zwłaszcza w rzemiośle z Handwerkskammer; ochrona przed rosnącymi czynszami lokalowymi; wzmocnić Ausbildungsverbünde",
+        "uk": "забезпечити передачу підприємств, особливо в ремеслі з Handwerkskammer; захист від зростання комерційної оренди; зміцнити Ausbildungsverbünde"
       }
     },
     {
@@ -8574,14 +8574,14 @@
     {
       "topicId": "culture-and-clubs",
       "partyId": "linke",
-      "stance": "mixed",
+      "stance": "for",
       "summary": {
-        "en": "The school-theater programs TUSCH and TUKI, and “third places” in neighborhoods",
-        "de": "Die Schultheaterprogramme TUSCH und TUKI und „Dritte Orte“ in den Kiezen",
-        "ru": "Школьно-театральные программы TUSCH и TUKI, «третьи места» в кварталах",
-        "tr": "Okul tiyatrosu programları TUSCH ve TUKI ve mahallelerde „üçüncü mekânlar“",
-        "pl": "Szkolne programy teatralne TUSCH i TUKI oraz „trzecie miejsca” w dzielnicach",
-        "uk": "Шкільно-театральні програми TUSCH і TUKI, і «треті місця» в районах"
+        "en": "protect Clubkultur (commercial Mietendeckel, Spielstättenförderung, Schallschutzfonds); strengthen Freie Szene; fund third places and school/Kita theater partnerships TUSCH and TUKI",
+        "de": "Clubkultur schützen (Gewerbe-Mietendeckel, Spielstättenförderung, Schallschutzfonds); Freie Szene stärken; Dritte Orte sowie Schultheater-Kooperationen TUSCH und TUKI finanzieren",
+        "ru": "защитить клубную культуру (коммерческий Mietendeckel, Spielstättenförderung, Schallschutzfonds); укрепить свободную сцену; финансировать «третьи места» и школьные/Kita-театральные партнёрства TUSCH и TUKI",
+        "tr": "Clubkultur’ü korumak (ticari Mietendeckel, Spielstättenförderung, Schallschutzfonds); Freie Szene’yi güçlendirmek; üçüncü mekânlar ile okul/Kita tiyatro ortaklıkları TUSCH ve TUKI’yi finanse etmek",
+        "pl": "chronić Clubkultur (komercyjny Mietendeckel, Spielstättenförderung, Schallschutzfonds); wzmocnić Freie Szene; finansować trzecie miejsca oraz partnerskie programy teatralne TUSCH i TUKI",
+        "uk": "захистити клубну культуру (комерційний Mietendeckel, Spielstättenförderung, Schallschutzfonds); зміцнити вільну сцену; фінансувати «треті місця» та шкільні/Kita-театральні партнерства TUSCH і TUKI"
       }
     },
     {
@@ -8834,14 +8834,14 @@
     {
       "topicId": "democracy-participation-equality",
       "partyId": "linke",
-      "stance": "mixed",
+      "stance": "for",
       "summary": {
-        "en": "Voting rights for non-citizens and “school against the right”",
-        "de": "Wahlrecht für Nichtstaatsangehörige und „Schule gegen rechts“",
-        "ru": "Право голоса для неграждан, «школа против правых»",
-        "tr": "Vatandaş olmayanlar için oy hakkı ve „sağa karşı okul“",
-        "pl": "Prawo wyborcze dla osób bez obywatelstwa oraz „szkoła przeciw prawicy”",
-        "uk": "Виборчі права для негромадян і «школа проти правих»"
+        "en": "voting rights for people without German citizenship after at least five years’ residence; strengthen participation councils; “Schule gegen rechts”",
+        "de": "Wahlrecht für Menschen ohne deutsche Staatsangehörigkeit nach mindestens fünf Jahren Aufenthalt; Partizipationsbeiräte stärken; „Schule gegen rechts“",
+        "ru": "право голоса для людей без немецкого гражданства после минимум пяти лет проживания; укрепить советы участия; «школа против правых»",
+        "tr": "Alman vatandaşlığı olmayanlara en az beş yıl ikametten sonra oy hakkı; katılım konseylerini güçlendirmek; „Schule gegen rechts“",
+        "pl": "prawo wyborcze dla osób bez niemieckiego obywatelstwa po co najmniej pięciu latach pobytu; wzmocnić rady partycypacji; „Schule gegen rechts“",
+        "uk": "виборче право для людей без німецького громадянства після щонайменше п’яти років проживання; зміцнити ради участі; «школа проти правих»"
       }
     },
     {
@@ -8966,12 +8966,12 @@
       "partyId": "linke",
       "stance": "for",
       "summary": {
-        "en": "An anti-discrimination agenda and protection of vulnerable groups from expanded police powers; the excerpts found contain almost no separate program against domestic violence",
-        "de": "Antidiskriminierungsagenda und Schutz vulnerabler Gruppen vor ausgeweiteten Polizeibefugnissen; in den gefundenen Passagen kaum eigenständiges Programm gegen häusliche Gewalt",
-        "ru": "антидискриминационная повестка и защита от полицейского расширения для уязвимых групп; в программе отдельной программы против домашнего насилия почти нет",
-        "tr": "Ayrımcılık karşıtı gündem ve kırılgan grupların genişletilmiş polis yetkilerinden korunması; bulunan alıntılarda aile içi şiddete karşı neredeyse ayrı bir program yok",
-        "pl": "Agenda antydyskryminacyjna i ochrona grup wrażliwych przed rozszerzonymi uprawnieniami policji; znalezione fragmenty prawie nie zawierają osobnego programu przeciw przemocy domowej",
-        "uk": "антидискримінаційний порядок денний і захист уразливих груп від розширення повноважень поліції; у програмі майже немає окремої лінії щодо прав жінок"
+        "en": "defend and expand women’s shelters, counseling and girls’ projects with tariff pay; implement the Istanbul Convention and Gewalthilfegesetz; Landeskoordinierungsstelle; mandatory perpetrator courses; school education against sexism and domestic violence",
+        "de": "Frauenhäuser, Beratung und Mädchenprojekte absichern und ausbauen mit Tarifbezahlung; Istanbul-Konvention und Gewalthilfegesetz umsetzen; Landeskoordinierungsstelle; verpflichtende Täter*innenkurse; Aufklärung an Schulen zu Sexismus und häuslicher Gewalt",
+        "ru": "защитить и расширить женские приюты, консультации и проекты для девочек с тарифной оплатой; реализовать Стамбульскую конвенцию и Gewalthilfegesetz; земельная координация; обязательные курсы для агрессоров; просвещение в школах против сексизма и домашнего насилия",
+        "tr": "kadın sığınaklarını, danışmanlığı ve kız projelerini tarifeli ücretle güvenceye alıp genişletmek; İstanbul Sözleşmesi ve Gewalthilfegesetz’i uygulamak; Landeskoordinierungsstelle; zorunlu fail kursları; okullarda cinsiyetçilik ve aile içi şiddete karşı eğitim",
+        "pl": "bronić i rozwijać domy dla kobiet, poradnictwo i projekty dla dziewcząt z płacą taryfową; wdrażać Konwencję stambulską i Gewalthilfegesetz; Landeskoordinierungsstelle; obowiązkowe kursy dla sprawców; edukacja szkolna przeciw seksizmowi i przemocy domowej",
+        "uk": "захистити й розширити жіночі притулки, консультації та проєкти для дівчат із тарифною оплатою; впровадити Стамбульську конвенцію та Gewalthilfegesetz; земельна координація; обов’язкові курси для кривдників; просвіта в школах проти сексизму та домашнього насильства"
       }
     },
     {
@@ -9096,12 +9096,12 @@
       "partyId": "linke",
       "stance": "for",
       "summary": {
-        "en": "Protection of trans people is mentioned in criticism of expanded police powers; an anti-discrimination and anti-racist agenda, and “school against the right” in schools",
-        "de": "Der Schutz von trans Menschen wird in der Kritik an erweiterten Polizeibefugnissen erwähnt; Antidiskriminierungs- und antirassistische Agenda, in Schulen „Schule gegen rechts“",
-        "ru": "защита транс-людей упоминается в критике полицейского расширения; антидискриминационная и антирасистская повестка, в школах — «школа против правых»",
-        "tr": "Trans insanların korunması genişletilmiş polis yetkileri eleştirisinde anılır; ayrımcılık ve ırkçılık karşıtı gündem ve okullarda „sağa karşı okul“",
-        "pl": "Ochrona osób trans wspomniana w krytyce rozszerzonych uprawnień policji; agenda antydyskryminacyjna i antyrasistowska oraz „szkoła przeciw prawicy” w szkołach",
-        "uk": "Захист транс-людей згадується в критиці розширення повноважень поліції; програма боротьби з дискримінацією та расизмом, і «школа проти правих» у школах"
+        "en": "Queerpolitik chapter: Regenbogenhauptstadt with a queer advisory board; fight queer poverty and housing discrimination; expand LSBTIQ+ refugee shelters and queer housing for older people; protect queer bars, clubs and centers",
+        "de": "Kapitel Queerpolitik: Regenbogenhauptstadt mit queerem Beirat; gegen queere Armut und Wohnungsdiskriminierung; Ausbau von LSBTIQ+-Schutzunterkünften und queerem Wohnen im Alter; Schutz von Bars, Clubs und Zentren",
+        "ru": "глава Queerpolitik: столица радуги с квир-советом; против квир-бедности и дискриминации при жилье; расширение приютов для LSBTIQ+-беженцев и квир-жилья для пожилых; защита баров, клубов и центров",
+        "tr": "Queerpolitik bölümü: queer danışma kuruluyla Regenbogenhauptstadt; queer yoksulluk ve konut ayrımcılığına karşı; LSBTIQ+ mülteci sığınakları ve yaşlılar için queer konutu genişletmek; bar, kulüp ve merkezleri korumak",
+        "pl": "rozdział Queerpolitik: Regenbogenhauptstadt z queerową radą doradczą; walka z queerową biedą i dyskryminacją mieszkaniową; rozbudowa schronisk dla uchodźców LSBTIQ+ i queerowego mieszkalnictwa dla seniorów; ochrona barów, klubów i centrów",
+        "uk": "розділ Queerpolitik: столиця райдуги з квіра-радою; проти квіра-бідності та дискримінації в житлі; розширення притулків для LSBTIQ+-біженців і квіра-житла для літніх; захист барів, клубів і центрів"
       }
     },
     {
@@ -9354,14 +9354,14 @@
     {
       "topicId": "party-donations-lobbying-and-transparency",
       "partyId": "linke",
-      "stance": "mixed",
+      "stance": "for",
       "summary": {
-        "en": "Nothing about donations; however, it calls for a Transparenzgesetz with specific publication obligations and for replacing the Senat draft with civil-society drafts",
-        "de": "Nichts zu Spenden; gefordert wird jedoch ein Transparenzgesetz mit konkreten Veröffentlichungspflichten und der Ersatz des Senatsentwurfs durch Entwürfe der Zivilgesellschaft",
-        "ru": "про пожертвования ничего; зато требуют Transparenzgesetz с конкретными обязанностями публикации и замены сенатского проекта на проекты гражданского общества",
-        "tr": "Bağışlar hakkında bir şey yok; ancak belirli yayımlama yükümlülükleriyle bir Transparenzgesetz ve Senat taslağının sivil toplum taslaklarıyla değiştirilmesini talep eder",
-        "pl": "Nic o darowiznach; jednak wzywa do Transparenzgesetz z konkretnymi obowiązkami publikacji oraz do zastąpienia projektu Senatu projektami społeczeństwa obywatelskiego",
-        "uk": "Нічого про пожертви; однак він закликає до Transparenzgesetz із конкретними зобов’язаннями щодо публікації та до заміни проекту Сенату проектами громадянського суспільства"
+        "en": "take no party donations from companies; MPs voluntarily cap salaries and donate; Transparenzgesetz with concrete publication duties, preferring civil-society drafts over the Senat draft",
+        "de": "keine Parteispenden von Unternehmen; Abgeordnete begrenzen Gehälter freiwillig und spenden; Transparenzgesetz mit konkreten Veröffentlichungspflichten, Entwürfe der Zivilgesellschaft statt Senatsentwurf",
+        "ru": "не принимать партийных пожертвований от компаний; депутаты добровольно ограничивают зарплаты и жертвуют; Transparenzgesetz с конкретными обязанностями публикации, проекты гражданского общества вместо сенатского",
+        "tr": "şirketlerden parti bağışı almamak; milletvekilleri maaşlarını gönüllü sınırlayıp bağışlamak; somut yayımlama yükümlülükleriyle Transparenzgesetz, Senat taslağı yerine sivil toplum taslakları",
+        "pl": "nie przyjmować darowizn partyjnych od firm; posłowie dobrowolnie ograniczają pensje i przekazują darowizny; Transparenzgesetz z konkretnymi obowiązkami publikacji, projekty społeczeństwa obywatelskiego zamiast projektu Senatu",
+        "uk": "не приймати партійних пожертв від компаній; депутати добровільно обмежують зарплати й жертвують; Transparenzgesetz із конкретними обов’язками публікації, проєкти громадянського суспільства замість сенатського"
       }
     },
     {
