@@ -76,7 +76,7 @@
         "pl": "AfD",
         "uk": "AfD"
       },
-      "programUrl": "https://afd.berlin/abgeordnetenhauswahl/"
+      "programUrl": "https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf"
     },
     {
       "id": "bsw",
@@ -1062,12 +1062,12 @@
       "partyId": "afd",
       "stance": "against",
       "summary": {
-        "en": "repeal the Berlin Climate Law; replace it with a “reliable energy” law",
-        "de": "Berliner Klimagesetz abschaffen; durch ein Gesetz für „zuverlässige Energie“ ersetzen",
-        "ru": "отказ от Berlin Climate Law; заменить законом о «надежной энергии»",
-        "tr": "Berlin İklim Yasası’nı yürürlükten kaldırmak; yerine “güvenilir enerji” yasası koymak",
-        "pl": "uchylenie berlińskiej ustawy klimatycznej; zastąpienie ustawą o „niezawodnej energii”",
-        "uk": "скасувати Берлінський закон про клімат; замінити його законом про «надійну енергію»."
+        "en": "repeal Berlin’s Klimaschutz- und Energiewendegesetz; replace it with a Sichere-Energie-Gesetz focused on security of supply, affordability and grid stability; reject the “climate-neutral by 2045” goal",
+        "de": "Berliner Klimaschutz- und Energiewendegesetz abschaffen; durch ein Sichere-Energie-Gesetz mit Fokus auf Versorgungssicherheit, Bezahlbarkeit und Netzstabilität ersetzen; Ziel „klimaneutral 2045“ ablehnen",
+        "ru": "отменить берлинский Klimaschutz- und Energiewendegesetz; заменить Sichere-Energie-Gesetz с упором на надёжность, доступность и стабильность сети; отвергнуть цель «климатическая нейтральность к 2045»",
+        "tr": "Berlin Klimaschutz- und Energiewendegesetz’i yürürlükten kaldırmak; arz güvenliği, uygun fiyat ve şebeke istikrarına odaklı Sichere-Energie-Gesetz ile değiştirmek; „2045’e kadar iklim nötr“ hedefini reddetmek",
+        "pl": "uchylać berlińską Klimaschutz- und Energiewendegesetz; zastąpić Sichere-Energie-Gesetz z naciskiem na bezpieczeństwo dostaw, dostępność i stabilność sieci; odrzucić cel „neutralność klimatyczna do 2045”",
+        "uk": "скасувати берлінський Klimaschutz- und Energiewendegesetz; замінити Sichere-Energie-Gesetz з акцентом на надійність постачання, доступність і стабільність мережі; відхилити ціль «кліматична нейтральність до 2045»"
       }
     },
     {
@@ -1840,14 +1840,14 @@
     {
       "topicId": "ev-charging",
       "partyId": "afd",
-      "stance": "mixed",
+      "stance": "none",
       "summary": {
-        "en": "support environmentally friendly drivetrains and fuels without additional burden for people on low and middle incomes; loading zones and transport organization",
-        "de": "umweltfreundliche Antriebe und Kraftstoffe unterstützen ohne zusätzliche Belastung für Menschen mit niedrigem und mittlerem Einkommen; Ladezonen und Verkehrsorganisation",
-        "ru": "поддерживать экологичные виды двигателей и топлива без дополнительной нагрузки для людей с низкими и средними доходами; зоны погрузки и организация транспорта",
-        "tr": "düşük ve orta gelirli insanlara ek yük olmadan çevre dostu tahrik ve yakıtları desteklemek; yükleme bölgeleri ve ulaşım örgütlenmesi",
-        "pl": "wsparcie dla przyjaznych środowisku napędów i paliw bez dodatkowego obciążenia dla osób o niskich i średnich dochodach; strefy załadunku i organizacja transportu",
-        "uk": "підтримувати екологічно чисті трансмісії та паливо без додаткового навантаження для людей із низьким і середнім рівнем доходу; зони навантаження та організація транспортування"
+        "en": "not addressed as EV charging; traffic chapter covers Ladezonen only as delivery/loading zones for crafts and logistics",
+        "de": "nicht als E-Ladeinfrastruktur thematisiert; im Verkehrskapitel sind Ladezonen Liefer- und Ladezonen für Handwerk und Logistik",
+        "ru": "не как зарядка электромобилей; в транспортной главе Ladezonen — зоны погрузки/разгрузки для ремесла и логистики",
+        "tr": "EV şarjı olarak ele alınmıyor; ulaşım bölümündeki Ladezonen zanaat ve lojistik için yükleme/teslimat alanları",
+        "pl": "nie jako ładowanie EV; w rozdziale o ruchu Ladezonen to strefy załadunku/dostaw dla rzemiosła i logistyki",
+        "uk": "не як зарядка EV; у транспортному розділі Ladezonen — зони завантаження/доставки для ремесла й логістики"
       }
     },
     {
@@ -1970,14 +1970,14 @@
     {
       "topicId": "tempelhofer-feld-development-edge-development",
       "partyId": "afd",
-      "stance": "mixed",
+      "stance": "none",
       "summary": {
-        "en": "not about housing: Tempelhofer Feld as a test site for agrivoltaics and mobile energy storage",
-        "de": "nicht um Wohnen: Tempelhofer Feld als Testfläche für Agri-Photovoltaik und mobile Energiespeicher",
-        "ru": "не про жильё: Tempelhofer Feld как тестовая площадка для агрофотоэлектричества и мобильных накопителей энергии",
-        "tr": "konut hakkında değil: Tempelhofer Feld agrivoltaik ve mobil enerji depolama için test alanı olarak",
-        "pl": "nie o mieszkania: Tempelhofer Feld jako teren testowy dla agrivoltaiki i mobilnych magazynów energii",
-        "uk": "не про житло: Tempelhofer Feld як тестовий майданчик для агровольтаїки та мобільного зберігання енергії"
+        "en": "not addressed in the Berlin Wahlprogramm",
+        "de": "im Berliner Wahlprogramm nicht thematisiert",
+        "ru": "в берлинской предвыборной программе не затрагивается",
+        "tr": "Berlin seçim programında ele alınmıyor",
+        "pl": "nieporuszane w berlińskim programie wyborczym",
+        "uk": "у берлінській передвиборчій програмі не згадується"
       }
     },
     {
@@ -2230,14 +2230,14 @@
     {
       "topicId": "heat-protection",
       "partyId": "afd",
-      "stance": "for",
+      "stance": "none",
       "summary": {
-        "en": "drinking points, cooling through greenery and water, open water surfaces, green squares/parks and “cooling rooms”",
-        "de": "Trinkstellen, Kühlung durch Grün und Wasser, offene Wasserflächen, grüne Plätze/Parks und „Kühlräume“",
-        "ru": "питьевые точки, охлаждение через озеленение и воду, открытые водные поверхности, озеленённые площади/парки и «охлаждающие помещения»",
-        "tr": "içme noktaları, yeşillik ve suyla soğutma, açık su yüzeyleri, yeşil meydanlar/parklar ve “soğutma odaları”",
-        "pl": "punkty wodopoju, chłodzenie przez zieleń i wodę, otwarte powierzchnie wodne, zielone place/parki i „chłodne pomieszczenia”",
-        "uk": "точки пиття, охолодження через зелені насадження та воду, відкриті водні поверхні, зелені площі/парки та «холодильники»"
+        "en": "no heat-action plan or cooling rooms found; nature chapter focuses on green-space care, clean drinking water and unsealing, not extreme-heat measures",
+        "de": "kein Hitzeaktionsplan oder Kühlräume gefunden; Naturkapitel fokussiert Pflege von Grün, Trinkwasser und Entsiegelung, nicht Hitzeschutzmaßnahmen",
+        "ru": "плана жары или прохладных комнат нет; глава о природе — уход за зеленью, питьевая вода и распечатывание, не меры против жары",
+        "tr": "sıcaklık eylem planı veya soğutma odası yok; doğa bölümü yeşil alan bakımı, içme suyu ve açma üzerine, aşırı sıcaklık önlemleri değil",
+        "pl": "brak planu upałów ani chłodni; rozdział o naturze o pielęgnacji zieleni, wodzie pitnej i odszczelnianiu, nie o ochronie przed upałem",
+        "uk": "плану спеки чи прохолодних кімнат немає; розділ про природу — догляд за зеленню, питна вода й розпечатування, не заходи проти спеки"
       }
     },
     {
@@ -2490,14 +2490,14 @@
     {
       "topicId": "zero-waste-waste-prevention",
       "partyId": "afd",
-      "stance": "for",
+      "stance": "none",
       "summary": {
-        "en": "separate section on Zero Waste: waste prevention, repair and reuse, reusable packaging, separate collection, enforcement on single-use packaging",
-        "de": "eigener Abschnitt zu Zero Waste: Abfallvermeidung, Reparatur und Wiederverwendung, Mehrwegverpackungen, getrennte Sammlung, Durchsetzung bei Einwegverpackungen",
-        "ru": "отдельный раздел про Zero Waste: предотвращение отходов, ремонт и повторное использование, многоразовая тара, раздельный сбор, контроль одноразовой упаковки",
-        "tr": "Zero Waste için ayrı bölüm: atık önleme, onarım ve yeniden kullanım, yeniden kullanılabilir ambalaj, ayrı toplama, tek kullanımlık ambalajda yaptırım",
-        "pl": "osobna sekcja o Zero Waste: zapobieganie odpadom, naprawa i ponowne użycie, opakowania wielokrotnego użytku, zbiórka selektywna, egzekucja wobec opakowań jednorazowych",
-        "uk": "окремий розділ Zero Waste: запобігання утворенню відходів, ремонт і повторне використання, багаторазова упаковка, роздільне збирання, контроль щодо одноразової упаковки"
+        "en": "no Zero Waste strategy; waste appears under cleanliness and enforcement (bins, sheriffs, hotspots), not prevention/reuse programs",
+        "de": "keine Zero-Waste-Strategie; Abfall erscheint unter Sauberkeit und Ahndung (Behälter, Sheriffs, Hotspots), nicht als Vermeidungs-/Wiederverwendungsprogramm",
+        "ru": "стратегии Zero Waste нет; отходы — в блоке чистоты и контроля (урны, шерифы, точки скопления), не программа предотвращения/reuse",
+        "tr": "Zero Waste stratejisi yok; atık temizlik ve yaptırım altında (kutular, şerifler, sıcak noktalar), önleme/yeniden kullanım programı değil",
+        "pl": "brak strategii Zero Waste; odpady pod czystością i egzekwowaniem (kosze, szeryfowie, hotspoty), nie program zapobiegania/reuse",
+        "uk": "стратегії Zero Waste немає; відходи — у блоці чистоти й контролю (урни, шерифи, гарячі точки), не програма запобігання/reuse"
       }
     },
     {
@@ -2880,14 +2880,14 @@
     {
       "topicId": "solar-energy-photovoltaics",
       "partyId": "afd",
-      "stance": "for",
+      "stance": "none",
       "summary": {
-        "en": "against obligations for photovoltaics",
-        "de": "gegen Verpflichtungen zur Photovoltaik",
-        "ru": "против обязательств по фотовольтаике",
-        "tr": "fotovoltaik yükümlülüklerine karşı",
-        "pl": "przeciw obowiązkom dotyczącym fotowoltaiki",
-        "uk": "проти зобов'язань щодо фотоелектрики"
+        "en": "no separate photovoltaics program; energy chapter rejects weather-dependent sources as unreliable for baseload and favors a technology-open mix with coal, gas and nuclear",
+        "de": "kein eigenes Photovoltaik-Programm; Energiekapitel lehnt wetterabhängige Quellen als unzuverlässig für die Grundlast ab und setzt auf technologieoffenen Mix mit Kohle, Gas und Kernenergie",
+        "ru": "отдельной программы по фотовольтаике нет; энергоглава отвергает погодозависимые источники как ненадёжные для базовой нагрузки и делает ставку на открытый микс с углём, газом и АЭС",
+        "tr": "ayrı bir fotovoltaik program yok; enerji bölümü hava bağımlı kaynakları baz yük için güvenilmez bulur ve kömür, gaz ve nükleer içeren teknolojiye açık karışımı savunur",
+        "pl": "brak osobnego programu fotowoltaiki; rozdział energetyczny odrzuca źródła zależne od pogody jako niepewne dla mocy podstawowej i stawia na mix z węglem, gazem i atomem",
+        "uk": "окремої програми з фотовольтаїки немає; енергетичний розділ відхиляє погодозалежні джерела як ненадійні для базового навантаження і ставить на відкритий мікс з вугіллям, газом і АЕС"
       }
     },
     {
@@ -3012,12 +3012,12 @@
       "partyId": "afd",
       "stance": "against",
       "summary": {
-        "en": "against wind turbines",
-        "de": "gegen Windkraftanlagen",
-        "ru": "против ветряков",
-        "tr": "rüzgâr türbinlerine karşı",
-        "pl": "przeciw turbinom wiatrowym",
-        "uk": "проти вітрових турбін"
+        "en": "strictly reject wind turbines in Berlin, especially in forests; reject the 0.5% federal land target for wind in Berlin",
+        "de": "Windräder in Berlin strikt ablehnen, insbesondere im Wald; Flächenziel von 0,5 % für Windkraft in Berlin ablehnen",
+        "ru": "строго отвергать ветряки в Берлине, особенно в лесах; отвергнуть федеральную цель 0,5 % площади под ветер",
+        "tr": "Berlin’de özellikle ormanlarda rüzgar türbinlerini kesin reddetmek; Berlin için %0,5 rüzgar alan hedefini reddetmek",
+        "pl": "stanowczo odrzucać wiatraki w Berlinie, zwłaszcza w lasach; odrzucić cel 0,5% powierzchni pod wiatr",
+        "uk": "категорично відхиляти вітряки в Берліні, особливо в лісах; відхилити федеральну ціль 0,5% площі під вітер"
       }
     },
     {
@@ -3142,12 +3142,12 @@
       "partyId": "afd",
       "stance": "for",
       "summary": {
-        "en": "for gas for peak loads",
-        "de": "für Gas für Spitzenlasten",
-        "ru": "за газ для пиковых нагрузок",
-        "tr": "zirve yükler için gaz",
-        "pl": "za gazem na szczyty zapotrzebowania",
-        "uk": "на газ для пікових навантажень"
+        "en": "keep coal and gas power plants plus diverse import power to cover peak loads and prevent blackouts; technology-open energy mix",
+        "de": "Kohle- und Gaskraftwerke sowie Importstrom aus verschiedenen Quellen zur Spitzenlast und gegen Blackouts beibehalten; technologieoffener Energiemix",
+        "ru": "сохранить угольные и газовые станции и импорт из разных источников для пиков и против блэкаутов; технологически открытый энергомикс",
+        "tr": "pik yük ve karaouts için kömür ve gaz santralleri ile çeşitli ithal elektriği sürdürmek; teknolojiye açık enerji karışımı",
+        "pl": "utrzymać elektrownie węglowe i gazowe oraz import z różnych źródeł na szczyty i przeciw blackoutom; mix otwarty technologicznie",
+        "uk": "зберегти вугільні й газові станції та імпорт з різних джерел для піків і проти блекаутів; технологічно відкритий енергомікс"
       }
     },
     {
@@ -3270,14 +3270,14 @@
     {
       "topicId": "hydrogen",
       "partyId": "afd",
-      "stance": "mixed",
+      "stance": "none",
       "summary": {
-        "en": "expand the hydrogen network only according to real demand, to avoid bad investments; focus — energy-intensive industry, high-temperature processes and gas power plants",
-        "de": "Wasserstoffnetz nur nach realem Bedarf ausbauen, um Fehlinvestitionen zu vermeiden; Fokus — energieintensive Industrie, Hochtemperaturprozesse und Gaskraftwerke",
-        "ru": "водородную сеть расширять только по реальному спросу, чтобы избежать ошибочных инвестиций; фокус — энергоинтенсивная промышленность, высокотемпературные процессы и газовые электростанции",
-        "tr": "hidrojen şebekesini yalnızca gerçek talebe göre genişletmek, kötü yatırımlardan kaçınmak; odak — enerji yoğun sanayi, yüksek sıcaklık süreçleri ve gaz santralleri",
-        "pl": "rozbudowywać sieć wodorową tylko według realnego zapotrzebowania, by uniknąć nietrafionych inwestycji; fokus — przemysł energochłonny, procesy wysokotemperaturowe i elektrownie gazowe",
-        "uk": "розширювати водневу мережу лише відповідно до реального попиту, щоб уникнути невдалих інвестицій; фокус — енергоємна промисловість, високотемпературні процеси та газові електростанції"
+        "en": "not addressed in the Berlin Wahlprogramm",
+        "de": "im Berliner Wahlprogramm nicht thematisiert",
+        "ru": "в берлинской предвыборной программе не затрагивается",
+        "tr": "Berlin seçim programında ele alınmıyor",
+        "pl": "nieporuszane w berlińskim programie wyborczym",
+        "uk": "у берлінській передвиборчій програмі не згадується"
       }
     },
     {
@@ -3400,14 +3400,14 @@
     {
       "topicId": "heat-pumps",
       "partyId": "afd",
-      "stance": "for",
+      "stance": "none",
       "summary": {
-        "en": "training specialists to install heat pumps; systematically convert district heating to large heat pumps, river heat pumps and waste heat",
-        "de": "Fachkräfte für den Einbau von Wärmepumpen ausbilden; Fernwärme systematisch auf Großwärmepumpen, Flusswärmepumpen und Abwärme umstellen",
-        "ru": "подготовка специалистов для установки тепловые насосы; централизованное теплоснабжение системно переводить на крупные тепловые насосы, речные тепловые насосы и сбросное тепло",
-        "tr": "ısı pompası montajı için uzman yetiştirmek; merkezi ısıtmayı sistematik olarak büyük ısı pompaları, ırmak ısı pompaları ve atık ısıya dönüştürmek",
-        "pl": "szkolenie specjalistów do montażu pomp ciepła; systematycznie przestawiać ciepłownictwo sieciowe na duże pompy ciepła, pompy ciepła rzeczne i ciepło odpadowe",
-        "uk": "навчання спеціалістів монтажу теплових насосів; систематично переводити централізоване теплопостачання на великі теплові насоси, річкові теплові насоси та відхідне тепло"
+        "en": "not addressed in the Berlin Wahlprogramm",
+        "de": "im Berliner Wahlprogramm nicht thematisiert",
+        "ru": "в берлинской предвыборной программе не затрагивается",
+        "tr": "Berlin seçim programında ele alınmıyor",
+        "pl": "nieporuszane w berlińskim programie wyborczym",
+        "uk": "у берлінській передвиборчій програмі не згадується"
       }
     },
     {
@@ -3530,14 +3530,14 @@
     {
       "topicId": "heating-supply-networks-decarbonization-and-or-transformation",
       "partyId": "afd",
-      "stance": "for",
+      "stance": "against",
       "summary": {
-        "en": "coal/fossil fuel phase-out — only if there are competitive and secure alternatives",
-        "de": "Kohle-/fossiler Ausstieg — nur wenn wettbewerbsfähige und sichere Alternativen bestehen",
-        "ru": "вывод угля/ископаемого топлива — только при наличии конкурентных и безопасных альтернатив",
-        "tr": "kömür/fosil yakıt çıkışı — yalnızca rekabetçi ve güvenli alternatifler varsa",
-        "pl": "wycofanie węgla/paliw kopalnych — tylko jeśli są konkurencyjne i bezpieczne alternatywy",
-        "uk": "поступова відмова від використання вугілля/викопного палива — лише за наявності конкурентоспроможних та безпечних альтернатив"
+        "en": "end the debt-financed decarbonization of Berlin’s district heating (criticizes up to €10bn); no heat-price rises from climate measures; keep Fernwärme affordable",
+        "de": "schuldenfinanzierte Dekarbonisierung der Berliner Fernwärme beenden (Kritik an bis zu 10 Mrd. €); keine Preiserhöhungen durch Klimamaßnahmen; Fernwärme bezahlbar halten",
+        "ru": "прекратить долговую декарбонизацию берлинской теплосети (критика до 10 млрд €); без подорожания тепла из‑за климатических мер; сохранить доступность Fernwärme",
+        "tr": "Berlin bölgesel ısınmasının borçla finanse edilen karbonsuzlaştırmasını durdurmak (10 milyar €’ya eleştiri); iklim önlemleriyle ısı fiyatı artışı yok; Fernwärme’yi uygun tutmak",
+        "pl": "zakończyć dekarbonizację berlińskiego ciepła finansowaną długiem (krytyka do 10 mld €); bez podwyżek ciepła z powodów klimatycznych; utrzymać przystępne Fernwärme",
+        "uk": "припинити боргову декарбонізацію берлінського тепла (критика до 10 млрд €); без підвищення цін через кліматичні заходи; зберегти доступність Fernwärme"
       }
     },
     {
@@ -3660,14 +3660,14 @@
     {
       "topicId": "nuclear-energy",
       "partyId": "afd",
-      "stance": "none",
+      "stance": "for",
       "summary": {
-        "en": "",
-        "de": "",
-        "ru": "",
-        "tr": "",
-        "pl": "",
-        "uk": ""
+        "en": "return to nuclear power as part of a technology-open mix; make Berlin a center of nuclear research again; modern 3rd/4th-generation reactors for baseload",
+        "de": "Rückkehr zur Kernenergie als Teil eines technologieoffenen Mixes; Berlin wieder zum Zentrum der Kernforschung machen; moderne Reaktoren der 3./4. Generation für Grundlast",
+        "ru": "возврат к атомной энергии в рамках технологически открытого микса; снова сделать Берлин центром ядерных исследований; современные реакторы 3–4 поколения для базовой нагрузки",
+        "tr": "teknolojiye açık bir karışımın parçası olarak nükleer enerjiye dönüş; Berlin’i yeniden nükleer araştırma merkezi yapmak; baz yük için 3./4. nesil reaktörler",
+        "pl": "powrót do energii jądrowej w ramach mixu otwartego technologicznie; Berlin znów centrum badań jądrowych; nowoczesne reaktory 3./4. generacji dla mocy podstawowej",
+        "uk": "повернення до атомної енергії як частини технологічно відкритого міксу; знову зробити Берлін центром ядерних досліджень; сучасні реактори 3–4 покоління для базового навантаження"
       }
     },
     {
@@ -4180,14 +4180,14 @@
     {
       "topicId": "housing-socialization-of-large-landlords",
       "partyId": "afd",
-      "stance": "mixed",
+      "stance": "against",
       "summary": {
-        "en": "socialization is not in the platform, either for or against; relies on the private housing sector as the “largest player” in the market",
-        "de": "Vergesellschaftung kommt im Programm weder befürwortend noch ablehnend vor; setzt auf die private Wohnungswirtschaft als „größten Akteur“ am Markt",
-        "ru": "обобществления в программе нет — ни за, ни против; ставка на частную жилищную экономику как «крупнейшего игрока» на рынке",
-        "tr": "sosyalleştirme programda lehinde veya aleyhinde yok; piyasadaki “en büyük oyuncu” olarak özel konut sektörüne dayanıyor",
-        "pl": "uspołecznienie nie występuje w programie ani za, ani przeciw; stawia na prywatny sektor mieszkaniowy jako „największego gracza” na rynku",
-        "uk": "соціалізація не в платформі ні за, ні проти; покладається на приватний житловий сектор як на «найбільшого гравця» на ринку"
+        "en": "strictly reject expropriation of housing companies; rely on an investment-friendly climate for private rental construction instead",
+        "de": "Enteignung von Wohnungsunternehmen strikt ablehnen; stattdessen investitionsfreundliches Klima für privaten Mietwohnungsbau",
+        "ru": "строго отвергать экспроприацию жилищных компаний; вместо этого инвестиционно дружелюбный климат для частного арендного строительства",
+        "tr": "konut şirketlerinin kamulaştırılmasını kesin reddetmek; bunun yerine özel kiralık konut inşası için yatırım dostu iklim",
+        "pl": "stanowczo odrzucać wywłaszczenie spółek mieszkaniowych; zamiast tego klimat przyjazny inwestycjom w prywatny najem",
+        "uk": "категорично відхиляти експропріацію житлових компаній; натомість інвестиційно дружній клімат для приватного орендного будівництва"
       }
     },
     {
@@ -4700,14 +4700,14 @@
     {
       "topicId": "housing-tax-on-the-first-property-purchase",
       "partyId": "afd",
-      "stance": "mixed",
+      "stance": "for",
       "summary": {
-        "en": "the goal is to make it easier for tenants to become owners by weakening district-level protection against displacement and simplifying conversions; no separate first-purchase tax allowance",
-        "de": "Ziel ist, Mieter:innen den Weg ins Eigentum zu erleichtern, indem der bezirkliche Milieuschutz geschwächt und Umwandlungen vereinfacht werden; kein gesonderter Steuerfreibetrag für den Erstkauf",
-        "ru": "цель — облегчить жильцам путь к собственности через ослабление районной защиты от вытеснения и упрощение перестроек; отдельной льготы по налогу на первую покупку нет",
-        "tr": "hedef, ilçe düzeyinde yerinden edilme korumasını zayıflatıp dönüşümleri basitleştirerek kiracıların mal sahibi olmasını kolaylaştırmak; ayrı ilk alım vergi istisnası yok",
-        "pl": "cel to ułatwić najemcom zostawanie właścicielami przez osłabienie dzielnicowej ochrony przed wypieraniem i uproszczenie przekształceń; bez osobnego zwolnienia podatkowego przy pierwszym zakupie",
-        "uk": "мета полягає в тому, щоб полегшити орендарям стати власниками шляхом послаблення захисту районного рівня від переміщення та спрощення переобладнання; немає окремої податкової пільги на першу покупку"
+        "en": "abolish Grunderwerbsteuer for domestic first-time buyers of owner-occupied homes; introduce 20% Grunderwerbsteuer for investors based outside the EU; public guarantees for missing equity",
+        "de": "Grunderwerbsteuer für einheimische Ersterwerber selbstgenutzten Wohneigentums abschaffen; 20 % Grunderwerbsteuer für außerhalb der EU ansässige Investoren; öffentliche Bürgschaften für fehlendes Eigenkapital",
+        "ru": "отменить Grunderwerbsteuer для местных первых покупателей жилья для собственного проживания; 20 % для инвесторов вне ЕС; государственные поручительства при нехватке капитала",
+        "tr": "yerli ilk kez kendi oturduğu konut alanlar için Grunderwerbsteuer’i kaldırmak; AB dışı yatırımcılara %20; eksik özsermaye için kamu kefaleti",
+        "pl": "znosić Grunderwerbsteuer dla krajowych pierwszych nabywców mieszkań na własne potrzeby; 20% dla inwestorów spoza UE; publiczne poręczenia przy braku kapitału",
+        "uk": "скасувати Grunderwerbsteuer для місцевих перших покупців житла для власного проживання; 20% для інвесторів поза ЄС; державні поруки за браком капіталу"
       }
     },
     {
@@ -7300,14 +7300,14 @@
     {
       "topicId": "migration-bezahlkarte-and-access-to-benefits-and-healthcare",
       "partyId": "afd",
-      "stance": "mixed",
+      "stance": "for",
       "summary": {
-        "en": "the Bezahlkarte is not explicitly named in the program; the logic runs in the opposite direction: priority in the allocation of housing and benefits for people who have lived here for a long time, no language or integration courses for those without a right to stay, full transparency on asylum spending",
-        "de": "Bezahlkarte wird im Programm nicht ausdrücklich genannt; die Logik ist entgegengesetzt: Vorrang bei der Vergabe von Wohnungen und Leistungen für Menschen, die schon lange hier leben, keine Sprach- oder Integrationskurse für Menschen ohne Bleiberecht, vollständige Transparenz der Asylausgaben",
-        "ru": "Bezahlkarte в программе прямо не названа; наоборот: приоритет живущим здесь давно при распределении квартир и выплат, никаких языковых и интеграционных курсов для тех, у кого нет права на пребывание, полная прозрачность расходов на убежище",
-        "tr": "Programda Bezahlkarte açıkça anılmıyor; mantık ters yönde: konut ve yardımların tahsisinde uzun süredir burada yaşayanlara öncelik, kalma hakkı olmayanlara dil veya entegrasyon kursu yok, sığınma harcamalarında tam şeffaflık",
-        "pl": "Bezahlkarte nie jest w programie wymieniona wprost; logika idzie w przeciwnym kierunku: priorytet w przydziale mieszkań i świadczeń dla osób mieszkających tu od dawna, brak kursów językowych lub integracyjnych dla osób bez prawa pobytu, pełna przejrzystość wydatków azylowych",
-        "uk": "Bezahlkarte в програмі прямо не названа; навпаки: пріоритет у житлі та виплатах тим, хто давно тут живе"
+        "en": "switch asylum benefits to pure Sachleistungen; limit supply, counseling and housing to the necessary minimum; cut Berlin top-up benefits; full cost transparency of asylum policy",
+        "de": "Asylleistungen auf reine Sachleistungen umstellen; Versorgung, Beratung und Unterbringung auf das Notwendigste begrenzen; Berliner Zusatzleistungen streichen; volle Kostentransparenz der Asylpolitik",
+        "ru": "перевести пособия для просителей убежища на чистые Sachleistungen; ограничить снабжение, консультации и жильё необходимым минимумом; убрать берлинские доплаты; полная прозрачность расходов на убежище",
+        "tr": "iltica yardımlarını salt Sachleistungen’e çevirmek; tedarik, danışmanlık ve konutu gerekli asgariye indirmek; Berlin ek yardımlarını kesmek; iltica politikasında tam maliyet şeffaflığı",
+        "pl": "przejść na czyste Sachleistungen dla azylantów; ograniczyć zaopatrzenie, poradnictwo i zakwaterowanie do niezbędnego minimum; skreślić berlińskie dodatki; pełna przejrzystość kosztów polityki azylowej",
+        "uk": "перевести допомогу шукачам притулку на чисті Sachleistungen; обмежити забезпечення, консультації та житло необхідним мінімумом; скасувати берлінські доплати; повна прозорість витрат на політику притулку"
       }
     },
     {
