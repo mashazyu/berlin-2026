@@ -41,7 +41,7 @@ export const PAGES: Record<PageKey, PageConfig> = {
     priority: 0.6,
     changeFrequency: "monthly",
     getMetadata: (t) => ({
-      title: `${t.about.title} — ${t.brand.name}`,
+      title: t.metadata.aboutTitle,
       description: metaDescription(t.metadata.aboutDescription),
     }),
   },
@@ -49,7 +49,7 @@ export const PAGES: Record<PageKey, PageConfig> = {
     path: "/privacy",
     indexable: false,
     getMetadata: (t) => ({
-      title: `${t.privacy.title} — ${t.brand.name}`,
+      title: t.metadata.privacyTitle,
       description: metaDescription(t.metadata.privacyDescription),
     }),
   },
@@ -57,7 +57,7 @@ export const PAGES: Record<PageKey, PageConfig> = {
     path: "/ai-disclosure",
     indexable: false,
     getMetadata: (t) => ({
-      title: `${t.aiDisclosure.title} — ${t.brand.name}`,
+      title: t.metadata.aiDisclosureTitle,
       description: metaDescription(t.metadata.aiDisclosureDescription),
     }),
   },

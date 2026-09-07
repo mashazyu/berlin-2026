@@ -13,6 +13,15 @@ export const CONTENT_LANGUAGE: Record<Language, string> = {
   tr: "tr-DE",
   pl: "pl-DE",
 }
+
+/** Open Graph / Facebook locale tags */
+export const OG_LOCALES: Record<Language, string> = {
+  en: "en_US",
+  de: "de_DE",
+  ru: "ru_RU",
+  tr: "tr_TR",
+  pl: "pl_PL",
+}
 export function toSafeLanguage(lang: string | undefined | null): Language {
   return (SUPPORTED_LANGUAGES as readonly string[]).includes(lang ?? "")
     ? (lang as Language)
