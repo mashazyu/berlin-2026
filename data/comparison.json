@@ -128,7 +128,7 @@
         "pl": "ÖDP Berlin",
         "uk": "ÖDP Berlin"
       },
-      "programUrl": "https://www.oedp-berlin.de/wahlen/abgeordnetenhauswahl-2026/tv-spot-u-bahn-werbung-flyer-co"
+      "programUrl": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf"
     }
   ],
   "topics": [
@@ -1114,12 +1114,12 @@
       "partyId": "oedp",
       "stance": "for",
       "summary": {
-        "en": "Berlin should become climate-neutral as quickly as possible, not only by 2045; coal phase-out by 2030",
-        "de": "Berlin soll so schnell wie möglich klimaneutral werden, nicht erst bis 2045; Kohleausstieg bis 2030",
-        "ru": "Berlin должен стать климатически нейтральным как можно быстрее, не только к 2045; выход из угля до 2030",
-        "tr": "Berlin mümkün olduğunca hızlı iklim nötr olmalı, yalnızca 2045’e kadar değil; 2030’a kadar kömürden çıkış",
-        "pl": "Berlin powinien stać się klimatycznie neutralny jak najszybciej, nie dopiero do 2045; odejście od węgla do 2030",
-        "uk": "Берлін має стати кліматично нейтральним якомога швидше, а не лише до 2045 року; поступова відмова від вугілля до 2030 року"
+        "en": "Berlin climate-neutral as quickly as possible, not only by 2045; coal phase-out by 2030; align with Fridays/Scientists for Future demands",
+        "de": "Berlin schnellstmöglich klimaneutral, nicht erst 2045; Kohleausstieg bis 2030; Anschluss an Forderungen von Fridays/Scientists for Future",
+        "ru": "Берлин климатически нейтрален как можно быстрее, не только к 2045; уголь до 2030; в русле Fridays/Scientists for Future",
+        "tr": "Berlin mümkün olduğunca hızlı iklim nötr, yalnızca 2045 değil; 2030’a kadar kömür çıkışı; Fridays/Scientists for Future talepleriyle uyum",
+        "pl": "Berlin klimatycznie neutralny jak najszybciej, nie dopiero 2045; odejście od węgla do 2030; w linii Fridays/Scientists for Future",
+        "uk": "Берлін кліматично нейтральний якомога швидше, не лише до 2045; вугілля до 2030; у руслі Fridays/Scientists for Future"
       }
     },
     {
@@ -1244,12 +1244,12 @@
       "partyId": "oedp",
       "stance": "none",
       "summary": {
-        "en": "",
-        "de": "",
-        "ru": "",
-        "tr": "",
-        "pl": "",
-        "uk": ""
+        "en": "A100 / TVO are not named; mobility prioritizes ÖPNV, cycling and reducing car traffic over new car-oriented roads",
+        "de": "A100 / TVO nicht namentlich genannt; Mobilität priorisiert ÖPNV, Radverkehr und weniger Autoverkehr statt neuer autoorientierter Straßen",
+        "ru": "A100 / TVO не названы; мобильность — приоритет ÖPNV, велосипеда и меньше авто вместо новых автодорог",
+        "tr": "A100 / TVO adlandırılmıyor; mobilite ÖPNV, bisiklet ve daha az araba — yeni araba odaklı yollar değil",
+        "pl": "A100 / TVO nienazwane; mobilność: priorytet ÖPNV, roweru i mniej aut zamiast nowych dróg samochodowych",
+        "uk": "A100 / TVO не названі; мобільність — пріоритет ÖPNV, велосипеда і менше авто замість нових автодоріг"
       }
     },
     {
@@ -1894,12 +1894,12 @@
       "partyId": "oedp",
       "stance": "none",
       "summary": {
-        "en": "",
-        "de": "",
-        "ru": "",
-        "tr": "",
-        "pl": "",
-        "uk": ""
+        "en": "EV charging infrastructure is not addressed; mobility focuses on ÖPNV, cycling, City-Maut and P+R",
+        "de": "Ladeinfrastruktur nicht thematisiert; Mobilität setzt auf ÖPNV, Radverkehr, City-Maut und P+R",
+        "ru": "зарядная инфраструктура EV не затрагивается; мобильность — ÖPNV, велосипед, City-Maut и P+R",
+        "tr": "EV şarj altyapısı ele alınmıyor; mobilite ÖPNV, bisiklet, City-Maut ve P+R",
+        "pl": "infrastruktura ładowania EV nieporuszana; mobilność: ÖPNV, rower, City-Maut i P+R",
+        "uk": "зарядна інфраструктура EV не згадується; мобільність — ÖPNV, велосипед, City-Maut і P+R"
       }
     },
     {
@@ -2022,14 +2022,14 @@
     {
       "topicId": "tempelhofer-feld-development-edge-development",
       "partyId": "oedp",
-      "stance": "none",
+      "stance": "against",
       "summary": {
-        "en": "",
-        "de": "",
-        "ru": "",
-        "tr": "",
-        "pl": "",
-        "uk": ""
+        "en": "keep Tempelhofer Feld unbuilt as public leisure/recreation per the Volksentscheid; reject Randbebauung; allow partial conversion of the Flughafengebäude into apartments",
+        "de": "Tempelhofer Feld unbebaut als öffentlichen Freizeit-/Erholungsraum nach dem Volksentscheid erhalten; Randbebauung ablehnen; Teilumwandlung des Flughafengebäudes in Wohnungen möglich",
+        "ru": "сохранить Tempelhofer Feld незастроенным как общественный досуг по Volksentscheid; отвергать краевую застройку; допускается частичная конверсия здания аэропорта в квартиры",
+        "tr": "Volksentscheid’e göre Tempelhofer Feld’i boş kamu rekreasyon alanı olarak tutmak; kenar yapılaşmayı reddetmek; havalimanı binasının kısmen konuta çevrilmesine izin",
+        "pl": "utrzymać Tempelhofer Feld niezabudowane jako publiczną rekreację wg Volksentscheid; odrzucać zabudowę krawędzi; dopuścić częściową konwersję budynku lotniska na mieszkania",
+        "uk": "зберегти Tempelhofer Feld незабудованим як публічну рекреацію за Volksentscheid; відхиляти крайову забудову; дозволити часткову конверсію будівлі аеропорту в квартири"
       }
     },
     {
@@ -2282,14 +2282,14 @@
     {
       "topicId": "heat-protection",
       "partyId": "oedp",
-      "stance": "none",
+      "stance": "mixed",
       "summary": {
-        "en": "",
-        "de": "",
-        "ru": "",
-        "tr": "",
-        "pl": "",
-        "uk": ""
+        "en": "no dedicated Hitzeplan; cooling via parks, trees and Verdunstung from urban water/greenery, plus rainwater management against heat/drought stress — not a cool-rooms/fountains package",
+        "de": "kein eigener Hitzeplan; Abkühlung über Parks, Bäume und Verdunstung von Stadtgrün/Gewässern sowie Regenwassermanagement gegen Hitze-/Trockenstress – kein Kühlraum-/Trinkbrunnen-Paket",
+        "ru": "отдельного Hitzeplan нет; охлаждение через парки, деревья и испарение зелени/водоёмов плюс управление дождевой водой — не пакет охлаждающих комнат/фонтанов",
+        "tr": "ayrı Hitzeplan yok; parklar, ağaçlar ve kentsel yeşil/su buharlaşmasıyla soğuma artı yağmur suyu yönetimi — soğutma odası/çeşme paketi değil",
+        "pl": "brak osobnego Hitzeplanu; chłodzenie przez parki, drzewa i parowanie zieleni/wód oraz zarządzanie deszczówką — nie pakiet chłodni/fontann",
+        "uk": "окремого Hitzeplan немає; охолодження через парки, дерева й випаровування зелені/водойм плюс управління дощовою водою — не пакет охолоджувальних кімнат/фонтанів"
       }
     },
     {
@@ -2542,14 +2542,14 @@
     {
       "topicId": "zero-waste-waste-prevention",
       "partyId": "oedp",
-      "stance": "none",
+      "stance": "for",
       "summary": {
-        "en": "",
-        "de": "",
-        "ru": "",
-        "tr": "",
-        "pl": "",
-        "uk": ""
+        "en": "expand Pfand/take-back to all reusable packaging types and more non-reusable containers; promote packaging-free trade; Bundesrat initiative against problematic packaging (e.g. plastic welded with aluminium); circular economy without greenwashing",
+        "de": "Pfand-/Rücknahmepflicht auf alle mehrwegfähigen Verpackungsarten und weitere Nicht-Mehrweg-Behälter ausweiten; verpackungsfreien Warenverkehr fördern; Bundesratsinitiative gegen problematische Verpackungen (z. B. Alu-verschweißtes Plastik); Kreislaufwirtschaft ohne Greenwashing",
+        "ru": "расширить залог/возврат на все многоразовые виды упаковки и больше не-многоразовых контейнеров; продвигать торговлю без упаковки; инициатива в Бундесрате против проблемной упаковки; круговая экономика без гринвошинга",
+        "tr": "Pfand/iade yükümlülüğünü tüm Mehrweg ambalaj türlerine ve daha fazla tek kullanımlığa genişletmek; ambalajsız ticareti teşvik; sorunlu ambalaja karşı Bundesrat; greenwashing’siz döngüsel ekonomi",
+        "pl": "rozszerzyć kaucję/odbiór na wszystkie opakowania Mehrweg i więcej pojemników jednorazowych; wspierać handel bez opakowań; inicjatywa Bundesratu przeciw problematycznym opakowaniom; gospodarka obiegu bez greenwashingu",
+        "uk": "розширити заставу/повернення на всі типи Mehrweg-упаковки й більше не-багаторазових контейнерів; просувати торгівлю без упаковки; ініціатива в Бундесраті проти проблемної упаковки; циркулярна економіка без грінвошингу"
       }
     },
     {
@@ -3064,12 +3064,12 @@
       "partyId": "oedp",
       "stance": "none",
       "summary": {
-        "en": "",
-        "de": "",
-        "ru": "",
-        "tr": "",
-        "pl": "",
-        "uk": ""
+        "en": "wind energy in Berlin is not addressed; renewables emphasis is on photovoltaics and Solaranlagen",
+        "de": "Windenergie in Berlin nicht thematisiert; Erneuerbare-Schwerpunkt liegt auf Photovoltaik und Solaranlagen",
+        "ru": "ветроэнергия в Берлине не затрагивается; акцент ВИЭ — фотовольтаика и солнечные установки",
+        "tr": "Berlin’de rüzgar enerjisi ele alınmıyor; yenilenebilir vurgu fotovoltaik ve Solaranlagen",
+        "pl": "energia wiatrowa w Berlinie nieporuszana; nacisk OZE na fotowoltaikę i Solaranlagen",
+        "uk": "вітрова енергія в Берліні не згадується; акцент ВДЕ — фотовольтаїка та сонячні установки"
       }
     },
     {
@@ -3194,12 +3194,12 @@
       "partyId": "oedp",
       "stance": "mixed",
       "summary": {
-        "en": "notes that the plan to convert Berlin Energy and Heat utility gas power plants to “fossil-free” hydrogen by 2040 lacks a concrete and practical plan",
-        "de": "stellt fest, dass der Plan, Gaskraftwerke des Berliner Energie- und Wärmeunternehmens bis 2040 auf „fossilenfreien“ Wasserstoff umzustellen, keinen konkreten und praxistauglichen Plan hat",
-        "ru": "указывает, что плану перевода газовых электростанций BEW на «без ископаемого топлива» водород до 2040 не хватает конкретного и практичного плана",
-        "tr": "Berlin Energy and Heat gaz santrallerinin 2040'a kadar “fosilsiz” hidrojene dönüştürülmesi planının somut ve uygulanabilir olmadığını belirtiyor",
-        "pl": "zauważa, że plan przekształcenia elektrowni gazowych Berliner Energie und Wärme na „wolny od paliw kopalnych” wodór do 2040 nie ma konkretnego i praktycznego planu",
-        "uk": "зазначає, що в плані переведення газових електростанцій Berlin Energy and Heat на «безвикопний» водень до 2040 року відсутній конкретний і практичний план"
+        "en": "coal out by 2030; criticizes BEW plan to convert gas plants to “fossil-free” hydrogen by 2040 as lacking concrete plans — no general gas-network phase-out line",
+        "de": "Kohleausstieg bis 2030; kritisiert BEW-Plan, Gaskraftwerke bis 2040 auf „fossilfreien“ Wasserstoff umzustellen, als planlos – kein allgemeiner Gasnetz-Ausstieg",
+        "ru": "уголь до 2030; критикует план BEW к 2040 перевести газовые ТЭС на «безфоссильный» водород как без конкретных планов — общего выхода из газовой сети нет",
+        "tr": "2030’a kadar kömür çıkışı; BEW’nin 2040’a kadar gazı „fosil-free“ hidrojene çevirme planını somut plansız diye eleştirir — genel gaz şebekesi çıkışı yok",
+        "pl": "odejście od węgla do 2030; krytykuje plan BEW do 2040 na wodór „bezfosilny” jako bez konkretów — brak ogólnego wyjścia z sieci gazowej",
+        "uk": "вугілля до 2030; критикує план BEW до 2040 перевести газові ТЕС на «безфосильний» водень як без конкретних планів — загального виходу з газової мережі немає"
       }
     },
     {
@@ -3322,14 +3322,14 @@
     {
       "topicId": "hydrogen",
       "partyId": "oedp",
-      "stance": "none",
+      "stance": "mixed",
       "summary": {
-        "en": "",
-        "de": "",
-        "ru": "",
-        "tr": "",
-        "pl": "",
-        "uk": ""
+        "en": "notes that BEW’s announced conversion of gas power plants to “fossil-free” hydrogen by 2040 still lacks concrete, practicable implementation plans",
+        "de": "stellt fest, dass der angekündigten Umstellung der BEW-Gaskraftwerke auf „fossilfreien“ Wasserstoff bis 2040 noch konkrete und praktikable Umsetzungspläne fehlen",
+        "ru": "отмечает, что у объявленной к 2040 конверсии газовых ТЭС BEW на «безфоссильный» водород всё ещё нет конкретных осуществимых планов",
+        "tr": "BEW gaz santrallerinin 2040’a kadar „fosil-free“ hidrojene dönüşümü için somut uygulanabilir planların hâlâ eksik olduğunu not eder",
+        "pl": "zauważa, że zapowiedziana do 2040 konwersja elektrowni gazowych BEW na „bezfosilny” wodór wciąż nie ma konkretnych, wykonalnych planów",
+        "uk": "зазначає, що оголошена до 2040 конверсія газових ТЕС BEW на «безфосильний» водень досі без конкретних здійсненних планів"
       }
     },
     {
@@ -3454,12 +3454,12 @@
       "partyId": "oedp",
       "stance": "none",
       "summary": {
-        "en": "",
-        "de": "",
-        "ru": "",
-        "tr": "",
-        "pl": "",
-        "uk": ""
+        "en": "Wärmepumpen are not addressed; heat chapter focuses on Wärmewende in Altbauten and Plusenergiehaus-level new builds",
+        "de": "Wärmepumpen nicht thematisiert; Wärmekapitel setzt auf Wärmewende bei Altbauten und Neubauten auf Plusenergiehaus-Niveau",
+        "ru": "тепловые насосы не затрагиваются; глава о тепле — Wärmewende в старых домах и новостройки уровня Plusenergiehaus",
+        "tr": "Wärmepumpe ele alınmıyor; ısı bölümü eski yapılarda Wärmewende ve Plusenergiehaus düzeyinde yenilere odaklanır",
+        "pl": "pompy ciepła nieporuszane; rozdział ciepła: Wärmewende w starych budynkach i nowe na poziomie Plusenergiehaus",
+        "uk": "теплові насоси не згадуються; розділ про тепло — Wärmewende в старих будинках і новобудови рівня Plusenergiehaus"
       }
     },
     {
@@ -3582,14 +3582,14 @@
     {
       "topicId": "heating-supply-networks-decarbonization-and-or-transformation",
       "partyId": "oedp",
-      "stance": "none",
+      "stance": "for",
       "summary": {
-        "en": "",
-        "de": "",
-        "ru": "",
-        "tr": "",
-        "pl": "",
-        "uk": ""
+        "en": "push Wärmewende in Altbauten; climate-neutral buildings via renovation without extra tenant burden; coal phase-out by 2030; new builds near Plusenergiehaus level with district renewable supply — no detailed Fernwärme remunicipalization plan",
+        "de": "Wärmewende bei Altbauten vorantreiben; klimaneutrale Gebäude durch Sanierung ohne Mehrbelastung der Mieter; Kohleausstieg bis 2030; Neubauten nahe Plusenergiehaus mit bezirksweiser erneuerbarer Versorgung – kein detaillierter Fernwärme-Rekommunalisierungsplan",
+        "ru": "продвигать тепловую волну в старых домах; климатически нейтральные здания санацией без допнагрузки на арендаторов; уголь до 2030; новостройки у уровня Plusenergiehaus — детального плана рекоммунализации Fernwärme нет",
+        "tr": "eski yapılarda Wärmewende; kiracıya ek yük olmadan renovasyonla iklim nötr binalar; 2030’a kadar kömür çıkışı; Plusenergiehaus’a yakın yeni yapılar — ayrıntılı Fernwärme planı yok",
+        "pl": "przyspieszać Wärmewende w starych budynkach; budynki klimatycznie neutralne przez modernizację bez obciążania najemców; odejście od węgla do 2030; nowe blisko Plusenergiehaus — brak szczegółowego planu Fernwärme",
+        "uk": "просувати теплову хвилю в старих будинках; кліматично нейтральні будівлі санацією без допнавантаження на орендарів; вугілля до 2030; новобудови близько Plusenergiehaus — детального плану рекомуналізації Fernwärme немає"
       }
     },
     {
@@ -3714,12 +3714,12 @@
       "partyId": "oedp",
       "stance": "none",
       "summary": {
-        "en": "",
-        "de": "",
-        "ru": "",
-        "tr": "",
-        "pl": "",
-        "uk": ""
+        "en": "not addressed in the Berlin Landesprogramm",
+        "de": "im Berliner Landesprogramm nicht thematisiert",
+        "ru": "в берлинской земельной программе не затрагивается",
+        "tr": "Berlin eyalet programında ele alınmıyor",
+        "pl": "nieporuszane w berlińskim programie landowym",
+        "uk": "у берлінській земельній програмі не згадується"
       }
     },
     {
@@ -3972,14 +3972,14 @@
     {
       "topicId": "housing-rent-regulation-mietendeckel",
       "partyId": "oedp",
-      "stance": "for",
+      "stance": "mixed",
       "summary": {
-        "en": "fair rental law, against Wuchermieten and housing speculation; housing should not primarily serve investors’ interests",
-        "de": "gerechtes Mietrecht, gegen Wuchermieten und Wohnungsspekulation; Wohnen soll nicht vorrangig den Interessen von Investoren dienen",
-        "ru": "справедливое арендное право, против Wuchermieten и спекуляции жильём; аренда не должна служить прежде всего интересам инвесторов",
-        "tr": "adil kira hukuku, Wuchermieten ve konut spekülasyonuna karşı; konut öncelikle yatırımcı çıkarlarına hizmet etmemeli",
-        "pl": "sprawiedliwe prawo najmu, przeciw Wuchermieten i spekulacji mieszkaniowej; mieszkania nie powinny służyć przede wszystkim interesom inwestorów",
-        "uk": "справедливий закон про оренду, проти Wuchermieten і спекуляції житлом; житло не повинно в першу чергу служити інтересам інвесторів"
+        "en": "fair Mietrecht against Wuchermieten and housing speculation; housing should not primarily serve investors — no explicit Mietendeckel named",
+        "de": "faires Mietrecht gegen Wuchermieten und Immobilienspekulation; Wohnen soll nicht primär Anlegerinteressen dienen – kein expliziter Mietendeckel genannt",
+        "ru": "справедливое Mietrecht против ростовщической аренды и жилищной спекуляции; жильё не должно служить инвесторам — явного Mietendeckel нет",
+        "tr": "Wuchermieten ve spekülasyona karşı adil Mietrecht; konut öncelikle yatırımcıya hizmet etmemeli — açık Mietendeckel yok",
+        "pl": "sprawiedliwe Mietrecht przeciw lichwiarskim czynszom i spekulacji; mieszkanie nie ma służyć inwestorom — brak jawnego Mietendeckla",
+        "uk": "справедливе Mietrecht проти лихварської оренди та житлової спекуляції; житло не має служити інвесторам — явного Mietendeckel немає"
       }
     },
     {
@@ -4494,12 +4494,12 @@
       "partyId": "oedp",
       "stance": "for",
       "summary": {
-        "en": "tax against land speculation on vacant plots designated for development; tougher action against illegal dumping and demolition instead of repair",
-        "de": "Steuer gegen Bodenspekulation auf unbebauten, zur Bebauung vorgesehenen Grundstücken; härteres Vorgehen gegen illegale Müllablagerung und Abriss statt Sanierung",
-        "ru": "налог против спекуляции землёй на выделенных под застройку пустырях; жёстче против нелегальных свалок и сноса вместо ремонта",
-        "tr": "gelişime ayrılmış boş arsalarda arazi spekülasyonuna karşı vergi; yasadışı döküm ve onarım yerine yıkıma karşı daha sert müdahale",
-        "pl": "podatek przeciw spekulacji gruntami na pustych działkach przeznaczonych pod zabudowę; surowsze działania przeciw nielegalnym wysypiskom i wyburzaniu zamiast naprawy",
-        "uk": "податок проти спекуляції землею на вільних ділянках, призначених під забудову; посилення дій проти незаконного сміттєзвалища та знесення замість ремонту"
+        "en": "tax against land speculation on vacant plots designated as Bauland; convert vacant industrial buildings to housing — no separate Zweckentfremdung / Ferienwohnungen chapter",
+        "de": "Steuer gegen Bodenspekulation auf ausgewiesene Baulandbrachen; brachliegende Industriebauten zu Wohnraum umwandeln – kein eigenes Zweckentfremdungs-/Ferienwohnungs-Kapitel",
+        "ru": "налог против земельной спекуляции на выделенных строительных пустырях; пустующие промздания в жильё — отдельной главы Zweckentfremdung/Ferienwohnungen нет",
+        "tr": "Bauland olarak ayrılmış boş arsalarda spekülasyona karşı vergi; boş sanayi binalarını konuta çevirmek — ayrı Zweckentfremdung/Ferienwohnungen bölümü yok",
+        "pl": "podatek przeciw spekulacji gruntami na wyznaczonych Baulandbrachen; puste budynki przemysłowe na mieszkania — brak osobnego rozdziału Zweckentfremdung/Ferienwohnungen",
+        "uk": "податок проти земельної спекуляції на виділених будівельних пустках; порожні промбудівлі в житло — окремого розділу Zweckentfremdung/Ferienwohnungen немає"
       }
     },
     {
@@ -7352,14 +7352,14 @@
     {
       "topicId": "migration-bezahlkarte-and-access-to-benefits-and-healthcare",
       "partyId": "oedp",
-      "stance": "mixed",
+      "stance": "none",
       "summary": {
-        "en": "the Bezahlkarte is not mentioned; the closest point is that Kindergeld should not be deducted from Bürgergeld",
-        "de": "Bezahlkarte wird nicht erwähnt; am nächsten kommt die Forderung, Kindergeld nicht auf das Bürgergeld anzurechnen",
-        "ru": "Bezahlkarte не упоминается; ближайшее — Kindergeld не вычитать из Bürgergeld",
-        "tr": "Bezahlkarte anılmıyor; en yakın nokta Kindergeld'in Bürgergeld'den düşülmemesi",
-        "pl": "Bezahlkarte nie jest wspomniana; najbliższy punkt to że Kindergeld nie powinno być odliczane od Bürgergeld",
-        "uk": "Bezahlkarte у програмі немає; найближче те, що Kindergeld не слід відраховувати від Bürgergeld"
+        "en": "Bezahlkarte is not addressed; related: Kindergeld should not be deducted from Bürgergeld",
+        "de": "Bezahlkarte nicht thematisiert; verwandt: Kindergeld nicht auf Bürgergeld anrechnen",
+        "ru": "Bezahlkarte не затрагивается; смежное: не вычитать Kindergeld из Bürgergeld",
+        "tr": "Bezahlkarte ele alınmıyor; ilgili: Kindergeld’i Bürgergeld’den düşmemek",
+        "pl": "Bezahlkarte nieporuszana; pokrewne: nie potrącać Kindergeld z Bürgergeld",
+        "uk": "Bezahlkarte не згадується; суміжне: не відраховувати Kindergeld з Bürgergeld"
       }
     },
     {
@@ -7872,14 +7872,14 @@
     {
       "topicId": "business-succession",
       "partyId": "oedp",
-      "stance": "mixed",
+      "stance": "none",
       "summary": {
-        "en": "no direct business-transfer program; related measures include support for regional small businesses and women founders, combating bogus self-employment, and a common-good economy",
-        "de": "kein direktes Programm zur Unternehmensnachfolge; verwandte Maßnahmen sind die Förderung regionaler kleiner Unternehmen und von Gründerinnen, Bekämpfung von Scheinselbstständigkeit und Gemeinwohlökonomie",
-        "ru": "прямой программы передачи бизнеса нет; близко — поддержка регионального малого бизнеса и основательниц, борьба с мнимой самозанятостью и экономика общего блага",
-        "tr": "doğrudan işletme devri programı yok; ilgili önlemler bölgesel küçük işletmelere ve kadın kuruculara destek, sahte serbest çalışmayla mücadele ve kamu yararı ekonomisi",
-        "pl": "brak bezpośredniego programu sukcesji firm; pokrewne środki to wsparcie regionalnych małych firm i założycielek, walka z pozornym samozatrudnieniem oraz gospodarka dobra wspólnego",
-        "uk": "прямої програми передачі бізнесу немає; відповідні заходи включають підтримку регіонального малого бізнесу та жінок-засновників, боротьбу з фіктивною самозайнятістю та економіку загального блага"
+        "en": "business succession / Betriebsnachfolge is not addressed",
+        "de": "Betriebsnachfolge nicht thematisiert",
+        "ru": "передача бизнеса / Betriebsnachfolge не затрагивается",
+        "tr": "işletme devri / Betriebsnachfolge ele alınmıyor",
+        "pl": "sukcesja firm / Betriebsnachfolge nieporuszana",
+        "uk": "передача бізнесу / Betriebsnachfolge не згадується"
       }
     },
     {
@@ -9042,14 +9042,14 @@
     {
       "topicId": "women-s-rights-and-prevention-of-domestic-violence",
       "partyId": "oedp",
-      "stance": "mixed",
+      "stance": "none",
       "summary": {
-        "en": "Almost no separate program on women’s rights and domestic violence in the excerpts found; the general direction is a Berlin based on solidarity, inclusion, and openness without discrimination, plus prevention in social services and healthcare",
-        "de": "In den gefundenen Passagen fast kein eigenständiges Programm zu Frauenrechten und häuslicher Gewalt; allgemeine Ausrichtung auf ein solidarisches, inklusives und weltoffenes Berlin ohne Diskriminierung und Prävention im Sozial- und Gesundheitsbereich",
-        "ru": "отдельной программы прав женщин и домашнего насилия в программе почти нет; общий курс — солидарный и инклюзивный Берлин без дискриминации, профилактика в социальной и здравоохранительной сфере",
-        "tr": "Bulunan alıntılarda kadın hakları ve aile içi şiddete neredeyse ayrı bir program yok; genel yön ayrımcılıksız dayanışma, kapsayıcılık ve açıklığa dayalı bir Berlin artı sosyal hizmetler ve sağlıkta önleme",
-        "pl": "Prawie brak osobnego programu praw kobiet i przemocy domowej w znalezionych fragmentach; ogólny kierunek to Berlin oparty na solidarności, inkluzji i otwartości bez dyskryminacji oraz prewencja w usługach społecznych i ochronie zdrowia",
-        "uk": "окремої програми про права жінок і домашнє насильство в програмі майже немає; загальний тон — Берлін солідарності, інклюзії й відкритості без дискримінації"
+        "en": "no dedicated women’s-rights / domestic-violence chapter; related only: support programs for women founders",
+        "de": "kein eigenes Frauenrechts-/häusliche-Gewalt-Kapitel; verwandt nur: Förder-/Beratungsangebote für Existenzgründungen von Frauen",
+        "ru": "отдельной главы о правах женщин / домашнем насилии нет; смежное лишь: программы поддержки женского предпринимательства",
+        "tr": "ayrı kadın hakları / aile içi şiddet bölümü yok; yalnızca kadın girişimcilere destek programları",
+        "pl": "brak osobnego rozdziału o prawach kobiet / przemocy domowej; pokrewne tylko: programy dla założycielek firm",
+        "uk": "окремого розділу про права жінок / домашнє насильство немає; суміжне лише: програми підтримки жіночого підприємництва"
       }
     },
     {
