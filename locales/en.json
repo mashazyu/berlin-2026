@@ -144,7 +144,7 @@
     "emptyCell": "—",
     "partiesLabel": "Parties to compare",
     "showAll": "All",
-    "showMajor": "Top four",
+    "showFactions": "Current factions",
     "selectedCount": "{count} selected",
     "expandTopic": "Show positions",
     "collapseTopic": "Hide",

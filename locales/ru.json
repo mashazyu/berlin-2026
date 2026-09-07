@@ -143,7 +143,7 @@
     "emptyCell": "—",
     "partiesLabel": "Партии для сравнения",
     "showAll": "Все",
-    "showMajor": "Большая четвёрка",
+    "showFactions": "Текущие фракции",
     "selectedCount": "Выбрано: {count}",
     "expandTopic": "Показать позиции",
     "collapseTopic": "Скрыть",

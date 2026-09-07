@@ -62,7 +62,7 @@ export type Translations = {
     emptyCell: string
     partiesLabel: string
     showAll: string
-    showMajor: string
+    showFactions: string
     selectedCount: string
     expandTopic: string
     collapseTopic: string

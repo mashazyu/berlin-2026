@@ -8,7 +8,13 @@ import { cellKey } from "@/lib/comparison/get-comparison"
 import type { ResolvedComparison, TopicGroup } from "@/lib/comparison/types"
 import { cn, renderParagraphs } from "@/lib/utils"
 
-const MAJOR_PARTY_IDS = ["cdu", "spd", "gruene", "linke"] as const
+const CURRENT_FACTION_PARTY_IDS = [
+  "cdu",
+  "spd",
+  "gruene",
+  "linke",
+  "afd",
+] as const
 const TOPIC_COL_PX = 220
 const PARTY_COL_PX = 160
 
@@ -20,7 +26,9 @@ export function ComparisonTable({
   const { language, translations: t } = useLanguage()
   const { parties, topics, cellsByKey } = comparison
 
-  const [selectedIds, setSelectedIds] = useState<string[]>([...MAJOR_PARTY_IDS])
+  const [selectedIds, setSelectedIds] = useState<string[]>([
+    ...CURRENT_FACTION_PARTY_IDS,
+  ])
   const [openTopicId, setOpenTopicId] = useState<string | null>(null)
   const [openMobileGroup, setOpenMobileGroup] = useState<TopicGroup | null>(null)
   const [topicQuery, setTopicQuery] = useState("")
@@ -81,8 +89,8 @@ export function ComparisonTable({
     })
   }
 
-  function selectMajor() {
-    setSelectedIds([...MAJOR_PARTY_IDS])
+  function selectCurrentFactions() {
+    setSelectedIds([...CURRENT_FACTION_PARTY_IDS])
   }
 
   function selectAll() {
@@ -163,12 +171,12 @@ export function ComparisonTable({
               </PresetButton>
               <PresetButton
                 active={
-                  selectedIds.length === MAJOR_PARTY_IDS.length &&
-                  MAJOR_PARTY_IDS.every((id) => selectedIds.includes(id))
+                  selectedIds.length === CURRENT_FACTION_PARTY_IDS.length &&
+                  CURRENT_FACTION_PARTY_IDS.every((id) => selectedIds.includes(id))
                 }
-                onClick={selectMajor}
+                onClick={selectCurrentFactions}
               >
-                {t.comparison.showMajor}
+                {t.comparison.showFactions}
               </PresetButton>
             </div>
           </div>
