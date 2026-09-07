@@ -89,7 +89,7 @@
         "pl": "BSW",
         "uk": "BSW"
       },
-      "programUrl": "https://bsw.berlin/allgemein/entwurf-des-landeswahlprogramms-des-berliner-bsw/"
+      "programUrl": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf"
     },
     {
       "id": "volt",
@@ -1075,12 +1075,12 @@
       "partyId": "bsw",
       "stance": "against",
       "summary": {
-        "en": "against “activism” for the sake of targets; phase out fossil energy only when competitive and secure alternatives exist; abolish the CO₂ tax",
-        "de": "gegen „Aktionismus“ um Zielzahlen willen; fossile Energien erst aussteigen, wenn wettbewerbsfähige und sichere Alternativen bestehen; CO₂-Steuer abschaffen",
-        "ru": "против «активизма» ради целевых показателей; вывод ископаемой энергии только при наличии конкурентных и безопасных альтернатив; отмена CO2‑налога",
-        "tr": "hedefler uğruna “aktivizme” karşı; fosil enerjiden yalnızca rekabetçi ve güvenli alternatifler varken çıkış; CO₂ vergisini kaldırmak",
-        "pl": "przeciw „aktywizmowi” dla samych celów; odejście od energii kopalnej dopiero przy konkurencyjnych i bezpiecznych alternatywach; zniesienie podatku CO₂",
-        "uk": "проти «активізму» заради цілей; поступово відмовлятися від викопної енергії лише тоді, коли існують конкурентоспроможні та безпечні альтернативи; скасувати податок CO₂"
+        "en": "against activism for target marks; phase out fossils (e.g. coal) only when competitive secure alternatives exist; abolish the CO₂ price; keep affordable secure supply and technology openness",
+        "de": "gegen Aktivismus für Zielmarken; Fossile (z. B. Kohle) erst abschalten, wenn wettbewerbsfähige sichere Alternativen da sind; CO₂-Preis abschaffen; bezahlbare sichere Versorgung und Technologieoffenheit",
+        "ru": "против активизма ради целевых меток; ископаемое (напр. уголь) отключать только при конкурентных надёжных альтернативах; отменить цену CO₂; доступное надёжное снабжение и технологическая открытость",
+        "tr": "hedef işaretleri için aktivizme karşı; rekabetçi güvenli alternatifler varken fosili (örn. kömür) kapatmak; CO₂ fiyatını kaldırmak; uygun fiyatlı güvenli arz ve teknoloji açıklığı",
+        "pl": "przeciw aktywizmowi dla znaczników celów; paliwa kopalne (np. węgiel) wyłączać dopiero przy konkurencyjnych bezpiecznych alternatywach; znieść cenę CO₂; tanie bezpieczne zasilanie i otwartość technologiczna",
+        "uk": "проти активізму заради цільових міток; викопне (напр. вугілля) вимикати лише за конкурентних надійних альтернатив; скасувати ціну CO₂; доступне надійне постачання та технологічна відкритість"
       }
     },
     {
@@ -1853,14 +1853,14 @@
     {
       "topicId": "ev-charging",
       "partyId": "bsw",
-      "stance": "for",
+      "stance": "none",
       "summary": {
-        "en": "dense charging infrastructure, bidirectional-charging pilots, priority permits for charging the electric waste-management fleet",
-        "de": "dichte Ladeinfrastruktur, Pilotprojekte zu bidirektionalem Laden, Vorranggenehmigungen für das Laden der elektrischen Entsorgungsflotte",
-        "ru": "плотная зарядная инфраструктура, пилоты bidirectional charging, приоритетные разрешения для зарядок электрофлота в сфере отходов",
-        "tr": "yoğun şarj altyapısı, çift yönlü şarj pilotları, elektrikli atık yönetimi filosunun şarjı için öncelikli izinler",
-        "pl": "gęsta infrastruktura ładowania, pilotaże ładowania dwukierunkowego, priorytetowe pozwolenia na ładowanie elektrycznej floty gospodarki odpadami",
-        "uk": "щільна зарядна інфраструктура, пілотні проекти двонаправленої зарядки, пріоритетні дозволи на зарядку парку електричних відходів"
+        "en": "no dedicated EV charging / bidirectional / waste-fleet charging program; Ladezonen means delivery loading zones; program criticizes forcing E-cars and wants climate-friendly drives without burdening lower incomes",
+        "de": "kein eigenes Programm zu Ladepunkten / bidirektionalem Laden / E-Abfallflotte; Ladezonen meint Lieferzonen; Programm kritisiert E-Auto-Zwang und will klimafreundliche Antriebe ohne Belastung niedriger Einkommen",
+        "ru": "отдельной программы зарядки EV / двунаправленной зарядки / электрофлота отходов нет; Ladezonen — зоны погрузки; программа против навязывания электромобилей и за климатически дружественные приводы без нагрузки на низкие доходы",
+        "tr": "ayrı EV şarj / çift yönlü şarj / atık filosu şarj programı yok; Ladezonen yükleme zonları; program E-araba dayatmasını eleştirir, düşük gelirleri yüklemeden iklim dostu tahrik ister",
+        "pl": "brak osobnego programu ładowania EV / dwukierunkowego / floty odpadów; Ladezonen = strefy załadunku; program krytykuje narzucanie e-aut i chce napędów klimatycznych bez obciążania niższych dochodów",
+        "uk": "окремої програми зарядки EV / двонаправленої зарядки / електрофлоту відходів немає; Ladezonen — зони завантаження; програма проти нав’язування електромобілів і за кліматично дружні приводи без навантаження на низькі доходи"
       }
     },
     {
@@ -1985,12 +1985,12 @@
       "partyId": "bsw",
       "stance": "against",
       "summary": {
-        "en": "preserve Tempelhofer Feld entirely in line with the referendum; partial conversion of the airport building into housing could be possible",
-        "de": "Tempelhofer Feld vollständig gemäß Volksentscheid erhalten; teilweise Umnutzung des Flughafengebäudes zu Wohnraum könnte möglich sein",
-        "ru": "сохранить Tempelhofer Feld целиком по итогам референдума; возможна частичная переделка здания аэропорта под жильё",
-        "tr": "Tempelhofer Feld’i referanduma uygun olarak tamamen korumak; havalimanı binasının kısmen konuta dönüştürülmesi mümkün olabilir",
-        "pl": "zachować Tempelhofer Feld w całości zgodnie z referendum; częściowa przebudowa budynku lotniska na mieszkania mogłaby być możliwa",
-        "uk": "зберегти Tempelhofer Feld повністю відповідно до референдуму; можливе часткове переобладнання будівлі аеропорту під житлове будівництво"
+        "en": "laws from Volksentscheid (example: Randbebauung Tempelhofer Feld) may be changed only by another popular vote, not by the Abgeordnetenhaus alone — no separate airport-building-to-housing proposal found",
+        "de": "Gesetze aus Volksentscheiden (Bsp. Randbebauung Tempelhofer Feld) nur durch erneute Abstimmung änderbar, nicht allein durch das Abgeordnetenhaus – kein gesonderter Vorschlag Flughafengebäude zu Wohnungen gefunden",
+        "ru": "законы по Volksentscheid (пример: краевая застройка Tempelhofer Feld) менять только новым голосованием, не одним Abgeordnetenhaus — отдельного предложения жилья в здании аэропорта нет",
+        "tr": "Volksentscheid yasaları (ör. Tempelhofer Feld kenar yapılaşması) yalnızca yeni oylamayla değiştirilebilir, yalnız Abgeordnetenhaus ile değil — havalimanı binasını konuta çevirme önerisi yok",
+        "pl": "ustawy z Volksentscheid (przykład: zabudowa krawędzi Tempelhofer Feld) tylko nowym głosowaniem, nie samym Abgeordnetenhaus — brak osobnej propozycji mieszkań w budynku lotniska",
+        "uk": "закони з Volksentscheid (приклад: крайова забудова Tempelhofer Feld) змінювати лише новим голосуванням, не самим Abgeordnetenhaus — окремої пропозиції житла в будівлі аеропорту немає"
       }
     },
     {
@@ -2245,12 +2245,12 @@
       "partyId": "bsw",
       "stance": "for",
       "summary": {
-        "en": "expand Berlin’s heat action plan: coordination, funding, map of free cool rooms and drinking fountains, more trees",
-        "de": "Berliner Hitzeaktionsplan ausweiten: Koordination, Finanzierung, Karte freier Kühlräume und Trinkbrunnen, mehr Bäume",
-        "ru": "расширить берлинский план действий по жаре: координация, финансирование, карта бесплатных прохладных помещений и питьевых фонтанчиков, больше деревьев",
-        "tr": "Berlin’in ısı eylem planını genişletmek: koordinasyon, finansman, ücretsiz serin oda ve içme çeşmesi haritası, daha fazla ağaç",
-        "pl": "rozszerzyć berliński plan działań przeciw upałom: koordynacja, finansowanie, mapa darmowych chłodnych pomieszczeń i fontann pitnych, więcej drzew",
-        "uk": "розширити Берлінський план дій щодо тепла: координація, фінансування, карта безкоштовних прохолодних кімнат і питних фонтанчиків, більше дерев"
+        "en": "Trinkwasserbrunnen and Kühlräume as sensible inner-city investments; more public drinking points; trees, green roofs/facades, unsealing against summer heat — no named Berlin Hitzeplan with cool-room map/coordination body",
+        "de": "Trinkwasserbrunnen und Kühlräume als sinnvolle Innenstadt-Investitionen; mehr öffentliche Trinkwasserstellen; Bäume, Dach-/Fassadenbegrünung, Entsiegelung gegen Sommerhitze – kein benannter Berliner Hitzeplan mit Kühlraum-Karte/Koordinierungsstelle",
+        "ru": "питьевые фонтаны и Kühlräume как разумные инвестиции в центре; больше общественных точек питья; деревья, озеленение крыш/фасадов, распечатывание против летней жары — отдельного Hitzeplan с картой охлаждающих комнат нет",
+        "tr": "içme suyu çeşmeleri ve Kühlräume makul merkez yatırımları; daha fazla halka açık içme noktası; ağaçlar, çatı/cephe yeşili, yaz sıcağına karşı açma — adlı Hitzeplan / soğutma haritası yok",
+        "pl": "fontanny pitne i Kühlräume jako sensowne inwestycje śródmieścia; więcej publicznych punktów wody; drzewa, zielone dachy/fasady, odpieczętowanie przeciw upałom — brak nazwanego Hitzeplanu z mapą chłodni",
+        "uk": "питні фонтани й Kühlräume як доцільні інвестиції в центрі; більше громадських точок пиття; дерева, озеленення дахів/фасадів, розпечатування проти літньої спеки — окремого Hitzeplan із картою охолоджувальних кімнат немає"
       }
     },
     {
@@ -2503,14 +2503,14 @@
     {
       "topicId": "zero-waste-waste-prevention",
       "partyId": "bsw",
-      "stance": "for",
+      "stance": "mixed",
       "summary": {
-        "en": "support for reuse and recycling; against exporting/landfilling waste",
-        "de": "Förderung von Wiederverwendung und Recycling; gegen Export/Deponierung von Abfall",
-        "ru": "поддержка повторного использования и переработки; против экспорта/захоронения отходов",
-        "tr": "yeniden kullanım ve geri dönüşüme destek; atık ihracatı/depolamaya karşı",
-        "pl": "wsparcie ponownego użycia i recyklingu; przeciw eksportowi/składowaniu odpadów",
-        "uk": "підтримка повторного використання та переробки; проти експорту/захоронення відходів"
+        "en": "Kreislaufwirtschaft named in the sustainability concept; mobile recycling stations and free Sperrmüll live under BSR/cleanliness — no explicit ban on waste export/landfilling or Zero-Waste chapter",
+        "de": "Kreislaufwirtschaft im Nachhaltigkeitskonzept genannt; mobile Recyclingstationen und kostenloser Sperrmüll stehen unter BSR/Sauberkeit – kein explizites Verbot von Müllexport/Deponierung und kein Zero-Waste-Kapitel",
+        "ru": "в концепции устойчивости названа круговая экономика; мобильные пункты вторсырья и бесплатный Sperrmüll — в блоке BSR/чистоты; явного запрета экспорта/свалок и главы Zero Waste нет",
+        "tr": "sürdürülebilirlik konseptinde Kreislaufwirtschaft; mobil geri dönüşüm ve ücretsiz Sperrmüll BSR/temizlik altında — açık atık ihracı/depolama yasağı veya Zero-Waste bölümü yok",
+        "pl": "Kreislaufwirtschaft w koncepcji zrównoważenia; mobilne stacje recyclingu i darmowy Sperrmüll w bloku BSR/czystości — brak jawnego zakazu eksportu/składowania i rozdziału Zero Waste",
+        "uk": "у концепції сталого розвитку названо циркулярну економіку; мобільні пункти вторсировини та безкоштовний Sperrmüll — у блоці BSR/чистоти; явної заборони експорту/звалищ і розділу Zero Waste немає"
       }
     },
     {
@@ -3285,12 +3285,12 @@
       "partyId": "bsw",
       "stance": "mixed",
       "summary": {
-        "en": "test fields for hydrogen in Tegel Green Tech Hub; biogas plant could operate in future on hydrogen for peak loads",
-        "de": "Testfelder für Wasserstoff im Tegel Green Tech Hub; Biogasanlage könnte künftig mit Wasserstoff für Spitzenlasten betrieben werden",
-        "ru": "тестовые поля для водорода в Tegel Green Tech Hub; биогазовая установка в будущем может работать на водороде для пиковых нагрузок",
-        "tr": "Tegel Green Tech Hub'da hidrojen deneme alanları; biyogaz tesisi gelecekte zirve yükler için hidrojenle çalışabilir",
-        "pl": "pola testowe wodoru w Tegel Green Tech Hub; biogazownia mogłaby w przyszłości działać na wodorze na szczyty zapotrzebowania",
-        "uk": "випробувальні поля для водню в Tegel Green Tech Hub; Біогазова установка в майбутньому може працювати на водні для пікових навантажень"
+        "en": "expand H₂ networks only with real demand for green hydrogen to avoid misinvestment; focus use in energy-intensive industry, high-temperature processes and gas plants; electrolyzers as infrastructure; tech openness for H₂ and synthetic fuels — no Tegel Green Tech Hub or H₂ biogas peak plant",
+        "de": "Wasserstoffnetz nur im Einklang mit Nachfrage nach grünem Wasserstoff ausbauen; Schwerpunkte energieintensive Industrie, Hochtemperaturprozesse und Gaskraftwerke; Elektrolyseure als Infrastruktur; Technologieoffenheit für H₂ und synthetische Kraftstoffe – kein Tegel-Green-Tech-Hub und keine H₂-Biogasanlage für Spitzen",
+        "ru": "расширять сеть H₂ только при реальном спросе на зелёный водород; фокус — энергоёмкая промышленность, высокотемпературные процессы и газовые ТЭС; электролизёры как инфраструктура; открытость к H₂ и синтетическому топливу — без Tegel Green Tech Hub и H₂-биогаза на пики",
+        "tr": "yeşil hidrojen talebiyle uyumlu H₂ ağı; odak enerji yoğun sanayi, yüksek sıcaklık ve gaz santralleri; altyapı olarak elektrolizörler; H₂ ve sentetik yakıtlarda teknoloji açıklığı — Tegel Green Tech Hub veya tepe yük H₂ biyogaz yok",
+        "pl": "rozbudowa sieci H₂ tylko przy realnym popycie na zielony wodór; fokus: przemysł energochłonny, procesy wysokotemperaturowe i elektrownie gazowe; elektrolizery jako infrastruktura; otwartość na H₂ i paliwa syntetyczne — bez Tegel Green Tech Hub i biogazu H₂ na szczyty",
+        "uk": "розширювати мережу H₂ лише за реального попиту на зелений водень; фокус — енергоємна промисловість, високотемпературні процеси та газові ТЕС; електролізери як інфраструктура; відкритість до H₂ і синтетичного палива — без Tegel Green Tech Hub і H₂-біогазу на піки"
       }
     },
     {
@@ -3413,14 +3413,14 @@
     {
       "topicId": "heat-pumps",
       "partyId": "bsw",
-      "stance": "for",
+      "stance": "mixed",
       "summary": {
-        "en": "Heating Transition Fund for heat pumps, neighborhood heating, geothermal energy and solarthermie; heat pumps as standard in municipal renovation and subsidized projects",
-        "de": "Wärmewendefonds für Wärmepumpen, Quartierswärme, Geothermie und Solarthermie; Wärmepumpen als Standard bei kommunaler Sanierung und geförderten Projekten",
-        "ru": "Wärmewendefonds для тепловых насосов, квартального тепла, геотермии и solarthermie; тепловые насосы как стандарт в коммунальной санации и проектах с поддержкой",
-        "tr": "ısı pompaları, mahalle ısıtması, jeotermal ve Solarthermie için Wärmewende-Fonu; belediye yenilemeleri ve destekli projelerde ısı pompaları standart",
-        "pl": "Fundusz transformacji ciepłowniczej na pompy ciepła, ciepłownictwo lokalne, geotermię i Solarthermie; pompy ciepła jako standard w renowacji komunalnej i projektach dofinansowanych",
-        "uk": "Перехідний фонд опалення для теплових насосів, опалення сусідів, геотермальної енергії та сонячної енергії; теплові насоси як стандарт для муніципального ремонту та субсидованих проектів"
+        "en": "against forcing Wärmepumpen people cannot afford; create conditions where heat pumps make economic/technical sense — integration into Fernwärme with heat storage; geothermal demo plants — no Heating Transition Fund or municipal heat-pump standard found",
+        "de": "gegen Zwang zu Wärmepumpen, die sich viele nicht leisten können; Bedingungen schaffen, unter denen Wärmepumpen wirtschaftlich/technisch sinnvoll sind – Einbindung in Fernwärme mit Wärmespeichern; Geothermie-Demonstrationsanlagen – kein Heizungswendefonds und kein kommunaler Wärmepumpen-Standard gefunden",
+        "ru": "против навязывания тепловых насосов, которые многим не по карману; создать условия, где теплонасосы экономически/технически уместны — интеграция в Fernwärme с теплоаккумуляторами; демо-геотермия — фонда тепловой волны и муниципального стандарта теплонасосов в тексте нет",
+        "tr": "çoğu insanın karşılayamayacağı Wärmepumpe dayatmasına karşı; ısı pompalarının ekonomik/teknik olarak anlamlı olduğu koşulları yaratmak — ısı depolu Fernwärme entegrasyonu; jeotermal demo — Heizungswendefonds veya belediye ısı pompası standardı yok",
+        "pl": "przeciw narzucaniu pomp ciepła, na które wielu nie stać; stworzyć warunki, w których pompy mają sens ekonomiczny/techniczny — integracja z Fernwärme i magazynami ciepła; dema geotermalne — brak funduszu transformacji ciepła i standardu pomp w zasobach komunalnych",
+        "uk": "проти нав’язування теплових насосів, які багатьом не по кишені; створити умови, де теплонасоси економічно/технічно доцільні — інтеграція в Fernwärme з теплоакумуляторами; демо-геотермія — фонду теплової хвилі та муніципального стандарту теплонасосів у тексті немає"
       }
     },
     {
@@ -3545,12 +3545,12 @@
       "partyId": "bsw",
       "stance": "for",
       "summary": {
-        "en": "science-based timetable for replacing fossil power plants; expansion of district heating; smart grids, storage and dynamic tariffs",
-        "de": "wissenschaftlich fundierter Zeitplan für den Ersatz fossiler Kraftwerke; Ausbau der Fernwärme; intelligente Netze, Speicher und dynamische Tarife",
-        "ru": "научно обоснованный график замены ископаемых электростанций; расширение централизованное теплоснабжение; умные сети, накопители и динамические тарифы",
-        "tr": "fosil santrallerin yerine geçmesi için bilime dayalı zaman çizelgesi; merkezi ısıtmanın genişlemesi; akıllı şebekeler, depolama ve dinamik tarifeler",
-        "pl": "naukowy harmonogram zastępowania elektrowni na paliwa kopalne; rozbudowa ciepłownictwa sieciowego; smart grids, magazyny i taryfy dynamiczne",
-        "uk": "науково обґрунтований графік заміни електростанцій на викопному паливі; розширення централізованого теплопостачання; розумні мережі, зберігання та динамічні тарифи"
+        "en": "priority expansion of Fernwärme steered by municipal Wärmeplanung; faster permits; keep Erdgasnetz; shut coal plants only when competitive secure alternatives exist; storage / Power-to-Heat / electrolyzers — no science-based fossil-replacement timetable or dynamic heat tariffs found",
+        "de": "vorrangiger Ausbau der Fernwärme über kommunale Wärmeplanung; schnellere Genehmigungen; Erdgasnetz erhalten; Kohlekraftwerke erst abschalten, wenn wettbewerbsfähige sichere Alternativen da sind; Speicher / Power-to-Heat / Elektrolyseure – kein wissenschaftlicher Fossil-Ersatzfahrplan und keine dynamischen Wärmetarife gefunden",
+        "ru": "приоритетное расширение Fernwärme через муниципальное Wärmeplanung; ускорение разрешений; сохранить Erdgasnetz; угольные станции отключать только при конкурентных надёжных альтернативах; накопители / Power-to-Heat / электролизёры — научного графика замены ископаемых и динамических теплотарифов нет",
+        "tr": "belediye Wärmeplanung ile öncelikli Fernwärme genişlemesi; daha hızlı izinler; Erdgasnetz’i korumak; rekabetçi güvenli alternatifler varken kömürü kapatmak; depolama / Power-to-Heat / elektrolizör — bilimsel fosil ikame takvimi veya dinamik ısı tarifesi yok",
+        "pl": "priorytetowa rozbudowa Fernwärme przez komunalne Wärmeplanung; szybsze pozwolenia; utrzymać Erdgasnetz; wyłączać węgiel dopiero przy konkurencyjnych bezpiecznych alternatywach; magazyny / Power-to-Heat / elektrolizery — brak naukowego harmonogramu wymiany paliw i dynamicznych taryf ciepła",
+        "uk": "пріоритетне розширення Fernwärme через муніципальне Wärmeplanung; швидші дозволи; зберегти Erdgasnetz; вугільні станції вимикати лише за конкурентних надійних альтернатив; накопичувачі / Power-to-Heat / електролізери — немає наукового графіка заміни викопного й динамічних теплотарифів"
       }
     },
     {
@@ -3675,12 +3675,12 @@
       "partyId": "bsw",
       "stance": "none",
       "summary": {
-        "en": "",
-        "de": "",
-        "ru": "",
-        "tr": "",
-        "pl": "",
-        "uk": ""
+        "en": "not addressed in the Berlin Wahlprogramm",
+        "de": "im Berliner Wahlprogramm nicht thematisiert",
+        "ru": "в берлинской предвыборной программе не затрагивается",
+        "tr": "Berlin seçim programında ele alınmıyor",
+        "pl": "nieporuszane w berlińskim programie wyborczym",
+        "uk": "у берлінській передвиборчій програмі не згадується"
       }
     },
     {
@@ -4431,7 +4431,7 @@
       "summary": {
         "en": "abolish Milieuschutz and stop most public Vorkaufsrecht; allow voluntary conversion of vacant commercial/office/shop space to housing; sell state land to undercut land speculation — no Zweckentfremdung or Ferienwohnungen chapter",
         "de": "Milieuschutz abschaffen und öffentliches Vorkaufsrecht weitgehend beenden; leerstehende Gewerbe-/Büro-/Ladenflächen freiwillig zu Wohnraum umwandeln; landeseigene Flächen verkaufen gegen Bodenspekulation – kein Zweckentfremdungs-/Ferienwohnungs-Kapitel",
-        "ru": "отменить Milieuschutz и почти прекратить публичное Vorkaufsrecht; добровольно переводить пустующие коммерческие/офисные/магазинные площади в жильё; продавать землю земли против спекуляции — главы о Zweckentfremdung/Ferienwohnungen нет",
+        "ru": "отменить Milieuschutz и почти прекратить публичное Vorkaufsrecht; добровольно переводить пустующие коммерческие/офисные/магазинные площади в жильё; продавать земельные участки против спекуляции — главы о Zweckentfremdung/Ferienwohnungen нет",
         "tr": "Milieuschutz’u kaldırmak ve kamu Vorkaufsrecht’i büyük ölçüde bırakmak; boş ticari/ofis/dükkân alanlarını gönüllü konuta çevirmek; arsa spekülasyonuna karşı eyalet arsası satmak — Zweckentfremdung/Ferienwohnungen bölümü yok",
         "pl": "znieść Milieuschutz i w dużej mierze zakończyć publiczne Vorkaufsrecht; dobrowolnie przekształcać puste lokale użytkowe/biura/sklepy w mieszkania; sprzedawać grunty landowe przeciw spekulacji — brak rozdziału Zweckentfremdung/Ferienwohnungen",
         "uk": "скасувати Milieuschutz і майже припинити публічне Vorkaufsrecht; добровільно перетворювати порожні комерційні/офісні/магазинні площі на житло; продавати земельні ділянки проти спекуляції — розділу про Zweckentfremdung/Ferienwohnungen немає"
@@ -4691,7 +4691,7 @@
       "summary": {
         "en": "cut Grunderwerbsteuer for owner-occupied purchases: first €750,000 of purchase price tax-free, remaining portion at the normal rate; financed by selling state building land; plus citywide condo conversion and Mietkauf at municipal companies",
         "de": "Grunderwerbsteuer für selbst genutztes Eigentum senken: erste 750.000 € Kaufpreis steuerfrei, darüber geltender Satz; Gegenfinanzierung durch Verkauf landeseigener Baugrundstücke; plus stadtweite Umwandlung und Mietkauf bei landeseigenen WBG",
-        "ru": "снизить Grunderwerbsteuer для жилья для собственного проживания: первые 750 000 € цены покупки без налога, остаток по обычной ставке; финансирование продажей земли земли; плюс общегородская конверсия и Mietkauf у земельных WBG",
+        "ru": "снизить Grunderwerbsteuer для жилья для собственного проживания: первые 750 000 € цены покупки без налога, остаток по обычной ставке; финансирование продажей земельных участков; плюс общегородская конверсия и Mietkauf у земельных WBG",
         "tr": "kendi kullanım için Grunderwerbsteuer’i düşürmek: ilk 750.000 € alış fiyatı vergiden muaf, üstü normal oran; finansman eyalet arsa satışından; artı kent çapında dönüşüm ve belediye WBG’de Mietkauf",
         "pl": "obniżyć Grunderwerbsteuer dla własnego zamieszkania: pierwsze 750 000 € ceny wolne od podatku, reszta według normalnej stawki; finansowanie sprzedażą gruntów landowych; plus miejska konwersja i Mietkauf w WBG",
         "uk": "знизити Grunderwerbsteuer для житла для власного проживання: перші 750 000 € ціни без податку, решта за звичайною ставкою; фінансування продажем земельних ділянок; плюс загальноміська конверсія та Mietkauf у земельних WBG"
@@ -4715,12 +4715,12 @@
       "partyId": "bsw",
       "stance": "mixed",
       "summary": {
-        "en": "no separate first-purchase allowance; emphasis on social housing, municipal housing companies, and banning the conversion of subsidized apartments into condominiums",
-        "de": "Kein gesonderter Freibetrag für den Erstkauf; Schwerpunkt auf Sozialwohnungen, landeseigenen Wohnungsunternehmen und dem Verbot, geförderte Wohnungen in Eigentumswohnungen umzuwandeln",
-        "ru": "отдельной льготы на первую покупку нет; фокус на социальном жилье, городских жилищных компаниях и запрете перевода субсидируемых квартир в собственность",
-        "tr": "ayrı ilk alım istisnası yok; odak sosyal konut, belediye konut şirketleri ve destekli dairelerin mülkiyete dönüşümünü yasaklamak",
-        "pl": "brak osobnej ulgi przy pierwszym zakupie; fokus na mieszkaniach socjalnych, spółkach komunalnych i zakazie przekształcania mieszkań dofinansowanych w Eigentumswohnungen",
-        "uk": "окремої надбавки на першу покупку немає; акцент на соціальному житлі, муніципальних житлових компаніях та заборона перетворення пільгових квартир на ОСББ"
+        "en": "no first-buyer Grunderwerbsteuer allowance; Bundesrat initiative for stricter Share-Deal limits so housing corporations cannot dodge the tax while ordinary buyers pay",
+        "de": "kein Ersterwerber-Freibetrag bei der Grunderwerbsteuer; Bundesratsinitiative für strengere Share-Deal-Grenzen, damit Wohnungskonzerne die Steuer nicht umgehen, während normale Käufer zahlen",
+        "ru": "нет льготы для первого покупателя по Grunderwerbsteuer; инициатива в Бундесрате для жёстче Share Deals, чтобы жилищные концерны не обходили налог, пока обычные покупатели платят",
+        "tr": "ilk alıcı Grunderwerbsteuer muafiyeti yok; sıradan alıcılar öderken konut şirketlerinin vergiyi kaçırmaması için daha sıkı Share-Deal sınırına Bundesrat girişimi",
+        "pl": "brak ulgi pierwszego zakupu Grunderwerbsteuer; inicjatywa Bundesratu o ostrzejsze limity Share Deal, by koncerny mieszkaniowe nie omijały podatku, gdy zwykli kupujący płacą",
+        "uk": "немає пільги першого покупця з Grunderwerbsteuer; ініціатива в Бундесраті для жорсткіших меж Share Deal, щоб житлові концерни не обходили податок, поки звичайні покупці платять"
       }
     },
     {
@@ -6403,14 +6403,14 @@
     {
       "topicId": "higher-education",
       "partyId": "bsw",
-      "stance": "mixed",
+      "stance": "for",
       "summary": {
-        "en": "no separate major program for universities; emphasis on high-quality school education, workforce training, jobs, and criticism of reorienting the economy toward defense",
-        "de": "kein eigenes umfassendes Hochschulprogramm; Schwerpunkt auf hochwertiger Schulbildung, Fachkräfteausbildung, Arbeitsplätzen und Kritik an der Ausrichtung der Wirtschaft auf Verteidigung",
-        "ru": "отдельной большой программы по вузам нет; акцент на качественном школьном образовании, подготовке кадров, рабочих местах и критике переориентации экономики на оборонку",
-        "tr": "Üniversiteler için ayrı büyük program yok; odak yüksek nitelikli okul eğitimi, işgücü eğitimi, işler ve ekonomiyi savunmaya yönlendirme eleştirisi",
-        "pl": "brak osobnego dużego programu dla uczelni; nacisk na wysokiej jakości edukację szkolną, szkolenie kadr, miejsca pracy oraz krytykę przeorientowania gospodarki na obronność",
-        "uk": "немає окремої профільної програми для університетів; акцент на якісній шкільній освіті, підготовці робочої сили, робочих місцях і критиці переорієнтації економіки на оборону"
+        "en": "raise Landeszuschüsse for Berlin Hochschulen to at least 2% of Berlin GDP; Studentenwohnheim-Fonds; mandatory Zivilklausel (no Bundeswehr/arms research); end fixed-term chain contracts; prioritize MINT funding and limit oversubscribed non-shortage fields",
+        "de": "Landeszuschüsse für Berliner Hochschulen auf mindestens 2 % des Berliner BIP; Studentenwohnheim-Fonds; verbindliche Zivilklausel (keine Bundeswehr-/Rüstungskooperation); Ende befristeter Kettenverträge; MINT-Mittel priorisieren und überlaufene Nicht-Mangel-Fächer begrenzen",
+        "ru": "поднять земельные дотации вузам Берлина минимум до 2 % ВРП; фонд студенческих общежитий; обязательная Zivilklausel (без Бундесвера/ВПК); конец срочных цепочных контрактов; приоритет MINT и ограничение переполненных непрофильных направлений",
+        "tr": "Berlin yüksekokullarına eyalet desteğini Berlin GSYİH’nin en az %2’sine çıkarmak; öğrenci yurdu fonu; zorunlu Zivilklausel (Bundeswehr/silah yok); zincir süreli sözleşmeleri bitirmek; MINT’e öncelik, dolu alanları sınırlamak",
+        "pl": "podnieść dotacje landowe dla berlińskich uczelni do ≥2% PKB Berlina; fundusz akademików; obowiązkowa Zivilklausel (bez Bundeswehry/zbrojeniówki); koniec łańcuchowych umów na czas; priorytet MINT i limit przepełnionych kierunków",
+        "uk": "підняти земельні дотації берлінським вишам щонайменше до 2% ВРП; фонд студентських гуртожитків; обов’язкова Zivilklausel (без Бундесверу/ВПК); кінець строкових ланцюгових контрактів; пріоритет MINT і обмеження переповнених непрофільних напрямів"
       }
     },
     {
@@ -7313,14 +7313,14 @@
     {
       "topicId": "migration-bezahlkarte-and-access-to-benefits-and-healthcare",
       "partyId": "bsw",
-      "stance": "mixed",
+      "stance": "none",
       "summary": {
-        "en": "the Bezahlkarte is not mentioned in the program",
-        "de": "Bezahlkarte wird im Programm nicht erwähnt",
-        "ru": "Bezahlkarte в программе не упоминается",
-        "tr": "Programda Bezahlkarte anılmıyor",
-        "pl": "Bezahlkarte nie jest wspomniana w programie",
-        "uk": "Bezahlkarte у програмі немає"
+        "en": "Bezahlkarte is not addressed in the Berlin Wahlprogramm",
+        "de": "Bezahlkarte im Berliner Wahlprogramm nicht thematisiert",
+        "ru": "Bezahlkarte в берлинской программе не затрагивается",
+        "tr": "Bezahlkarte Berlin seçim programında ele alınmıyor",
+        "pl": "Bezahlkarte nieporuszana w berlińskim programie",
+        "uk": "Bezahlkarte у берлінській програмі не згадується"
       }
     },
     {
@@ -7833,14 +7833,14 @@
     {
       "topicId": "business-succession",
       "partyId": "bsw",
-      "stance": "mixed",
+      "stance": "none",
       "summary": {
-        "en": "no separate measure on business succession; related issues are access to capital, less bureaucracy, and preserving jobs, but the main emphasis is on industry and collectively bargained employment",
-        "de": "keine eigene Maßnahme zur Unternehmensnachfolge; verwandte Themen sind Zugang zu Kapital, weniger Bürokratie und der Erhalt von Arbeitsplätzen, Hauptschwerpunkt jedoch auf Industrie und tarifgebundener Beschäftigung",
-        "ru": "отдельной меры по преемственности предприятий нет; близко — доступ к капиталу, меньше бюрократии и сохранение рабочих мест, но главный акцент на промышленности и тарифной занятости",
-        "tr": "işletme devrine ayrı bir önlem yok; ilgili konular sermayeye erişim, daha az bürokrasi ve işlerin korunması, ancak ana vurgu sanayi ve toplu sözleşmeli istihdam",
-        "pl": "brak osobnego środka dotyczącego sukcesji firm; pokrewne kwestie to dostęp do kapitału, mniej biurokracji i zachowanie miejsc pracy, ale główny nacisk na przemysł i zatrudnienie objęte układami zbiorowymi",
-        "uk": "окремого заходу щодо правонаступництва бізнесу немає; пов’язаними питаннями є доступ до капіталу, менша бюрократія та збереження робочих місць, але основний акцент робиться на промисловості та працевлаштуванні за колективним договором"
+        "en": "business succession / Betriebsnachfolge is not addressed",
+        "de": "Betriebsnachfolge nicht thematisiert",
+        "ru": "передача бизнеса / Betriebsnachfolge не затрагивается",
+        "tr": "işletme devri / Betriebsnachfolge ele alınmıyor",
+        "pl": "sukcesja firm / Betriebsnachfolge nieporuszana",
+        "uk": "передача бізнесу / Betriebsnachfolge не згадується"
       }
     },
     {
@@ -9133,14 +9133,14 @@
     {
       "topicId": "queer-and-lgbtq-issues",
       "partyId": "bsw",
-      "stance": "mixed",
+      "stance": "none",
       "summary": {
-        "en": "Almost no separate queer agenda in the program; the general emphasis is on direct democracy, social policy, and a peace agenda",
-        "de": "Kaum eigenständige Queeragenda im Programm; allgemeiner Schwerpunkt auf direkter Demokratie, Sozialpolitik und Friedensagenda",
-        "ru": "отдельной квир-повестки в программе почти нет; общий акцент на прямой демократии, социальной политике и мирной повестке",
-        "tr": "Programda neredeyse ayrı bir queer gündemi yok; genel vurgu doğrudan demokrasi, sosyal politika ve barış gündemi",
-        "pl": "Prawie brak osobnej agendy queer w programie; ogólny nacisk na demokrację bezpośrednią, politykę społeczną i agendę pokojową",
-        "uk": "У програмі майже немає окремого квір-повестки; загальний акцент робиться на прямій демократії, соціальній політиці та порядку денному миру"
+        "en": "no separate queer / LGBTQ agenda found in the Berlin Wahlprogramm",
+        "de": "kein eigenes Queer-/LGBTQ-Agenda im Berliner Wahlprogramm gefunden",
+        "ru": "отдельной квир-/LGBTQ-повестки в берлинской программе не найдено",
+        "tr": "Berlin seçim programında ayrı queer/LGBTQ gündemi yok",
+        "pl": "brak osobnej agendy queer/LGBTQ w berlińskim programie",
+        "uk": "окремої квір-/LGBTQ-порядку денного в берлінській програмі не знайдено"
       }
     },
     {
@@ -9395,12 +9395,12 @@
       "partyId": "bsw",
       "stance": "mixed",
       "summary": {
-        "en": "Nothing about party donations; transparency is demanded for major projects and budget expenditure",
-        "de": "Nichts zu Parteispenden; Transparenz wird bei Großprojekten und Haushaltsausgaben gefordert",
-        "ru": "про партийные пожертвования ничего; прозрачность требуют по крупным проектам и бюджетным расходам",
-        "tr": "Parti bağışları hakkında bir şey yok; şeffaflık büyük projeler ve bütçe harcamaları için talep edilir",
-        "pl": "Nic o darowiznach partyjnych; transparentność wymagana dla dużych projektów i wydatków budżetowych",
-        "uk": "Нічого про партійні пожертви; прозорість вимагається для великих проектів і бюджетних витрат"
+        "en": "no party-donation rules; transparency demanded for major projects, budgets and (e.g. media) decision-makers; close lobbyist tax loopholes via stronger Finanzämter",
+        "de": "keine Parteispendenregeln; Transparenz bei Großprojekten, Haushalt und (z. B. Medien-)Entscheidungsträgern; Lobbyisten-Steuerschlupflöcher schließen durch stärkere Finanzämter",
+        "ru": "правил о партийных пожертвованиях нет; прозрачность крупных проектов, бюджета и (напр. медиа-)лиц; закрывать налоговые лазейки лоббистов усилением Finanzämter",
+        "tr": "parti bağışı kuralı yok; büyük projeler, bütçe ve (örn. medya) karar vericilerde şeffaflık; lobici vergi boşluklarını güçlendirilmiş Finanzämter ile kapatmak",
+        "pl": "brak reguł darowizn partyjnych; jawność dużych projektów, budżetu i (np. medialnych) decydentów; zamykać luki podatkowe lobbystów silniejszymi Finanzämter",
+        "uk": "правил партійних пожертв немає; прозорість великих проєктів, бюджету та (напр. медіа-)осіб; закривати податкові лазівки лобістів посиленням Finanzämter"
       }
     },
     {
