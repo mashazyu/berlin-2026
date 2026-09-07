@@ -1,6 +1,7 @@
 import type React from "react"
 import { Lora, DM_Sans } from "next/font/google"
 import { notFound } from "next/navigation"
+import { Analytics } from "@vercel/analytics/next"
 import { LanguageProvider } from "@/components/language-provider"
 import {
   SUPPORTED_LANGUAGES,
@@ -43,6 +44,7 @@ export default async function LangLayout({
         className={`${lora.variable} ${dmSans.variable} font-sans antialiased`}
       >
         <LanguageProvider initialLanguage={language}>{children}</LanguageProvider>
+        <Analytics />
       </body>
     </html>
   )
