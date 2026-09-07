@@ -17,7 +17,7 @@ const FONT_UA =
 
 function collectChars() {
   const chunks = ["Berlin2026·"]
-  for (const lang of ["en", "de", "tr", "pl", "ru"]) {
+  for (const lang of ["en", "de", "tr", "uk", "pl", "ru"]) {
     const t = JSON.parse(
       fs.readFileSync(path.join(ROOT, "locales", `${lang}.json`), "utf8")
     )
