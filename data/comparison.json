@@ -63,7 +63,7 @@
         "pl": "FDP",
         "uk": "FDP"
       },
-      "programUrl": "https://www.fdp-berlin.de/sites/default/files/2026-07/Wahlprogramm%5FFDP%20Berlin%5FAbgeordnetenhauswahl%202026%5FFINAL.pdf"
+      "programUrl": "https://www.fdp-berlin.de/sites/default/files/2026-07/Wahlprogramm_FDP%20Berlin_Abgeordnetenhauswahl%202026_FINAL.pdf"
     },
     {
       "id": "afd",
@@ -2217,14 +2217,14 @@
     {
       "topicId": "heat-protection",
       "partyId": "fdp",
-      "stance": "mixed",
+      "stance": "for",
       "summary": {
-        "en": "no separate heat-protection program; there is protection of water, forests, and greenery, unsealing, rainwater collection, planning for droughts and extreme rainfall",
-        "de": "kein eigenes Hitzeschutzprogramm; es gibt Schutz von Wasser, Wäldern und Grün, Entsiegelung, Regenwassersammlung, Planung für Dürren und Starkregen",
-        "ru": "отдельной программы Hitzeschutz нет; есть защита воды, лесов и зелени, разуплотнение поверхностей, сбор дождевой воды, планирование на засухи и экстремальные осадки",
-        "tr": "ayrı bir ısı koruma programı yok; su, orman ve yeşillik koruması, sızdırmazlığı kaldırma, yağmur suyu toplama, kuraklık ve aşırı yağış planlaması var",
-        "pl": "brak osobnego programu ochrony przed upałem; jest ochrona wody, lasów i zieleni, odszczelnianie, zbieranie wody deszczowej, planowanie na susze i ekstremalne opady",
-        "uk": "окремої програми захисту від спеки немає; існує охорона води, лісів та зелених насаджень, розущільнення поверхонь, збір дощової води, планування на випадок посухи та екстремальних дощів"
+        "en": "climate adaptation focus: urban ventilation, shading, water management, extreme-weather prep, health precautions and climate monitoring — no separate Hitzeplan / public cooling-rooms program",
+        "de": "Fokus Klimaanpassung: Stadtdurchlüftung, Verschattung, Wassermanagement, Extremwetter-Vorsorge, Gesundheitsvorsorge und Klimamonitoring – kein separates Hitzeplan-/Kühlraum-Programm",
+        "ru": "фокус на климатической адаптации: проветривание города, затенение, управление водой, подготовка к экстремальной погоде, здравоохранение и мониторинг — отдельного Hitzeplan/охлаждающих комнат нет",
+        "tr": "iklim uyumu odağı: kentsel havalandırma, gölgeleme, su yönetimi, aşırı hava hazırlığı, sağlık önlemleri ve izleme — ayrı Hitzeplan/soğutma odası programı yok",
+        "pl": "fokus na adaptację klimatu: przewietrzanie miasta, zacienianie, zarządzanie wodą, przygotowanie na ekstremalne pogodę, zdrowie i monitoring — brak osobnego Hitzeplanu/pomieszczeń chłodzących",
+        "uk": "фокус на кліматичній адаптації: провітрювання міста, затінення, управління водою, підготовка до екстремальної погоди, охорона здоров’я та моніторинг — окремого Hitzeplan/охолоджувальних кімнат немає"
       }
     },
     {
@@ -2477,14 +2477,14 @@
     {
       "topicId": "zero-waste-waste-prevention",
       "partyId": "fdp",
-      "stance": "for",
+      "stance": "mixed",
       "summary": {
-        "en": "neighborhood recycling points for recyclables, hazardous waste, and bulky waste; reusable-packaging infrastructure and packaging tax",
-        "de": "Kiez-Recyclingpunkte für Wertstoffe, Problemabfälle und Sperrmüll; Mehrwegverpackungsinfrastruktur und Verpackungssteuer",
-        "ru": "Kiez‑Recycling‑Punkte для вторсырья, спецотходов и крупногабарита; ремонтный бонус (ReparaturBONUS), инфраструктура многоразовой тары и упаковочный налог",
-        "tr": "geri dönüştürülebilirler, tehlikeli atık ve iri atık için mahalle geri dönüşüm noktaları; yeniden kullanılabilir ambalaj altyapısı ve ambalaj vergisi",
-        "pl": "osiedlowe punkty recyklingu surowców wtórnych, odpadów niebezpiecznych i gabarytów; infrastruktura opakowań wielokrotnego użytku i podatek od opakowań",
-        "uk": "пункти прийому вторинної сировини, небезпечних відходів та великогабаритного сміття по сусідству; інфраструктура багаторазової упаковки та податок на упаковку"
+        "en": "packaging-sorting app via barcodes; more construction Kreislaufwirtschaft and recycled materials in public builds — no Verpackungssteuer, Mehrweg infrastructure, or neighborhood hazardous-waste recycling points found",
+        "de": "App zur Mülltrennung per Strichcode; mehr Kreislaufwirtschaft und Recyclingbaustoffe bei öffentlichen Bauten – keine Verpackungssteuer, keine Mehrweg-Infrastruktur und keine Kiez-Recyclingpunkte für Sondermüll gefunden",
+        "ru": "приложение для сортировки упаковки по штрихкоду; больше круговой экономики и вторсырья в госстроительстве — налога на упаковку, инфраструктуры Mehrweg и соседских пунктов опасных отходов в тексте нет",
+        "tr": "barkodla ambalaj ayırma uygulaması; kamu inşaatında daha fazla döngüsel ekonomi ve geri dönüşüm malzemesi — Verpackungssteuer, Mehrweg altyapısı veya mahalle tehlikeli atık noktaları yok",
+        "pl": "aplikacja do sortowania opakowań po kodzie kreskowym; więcej gospodarki obiegu zamkniętego i materiałów z recyclingu w budowie publicznej — brak Verpackungssteuer, infrastruktury Mehrweg i punktów odpadów niebezpiecznych w Kiezach",
+        "uk": "додаток для сортування упаковки за штрихкодом; більше циркулярної економіки й вторинної сировини в держбудівництві — немає податку на упаковку, інфраструктури Mehrweg і сусідських пунктів небезпечних відходів"
       }
     },
     {
@@ -3129,12 +3129,12 @@
       "partyId": "fdp",
       "stance": "mixed",
       "summary": {
-        "en": "without a prohibitive approach; goal — defossilized heating through technology openness, including hydrogen, geothermal energy and smart heating grids",
-        "de": "ohne Verbotsansatz; Ziel — defossilierte Wärme durch Technologieoffenheit, einschließlich Wasserstoff, Geothermie und intelligenter Wärmenetze",
-        "ru": "без запретительного курса; цель — дефоссилизированное тепло через технологическую открытость, включая водород, геотермию и умные теплосети",
-        "tr": "yasaklayıcı yaklaşım olmadan; hedef — teknoloji açıklığıyla fosilsizleştirilmiş ısıtma, hidrojen, jeotermal enerji ve akıllı ısıtma şebekeleri dahil",
-        "pl": "bez podejścia zakazowego; cel — zdekarbonizowane ciepło przez otwartość technologiczną, w tym wodór, geotermię i inteligentne sieci ciepłownicze",
-        "uk": "без заборонного підходу; мета — дефоссилізоване опалення через відкритість технологій, включаючи водень, геотермальну енергію та розумні тепломережі"
+        "en": "no gas-network phase-out ban; defossilize heat via technology openness (hydrogen for heat, geothermal, smart grids, third-party waste heat into Fernwärme) instead of prohibitions",
+        "de": "kein Gasnetz-Ausstiegsverbot; Wärme defossilisieren durch Technologieoffenheit (Wasserstoff für Wärme, Geothermie, intelligente Netze, Dritt-Abwärme in die Fernwärme) statt Verbote",
+        "ru": "нет запрета на вывод газовой сети; дефоссилизация тепла через технологическую открытость (водород для тепла, геотермия, умные сети, сторонняя отходящая теплота в Fernwärme) вместо запретов",
+        "tr": "gaz şebekesi çıkış yasağı yok; yasaklar yerine teknoloji açıklığıyla ısıyı defosilize etmek (ısı için hidrojen, jeotermal, akıllı şebekeler, Fernwärme’ye üçüncü taraf atık ısı)",
+        "pl": "brak zakazu wycofania sieci gazowej; defosylizacja ciepła przez otwartość technologiczną (wodór do ciepła, geotermia, inteligentne sieci, ciepło odpadowe stron trzecich do Fernwärme) zamiast zakazów",
+        "uk": "немає заборони на виведення газової мережі; дефосилізація тепла через технологічну відкритість (водень для тепла, геотермія, розумні мережі, стороннє відхідне тепло в Fernwärme) замість заборон"
       }
     },
     {
@@ -3387,14 +3387,14 @@
     {
       "topicId": "heat-pumps",
       "partyId": "fdp",
-      "stance": "mixed",
+      "stance": "none",
       "summary": {
-        "en": "separate focus on heat pumps was not found in the reviewed excerpts; emphasis on geothermal energy, technology openness and smart heating grids",
-        "de": "eigener Schwerpunkt auf Wärmepumpen in den geprüften Auszügen nicht gefunden; Schwerpunkt auf Geothermie, Technologieoffenheit und intelligente Wärmenetze",
-        "ru": "отдельного фокуса на тепловых насосах нет; ставка на геотермию, технологическую открытость и умные теплосети",
-        "tr": "incelenen alıntılarda ısı pompalarına ayrı odak bulunamadı; odak jeotermal enerji, teknoloji açıklığı ve akıllı ısıtma şebekeleri",
-        "pl": "osobnego fokusu na pompach ciepła nie znaleziono w przeglądanych fragmentach; fokus na geotermii, otwartości technologicznej i inteligentnych sieciach ciepłowniczych",
-        "uk": "окремого фокусу на теплових насосах у програмі немає; акцент на геотермії, технологічній відкритості та розумних тепломережах"
+        "en": "Wärmepumpen not addressed; heat strategy centers on geothermal energy, hydrogen, smart heating grids and technology openness",
+        "de": "Wärmepumpen nicht thematisiert; Wärmestrategie setzt auf Geothermie, Wasserstoff, intelligente Wärmenetze und Technologieoffenheit",
+        "ru": "тепловые насосы не затрагиваются; тепловая стратегия — геотермия, водород, умные теплосети и технологическая открытость",
+        "tr": "Wärmepumpe ele alınmıyor; ısı stratejisi jeotermal, hidrojen, akıllı ısı şebekeleri ve teknoloji açıklığı",
+        "pl": "pompy ciepła nieporuszane; strategia ciepła: geotermia, wodór, inteligentne sieci ciepła i otwartość technologiczna",
+        "uk": "теплові насоси не згадуються; теплова стратегія — геотермія, водень, розумні тепломережі та технологічна відкритість"
       }
     },
     {
@@ -3649,12 +3649,12 @@
       "partyId": "fdp",
       "stance": "none",
       "summary": {
-        "en": "",
-        "de": "",
-        "ru": "",
-        "tr": "",
-        "pl": "",
-        "uk": ""
+        "en": "not addressed in the Berlin Wahlprogramm",
+        "de": "im Berliner Wahlprogramm nicht thematisiert",
+        "ru": "в берлинской предвыборной программе не затрагивается",
+        "tr": "Berlin seçim programında ele alınmıyor",
+        "pl": "nieporuszane w berlińskim programie wyborczym",
+        "uk": "у берлінській передвиборчій програмі не згадується"
       }
     },
     {
@@ -4429,12 +4429,12 @@
       "partyId": "fdp",
       "stance": "mixed",
       "summary": {
-        "en": "the platform includes neither vacancy nor tourist apartments nor Zweckentfremdung; on the contrary, it proposes abolishing Milieuschutz and not exercising the city’s right of first refusal",
-        "de": "das Programm enthält weder Leerstand noch Ferienwohnungen noch Zweckentfremdung; im Gegenteil, es schlägt die Abschaffung des Milieuschutzes und den Verzicht auf das Vorkaufsrecht der Stadt vor",
-        "ru": "ни пустующего жилья, ни турквартир, ни нецелевого использования жилья (Zweckentfremdung) в программе нет; напротив, Milieuschutz предлагается упразднить, а преимущественное право покупки города не применять",
-        "tr": "programda boş daire, turistik daire veya Zweckentfremdung yok; aksine Milieuschutz'u kaldırmayı ve kentin önalım hakkını kullanmamayı öneriyor",
-        "pl": "w programie nie ma pustostanów ani mieszkań turystycznych ani Zweckentfremdung; przeciwnie, proponuje zniesienie Milieuschutz i niewykonywanie miejskiego prawa pierwokupu",
-        "uk": "ні порожнього житла, ні туристичних квартир, ні Zweckentfremdung у програмі немає; навпаки, пропонують скасувати Milieuschutz і не застосовувати переважне право купівлі міста"
+        "en": "abolish Milieuschutz and stop most public Vorkaufsrecht; allow voluntary conversion of vacant commercial/office/shop space to housing; sell state land to undercut land speculation — no Zweckentfremdung or Ferienwohnungen chapter",
+        "de": "Milieuschutz abschaffen und öffentliches Vorkaufsrecht weitgehend beenden; leerstehende Gewerbe-/Büro-/Ladenflächen freiwillig zu Wohnraum umwandeln; landeseigene Flächen verkaufen gegen Bodenspekulation – kein Zweckentfremdungs-/Ferienwohnungs-Kapitel",
+        "ru": "отменить Milieuschutz и почти прекратить публичное Vorkaufsrecht; добровольно переводить пустующие коммерческие/офисные/магазинные площади в жильё; продавать землю земли против спекуляции — главы о Zweckentfremdung/Ferienwohnungen нет",
+        "tr": "Milieuschutz’u kaldırmak ve kamu Vorkaufsrecht’i büyük ölçüde bırakmak; boş ticari/ofis/dükkân alanlarını gönüllü konuta çevirmek; arsa spekülasyonuna karşı eyalet arsası satmak — Zweckentfremdung/Ferienwohnungen bölümü yok",
+        "pl": "znieść Milieuschutz i w dużej mierze zakończyć publiczne Vorkaufsrecht; dobrowolnie przekształcać puste lokale użytkowe/biura/sklepy w mieszkania; sprzedawać grunty landowe przeciw spekulacji — brak rozdziału Zweckentfremdung/Ferienwohnungen",
+        "uk": "скасувати Milieuschutz і майже припинити публічне Vorkaufsrecht; добровільно перетворювати порожні комерційні/офісні/магазинні площі на житло; продавати земельні ділянки проти спекуляції — розділу про Zweckentfremdung/Ferienwohnungen немає"
       }
     },
     {
@@ -4689,12 +4689,12 @@
       "partyId": "fdp",
       "stance": "for",
       "summary": {
-        "en": "support ownership by repealing bans on converting rental apartments into condominiums and expanding purchase opportunities; opposes an increase in real estate transfer tax, but does not explicitly propose a separate allowance for first-time buyers",
-        "de": "Wohneigentum fördern, indem Verbote der Umwandlung von Miet- in Eigentumswohnungen aufgehoben und Kaufmöglichkeiten erweitert werden; gegen eine Erhöhung der Grunderwerbsteuer, aber kein ausdrücklicher gesonderter Freibetrag für Erstkäufer:innen",
-        "ru": "поддержка собственности через отмену запретов на перевод съёмных квартир в собственность и расширение возможностей покупки; по налогу на покупку недвижимости — против повышения, но отдельной льготы для первой покупки прямо нет",
-        "tr": "kiralık dairelerin mülkiyete dönüşüm yasaklarını kaldırarak ve satın alma fırsatlarını genişleterek mülkiyete destek; gayrimenkul transfer vergisi artışına karşı, ancak ilk alıcılar için ayrı istisna açıkça önermiyor",
-        "pl": "wspierać własność przez uchylenie zakazów przekształcania mieszkań na wynajem w Eigentumswohnungen i rozszerzanie możliwości zakupu; przeciw podwyżce podatku od nabycia nieruchomości, ale bez wyraźnej osobnej ulgi dla pierwszego zakupu",
-        "uk": "підтримати право власності шляхом скасування заборони перетворення орендних квартир на ОСББ та розширення можливостей купівлі; виступає проти збільшення податку на передачу нерухомості, але прямо не пропонує окремої пільги для тих, хто купує вперше"
+        "en": "cut Grunderwerbsteuer for owner-occupied purchases: first €750,000 of purchase price tax-free, remaining portion at the normal rate; financed by selling state building land; plus citywide condo conversion and Mietkauf at municipal companies",
+        "de": "Grunderwerbsteuer für selbst genutztes Eigentum senken: erste 750.000 € Kaufpreis steuerfrei, darüber geltender Satz; Gegenfinanzierung durch Verkauf landeseigener Baugrundstücke; plus stadtweite Umwandlung und Mietkauf bei landeseigenen WBG",
+        "ru": "снизить Grunderwerbsteuer для жилья для собственного проживания: первые 750 000 € цены покупки без налога, остаток по обычной ставке; финансирование продажей земли земли; плюс общегородская конверсия и Mietkauf у земельных WBG",
+        "tr": "kendi kullanım için Grunderwerbsteuer’i düşürmek: ilk 750.000 € alış fiyatı vergiden muaf, üstü normal oran; finansman eyalet arsa satışından; artı kent çapında dönüşüm ve belediye WBG’de Mietkauf",
+        "pl": "obniżyć Grunderwerbsteuer dla własnego zamieszkania: pierwsze 750 000 € ceny wolne od podatku, reszta według normalnej stawki; finansowanie sprzedażą gruntów landowych; plus miejska konwersja i Mietkauf w WBG",
+        "uk": "знизити Grunderwerbsteuer для житла для власного проживання: перші 750 000 € ціни без податку, решта за звичайною ставкою; фінансування продажем земельних ділянок; плюс загальноміська конверсія та Mietkauf у земельних WBG"
       }
     },
     {
@@ -6769,12 +6769,12 @@
       "partyId": "fdp",
       "stance": "mixed",
       "summary": {
-        "en": "no separate section on mental health: mentions education about psychological abuse online and prevention of addictive behavior",
-        "de": "kein eigener Abschnitt zur psychischen Gesundheit: erwähnt werden Aufklärung über psychische Gewalt im Internet und die Prävention von Suchtverhalten",
-        "ru": "отдельного раздела о психическом здоровье нет: упоминаются просвещение о психическом насилии в интернете и профилактика зависимого поведения",
-        "tr": "Ruh sağlığına dair ayrı bölüm yok: çevrimiçi psikolojik istismar hakkında eğitim ve bağımlılık davranışının önlenmesinden söz ediyor",
-        "pl": "brak osobnej sekcji o zdrowiu psychicznym: wspomina edukację o nadużyciach psychicznych online i profilaktykę zachowań uzależnieniowych",
-        "uk": "немає окремого розділу про психічне здоров’я: згадується освіта щодо психологічного насильства в Інтернеті та запобігання адиктивній поведінці"
+        "en": "no dedicated mental-health chapter; related: education on online psychological violence; shorter waits for addiction therapy; psychological counseling around Transition / queer-sensitive care; victim access to psychological support",
+        "de": "kein eigenes Psychiatrie-/Mental-Health-Kapitel; verwandt: Aufklärung über psychische Gewalt online; kürzere Wartezeiten auf Suchttherapie; psychologische Beratung bei Transition / queersensibler Versorgung; psychologische Soforthilfe für Opfer",
+        "ru": "отдельной главы о психическом здоровье нет; смежное: просвещение о психологическом насилии онлайн; короче очереди на наркотерапию; психологическая поддержка при Transition / квир-чувствительной помощи; психопомощь жертвам",
+        "tr": "ayrı ruh sağlığı bölümü yok; ilgili: çevrimiçi psikolojik şiddet eğitimi; bağımlılık tedavisinde daha kısa bekleme; Transition / queer-duyarlı bakımdapsikolojik danışmanlık; mağdurlara psikolojik destek",
+        "pl": "brak osobnego rozdziału o zdrowiu psychicznym; pokrewne: edukacja o przemocy psychicznej online; krótsze kolejki do terapii uzależnień; wsparcie psychologiczne przy Transition / opiece queer-sensitive; psychiczna pomoc ofiarom",
+        "uk": "окремого розділу про психічне здоров’я немає; суміжне: просвіта про психологічне насильство онлайн; коротші черги на терапію залежностей; психологічна підтримка при Transition / квір-чутливій допомозі; психодопомога жертвам"
       }
     },
     {
@@ -7807,14 +7807,14 @@
     {
       "topicId": "business-succession",
       "partyId": "fdp",
-      "stance": "mixed",
+      "stance": "none",
       "summary": {
-        "en": "no separate measure on business succession; general approach is less bureaucracy, more business freedom, private investment, and a review of municipal companies",
-        "de": "keine eigene Maßnahme zur Unternehmensnachfolge; allgemeiner Kurs: weniger Bürokratie, mehr unternehmerische Freiheit, private Investitionen und Überprüfung landeseigener Unternehmen",
-        "ru": "отдельной меры по преемственности предприятий нет; общий курс — меньше бюрократии, больше свободы бизнеса, частные инвестиции и ревизия городских предприятий",
-        "tr": "işletme devrine ayrı bir önlem yok; genel yaklaşım daha az bürokrasi, daha fazla işletme özgürlüğü, özel yatırım ve belediye şirketlerinin gözden geçirilmesi",
-        "pl": "brak osobnego środka dotyczącego sukcesji firm; ogólne podejście to mniej biurokracji, więcej wolności gospodarczej, inwestycje prywatne i przegląd spółek komunalnych",
-        "uk": "окремого заходу щодо правонаступництва бізнесу немає; Загальний підхід – менше бюрократії, більше свободи бізнесу, приватні інвестиції та перегляд муніципальних компаній"
+        "en": "business succession / Betriebsnachfolge is not addressed; related economy chapter focuses on less bureaucracy, Frei-Kiez and private investment",
+        "de": "Betriebsnachfolge nicht thematisiert; Wirtschaftskapitel setzt auf weniger Bürokratie, Frei-Kiez und private Investitionen",
+        "ru": "передача бизнеса / Betriebsnachfolge не затрагивается; экономическая глава — меньше бюрократии, Frei-Kiez и частные инвестиции",
+        "tr": "işletme devri / Betriebsnachfolge ele alınmıyor; ekonomi bölümü daha az bürokrasi, Frei-Kiez ve özel yatırım",
+        "pl": "sukcesja firm / Betriebsnachfolge nieporuszana; rozdział gospodarki: mniej biurokracji, Frei-Kiez i inwestycje prywatne",
+        "uk": "передача бізнесу / Betriebsnachfolge не згадується; економічний розділ — менше бюрократії, Frei-Kiez і приватні інвестиції"
       }
     },
     {
@@ -8977,14 +8977,14 @@
     {
       "topicId": "women-s-rights-and-prevention-of-domestic-violence",
       "partyId": "fdp",
-      "stance": "mixed",
+      "stance": "for",
       "summary": {
-        "en": "Little broad women’s-rights agenda in the excerpts found; related points include prevention before repression, speedy courts, deletion of a controversial police database, and review of surveillance without suspicion",
-        "de": "In den gefundenen Passagen kaum umfassende frauenpolitische Agenda; thematisch nah sind Prävention vor Repression, schnelle Gerichte, Löschung einer umstrittenen Polizeidatenbank und Überprüfung anlassloser Überwachung",
-        "ru": "отдельной широкой повестки прав женщин в программе мало; близко — профилактика перед репрессией, быстрые суды, удаление спорной полицейской базы и оценка наблюдения без подозрения",
-        "tr": "Bulunan alıntılarda geniş bir kadın hakları gündemi az; ilgili noktalar baskıdan önce önleme, hızlı mahkemeler, tartışmalı bir polis veri tabanının silinmesi ve sebepsiz gözetimin gözden geçirilmesi",
-        "pl": "Niewiele szerokiej agendy praw kobiet w znalezionych fragmentach; pokrewne punkty to prewencja przed represją, szybkie sądy, usunięcie kontrowersyjnej policyjnej bazy danych oraz przegląd monitoringu bezpodstawnego",
-        "uk": "широкого порядку денного щодо прав жінок у програмі мало; близько — профілактика перед репресією, швидкі суди, видалення спірної поліцейської бази та оцінка стеження без підозри"
+        "en": "implement Istanbul Convention pillars; expand Frauenhaus / Zuflucht places and Gewaltschutzambulanz; funded prevention centers + Täterarbeit; MINT equality, pregnancy-conflict counseling, equal pay and public-service leadership parity",
+        "de": "Istanbul-Konvention umsetzen; Frauenhaus-/Zufluchtsplätze und Gewaltschutzambulanz ausbauen; regelfinanzierte Präventionszentren plus Täterarbeit; MINT-Chancengleichheit, Schwangerschaftskonfliktberatung, Equal Pay und Führungsgleichheit im öffentlichen Dienst",
+        "ru": "реализовать столпы Стамбульской конвенции; расширить Frauenhaus/убежища и Gewaltschutzambulanz; финансируемые центры профилактики и работа с агрессорами; равенство в STEM, консультации по беременности, равная оплата и паритет руководства на госслужбе",
+        "tr": "İstanbul Sözleşmesi sütunlarını uygulamak; Frauenhaus/sığınak yerleri ve Gewaltschutzambulanz’ı genişletmek; finansmanlı önleme merkezleri + fail çalışması; MINT eşitliği, gebelik danışmanlığı, eşit ücret ve kamu liderlik paritesi",
+        "pl": "wdrażać filary konwencji stambulskiej; więcej miejsc w Frauenhaus/schroniskach i Gewaltschutzambulanz; finansowane ośrodki prewencji + praca z sprawcami; równość MINT, doradztwo aborcyjne/ciążowe, równa płaca i parytet kierowniczy w służbie publicznej",
+        "uk": "впровадити стовпи Стамбульської конвенції; розширити Frauenhaus/притулки та Gewaltschutzambulanz; фінансовані центри профілактики + робота з кривдниками; рівність у MINT, консультації щодо вагітності, рівна оплата та паритет керівництва на держслужбі"
       }
     },
     {
@@ -9237,14 +9237,14 @@
     {
       "topicId": "elections-second-vote-and-5-percent-threshold",
       "partyId": "fdp",
-      "stance": "mixed",
+      "stance": "none",
       "summary": {
-        "en": "Neither a second vote nor the threshold appears in the program",
-        "de": "Weder Zweitstimme noch Hürde kommen im Programm vor",
-        "ru": "ни второго голоса, ни барьера в программе нет",
-        "tr": "Programda ne ikinci oy ne de eşik geçmiyor",
-        "pl": "Ani drugi głos, ani próg wyborczy nie pojawiają się w programie",
-        "uk": "У програмі не відображається ні другий голос, ні прохідний бар’єр"
+        "en": "neither a second vote nor the five-percent threshold is addressed in the Berlin Wahlprogramm",
+        "de": "weder Zweitstimme noch Fünfprozenthürde im Berliner Wahlprogramm thematisiert",
+        "ru": "ни второй голос, ни пятипроцентный барьер в берлинской программе не затрагиваются",
+        "tr": "Berlin seçim programında ne ikinci oy ne yüzde beş barajı ele alınmıyor",
+        "pl": "ani drugi głos, ani próg 5% nie są poruszane w berlińskim programie",
+        "uk": "ні другий голос, ні п’ятивідсотковий бар’єр у берлінській програмі не згадуються"
       }
     },
     {
@@ -9367,14 +9367,14 @@
     {
       "topicId": "party-donations-lobbying-and-transparency",
       "partyId": "fdp",
-      "stance": "mixed",
+      "stance": "for",
       "summary": {
-        "en": "Donations are not addressed; Transparenzgesetz is mentioned as a useful tool alongside comprehensive digitalization",
-        "de": "Spenden sind kein Thema; das Transparenzgesetz wird zusammen mit umfassender Digitalisierung als nützliches Instrument erwähnt",
-        "ru": "пожертвования не тема; Transparenzgesetz упоминается как полезный инструмент вместе со сплошной цифровизацией",
-        "tr": "Bağışlara değinilmez; Transparenzgesetz kapsamlı dijitalleşmenin yanında yararlı bir araç olarak anılır",
-        "pl": "Darowizny nie są poruszane; Transparenzgesetz wspomniana jako użyteczne narzędzie obok kompleksowej cyfryzacji",
-        "uk": "Пожертви не адресні; Transparenzgesetz згадується як корисний інструмент поряд із комплексною цифровізацією"
+        "en": "Transparenzgesetz as a tool with full digitalization of services; Open Data and data-driven steering — no separate party-donation rules",
+        "de": "Transparenzgesetz als Hilfsmittel neben flächendeckender Digitalisierung; Open Data und datengetriebene Steuerung – keine gesonderten Parteispendenregeln",
+        "ru": "Transparenzgesetz как инструмент вместе с полной цифровизацией услуг; Open Data и управление на данных — отдельных правил партийных пожертвований нет",
+        "tr": "hizmetlerin tam dijitalleşmesiyle birlikte Transparenzgesetz; Open Data ve veri odaklı yönetim — ayrı parti bağışı kuralı yok",
+        "pl": "Transparenzgesetz wraz z pełną cyfryzacją usług; Open Data i sterowanie danymi — brak osobnych reguł darowizn partyjnych",
+        "uk": "Transparenzgesetz разом із повною цифровізацією послуг; Open Data і управління на даних — окремих правил партійних пожертв немає"
       }
     },
     {
