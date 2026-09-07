@@ -162,7 +162,7 @@
       "id": "new-u-bahn-construction-line-extensions",
       "group": "transport",
       "label": {
-        "en": "New U-Bahn construction / line extensions",
+        "en": "New U-Bahn lines / extensions",
         "de": "U-Bahn-Neubau / Streckenverlängerungen",
         "ru": "Общественный транспорт: U-Bahn, S-Bahn, Bus, Tram",
         "tr": "Yeni U-Bahn inşaatı / hat uzatmaları",
@@ -198,7 +198,7 @@
       "id": "ev-charging",
       "group": "transport",
       "label": {
-        "en": "EV charging",
+        "en": "EV charging stations",
         "de": "Ladestationen für E-Autos",
         "ru": "Зарядки для электромобилей",
         "tr": "Elektrikli araç şarjı",
@@ -210,7 +210,7 @@
       "id": "tempelhofer-feld-development-edge-development",
       "group": "housing",
       "label": {
-        "en": "Tempelhofer Feld development / “edge development”",
+        "en": "Tempelhofer Feld development / edge development",
         "de": "Bebauung Tempelhofer Feld / „Randbebauung“",
         "ru": "Tempelhofer Feld застройка / «застройка по краям»",
         "tr": "Tempelhofer Feld’in imarı / kenar imarı (Randbebauung)",
@@ -222,7 +222,7 @@
       "id": "large-scale-tree-planting-and-or-tree-care",
       "group": "climate_energy",
       "label": {
-        "en": "Large-scale tree planting and/or tree care",
+        "en": "Large-scale tree planting and care",
         "de": "Baumpflanzung und Baumpflege in großem Stil",
         "ru": "Массовая посадка деревьев и/или уход за деревьями",
         "tr": "Geniş ölçekli ağaçlandırma ve/veya ağaç bakımı",
@@ -234,7 +234,7 @@
       "id": "heat-protection",
       "group": "climate_energy",
       "label": {
-        "en": "Heat protection",
+        "en": "Heat protection (extreme heat)",
         "de": "Hitzeschutz",
         "ru": "Hitzeschutz / защита от жары",
         "tr": "Aşırı sıcağa karşı koruma",
@@ -282,7 +282,7 @@
       "id": "cleanliness-enforcement-litter",
       "group": "waste",
       "label": {
-        "en": "Cleanliness / enforcement / litter",
+        "en": "Cleanliness / enforcement / littering",
         "de": "Sauberkeit / Kontrolle / Vermüllung",
         "ru": "Чистота / контроль / мусор",
         "tr": "Temizlik / yaptırım / çöp",
@@ -354,7 +354,7 @@
       "id": "heating-supply-networks-decarbonization-and-or-transformation",
       "group": "climate_energy",
       "label": {
-        "en": "Heating supply / networks: decarbonization and/or transformation",
+        "en": "Heating networks: decarbonization and transformation",
         "de": "Wärmeversorgung / Netze: Dekarbonisierung und/oder Transformation",
         "ru": "Теплоснабжение / сети: декарбонизация и/или трансформация",
         "tr": "Isıtma arzı / şebekeler: karbonsuzlaştırma ve/veya dönüşüm",
@@ -414,7 +414,7 @@
       "id": "housing-socialization-of-large-landlords",
       "group": "housing",
       "label": {
-        "en": "Housing: socialization of large landlords",
+        "en": "Housing: socialization of large housing companies",
         "de": "Wohnen: Vergesellschaftung großer Wohnungskonzerne",
         "ru": "Жильё: обобществление крупных владельцев",
         "tr": "Konut: büyük konut şirketlerinin toplumsallaştırılması",
@@ -450,7 +450,7 @@
       "id": "housing-ownership-conversion-of-rental-apartments-into-condominiums-evic",
       "group": "housing",
       "label": {
-        "en": "Housing: ownership, conversion of rental apartments into condominiums, eviction for “personal use”",
+        "en": "Housing: ownership, condo conversions, eviction for “personal use”",
         "de": "Wohnen: Eigentum, Umwandlung von Miet- in Eigentumswohnungen, Eigenbedarfskündigungen",
         "ru": "Жильё: собственность, перевод съёмных квартир в собственность, выселение «для собственных нужд»",
         "tr": "Konut: mülkiyet, kiralık dairelerin kat mülkiyetine dönüştürülmesi, „kişisel kullanım“ nedeniyle tahliye",
@@ -510,7 +510,7 @@
       "id": "security-suspicionless-checks-and-controversial-powers",
       "group": "security",
       "label": {
-        "en": "Security: suspicionless checks and controversial powers",
+        "en": "Security: checks without suspicion and controversial powers",
         "de": "Sicherheit: anlasslose Kontrollen und umstrittene Befugnisse",
         "ru": "Безопасность: проверки без повода и спорные полномочия",
         "tr": "Güvenlik: sebepsiz kontroller ve tartışmalı yetkiler",
@@ -594,7 +594,7 @@
       "id": "shortage-of-qualified-professionals",
       "group": "education",
       "label": {
-        "en": "Shortage of qualified professionals",
+        "en": "Shortage of skilled workers",
         "de": "Fachkräftemangel",
         "ru": "Нехватка квалифицированных специалистов",
         "tr": "Nitelikli uzman sıkıntısı",
@@ -642,7 +642,7 @@
       "id": "healthcare-hospitals-and-neighborhood-care",
       "group": "health",
       "label": {
-        "en": "Healthcare: hospitals and neighborhood care",
+        "en": "Health: hospitals and neighborhood care",
         "de": "Gesundheit: Krankenhäuser und wohnortnahe Versorgung",
         "ru": "Медицина: больницы и районная помощь",
         "tr": "Sağlık: hastaneler ve semtte sağlık hizmeti",
@@ -654,7 +654,7 @@
       "id": "healthcare-mental-health",
       "group": "health",
       "label": {
-        "en": "Healthcare: mental health",
+        "en": "Health: mental health",
         "de": "Gesundheit: psychische Gesundheit",
         "ru": "Медицина: психическое здоровье",
         "tr": "Sağlık: ruh sağlığı",
@@ -810,7 +810,7 @@
       "id": "social-affairs-poverty-income",
       "group": "society",
       "label": {
-        "en": "Social affairs, poverty, income",
+        "en": "Social policy, poverty, income",
         "de": "Soziales, Armut, Einkommen",
         "ru": "Соцсфера, бедность, доходы",
         "tr": "Sosyal politikalar, yoksulluk, gelir",
@@ -858,7 +858,7 @@
       "id": "women-s-rights-and-prevention-of-domestic-violence",
       "group": "democracy",
       "label": {
-        "en": "Women’s rights and prevention of domestic violence",
+        "en": "Women’s rights and protection from domestic violence",
         "de": "Frauenrechte und Schutz vor häuslicher Gewalt",
         "ru": "Права женщин и профилактика домашнего насилия",
         "tr": "Kadın hakları ve aile içi şiddetin önlenmesi",
@@ -921,7 +921,7 @@
       "partyId": "cdu",
       "stance": "mixed",
       "summary": {
-        "en": "no explicit target; focus on an “efficient and affordable” climate policy, decarbonizing district heating and energy grids, but oppose strict obligations and shutting down the gas network",
+        "en": "no clear target; emphasis on an “efficient and affordable” climate policy, decarbonizing district heating and energy grids, but oppose strict obligations and shutting down the gas network",
         "de": "kein klares Ziel; Schwerpunkt: eine „effiziente und bezahlbare“ Klimapolitik, Dekarbonisierung von Fernwärme und Energienetzen, aber gegen strenge Verpflichtungen und die Abschaltung des Gasnetzes",
         "ru": "цель в явном виде не сформулирована; делают ставку на «эффективный и доступный» климатический курс, декарбонизацию централизованное теплоснабжение энергосетей, но против жестких обязательств и отключения газовой сети",
         "tr": "açık hedef yok; “verimli ve uygun maliyetli” iklim politikasına odak; merkezi ısıtma ve enerji şebekelerinin karbonsuzlaştırılması, ancak katı yükümlülüklere ve gaz şebekesinin kapatılmasına karşı",
@@ -933,7 +933,7 @@
       "partyId": "spd",
       "stance": "for",
       "summary": {
-        "en": "climate-neutral Berlin by 2045; implement the Berlin Energy Transition Act; “Out of oil and gas. Into sun, wind, and other renewables”",
+        "en": "climate-neutral Berlin by 2045; put in place the Berlin Energy Transition Act; “Out of oil and gas. Into sun, wind, and other renewables”",
         "de": "klimaneutrales Berlin bis 2045; Berliner Energiewendegesetz umsetzen; „Raus aus Öl und Gas. Rein in Sonne, Wind und andere Erneuerbare“",
         "ru": "климатически нейтральный Берлин до 2045; выполнение Berliner Energiewendegesetz; «Raus aus Öl und Gas. Rein in Sonne, Wind und andere Erneuerbare»",
         "tr": "2045’e kadar iklim nötr Berlin; Berlin Enerji Dönüşümü Yasası’nı uygulamak; “Yağ ve gazdan çık. Güneşe, rüzgâra ve diğer yenilenebilirlere geç”",
@@ -945,7 +945,7 @@
       "partyId": "gruene",
       "stance": "for",
       "summary": {
-        "en": "goal: climate-neutral Berlin by 2040; climate check for laws and measures; implement the Berlin Climate Protection Act, with mandatory action programs if targets are missed",
+        "en": "goal: climate-neutral Berlin by 2040; climate check for laws and measures; put in place the Berlin Climate Protection Act, with mandatory action programs if targets are missed",
         "de": "Ziel: klimaneutrales Berlin bis 2040; Klima-Check für Gesetze und Maßnahmen; Berliner Klimaschutzgesetz umsetzen, bei Zielverfehlung verpflichtende Aktionsprogramme",
         "ru": "цель — климатическая нейтральность до 2040; Klima‑Check для законов и мер; выполнение Berliner Klimaschutzgesetz, при невыполнении целей — обязательные программы мер",
         "tr": "hedef: 2040’a kadar iklim nötr Berlin; yasa ve önlemler için iklim denetimi; Berlin İklim Koruma Yasası’nı uygulamak, hedefler kaçırılırsa zorunlu eylem programları",
@@ -1185,7 +1185,7 @@
       "partyId": "gruene",
       "stance": "mixed",
       "summary": {
-        "en": "streets safer and fairer in how space is distributed; more Tempo 30, traffic calming, safe school zones; focus on repair and transformation, not on new motorways",
+        "en": "streets safer and fairer in how space is distributed; more Tempo 30, traffic calming, safe school zones; emphasis on repair and transformation, not on new motorways",
         "de": "Straßen sicherer und gerechter bei der Flächenverteilung; mehr Tempo 30, Verkehrsberuhigung, sichere Schulwege; Schwerpunkt auf Sanierung und Umbau, nicht auf neue Autobahnen",
         "ru": "сделать улицы безопаснее и справедливее по распределению пространства; больше Tempo 30, успокоение трафика, безопасные школьные зоны; фокус на ремонте и трансформации, не на новых автобанах",
         "tr": "sokaklar daha güvenli ve alan dağılımında daha adil; daha fazla Tempo 30, trafik sakinleştirme, güvenli okul bölgeleri; odak onarım ve dönüşüm, yeni otoyollar değil",
@@ -1197,7 +1197,7 @@
       "partyId": "linke",
       "stance": "mixed",
       "summary": {
-        "en": "against new motorways; focus on repairing roads and bridges, coordinating construction sites, in conflicts, priority for the environmental transport network; new road plans only where they serve the public good",
+        "en": "against new motorways; emphasis on repairing roads and bridges, coordinating construction sites, in conflicts, priority for the environmental transport network; new road plans only where they serve the public good",
         "de": "gegen neue Autobahnen; Schwerpunkt auf Sanierung von Straßen und Brücken, Baustellenkoordination; bei Konflikten Vorrang für das Umweltverbund-Netz; neue Straßenplanungen nur, wo sie dem Gemeinwohl dienen",
         "ru": "против новых автобанов; фокус на ремонте дорог и мостов, координации стройплощадок, при конфликте — приоритет окружающей среды; новые дорожные планы только с общественной пользой",
         "tr": "yeni otoyollara karşı; odak yol ve köprü onarımı, şantiye koordinasyonu; çatışmalarda öncelik çevreci ulaşım ağına; yeni yol planları yalnızca kamu yararına hizmet ettiğinde",
@@ -1245,7 +1245,7 @@
       "partyId": "volt",
       "stance": "mixed",
       "summary": {
-        "en": "focus on safe streets, Vision Zero, reducing through traffic and faster completion of road/sidewalk worksites",
+        "en": "emphasis on safe streets, Vision Zero, reducing through traffic and faster completion of road/sidewalk worksites",
         "de": "Schwerpunkt auf sichere Straßen, Vision Zero, weniger Durchgangsverkehr und schnellere Fertigstellung von Straßen-/Gehwegbaustellen",
         "ru": "фокус на безопасных улицах, Vision Zero, снижении транзитного трафика и более быстром завершении дорожных/тротуарных стройплощадок",
         "tr": "odak güvenli sokaklar, Vision Zero, transit trafiği azaltmak ve yol/kaldırım şantiyelerini daha hızlı bitirmek",
@@ -1269,7 +1269,7 @@
       "partyId": "oedp",
       "stance": "mixed",
       "summary": {
-        "en": "prioritize mobility projects by environmental and public benefit; less car traffic",
+        "en": "give priority to mobility projects by environmental and public benefit; less car traffic",
         "de": "Mobilitätsprojekte nach Umwelt- und Gemeinwohlnutzen priorisieren; weniger Autoverkehr",
         "ru": "приоритет проектов мобильности по экологической и общественной пользе; меньше автотрафика",
         "tr": "hareketlilik projelerini çevresel ve kamu yararına göre önceliklendirmek; daha az araba trafiği",
@@ -1953,7 +1953,7 @@
       "partyId": "bsw",
       "stance": "for",
       "summary": {
-        "en": "implement the tree initiative as a real tree-planting offensive: reliable funding, new planting and care; green roofs, facades, and courtyards as standard for new buildings",
+        "en": "put in place the tree initiative as a real tree-planting offensive: reliable funding, new planting and care; green roofs, facades, and courtyards as standard for new buildings",
         "de": "Bauminitiative als echte Pflanzoffensive umsetzen: verlässliche Finanzierung, Neupflanzung und Pflege; Gründächer, Fassaden und Höfe als Standard bei Neubauten",
         "ru": "выполнить народную инициативу о деревьях (Baumbegehren) как реальную программу масштабных посадок деревьев: надежное финансирование, новые посадки и уход; крыши, фасады и дворы озеленять как правило для новостроек",
         "tr": "ağaç girişimini gerçek bir ağaç dikim ofansifi olarak uygulamak: güvenilir finansman, yeni dikim ve bakım; yeşil çatılar, cepheler ve avlular yeni binalarda standart",
@@ -2001,7 +2001,7 @@
       "partyId": "cdu",
       "stance": "for",
       "summary": {
-        "en": "implement Climate Adaptation Act; heat protection take into account in planning; more street trees; drinking water and fountains",
+        "en": "put in place Climate Adaptation Act; heat protection take into account in planning; more street trees; drinking water and fountains",
         "de": "Klimaanpassungsgesetz umsetzen; Hitzeschutz in der Planung berücksichtigen; mehr Straßenbäume; Trinkwasser und Brunnen",
         "ru": "выполнить Klimaanpassungsgesetz; Hitzeschutz учитывать в планировании; больше уличных деревьев; питьевая вода и фонтаны",
         "tr": "İklim Uyum Yasası’nı uygulamak; planlamada aşırı sıcak korumasını dikkate almak; daha fazla sokak ağacı; içme suyu ve çeşmeler",
@@ -2277,7 +2277,7 @@
       "partyId": "linke",
       "stance": "mixed",
       "summary": {
-        "en": "no separate Zero Waste strategy; focus on public waste management “from a single source”, cheap/low-threshold disposal and mobile recycling stations",
+        "en": "no separate Zero Waste strategy; emphasis on public waste management “from a single source”, cheap/low-threshold disposal and mobile recycling stations",
         "de": "keine eigene Zero-Waste-Strategie; Schwerpunkt auf öffentliche Abfallwirtschaft „aus einer Hand“, günstige/niedrigschwellige Entsorgung und mobile Recyclingstationen",
         "ru": "отдельной стратегии Zero Waste нет; акцент на общественной системе обращения с отходами «из одних рук», дешевой/низкопороговой утилизации и мобильных пунктах приёма вторсырья",
         "tr": "ayrı bir Zero Waste stratejisi yok; odak “tek kaynaktan” kamusal atık yönetimi, ucuz/düşük eşikli imha ve mobil geri dönüşüm istasyonları",
@@ -2529,7 +2529,7 @@
       "partyId": "fdp",
       "stance": "for",
       "summary": {
-        "en": "more bins and more frequent collection in parks; underground containers as standard; cleaning robots; digital fill-level sensors; public-order offices prioritize illegal dumping",
+        "en": "more bins and more frequent collection in parks; underground containers as standard; cleaning robots; digital fill-level sensors; public-order offices give priority to illegal dumping",
         "de": "mehr Behälter und häufigere Leerung in Parks; Unterflurcontainer als Standard; Reinigungsroboter; digitale Füllstandssensoren; Ordnungsämter priorisieren illegale Ablagerungen",
         "ru": "больше урн и частоты вывоза в парках; подземные контейнеры как стандарт; роботы для уборки; цифровые датчики заполнения; Ordnungsämter приоритизируют незаконный мусор",
         "tr": "parklarda daha fazla çöp kutusu ve daha sık toplama; standart olarak yeraltı konteynerler; temizlik robotları; dijital doluluk sensörleri; kamu düzeni ofisleri yasadışı dökümü önceliklendirsin",
@@ -2817,7 +2817,7 @@
       "partyId": "tierschutz",
       "stance": "for",
       "summary": {
-        "en": "implement 8 wind-energy sites in Berlin, including Tegel, Gatow and Müggelheim; participation of residents, cooperatives, and municipal utilities in revenues",
+        "en": "put in place 8 wind-energy sites in Berlin, including Tegel, Gatow and Müggelheim; participation of residents, cooperatives, and municipal utilities in revenues",
         "de": "8 Windenergiestandorte in Berlin umsetzen, darunter Tegel, Gatow und Müggelheim; Beteiligung von Anwohnern, Genossenschaften und Stadtwerken an Erlösen",
         "ru": "реализовать 8 ветроэнергетических площадок в Berlin, включая Tegel, Gatow и Müggelheim; участие жителей, кооперативов и коммунальных компаний в доходах",
         "tr": "Berlin’de Tegel, Gatow ve Müggelheim dahil 8 rüzgâr enerjisi sahasını uygulamak; sakinler, kooperatifler ve belediye enerji şirketlerinin gelirlere katılımı",
@@ -3129,7 +3129,7 @@
       "partyId": "fdp",
       "stance": "mixed",
       "summary": {
-        "en": "separate focus on heat pumps was not found in the reviewed excerpts; focus on geothermal energy, technology openness and smart heating grids",
+        "en": "separate focus on heat pumps was not found in the reviewed excerpts; emphasis on geothermal energy, technology openness and smart heating grids",
         "de": "eigener Schwerpunkt auf Wärmepumpen in den geprüften Auszügen nicht gefunden; Schwerpunkt auf Geothermie, Technologieoffenheit und intelligente Wärmenetze",
         "ru": "отдельного фокуса на тепловых насосах нет; ставка на геотермию, технологическую открытость и умные теплосети",
         "tr": "incelenen alıntılarda ısı pompalarına ayrı odak bulunamadı; odak jeotermal enerji, teknoloji açıklığı ve akıllı ısıtma şebekeleri",
@@ -3837,7 +3837,7 @@
       "partyId": "linke",
       "stance": "for",
       "summary": {
-        "en": "implement the “Deutsche Wohnen & Co enteignen” referendum result (59.1%, 220,000 apartments) through a socialization law",
+        "en": "put in place the “Deutsche Wohnen & Co enteignen” referendum result (59.1%, 220,000 apartments) through a socialization law",
         "de": "Ergebnis des Volksentscheids „Deutsche Wohnen & Co enteignen“ (59.1%, 220,000 Wohnungen) durch ein Vergesellschaftungsgesetz umsetzen",
         "ru": "выполнить референдум «Deutsche Wohnen & Co enteignen» (59,1 %, 220 000 квартир) через закон об обобществлении",
         "tr": "“Deutsche Wohnen & Co enteignen” referandum sonucunu (59,1 %, 220.000 daire) sosyalleştirme yasasıyla uygulamak",
@@ -3873,7 +3873,7 @@
       "partyId": "bsw",
       "stance": "for",
       "summary": {
-        "en": "implement the “Deutsche Wohnen & Co. enteignen” referendum; for prolonged vacancy without a compelling reason, consider trustee-managed renting through the district, while “socialization remains the last resort”",
+        "en": "put in place the “Deutsche Wohnen & Co. enteignen” referendum; for prolonged vacancy without a compelling reason, consider trustee-managed renting through the district, while “socialization remains the last resort”",
         "de": "Volksentscheid „Deutsche Wohnen & Co. enteignen“ umsetzen; bei längerem Leerstand ohne zwingenden Grund treuhänderische Vermietung über den Bezirk prüfen, wobei „als letztes Mittel auch die Vergesellschaftung bleibt“",
         "ru": "выполнить референдум «Deutsche Wohnen & Co. enteignen»; при длительном простое без веской причины — проверять доверительную сдачу через район, а «как последнее средство остаётся и обобществление»",
         "tr": "“Deutsche Wohnen & Co. enteignen” referandumunu uygulamak; zorlayıcı neden olmadan uzun süre boş kalan ilçe üzerinden kayyum yönetimli kiralama düşünmek, “sosyalleştirme son çare olarak kalır”",
@@ -3897,7 +3897,7 @@
       "partyId": "tierschutz",
       "stance": "for",
       "summary": {
-        "en": "socialize large housing portfolios under Article 15 GG; several legal opinions confirm constitutionality; implement the “Deutsche Wohnen und Co. enteignen” referendum, with transfer to socially oriented management providing stable prices, stopping displacement, and creating democratic control",
+        "en": "socialize large housing portfolios under Article 15 GG; several legal opinions confirm constitutionality; put in place the “Deutsche Wohnen und Co. enteignen” referendum, with transfer to socially oriented management providing stable prices, stopping displacement, and creating democratic control",
         "de": "große Wohnungsbestände nach Artikel 15 GG vergesellschaften; mehrere Rechtsgutachten bestätigen die Verfassungsmäßigkeit; Volksentscheid „Deutsche Wohnen und Co. enteignen“ umsetzen, Überführung in gemeinwohlorientierte Verwaltung sorgt für stabile Preise, stoppt Verdrängung und schafft demokratische Kontrolle",
         "ru": "крупные жилищные фонды обобществить по ст. 15 GG — несколько юридических экспертиз подтверждают конституционность; референдум «Deutsche Wohnen und Co. enteignen» выполнить, перевод в общественно ориентированное управление даёт стабильные цены, останавливает вытеснение и создаёт демократический контроль",
         "tr": "Madde 15 GG altında büyük konut portföylerini sosyalleştirmek; birkaç hukuki görüş anayasaya uygunluğu teyit eder; “Deutsche Wohnen und Co. enteignen” referandumunu uygulamak, sosyal odaklı yönetime devirle istikrarlı fiyatlar, yerinden edilmeyi durdurmak ve demokratik kontrol",
@@ -4293,7 +4293,7 @@
       "partyId": "spd",
       "stance": "mixed",
       "summary": {
-        "en": "no separate first-purchase tax allowance in the program; focus on tenant protection, banning the conversion of rental apartments into condominiums, and limiting evictions for “personal use”",
+        "en": "no separate first-purchase tax allowance in the program; emphasis on tenant protection, banning the conversion of rental apartments into condominiums, and limiting evictions for “personal use”",
         "de": "Kein gesonderter Steuerfreibetrag für den Erstkauf im Programm; Schwerpunkt auf Mieterschutz, Verbot der Umwandlung von Miet- in Eigentumswohnungen und Begrenzung von Eigenbedarfskündigungen",
         "ru": "отдельной льготы по налогу на первую покупку в программе нет; фокус на защите арендаторов, запрете перевода съёмных квартир в собственность и ограничении выселений «для собственных нужд»",
         "tr": "programda ayrı ilk alım vergi istisnası yok; odak kiracı koruması, kiralık dairelerin mülkiyete dönüşümünü yasaklamak ve “kişisel kullanım” tahliyelerini sınırlamak",
@@ -4305,7 +4305,7 @@
       "partyId": "gruene",
       "stance": "mixed",
       "summary": {
-        "en": "no separate first-purchase tax allowance; focus on stopping the conversion of rental apartments into condominiums, controlling evictions for “personal use,” and land for the common good",
+        "en": "no separate first-purchase tax allowance; emphasis on stopping the conversion of rental apartments into condominiums, controlling evictions for “personal use,” and land for the common good",
         "de": "Kein gesonderter Steuerfreibetrag für den Erstkauf; Schwerpunkt auf dem Stopp der Umwandlung von Miet- in Eigentumswohnungen, der Kontrolle von Eigenbedarfskündigungen und gemeinwohlorientierter Bodenpolitik",
         "ru": "отдельной льготы по налогу на первую покупку нет; фокус на остановке перевода съёмных квартир в собственность, контроле выселений «для собственных нужд» и земле для общего блага",
         "tr": "ayrı ilk alım vergi istisnası yok; odak kiralık dairelerin mülkiyete dönüşümünü durdurmak, “kişisel kullanım” tahliyelerini denetlemek ve ortak yarar için arazi",
@@ -4353,7 +4353,7 @@
       "partyId": "bsw",
       "stance": "mixed",
       "summary": {
-        "en": "no separate first-purchase allowance; focus on social housing, municipal housing companies, and banning the conversion of subsidized apartments into condominiums",
+        "en": "no separate first-purchase allowance; emphasis on social housing, municipal housing companies, and banning the conversion of subsidized apartments into condominiums",
         "de": "Kein gesonderter Freibetrag für den Erstkauf; Schwerpunkt auf Sozialwohnungen, landeseigenen Wohnungsunternehmen und dem Verbot, geförderte Wohnungen in Eigentumswohnungen umzuwandeln",
         "ru": "отдельной льготы на первую покупку нет; фокус на социальном жилье, городских жилищных компаниях и запрете перевода субсидируемых квартир в собственность",
         "tr": "ayrı ilk alım istisnası yok; odak sosyal konut, belediye konut şirketleri ve destekli dairelerin mülkiyete dönüşümünü yasaklamak",
@@ -4377,7 +4377,7 @@
       "partyId": "tierschutz",
       "stance": "against",
       "summary": {
-        "en": "focus on protection against converting rental apartments into condominiums and on expanding district-level protection against displacement; no first-purchase benefits proposed",
+        "en": "emphasis on protection against converting rental apartments into condominiums and on expanding district-level protection against displacement; no first-purchase benefits proposed",
         "de": "Schwerpunkt auf dem Schutz vor der Umwandlung von Miet- in Eigentumswohnungen und dem Ausbau des bezirklichen Milieuschutzes; keine Vorteile für den Erstkauf vorgeschlagen",
         "ru": "фокус на защите от перевода съёмных квартир в собственность и расширении районной защиты от вытеснения; льготы на первую покупку не заявлены",
         "tr": "odak kiralık dairelerin mülkiyete dönüşümüne karşı koruma ve ilçe düzeyinde yerinden edilme korumasını genişletmek; ilk alım avantajı önerilmiyor",
@@ -4677,7 +4677,7 @@
       "partyId": "linke",
       "stance": "against",
       "summary": {
-        "en": "against linking police databases with video surveillance and suspicionless checks — this is a “gateway” to racial profiling and discriminatory police action; review the necessity of data retention and access rights to government databases, and give the data-protection commissioner more resources",
+        "en": "against linking police databases with video surveillance and checks without suspicion — this is a “gateway” to racial profiling and discriminatory police action; review the necessity of data retention and access rights to government databases, and give the data-protection commissioner more resources",
         "de": "Gegen die Verknüpfung von Polizeidatenbanken mit Videoüberwachung und anlasslosen Kontrollen — dies ist ein „Einfallstor“ für Racial Profiling und diskriminierendes Polizeihandeln; Notwendigkeit von Datenspeicherung und Zugriffsrechten auf staatliche Datenbanken überprüfen und die Datenschutzbeauftragte personell besser ausstatten",
         "ru": "против связки полицейских баз данных с видеонаблюдением и беспричинными проверками — это «входные ворота» для racial profiling и дискриминационных действий полиции; проверить необходимость хранения данных и права доступа к ведомственным базам, больше средств уполномоченной по защите данных",
         "tr": "polis veri tabanlarını video gözetimi ve sebepsiz kontrollerle bağlamaya karşı — bu ırksal profilleme ve ayrımcı polis eylemine “geçit”; veri saklama ve devlet veri tabanlarına erişim haklarının gerekliliğini gözden geçirmek, veri koruma komiserine daha fazla kaynak vermek",
@@ -4797,7 +4797,7 @@
       "partyId": "linke",
       "stance": "against",
       "summary": {
-        "en": "abolish verdachtsunabhängige Kontrollen: they disproportionately affect young people perceived to have a migrant background; end suspicionless checks in “high-crime locations” and weapons-ban zones — they consume personnel and do not achieve their aim",
+        "en": "abolish verdachtsunabhängige Kontrollen: they disproportionately affect young people perceived to have a migrant background; end checks without suspicion in “high-crime locations” and weapons-ban zones — they consume personnel and do not achieve their aim",
         "de": "Verdachtsunabhängige Kontrollen abschaffen: Sie treffen überproportional häufig junge Menschen, denen ein Migrationshintergrund zugeschrieben wird; anlasslose Kontrollen an „kriminalitätsbelasteten Orten“ und in Waffenverbotszonen beenden — sie binden Personal und erreichen ihr Ziel nicht",
         "ru": "отменить verdachtsunabhängige Kontrollen: они непропорционально часто задевают молодых людей с предполагаемым миграционным происхождением; отказ от беспричинных проверок в «местах с высокой преступностью» и зонах запрета оружия — они кадрозатратны и не ведут к цели",
         "tr": "verdachtsunabhängige Kontrollen'i kaldırmak: göçmen kökenli algılanan gençleri orantısız etkiler; “yüksek suç bölgeleri” ve silah yasak bölgelerinde sebepsiz kontrolleri bitirmek — personel tüketir ve amacına ulaşmaz",
@@ -4821,7 +4821,7 @@
       "partyId": "afd",
       "stance": "for",
       "summary": {
-        "en": "more suspicionless police checks in problem neighborhoods and expanded suspicionless checks in high-crime locations; nighttime curfew for underage Intensivtäter, absolute ban on face coverings at assemblies; ✗ knife-ban zones are “purely symbolic politics”",
+        "en": "more police checks without suspicion in problem neighborhoods and expanded checks without suspicion in high-crime locations; nighttime curfew for underage Intensivtäter, absolute ban on face coverings at assemblies; ✗ knife-ban zones are “purely symbolic politics”",
         "de": "Mehr anlasslose Polizeikontrollen in Problemkiezen und Ausweitung anlassloser Kontrollen an kriminalitätsbelasteten Orten; nächtliche Ausgangssperre für minderjährige Intensivtäter, absolutes Vermummungsverbot bei Versammlungen; ✗ Messerverbotszonen sind „reine Symbolpolitik“",
         "ru": "больше полицейских проверок без повода в проблемных кварталах и расширение беспричинных проверок в местах с высокой преступностью; ночной комендантский час для несовершеннолетних Intensivtäter, абсолютный запрет маскировки на собраниях; ✗ зоны запрета ножей — «чистая символическая политика»",
         "tr": "sorunlu mahallelerde daha fazla sebepsiz polis kontrolü ve yüksek suç bölgelerinda genişletilmiş sebepsiz kontroller; reşit olmayan Intensivtäter için gece sokağa çıkma yasağı, toplantılarda mutlak yüz örtüsü yasağı; ✗ bıçak yasak bölgeleri “salt sembolik siyaset”",
@@ -4833,7 +4833,7 @@
       "partyId": "bsw",
       "stance": "mixed",
       "summary": {
-        "en": "no suspicionless checks in the program; principle — “no blanket surveillance or prejudgment,” with emphasis on police presence and prevention",
+        "en": "no checks without suspicion in the program; principle — “no blanket surveillance or prejudgment,” with emphasis on police presence and prevention",
         "de": "Keine anlasslosen Kontrollen im Programm; Grundsatz — „keine pauschale Überwachung oder Vorverurteilung“, mit Schwerpunkt auf Polizeipräsenz und Prävention",
         "ru": "проверок без повода в программе нет; принцип — «никакой сплошной слежки и предварительного осуждения», ставка на присутствие полиции и профилактику",
         "tr": "programda sebepsiz kontrol yok; ilke — “toplu gözetim veya önyargı yok,” vurgu polis varlığı ve önlemede",
@@ -4845,7 +4845,7 @@
       "partyId": "volt",
       "stance": "mixed",
       "summary": {
-        "en": "no direct position on suspicionless checks; emphasis on prevention, exit programs, and safe public space through lighting and greenery, plus body cameras as a de-escalation tool",
+        "en": "no direct position on checks without suspicion; emphasis on prevention, exit programs, and safe public space through lighting and greenery, plus body cameras as a de-escalation tool",
         "de": "Keine direkte Position zu anlasslosen Kontrollen; Schwerpunkt auf Prävention, Ausstiegsprogrammen und sicherem öffentlichem Raum durch Beleuchtung und Begrünung und Bodycams als Instrument zur Deeskalation",
         "ru": "прямой позиции по беспричинным проверкам нет; акцент на профилактике, программах выхода и безопасном общественном пространстве через освещение и озеленение, плюс бодикамеры как средство деэскалации",
         "tr": "sebepsiz kontrollere doğrudan tutum yok; vurgu önleme, çıkış programları ve aydınlatma ile yeşillikle güvenli kamusal alan, artı de-eskalasyon aracı olarak body kameralar",
@@ -4857,7 +4857,7 @@
       "partyId": "tierschutz",
       "stance": "against",
       "summary": {
-        "en": "end suspicionless checks: police measures must be justified, proportionate, and reviewable; eliminate discriminatory disparities in police practice and ban pain-compliance techniques",
+        "en": "end checks without suspicion: police measures must be justified, proportionate, and reviewable; eliminate discriminatory disparities in police practice and ban pain-compliance techniques",
         "de": "Anlasslose Kontrollen beenden: Polizeiliche Maßnahmen müssen begründet, verhältnismäßig und überprüfbar sein; diskriminierende Ungleichbehandlungen in der Polizeipraxis beseitigen und Schmerzgriffe verbieten",
         "ru": "беспричинные проверки прекратить: полицейские меры должны быть обоснованными, соразмерными и проверяемыми; дискриминирующие различия в полицейской практике устранить, болевые приёмы запретить",
         "tr": "sebepsiz kontrolleri bitirmek: polis önlemleri gerekçeli, orantılı ve denetlenebilir olmalı; polis uygulamasındaki ayrımcı farkları gidermek ve acı zorlama tekniklerini yasaklamak",
@@ -4869,7 +4869,7 @@
       "partyId": "oedp",
       "stance": "mixed",
       "summary": {
-        "en": "suspicionless checks are not addressed in the program; emphasis on equal legal certainty for all neighborhoods",
+        "en": "checks without suspicion are not addressed in the program; emphasis on equal legal certainty for all neighborhoods",
         "de": "Anlasslose Kontrollen werden im Programm nicht behandelt; Schwerpunkt auf gleicher Rechtssicherheit für alle Kieze",
         "ru": "темы беспричинных проверок в программе нет; акцент на равной правовой надёжности для всех кварталов",
         "tr": "sebepsiz kontroller programda ele alınmıyor; vurgu tüm mahalleler için eşit hukuki güvenlik",
@@ -4905,7 +4905,7 @@
       "partyId": "gruene",
       "stance": "mixed",
       "summary": {
-        "en": "Prioritize structural investigations and the “follow the money” approach, link the LKA and public prosecutors, combat money laundering and tax loopholes",
+        "en": "Give priority to structural investigations and the “follow the money” approach, link the LKA and public prosecutors, combat money laundering and tax loopholes",
         "de": "Strukturermittlungen und den Ansatz „Follow the Money“ priorisieren, LKA und Staatsanwaltschaften vernetzen, Geldwäsche und Steuerschlupflöcher bekämpfen",
         "ru": "Приоритет структурным расследованиям и подходу «follow the money», связка LKA и прокуратуры, борьба с отмыванием и налоговыми лазейками",
         "tr": "Yapısal soruşturmalara ve “parayı takip et” yaklaşımına öncelik, LKA ile savcılığı bağlamak, kara para aklama ve vergi açıklarıyla mücadele",
@@ -4977,7 +4977,7 @@
       "partyId": "tierschutz",
       "stance": "mixed",
       "summary": {
-        "en": "Pursue organized crime resolutely, but “without placing entire population groups under blanket suspicion”: origin and family affiliation cannot be grounds for state action; focus on dismantling illegal financial and property structures, use a real-estate and assets register against money laundering, plus education, integration, and exit programs",
+        "en": "Pursue organized crime resolutely, but “without placing entire population groups under blanket suspicion”: origin and family affiliation cannot be grounds for state action; emphasis on dismantling illegal financial and property structures, use a real-estate and assets register against money laundering, plus education, integration, and exit programs",
         "de": "Organisierte Kriminalität entschlossen verfolgen, aber „ohne ganze Bevölkerungsgruppen unter Generalverdacht zu stellen“: Herkunft und Familienzugehörigkeit dürfen kein Grund für staatliches Handeln sein; Schwerpunkt auf der Zerschlagung illegaler Finanz- und Eigentumsstrukturen, Einsatz eines Immobilien- und Vermögensregisters gegen Geldwäsche und Bildung, Integration und Ausstiegsprogramme",
         "ru": "Оргпреступность преследовать решительно, но «без генерального подозрения к целым группам населения»: происхождение и семейная принадлежность не могут быть основанием для действий государства; фокус — разрушение нелегальных финансовых и имущественных структур, реестр недвижимости и имущества как инструмент против отмывания денег, плюс образование, интеграция и программы выхода",
         "tr": "Organize suçu kararlılıkla kovuşturmak, ancak “tüm nüfus gruplarını topluca şüphe altına almadan”: köken ve aile bağları devlet eyleminin gerekçesi olamaz; yasadışı mali ve mülk yapılarını çökertmeye odaklanmak, kara para aklamaya karşı gayrimenkul ve varlık sicili ile eğitim, entegrasyon ve çıkış programları",
@@ -5085,7 +5085,7 @@
       "partyId": "volt",
       "stance": "mixed",
       "summary": {
-        "en": "State strategy for queer safety and a concept against far-right extremism, racism, and antisemitism; regional centers for victims of extremist, racist, and anti-queer violence — psychologists, legal assistance, emergency help; electronic ankle monitors for perpetrators of domestic violence and at least 330 additional places in women’s shelters to fully implement the Istanbul Convention; digital sexualized violence as a separate form of violence; the Barnahus model for children and British MARAC",
+        "en": "State strategy for queer safety and a concept against far-right extremism, racism, and antisemitism; regional centers for victims of extremist, racist, and anti-queer violence — psychologists, legal assistance, emergency help; electronic ankle monitors for perpetrators of domestic violence and at least 330 additional places in women’s shelters to fully put in place the Istanbul Convention; digital sexualized violence as a separate form of violence; the Barnahus model for children and British MARAC",
         "de": "Landesstrategie für queere Sicherheit und Konzept gegen Rechtsextremismus, Rassismus und Antisemitismus; regionale Zentren für Opfer extremistischer, rassistischer und queerfeindlicher Gewalt — psychologische und rechtliche Unterstützung, Soforthilfe; elektronische Fußfesseln für Täter häuslicher Gewalt und mindestens 330 zusätzliche Frauenhausplätze zur vollständigen Umsetzung der Istanbul-Konvention; digitale sexualisierte Gewalt als eigenständige Gewaltform; Barnahus-Modell für Kinder und britisches MARAC",
         "ru": "Земельная стратегия квир-безопасности и концепция против правого экстремизма, расизма и антисемитизма; региональные центры для пострадавших от экстремистского, расистского и антиквирного насилия — психологи, юрпомощь, срочная помощь; электронный браслет для виновных в домашнем насилии и минимум 330 дополнительных мест в женских убежищах, чтобы полностью выполнить Истанбульскую конвенцию; цифровое сексуализированное насилие как отдельный вид насилия; модель Barnahus для детей и британские MARAC",
         "tr": "Queer güvenlik için eyalet stratejisi ve aşırı sağ, ırkçılık ile antisemitizme karşı kavram; aşırılıkçı, ırkçı ve queer karşıtı şiddet mağdurları için bölgesel merkezler — psikologlar, hukuki yardım, acil yardım; aile içi şiddet failleri için elektronik ayak bileği monitörleri ve İstanbul Sözleşmesi'ni tam uygulamak için kadın sığınma evlerinde en az 330 ek yer; dijital cinselleştirilmiş şiddet ayrı bir şiddet biçimi olarak; çocuklar için Barnahus modeli ve İngiliz MARAC",
@@ -5541,7 +5541,7 @@
       "partyId": "afd",
       "stance": "mixed",
       "summary": {
-        "en": "In the teacher-training law, shift emphasis from “Diversity,” “Queer,” and “Gender” topics to didactics and practical work; prioritize moving Honorarlehrkräfte into permanent positions without unjustified fixed-term contracts",
+        "en": "In the teacher-training law, shift emphasis from “Diversity,” “Queer,” and “Gender” topics to didactics and practical work; give priority to moving Honorarlehrkräfte into permanent positions without unjustified fixed-term contracts",
         "de": "Im Lehrkräftebildungsgesetz den Schwerpunkt von Themen wie „Diversity“, „Queer“ und „Gender“ auf Didaktik und Praxis verlagern; Übernahme von Honorarlehrkräften in unbefristete Stellen ohne sachgrundlose Befristung priorisieren",
         "ru": "В законе о подготовке учителей сместить акцент с тем «Diversity», «Queer» и «Gender» на дидактику и практику; Honorarlehrkräfte в первую очередь переводить в постоянные ставки без беспричинных срочных договоров",
         "tr": "Öğretmen yetiştirme yasasında vurguyu “Diversity,” “Queer” ve “Gender” konularından didaktik ve uygulamalı çalışmaya kaydırmak; Honorarlehrkräfte'yi haksız süreli sözleşmeler olmadan kadrolu pozisyonlara almak öncelikli",
@@ -5637,7 +5637,7 @@
       "partyId": "linke",
       "stance": "mixed",
       "summary": {
-        "en": "no separate strategy for recruiting specialists from abroad in the fragments found; focus on free education, more public schools, and support for those at risk of being left without a training place",
+        "en": "no separate strategy for recruiting specialists from abroad in the fragments found; emphasis on free education, more public schools, and support for those at risk of being left without a training place",
         "de": "Keine gesonderte Strategie zur Anwerbung von Fachkräften aus dem Ausland in den gefundenen Abschnitten; Schwerpunkt auf kostenloser Bildung, mehr öffentlichen Schulen und Unterstützung für Menschen, denen ein fehlender Ausbildungsplatz droht",
         "ru": "отдельной стратегии привлечения специалистов из-за границы в найденных фрагментах нет; фокус — бесплатное образование, больше общественных школ и поддержка тех, кто рискует остаться без места обучения",
         "tr": "Bulunan parçalarda yurtdışından uzman alımına dair ayrı strateji yok; odak ücretsiz eğitim, daha fazla kamu okulu ve eğitim yeri bulamama riski altındakilere destek",
@@ -5901,7 +5901,7 @@
       "partyId": "afd",
       "stance": "for",
       "summary": {
-        "en": "more university places for doctors and pharmacists; considers cuts at Charité a mistake; focus on training professionals in Berlin rather than recruiting them from abroad",
+        "en": "more university places for doctors and pharmacists; considers cuts at Charité a mistake; emphasis on training professionals in Berlin rather than recruiting them from abroad",
         "de": "mehr Studienplätze für Ärzt:innen und Apotheker:innen; Kürzungen an der Charité gelten als Fehler; Fachkräfte in Berlin ausbilden, statt sie aus dem Ausland abzuwerben",
         "ru": "больше учебных мест для врачей и аптекарей; сокращение мест в Шарите считают ошибкой; ставка на подготовку специалистов в Берлине вместо переманивания из-за рубежа",
         "tr": "Doktor ve eczacılar için daha fazla üniversite yeri; Charité'deki kesintileri hata sayıyor; yurtdışından almak yerine Berlin'de profesyonel yetiştirmeye odak",
@@ -5913,7 +5913,7 @@
       "partyId": "bsw",
       "stance": "mixed",
       "summary": {
-        "en": "no separate major program for universities; focus on high-quality school education, workforce training, jobs, and criticism of reorienting the economy toward defense",
+        "en": "no separate major program for universities; emphasis on high-quality school education, workforce training, jobs, and criticism of reorienting the economy toward defense",
         "de": "kein eigenes umfassendes Hochschulprogramm; Schwerpunkt auf hochwertiger Schulbildung, Fachkräfteausbildung, Arbeitsplätzen und Kritik an der Ausrichtung der Wirtschaft auf Verteidigung",
         "ru": "отдельной большой программы по вузам нет; акцент на качественном школьном образовании, подготовке кадров, рабочих местах и критике переориентации экономики на оборонку",
         "tr": "Üniversiteler için ayrı büyük program yok; odak yüksek nitelikli okul eğitimi, işgücü eğitimi, işler ve ekonomiyi savunmaya yönlendirme eleştirisi",
@@ -5961,7 +5961,7 @@
       "partyId": "cdu",
       "stance": "for",
       "summary": {
-        "en": "recognize foreign qualifications faster, less bureaucracy for professionals, digital and medical skills; focus on personnel for administration, education, security, care, and the economy of the future",
+        "en": "recognize foreign qualifications faster, less bureaucracy for professionals, digital and medical skills; emphasis on personnel for administration, education, security, care, and the economy of the future",
         "de": "ausländische Abschlüsse schneller anerkennen, weniger Bürokratie für Fachkräfte, digitale und medizinische Kompetenzen; Schwerpunkt auf Personal für Verwaltung, Bildung, Sicherheit, Pflege und die Wirtschaft der Zukunft",
         "ru": "быстрее признавать иностранные дипломы, меньше бюрократии для специалистов, цифровые и медицинские компетенции; упор на кадры для администрации, образования, безопасности, ухода и экономики будущего",
         "tr": "Yabancı nitelikleri daha hızlı tanımak, profesyoneller için daha az bürokrasi, dijital ve tıbbi beceriler; odak idare, eğitim, güvenlik, bakım ve geleceğin ekonomisi için personel",
@@ -6021,7 +6021,7 @@
       "partyId": "afd",
       "stance": "mixed",
       "summary": {
-        "en": "almost no separate continuing-education program; focus on training professionals within Berlin, new university places for doctors and pharmacists, and rejecting the “poaching” of workers from abroad",
+        "en": "almost no separate continuing-education program; emphasis on training professionals within Berlin, new university places for doctors and pharmacists, and rejecting the “poaching” of workers from abroad",
         "de": "kaum ein eigenes Weiterbildungsprogramm; Schwerpunkt auf der Ausbildung von Fachkräften in Berlin, neuen Studienplätzen für Ärzt:innen und Apotheker:innen und der Ablehnung des „Abwerbens“ von Fachkräften aus dem Ausland",
         "ru": "отдельной программы повышения квалификации почти нет; акцент на подготовке специалистов внутри Берлина, новых учебных местах для врачей и аптекарей и отказе от «переманивания» кадров из-за рубежа",
         "tr": "Neredeyse ayrı bir sürekli eğitim programı yok; odak Berlin içinde profesyonel yetiştirmek, doktor ve eczacılar için yeni üniversite yerleri ve yurtdışından “işçi kapmaya” karşı olmak",
@@ -6273,7 +6273,7 @@
       "partyId": "bsw",
       "stance": "mixed",
       "summary": {
-        "en": "Loneliness as a political task: neighborhood centers, community projects, and measures against isolation (affecting older and younger people as well as homeless people); separate shelters for people with addictions because homelessness intensifies mental strain",
+        "en": "Loneliness as a political task: neighborhood centers, community projects, and measures against isolation (affecting older and younger people and homeless people); separate shelters for people with addictions because homelessness intensifies mental strain",
         "de": "Einsamkeit als politische Aufgabe: Stadtteilzentren, Nachbarschaftsprojekte und Maßnahmen gegen Isolation (betroffen sind ältere und junge Menschen und Wohnungslose); eigene Unterkünfte für Menschen mit Abhängigkeitserkrankungen, weil Wohnungslosigkeit psychische Belastungen verstärkt",
         "ru": "Одиночество как политическая задача: районные центры, проекты соседства и меры против изоляции (страдают и пожилые, и молодые, и бездомные); отдельные приюты для зависимых, потому что бездомность усиливает психические нагрузки",
         "tr": "Yalnızlık siyasi görev olarak: mahalle merkezleri, topluluk projeleri ve izolasyona karşı önlemler (yaşlılar, gençler ve evsizler de dahil); evsizlik ruhsal yükü artırdığı için bağımlılığı olanlara ayrı barınaklar",
@@ -6441,7 +6441,7 @@
       "partyId": "cdu",
       "stance": "against",
       "summary": {
-        "en": "against legalizing “hard” drugs and against crack Konsumräume; focus on suppressing drug trafficking — an anonymous electronic reporting system, prison searches with dogs, special units against digital drug trafficking; support for people with addictions is mentioned only as part of social infrastructure",
+        "en": "against legalizing “hard” drugs and against crack Konsumräume; emphasis on suppressing drug trafficking — an anonymous electronic reporting system, prison searches with dogs, special units against digital drug trafficking; support for people with addictions is mentioned only as part of social infrastructure",
         "de": "gegen die Legalisierung „harter“ Drogen und gegen Crack-Konsumräume; Schwerpunkt auf der Bekämpfung des Drogenhandels — anonymes elektronisches Meldesystem, Gefängnisdurchsuchungen mit Hunden, Spezialeinheiten gegen digitalen Drogenhandel; Hilfe für Abhängige wird nur als Teil der sozialen Infrastruktur erwähnt",
         "ru": "против легализации «тяжёлых» наркотиков и против крэк-Konsumräume; ставка на подавление наркоторговли — анонимная электронная система сообщений, обыски в тюрьмах с собаками, спецподразделения против цифровой наркоторговли; помощь зависимым упомянута только как часть социальной инфраструктуры",
         "tr": "“Sert” uyuşturucuların yasallaştırılmasına ve crack Konsumräume'ye karşı; odak uyuşturucu ticaretini bastırmak — anonim elektronik ihbar sistemi, köpeklerle cezaevi aramaları, dijital uyuşturucu ticaretine karşı özel birimler; bağımlılara destek yalnızca sosyal altyapının parçası olarak geçiyor",
@@ -6549,7 +6549,7 @@
       "partyId": "oedp",
       "stance": "mixed",
       "summary": {
-        "en": "focus on prevention: Berlin as a model for protection of non-smokers and addiction prevention, ban alcohol advertising in public spaces and media, remove tobacco and alcohol from checkout areas, and extend strict rules to Shisha bars; Konsumräume, Drug-Checking, and legalization are not mentioned",
+        "en": "emphasis on prevention: Berlin as a model for protection of non-smokers and addiction prevention, ban alcohol advertising in public spaces and media, remove tobacco and alcohol from checkout areas, and extend strict rules to Shisha bars; Konsumräume, Drug-Checking, and legalization are not mentioned",
         "de": "Schwerpunkt auf Prävention: Berlin als Vorbild beim Nichtraucherschutz und bei der Suchtprävention, Alkoholwerbung im öffentlichen Raum und in Medien verbieten, Tabak und Alkohol aus Kassenzonen entfernen und strenge Regeln auf Shisha-Bars ausweiten; Konsumräume, Drug-Checking und Legalisierung werden nicht erwähnt",
         "ru": "ставка на профилактику: Берлин как образец в защите некурящих и профилактике зависимостей, запрет рекламы алкоголя в общественном пространстве и медиа, табак и алкоголь убрать из прикассовых зон, строгие правила распространить и на Shisha-бары; о Konsumräume, Drug-Checking и легализации ничего нет",
         "tr": "Önlemeye odak: Berlin sigara içmeyenleri koruma ve bağımlılık önlemede model, kamusal alan ve medyada alkol reklamını yasaklamak, tütün ve alkolü kasa bölgelerinden kaldırmak ve sıkı kuralları Shisha barlarına da yaymak; Konsumräume, Drug-Checking ve yasallaştırma anılmıyor",
@@ -6621,7 +6621,7 @@
       "partyId": "afd",
       "stance": "mixed",
       "summary": {
-        "en": "Immediate stop to accepting asylum seekers in Berlin and an end to the voluntary admission of people brought in illegally; transform LEA into an “authority for entry, asylum, and remigration,” prioritizing returns, a Dublin departure center, and full transparency regarding spending on asylum policy",
+        "en": "Immediate stop to accepting asylum seekers in Berlin and an end to the voluntary admission of people brought in illegally; transform LEA into an “authority for entry, asylum, and remigration,” prioritizing returns, a Dublin departure center, and full transparency on spending on asylum policy",
         "de": "Sofortiger Aufnahmestopp für Asylsuchende in Berlin und Ende der freiwilligen Aufnahme illegal Eingereister; LEA in ein „Amt für Einwanderung, Asyl und Remigration“ mit Vorrang für Rückführungen umwandeln, Dublin-Ausreisezentrum und vollständige Transparenz der Ausgaben für Asylpolitik",
         "ru": "Немедленный стоп приёму соискателей убежища в Берлине и конец добровольному приёму нелегально ввезённых; LEA переделать в «ведомство по въезду, убежищу и ремиграции» с приоритетом на возвращение, центр выезда по Дублину и полная прозрачность расходов на политику убежища",
         "tr": "Berlin'de sığınmacı kabulünü derhal durdurmak ve yasadışı getirilenlerin gönüllü kabulüne son vermek; LEA'yı “giriş, sığınma ve remigration makamı”na dönüştürmek, geri dönüşlere öncelik, Dublin çıkış merkezi ve sığınma politikası harcamalarında tam şeffaflık",
@@ -6741,7 +6741,7 @@
       "partyId": "afd",
       "stance": "mixed",
       "summary": {
-        "en": "the Bezahlkarte is not explicitly named in the program; the logic runs in the opposite direction: priority in the allocation of housing and benefits for people who have lived here for a long time, no language or integration courses for those without a right to stay, full transparency regarding asylum spending",
+        "en": "the Bezahlkarte is not explicitly named in the program; the logic runs in the opposite direction: priority in the allocation of housing and benefits for people who have lived here for a long time, no language or integration courses for those without a right to stay, full transparency on asylum spending",
         "de": "Bezahlkarte wird im Programm nicht ausdrücklich genannt; die Logik ist entgegengesetzt: Vorrang bei der Vergabe von Wohnungen und Leistungen für Menschen, die schon lange hier leben, keine Sprach- oder Integrationskurse für Menschen ohne Bleiberecht, vollständige Transparenz der Asylausgaben",
         "ru": "Bezahlkarte в программе прямо не названа; логика обратная: приоритет живущим здесь давно при распределении квартир и выплат, никаких языковых и интеграционных курсов для тех, у кого нет права на пребывание, полная прозрачность расходов на убежище",
         "tr": "Programda Bezahlkarte açıkça anılmıyor; mantık ters yönde: konut ve yardımların tahsisinde uzun süredir burada yaşayanlara öncelik, kalma hakkı olmayanlara dil veya entegrasyon kursu yok, sığınma harcamalarında tam şeffaflık",
@@ -6957,7 +6957,7 @@
       "partyId": "linke",
       "stance": "for",
       "summary": {
-        "en": "restructure economic policy around strategic goals and “in people’s interests”: increase industry’s share of value added, collectively bargained jobs, socially and ecologically just transformation in healthcare, energy, and transport engineering; in procurement, prioritize open source, digital sovereignty, and global justice, with fewer formalities for companies (positive lists and certificates)",
+        "en": "restructure economic policy around strategic goals and “in people’s interests”: increase industry’s share of value added, collectively bargained jobs, socially and ecologically just transformation in healthcare, energy, and transport engineering; in procurement, give priority to open source, digital sovereignty, and global justice, with fewer formalities for companies (positive lists and certificates)",
         "de": "Wirtschaftspolitik an strategischen Zielen und „im Interesse der Menschen“ ausrichten: Anteil der Industrie an der Wertschöpfung erhöhen, tarifgebundene Arbeitsplätze, sozial und ökologisch gerechte Transformation in Gesundheitswesen, Energie und Verkehrstechnik; bei Beschaffungen Open Source, digitale Souveränität und globale Gerechtigkeit priorisieren, weniger Formalitäten für Unternehmen (Positivlisten und Zertifikate)",
         "ru": "экономическую политику перестроить по стратегическим целям и «в интересах людей»: поднять долю промышленности в добавленной стоимости, тарифные рабочие места, социально и экологически справедливая трансформация в здравоохранении, энергетике и транспортном машиностроении; в закупках приоритет open source, цифровому суверенитету и глобальной справедливости, меньше формальностей для фирм (позитивные списки и сертификаты)",
         "tr": "ekonomi politikasını stratejik hedefler ve „insanların çıkarları“ etrafında yeniden yapılandırmak: sanayinin katma değer payını artırmak, toplu sözleşmeli işler, sağlık, enerji ve ulaşım mühendisliğinde sosyal ve ekolojik adil dönüşüm; kamu alımlarında açık kaynak, dijital egemenlik ve küresel adalete öncelik, şirketler için daha az formalite (pozitif listeler ve sertifikalar)",
@@ -7077,7 +7077,7 @@
       "partyId": "linke",
       "stance": "mixed",
       "summary": {
-        "en": "innovation not as an end in itself, but through public benefit: industry, healthcare, energy, and transport engineering; prioritize open source, digital sovereignty, and global justice in municipal procurement",
+        "en": "innovation not as an end in itself, but through public benefit: industry, healthcare, energy, and transport engineering; give priority to open source, digital sovereignty, and global justice in municipal procurement",
         "de": "Innovation nicht als Selbstzweck, sondern durch gesellschaftlichen Nutzen: Industrie, Gesundheitswesen, Energie und Verkehrstechnik; bei kommunalen Beschaffungen Open Source, digitale Souveränität und globale Gerechtigkeit priorisieren",
         "ru": "инновации не как самоцель, а через общественную пользу: промышленность, здравоохранение, энергетика и транспортное машиностроение; в городских закупках приоритет открытого кода, цифрового суверенитета и глобальной справедливости",
         "tr": "inovasyon kendi başına amaç değil, kamu yararı yoluyla: sanayi, sağlık, enerji ve ulaşım mühendisliği; belediye alımlarında açık kaynak, dijital egemenlik ve küresel adalete öncelik",
@@ -7185,7 +7185,7 @@
       "partyId": "gruene",
       "stance": "mixed",
       "summary": {
-        "en": "no separate measure on business succession; focus on workforce strategy, compatibility of family and work, green transformation of the economy, and equal pay",
+        "en": "no separate measure on business succession; emphasis on workforce strategy, compatibility of family and work, green transformation of the economy, and equal pay",
         "de": "keine eigene Maßnahme zur Unternehmensnachfolge; Schwerpunkt auf Fachkräftestrategie, Vereinbarkeit von Familie und Beruf, ökologischer Transformation der Wirtschaft und gleicher Bezahlung",
         "ru": "отдельной меры по преемственности предприятий нет; акцент на стратегии по кадрам, совместимости семьи и работы, экологичной трансформации экономики и равной оплате",
         "tr": "işletme devrine ayrı bir önlem yok; odak işgücü stratejisi, aile ve iş uyumu, ekonominin yeşil dönüşümü ve eşit ücret",
@@ -7449,7 +7449,7 @@
       "partyId": "fdp",
       "stance": "mixed",
       "summary": {
-        "en": "Comply with the “debt brake” without shadow budgets, limit the government share, and prioritize private investment; core spending: education, infrastructure, security; extend the rules to all off-budget funds",
+        "en": "Comply with the “debt brake” without shadow budgets, limit the government share, and give priority to private investment; core spending: education, infrastructure, security; extend the rules to all off-budget funds",
         "de": "Einhaltung der „Schuldenbremse“ ohne Schattenhaushalte, Begrenzung der Staatsquote und Vorrang für private Investitionen; Kernausgaben: Bildung, Infrastruktur, Sicherheit; Regeln auch auf alle Sondervermögen anwenden",
         "ru": "Соблюдать «долговой тормоз» без обходных бюджетов, ограничить долю государства, приоритет частным инвестициям; ядро расходов — образование, инфраструктура, безопасность; правила распространить и на все внебюджетные фонды",
         "tr": "Gölge bütçeler olmadan „borç freni“ne uymak, devlet payını sınırlamak ve özel yatırıma öncelik vermek; temel harcama: eğitim, altyapı, güvenlik; kuralları tüm bütçe dışı fonlara genişletmek",
@@ -7737,7 +7737,7 @@
       "partyId": "tierschutz",
       "stance": "mixed",
       "summary": {
-        "en": "Digitalize quickly, but safely and with European solutions: “Public Money, Public Code” and open source by default; give ITDZ funding and authority; adapt ready-made solutions from other Länder rather than developing from scratch; own data centers with data protection and energy efficiency, feeding waste heat into the heating network; prioritize refurbished hardware; continue fiber-optic expansion and restore “Free Wifi Berlin”; AI in administration, police, and justice only under human oversight, with mandatory algorithmic transparency and no Social Scoring",
+        "en": "Digitalize quickly, but safely and with European solutions: “Public Money, Public Code” and open source by default; give ITDZ funding and authority; adapt ready-made solutions from other Länder rather than developing from scratch; own data centers with data protection and energy efficiency, feeding waste heat into the heating network; give priority to refurbished hardware; continue fiber-optic expansion and restore “Free Wifi Berlin”; AI in administration, police, and justice only under human oversight, with mandatory algorithmic transparency and no Social Scoring",
         "de": "Schnell, aber sicher und mit europäischen Lösungen digitalisieren: „Public Money, Public Code“ und Open Source als Standard; ITDZ mit Geld und Befugnissen ausstatten; fertige Lösungen anderer Länder anpassen statt neu entwickeln; eigene Rechenzentren mit Datenschutz und Energieeffizienz, Abwärme ins Wärmenetz; wiederaufbereitete Technik bevorzugen; Glasfaserausbau fortsetzen und „Free Wifi Berlin“ wieder einführen; KI in Verwaltung, Polizei und Justiz nur unter menschlicher Aufsicht, mit verpflichtender Algorithmentransparenz und ohne Social Scoring",
         "ru": "Цифровизация быстро, но безопасно и на европейских решениях: «Public Money, Public Code» и open source по умолчанию, ITDZ с деньгами и полномочиями, готовые решения других земель адаптировать вместо разработки с нуля; свои дата-центры с защитой данных и энергоэффективностью, отработанное тепло — в теплосеть, приоритет восстановленной технике; продолжение оптоволокна и возобновление «Free Wifi Berlin»; ИИ в управлении, полиции и юстиции только под человеческим надзором, обязательная прозрачность алгоритмов, без Social Scoring",
         "tr": "Hızlı ama güvenli ve Avrupa çözümleriyle dijitalleştirmek: „Public Money, Public Code“ ve varsayılan açık kaynak; ITDZ’ye finansman ve yetki vermek; sıfırdan geliştirmek yerine diğer Länder’den hazır çözümleri uyarlamak; veri koruma ve enerji verimliliği olan kendi veri merkezleri, atık ısıyı ısıtma ağına vermek; yenilenmiş donanıma öncelik; fiber genişletmeye devam ve „Free Wifi Berlin“i geri getirmek; idare, polis ve adalette yapay zekâ yalnızca insan gözetiminde, zorunlu algoritmik şeffaflık ve Social Scoring yok",
@@ -7749,7 +7749,7 @@
       "partyId": "oedp",
       "stance": "mixed",
       "summary": {
-        "en": "E-Governing; also caution regarding mobile networks and the precautionary principle: lower the radiation limit to 100 μW per m2, create “white zones” for electrically sensitive people, provide one network for all operators as a public task, and use open source in municipal IT for independence and longer hardware life",
+        "en": "E-Governing; also caution on mobile networks and the precautionary principle: lower the radiation limit to 100 μW per m2, create “white zones” for electrically sensitive people, provide one network for all operators as a public task, and use open source in municipal IT for independence and longer hardware life",
         "de": "E-Government; zugleich Vorsicht bei Mobilfunknetzen und Anwendung des Vorsorgeprinzips: Strahlungsgrenzwert auf 100 μW pro m2 senken, „weiße Zonen“ für elektrosensible Menschen schaffen, ein einheitliches Netz für alle Betreiber als öffentliche Aufgabe und Open Source in der kommunalen IT für Unabhängigkeit und längere Lebensdauer der Technik",
         "ru": "E-Governing; при этом осторожность с мобильными сетями и принцип предосторожности: снижение предельного значения излучения до 100 мкВт на м2, «белые зоны» для электрочувствительных, единая сеть для всех операторов как публичная задача, open source в городской IT ради независимости и долгой жизни техники",
         "tr": "E-Governing; ayrıca mobil ağlar ve ihtiyat ilkesi konusunda temkin: radyasyon sınırını m2 başına 100 μW’ye düşürmek, elektriksel olarak hassas kişiler için „beyaz bölgeler“ oluşturmak, tüm operatörler için tek ağı kamu görevi olarak sağlamak ve bağımsızlık ile daha uzun donanım ömrü için belediye BT’sinde açık kaynak kullanmak",
@@ -8217,7 +8217,7 @@
       "partyId": "tierschutz",
       "stance": "mixed",
       "summary": {
-        "en": "Lower the thresholds for direct democracy: quorums, online signature collection, and lowering the threshold for Einwohner:innenanträge from 1,000 to 200; implement the referendums “Deutsche Wohnen und Co. enteignen,” “Berlin 2030 klimaneutral,” Tempelhofer Feld, “Berlin autofrei,” and “Berlin werbefrei”; voting rights for everyone who has lived in Berlin for at least three years, lower the voting age to 14 in the districts, abolish the Neutralitätsgesetz; better protection for queer people and greater accessibility",
+        "en": "Lower the thresholds for direct democracy: quorums, online signature collection, and lowering the threshold for Einwohner:innenanträge from 1,000 to 200; put in place the referendums “Deutsche Wohnen und Co. enteignen,” “Berlin 2030 klimaneutral,” Tempelhofer Feld, “Berlin autofrei,” and “Berlin werbefrei”; voting rights for everyone who has lived in Berlin for at least three years, lower the voting age to 14 in the districts, abolish the Neutralitätsgesetz; better protection for queer people and greater accessibility",
         "de": "Hürden für direkte Demokratie senken: Quoren, Online-Unterschriftensammlung und Schwelle für Einwohner:innenanträge von 1.000 auf 200 senken; Volksentscheide „Deutsche Wohnen und Co. enteignen“, „Berlin 2030 klimaneutral“, Tempelhofer Feld, „Berlin autofrei“ und „Berlin werbefrei“ umsetzen; Wahlrecht für alle, die seit mindestens drei Jahren in Berlin leben, Wahlalter in den Bezirken auf 14 senken, Neutralitätsgesetz abschaffen; queere Menschen besser schützen und Barrierefreiheit ausbauen",
         "ru": "Снизить пороги прямой демократии: кворумы, онлайн-сбор подписей, порог для Einwohner:innenanträge с 1 000 до 200; выполнять референдумы — «Deutsche Wohnen und Co. enteignen», «Berlin 2030 klimaneutral», Tempelhofer Feld, «Berlin autofrei», «Berlin werbefrei»; право голоса для всех, кто живёт в Берлине минимум три года, снижение возраста голосования (в районах до 14 лет), отмена Neutralitätsgesetz; лучшая защита квир-людей и больше барьерной доступности",
         "tr": "Doğrudan demokrasi eşiklerini düşürmek: yeter sayılar, çevrimiçi imza toplama ve Einwohner:innenanträge eşiğini 1.000’den 200’e indirmek; „Deutsche Wohnen und Co. enteignen,“ „Berlin 2030 klimaneutral,“ Tempelhofer Feld, „Berlin autofrei“ ve „Berlin werbefrei“ referandumlarını uygulamak; Berlin’de en az üç yıldır yaşayan herkese oy hakkı, ilçelerde oy yaşını 14’e düşürmek, Neutralitätsgesetz’i kaldırmak; queer insanlar için daha iyi koruma ve daha fazla erişilebilirlik",
@@ -8289,7 +8289,7 @@
       "partyId": "fdp",
       "stance": "mixed",
       "summary": {
-        "en": "Little broad women’s-rights agenda in the excerpts found; related points include prevention before repression, speedy courts, deletion of a controversial police database, and review of suspicionless surveillance",
+        "en": "Little broad women’s-rights agenda in the excerpts found; related points include prevention before repression, speedy courts, deletion of a controversial police database, and review of surveillance without suspicion",
         "de": "In den gefundenen Passagen kaum umfassende frauenpolitische Agenda; thematisch nah sind Prävention vor Repression, schnelle Gerichte, Löschung einer umstrittenen Polizeidatenbank und Überprüfung anlassloser Überwachung",
         "ru": "отдельной широкой повестки прав женщин в найденных фрагментах мало; близко — профилактика перед репрессией, быстрые суды, удаление спорной полицейской базы и оценка беспричинного наблюдения",
         "tr": "Bulunan alıntılarda geniş bir kadın hakları gündemi az; ilgili noktalar baskıdan önce önleme, hızlı mahkemeler, tartışmalı bir polis veri tabanının silinmesi ve sebepsiz gözetimin gözden geçirilmesi",
@@ -8385,7 +8385,7 @@
       "partyId": "gruene",
       "stance": "for",
       "summary": {
-        "en": "Structural equality, protection from discrimination, and queer safety; against suspicionless surveillance and biometrics, with emphasis on protecting vulnerable groups",
+        "en": "Structural equality, protection from discrimination, and queer safety; against surveillance without suspicion and biometrics, with emphasis on protecting vulnerable groups",
         "de": "Strukturelle Gleichstellung, Schutz vor Diskriminierung und Queersicherheit; gegen anlasslose Überwachung und Biometrie, mit Schwerpunkt auf dem Schutz vulnerabler Gruppen",
         "ru": "структурное равноправие, защита от дискриминации, квир-безопасность; против беспричинной слежки и биометрии, с акцентом на защиту уязвимых групп",
         "tr": "Yapısal eşitlik, ayrımcılıktan koruma ve queer güvenlik; sebepsiz gözetim ve biyometriye karşı, kırılgan grupları korumaya vurguyla",
