@@ -37,7 +37,7 @@
         "pl": "Bündnis 90/Die Grünen",
         "uk": "Bündnis 90/Die Grünen"
       },
-      "programUrl": "https://gruene.berlin/wahlprogramm"
+      "programUrl": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf"
     },
     {
       "id": "linke",
@@ -1153,12 +1153,12 @@
       "partyId": "gruene",
       "stance": "against",
       "summary": {
-        "en": "against continuing A100; demand removing 17th section from federal planning",
-        "de": "gegen Weiterbau der A100; Forderung, den 17. Bauabschnitt aus der Bundesplanung zu streichen",
-        "ru": "против продолжения A100; требуют снять 17-й этап с федерального планирования",
-        "tr": "A100’ün devamına karşı; 17. kesitin federal plandan çıkarılmasını talep etmek",
-        "pl": "przeciw kontynuacji A100; żądanie usunięcia 17. odcinka z planowania federalnego",
-        "uk": "проти продовження A100; вимагати вилучення 17-го розділу з федерального планування"
+        "en": "reject further A100 construction (17th section); close the 16th section until a traffic concept exists; reject the planned four-lane TVO in its current form",
+        "de": "Weiterbau der A100 (17. Bauabschnitt) ablehnen; 16. Bauabschnitt bis zu einem Verkehrskonzept schließen; geplante vierspurige TVO in jetziger Form ablehnen",
+        "ru": "отклонить продолжение A100 (17-й участок); закрыть 16-й участок до появления транспортной концепции; отклонить планируемую четырёхполосную TVO в нынешнем виде",
+        "tr": "A100’ün devamını (17. kesim) reddetmek; bir ulaşım konsepti olana dek 16. kesimi kapatmak; planlanan dört şeritli TVO’yu mevcut haliyle reddetmek",
+        "pl": "odrzucić dalszą budowę A100 (17. odcinek); zamknąć 16. odcinek do czasu koncepcji ruchu; odrzucić planowaną czteropasmową TVO w obecnej formie",
+        "uk": "відхилити подальше будівництво A100 (17-а ділянка); закрити 16-у ділянку до появи транспортної концепції; відхилити заплановану чотирисмугову TVO у нинішньому вигляді"
       }
     },
     {
@@ -2063,12 +2063,12 @@
       "partyId": "gruene",
       "stance": "for",
       "summary": {
-        "en": "goal: one million trees; Trees Plus Act, planting in heat hotspots, on sealed/asphalted surfaces and in dense neighborhoods; reliable care and rainwater use",
-        "de": "Ziel: eine Million Bäume; Bäume-Plus-Gesetz, Pflanzung in Hitze-Hotspots, auf versiegelten/asphaltierten Flächen und in dichten Quartieren; verlässliche Pflege und Regenwassernutzung",
-        "ru": "увеличить число уличных деревьев до 1 млн к 2040 (закон BaumEntscheid) + улучшение инфраструктуры вокруг посадок (уход, использование дождевой воды), посадки в heat hotspots, на заасфальтированных поверхностях и в плотных кварталах",
-        "tr": "hedef: bir milyon ağaç; Trees Plus Yasası, ısı sıcak noktalarında, sızdırmaz/asfalt yüzeylerde ve yoğun mahallelerde dikim; güvenilir bakım ve yağmur suyu kullanımı",
-        "pl": "cel: milion drzew; ustawa Trees Plus, sadzenie w hotspotach upałów, na uszczelnionych/asfaltowanych powierzchniach i w gęstych dzielnicach; niezawodna pielęgnacja i wykorzystanie wody deszczowej",
-        "uk": "мета: мільйон дерев; Trees Plus Act, посадка в гарячих точках, на герметичних/асфальтованих поверхнях і в густонаселених районах; надійний догляд і використання дощової води"
+        "en": "plant one million additional trees; BäumePlus Act; planting in heat hotspots, on sealed surfaces and in dense neighborhoods; reliable care and rainwater use",
+        "de": "eine Million zusätzlicher Bäume pflanzen; BäumePlus-Gesetz; Pflanzung in Hitze-Hotspots, auf versiegelten Flächen und in dichten Kiezen; verlässliche Pflege und Regenwassernutzung",
+        "ru": "посадить миллион дополнительных деревьев; закон BäumePlus; посадка в жарких точках, на запечатанных поверхностях и в плотных кварталах; надёжный уход и использование дождевой воды",
+        "tr": "bir milyon ek ağaç dikmek; BäumePlus yasası; sıcak noktalarda, mühürlü yüzeylerde ve yoğun mahallelerde dikim; güvenilir bakım ve yağmur suyu kullanımı",
+        "pl": "posadzić milion dodatkowych drzew; ustawa BäumePlus; nasadzenia w upalnych punktach, na powierzchniach uszczelnionych i w gęstych dzielnicach; niezawodna pielęgnacja i wykorzystanie deszczówki",
+        "uk": "висадити мільйон додаткових дерев; закон BäumePlus; посадка в спекотних точках, на запечатаних поверхнях і в щільних кварталах; надійний догляд і використання дощової води"
       }
     },
     {
@@ -2453,12 +2453,12 @@
       "partyId": "gruene",
       "stance": "for",
       "summary": {
-        "en": "Zero Waste: avoid–reuse–recycle; repair bonus, repair networks, second-hand department store in every district, circular-economy center in every district; strengthen the Zero Waste Agency, reusable-packaging support",
-        "de": "Zero Waste: vermeiden–wiederverwenden–recyceln; Reparaturbonus, Reparaturnetzwerke, Second-Hand-Kaufhaus in jedem Bezirk, Kreislaufwirtschaftszentrum in jedem Bezirk; Zero-Waste-Agentur stärken, Mehrwegverpackungsförderung",
-        "ru": "Zero Waste: vermeiden–wiederverwenden–verwerten; ремонтный бонус, repair networks, Secondhand‑Kaufhaus в каждом районе, Kreislaufzentrum в каждом Bezirk; Zero‑Waste‑Agentur усилить, поддержка многоразовой тары",
-        "tr": "Zero Waste: kaçın–yeniden kullan–geri dönüştür; onarım primi, onarım ağları, her ilçede second-hand mağazası, her ilçede döngüsel ekonomi merkezi; Zero Waste Ajansı’nı güçlendirmek, yeniden kullanılabilir ambalaj desteği",
-        "pl": "Zero Waste: unikać–ponownie używać–recyklingować; bonus naprawczy, sieci napraw, dom towarowy second-hand w każdej dzielnicy, centrum gospodarki obiegu zamkniętego w każdej dzielnicy; wzmocnić Zero Waste Agency, wsparcie opakowań wielokrotnego użytku",
-        "uk": "Zero Waste: уникнути–повторне використання–переробити; бонус за ремонт, ремонтні мережі, універмаг секонд-хенду в кожному районі, центр оборотної економіки в кожному районі; посилити Zero Waste Agency, підтримку багаторазової упаковки"
+        "en": "implement the Zero-Waste strategy; citywide tax on single-use packaging, dishes and cutlery; expand Repair-Cafés, Re-Use stores and sharing platforms; strengthen Altholz recycling",
+        "de": "Zero-Waste-Strategie umsetzen; stadtweite Steuer auf Einwegverpackungen, -geschirr und -besteck; Repair-Cafés, Re-Use-Kaufhäuser und Sharing-Plattformen ausbauen; Altholz-Recycling stärken",
+        "ru": "реализовать стратегию Zero-Waste; общегородский налог на одноразовую упаковку, посуду и приборы; расширить Repair-Cafés, Re-Use и шеринг; усилить переработку Altholz",
+        "tr": "Zero-Waste stratejisini uygulamak; tek kullanımlık ambalaj, tabak ve çatala kent çapında vergi; Repair-Café, Re-Use mağazaları ve paylaşım platformlarını genişletmek; Altholz geri dönüşümünü güçlendirmek",
+        "pl": "wdrażać strategię Zero-Waste; miejski podatek od opakowań, naczyń i sztućców jednorazowych; rozbudować Repair-Café, Re-Use i platformy sharingowe; wzmocnić recykling Altholz",
+        "uk": "впровадити стратегію Zero-Waste; загальноміський податок на одноразову упаковку, посуд і прибори; розширити Repair-Café, Re-Use і шеринг; зміцнити переробку Altholz"
       }
     },
     {
@@ -2713,12 +2713,12 @@
       "partyId": "gruene",
       "stance": "for",
       "summary": {
-        "en": "Zero‑Waste, tax on single-use packaging/dishes, Repair‑Cafés and Re‑Use; oblige BSR to accept all types of waste at recycling centers; more old-wood recycling; multilingual communication",
-        "de": "Zero Waste, Steuer auf Einwegverpackungen/-geschirr, Repair-Cafés und Re-Use; BSR verpflichten, alle Abfallarten auf Recyclinghöfen anzunehmen; mehr Altholzrecycling; mehrsprachige Kommunikation",
-        "ru": "Zero‑Waste, налог на одноразовую упаковку/посуду, Repair‑Cafés и Re‑Use; BSR обязать принимать все виды отходов на Recyclinghöfe; больше переработки старой древесины; многоязычная коммуникация",
-        "tr": "Zero‑Waste, tek kullanımlık ambalaj/tabak vergisi, Repair‑Café’ler ve Re‑Use; BSR’yi geri dönüşüm merkezlerinde her tür atığı kabul etmeye zorunlu kılmak; daha fazla eski odun geri dönüşümü; çok dilli iletişim",
-        "pl": "Zero-Waste, podatek od opakowań/naczyń jednorazowych, Repair-Cafés i Re-Use; zobowiązać BSR do przyjmowania wszystkich rodzajów odpadów w centrach recyklingu; więcej recyklingu starego drewna; komunikacja wielojęzyczna",
-        "uk": "Zero-Waste, податок на одноразову упаковку/посуд, Repair-Café та Re-Use; зобов'язати BSR приймати всі види відходів у центри переробки; більше переробки старої деревини; багатомовне спілкування"
+        "en": "BSR cleans all parks and playgrounds; keep Parkläufer*innen and Kiezmanager*innen permanently; more convenient BSR Kieztage (esp. weekends); free bulky-waste pickup once a year plus quarterly Sperrmülltage; citizen stewardship pilots",
+        "de": "BSR reinigt alle Parks und Spielplätze; Parkläufer*innen und Kiezmanager*innen dauerhaft sichern; BSR-Kieztage alltagsnäher (bes. Wochenenden); einmal jährlich kostenfreie Sperrmüllabholung plus vierteljährliche Sperrmülltage; Patenschafts-Piloten",
+        "ru": "BSR чистит все парки и площадки; навсегда закрепить Parkläufer*innen и Kiezmanager*innen; удобнее BSR-Kieztage (особенно выходные); раз в год бесплатный вывоз крупногабарита плюс ежеквартальные Sperrmülltage; пилоты патронажа улиц",
+        "tr": "BSR tüm park ve oyun alanlarını temizler; Parkläufer*innen ve Kiezmanager*innen’i kalıcı kılmak; daha uygun BSR-Kieztage (özellikle hafta sonu); yılda bir ücretsiz iri atık artı üç aylık Sperrmülltage; yurttaş sahiplenme pilotları",
+        "pl": "BSR czyści wszystkie parki i place zabaw; trwale zabezpieczyć Parkläufer*innen i Kiezmanager*innen; wygodniejsze BSR-Kieztage (zwł. weekendy); raz w roku darmowy odbiór gabarytów plus kwartalne Sperrmülltage; pilotaże opieki mieszkańców",
+        "uk": "BSR прибирає всі парки й майданчики; назавжди закріпити Parkläufer*innen і Kiezmanager*innen; зручніші BSR-Kieztage (особливо вихідні); раз на рік безкоштовний вивіз великогабариту плюс щоквартальні Sperrmülltage; пілоти патронажу вулиць"
       }
     },
     {
@@ -3623,12 +3623,12 @@
       "partyId": "gruene",
       "stance": "none",
       "summary": {
-        "en": "",
-        "de": "",
-        "ru": "",
-        "tr": "",
-        "pl": "",
-        "uk": ""
+        "en": "not addressed in the Berlin Wahlprogramm",
+        "de": "im Berliner Wahlprogramm nicht thematisiert",
+        "ru": "в берлинской предвыборной программе не затрагивается",
+        "tr": "Berlin seçim programında ele alınmıyor",
+        "pl": "nieporuszane w berlińskim programie wyborczym",
+        "uk": "у берлінській передвиборчій програмі не згадується"
       }
     },
     {
@@ -4141,14 +4141,14 @@
     {
       "topicId": "housing-socialization-of-large-landlords",
       "partyId": "gruene",
-      "stance": "mixed",
+      "stance": "for",
       "summary": {
-        "en": "socialization as a last resort against speculative vacancy: after 6 months, compulsory administration",
-        "de": "Vergesellschaftung als letztes Mittel gegen spekulativen Leerstand: nach 6 Monaten Zwangsverwaltung",
-        "ru": "обобществление как крайняя мера против спекулятивного пустующего жилья: после 6 месяцев — принудительное управление",
-        "tr": "spekülatif boşluğa karşı son çare olarak sosyalleştirme: 6 ay sonra zorunlu yönetim",
-        "pl": "uspołecznienie jako ostateczność wobec spekulacyjnych pustostanów: po 6 miesiącach zarząd przymusowy",
-        "uk": "усуспільнення як крайній засіб проти спекулятивного порожнього житла: після 6 місяців — примусове управління"
+        "en": "advance Deutsche Wohnen & Co. enteignen / Vergesellschaftung; for speculative vacancy after six months — compulsory administration and, as last resort, socialization",
+        "de": "Deutsche Wohnen & Co. enteignen / Vergesellschaftung vorantreiben; bei spekulativem Leerstand nach sechs Monaten Zwangsverwaltung und als Ultima Ratio Vergesellschaftung",
+        "ru": "продвигать Deutsche Wohnen & Co. enteignen / Vergesellschaftung; при спекулятивном пустовании после шести месяцев — принудительное управление и в крайнем случае социализация",
+        "tr": "Deutsche Wohnen & Co. enteignen / Vergesellschaftung’u ilerletmek; spekülatif boşlukta altı ay sonra zorunlu yönetim ve son çare olarak sosyalleştirme",
+        "pl": "przyspieszać Deutsche Wohnen & Co. enteignen / Vergesellschaftung; przy spekulacyjnym pustostanie po sześciu miesiącach — zarząd przymusowy, a w ostateczności uspołecznienie",
+        "uk": "просувати Deutsche Wohnen & Co. enteignen / Vergesellschaftung; при спекулятивному простоюванні після шести місяців — примусове управління і як крайній захід соціалізація"
       }
     },
     {
@@ -4661,14 +4661,14 @@
     {
       "topicId": "housing-tax-on-the-first-property-purchase",
       "partyId": "gruene",
-      "stance": "mixed",
+      "stance": "for",
       "summary": {
-        "en": "no separate first-purchase tax allowance; emphasis on stopping the conversion of rental apartments into condominiums, controlling evictions for “personal use,” and land for the common good",
-        "de": "Kein gesonderter Steuerfreibetrag für den Erstkauf; Schwerpunkt auf dem Stopp der Umwandlung von Miet- in Eigentumswohnungen, der Kontrolle von Eigenbedarfskündigungen und gemeinwohlorientierter Bodenpolitik",
-        "ru": "отдельной льготы по налогу на первую покупку нет; фокус на остановке перевода съёмных квартир в собственность, контроле выселений «для собственных нужд» и земле для общего блага",
-        "tr": "ayrı ilk alım vergi istisnası yok; odak kiralık dairelerin mülkiyete dönüşümünü durdurmak, “kişisel kullanım” tahliyelerini denetlemek ve ortak yarar için arazi",
-        "pl": "brak osobnego zwolnienia podatkowego przy pierwszym zakupie; fokus na zatrzymaniu przekształcania mieszkań na wynajem w Eigentumswohnungen, kontroli eksmisji z powodu „Eigenbedarf” i gruntach dla dobra wspólnego",
-        "uk": "немає окремої податкової пільги на першу покупку; акцент на припиненні перетворення орендованих квартир на кондомініуми, контроль виселення для «особистого користування» та землі для загального блага"
+        "en": "raise Grunderwerbsteuer at least to Brandenburg’s level and socially stagger it: owner-occupiers pay less, large companies and Share Deals pay more",
+        "de": "Grunderwerbsteuer mindestens auf Brandenburger Niveau anheben und sozial staffeln: Selbstnutzer*innen zahlen weniger, große Unternehmen und Share Deals mehr",
+        "ru": "поднять Grunderwerbsteuer минимум до уровня Бранденбурга и социально дифференцировать: для проживающих в своём жилье — меньше, для крупных компаний и Share Deals — больше",
+        "tr": "Grunderwerbsteuer’i en az Brandenburg düzeyine çıkarıp sosyal kademelendirmek: kendi oturduğu konutta yaşayanlar daha az, büyük şirketler ve Share Deals daha fazla öder",
+        "pl": "podnieść Grunderwerbsteuer co najmniej do poziomu Brandenburgii i zróżnicować społecznie: osoby mieszkające we własnym lokalu płacą mniej, duże firmy i Share Deals więcej",
+        "uk": "підняти Grunderwerbsteuer щонайменше до рівня Бранденбурга і соціально диференціювати: для тих, хто живе у власному житлі — менше, для великих компаній і Share Deals — більше"
       }
     },
     {
@@ -5183,12 +5183,12 @@
       "partyId": "gruene",
       "stance": "against",
       "summary": {
-        "en": "domestic checks under new EU rules must not lead to racial profiling; limit surveillance",
-        "de": "Binnengrenzkontrollen nach neuen EU-Regeln dürfen nicht zu Racial Profiling führen; Überwachung begrenzen",
-        "ru": "проверки внутри страны по новым правилам ЕС не должны вести к расовому профилированию (racial profiling); ограничение слежки",
-        "tr": "yeni AB kuralları altında yurt içi kontroller ırksal profillemeye yol açmamalı; gözetimi sınırlamak",
-        "pl": "kontrole krajowe według nowych reguł UE nie mogą prowadzić do profilowania rasowego; ograniczyć inwigilację",
-        "uk": "внутрішні перевірки відповідно до нових правил ЄС не повинні призводити до расового профілювання (racial profiling); обмежити спостереження"
+        "en": "reject anlasslose Kontrollen and introduce a digital Kontrollquittung; review and where needed abolish high-crime locations and weapons-ban zones; domestic checks under EU/GEAS must not enable racial profiling",
+        "de": "anlasslose Kontrollen ablehnen und digitale Kontrollquittung einführen; kriminalitätsbelastete Orte und Waffenverbotszonen prüfen und wo nötig abschaffen; Kontrollen unter EU/GEAS dürfen kein Racial Profiling ermöglichen",
+        "ru": "отклонить anlasslose Kontrollen и ввести цифровую Kontrollquittung; проверить и при необходимости отменить «криминальные» места и зоны запрета оружия; проверки по EU/GEAS не должны вести к расовому профилированию",
+        "tr": "anlasslose Kontrollen’i reddedip dijital Kontrollquittung getirmek; yüksek suçlu yerleri ve silah yasak bölgelerini gözden geçirip gerektiğinde kaldırmak; EU/GEAS kontrolleri ırksal profillemeye yol açmamalı",
+        "pl": "odrzucić anlasslose Kontrollen i wprowadzić cyfrowy Kontrollquittung; przejrzeć i w razie potrzeby znieść miejsca wysokiej przestępczości oraz strefy zakazu broni; kontrole EU/GEAS nie mogą prowadzić do profilowania rasowego",
+        "uk": "відхилити anlasslose Kontrollen і запровадити цифровий Kontrollquittung; перевірити й за потреби скасувати «кримінальні» місця та зони заборони зброї; перевірки за EU/GEAS не повинні уможливлювати расове профілювання"
       }
     },
     {
@@ -6091,14 +6091,14 @@
     {
       "topicId": "shortage-of-qualified-professionals",
       "partyId": "gruene",
-      "stance": "mixed",
+      "stance": "for",
       "summary": {
-        "en": "compatibility of family and work through workplace Kitas and support for moving into shortage occupations; no separate measure on recruitment from abroad is apparent",
-        "de": "Vereinbarkeit von Familie und Beruf durch Betriebskitas und Unterstützung beim Wechsel in Mangelberufe; keine gesonderte Maßnahme zur Anwerbung aus dem Ausland erkennbar",
-        "ru": "совместимость семьи и работы через детсады при предприятиях и поддержка перехода в дефицитные профессии; отдельной меры про найм из-за границы не видно",
-        "tr": "İşyeri Kita'ları ve açık meslek alanlarına geçiş desteğiyle aile ve iş uyumu; yurtdışından alıma dair ayrı bir önlem görünmüyor",
-        "pl": "godzenie życia rodzinnego i pracy przez Kita zakładowe oraz wsparcie przejścia do zawodów deficytowych; nie widać osobnego środka dotyczącego rekrutacji z zagranicy",
-        "uk": "сумісність сім'ї та роботи через Kitas на робочому місці та підтримку переходу на дефіцитні професії; жодного окремого заходу щодо вербування з-за кордону немає"
+        "en": "recruit international skilled workers (esp. tech and care) with fair Anwerbung standards; speed recognition via a Taskforce Anerkennung; expand the Willkommenszentrum; Betriebskitas and transitions into shortage occupations",
+        "de": "internationale Fachkräfte gezielt anwerben (bes. Tech und Pflege) mit fairen Anwerbestandards; Anerkennung über eine Taskforce Anerkennung beschleunigen; Willkommenszentrum ausbauen; Betriebskitas und Wechsel in Mangelberufe",
+        "ru": "целенаправленно привлекать международных специалистов (особенно tech и уход) по стандартам fair Anwerbung; ускорить признание через Taskforce Anerkennung; расширить Willkommenszentrum; Betriebskitas и переходы в дефицитные профессии",
+        "tr": "fair Anwerbung standartlarıyla uluslararası nitelikli işgücü (özellikle tech ve bakım) çekmek; Taskforce Anerkennung ile tanımayı hızlandırmak; Willkommenszentrum’u genişletmek; Betriebskitas ve açık meslek geçişleri",
+        "pl": "rekrutować międzynarodowych specjalistów (zwł. tech i opieka) według fair Anwerbung; przyspieszyć uznawanie przez Taskforce Anerkennung; rozbudować Willkommenszentrum; Betriebskitas i przejścia do zawodów deficytowych",
+        "uk": "цілеспрямовано залучати міжнародних фахівців (особливо tech і догляд) за стандартами fair Anwerbung; прискорити визнання через Taskforce Anerkennung; розширити Willkommenszentrum; Betriebskitas і переходи до дефіцитних професій"
       }
     },
     {
@@ -7781,14 +7781,14 @@
     {
       "topicId": "business-succession",
       "partyId": "gruene",
-      "stance": "mixed",
+      "stance": "for",
       "summary": {
-        "en": "no separate measure on business succession; emphasis on workforce strategy, compatibility of family and work, green transformation of the economy, and equal pay",
-        "de": "keine eigene Maßnahme zur Unternehmensnachfolge; Schwerpunkt auf Fachkräftestrategie, Vereinbarkeit von Familie und Beruf, ökologischer Transformation der Wirtschaft und gleicher Bezahlung",
-        "ru": "отдельной меры по преемственности предприятий нет; акцент на стратегии по кадрам, совместимости семьи и работы, экологичной трансформации экономики и равной оплате",
-        "tr": "işletme devrine ayrı bir önlem yok; odak işgücü stratejisi, aile ve iş uyumu, ekonominin yeşil dönüşümü ve eşit ücret",
-        "pl": "brak osobnego środka dotyczącego sukcesji firm; nacisk na strategię kadr, godzenie rodziny i pracy, zieloną transformację gospodarki oraz równość płac",
-        "uk": "окремого заходу щодо правонаступництва бізнесу немає; акцент на стратегії щодо робочої сили, сумісності сім’ї та роботи, зеленій трансформації економіки та рівній оплаті праці"
+        "en": "strengthen Unternehmensnachfolge in craft trades: fee-free and flexible Meisterausbildung, support succession and new starts together with the chambers",
+        "de": "Unternehmensnachfolge im Handwerk stärken: gebührenfreie und flexible Meister*innenausbildung, Unterstützung von Nachfolgen und Neugründungen gemeinsam mit den Kammern",
+        "ru": "укрепить передачу предприятий в ремесле: бесплатная и гибкая Meisterausbildung, поддержка преемственности и новых стартапов вместе с палатами",
+        "tr": "zanaatta Unternehmensnachfolge’yi güçlendirmek: ücretsiz ve esnek Meisterausbildung, odalarla birlikte devir ve yeni kuruluş desteği",
+        "pl": "wzmocnić sukcesję firm w rzemiośle: bezpłatna i elastyczna Meisterausbildung, wsparcie sukcesji i nowych firm wraz z izbami",
+        "uk": "зміцнити передачу підприємств у ремеслі: безкоштовна й гнучка Meisterausbildung, підтримка наступності та нових стартів разом із палатами"
       }
     },
     {
@@ -8043,12 +8043,12 @@
       "partyId": "gruene",
       "stance": "mixed",
       "summary": {
-        "en": "Grundsteuer C, treating tax evasion as organized crime, staffing Finanzämter, “strong finances,” and reliability",
-        "de": "Grundsteuer C, Bekämpfung von Steuerhinterziehung wie organisierte Kriminalität, mehr Personal in den Finanzämtern, „starke Finanzen“ und Verlässlichkeit",
-        "ru": "Grundsteuer C, борьба с уклонением от налогов как с оргпреступностью, кадры в Finanzämter, «сильные финансы» и надёжность",
-        "tr": "Grundsteuer C, vergi kaçakçılığını örgütlü suç olarak ele almak, Finanzämter’i personelle donatmak, „güçlü maliye“ ve güvenilirlik",
-        "pl": "Grundsteuer C, traktowanie uchylania się od podatków jako przestępczości zorganizowanej, obsada Finanzämter, „silne finanse” i wiarygodność",
-        "uk": "Grundsteuer C, розглядаючи ухилення від сплати податків як організовану злочинність, кадровий склад Finanzämter, «сильні фінанси» та надійність"
+        "en": "Grundsteuer C against land speculation; raise and socially stagger Grunderwerbsteuer; Einwegverpackungssteuer; fight tax evasion as organized crime and staff Finanzämter; federal push for wealth and inheritance-tax reform",
+        "de": "Grundsteuer C gegen Bodenspekulation; Grunderwerbsteuer anheben und sozial staffeln; Einwegverpackungssteuer; Steuerhinterziehung als organisierte Kriminalität bekämpfen und Finanzämter personell stärken; bundesweit Vermögen- und Erbschaftsteuer reformieren",
+        "ru": "Grundsteuer C против спекуляции землёй; повысить и социально дифференцировать Grunderwerbsteuer; налог на одноразовую упаковку; борьба с уклонением как с оргпреступностью и кадры Finanzämter; федерально — налог на богатство и наследство",
+        "tr": "arazi spekülasyonuna karşı Grundsteuer C; Grunderwerbsteuer’i yükseltip sosyal kademelendirmek; Einwegverpackungssteuer; vergi kaçakçılığını örgütlü suç olarak mücadele ve Finanzämter kadrosu; federal servet ve miras vergisi reformu",
+        "pl": "Grundsteuer C przeciw spekulacji gruntami; podnieść i społecznie zróżnicować Grunderwerbsteuer; Einwegverpackungssteuer; walka z unikaniem podatków jako przestępczością zorganizowaną i kadry Finanzämter; federalnie reforma podatku od majątku i spadków",
+        "uk": "Grundsteuer C проти спекуляції землею; підвищити й соціально диференціювати Grunderwerbsteuer; податок на одноразову упаковку; боротьба з ухиленням як з оргзлочинністю і кадри Finanzämter; федерально — податок на багатство і спадщину"
       }
     },
     {
@@ -8953,12 +8953,12 @@
       "partyId": "gruene",
       "stance": "for",
       "summary": {
-        "en": "Structural equality and protection from discrimination for vulnerable groups; a Land law protecting victims with a right to support, and prevention as the main instrument of security",
-        "de": "Strukturelle Gleichstellung und Schutz vulnerabler Gruppen vor Diskriminierung; Landesgesetz zum Schutz Betroffener mit Recht auf Unterstützung und Prävention als wichtigstes Sicherheitsinstrument",
-        "ru": "структурное равноправие, защита от дискриминации и уязвимых групп; земельный закон о защите пострадавших с правом на поддержку, профилактика как главный инструмент безопасности",
-        "tr": "Yapısal eşitlik ve kırılgan gruplar için ayrımcılıktan koruma; destek hakkıyla mağdurları koruyan bir Land yasası ve güvenliğin ana aracı olarak önleme",
-        "pl": "Równość strukturalna i ochrona przed dyskryminacją dla grup wrażliwych; landowa ustawa chroniąca ofiary z prawem do wsparcia oraz prewencja jako główne narzędzie bezpieczeństwa",
-        "uk": "Структурна рівність і захист від дискримінації вразливих груп населення; земельний закон, який захищає жертв з правом на підтримку та попередження як основний інструмент безпеки"
+        "en": "two new Frauenhäuser plus more second-stage housing; implement Gewalthilfegesetz and Istanbul Convention; Spanish-model police procedures for domestic violence; “Wer schlägt, der geht”; digital-violence counseling and perpetrator work",
+        "de": "zwei neue Frauenhäuser und mehr Zweite-Stufe-Wohnungen; Gewalthilfegesetz und Istanbul-Konvention umsetzen; Polizeiverfahren bei häuslicher Gewalt nach spanischem Vorbild; „Wer schlägt, der geht“; Beratung zu digitaler Gewalt und Täterarbeit",
+        "ru": "два новых Frauenhäuser и больше жилья второго этапа; внедрить Gewalthilfegesetz и Стамбульскую конвенцию; полицейские процедуры при домашнем насилии по испанской модели; «Wer schlägt, der geht»; консультации по цифровому насилию и работа с агрессорами",
+        "tr": "iki yeni Frauenhaus ve daha fazla ikinci-aşama konut; Gewalthilfegesetz ve İstanbul Sözleşmesi’ni uygulamak; aile içi şiddette İspanyol modeli polis prosedürleri; „Wer schlägt, der geht“; dijital şiddet danışmanlığı ve fail çalışması",
+        "pl": "dwa nowe Frauenhäuser i więcej mieszkań drugiego etapu; wdrażać Gewalthilfegesetz i Konwencję stambulską; procedury policyjne przy przemocy domowej wzorem Hiszpanii; „Wer schlägt, der geht“; poradnictwo ws. przemocy cyfrowej i praca ze sprawcami",
+        "uk": "два нові Frauenhäuser і більше житла другого етапу; впровадити Gewalthilfegesetz і Стамбульську конвенцію; поліцейські процедури при домашньому насильстві за іспанською моделлю; «Wer schlägt, der geht»; консультації щодо цифрового насильства та робота з кривдниками"
       }
     },
     {
@@ -9083,12 +9083,12 @@
       "partyId": "gruene",
       "stance": "for",
       "summary": {
-        "en": "Structural equality, protection from discrimination, and queer safety; against surveillance without suspicion and biometrics, with emphasis on protecting vulnerable groups",
-        "de": "Strukturelle Gleichstellung, Schutz vor Diskriminierung und Queersicherheit; gegen anlasslose Überwachung und Biometrie, mit Schwerpunkt auf dem Schutz vulnerabler Gruppen",
-        "ru": "структурное равноправие, защита от дискриминации, квир-безопасность; против слежки без подозрения и биометрии, с акцентом на защиту уязвимых групп",
-        "tr": "Yapısal eşitlik, ayrımcılıktan koruma ve queer güvenlik; sebepsiz gözetim ve biyometriye karşı, kırılgan grupları korumaya vurguyla",
-        "pl": "Równość strukturalna, ochrona przed dyskryminacją i bezpieczeństwo queer; przeciw monitoringowi bezpodstawnemu i biometrii, z naciskiem na ochronę grup wrażliwych",
-        "uk": "Структурна рівність, захист від дискримінації та квір-безпека; проти стеження без підозри та біометрії, з акцентом на захист уразливих груп"
+        "en": "Queere Sicherheit: at least one queer center/youth or family place per district; Queerbeauftragte in all districts with a legal basis; Queer-Mainstreaming; equal access to health, housing and work",
+        "de": "Queere Sicherheit: mindestens ein queerer Ort (Zentrum, Jugend- oder Familienzentrum) je Bezirk; Queerbeauftragte in allen Bezirken mit gesetzlicher Grundlage; Queer-Mainstreaming; gleicher Zugang zu Gesundheit, Wohnen und Arbeit",
+        "ru": "Queere Sicherheit: минимум одно квир-место (центр, молодёжный или семейный) в каждом районе; Queerbeauftragte во всех районах с правовой основой; Queer-Mainstreaming; равный доступ к здравоохранению, жилью и работе",
+        "tr": "Queere Sicherheit: her ilçede en az bir queer yer (merkez, gençlik veya aile); tüm ilçelerde yasal dayanaklı Queerbeauftragte; Queer-Mainstreaming; sağlık, konut ve işe eşit erişim",
+        "pl": "Queere Sicherheit: co najmniej jedno queerowe miejsce (centrum, młodzieżowe lub rodzinne) na dzielnicę; Queerbeauftragte we wszystkich dzielnicach z podstawą prawną; Queer-Mainstreaming; równy dostęp do zdrowia, mieszkania i pracy",
+        "uk": "Queere Sicherheit: щонайменше одне квіра-місце (центр, молодіжний чи сімейний) у кожному районі; Queerbeauftragte в усіх районах із правовою основою; Queer-Mainstreaming; рівний доступ до охорони здоров’я, житла й праці"
       }
     },
     {
@@ -9343,12 +9343,12 @@
       "partyId": "gruene",
       "stance": "mixed",
       "summary": {
-        "en": "Nothing about party donations or a transparency law in the program",
-        "de": "Weder Parteispenden noch ein Transparenzgesetz kommen im Programm vor",
-        "ru": "про партийные пожертвования и закон о прозрачности в программе ничего нет",
-        "tr": "Programda parti bağışları veya şeffaflık yasası hakkında bir şey yok",
-        "pl": "Nic o darowiznach partyjnych ani ustawie o transparentności w programie",
-        "uk": "У програмі нічого про партійні пожертви чи закон про прозорість"
+        "en": "no separate pledges on party donations or a Transparenzgesetz; related transparency via Wohnungskataster and an Immobilienregister of beneficial owners",
+        "de": "keine gesonderten Zusagen zu Parteispenden oder einem Transparenzgesetz; verwandte Transparenz über Wohnungskataster und ein Immobilienregister wirtschaftlich Berechtigter",
+        "ru": "отдельных обещаний по партийным пожертвованиям или Transparenzgesetz нет; смежная прозрачность через Wohnungskataster и Immobilienregister бенефициаров",
+        "tr": "parti bağışları veya Transparenzgesetz’e dair ayrı taahhüt yok; ilgili şeffaflık Wohnungskataster ve nihai lehtar Immobilienregister ile",
+        "pl": "brak osobnych zobowiązań ws. darowizn partyjnych lub Transparenzgesetz; pokrewna przejrzystość przez Wohnungskataster i Immobilienregister beneficjentów rzeczywistych",
+        "uk": "окремих обіцянок щодо партійних пожертв чи Transparenzgesetz немає; суміжна прозорість через Wohnungskataster і Immobilienregister бенефіціарів"
       }
     },
     {
