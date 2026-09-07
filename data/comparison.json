@@ -115,7 +115,7 @@
         "pl": "Tierschutzpartei",
         "uk": "Tierschutzpartei"
       },
-      "programUrl": "https://berlin.tierschutzpartei.de/berliner-wahlen-2026"
+      "programUrl": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf"
     },
     {
       "id": "oedp",
@@ -1101,12 +1101,12 @@
       "partyId": "tierschutz",
       "stance": "for",
       "summary": {
-        "en": "public administration climate-neutral by 2035; heating fully renewable by 2035; make Berlin heat-resilient",
-        "de": "öffentliche Verwaltung bis 2035 klimaneutral; Wärme bis 2035 vollständig erneuerbar; Berlin hitzeresilient machen",
-        "ru": "общественная администрация до 2035 климатически нейтральна; тепло до 2035 полностью на возобновляемых источниках энергии; Berlin hitzefest",
-        "tr": "kamu yönetimi 2035’e kadar iklim nötr; ısıtma 2035’e kadar tamamen yenilenebilir; Berlin’i ısıya dayanıklı kılmak",
-        "pl": "administracja publiczna klimatycznie neutralna do 2035; ciepło w pełni z OZE do 2035; Berlin odporny na upały",
-        "uk": "державне управління кліматично нейтральне до 2035 року; опалення повністю відновлюване до 2035 року; зробити Берлін термостійким"
+        "en": "Berlin climate-neutral by 2035 at latest (non-negotiable); public administration climate-neutral by 2035; also implement Volksentscheid Berlin 2030 klimaneutral; binding CO₂ budget, shadow price, heat fully renewable by 2035",
+        "de": "Berlin spätestens 2035 klimaneutral (nicht verhandelbar); öffentliche Verwaltung bis 2035 klimaneutral; Volksentscheid Berlin 2030 klimaneutral umsetzen; verbindliches CO₂-Budget, Schattenpreis, Wärme bis 2035 erneuerbar",
+        "ru": "Берлин климатически нейтрален не позже 2035 (не обсуждается); госадминистрация к 2035; реализовать Volksentscheid Berlin 2030 klimaneutral; обязательный бюджет CO₂, теневая цена, тепло к 2035 на ВИЭ",
+        "tr": "Berlin en geç 2035’te iklim nötr (pazarlık edilemez); kamu yönetimi 2035’e kadar iklim nötr; Volksentscheid Berlin 2030 klimaneutral’i uygulamak; bağlayıcı CO₂ bütçesi, gölge fiyat, ısı 2035’e kadar yenilenebilir",
+        "pl": "Berlin klimatycznie neutralny najpóźniej 2035 (nie do negocjacji); administracja do 2035; wdrożyć Volksentscheid Berlin 2030 klimaneutral; wiążący budżet CO₂, cena cienia, ciepło OZE do 2035",
+        "uk": "Берлін кліматично нейтральний щонайпізніше 2035 (необговорювано); держуправління до 2035; впровадити Volksentscheid Berlin 2030 klimaneutral; обов’язковий бюджет CO₂, тіньова ціна, тепло до 2035 на ВДЕ"
       }
     },
     {
@@ -1229,14 +1229,14 @@
     {
       "topicId": "a100-construction",
       "partyId": "tierschutz",
-      "stance": "none",
+      "stance": "against",
       "summary": {
-        "en": "",
-        "de": "",
-        "ru": "",
-        "tr": "",
-        "pl": "",
-        "uk": ""
+        "en": "stop further expansion of Stadtautobahn A100 and high-capacity roads such as TVO; outdated traffic forecasts, exploding costs, and counter to the Verkehrswende — fund climate-just mobility instead",
+        "de": "weiteren Ausbau der Stadtautobahn A100 und hochrangiger Straßen wie der TVO stoppen; veraltete Verkehrsprognosen, explodierende Kosten und Gegenlauf zur Verkehrswende – stattdessen klimagerechte Mobilität",
+        "ru": "остановить дальнейшее расширение Stadtautobahn A100 и магистралей вроде TVO; устаревшие прогнозы, взрывные затраты и против Verkehrswende — вместо этого климатически справедливая мобильность",
+        "tr": "Stadtautobahn A100 ve TVO gibi yüksek kapasiteli yolların genişlemesini durdurmak; eski trafik tahminleri, patlayan maliyetler ve Verkehrswende’ye aykırı — iklim adaletli mobiliteye kaynak",
+        "pl": "zatrzymać dalszą rozbudowę Stadtautobahn A100 i dróg wysokiej klasy jak TVO; przestarzałe prognozy, eksplodujące koszty i sprzeczność z Verkehrswende — zamiast tego mobilność klimatyczna",
+        "uk": "зупинити подальше розширення Stadtautobahn A100 і магістралей на кшталт TVO; застарілі прогнози, вибухові витрати і проти Verkehrswende — замість цього кліматично справедлива мобільність"
       }
     },
     {
@@ -1879,14 +1879,14 @@
     {
       "topicId": "ev-charging",
       "partyId": "tierschutz",
-      "stance": "none",
+      "stance": "for",
       "summary": {
-        "en": "",
-        "de": "",
-        "ru": "",
-        "tr": "",
-        "pl": "",
-        "uk": ""
+        "en": "expand EV charging infrastructure and unify confusing payment paths; private operators should co-operate; reserved taxi Schnelllade at stands; support Electromobilität while still reducing overall car traffic",
+        "de": "Ladeinfrastruktur für E-Fahrzeuge ausbauen und unübersichtliche Bezahlwege vereinheitlichen; private Anbieter sollen besser gemeinsam betreiben; reservierte Taxi-Schnelllade an Stellplätzen; Elektromobilität fördern, aber Autoverkehr insgesamt reduzieren",
+        "ru": "расширять зарядную инфраструктуру EV и унифицировать оплату; частные операторы — совместнее; reserved Schnelllade для такси; поддерживать электромобильность, но снижать общий автотрафик",
+        "tr": "EV şarj altyapısını genişletmek ve karmaşık ödemeyi birleştirmek; özel işletmeciler birlikte çalışsın; taksi duraklarında reserved Schnelllade; Elektromobilität’i desteklemek ama genel araba trafiğini azaltmak",
+        "pl": "rozbudować infrastrukturę ładowania EV i ujednolicić płatności; prywatni operatorzy mają współpracować; reserved Schnelllade dla taksówek; wspierać Elektromobilität, ale redukować ogólny ruch aut",
+        "uk": "розширювати зарядну інфраструктуру EV і уніфікувати оплату; приватні оператори мають краще співпрацювати; reserved Schnelllade для таксі; підтримувати електромобільність, але зменшувати загальний автотрафік"
       }
     },
     {
@@ -2009,14 +2009,14 @@
     {
       "topicId": "tempelhofer-feld-development-edge-development",
       "partyId": "tierschutz",
-      "stance": "none",
+      "stance": "against",
       "summary": {
-        "en": "",
-        "de": "",
-        "ru": "",
-        "tr": "",
-        "pl": "",
-        "uk": ""
+        "en": "keep Tempelhofer Feld permanently unbuilt; respect the 2014 Volksentscheid (change only by new vote); reject full and Randbebauung for heat/air and health reasons; Flughafengebäude for common-good culture/sport/education, not edge housing",
+        "de": "Tempelhofer Feld dauerhaft unbebaut erhalten; Volksentscheid 2014 respektieren (Änderung nur durch neuen Volksentscheid); volle und Randbebauung ablehnen (Hitze/Luft/Gesundheit); Flughafengebäude gemeinwohlorientiert für Kultur/Sport/Bildung, nicht Randwohnungsbau",
+        "ru": "сохранить Tempelhofer Feld незастроенным; уважать Volksentscheid 2014 (менять только новым голосованием); отвергать полную и краевую застройку (жара/воздух/здоровье); здание аэропорта — общественное благо для культуры/спорта/образования, не краевое жильё",
+        "tr": "Tempelhofer Feld’i kalıcı olarak boş tutmak; 2014 Volksentscheid’e saygı (yalnızca yeni oylamayla değişir); tam ve kenar yapılaşmayı reddetmek; havalimanı binası kültür/spor/eğitim için kamu yararı, kenar konut değil",
+        "pl": "trzymać Tempelhofer Feld trwale niezabudowane; szanować Volksentscheid 2014 (zmiana tylko nowym głosowaniem); odrzucać pełną i krawędziową zabudowę; budynek lotniska na kulturę/sport/edukację dla dobra wspólnego, nie zabudowa krawędzi",
+        "uk": "зберегти Tempelhofer Feld незабудованим; поважати Volksentscheid 2014 (зміна лише новим голосуванням); відхиляти повну й крайову забудову; будівля аеропорту — суспільне благо для культури/спорту/освіти, не крайове житло"
       }
     },
     {
@@ -2529,14 +2529,14 @@
     {
       "topicId": "zero-waste-waste-prevention",
       "partyId": "tierschutz",
-      "stance": "none",
+      "stance": "for",
       "summary": {
-        "en": "",
-        "de": "",
-        "ru": "",
-        "tr": "",
-        "pl": "",
-        "uk": ""
+        "en": "Verpackungssteuer on single-use packaging; standardized Mehrweg and deposit systems; Repair-/Tausch-Cafés in every Kiez, Reuse-Hubs, ReparaturBONUS; circular building; prefer recycling over incineration",
+        "de": "Verpackungssteuer auf Einwegverpackungen; standardisierte Mehrweg- und Pfandsysteme; Reparatur-/Tausch-Cafés in jedem Kiez, Reuse-Hubs, ReparaturBONUS; zirkuläres Bauen; stoffliches Recycling vor Verbrennung",
+        "ru": "налог на одноразовую упаковку; стандартные Mehrweg и залог; Repair-/Tausch-кафе в каждом Kiez, Reuse-Hubs, ReparaturBONUS; циркулярное строительство; переработка вместо сжигания",
+        "tr": "tek kullanımlık ambalaja Verpackungssteuer; standart Mehrweg ve depozito; her Kiez’de Repair-/Tausch-Café, Reuse-Hub, ReparaturBONUS; döngüsel inşaat; yakmadan önce geri dönüşüm",
+        "pl": "Verpackungssteuer na jednorazowe opakowania; standardowe Mehrweg i kaucja; Repair-/Tausch-Café w każdym Kiezie, Reuse-Huby, ReparaturBONUS; budownictwo cyrkularne; recykling przed spalaniem",
+        "uk": "податок на одноразову упаковку; стандартні Mehrweg і застава; Repair-/Tausch-кафе в кожному Kiez, Reuse-Hubs, ReparaturBONUS; циркулярне будівництво; переробка замість спалювання"
       }
     },
     {
@@ -3181,12 +3181,12 @@
       "partyId": "tierschutz",
       "stance": "against",
       "summary": {
-        "en": "against a strategy of continuing fossil gas today with a promise to replace it with hydrogen in the future; risk of fossil lock‑in",
-        "de": "gegen eine Strategie, fossiles Gas heute fortzuführen mit dem Versprechen, es künftig durch Wasserstoff zu ersetzen; Risiko fossiler Lock-ins",
-        "ru": "против стратегии продолжать ископаемый газ сегодня с обещанием заменить его водородом в будущем; риск fossil lock‑in",
-        "tr": "bugün fosil gaza devam edip gelecekte hidrojenle değiştirme vaadine karşı; fosil kilitlenme riski",
-        "pl": "przeciw strategii kontynuowania gazu kopalnego dziś z obietnicą zastąpienia go wodorem w przyszłości; ryzyko fossil lock-in",
-        "uk": "проти стратегії продовження використання викопного газу сьогодні з обіцянкою замінити його воднем у майбутньому; ризик блокування копалин"
+        "en": "against expanding fossil gas today with a promise to replace it with hydrogen later (fossil lock-in); heat via renewables, heat pumps and Fernwärme instead",
+        "de": "gegen heutigen Erdgas-Ausbau mit späterem Wasserstoff-Ersatzversprechen (fossiler Lock-in); Wärme stattdessen über Erneuerbare, Wärmepumpen und Fernwärme",
+        "ru": "против расширения ископаемого газа сегодня с обещанием позже заменить водородом (лок-ин); тепло через ВИЭ, теплонасосы и Fernwärme",
+        "tr": "bugün fosil gazı genişletip sonra hidrojenle değiştirme vaadine karşı (fosil kilit); ısı yenilenebilir, ısı pompaları ve Fernwärme ile",
+        "pl": "przeciw rozbudowie gazu kopalnego dziś z obietnicą wodoru później (lock-in); ciepło przez OZE, pompy i Fernwärme",
+        "uk": "проти розширення викопного газу сьогодні з обіцянкою потім замінити воднем (lock-in); тепло через ВДЕ, теплонасоси й Fernwärme"
       }
     },
     {
@@ -3309,14 +3309,14 @@
     {
       "topicId": "hydrogen",
       "partyId": "tierschutz",
-      "stance": "mixed",
+      "stance": "against",
       "summary": {
-        "en": "skepticism about the announced conversion of gas power plants to “fossil-free” hydrogen without concrete plans",
-        "de": "Skepsis gegenüber der angekündigten Umstellung von Gaskraftwerken auf „fossilenfreien“ Wasserstoff ohne konkrete Pläne",
-        "ru": "скепсис к объявленному переводу газовых электростанций на «без ископаемого топлива» водород без конкретных планов",
-        "tr": "gaz santrallerinin somut plan olmadan “fosilsiz” hidrojene dönüştürülmesi duyurusuna şüphe",
-        "pl": "sceptycyzm wobec zapowiedzianej konwersji elektrowni gazowych na „wolny od paliw kopalnych” wodór bez konkretnych planów",
-        "uk": "скептицизм щодо оголошеного переведення газових електростанцій на «безвикопний» водень без конкретних планів"
+        "en": "reject hydrogen as a general heating solution and fossil-gas-now/H₂-later lock-in; green H₂ only where direct electrification is impossible (e.g. some high-temp / chemical industry), not as broad heat or industry default",
+        "de": "Wasserstoff als allgemeine Wärmelösung und Fossilgas-heute/H₂-morgen-Lock-in ablehnen; grüner H₂ nur dort, wo direkte Elektrifizierung unmöglich ist (z. B. einzelne Hochtemperatur-/Chemiepfade), nicht als breite Wärme- oder Industrie-Default-Lösung",
+        "ru": "отвергать водород как общее отопление и лок-ин «газ сейчас / H₂ потом»; зелёный H₂ только где прямая электрификация невозможна (напр. отдельные высокотемп./хим. процессы), не как массовое тепло",
+        "tr": "genel ısı çözümü ve bugün fosil gaz / yarın H₂ kilidini reddetmek; yeşil H₂ yalnızca doğrudan elektrifikasyonun imkânsız olduğu yerde (örn. bazı yüksek sıcaklık/kimya), kitlesel ısı değil",
+        "pl": "odrzucać wodór jako ogólne ciepło i lock-in gaz dziś / H₂ jutro; zielony H₂ tylko tam, gdzie nie da się elektryfikować (np. niektóre procesy wysokotemp./chemia), nie jako masowe ciepło",
+        "uk": "відхиляти водень як загальне опалення і lock-in «газ зараз / H₂ потім»; зелений H₂ лише де пряма електрифікація неможлива (напр. окремі високотемп./хім. процеси), не як масове тепло"
       }
     },
     {
@@ -3439,14 +3439,14 @@
     {
       "topicId": "heat-pumps",
       "partyId": "tierschutz",
-      "stance": "none",
+      "stance": "for",
       "summary": {
-        "en": "",
-        "de": "",
-        "ru": "",
-        "tr": "",
-        "pl": "",
-        "uk": ""
+        "en": "Wärmewendefonds for heat pumps, Quartierswärme, geothermal and solarthermie; PV, Wärmepumpen, storage and smart controls as standard in municipal renovation and subsidized projects; water-water heat pumps via Sanierungsfonds",
+        "de": "Wärmewendefonds für Wärmepumpen, Quartierswärme, Geothermie und Solarthermie; PV, Wärmepumpen, Speicher und intelligente Steuerung als Standard bei kommunalen Sanierungen und geförderten Projekten; Wasser-Wasser-Wärmepumpen über Sanierungsfonds",
+        "ru": "Wärmewendefonds для теплонасосов, Quartierswärme, геотермии и солнечной теплоты; PV, теплонасосы, накопители и умное управление как стандарт в муниципальных санациях; водяные теплонасосы через Sanierungsfonds",
+        "tr": "Wärmepumpe, Quartierswärme, jeotermal ve solartermik için Wärmewendefonds; belediye yenilemede PV, ısı pompası, depo ve akıllı kontrol standart; Sanierungsfonds ile su-su ısı pompaları",
+        "pl": "Wärmewendefonds na pompy ciepła, Quartierswärme, geotermalnię i solartermikę; PV, pompy, magazyny i sterowanie jako standard w komunalnych modernizacjach; pompy woda-woda przez Sanierungsfonds",
+        "uk": "Wärmewendefonds для теплонасосів, Quartierswärme, геотермії та сонячного тепла; PV, теплонасоси, накопичувачі й розумне керування як стандарт у муніципальних санаціях; водяні теплонасоси через Sanierungsfonds"
       }
     },
     {
@@ -3571,12 +3571,12 @@
       "partyId": "tierschutz",
       "stance": "for",
       "summary": {
-        "en": "coal phase-out by 2030; climate-neutral buildings through renovation without additional burden on tenants; decentralized energy by district",
-        "de": "Kohleausstieg bis 2030; klimaneutrale Gebäude durch Sanierung ohne zusätzliche Belastung für Mieter; dezentrale Energie nach Bezirk",
-        "ru": "выход из угля до 2030; климатическая нейтральность зданий через санацию без дополнительной нагрузки на арендаторов; децентрализованная энергия по районам",
-        "tr": "2030'a kadar kömür çıkışı; kiracılara ek yük olmadan yenilemeyle iklim nötr binalar; mahalle bazında merkezi olmayan enerji",
-        "pl": "wycofanie węgla do 2030; klimaneutralne budynki przez renowację bez dodatkowego obciążenia najemców; zdecentralizowana energia według dzielnic",
-        "uk": "відмова від вугілля до 2030 року; кліматично нейтральні будівлі завдяки реновації без додаткового навантаження на орендарів; децентралізована енергетика по районах"
+        "en": "fully renewable heat by 2035; Wärmewendefonds + warmmietenneutral renovation; accelerate Fernwärme and remunicipalize key heat infrastructure; municipal Wärmeplanung — no explicit coal phase-out-by-2030 line found",
+        "de": "Wärme bis 2035 vollständig erneuerbar; Wärmewendefonds plus warmmietenneutrale Sanierung; Fernwärme beschleunigen und zentrale Wärme-Infrastruktur rekommunalisieren; kommunale Wärmeplanung – kein expliziter Kohleausstieg bis 2030 gefunden",
+        "ru": "тепло полностью на ВИЭ к 2035; Wärmewendefonds + тёплая аренда без роста; ускорить Fernwärme и рекоммунализировать ключевую теплоинфраструктуру; муниципальное Wärmeplanung — явного угольного выхода к 2030 нет",
+        "tr": "2035’e kadar ısı tamamen yenilenebilir; Wärmewendefonds + warmmietenneutral yenileme; Fernwärme’yi hızlandırmak ve ana ısı altyapısını yeniden belediyelendirmek — açık 2030 kömür çıkışı yok",
+        "pl": "ciepło w pełni OZE do 2035; Wärmewendefonds + modernizacja warmmietenneutral; przyspieszyć Fernwärme i rekomunalizować kluczową infrastrukturę ciepła — brak jawnego odejścia od węgla do 2030",
+        "uk": "тепло повністю на ВДЕ до 2035; Wärmewendefonds + санація без зростання теплої оренди; прискорити Fernwärme і рекомуналізувати ключову теплоінфраструктуру — явного виходу з вугілля до 2030 немає"
       }
     },
     {
@@ -3701,12 +3701,12 @@
       "partyId": "tierschutz",
       "stance": "none",
       "summary": {
-        "en": "",
-        "de": "",
-        "ru": "",
-        "tr": "",
-        "pl": "",
-        "uk": ""
+        "en": "not addressed in the Berlin Wahlprogramm",
+        "de": "im Berliner Wahlprogramm nicht thematisiert",
+        "ru": "в берлинской предвыборной программе не затрагивается",
+        "tr": "Berlin seçim programında ele alınmıyor",
+        "pl": "nieporuszane w berlińskim programie wyborczym",
+        "uk": "у берлінській передвиборчій програмі не згадується"
       }
     },
     {
@@ -4739,14 +4739,14 @@
     {
       "topicId": "housing-tax-on-the-first-property-purchase",
       "partyId": "tierschutz",
-      "stance": "against",
+      "stance": "for",
       "summary": {
-        "en": "emphasis on protection against converting rental apartments into condominiums and on expanding district-level protection against displacement; no first-purchase benefits proposed",
-        "de": "Schwerpunkt auf dem Schutz vor der Umwandlung von Miet- in Eigentumswohnungen und dem Ausbau des bezirklichen Milieuschutzes; keine Vorteile für den Erstkauf vorgeschlagen",
-        "ru": "фокус на защите от перевода съёмных квартир в собственность и расширении районной защиты от вытеснения; льготы на первую покупку не заявлены",
-        "tr": "odak kiralık dairelerin mülkiyete dönüşümüne karşı koruma ve ilçe düzeyinde yerinden edilme korumasını genişletmek; ilk alım avantajı önerilmiyor",
-        "pl": "fokus na ochronie przed przekształcaniem mieszkań na wynajem w Eigentumswohnungen i na rozszerzaniu dzielnicowej ochrony przed wypieraniem; bez proponowanych ulg przy pierwszym zakupie",
-        "uk": "наголошення на захисті від перетворення орендованих квартир на кондомініуми та на розширенні захисту на районному рівні від переміщення; переваги при першій покупці не пропонуються"
+        "en": "progressive Grunderwerbsteuer: Freibeträge for those with little land ownership, higher rates for larger holdings — ease access for Wohnprojekte/co-ops and curb speculation (alongside condo-conversion protection)",
+        "de": "progressive Grunderwerbsteuer: Freibeträge bei wenig Landeigentum, höhere Sätze bei größerem Besitz – Zugang für Wohnprojekte/Genossenschaften erleichtern und Spekulation dämpfen (neben Umwandlungsschutz)",
+        "ru": "прогрессивный Grunderwerbsteuer: льготы при малой земле, выше ставки при крупной собственности — доступ для жилищных проектов/кооперативов и против спекуляции (рядом с защитой от кондоминиумов)",
+        "tr": "progresif Grunderwerbsteuer: az arazi sahipliğinde Freibetrag, büyük mülkte daha yüksek oran — konut projeleri/kooperatifler için erişim ve spekülasyonu dizginlemek",
+        "pl": "progresywny Grunderwerbsteuer: ulgi przy małej ziemi, wyższe stawki przy większej — ułatwić dostęp projektom/spółdzielniom i ograniczyć spekulację",
+        "uk": "прогресивний Grunderwerbsteuer: пільги за малої землі, вищі ставки за більшої власності — доступ для житлових проєктів/кооперативів і проти спекуляції"
       }
     },
     {
@@ -7339,14 +7339,14 @@
     {
       "topicId": "migration-bezahlkarte-and-access-to-benefits-and-healthcare",
       "partyId": "tierschutz",
-      "stance": "mixed",
+      "stance": "none",
       "summary": {
-        "en": "the Bezahlkarte is not mentioned; the logic runs in the opposite direction — increase the Regelbedarf, restore the Berlin-Pass, test an unconditional basic income, and assistance should not depend on residence status",
-        "de": "Bezahlkarte wird nicht erwähnt; die Logik ist entgegengesetzt — Regelbedarf erhöhen, Berlin-Pass wieder einführen, bedingungsloses Grundeinkommen erproben, und Hilfe darf nicht vom Aufenthaltsstatus abhängen",
-        "ru": "Bezahlkarte не упоминается; наоборот: повысить Regelbedarf, вернуть Berlin-Pass, протестировать безусловный базовый доход, а помощь не должна зависеть от статуса пребывания",
-        "tr": "Bezahlkarte anılmıyor; mantık ters yönde — Regelbedarf'i artırmak, Berlin-Pass'ı geri getirmek, koşulsuz temel geliri denemek ve yardımın ikamet statüsüne bağlı olmaması",
-        "pl": "Bezahlkarte nie jest wspomniana; logika idzie w przeciwnym kierunku — podniesienie Regelbedarf, przywrócenie Berlin-Pass, testowanie bezwarunkowego dochodu podstawowego, a pomoc nie powinna zależeć od statusu pobytu",
-        "uk": "Bezahlkarte у програмі немає; навпаки: підвищити Regelbedarf, повернути Berlin-Pass, протестувати безумовний базовий дохід"
+        "en": "Bezahlkarte is not addressed; related social policy raises Regelbedarf, restores Berlin-Pass and tests unconditional basic income",
+        "de": "Bezahlkarte nicht thematisiert; verwandte Sozialpolitik erhöht Regelbedarf, stellt Berlin-Pass wieder her und erprobt bedingungsloses Grundeinkommen",
+        "ru": "Bezahlkarte не затрагивается; смежная соцполитика повышает Regelbedarf, возвращает Berlin-Pass и тестирует безусловный базовый доход",
+        "tr": "Bezahlkarte ele alınmıyor; ilgili sosyal politika Regelbedarf’i artırır, Berlin-Pass’ı geri getirir ve koşulsuz temel geliri dener",
+        "pl": "Bezahlkarte nieporuszana; pokrewna polityka społeczna podnosi Regelbedarf, przywraca Berlin-Pass i testuje bezwarunkowy dochód podstawowy",
+        "uk": "Bezahlkarte не згадується; суміжна соцполітика підвищує Regelbedarf, повертає Berlin-Pass і тестує безумовний базовий дохід"
       }
     },
     {
@@ -7859,14 +7859,14 @@
     {
       "topicId": "business-succession",
       "partyId": "tierschutz",
-      "stance": "mixed",
+      "stance": "none",
       "summary": {
-        "en": "no separate business-succession program; economic policy focuses more on social standards, advice instead of sanctions, a four-day week, and common-good clusters",
-        "de": "kein eigenes Programm zur Unternehmensnachfolge; Wirtschaftspolitik konzentriert sich stärker auf soziale Standards, Beratung statt Sanktionen, Viertagewoche und Gemeinwohlcluster",
-        "ru": "отдельной программы передачи бизнеса нет; экономическая политика больше про социальные стандарты, консультации вместо санкций, четырёхдневную неделю и кластеры общего блага",
-        "tr": "ayrı bir işletme-devri programı yok; ekonomi politikası daha çok sosyal standartlara, yaptırım yerine danışmanlığa, dört günlük haftaya ve kamu yararı kümelerine odaklanır",
-        "pl": "brak osobnego programu sukcesji firm; polityka gospodarcza skupia się raczej na standardach społecznych, doradztwie zamiast sankcji, czterodniowym tygodniu pracy i klastrach dobra wspólnego",
-        "uk": "окремої програми спадкоємності бізнесу немає; економічна політика більше фокусується на соціальних стандартах, порадах замість санкцій, чотириденному тижні та кластерах загального блага"
+        "en": "business succession / Betriebsnachfolge is not addressed",
+        "de": "Betriebsnachfolge nicht thematisiert",
+        "ru": "передача бизнеса / Betriebsnachfolge не затрагивается",
+        "tr": "işletme devri / Betriebsnachfolge ele alınmıyor",
+        "pl": "sukcesja firm / Betriebsnachfolge nieporuszana",
+        "uk": "передача бізнесу / Betriebsnachfolge не згадується"
       }
     },
     {
