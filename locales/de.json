@@ -1,13 +1,13 @@
 {
   "metadata": {
     "homeTitle": "Berlin 2026 — Wahlprogramme der 10 populärsten Parteien im Vergleich",
-    "homeDescription": "Offizielle Programme zur Abgeordnetenhauswahl am 20. September 2026: Verkehr, Wohnen, Klima, Sicherheit, Bildung u. a. Unabhängig, keine Wahlempfehlung.",
+    "homeDescription": "Offizielle Programme zur Abgeordnetenhauswahl am 20. September 2026: Verkehr, Wohnen, Klima, Sicherheit u. a. Unabhängig, keine Wahlempfehlung.",
     "aboutTitle": "Über uns — Berlin 2026",
-    "aboutDescription": "Wer hinter Berlin 2026 steckt: Nina vergleicht die Programme und treibt das Projekt voran; Mascha sorgt für die Technik. Unabhängig, keine Parteibindung.",
+    "aboutDescription": "Wer hinter Berlin 2026 steckt: Nina vergleicht die Programme und treibt das Projekt voran; Mascha macht die Technik. Unabhängig, ohne Parteibindung.",
     "privacyTitle": "Datenschutzerklärung — Berlin 2026",
-    "privacyDescription": "Wie Berlin 2026 personenbezogene Daten gemäß DSGVO verarbeitet.",
+    "privacyDescription": "Wie Berlin 2026 personenbezogene Daten nach der DSGVO verarbeitet.",
     "aiDisclosureTitle": "KI-Hinweis — Berlin 2026",
-    "aiDisclosureDescription": "Wie wir KI beim Verfassen von Website-Texten und beim Vergleich von Wahlprogrammen nutzen — und wie Menschen für Ideen, Inhalt und Genauigkeit verantwortlich bleiben.",
+    "aiDisclosureDescription": "Wie wir KI für Website-Texte und den Programmvergleich nutzen — und warum Menschen für Ideen, Inhalt und Richtigkeit verantwortlich bleiben.",
     "keywords": [
       "Berlin",
       "Abgeordnetenhauswahl 2026",
@@ -25,7 +25,7 @@
   },
   "brand": {
     "name": "Berlin 2026",
-    "tagline": "Parteipositionen im Vergleich"
+    "tagline": "Parteipositionen nebeneinander"
   },
   "navigation": {
     "motivation": "Motivation",
@@ -33,30 +33,30 @@
     "privacy": "Datenschutz"
   },
   "hero": {
-    "headline": "Wahlprogramme zur Abgeordnetenhauswahl 2026 im Vergleich",
+    "headline": "Abgeordnetenhauswahl 2026 — Programme im Vergleich",
     "support": "20. September 2026 · Abgeordnetenhaus · 10 Parteien · 65 Themen",
     "blurb": "Positionen aus den offiziellen Wahlprogrammen nebeneinander — keine Wahlempfehlung.",
     "cta": "Programme vergleichen",
-    "disclaimer": "Dieses Projekt steht in keiner Verbindung zu einer Partei und ist keine Wahlwerbung.",
-    "scrollHint": "Zum Vergleich scrollen"
+    "disclaimer": "Kein Wahlkampfmaterial und mit keiner Partei verbunden.",
+    "scrollHint": "Zur Tabelle"
   },
   "motivation": {
     "title": "Motivation",
     "berlinVotesTitle": "Berlin wählt am 20. September 2026",
     "berlinVotesBody": "Alle fünf Jahre wählt Berlin ein neues Abgeordnetenhaus — das Landesparlament, das die Politik der Stadt prägt.",
-    "accessibilityTitle": "Zugang und Sprache",
-    "accessibilityBody": "Etwa [16 % der deutschen Staatsangehörigen](https://de.statista.com/statistik/daten/studie/1109703/umfrage/bevoelkerung-bezirke-nach-migrationshintergrund-berlin/) in Berlin haben einen Migrationshintergrund. Wahlprogramme erscheinen nur auf Deutsch und können bis zu 200 Seiten umfassen. Das ist selbst für Muttersprachler:innen schwer zu lesen. Der [Wahl-O-Mat](https://www.wahl-o-mat.de/berlin2026/app/main_app.html) hilft, geht aber nicht tief genug.",
+    "accessibilityTitle": "Sprache und Zugang",
+    "accessibilityBody": "Etwa [16 % der deutschen Staatsangehörigen](https://de.statista.com/statistik/daten/studie/1109703/umfrage/bevoelkerung-bezirke-nach-migrationshintergrund-berlin/) in Berlin haben einen Migrationshintergrund. Wahlprogramme erscheinen nur auf Deutsch und können bis zu 200 Seiten lang sein. Das ist selbst für Muttersprachler:innen schwer zu lesen. Der [Wahl-O-Mat](https://www.wahl-o-mat.de/berlin2026/app/main_app.html) hilft, geht aber nicht tief genug.",
     "clarityTitle": "Klarheit und Substanz",
-    "clarityBody": "Vieles auf diesen 200 Seiten ist Rhetorik und lässt sich kaum in Konkretes übersetzen. Wir wollten greifbare Antworten: Verpflichtungen mit Zahlen von allgemeinen Absichtserklärungen trennen.",
+    "clarityBody": "Vieles auf diesen 200 Seiten ist Rhetorik und lässt sich kaum in Konkretes übersetzen. Wir wollten greifbare Antworten: Zusagen mit Zahlen von allgemeinen Absichtserklärungen trennen.",
     "whatWeDidTitle": "Was wir gemacht haben",
-    "whatWeDidBody": "Wir haben die Positionen von 10 Berliner Parteien zu zentralen Punkten bei Verkehr, Wohnen, Klima und Energie, Sicherheit, Bildung, Gesundheit, Migration, Wirtschaft und Demokratie verglichen — und die Programme in eine Vergleichstabelle überführt.",
+    "whatWeDidBody": "Wir haben die Positionen von 10 Berliner Parteien zu zentralen Punkten bei Verkehr, Wohnen, Klima und Energie, Sicherheit, Bildung, Gesundheit, Migration, Wirtschaft und Demokratie verglichen — und daraus eine Vergleichstabelle gemacht.",
     "beforeYouVoteTitle": "Bevor Sie wählen",
-    "beforeYouVoteBody": "Diese Tabelle wurde mithilfe von KI erstellt. Bitte überprüfen Sie die Punkte, die für Sie wichtig sind, noch einmal. Vollständige Übersetzungen der Programme der großen Parteien finden Sie auf [BerlinVote.Help](https://www.berlinvote.help/).",
-    "furtherReadingIntro": "Vielleicht finden Sie auch Folgendes hilfreich:",
+    "beforeYouVoteBody": "Die Tabelle entstand mit Hilfe von KI. Bitte prüfen Sie die Punkte, die Ihnen wichtig sind, noch einmal. Vollständige Übersetzungen der Programme großer Parteien finden Sie auf [BerlinVote.Help](https://www.berlinvote.help/).",
+    "furtherReadingIntro": "Vielleicht hilfreich:",
     "furtherReadingBody": "- [Wahl-O-Mat Berlin 2026](https://www.wahl-o-mat.de/berlin2026/app/main_app.html)\n- [Wikipedia: Wahl zum Abgeordnetenhaus von Berlin 2026](https://de.wikipedia.org/wiki/Wahl_zum_Abgeordnetenhaus_von_Berlin_2026)\n- [RBB: FAQ zu den Berlin-Wahlen 2026 (Englisch)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: Wahlen in Leichter Sprache](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Berliner Landeszentrale für politische Bildung: Broschüre Wahlen 2026 (PDF, EN)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
   },
   "footer": {
-    "aiNotice": "Texte und die Vergleichstabelle auf dieser Website wurden mit KI-Unterstützung erstellt.",
+    "aiNotice": "Texte und Vergleichstabelle auf dieser Website entstanden mit KI-Unterstützung.",
     "aiDisclosure": "KI-Hinweis",
     "relatedSite": "Vollständige Programmübersetzungen: BerlinVote.Help",
     "contact": "Kontakt",
@@ -68,7 +68,7 @@
     "fabLabel": "Feedback senden",
     "title": "Feedback senden",
     "intro": "Fragen oder Anmerkungen zur Website? Schreiben Sie uns kurz. Mit E-Mail antworten wir gerne.",
-    "textReportHint": "Falsche Formulierung oder Sachfehler? Markieren (oder kopieren) Sie die Stelle auf der Seite — es erscheint ein kleiner Button, mit dem Sie das Korrekturformular öffnen können.",
+    "textReportHint": "Falsche Formulierung oder Sachfehler? Markieren (oder kopieren) Sie die Stelle auf der Seite — es erscheint ein kleiner Button zum Korrekturformular.",
     "messageLabel": "Ihre Nachricht",
     "messagePlaceholder": "Ihr Feedback…",
     "emailLabel": "E-Mail (für eine Antwort)",
@@ -94,25 +94,25 @@
   },
   "about": {
     "title": "Über uns",
-    "body": "Berlin 2026 ist ein unabhängiges Projekt zum Vergleich von Parteiprogrammen zu verschiedenen Politikfeldern vor der Abgeordnetenhauswahl 2026 in Berlin. Offizielle Programme erscheinen nur auf Deutsch — wir übersetzen sie in Sprachen, die in Berlin gesprochen werden.\n\nNina vergleicht die Programme und treibt das Projekt voran, Mascha sorgt für die technische Umsetzung. Parallel arbeiten wir an [Wasser für alle / Water for All](https://www.water4all.com.de/de) — einem offenen Atlas freier Trinkwasserstellen in Berlin. Das Projekt macht den Zugang zu Wasser sichtbar und hilft den Menschen vor Ort, sich für neue Trinkbrunnen einzusetzen.",
+    "body": "Berlin 2026 ist ein unabhängiges Projekt zum Vergleich von Parteiprogrammen vor der Abgeordnetenhauswahl 2026 in Berlin. Offizielle Programme erscheinen nur auf Deutsch — wir übersetzen sie in Sprachen, die in Berlin gesprochen werden.\n\nNina vergleicht die Programme und treibt das Projekt voran, Mascha sorgt für die Technik. Parallel arbeiten wir an [Wasser für alle / Water for All](https://www.water4all.com.de/de) — einem offenen Atlas freier Trinkwasserstellen in Berlin. Das Projekt macht den Zugang zu Wasser sichtbar und hilft vor Ort, sich für neue Trinkbrunnen einzusetzen.",
     "contributeTitle": "Wie Sie helfen können",
-    "contributeBody": "Wenn Sie das Projekt unterstützen möchten, hilft uns am meisten, wenn Sie es weitererzählen — an Menschen, denen es nützlich sein könnte.\n\nUnd wenn Ihnen auf der Website ein Fehler auffällt — eine ungenaue Formulierung oder ein sachlicher Irrtum — schreiben Sie uns bitte, damit wir ihn korrigieren können. Markieren Sie die Stelle auf der Seite, um eine Meldung zu öffnen, oder erreichen Sie uns über Kontakt."
+    "contributeBody": "Wenn Sie das Projekt unterstützen möchten, hilft uns am meisten, wenn Sie es weitererzählen — an Menschen, denen es nützlich sein könnte.\n\nUnd wenn Ihnen auf der Website ein Fehler auffällt — eine ungenaue Formulierung oder ein Sachfehler — schreiben Sie uns bitte, damit wir ihn korrigieren können. Markieren Sie die Stelle auf der Seite, um eine Meldung zu öffnen, oder erreichen Sie uns über Kontakt."
   },
   "aiDisclosure": {
     "title": "KI-Hinweis",
-    "intro": "Diese Seite erklärt, wie wir Tools der künstlichen Intelligenz (KI) beim Erstellen von Inhalten für diese Website nutzen — und wie menschliche Redaktion für das Veröffentlichte verantwortlich bleibt.",
+    "intro": "Hier erklären wir, wie wir KI-Tools beim Erstellen von Inhalten nutzen — und warum Menschen für das Veröffentlichte verantwortlich bleiben.",
     "howWeUseAi": "Wie wir KI nutzen",
-    "howWeUseAiContent": "Wir nutzen KI-Tools, um Website-Texte zu entwerfen und zu schärfen — etwa Seitentexte und Kurzfassungen offizieller Wahlprogramme. KI hilft bei Formulierung, Struktur und dem Herausarbeiten vergleichbarer Positionen; sie entscheidet nicht, was wir veröffentlichen oder wie Sie wählen sollen.",
+    "howWeUseAiContent": "Wir nutzen KI-Tools, um Website-Texte zu entwerfen und zu verbessern — etwa Seitentexte und Kurzfassungen offizieller Wahlprogramme. KI hilft bei Formulierung, Struktur und vergleichbaren Positionen; sie entscheidet nicht, was wir veröffentlichen oder wie Sie wählen sollen.",
     "humanResponsibility": "Menschliche Ideen und redaktionelle Verantwortung",
-    "humanResponsibilityContent": "Alle Ideen, Ziele und inhaltlichen Entscheidungen hinter dieser Website stammen von Menschen im Projekt Berlin 2026. Vor der Veröffentlichung wird der Inhalt auf Klarheit und Passung zum Informationszweck geprüft. Die redaktionelle Verantwortung liegt beim Projekt Berlin 2026.",
-    "reviewAndAccuracy": "Prüfung und Genauigkeit",
-    "reviewAndAccuracyContent": "Die Vergleichstabelle der Parteipositionen wurde zu einem großen Teil mit KI-Unterstützung aus den offiziellen Wahlprogrammen erstellt. Bitte überprüfen Sie Punkte, die für Sie wichtig sind, noch einmal. Vollständige Übersetzungen der Programme der großen Parteien finden Sie auf BerlinVote.Help. Wir prüfen Inhalte auf Genauigkeit, dennoch können Fehler vorkommen und Nuancen untergehen. Wenn Ihnen etwas auffällt, schreiben Sie uns bitte.",
+    "humanResponsibilityContent": "Alle Ideen, Ziele und inhaltlichen Entscheidungen hinter dieser Website stammen von Menschen im Projekt Berlin 2026. Vor der Veröffentlichung prüfen wir den Inhalt auf Klarheit und darauf, ob er zum Infoprojekt passt. Die redaktionelle Verantwortung liegt beim Projekt Berlin 2026.",
+    "reviewAndAccuracy": "Prüfung und Richtigkeit",
+    "reviewAndAccuracyContent": "Die Vergleichstabelle der Parteipositionen entstand zu einem großen Teil mit KI-Unterstützung aus den offiziellen Wahlprogrammen. Bitte prüfen Sie Punkte, die Ihnen wichtig sind, noch einmal. Vollständige Übersetzungen der Programme großer Parteien finden Sie auf BerlinVote.Help. Wir prüfen Inhalte auf Richtigkeit — Fehler können trotzdem vorkommen, und Nuancen können untergehen. Wenn Ihnen etwas auffällt, schreiben Sie uns bitte.",
     "contact": "Kontakt",
     "contactContent": "Fragen zur KI-Nutzung oder zu Inhalten auf dieser Website? Schreiben Sie an feedback.berlin.2026@gmail.com."
   },
   "privacy": {
     "title": "Datenschutzerklärung",
-    "intro": "Diese Datenschutzerklärung erklärt, wie wir personenbezogene Daten erheben, nutzen und schützen, wenn Sie unsere Website besuchen — in Übereinstimmung mit der Datenschutz-Grundverordnung (DSGVO) und dem geltenden deutschen Datenschutzrecht (einschließlich TTDSG).",
+    "intro": "Diese Datenschutzerklärung erklärt, wie wir personenbezogene Daten erheben, nutzen und schützen, wenn Sie unsere Website besuchen — nach der Datenschutz-Grundverordnung (DSGVO) und dem geltenden deutschen Datenschutzrecht (einschließlich TTDSG).",
     "responsibleParty": "Verantwortliche Stelle",
     "responsiblePartyContent": "Projekt Berlin 2026\nE-Mail: feedback.berlin.2026@gmail.com",
     "dataProcessed": "Verarbeitete Daten",
@@ -138,16 +138,16 @@
     "title": "Wahlprogramme zur Abgeordnetenhauswahl 2026",
     "subtitle": "Positionen der 10 größten Parteien zu Verkehr, Wohnen, Klima, Sicherheit, Bildung, Gesundheit, Migration und weiteren Themen — aus ihren offiziellen Wahlprogrammen.",
     "topicColumn": "Thema",
-    "legendFor": "Dafür / befürwortend",
-    "legendAgainst": "Dagegen / ablehnend",
+    "legendFor": "Dafür",
+    "legendAgainst": "Dagegen",
     "legendMixed": "Gemischt / mit Einschränkungen / unklar",
-    "legendNone": "Im Programm nicht gefunden",
-    "scrollHint": "Nur ausgewählte Parteien werden angezeigt — fügen Sie weitere über die Markierungen oben hinzu.",
+    "legendNone": "Nicht im Programm",
+    "scrollHint": "Nur ausgewählte Parteien werden angezeigt — weitere oben über die Markierungen hinzufügen.",
     "programLink": "Programm",
     "emptyCell": "—",
     "partiesLabel": "Parteien zum Vergleich",
     "showAll": "Alle",
-    "showMajor": "Große 4",
+    "showMajor": "Große Vier",
     "selectedCount": "{count} ausgewählt",
     "expandTopic": "Positionen anzeigen",
     "collapseTopic": "Ausblenden",
@@ -160,7 +160,7 @@
     "searchResultsCount": "{count} Themen",
     "filterAll": "Alle Themen",
     "filterDisagreement": "Unterschiedliche Positionen",
-    "filterDisagreementHint": "Unterschiedliche Positionen: Themen, bei denen die ausgewählten Parteien nicht dieselbe Haltung haben (dafür, dagegen, gemischt oder nicht gefunden).",
+    "filterDisagreementHint": "Unterschiedliche Positionen: Themen, bei denen die ausgewählten Parteien nicht dieselbe Haltung haben (dafür, dagegen, gemischt oder nicht im Programm).",
     "groups": {
       "transport": "Verkehr",
       "waste": "Sauberkeit & Müll",

@@ -175,7 +175,7 @@
       "group": "transport",
       "label": {
         "en": "Cycling infrastructure",
-        "de": "Radverkehrsinfrastruktur",
+        "de": "Radinfrastruktur",
         "ru": "Велосипедная инфраструктура",
         "tr": "Bisiklet altyapısı",
         "pl": "Infrastruktura rowerowa"
@@ -199,7 +199,7 @@
       "group": "transport",
       "label": {
         "en": "EV charging",
-        "de": "Ladeinfrastruktur für E-Autos",
+        "de": "Ladestationen für E-Autos",
         "ru": "Зарядки для электромобилей",
         "tr": "Elektrikli araç şarjı",
         "pl": "Ładowanie pojazdów elektrycznych"
@@ -223,7 +223,7 @@
       "group": "climate_energy",
       "label": {
         "en": "Large-scale tree planting and/or tree care",
-        "de": "Großflächige Baumpflanzung und/oder Baumpflege",
+        "de": "Baumpflanzung und Baumpflege in großem Stil",
         "ru": "Массовая посадка деревьев и/или уход за деревьями",
         "tr": "Geniş ölçekli ağaçlandırma ve/veya ağaç bakımı",
         "pl": "Masowe nasadzenia drzew i/lub pielęgnacja drzew"
@@ -283,7 +283,7 @@
       "group": "waste",
       "label": {
         "en": "Cleanliness / enforcement / litter",
-        "de": "Sauberkeit / Kontrolle / Littering",
+        "de": "Sauberkeit / Kontrolle / Vermüllung",
         "ru": "Чистота / контроль / мусор",
         "tr": "Temizlik / yaptırım / çöp",
         "pl": "Czystość / egzekwowanie przepisów / zaśmiecanie"
@@ -415,7 +415,7 @@
       "group": "housing",
       "label": {
         "en": "Housing: socialization of large landlords",
-        "de": "Wohnen: Vergesellschaftung großer Vermieter",
+        "de": "Wohnen: Vergesellschaftung großer Wohnungskonzerne",
         "ru": "Жильё: обобществление крупных владельцев",
         "tr": "Konut: büyük konut şirketlerinin toplumsallaştırılması",
         "pl": "Mieszkalnictwo: uspołecznienie dużych spółek mieszkaniowych"
@@ -763,7 +763,7 @@
       "group": "economy",
       "label": {
         "en": "Small business",
-        "de": "Kleine und mittlere Unternehmen",
+        "de": "Kleine und mittlere Betriebe",
         "ru": "Малый бизнес",
         "tr": "Küçük işletmeler",
         "pl": "Małe firmy"
@@ -859,7 +859,7 @@
       "group": "democracy",
       "label": {
         "en": "Women’s rights and prevention of domestic violence",
-        "de": "Frauenrechte und Prävention häuslicher Gewalt",
+        "de": "Frauenrechte und Schutz vor häuslicher Gewalt",
         "ru": "Права женщин и профилактика домашнего насилия",
         "tr": "Kadın hakları ve aile içi şiddetin önlenmesi",
         "pl": "Prawa kobiet i zapobieganie przemocy domowej"
@@ -922,7 +922,7 @@
       "stance": "mixed",
       "summary": {
         "en": "no explicit target; focus on an “efficient and affordable” climate policy, decarbonizing district heating and energy grids, but oppose strict obligations and shutting down the gas network",
-        "de": "kein explizites Ziel; Fokus auf eine „effiziente und bezahlbare“ Klimapolitik, Dekarbonisierung von Fernwärme und Energienetzen, aber gegen strenge Verpflichtungen und die Abschaltung des Gasnetzes",
+        "de": "kein klares Ziel; Schwerpunkt: eine „effiziente und bezahlbare“ Klimapolitik, Dekarbonisierung von Fernwärme und Energienetzen, aber gegen strenge Verpflichtungen und die Abschaltung des Gasnetzes",
         "ru": "цель в явном виде не сформулирована; делают ставку на «эффективный и доступный» климатический курс, декарбонизацию централизованное теплоснабжение энергосетей, но против жестких обязательств и отключения газовой сети",
         "tr": "açık hedef yok; “verimli ve uygun maliyetli” iklim politikasına odak; merkezi ısıtma ve enerji şebekelerinin karbonsuzlaştırılması, ancak katı yükümlülüklere ve gaz şebekesinin kapatılmasına karşı",
         "pl": "brak wyraźnego celu; nacisk na „efektywną i przystępną” politykę klimatyczną, dekarbonizację ciepła sieciowego i sieci energetycznych, ale przeciw ścisłym obowiązkom i wyłączaniu sieci gazowej"
@@ -1186,7 +1186,7 @@
       "stance": "mixed",
       "summary": {
         "en": "streets safer and fairer in how space is distributed; more Tempo 30, traffic calming, safe school zones; focus on repair and transformation, not on new motorways",
-        "de": "Straßen sicherer und gerechter bei der Flächenverteilung; mehr Tempo 30, Verkehrsberuhigung, sichere Schulwege; Fokus auf Sanierung und Umbau, nicht auf neue Autobahnen",
+        "de": "Straßen sicherer und gerechter bei der Flächenverteilung; mehr Tempo 30, Verkehrsberuhigung, sichere Schulwege; Schwerpunkt auf Sanierung und Umbau, nicht auf neue Autobahnen",
         "ru": "сделать улицы безопаснее и справедливее по распределению пространства; больше Tempo 30, успокоение трафика, безопасные школьные зоны; фокус на ремонте и трансформации, не на новых автобанах",
         "tr": "sokaklar daha güvenli ve alan dağılımında daha adil; daha fazla Tempo 30, trafik sakinleştirme, güvenli okul bölgeleri; odak onarım ve dönüşüm, yeni otoyollar değil",
         "pl": "ulice bezpieczniejsze i sprawiedliwsze w podziale przestrzeni; więcej Tempo 30, uspokojenie ruchu, bezpieczne strefy szkolne; nacisk na naprawę i transformację, nie na nowe autostrady"
@@ -1198,7 +1198,7 @@
       "stance": "mixed",
       "summary": {
         "en": "against new motorways; focus on repairing roads and bridges, coordinating construction sites, in conflicts, priority for the environmental transport network; new road plans only where they serve the public good",
-        "de": "gegen neue Autobahnen; Fokus auf Sanierung von Straßen und Brücken, Baustellenkoordination; bei Konflikten Vorrang für das Umweltverbund-Netz; neue Straßenplanungen nur, wo sie dem Gemeinwohl dienen",
+        "de": "gegen neue Autobahnen; Schwerpunkt auf Sanierung von Straßen und Brücken, Baustellenkoordination; bei Konflikten Vorrang für das Umweltverbund-Netz; neue Straßenplanungen nur, wo sie dem Gemeinwohl dienen",
         "ru": "против новых автобанов; фокус на ремонте дорог и мостов, координации стройплощадок, при конфликте — приоритет окружающей среды; новые дорожные планы только с общественной пользой",
         "tr": "yeni otoyollara karşı; odak yol ve köprü onarımı, şantiye koordinasyonu; çatışmalarda öncelik çevreci ulaşım ağına; yeni yol planları yalnızca kamu yararına hizmet ettiğinde",
         "pl": "przeciw nowym autostradom; nacisk na naprawę dróg i mostów, koordynację budów; w konfliktach priorytet dla środowiskowej sieci transportowej; nowe plany drogowe tylko gdy służą dobru wspólnemu"
@@ -1246,7 +1246,7 @@
       "stance": "mixed",
       "summary": {
         "en": "focus on safe streets, Vision Zero, reducing through traffic and faster completion of road/sidewalk worksites",
-        "de": "Fokus auf sichere Straßen, Vision Zero, weniger Durchgangsverkehr und schnellere Fertigstellung von Straßen-/Gehwegbaustellen",
+        "de": "Schwerpunkt auf sichere Straßen, Vision Zero, weniger Durchgangsverkehr und schnellere Fertigstellung von Straßen-/Gehwegbaustellen",
         "ru": "фокус на безопасных улицах, Vision Zero, снижении транзитного трафика и более быстром завершении дорожных/тротуарных стройплощадок",
         "tr": "odak güvenli sokaklar, Vision Zero, transit trafiği azaltmak ve yol/kaldırım şantiyelerini daha hızlı bitirmek",
         "pl": "nacisk na bezpieczne ulice, Vision Zero, ograniczenie ruchu tranzytowego i szybsze kończenie robót na drogach/chodnikach"
@@ -2278,7 +2278,7 @@
       "stance": "mixed",
       "summary": {
         "en": "no separate Zero Waste strategy; focus on public waste management “from a single source”, cheap/low-threshold disposal and mobile recycling stations",
-        "de": "keine eigene Zero-Waste-Strategie; Fokus auf öffentliche Abfallwirtschaft „aus einer Hand“, günstige/niedrigschwellige Entsorgung und mobile Recyclingstationen",
+        "de": "keine eigene Zero-Waste-Strategie; Schwerpunkt auf öffentliche Abfallwirtschaft „aus einer Hand“, günstige/niedrigschwellige Entsorgung und mobile Recyclingstationen",
         "ru": "отдельной стратегии Zero Waste нет; акцент на общественной системе обращения с отходами «из одних рук», дешевой/низкопороговой утилизации и мобильных пунктах приёма вторсырья",
         "tr": "ayrı bir Zero Waste stratejisi yok; odak “tek kaynaktan” kamusal atık yönetimi, ucuz/düşük eşikli imha ve mobil geri dönüşüm istasyonları",
         "pl": "brak osobnej strategii Zero Waste; nacisk na publiczną gospodarkę odpadami „z jednej ręki”, tanią/niskoprogową utylizację i mobilne stacje recyklingu"
@@ -2602,7 +2602,7 @@
       "stance": "for",
       "summary": {
         "en": "Berlin is already a solar leader; develop PV on large and public roofs, at municipal housing companies; against mandatory solar panel installation, repeal the Berlin Solar Act",
-        "de": "Berlin ist bereits Solarvorreiter; PV auf großen und öffentlichen Dächern sowie bei städtischen Wohnungsunternehmen ausbauen; gegen Solarpflicht, Berliner Solargesetz abschaffen",
+        "de": "Berlin ist bereits Solarvorreiter; PV auf großen und öffentlichen Dächern und bei städtischen Wohnungsunternehmen ausbauen; gegen Solarpflicht, Berliner Solargesetz abschaffen",
         "ru": "развивать PV на больших и общественных крышах, у городских жилищных компаний; против обязательной установки солнечных панелей, отменить берлинский закон о солнечной энергии",
         "tr": "Berlin zaten güneş lideri; büyük ve kamusal çatılarda, belediye konut şirketlerinde PV geliştirmek; zorunlu güneş paneli kurulumuna karşı, Berlin Solar Yasası’nı yürürlükten kaldırmak",
         "pl": "Berlin już jest liderem solarnym; rozwijać PV na dużych i publicznych dachach, u miejskich spółek mieszkaniowych; przeciw obowiązkowi instalacji paneli, uchylić berlińską ustawę solarną"
@@ -3130,7 +3130,7 @@
       "stance": "mixed",
       "summary": {
         "en": "separate focus on heat pumps was not found in the reviewed excerpts; focus on geothermal energy, technology openness and smart heating grids",
-        "de": "eigener Fokus auf Wärmepumpen in den geprüften Auszügen nicht gefunden; Fokus auf Geothermie, Technologieoffenheit und intelligente Wärmenetze",
+        "de": "eigener Schwerpunkt auf Wärmepumpen in den geprüften Auszügen nicht gefunden; Schwerpunkt auf Geothermie, Technologieoffenheit und intelligente Wärmenetze",
         "ru": "отдельного фокуса на тепловых насосах нет; ставка на геотермию, технологическую открытость и умные теплосети",
         "tr": "incelenen alıntılarda ısı pompalarına ayrı odak bulunamadı; odak jeotermal enerji, teknoloji açıklığı ve akıllı ısıtma şebekeleri",
         "pl": "osobnego fokusu na pompach ciepła nie znaleziono w przeglądanych fragmentach; fokus na geotermii, otwartości technologicznej i inteligentnych sieciach ciepłowniczych"
@@ -3646,7 +3646,7 @@
       "stance": "against",
       "summary": {
         "en": "against strict Mietendeckel and “sweeping expropriations”: in its assessment, this reduces supply and slows modernization; retain the Mietpreisbremse in neighborhoods with tight markets, simplify checks of permissible rent, and introduce a tamper-proof digital housing database for Mietspiegel transparency and detection of vacancies and speculation",
-        "de": "gegen strikte Mietendeckel und „pauschale Enteignungen“: Nach eigener Einschätzung verringert dies das Angebot und bremst Modernisierungen; Mietpreisbremse in Quartieren mit angespanntem Markt beibehalten, Prüfung der zulässigen Miete vereinfachen und eine fälschungssichere digitale Wohnungsdatenbank für Mietspiegel-Transparenz sowie zur Erkennung von Leerstand und Spekulation einführen",
+        "de": "gegen strikte Mietendeckel und „pauschale Enteignungen“: Nach eigener Einschätzung verringert dies das Angebot und bremst Modernisierungen; Mietpreisbremse in Quartieren mit angespanntem Markt beibehalten, Prüfung der zulässigen Miete vereinfachen und eine fälschungssichere digitale Wohnungsdatenbank für Mietspiegel-Transparenz und zur Erkennung von Leerstand und Spekulation einführen",
         "ru": "против жёстких Mietendeckel и «огульных экспроприаций»: по их оценке это сокращает предложение и тормозит модернизацию; Mietpreisbremse сохраняется в кварталах с напряжённым рынком, проверка допустимой цены упрощается, вводится защищённая от подделок цифровая база жилья для прозрачности Mietspiegel и выявления простоя и спекуляции",
         "tr": "sıkı Mietendeckel ve “toplu kamulaştırmalara” karşı: değerlendirmesinde arzı azaltır ve modernizasyonu yavaşlatır; sıkışık piyasalı mahallelerde Mietpreisbremse'yi korumak, izin verilen kirayı denetlemeyi basitleştirmek ve Mietspiegel şeffaflığı ile boş daireleri ve spekülasyonu tespit için manipülasyona dayanıklı dijital konut veri tabanı",
         "pl": "przeciw surowemu Mietendeckel i „szerokim wywłaszczeniom”: w ocenie partii ogranicza to podaż i spowalnia modernizację; zachować Mietpreisbremse w dzielnicach z napiętym rynkiem, uprościć kontrolę dopuszczalnego czynszu i wprowadzić odporną na manipulacje cyfrową bazę mieszkań dla przejrzystości Mietspiegel oraz wykrywania pustostanów i spekulacji"
@@ -3694,7 +3694,7 @@
       "stance": "for",
       "summary": {
         "en": "build while also stopping demolition and the deliberate neglect of buildings",
-        "de": "bauen und zugleich Abriss sowie bewusste Vernachlässigung von Gebäuden stoppen",
+        "de": "bauen und zugleich Abriss und bewusste Vernachlässigung von Gebäuden stoppen",
         "ru": "строить и одновременно остановить снос и намеренное запустение домов",
         "tr": "inşa etmek, aynı zamanda yıkımı ve binaların kasıtlı ihmalini durdurmak",
         "pl": "budować, a jednocześnie powstrzymywać wyburzenia i celowe zaniedbywanie budynków"
@@ -3778,7 +3778,7 @@
       "stance": "mixed",
       "summary": {
         "en": "priority is reuse rather than new construction: convert vacant offices, oversized shopping centers, and other buildings into housing and cultural and educational spaces; Nachverdichtung only on already developed and underused sites such as single-story commercial buildings, parking lots, and supermarket sites; mandatory environmental construction standards",
-        "de": "Nachnutzung statt Neubau hat Vorrang: leer stehende Büros, übergroße Einkaufszentren und andere Gebäude in Wohnungen sowie Kultur- und Bildungsräume umwandeln; Nachverdichtung nur auf bereits bebauten und wenig genutzten Flächen wie eingeschossigen Gewerbebauten, Parkplätzen und Supermarktgrundstücken; verbindliche ökologische Baustandards",
+        "de": "Nachnutzung statt Neubau hat Vorrang: leer stehende Büros, übergroße Einkaufszentren und andere Gebäude in Wohnungen und Kultur- und Bildungsräume umwandeln; Nachverdichtung nur auf bereits bebauten und wenig genutzten Flächen wie eingeschossigen Gewerbebauten, Parkplätzen und Supermarktgrundstücken; verbindliche ökologische Baustandards",
         "ru": "приоритет — переиспользование, а не новостройки: пустующие офисы, слишком большие торговые центры и другие здания переделывать в жильё, культурные и образовательные места; Nachverdichtung только на уже застроенных и малоиспользуемых площадях (одноэтажные торговые здания, парковки, территории супермаркетов); обязательные экологические стандарты строительства",
         "tr": "öncelik yeni inşaat değil yeniden kullanım: boş ofisleri, aşırı büyük alışveriş merkezlerini ve diğer binaları konut ile kültür ve eğitim mekânlarına dönüştürmek; Nachverdichtung yalnızca zaten yapılaşmış ve az kullanılan alanlarda, örn. tek katlı ticari binalar, otoparklar ve süpermarket arazileri; zorunlu çevresel inşaat standartları",
         "pl": "priorytetem jest ponowne wykorzystanie zamiast nowej zabudowy: przekształcać puste biura, zbyt duże centra handlowe i inne budynki w mieszkania oraz przestrzenie kulturalne i edukacyjne; Nachverdichtung tylko na już zabudowanych i niedostatecznie wykorzystanych terenach, np. jednokondygnacyjne obiekty komercyjne, parkingi i tereny supermarketów; obowiązkowe środowiskowe standardy budowlane"
@@ -3934,7 +3934,7 @@
       "stance": "mixed",
       "summary": {
         "en": "Mietenaufsicht plus a rent and housing register as the basis for oversight",
-        "de": "Mietenaufsicht sowie Miet- und Wohnungskataster als Grundlage der Kontrolle",
+        "de": "Mietenaufsicht und Miet- und Wohnungskataster als Grundlage der Kontrolle",
         "ru": "Mietenaufsicht плюс кадастр аренды и жилья как основа контроля",
         "tr": "Mietenaufsicht artı denetim temeli olarak kira ve konut sicili",
         "pl": "Mietenaufsicht oraz rejestr czynszów i mieszkań jako podstawa nadzoru"
@@ -4402,7 +4402,7 @@
       "stance": "mixed",
       "summary": {
         "en": "a single social-support platform; the program supports assistance for homeless people and people with addictions, psychiatric care, and assistance for people with disabilities or limitations on participation in society, with separate proposals for women experiencing homelessness and consideration of psychiatric conditions and addictions in shelters; no dedicated plan to end homelessness",
-        "de": "Eine zentrale Plattform für soziale Unterstützung; das Programm befürwortet Hilfen für obdachlose und suchtkranke Menschen, psychiatrische Versorgung und Unterstützung für Menschen mit Behinderungen oder eingeschränkter gesellschaftlicher Teilhabe, mit eigenen Vorschlägen für obdachlose Frauen sowie der Berücksichtigung psychischer Erkrankungen und Suchterkrankungen in Unterkünften; kein eigener Plan zur Beendigung der Obdachlosigkeit",
+        "de": "Eine zentrale Plattform für soziale Unterstützung; das Programm befürwortet Hilfen für obdachlose und suchtkranke Menschen, psychiatrische Versorgung und Unterstützung für Menschen mit Behinderungen oder eingeschränkter gesellschaftlicher Teilhabe, mit eigenen Vorschlägen für obdachlose Frauen und der Berücksichtigung psychischer Erkrankungen und Suchterkrankungen in Unterkünften; kein eigener Plan zur Beendigung der Obdachlosigkeit",
         "ru": "единая платформа социальной помощи; в программе есть поддержка помощи бездомным и зависимым, психиатрической помощи и помощи людям с инвалидностью или ограничениями участия в жизни общества, отдельные предложения для женщин в бездомности и учёт психиатрических и наркозависимостей в приютах; собственного плана преодоления бездомности нет",
         "tr": "tek bir sosyal destek platformu; program evsizler ve bağımlılığı olanlara yardım, psikiyatrik bakım ile engelli veya toplumsal katılıma kısıtı olanlara yardıma destek verir, evsiz kadınlar için ayrı öneriler ve barınaklarda psikiyatrik durumlar ile bağımlılıkların dikkate alınmasıyla; evsizliği bitirmeye özel plan yok",
         "pl": "jedna platforma wsparcia społecznego; program wspiera pomoc dla osób bezdomnych i uzależnionych, opiekę psychiatryczną oraz pomoc dla osób z niepełnosprawnościami lub ograniczeniami uczestnictwa w społeczeństwie, z osobnymi propozycjami dla kobiet w bezdomności oraz uwzględnieniem schorzeń psychiatrycznych i uzależnień w schroniskach; bez dedykowanego planu zakończenia bezdomności"
@@ -4414,7 +4414,7 @@
       "stance": "for",
       "summary": {
         "en": "goal — end homelessness by 2030: a new city structure for social housing and support (including conversion of vacant offices), 2 500 apartments in the protected segment under the “Housing First” principle, a single city accommodation operator modeled on Hamburg, day centers, expanded cold- and heat-weather assistance, and barrier-free places",
-        "de": "Ziel — Obdachlosigkeit bis 2030 beenden: neue Landesstruktur für soziale Wohnraumversorgung und Unterstützung (einschließlich Umwandlung leer stehender Büros), 2 500 Wohnungen im geschützten Marktsegment nach dem Prinzip „Housing First“, ein zentraler Landesbetrieb für Unterkünfte nach Hamburger Vorbild, Tageszentren, Ausbau der Kälte- und Hitzehilfe sowie barrierefreie Plätze",
+        "de": "Ziel — Obdachlosigkeit bis 2030 beenden: neue Landesstruktur für soziale Wohnraumversorgung und Unterstützung (einschließlich Umwandlung leer stehender Büros), 2 500 Wohnungen im geschützten Marktsegment nach dem Prinzip „Housing First“, ein zentraler Landesbetrieb für Unterkünfte nach Hamburger Vorbild, Tageszentren, Ausbau der Kälte- und Hitzehilfe und barrierefreie Plätze",
         "ru": "цель — победить бездомность до 2030: новая городская структура социального жилья и помощи (в том числе переделка пустующих офисов), 2 500 квартир в защищённом сегменте по принципу «сначала жильё», единый городской оператор размещения по гамбургскому образцу, дневные центры, расширение помощи в холод и жару, доступные места без барьеров",
         "tr": "hedef — 2030'a kadar evsizliği bitirmek: sosyal konut ve destek için yeni kent yapısı (boş ofislerin dönüşümü dahil), “Housing First” ilkesiyle korunan segmentte 2.500 daire, Hamburg modelinde tek kent barınma işletmecisi, gündüz merkezleri, genişletilmiş soğuk- ve sıcak hava yardımı ve engelsiz yerler",
         "pl": "cel — zakończyć bezdomność do 2030: nowa miejska struktura mieszkań socjalnych i wsparcia (w tym przekształcanie pustych biur), 2500 mieszkań w chronionym segmencie według zasady „Housing First”, jeden miejski operator zakwaterowania na wzór Hamburga, ośrodki dzienne, rozszerzona pomoc przy upałach i mrozach oraz miejsca bez barier"
@@ -4426,7 +4426,7 @@
       "stance": "mixed",
       "summary": {
         "en": "Plan against street homelessness, the “Housing First” principle together with municipal companies, a “house of assistance,” safe places and tiny homes, a protected market segment, and a fund for those unable to pay energy bills",
-        "de": "Plan gegen Straßenobdachlosigkeit, Prinzip „Housing First“ gemeinsam mit landeseigenen Unternehmen, ein „Haus der Hilfe“, sichere Orte und Tiny Houses, ein geschütztes Marktsegment sowie ein Fonds für Menschen, die ihre Energierechnungen nicht bezahlen können",
+        "de": "Plan gegen Straßenobdachlosigkeit, Prinzip „Housing First“ gemeinsam mit landeseigenen Unternehmen, ein „Haus der Hilfe“, sichere Orte und Tiny Houses, ein geschütztes Marktsegment und ein Fonds für Menschen, die ihre Energierechnungen nicht bezahlen können",
         "ru": "План против уличной бездомности, принцип «сначала жильё» вместе с городскими компаниями, «дом помощи», безопасные места и маленькие дома, защищённый сегмент рынка, фонд для тех, кто не платит за энергию",
         "tr": "sokak evsizliğine karşı plan, belediye şirketleriyle “Housing First” ilkesi, bir “yardım evi,” güvenli yerler ve tiny homes, korunan piyasa segmenti ve enerji faturalarını ödeyemeyenler için fon",
         "pl": "plan przeciw bezdomności ulicznej, zasada „Housing First” wraz ze spółkami komunalnymi, „dom pomocy,” bezpieczne miejsca i tiny homes, chroniony segment rynku oraz fundusz dla osób niezdolnych do opłacenia rachunków za energię"
@@ -4450,7 +4450,7 @@
       "stance": "mixed",
       "summary": {
         "en": "A comprehensive “Housing First” strategy, housing allowance and assistance for homeless people plus precise transitional solutions; municipal companies allocate housing to people at risk of losing it; at the same time, homeless camps should be “consistently prevented,” while alternative accommodation is offered",
-        "de": "Umfassende „Housing First“-Strategie, Wohngeld und Unterstützung für obdachlose Menschen sowie konkrete Übergangslösungen; landeseigene Unternehmen vergeben Wohnungen an Menschen, die von Wohnungsverlust bedroht sind; zugleich sollen Obdachlosenlager „konsequent verhindert“ werden, während alternative Unterkünfte angeboten werden",
+        "de": "Umfassende „Housing First“-Strategie, Wohngeld und Unterstützung für obdachlose Menschen und konkrete Übergangslösungen; landeseigene Unternehmen vergeben Wohnungen an Menschen, die von Wohnungsverlust bedroht sind; zugleich sollen Obdachlosenlager „konsequent verhindert“ werden, während alternative Unterkünfte angeboten werden",
         "ru": "Полная стратегия «сначала жильё», жилищное пособие и помощь бездомным плюс точные переходные решения; городские компании выделяют жильё тем, кому грозит его потеря; при этом лагеря бездомных «последовательно не допускать», предлагая альтернативное размещение",
         "tr": "kapsamlı “Housing First” stratejisi, evsizler için Wohngeld ve yardım artı kesin geçiş çözümleri; belediye şirketleri konutunu kaybetme riski olanlara daire tahsis eder; aynı zamanda evsiz kampları “tutarlı biçimde engellenmeli,” alternatif barınma sunulurken",
         "pl": "kompleksowa strategia „Housing First”, Wohngeld i pomoc dla osób bezdomnych oraz precyzyjne rozwiązania przejściowe; spółki komunalne przydzielają mieszkania osobom zagrożonym ich utratą; jednocześnie obozy bezdomnych mają być „konsekwentnie zapobiegane,” przy oferowaniu alternatywnego zakwaterowania"
@@ -4474,7 +4474,7 @@
       "stance": "mixed",
       "summary": {
         "en": "6 000 homeless people now and a risk of up to 100 000 by the end of the decade: an apartment of one’s own first (the “Housing First” approach saves about 15 000 € per person per year), early prevention when rent debts arise, more emergency and transitional places with humane standards, and separate shelters for people with addictions",
-        "de": "6 000 obdachlose Menschen heute und das Risiko von bis zu 100 000 bis Ende des Jahrzehnts: zuerst eine eigene Wohnung (der Ansatz „Housing First“ spart rund 15 000 € pro Person und Jahr), frühzeitige Prävention bei Mietschulden, mehr Not- und Übergangsplätze mit menschenwürdigen Standards sowie getrennte Unterkünfte für suchtkranke Menschen",
+        "de": "6 000 obdachlose Menschen heute und das Risiko von bis zu 100 000 bis Ende des Jahrzehnts: zuerst eine eigene Wohnung (der Ansatz „Housing First“ spart rund 15 000 € pro Person und Jahr), frühzeitige Prävention bei Mietschulden, mehr Not- und Übergangsplätze mit menschenwürdigen Standards und getrennte Unterkünfte für suchtkranke Menschen",
         "ru": "6 000 бездомных сейчас и риск до 100 000 к концу десятилетия: сначала своя квартира (подход «сначала жильё» экономит около 15 000 € на человека в год), ранняя профилактика при долгах по аренде, больше аварийных и переходных мест с человеческими стандартами, отдельные приюты для зависимых",
         "tr": "şimdi 6.000 evsiz ve on yıl sonunda 100.000'e varan risk: önce kendi dairesi (“Housing First” yaklaşımı kişi başına yılda yaklaşık 15.000 € tasarruf eder), kira borçları doğunca erken önleme, insani standartlarda daha fazla acil ve geçiş yeri ve bağımlılığı olanlar için ayrı barınaklar",
         "pl": "6000 osób bezdomnych obecnie i ryzyko do 100 000 do końca dekady: najpierw własne mieszkanie (podejście „Housing First” oszczędza ok. 15 000 € na osobę rocznie), wczesna prewencja przy powstaniu długów czynszowych, więcej miejsc awaryjnych i przejściowych z humanitarnymi standardami oraz osobne schroniska dla osób uzależnionych"
@@ -4582,7 +4582,7 @@
       "stance": "mixed",
       "summary": {
         "en": "Comprehensive video surveillance of “hot spots,” mobile police stations in problem neighborhoods, and a denser network of permanent stations; more staff for police, the judiciary, and fire services, with massive investment in equipment",
-        "de": "Flächendeckende Videoüberwachung von „Brennpunkten“, mobile Polizeiwachen in Problemkiezen und dichteres Netz fester Wachen; mehr Personal für Polizei, Justiz und Feuerwehr sowie massive Investitionen in die Ausstattung",
+        "de": "Flächendeckende Videoüberwachung von „Brennpunkten“, mobile Polizeiwachen in Problemkiezen und dichteres Netz fester Wachen; mehr Personal für Polizei, Justiz und Feuerwehr und massive Investitionen in die Ausstattung",
         "ru": "Полное видеонаблюдение «горячих точек», мобильные полицейские участки в проблемных кварталах и более плотная сеть стационарных участков; рост штата полиции, юстиции и пожарных, массированные инвестиции в оснащение",
         "tr": "sorunlu noktaların kapsamlı video gözetimi, sorunlu mahallelerde mobil polis karakolları ve daha yoğun kalıcı karakol ağı; polis, yargı ve itfaiye için daha fazla personel, ekipmana büyük yatırım",
         "pl": "kompleksowy monitoring wideo punktów zapalnych, mobilne komisariaty w problematycznych dzielnicach i gęstsza sieć stałych komisariatów; więcej personelu dla policji, wymiaru sprawiedliwości i straży pożarnej, z masowymi inwestycjami w wyposażenie"
@@ -4594,7 +4594,7 @@
       "stance": "mixed",
       "summary": {
         "en": "More police presence and better equipment, more staff and better training, plus “smart prevention” — but “without blanket surveillance or prejudgment”; community-oriented police and swift justice",
-        "de": "Mehr Polizeipräsenz und bessere Ausstattung, mehr Personal und bessere Ausbildung sowie „intelligente Prävention“ — aber „ohne pauschale Überwachung oder Vorverurteilung“; bürgernahe Polizei und schnelle Justiz",
+        "de": "Mehr Polizeipräsenz und bessere Ausstattung, mehr Personal und bessere Ausbildung und „intelligente Prävention“ — aber „ohne pauschale Überwachung oder Vorverurteilung“; bürgernahe Polizei und schnelle Justiz",
         "ru": "Больше присутствия и лучше оснащение полиции, рост штата и лучше обучение, плюс «умная профилактика» — но «без сплошной слежки и предварительного осуждения»; бургернаховая полиция и быстрая юстиция",
         "tr": "daha fazla polis varlığı ve daha iyi ekipman, daha fazla personel ve daha iyi eğitim, artı “akıllı önleme” — ama “toplu gözetim veya önyargı olmadan”; toplum odaklı polis ve hızlı adalet",
         "pl": "więcej obecności policji i lepsze wyposażenie, więcej personelu i lepsze szkolenie oraz „inteligentna prewencja” — ale „bez masowej inwigilacji czy uprzedzeń”; policja zorientowana na społeczność i szybki wymiar sprawiedliwości"
@@ -4606,7 +4606,7 @@
       "stance": "mixed",
       "summary": {
         "en": "Clearance rate below 50 percent: prevention (Streetwork, Jugendhilfe, men in social professions, exit programs) plus more police and judicial staff for denser patrols and consistent punishment; sensible division of tasks between the police and Ordnungsdienst so police officers can focus on core duties",
-        "de": "Aufklärungsquote unter 50 Prozent: Prävention (Streetwork, Jugendhilfe, Männer in sozialen Berufen, Ausstiegsprogramme) sowie mehr Personal bei Polizei und Justiz für dichtere Streifen und konsequente Ahndung; sinnvolle Aufgabenteilung zwischen Polizei und Ordnungsdienst, damit sich Polizeikräfte auf ihre Kernaufgaben konzentrieren können",
+        "de": "Aufklärungsquote unter 50 Prozent: Prävention (Streetwork, Jugendhilfe, Männer in sozialen Berufen, Ausstiegsprogramme) und mehr Personal bei Polizei und Justiz für dichtere Streifen und konsequente Ahndung; sinnvolle Aufgabenteilung zwischen Polizei und Ordnungsdienst, damit sich Polizeikräfte auf ihre Kernaufgaben konzentrieren können",
         "ru": "Раскрываемость менее 50 процентов: профилактика (Streetwork, Jugendhilfe, мужчины в соцпрофессиях, программы выхода из среды) плюс больше штата у полиции и юстиции для более плотного патрулирования и последовательного наказания; разумное разделение задач между полицией и Ordnungsdienst, чтобы полицейские занимались ключевыми задачами",
         "tr": "aydınlatma oranı %50'nin altında: önleme (Streetwork, Jugendhilfe, sosyal mesleklerde erkekler, çıkış programları) artı daha yoğun devriye ve tutarlı ceza için daha fazla polis ve yargı personeli; polisin çekirdek görevlere odaklanabilmesi için polis ile Ordnungsdienst arasında mantıklı görev bölüşümü",
         "pl": "wskaźnik wyjaśnialności poniżej 50 procent: prewencja (Streetwork, Jugendhilfe, mężczyźni w zawodach społecznych, programy wyjścia) plus więcej personelu policji i wymiaru sprawiedliwości dla gęstszych patroli i konsekwentnego karania; sensowny podział zadań między policją a Ordnungsdienst, by policjanci mogli skupić się na podstawowych obowiązkach"
@@ -4702,7 +4702,7 @@
       "stance": "for",
       "summary": {
         "en": "comprehensive video surveillance of all “hot spots,” plus cameras at illegal-dumping hot spots; at the same time, data protection and privacy are declared “non-negotiable”",
-        "de": "Flächendeckende Videoüberwachung aller „Brennpunkte“ sowie Kameras an Brennpunkten illegaler Müllablagerung; zugleich werden Datenschutz und Privatsphäre als „nicht verhandelbar“ bezeichnet",
+        "de": "Flächendeckende Videoüberwachung aller „Brennpunkte“ und Kameras an Brennpunkten illegaler Müllablagerung; zugleich werden Datenschutz und Privatsphäre als „nicht verhandelbar“ bezeichnet",
         "ru": "полное видеонаблюдение всех «горячих точек», плюс камеры на мусорных хот-спотах; при этом защита данных и приватность объявлены «не подлежащими обсуждению»",
         "tr": "tüm sorunlu noktaların kapsamlı video gözetimi, artı yasadışı döküm noktalarında kameralar; aynı zamanda veri koruma ve mahremiyet “pazarlık konusu değil” ilan edilir",
         "pl": "kompleksowy monitoring wideo wszystkich punktów zapalnych, plus kamery przy miejscach nielegalnych wysypisk; jednocześnie ochrona danych i prywatność uznane za „nienegocjowalne”"
@@ -4738,7 +4738,7 @@
       "stance": "against",
       "summary": {
         "en": "rejects video surveillance in public space and Vorratsdatenspeicherung, excludes automatic facial recognition, and permits biometrics only in narrow exceptions by court order; Quick-Freeze procedure instead of data retention, strict regulation of drones, and exclusion of Social Scoring and AI-based behavioral analysis",
-        "de": "Lehnt Videoüberwachung im öffentlichen Raum und Vorratsdatenspeicherung ab, schließt automatische Gesichtserkennung aus und erlaubt Biometrie nur in eng begrenzten Ausnahmefällen per Gerichtsbeschluss; Quick-Freeze-Verfahren statt Vorratsdatenspeicherung, strenge Regulierung von Drohnen sowie Ausschluss von Social Scoring und KI-gestützter Verhaltensanalyse",
+        "de": "Lehnt Videoüberwachung im öffentlichen Raum und Vorratsdatenspeicherung ab, schließt automatische Gesichtserkennung aus und erlaubt Biometrie nur in eng begrenzten Ausnahmefällen per Gerichtsbeschluss; Quick-Freeze-Verfahren statt Vorratsdatenspeicherung, strenge Regulierung von Drohnen und Ausschluss von Social Scoring und KI-gestützter Verhaltensanalyse",
         "ru": "отвергают видеонаблюдение в общественном пространстве и Vorratsdatenspeicherung, автоматическое распознавание лиц исключают, биометрия — только в узких исключениях по решению суда; вместо хранения данных процедура Quick-Freeze, дроны строго регулировать, Social Scoring и ИИ-анализ поведения исключить",
         "tr": "kamusal alanda video gözetimi ve Vorratsdatenspeicherung'u reddeder, otomatik yüz tanımayı dışlar ve biyometriyi yalnızca mahkeme kararıyla dar istisnalarda izin verir; veri saklama yerine Quick-Freeze usulü, drone'ların sıkı düzenlenmesi ve Social Scoring ile yapay zekâ tabanlı davranış analizinin dışlanması",
         "pl": "odrzuca monitoring wideo w przestrzeni publicznej i Vorratsdatenspeicherung, wyklucza automatyczne rozpoznawanie twarzy i dopuszcza biometrię tylko w wąskich wyjątkach na mocy nakazu sądowego; procedura Quick-Freeze zamiast retencji danych, ścisła regulacja dronów oraz wykluczenie Social Scoring i analizy behawioralnej opartej na AI"
@@ -4846,7 +4846,7 @@
       "stance": "mixed",
       "summary": {
         "en": "no direct position on suspicionless checks; emphasis on prevention, exit programs, and safe public space through lighting and greenery, plus body cameras as a de-escalation tool",
-        "de": "Keine direkte Position zu anlasslosen Kontrollen; Schwerpunkt auf Prävention, Ausstiegsprogrammen und sicherem öffentlichem Raum durch Beleuchtung und Begrünung sowie Bodycams als Instrument zur Deeskalation",
+        "de": "Keine direkte Position zu anlasslosen Kontrollen; Schwerpunkt auf Prävention, Ausstiegsprogrammen und sicherem öffentlichem Raum durch Beleuchtung und Begrünung und Bodycams als Instrument zur Deeskalation",
         "ru": "прямой позиции по беспричинным проверкам нет; акцент на профилактике, программах выхода и безопасном общественном пространстве через освещение и озеленение, плюс бодикамеры как средство деэскалации",
         "tr": "sebepsiz kontrollere doğrudan tutum yok; vurgu önleme, çıkış programları ve aydınlatma ile yeşillikle güvenli kamusal alan, artı de-eskalasyon aracı olarak body kameralar",
         "pl": "brak bezpośredniego stanowiska wobec kontroli bezpodstawnych; nacisk na prewencję, programy wyjścia i bezpieczną przestrzeń publiczną przez oświetlenie i zieleń oraz bodycamy jako narzędzie deeskalacji"
@@ -4882,7 +4882,7 @@
       "stance": "mixed",
       "summary": {
         "en": "Involve the Office for the Protection of the Constitution in combating organized crime; anonymous electronic reporting system for drug trafficking and organized crime, special units against digital drug trafficking (for example, SkyECC), stronger forensics and prosecution services, and tougher action on tax crimes",
-        "de": "Verfassungsschutz in die Bekämpfung organisierter Kriminalität einbeziehen; anonymes elektronisches Meldesystem für Drogenhandel und organisierte Kriminalität, Spezialeinheiten gegen digitalen Drogenhandel (zum Beispiel SkyECC), Stärkung von Forensik und Staatsanwaltschaften sowie härteres Vorgehen gegen Steuerkriminalität",
+        "de": "Verfassungsschutz in die Bekämpfung organisierter Kriminalität einbeziehen; anonymes elektronisches Meldesystem für Drogenhandel und organisierte Kriminalität, Spezialeinheiten gegen digitalen Drogenhandel (zum Beispiel SkyECC), Stärkung von Forensik und Staatsanwaltschaften und härteres Vorgehen gegen Steuerkriminalität",
         "ru": "Ведомство по защите конституции подключить к борьбе с ОПГ; анонимная электронная система сообщений о наркоторговле и оргпреступности, спецподразделения против цифровой наркоторговли (например, SkyECC), усиление криминалистики и прокуратуры, жёстче с налоговыми преступлениями",
         "tr": "Anayasa Koruma Dairesi'ni organize suçla mücadeleye dahil etmek; uyuşturucu ticareti ve organize suç için anonim elektronik ihbar sistemi, dijital uyuşturucu ticaretine karşı özel birimler (örneğin SkyECC), güçlendirilmiş adli tıp ve savcılık hizmetleri ile vergi suçlarında daha sert yaklaşım",
         "pl": "Włączenie Urzędu Ochrony Konstytucji w zwalczanie przestępczości zorganizowanej; anonimowy elektroniczny system zgłoszeń dotyczący handlu narkotykami i przestępczości zorganizowanej, specjalne jednostki przeciw cyfrowemu handlowi narkotykami (np. SkyECC), silniejsza kryminalistyka i prokuratura oraz zdecydowane działania wobec przestępstw podatkowych"
@@ -4942,7 +4942,7 @@
       "stance": "mixed",
       "summary": {
         "en": "Berlin is called the “capital of organized crime” (66 investigation complexes, 485 suspects in 2023), while organized and clan crime are described as “predominantly imported”: the response is a consistent “remigration policy” and deportation of criminal foreigners, a special unit in the immigration authority, and security and crime-fighting in prisons",
-        "de": "Berlin wird als „Hauptstadt der organisierten Kriminalität“ bezeichnet (66 Ermittlungskomplexe, 485 Tatverdächtige im Jahr 2023), während organisierte Kriminalität und Clankriminalität als „überwiegend importiert“ beschrieben werden: Als Antwort werden eine konsequente „Remigrationspolitik“ und die Abschiebung krimineller Ausländer, eine Spezialeinheit in der Ausländerbehörde sowie Sicherheit und Kriminalitätsbekämpfung in Gefängnissen gefordert",
+        "de": "Berlin wird als „Hauptstadt der organisierten Kriminalität“ bezeichnet (66 Ermittlungskomplexe, 485 Tatverdächtige im Jahr 2023), während organisierte Kriminalität und Clankriminalität als „überwiegend importiert“ beschrieben werden: Als Antwort werden eine konsequente „Remigrationspolitik“ und die Abschiebung krimineller Ausländer, eine Spezialeinheit in der Ausländerbehörde und Sicherheit und Kriminalitätsbekämpfung in Gefängnissen gefordert",
         "ru": "Берлин назван «столицей оргпреступности» (66 комплексов расследований, 485 подозреваемых в 2023), а ОПГ и клановая преступность — «преимущественно импортированной»: ответ — последовательная «политика ремиграции» и выдворение криминальных иностранцев, спецотдел в ведомстве по делам иностранцев, безопасность и борьба с преступлениями в тюрьмах",
         "tr": "Berlin “organize suçun başkenti” olarak anılıyor (2023'te 66 soruşturma kompleksi, 485 şüpheli); organize ve klan suçları “ağırlıklı olarak ithal” diye tanımlanıyor: yanıt tutarlı bir “remigration politikası” ve suçlu yabancıların sınır dışı edilmesi, göç idaresinde özel birim ile cezaevlerinde güvenlik ve suçla mücadele",
         "pl": "Berlin nazywany „stolicą przestępczości zorganizowanej” (66 kompleksów śledczych, 485 podejrzanych w 2023), a przestępczość zorganizowana i klanowa opisywane jako „głównie importowane”: odpowiedzią ma być konsekwentna „polityka remigracji” i deportacja przestępców cudzoziemców, specjalna jednostka w urzędzie imigracyjnym oraz bezpieczeństwo i walka z przestępczością w więzieniach"
@@ -4966,7 +4966,7 @@
       "stance": "mixed",
       "summary": {
         "en": "Develop the BKA “Radar” decision-support system at state level, target entire criminal networks together with European and international authorities, and prevent organized crime from hiding behind opaque ownership structures; reverse the burden of proof for suspicious assets, and use the UK MASH model for interagency work",
-        "de": "Das BKA-Entscheidungsunterstützungssystem „Radar“ auf Landesebene weiterentwickeln, gemeinsam mit europäischen und internationalen Behörden ganze kriminelle Netzwerke ins Visier nehmen und verhindern, dass sich organisierte Kriminalität hinter undurchsichtigen Eigentumsstrukturen verbirgt; Beweislastumkehr bei verdächtigen Vermögenswerten sowie Nutzung des britischen MASH-Modells für behördenübergreifende Zusammenarbeit",
+        "de": "Das BKA-Entscheidungsunterstützungssystem „Radar“ auf Landesebene weiterentwickeln, gemeinsam mit europäischen und internationalen Behörden ganze kriminelle Netzwerke ins Visier nehmen und verhindern, dass sich organisierte Kriminalität hinter undurchsichtigen Eigentumsstrukturen verbirgt; Beweislastumkehr bei verdächtigen Vermögenswerten und Nutzung des britischen MASH-Modells für behördenübergreifende Zusammenarbeit",
         "ru": "Систему поддержки решений «Radar» BKA развивать на уровне земли, бить по криминальным сетям целиком вместе с европейскими и международными органами, не давать оргпреступности прятаться за скрытыми структурами собственности; перенос бремени доказывания по подозрительному имуществу, модель MASH из Великобритании для межведомственной работы",
         "tr": "BKA “Radar” karar destek sistemini eyalet düzeyinde geliştirmek, Avrupa ve uluslararası makamlarla tüm suç ağlarını hedef almak, organize suçun opak mülkiyet yapılarının arkasına gizlenmesini engellemek; şüpheli varlıklar için ispat yükünü tersine çevirmek ve kurumlar arası çalışma için İngiltere MASH modelini kullanmak",
         "pl": "Rozwinięcie systemu wsparcia decyzji BKA „Radar” na poziomie landu, celowanie w całe sieci przestępcze wraz z organami europejskimi i międzynarodowymi oraz uniemożliwienie ukrywania się przestępczości zorganizowanej za nieprzejrzystymi strukturami własności; odwrócenie ciężaru dowodu przy podejrzanych majątkach oraz model brytyjski MASH dla współpracy międzyinstytucjonalnej"
@@ -4978,7 +4978,7 @@
       "stance": "mixed",
       "summary": {
         "en": "Pursue organized crime resolutely, but “without placing entire population groups under blanket suspicion”: origin and family affiliation cannot be grounds for state action; focus on dismantling illegal financial and property structures, use a real-estate and assets register against money laundering, plus education, integration, and exit programs",
-        "de": "Organisierte Kriminalität entschlossen verfolgen, aber „ohne ganze Bevölkerungsgruppen unter Generalverdacht zu stellen“: Herkunft und Familienzugehörigkeit dürfen kein Grund für staatliches Handeln sein; Schwerpunkt auf der Zerschlagung illegaler Finanz- und Eigentumsstrukturen, Einsatz eines Immobilien- und Vermögensregisters gegen Geldwäsche sowie Bildung, Integration und Ausstiegsprogramme",
+        "de": "Organisierte Kriminalität entschlossen verfolgen, aber „ohne ganze Bevölkerungsgruppen unter Generalverdacht zu stellen“: Herkunft und Familienzugehörigkeit dürfen kein Grund für staatliches Handeln sein; Schwerpunkt auf der Zerschlagung illegaler Finanz- und Eigentumsstrukturen, Einsatz eines Immobilien- und Vermögensregisters gegen Geldwäsche und Bildung, Integration und Ausstiegsprogramme",
         "ru": "Оргпреступность преследовать решительно, но «без генерального подозрения к целым группам населения»: происхождение и семейная принадлежность не могут быть основанием для действий государства; фокус — разрушение нелегальных финансовых и имущественных структур, реестр недвижимости и имущества как инструмент против отмывания денег, плюс образование, интеграция и программы выхода",
         "tr": "Organize suçu kararlılıkla kovuşturmak, ancak “tüm nüfus gruplarını topluca şüphe altına almadan”: köken ve aile bağları devlet eyleminin gerekçesi olamaz; yasadışı mali ve mülk yapılarını çökertmeye odaklanmak, kara para aklamaya karşı gayrimenkul ve varlık sicili ile eğitim, entegrasyon ve çıkış programları",
         "pl": "Zdecydowane ściganie przestępczości zorganizowanej, ale „bez zbiorowego podejrzenia wobec całych grup ludności”: pochodzenie i przynależność rodzinna nie mogą być podstawą działań państwa; nacisk na rozbijanie nielegalnych struktur finansowych i majątkowych, rejestr nieruchomości i aktywów przeciw praniu pieniędzy oraz edukacja, integracja i programy wyjścia"
@@ -4990,7 +4990,7 @@
       "stance": "mixed",
       "summary": {
         "en": "no separate measures against organized crime and money laundering in the program; the closest proposal is a complete ban on party donations from companies and interest groups and full transparency of administrative action",
-        "de": "Keine gesonderten Maßnahmen gegen organisierte Kriminalität und Geldwäsche im Programm; der nächstliegende Vorschlag ist ein vollständiges Verbot von Parteispenden durch Unternehmen und Interessengruppen sowie vollständige Transparenz des Verwaltungshandelns",
+        "de": "Keine gesonderten Maßnahmen gegen organisierte Kriminalität und Geldwäsche im Programm; der nächstliegende Vorschlag ist ein vollständiges Verbot von Parteispenden durch Unternehmen und Interessengruppen und vollständige Transparenz des Verwaltungshandelns",
         "ru": "отдельных мер против оргпреступности и отмывания денег в программе нет; ближайшее по смыслу — полный запрет партийных донатов от фирм и объединений интересов и полная прозрачность действий администрации",
         "tr": "Programda organize suç ve kara para aklamaya karşı ayrı önlem yok; en yakın öneri şirket ve çıkar gruplarından parti bağışlarının tamamen yasaklanması ile idari işlemde tam şeffaflık",
         "pl": "w programie brak osobnych środków przeciw przestępczości zorganizowanej i praniu pieniędzy; najbliższa propozycja to całkowity zakaz darowizn partyjnych od firm i grup interesu oraz pełna przejrzystość działań administracji"
@@ -5026,7 +5026,7 @@
       "stance": "mixed",
       "summary": {
         "en": "State law protecting victims (right to support), Berliner Periodischer Sicherheitsbericht on the causes of crime, reform and tighter oversight of the Office for the Protection of the Constitution, and lessons from the series of far-right attacks in Neukölln",
-        "de": "Landesgesetz zum Schutz von Opfern (Recht auf Unterstützung), Berliner Periodischer Sicherheitsbericht zu den Ursachen von Kriminalität, Reform und stärkere Kontrolle des Verfassungsschutzes sowie Lehren aus der rechtsextremen Anschlagsserie in Neukölln",
+        "de": "Landesgesetz zum Schutz von Opfern (Recht auf Unterstützung), Berliner Periodischer Sicherheitsbericht zu den Ursachen von Kriminalität, Reform und stärkere Kontrolle des Verfassungsschutzes und Lehren aus der rechtsextremen Anschlagsserie in Neukölln",
         "ru": "Земельный закон о защите пострадавших (право на поддержку), Berliner Periodischer Sicherheitsbericht о причинах преступлений, реформа и усиление контроля службы защиты конституции, выводы из серии правых нападений в Нойкёльне",
         "tr": "Mağdurları koruyan eyalet yasası (destek hakkı), suçun nedenlerine dair Berliner Periodischer Sicherheitsbericht, Anayasa Koruma Dairesi'nin reformu ve sıkı denetimi ile Neukölln'deki aşırı sağ saldırı zincirinden dersler",
         "pl": "Ustawa landowa chroniąca ofiary (prawo do wsparcia), Berliner Periodischer Sicherheitsbericht o przyczynach przestępczości, reforma i ściślejszy nadzór nad Urzędem Ochrony Konstytucji oraz wnioski z serii ataków skrajnej prawicy w Neukölln"
@@ -5182,7 +5182,7 @@
       "stance": "mixed",
       "summary": {
         "en": "Maintain and expand the number of places according to need, improve the Betreuungsschlüssel, extend opening hours for parents with special schedules, “Blaulicht”-Kita for police, fire services, and emergency services, support small and medium-sized Träger and workplace Kitas; German as the mandatory language in Kita",
-        "de": "Zahl der Plätze bedarfsgerecht erhalten und ausbauen, Betreuungsschlüssel verbessern, Öffnungszeiten für Eltern mit besonderen Arbeitszeiten verlängern, „Blaulicht“-Kita für Polizei, Feuerwehr und Rettungsdienste, kleine und mittlere Träger sowie Betriebskitas unterstützen; Deutsch als verpflichtende Sprache in der Kita",
+        "de": "Zahl der Plätze bedarfsgerecht erhalten und ausbauen, Betreuungsschlüssel verbessern, Öffnungszeiten für Eltern mit besonderen Arbeitszeiten verlängern, „Blaulicht“-Kita für Polizei, Feuerwehr und Rettungsdienste, kleine und mittlere Träger und Betriebskitas unterstützen; Deutsch als verpflichtende Sprache in der Kita",
         "ru": "Сохранить и расширять число мест по потребности, улучшить Betreuungsschlüssel, дольше часы работы для родителей с особым графиком, «Blaulicht»-Kita для полиции, пожарных и спасателей, поддержка малых и средних Träger и заводских садов; немецкий как обязательный язык в Kita",
         "tr": "İhtiyaca göre yer sayısını korumak ve artırmak, Betreuungsschlüssel'i iyileştirmek, özel çalışma saatli ebeveynler için açık saatleri uzatmak, polis, itfaiye ve acil hizmetler için “Blaulicht”-Kita, küçük ve orta ölçekli Träger ile işyeri Kita'larını desteklemek; Kita'da zorunlu dil olarak Almanca",
         "pl": "Utrzymanie i rozbudowa liczby miejsc według potrzeb, poprawa Betreuungsschlüssel, wydłużenie godzin otwarcia dla rodziców o nietypowych grafikach, „Blaulicht”-Kita dla policji, straży pożarnej i służb ratunkowych, wsparcie małych i średnich Träger oraz Kita zakładowych; niemiecki jako obowiązkowy język w Kita"
@@ -5278,7 +5278,7 @@
       "stance": "mixed",
       "summary": {
         "en": "Bilingual SESB schools in the east of the city plus German-Arabic and Kurdish branches",
-        "de": "Bilinguale SESB-Schulen im Osten der Stadt sowie deutsch-arabische und kurdische Zweige",
+        "de": "Bilinguale SESB-Schulen im Osten der Stadt und deutsch-arabische und kurdische Zweige",
         "ru": "Двуязычные школы SESB на востоке города плюс немецко-арабская и курдская ветки",
         "tr": "Kentin doğusunda iki dilli SESB okulları ile Almanca-Arapça ve Kürtçe şubeler",
         "pl": "Dwujęzyczne szkoły SESB na wschodzie miasta oraz oddziały niemiecko-arabskie i kurdyjskie"
@@ -5410,7 +5410,7 @@
       "stance": "mixed",
       "summary": {
         "en": "Dual teacher education, more school self-governance and staffing autonomy, and use vacant and underused premises (for example, in Oberstufenzentren) before converting schools to another type",
-        "de": "Duale Lehrkräftebildung, mehr Selbstverwaltung der Schulen und Personalautonomie sowie Nutzung leer stehender und untergenutzter Räume (zum Beispiel in Oberstufenzentren), bevor Schulen in eine andere Schulart umgewandelt werden",
+        "de": "Duale Lehrkräftebildung, mehr Selbstverwaltung der Schulen und Personalautonomie und Nutzung leer stehender und untergenutzter Räume (zum Beispiel in Oberstufenzentren), bevor Schulen in eine andere Schulart umgewandelt werden",
         "ru": "Дуальное педагогическое образование, больше самоуправления и кадровой автономии школ, свободные и недоиспользуемые помещения (например, в Oberstufenzentren) использовать раньше, чем переводить школы в другой тип",
         "tr": "Çift öğretmen eğitimi, daha fazla okul özerkliği ve kadro özerkliği; okulları başka türe dönüştürmeden önce boş ve az kullanılan mekânları kullanmak (örneğin Oberstufenzentren'de)",
         "pl": "Dualne kształcenie nauczycieli, większa samorządność szkół i autonomia kadrowa oraz wykorzystanie pustych i niedostatecznie używanych pomieszczeń (np. w Oberstufenzentren) przed przekształcaniem szkół w inny typ"
@@ -5554,7 +5554,7 @@
       "stance": "mixed",
       "summary": {
         "en": "Remove smartphones and tablets from primary-school classrooms; multiprofessional teams of teachers, educators, social workers, psychologists, and specialists in IT, prevention, and administration",
-        "de": "Smartphones und Tablets aus Grundschulklassen entfernen; multiprofessionelle Teams aus Lehrkräften, Erzieher:innen, Sozialarbeiter:innen, Psycholog:innen sowie Fachkräften für IT, Prävention und Verwaltung",
+        "de": "Smartphones und Tablets aus Grundschulklassen entfernen; multiprofessionelle Teams aus Lehrkräften, Erzieher:innen, Sozialarbeiter:innen, Psycholog:innen und Fachkräften für IT, Prävention und Verwaltung",
         "ru": "Убрать смартфоны и планшеты из классов началки; мультипрофессиональные команды из учителей, воспитателей, соцработников, психологов и специалистов по IT, профилактике и администрированию",
         "tr": "İlkokul sınıflarından akıllı telefon ve tabletleri kaldırmak; öğretmen, eğitimci, sosyal çalışan, psikolog ile BT, önleme ve idare uzmanlarından çok profesyonelli ekipler",
         "pl": "Usunięcie smartfonów i tabletów z klas szkół podstawowych; zespoły multiprofesjonalne nauczycieli, wychowawców, pracowników socjalnych, psychologów oraz specjalistów IT, profilaktyki i administracji"
@@ -5578,7 +5578,7 @@
       "stance": "mixed",
       "summary": {
         "en": "School social work in every school with permanent rather than annually reviewed funding; more school psychologists and therapists, major expansion of SIBUZ; address teacher shortages and bureaucracy through workforce policy, collective-agreement linkage, equal pay at independent and public Träger, and fewer fixed-term contracts; more training places in social professions",
-        "de": "Schulsozialarbeit an jeder Schule mit dauerhafter statt jährlich überprüfter Finanzierung; mehr Schulpsycholog:innen und Therapeut:innen, SIBUZ stark ausbauen; Lehrkräftemangel und Bürokratie durch Personalpolitik, Tarifbindung, gleiche Bezahlung bei freien und öffentlichen Trägern sowie weniger Befristungen angehen; mehr Ausbildungsplätze in sozialen Berufen",
+        "de": "Schulsozialarbeit an jeder Schule mit dauerhafter statt jährlich überprüfter Finanzierung; mehr Schulpsycholog:innen und Therapeut:innen, SIBUZ stark ausbauen; Lehrkräftemangel und Bürokratie durch Personalpolitik, Tarifbindung, gleiche Bezahlung bei freien und öffentlichen Trägern und weniger Befristungen angehen; mehr Ausbildungsplätze in sozialen Berufen",
         "ru": "Школьная соцработа во всех школах с постоянным, а не ежегодно пересматриваемым финансированием; больше школьных психологов и терапевтов, глубокое расширение SIBUZ; нехватку учителей и бюрократию решать кадровой политикой, тарифной привязкой, равной оплатой у свободных и государственных Träger и меньшим числом срочных договоров; больше учебных мест в социальных профессиях",
         "tr": "Her okulda okul sosyal çalışması — yıllık gözden geçirilen değil kalıcı finansmanla; daha fazla okul psikoloğu ve terapisti, SIBUZ'un büyük genişlemesi; öğretmen açığı ve bürokrasiyi işgücü politikası, toplu sözleşme bağlantısı, bağımsız ve kamu Träger'de eşit ücret ile daha az süreli sözleşmeyle ele almak; sosyal mesleklerde daha fazla eğitim yeri",
         "pl": "Praca socjalna szkolna w każdej szkole z finansowaniem stałym, a nie corocznie weryfikowanym; więcej psychologów i terapeutów szkolnych, znaczna rozbudowa SIBUZ; niedobór nauczycieli i biurokracja poprzez politykę kadrową, powiązanie z układami zbiorowymi, równe płace u niezależnych i publicznych Träger oraz mniej umów terminowych; więcej miejsc szkoleniowych w zawodach społecznych"
@@ -5590,7 +5590,7 @@
       "stance": "mixed",
       "summary": {
         "en": "Against early and excessive digital learning in primary school — children need motor and sensory experiences and teamwork with real people; adequate staffing with educators, social workers, and psychologists; recruit teachers by removing bureaucracy in the recognition of foreign diplomas and providing a relocation allowance",
-        "de": "Gegen frühes und übermäßiges digitales Lernen in der Grundschule — Kinder brauchen motorische und sensorische Erfahrungen sowie Teamarbeit mit echten Menschen; angemessene Personalausstattung mit Erzieher:innen, Sozialarbeiter:innen und Psycholog:innen; Lehrkräfte gewinnen, indem Bürokratie bei der Anerkennung ausländischer Abschlüsse abgebaut und eine Umzugspauschale gewährt wird",
+        "de": "Gegen frühes und übermäßiges digitales Lernen in der Grundschule — Kinder brauchen motorische und sensorische Erfahrungen und Teamarbeit mit echten Menschen; angemessene Personalausstattung mit Erzieher:innen, Sozialarbeiter:innen und Psycholog:innen; Lehrkräfte gewinnen, indem Bürokratie bei der Anerkennung ausländischer Abschlüsse abgebaut und eine Umzugspauschale gewährt wird",
         "ru": "Против раннего и чрезмерного цифрового обучения в началке — детям нужны моторный и чувственный опыт и работа в команде с живыми людьми; адекватная структура персонала из педагогов, соцработников и психологов; привлечение учителей через снятие бюрократии при признании иностранных дипломов и доплату за переезд",
         "tr": "İlkokulda erken ve aşırı dijital öğrenmeye karşı — çocukların motor ve duyusal deneyimlere ve gerçek insanlarla ekip çalışmasına ihtiyacı var; eğitimci, sosyal çalışan ve psikologlarla yeterli kadro; yabancı diplomaların tanınmasındaki bürokrasiyi kaldırarak ve taşınma ödeneğiyle öğretmen almak",
         "pl": "Przeciw wczesnej i nadmiernej cyfrowej nauce w szkole podstawowej — dzieci potrzebują doświadczeń motorycznych i sensorycznych oraz pracy zespołowej z prawdziwymi ludźmi; wystarczająca kadra pedagogów, pracowników socjalnych i psychologów; rekrutacja nauczycieli przez usunięcie biurokracji przy uznawaniu dyplomów zagranicznych i zasiłek relocacyjny"
@@ -5734,7 +5734,7 @@
       "stance": "for",
       "summary": {
         "en": "more places and support for the transition from school to work; guarantee prospects after school, connect schools, companies, and municipal employment services more closely",
-        "de": "mehr Plätze und Unterstützung beim Übergang von der Schule in den Beruf; eine Anschlussperspektive nach der Schule garantieren und Schulen, Betriebe sowie die Berliner Arbeitsverwaltung enger verknüpfen",
+        "de": "mehr Plätze und Unterstützung beim Übergang von der Schule in den Beruf; eine Anschlussperspektive nach der Schule garantieren und Schulen, Betriebe und die Berliner Arbeitsverwaltung enger verknüpfen",
         "ru": "больше мест и поддержки на переходе из школы в профессию; гарантия перспективы после школы, сильнее связать школы, предприятия и городские службы занятости",
         "tr": "Okuldan işe geçiş için daha fazla yer ve destek; okul sonrası perspektifleri güvenceye almak, okulları, şirketleri ve belediye istihdam hizmetlerini daha sıkı bağlamak",
         "pl": "więcej miejsc i wsparcia przy przejściu ze szkoły do pracy; gwarancja perspektyw po szkole, ściślejsze powiązanie szkół, firm i miejskich służb zatrudnienia"
@@ -5782,7 +5782,7 @@
       "stance": "for",
       "summary": {
         "en": "more training places for doctors and pharmacists, support small and medium-sized Kita providers and workplace nurseries; in schools, discipline, German, and a results-oriented approach as preparation for a career",
-        "de": "mehr Studienplätze für Ärzt:innen und Apotheker:innen, Unterstützung kleiner und mittlerer Kita-Träger sowie von Betriebskitas; in der Schule Disziplin, Deutsch und Leistungsorientierung als Berufsvorbereitung",
+        "de": "mehr Studienplätze für Ärzt:innen und Apotheker:innen, Unterstützung kleiner und mittlerer Kita-Träger und von Betriebskitas; in der Schule Disziplin, Deutsch und Leistungsorientierung als Berufsvorbereitung",
         "ru": "больше учебных мест для врачей и аптекарей, поддержка малых и средних носителей детсадов и заводских садов; в школе — дисциплина, немецкий язык и ориентация на результат как подготовка к профессии",
         "tr": "Doktor ve eczacılar için daha fazla eğitim yeri, küçük ve orta ölçekli Kita sağlayıcıları ile işyeri kreşlerini desteklemek; okullarda disiplin, Almanca ve kariyere hazırlık olarak sonuç odaklı yaklaşım",
         "pl": "więcej miejsc szkoleniowych dla lekarzy i farmaceutów, wsparcie małych i średnich Träger Kita oraz żłobków zakładowych; w szkołach dyscyplina, niemiecki i podejście nastawione na wyniki jako przygotowanie do kariery"
@@ -6022,7 +6022,7 @@
       "stance": "mixed",
       "summary": {
         "en": "almost no separate continuing-education program; focus on training professionals within Berlin, new university places for doctors and pharmacists, and rejecting the “poaching” of workers from abroad",
-        "de": "kaum ein eigenes Weiterbildungsprogramm; Schwerpunkt auf der Ausbildung von Fachkräften in Berlin, neuen Studienplätzen für Ärzt:innen und Apotheker:innen sowie der Ablehnung des „Abwerbens“ von Fachkräften aus dem Ausland",
+        "de": "kaum ein eigenes Weiterbildungsprogramm; Schwerpunkt auf der Ausbildung von Fachkräften in Berlin, neuen Studienplätzen für Ärzt:innen und Apotheker:innen und der Ablehnung des „Abwerbens“ von Fachkräften aus dem Ausland",
         "ru": "отдельной программы повышения квалификации почти нет; акцент на подготовке специалистов внутри Берлина, новых учебных местах для врачей и аптекарей и отказе от «переманивания» кадров из-за рубежа",
         "tr": "Neredeyse ayrı bir sürekli eğitim programı yok; odak Berlin içinde profesyonel yetiştirmek, doktor ve eczacılar için yeni üniversite yerleri ve yurtdışından “işçi kapmaya” karşı olmak",
         "pl": "prawie brak osobnego programu kształcenia ustawicznego; nacisk na kształcenie fachowców w Berlinie, nowe miejsca uniwersyteckie dla lekarzy i farmaceutów oraz odrzucenie „podkupowania” pracowników z zagranicy"
@@ -6274,7 +6274,7 @@
       "stance": "mixed",
       "summary": {
         "en": "Loneliness as a political task: neighborhood centers, community projects, and measures against isolation (affecting older and younger people as well as homeless people); separate shelters for people with addictions because homelessness intensifies mental strain",
-        "de": "Einsamkeit als politische Aufgabe: Stadtteilzentren, Nachbarschaftsprojekte und Maßnahmen gegen Isolation (betroffen sind ältere und junge Menschen sowie Wohnungslose); eigene Unterkünfte für Menschen mit Abhängigkeitserkrankungen, weil Wohnungslosigkeit psychische Belastungen verstärkt",
+        "de": "Einsamkeit als politische Aufgabe: Stadtteilzentren, Nachbarschaftsprojekte und Maßnahmen gegen Isolation (betroffen sind ältere und junge Menschen und Wohnungslose); eigene Unterkünfte für Menschen mit Abhängigkeitserkrankungen, weil Wohnungslosigkeit psychische Belastungen verstärkt",
         "ru": "Одиночество как политическая задача: районные центры, проекты соседства и меры против изоляции (страдают и пожилые, и молодые, и бездомные); отдельные приюты для зависимых, потому что бездомность усиливает психические нагрузки",
         "tr": "Yalnızlık siyasi görev olarak: mahalle merkezleri, topluluk projeleri ve izolasyona karşı önlemler (yaşlılar, gençler ve evsizler de dahil); evsizlik ruhsal yükü artırdığı için bağımlılığı olanlara ayrı barınaklar",
         "pl": "Samotność jako zadanie polityczne: centra sąsiedzkie, projekty wspólnotowe i środki przeciw izolacji (dotyczące osób starszych i młodszych oraz bezdomnych); osobne schroniska dla osób z uzależnieniami, bo bezdomność nasila obciążenie psychiczne"
@@ -6310,7 +6310,7 @@
       "stance": "mixed",
       "summary": {
         "en": "no separate section on mental health; the closest point is to “substantially expand all sensible preventive measures” in the social and healthcare sectors and psychologists in schools",
-        "de": "kein eigener Abschnitt zur psychischen Gesundheit; am nächsten kommt die Forderung, „alle sinnvollen Präventionsmaßnahmen deutlich auszubauen“ im Sozial- und Gesundheitsbereich sowie Psycholog:innen an Schulen",
+        "de": "kein eigener Abschnitt zur psychischen Gesundheit; am nächsten kommt die Forderung, „alle sinnvollen Präventionsmaßnahmen deutlich auszubauen“ im Sozial- und Gesundheitsbereich und Psycholog:innen an Schulen",
         "ru": "отдельного раздела о психическом здоровье нет; ближайшее — «существенно расширить все разумные профилактические меры» в социальной и здравоохранительной сфере и психологи в школах",
         "tr": "Ruh sağlığına dair ayrı bölüm yok; en yakın nokta sosyal ve sağlık sektöründe “tüm makul önleyici tedbirleri önemli ölçüde genişletmek” ve okullarda psikologlar",
         "pl": "brak osobnej sekcji o zdrowiu psychicznym; najbliższy punkt to „znaczne rozszerzenie wszystkich sensownych środków profilaktycznych” w sektorze społecznym i zdrowotnym oraz psycholodzy w szkołach"
@@ -7090,7 +7090,7 @@
       "stance": "for",
       "summary": {
         "en": "strong focus on innovation and business freedom: less bureaucracy, “Frei-Kiez” special economic zone, private investment, startups, artificial intelligence, and joint economic planning with Brandenburg",
-        "de": "starker Fokus auf Innovation und unternehmerische Freiheit: weniger Bürokratie, Sonderwirtschaftszone „Frei-Kiez“, private Investitionen, Start-ups, künstliche Intelligenz und gemeinsame Wirtschaftsplanung mit Brandenburg",
+        "de": "starker Schwerpunkt auf Innovation und unternehmerische Freiheit: weniger Bürokratie, Sonderwirtschaftszone „Frei-Kiez“, private Investitionen, Start-ups, künstliche Intelligenz und gemeinsame Wirtschaftsplanung mit Brandenburg",
         "ru": "сильный фокус на инновациях и свободе бизнеса: меньше бюрократии, особая экономическая зона «Свободный район», частные инвестиции, стартапы, искусственный интеллект и общее планирование экономики с Бранденбургом",
         "tr": "inovasyon ve işletme özgürlüğüne güçlü vurgu: daha az bürokrasi, „Frei-Kiez“ özel ekonomik bölgesi, özel yatırım, startup’lar, yapay zekâ ve Brandenburg ile ortak ekonomik planlama",
         "pl": "silny nacisk na innowacje i wolność gospodarczą: mniej biurokracji, specjalna strefa ekonomiczna „Frei-Kiez”, inwestycje prywatne, startupy, sztuczna inteligencja i wspólne planowanie gospodarcze z Brandenburgią"
@@ -7102,7 +7102,7 @@
       "stance": "for",
       "summary": {
         "en": "a central location for startups based on Station F in Paris, transfer of scientific findings into business, less burden on small and medium-sized businesses, and strategic digitalization to strengthen Berlin as a technology location",
-        "de": "zentraler Ort für Start-ups nach dem Vorbild von Station F in Paris, Transfer wissenschaftlicher Ergebnisse in die Wirtschaft, geringere Belastung kleiner und mittlerer Unternehmen sowie strategische Digitalisierung zur Stärkung des Technologiestandorts",
+        "de": "zentraler Ort für Start-ups nach dem Vorbild von Station F in Paris, Transfer wissenschaftlicher Ergebnisse in die Wirtschaft, geringere Belastung kleiner und mittlerer Unternehmen und strategische Digitalisierung zur Stärkung des Technologiestandorts",
         "ru": "центральное место для стартапов по образцу Station F в Париже, перенос научных результатов в бизнес, меньше нагрузки на малый и средний бизнес и стратегическая цифровизация как усиление технологической площадки",
         "tr": "Paris’teki Station F örneğine dayalı startup’lar için merkezi yer, bilimsel bulguların işe aktarımı, KOBİ’lere daha az yük ve Berlin’i teknoloji merkezi olarak güçlendirmek için stratejik dijitalleşme",
         "pl": "centralny ośrodek startupów wzorowana na Station F w Paryżu, transfer wyników naukowych do biznesu, mniejsze obciążenie MŚP oraz strategiczna cyfryzacja wzmacniająca Berlin jako lokalizację technologiczną"
@@ -7330,7 +7330,7 @@
       "stance": "for",
       "summary": {
         "en": "Strong emphasis on freedom for business: a law to reduce bureaucracy, less government, private investment, a special economic zone called “Free District,” and a review of which municipal tasks could be performed more efficiently by private providers",
-        "de": "Starker Fokus auf unternehmerische Freiheit: Bürokratieabbaugesetz, weniger Staat, private Investitionen, Sonderwirtschaftszone „Freier Bezirk“ und Prüfung, welche kommunalen Aufgaben private Anbieter effizienter übernehmen können",
+        "de": "Starker Schwerpunkt auf unternehmerische Freiheit: Bürokratieabbaugesetz, weniger Staat, private Investitionen, Sonderwirtschaftszone „Freier Bezirk“ und Prüfung, welche kommunalen Aufgaben private Anbieter effizienter übernehmen können",
         "ru": "сильная ставка на свободу бизнеса: закон о снижении бюрократии, меньше государства, частные инвестиции, особая экономическая зона «Свободный район» и проверка, какие городские задачи эффективнее отдать частным",
         "tr": "İşletme özgürlüğüne güçlü vurgu: bürokrasi azaltma yasası, daha az devlet, özel yatırım, „Free District“ adlı özel ekonomik bölge ve hangi belediye görevlerinin özel sağlayıcılarca daha verimli yapılabileceğinin gözden geçirilmesi",
         "pl": "Silny nacisk na wolność gospodarczą: ustawa o redukcji biurokracji, mniej państwa, inwestycje prywatne, specjalna strefa ekonomiczna „Free District” oraz przegląd, które zadania komunalne mogliby wydajniej wykonywać prywatni dostawcy"
@@ -7414,7 +7414,7 @@
       "stance": "mixed",
       "summary": {
         "en": "Budget investment plus SIWA and the federal Sondervermögen; priorities: housing construction, transport, energy and heating, schools and childcare centers, hospitals, and digitalization; confiscation of proceeds from economic crimes",
-        "de": "Investitionen aus dem Haushalt sowie SIWA und das Sondervermögen des Bundes; Prioritäten: Wohnungsbau, Verkehr, Energie und Wärme, Schulen und Kitas, Krankenhäuser und Digitalisierung; Einziehung von Erträgen aus Wirtschaftskriminalität",
+        "de": "Investitionen aus dem Haushalt und SIWA und das Sondervermögen des Bundes; Prioritäten: Wohnungsbau, Verkehr, Energie und Wärme, Schulen und Kitas, Krankenhäuser und Digitalisierung; Einziehung von Erträgen aus Wirtschaftskriminalität",
         "ru": "Инвестиции из бюджета плюс SIWA и федеральный Sondervermögen; приоритеты — жилищное строительство, транспорт, энергия и тепло, школы и детсады, больницы, цифровизация; конфискация доходов от экономических преступлений",
         "tr": "Bütçe yatırımı artı SIWA ve federal Sondervermögen; öncelikler: konut inşaatı, ulaşım, enerji ve ısıtma, okullar ve çocuk bakımı merkezleri, hastaneler ve dijitalleşme; ekonomik suçlardan elde edilen gelirlerin el konulması",
         "pl": "Inwestycje budżetowe plus SIWA i federalne Sondervermögen; priorytety: budownictwo mieszkaniowe, transport, energia i ogrzewanie, szkoły i placówki opieki nad dziećmi, szpitale oraz cyfryzacja; konfiskata korzyści z przestępstw gospodarczych"
@@ -7438,7 +7438,7 @@
       "stance": "mixed",
       "summary": {
         "en": "Up to €2 billion per year for housing and Sondervermögen Bildung; a tax on luxury villas, reform and eventual abolition of the “debt brake,” and a unified authority against financial crime together with the tax investigation service",
-        "de": "Bis zu 2 Mrd. € jährlich für Wohnen und das Sondervermögen Bildung; Steuer auf Luxusvillen, Reform und perspektivische Abschaffung der „Schuldenbremse“ sowie eine einheitliche Behörde gegen Finanzkriminalität gemeinsam mit der Steuerfahndung",
+        "de": "Bis zu 2 Mrd. € jährlich für Wohnen und das Sondervermögen Bildung; Steuer auf Luxusvillen, Reform und perspektivische Abschaffung der „Schuldenbremse“ und eine einheitliche Behörde gegen Finanzkriminalität gemeinsam mit der Steuerfahndung",
         "ru": "До 2 млрд € в год на жильё и Sondervermögen Bildung; налог на люксовые виллы, реформа и в перспективе отмена «долгового тормоза», единое ведомство против финансовой преступности вместе с налоговым розыском",
         "tr": "Konut ve Sondervermögen Bildung için yılda 2 milyar €’ya kadar; lüks villalara vergi, „borç freni“nin reformu ve nihai kaldırılması, vergi soruşturma servisiyle birlikte mali suça karşı birleşik bir makam",
         "pl": "Do 2 mld € rocznie na mieszkalnictwo i Sondervermögen Bildung; podatek od luksusowych willi, reforma i ostateczne zniesienie „hamulca zadłużenia” oraz jednolity urząd przeciw przestępczości finansowej razem z urzędem śledztwa podatkowego"
@@ -7534,7 +7534,7 @@
       "stance": "mixed",
       "summary": {
         "en": "No separate governance reform in the program: reliance on digitalization (AI in building authorities, a renewed Digitalagentur, “digitalization guides” in district economic affairs offices) and on strengthening district staffing and finances",
-        "de": "Keine eigenständige Verwaltungsreform im Programm: Schwerpunkt auf Digitalisierung (KI in Bauämtern, erneuerte Digitalagentur, „Digitalisierungslotsen“ in den bezirklichen Wirtschaftsämtern) sowie personeller und finanzieller Stärkung der Bezirke",
+        "de": "Keine eigenständige Verwaltungsreform im Programm: Schwerpunkt auf Digitalisierung (KI in Bauämtern, erneuerte Digitalagentur, „Digitalisierungslotsen“ in den bezirklichen Wirtschaftsämtern) und personeller und finanzieller Stärkung der Bezirke",
         "ru": "отдельной реформы управления в программе нет: ставка на цифровизацию (ИИ в строительных ведомствах, обновлённая Digitalagentur, «лоцманы цифровизации» в районных отделах экономики) и на кадровое и финансовое усиление районов",
         "tr": "Programda ayrı bir yönetişim reformu yok: dijitalleşmeye (inşaat makamlarında yapay zekâ, yenilenmiş Digitalagentur, ilçe ekonomi dairelerinde „dijitalleşme rehberleri“) ve ilçe personeli ile maliyesinin güçlendirilmesine güvenmek",
         "pl": "Brak osobnej reformy governance w programie: oparcie na cyfryzacji (AI w urzędach budowlanych, odnowiona Digitalagentur, „przewodnicy cyfryzacji” w dzielnicowych urzędach gospodarki) oraz na wzmocnieniu kadr i finansów dzielnic"
@@ -7618,7 +7618,7 @@
       "stance": "mixed",
       "summary": {
         "en": "Administrative reform as a political priority: more staff and shorter processes, an appointment at any Bürgeramt of choice within 14 days, and repeal of outdated and contradictory rules; clear allocation of tasks between the Senat and districts, greater legal force for BVV decisions; transparency through a portal with data on municipal enterprises and free access to contracts worth €100,000 or more",
-        "de": "Verwaltungsreform als politische Priorität: mehr Personal und kürzere Verfahren, innerhalb von 14 Tagen ein Termin in einem frei gewählten Bürgeramt sowie Abschaffung veralteter und widersprüchlicher Regeln; klare Aufgabenverteilung zwischen Senat und Bezirken, stärkere Rechtswirkung von BVV-Beschlüssen; Transparenz über ein Portal mit Daten kommunaler Unternehmen und kostenlosem Zugang zu Verträgen ab 100.000 €",
+        "de": "Verwaltungsreform als politische Priorität: mehr Personal und kürzere Verfahren, innerhalb von 14 Tagen ein Termin in einem frei gewählten Bürgeramt und Abschaffung veralteter und widersprüchlicher Regeln; klare Aufgabenverteilung zwischen Senat und Bezirken, stärkere Rechtswirkung von BVV-Beschlüssen; Transparenz über ein Portal mit Daten kommunaler Unternehmen und kostenlosem Zugang zu Verträgen ab 100.000 €",
         "ru": "Реформа управления как политический приоритет: больше персонала и короче процессы, запись в любой Bürgeramt по выбору в течение 14 дней, устаревшие и противоречивые нормы отменять; чёткое распределение задач между сенатом и районами, больше правовой силы решениям BVV; прозрачность — портал с данными городских предприятий и бесплатный доступ к договорам от 100 000 €",
         "tr": "İdari reform siyasi öncelik olarak: daha fazla personel ve daha kısa süreçler, tercih edilen herhangi bir Bürgeramt’ta 14 gün içinde randevu ve eski/çelişkili kuralların kaldırılması; Senat ile ilçeler arasında net görev dağılımı, BVV kararlarına daha fazla hukuki güç; belediye işletmeleri verilerini içeren portal ve 100.000 € ve üzeri sözleşmelere ücretsiz erişimle şeffaflık",
         "pl": "Reforma administracji jako priorytet polityczny: więcej personelu i krótsze procesy, termin w dowolnym Bürgeramt z wyboru w ciągu 14 dni oraz uchylenie przestarzałych i sprzecznych przepisów; jasny podział zadań między Senat a dzielnice, większa moc prawna decyzji BVV; transparentność przez portal z danymi o przedsiębiorstwach komunalnych i wolny dostęp do umów o wartości 100 000 € lub więcej"
@@ -7654,7 +7654,7 @@
       "stance": "mixed",
       "summary": {
         "en": "The Mietpreis-Check app and a rent and housing register; a renewed Digitalagentur and “digitalization guides” in the districts, AI in building authorities, Governance Technology for public services, and AI and Open Data as a dedicated economic cluster",
-        "de": "Mietpreis-Check-App und Miet- und Wohnungskataster; erneuerte Digitalagentur und „Digitalisierungslotsen“ in den Bezirken, KI in Bauämtern, Verwaltungstechnologie für öffentliche Dienste sowie KI und Open Data als eigener Wirtschaftscluster",
+        "de": "Mietpreis-Check-App und Miet- und Wohnungskataster; erneuerte Digitalagentur und „Digitalisierungslotsen“ in den Bezirken, KI in Bauämtern, Verwaltungstechnologie für öffentliche Dienste und KI und Open Data als eigener Wirtschaftscluster",
         "ru": "Приложение Mietpreis-Check и кадастр аренды и жилья; обновлённая Digitalagentur и «лоцманы цифровизации» в районах, ИИ в строительных ведомствах, Governance Technology для госуслуг, ИИ и Open Data как отдельный кластер экономики",
         "tr": "Mietpreis-Check uygulaması ile kira ve konut kaydı; yenilenmiş Digitalagentur ve ilçelerde „dijitalleşme rehberleri,“ inşaat makamlarında yapay zekâ, kamu hizmetleri için Governance Technology ve yapay zekâ ile Open Data ayrı bir ekonomik küme olarak",
         "pl": "Aplikacja Mietpreis-Check oraz rejestr czynszów i mieszkań; odnowiona Digitalagentur i „przewodnicy cyfryzacji” w dzielnicach, AI w urzędach budowlanych, Governance Technology dla usług publicznych oraz AI i Open Data jako osobny klaster gospodarczy"
@@ -7666,7 +7666,7 @@
       "stance": "mixed",
       "summary": {
         "en": "Digitalgesetz; “Public Money, Public Code”—contracts only for open source; Open Data, Berlin-App, a digital Bürgeramt with video consultations and real-time application status, and digital sovereignty instead of dependence on the US and China",
-        "de": "Digitalgesetz; „Public Money, Public Code“ – Aufträge nur für Open Source; Open Data, Berlin-App, digitales Bürgeramt mit Videoberatung und Echtzeitstatus von Anträgen sowie digitale Souveränität statt Abhängigkeit von den USA und China",
+        "de": "Digitalgesetz; „Public Money, Public Code“ – Aufträge nur für Open Source; Open Data, Berlin-App, digitales Bürgeramt mit Videoberatung und Echtzeitstatus von Anträgen und digitale Souveränität statt Abhängigkeit von den USA und China",
         "ru": "Digitalgesetz, «Public Money, Public Code» — заказы только на open source, Open Data, Berlin-App, цифровое Bürgeramt с видеоконсультацией и статусом заявок в реальном времени, цифровой суверенитет вместо зависимости от США и Китая",
         "tr": "Digitalgesetz; „Public Money, Public Code“—yalnızca açık kaynak için sözleşmeler; Open Data, Berlin-App, video danışmanlık ve gerçek zamanlı başvuru durumu olan dijital Bürgeramt ve ABD ile Çin’e bağımlılık yerine dijital egemenlik",
         "pl": "Digitalgesetz; „Public Money, Public Code” — umowy tylko na open source; Open Data, Berlin-App, cyfrowe Bürgeramt z konsultacjami wideo i statusem wniosku w czasie rzeczywistym oraz cyfrowa suwerenność zamiast zależności od USA i Chin"
@@ -7690,7 +7690,7 @@
       "stance": "mixed",
       "summary": {
         "en": "A separate chapter, “AI for greater freedom and a functioning city”: AI-based appointment booking in authorities, digital infrastructure, digital tools to modernize legislation, telemedicine and a care marketplace, and hospital cybersecurity",
-        "de": "Eigenes Kapitel „KI für mehr Freiheit und eine funktionierende Stadt“: KI-gestützte Terminvergabe in Behörden, digitale Infrastruktur, digitale Werkzeuge zur Modernisierung der Gesetzgebung, Telemedizin und Pflegemarktplatz sowie Cybersicherheit der Krankenhäuser",
+        "de": "Eigenes Kapitel „KI für mehr Freiheit und eine funktionierende Stadt“: KI-gestützte Terminvergabe in Behörden, digitale Infrastruktur, digitale Werkzeuge zur Modernisierung der Gesetzgebung, Telemedizin und Pflegemarktplatz und Cybersicherheit der Krankenhäuser",
         "ru": "Отдельная глава «ИИ для большей свободы и работающего города»: ИИ-запись на приём в ведомствах, цифровая инфраструктура, цифровые инструменты для модернизации законодательства, телемедицина и маркетплейс ухода, кибербезопасность больниц",
         "tr": "Ayrı bir bölüm, „Daha fazla özgürlük ve işleyen bir kent için yapay zekâ“: makamlarda yapay zekâ tabanlı randevu, dijital altyapı, yasaları modernleştirmek için dijital araçlar, teletıp ve bakım pazarı, hastane siber güvenliği",
         "pl": "Osobny rozdział „AI dla większej wolności i sprawnego miasta”: rezerwacja wizyt w urzędach oparta na AI, infrastruktura cyfrowa, narzędzia cyfrowe do modernizacji prawa, telemedycyna i rynek usług opiekuńczych oraz cyberbezpieczeństwo szpitali"
@@ -7918,7 +7918,7 @@
       "stance": "mixed",
       "summary": {
         "en": "The school-theater programs TUSCH and TUKI, and “third places” in neighborhoods",
-        "de": "Die Schultheaterprogramme TUSCH und TUKI sowie „Dritte Orte“ in den Kiezen",
+        "de": "Die Schultheaterprogramme TUSCH und TUKI und „Dritte Orte“ in den Kiezen",
         "ru": "Школьно-театральные программы TUSCH и TUKI, «третьи места» в кварталах",
         "tr": "Okul tiyatrosu programları TUSCH ve TUKI ve mahallelerde „üçüncü mekânlar“",
         "pl": "Szkolne programy teatralne TUSCH i TUKI oraz „trzecie miejsca” w dzielnicach"
@@ -7990,7 +7990,7 @@
       "stance": "mixed",
       "summary": {
         "en": "Culture in every district plus space for creative professionals and shared workshops; restore Museumssonntag (free admission to all museums on the first Sunday of the month); legal certainty for music schools and Volkshochschulen following the 2022 court ruling; plan venues and youth culture with support for interim use",
-        "de": "Kultur in jedem Bezirk sowie Räume für Kreative und Gemeinschaftswerkstätten; Museumssonntag wieder einführen (am ersten Sonntag des Monats freier Eintritt in alle Museen); Rechtssicherheit für Musikschulen und Volkshochschulen nach dem Gerichtsurteil von 2022; Räume und Jugendkultur mit Unterstützung von Zwischennutzungen planen",
+        "de": "Kultur in jedem Bezirk und Räume für Kreative und Gemeinschaftswerkstätten; Museumssonntag wieder einführen (am ersten Sonntag des Monats freier Eintritt in alle Museen); Rechtssicherheit für Musikschulen und Volkshochschulen nach dem Gerichtsurteil von 2022; Räume und Jugendkultur mit Unterstützung von Zwischennutzungen planen",
         "ru": "Культура в каждом районе плюс пространство для творцов и общих мастерских, вернуть Museumssonntag (первое воскресенье месяца бесплатно во все музеи), правовая надёжность для музыкальных школ и Volkshochschulen после решения суда 2022 года, планирование залов и молодёжной культуры с поддержкой промежуточного использования",
         "tr": "Her ilçede kültür artı yaratıcı profesyoneller ve ortak atölyeler için alan; Museumssonntag’ı geri getirmek (ayın ilk Pazar’ı tüm müzelere ücretsiz giriş); 2022 mahkeme kararının ardından müzik okulları ve Volkshochschulen için hukuki güvenlik; geçici kullanıma destekle mekân ve gençlik kültürünü planlamak",
         "pl": "Kultura w każdej dzielnicy plus przestrzeń dla twórców i wspólne warsztaty; przywrócić Museumssonntag (darmowy wstęp do wszystkich muzeów w pierwszą niedzielę miesiąca); pewność prawna dla szkół muzycznych i Volkshochschulen po wyroku sądowym z 2022; planować miejsca i kulturę młodzieżową ze wsparciem użytku tymczasowego"
@@ -8038,7 +8038,7 @@
       "stance": "for",
       "summary": {
         "en": "Daily physical activity in all schools: renovation and construction of sports facilities plus training for physical-education teachers; swimming lessons for everyone within a reasonable timeframe, with the city reimbursing districts for “swimming buses” and free pool admission for children; All-Gender changing rooms and separate cubicles, digital and transparent allocation of sports facilities, and stronger district sports offices",
-        "de": "Tägliche Bewegung an allen Schulen: Sanierung und Neubau von Sportanlagen sowie Ausbildung von Sportlehrkräften; Schwimmunterricht für alle in angemessener Zeit, die Stadt erstattet den Bezirken die Kosten für „Schwimmbusse“, Kinder erhalten freien Schwimmbadeintritt; All-Gender-Umkleiden und Einzelkabinen, digitale und transparente Vergabe von Sportstätten und gestärkte bezirkliche Sportämter",
+        "de": "Tägliche Bewegung an allen Schulen: Sanierung und Neubau von Sportanlagen und Ausbildung von Sportlehrkräften; Schwimmunterricht für alle in angemessener Zeit, die Stadt erstattet den Bezirken die Kosten für „Schwimmbusse“, Kinder erhalten freien Schwimmbadeintritt; All-Gender-Umkleiden und Einzelkabinen, digitale und transparente Vergabe von Sportstätten und gestärkte bezirkliche Sportämter",
         "ru": "ежедневное движение во всех школах: санация и новое строительство спортобъектов плюс подготовка учителей физкультуры; уроки плавания в разумный срок для всех, расходы районов на «плавательные автобусы» возмещает город, детям бесплатный вход в бассейн; All-Gender-раздевалки и отдельные кабины, цифровое и прозрачное распределение спортсооружений, усиленные районные спортивные ведомства",
         "tr": "Tüm okullarda günlük fiziksel aktivite: spor tesislerinin yenilenmesi ve inşası artı beden eğitimi öğretmenlerinin eğitimi; makul sürede herkes için yüzme dersleri, kentin ilçelere „yüzme otobüsleri“ni geri ödemesi ve çocuklara ücretsiz havuz girişi; All-Gender soyunma odaları ve ayrı kabinler, spor tesislerinin dijital ve şeffaf tahsisi ve daha güçlü ilçe spor daireleri",
         "pl": "Codzienna aktywność ruchowa we wszystkich szkołach: remont i budowa obiektów sportowych plus szkolenie nauczycieli WF; lekcje pływania dla wszystkich w rozsądnym terminie, z refundacją przez miasto dzielnicom „autobusów pływackich” oraz darmowym wstępem na basen dla dzieci; przebieralnie All-Gender i osobne kabiny, cyfrowy i przejrzysty przydział obiektów sportowych oraz silniejsze dzielnicowe biura sportu"
@@ -8110,7 +8110,7 @@
       "stance": "mixed",
       "summary": {
         "en": "Grassroots sport with district projects and swimming lessons for children and teenagers, expansion of sports facilities with an emphasis on inclusion, and barrier-free access to all public buildings and transport",
-        "de": "Breitensport mit Bezirksprojekten und Schwimmunterricht für Kinder und Jugendliche, Ausbau von Sportanlagen mit Fokus auf Inklusion sowie barrierefreier Zugang zu allen öffentlichen Gebäuden und Verkehrsmitteln",
+        "de": "Breitensport mit Bezirksprojekten und Schwimmunterricht für Kinder und Jugendliche, Ausbau von Sportanlagen mit Schwerpunkt auf Inklusion und barrierefreier Zugang zu allen öffentlichen Gebäuden und Verkehrsmitteln",
         "ru": "Массовый спорт с районными проектами и уроки плавания для детей и подростков, расширение спортивных объектов с точки зрения инклюзии и барьеро-свободный доступ ко всем общественным зданиям и транспорту",
         "tr": "İlçe projeleri ve çocuklar ile gençler için yüzme dersleriyle taban spor, kapsayıcılık vurgulu spor tesislerinin genişletilmesi ve tüm kamu binaları ile ulaşıma engelsiz erişim",
         "pl": "Sport powszechny z projektami dzielnicowymi i lekcjami pływania dla dzieci i młodzieży, rozbudowa obiektów sportowych z naciskiem na inkluzję oraz bezbarierowy dostęp do wszystkich budynków publicznych i transportu"
@@ -8206,7 +8206,7 @@
       "stance": "mixed",
       "summary": {
         "en": "Embed participation in the system: regular randomly selected Bürgerräte reflecting the city’s diversity, with politicians and the administration required to respond publicly to their recommendations; mandatory participatory budgets in the districts and at Land level, and genuine residents’ budgets with guaranteed implementation (Paris example: around 5 percent of the investment budget); optional referendum: if parliament changes a law adopted by referendum, only 2.5 percent of voters are needed to trigger a new popular vote; voting rights for EU citizens and participation by international Berliners without German passports in Bürgerräte; a Land queer-safety strategy",
-        "de": "Beteiligung im System verankern: regelmäßige ausgeloste Bürgerräte, die die Vielfalt der Stadt abbilden, mit Pflicht für Politik und Verwaltung, öffentlich auf Empfehlungen zu antworten; verbindliche Beteiligungshaushalte in Bezirken und auf Landesebene sowie echte Bürgerhaushalte mit Umsetzungsgarantie (Beispiel Paris: rund 5 Prozent des Investitionshaushalts); fakultatives Referendum: Ändert das Parlament ein per Volksentscheid beschlossenes Gesetz, genügen 2,5 Prozent der Wahlberechtigten für eine neue Volksabstimmung; Wahlrecht für EU-Bürger:innen und Beteiligung internationaler Berliner:innen ohne deutschen Pass an Bürgerräten; Landesstrategie für Queersicherheit",
+        "de": "Beteiligung im System verankern: regelmäßige ausgeloste Bürgerräte, die die Vielfalt der Stadt abbilden, mit Pflicht für Politik und Verwaltung, öffentlich auf Empfehlungen zu antworten; verbindliche Beteiligungshaushalte in Bezirken und auf Landesebene und echte Bürgerhaushalte mit Umsetzungsgarantie (Beispiel Paris: rund 5 Prozent des Investitionshaushalts); fakultatives Referendum: Ändert das Parlament ein per Volksentscheid beschlossenes Gesetz, genügen 2,5 Prozent der Wahlberechtigten für eine neue Volksabstimmung; Wahlrecht für EU-Bürger:innen und Beteiligung internationaler Berliner:innen ohne deutschen Pass an Bürgerräten; Landesstrategie für Queersicherheit",
         "ru": "Участие закрепить в системе: регулярные Bürgerräte по жребию, отражающие многообразие города, с обязанностью политики и администрации публично отвечать на их рекомендации; обязательные бюджеты участия в районах и на уровне земли и настоящие бюджеты жителей с гарантией исполнения (пример Парижа — около 5 процентов инвестиционного бюджета); факультативный референдум: если парламент меняет закон, принятый на референдуме, для новой народной голосовки достаточно 2,5 процента избирателей; право голоса для граждан ЕС и участие интернациональных берлинцев в Bürgerräte без немецкого паспорта; земельная стратегия квир-безопасности",
         "tr": "Katılımı sisteme yerleştirmek: kentin çeşitliliğini yansıtan düzenli rastgele seçilmiş Bürgerräte, siyasetçiler ve idarenin önerilerine kamuya yanıt vermek zorunda; ilçelerde ve Land düzeyinde zorunlu katılımcı bütçeler ve garantili uygulamalı gerçek sakin bütçeleri (Paris örneği: yatırım bütçesinin yaklaşık yüzde 5’i); isteğe bağlı referandum: parlamentonun referandumla kabul edilen bir yasayı değiştirmesi halinde yeni halk oylaması için yalnızca yüzde 2,5 seçmen yeter; AB vatandaşlarına oy hakkı ve Alman pasaportu olmayan uluslararası Berlinlilerin Bürgerräte’ye katılımı; Land queer-güvenlik stratejisi",
         "pl": "Wbudować partycypację w system: regularne losowo dobrane Bürgerräte odzwierciedlające różnorodność miasta, z obowiązkiem polityków i administracji do publicznego odpowiadania na ich rekomendacje; obowiązkowe budżety partycypacyjne w dzielnicach i na poziomie landu oraz prawdziwe budżety mieszkańców z gwarantowaną realizacją (przykład Paryża: ok. 5 procent budżetu inwestycyjnego); opcjonalne referendum: jeśli parlament zmienia ustawę przyjętą w referendum, wystarczy 2,5 procent wyborców, by uruchomić nowe głosowanie ludowe; prawo wyborcze dla obywateli UE oraz udział międzynarodowych berlińczyków bez niemieckich paszportów w Bürgerräte; landowa strategia bezpieczeństwa queer"
@@ -8350,7 +8350,7 @@
       "stance": "mixed",
       "summary": {
         "en": "Almost no separate program on women’s rights and domestic violence in the excerpts found; the general direction is a Berlin based on solidarity, inclusion, and openness without discrimination, plus prevention in social services and healthcare",
-        "de": "In den gefundenen Passagen fast kein eigenständiges Programm zu Frauenrechten und häuslicher Gewalt; allgemeine Ausrichtung auf ein solidarisches, inklusives und weltoffenes Berlin ohne Diskriminierung sowie Prävention im Sozial- und Gesundheitsbereich",
+        "de": "In den gefundenen Passagen fast kein eigenständiges Programm zu Frauenrechten und häuslicher Gewalt; allgemeine Ausrichtung auf ein solidarisches, inklusives und weltoffenes Berlin ohne Diskriminierung und Prävention im Sozial- und Gesundheitsbereich",
         "ru": "отдельной программы прав женщин и домашнего насилия в найденных фрагментах почти нет; общий курс — солидарный и инклюзивный Берлин без дискриминации, профилактика в социальной и здравоохранительной сфере",
         "tr": "Bulunan alıntılarda kadın hakları ve aile içi şiddete neredeyse ayrı bir program yok; genel yön ayrımcılıksız dayanışma, kapsayıcılık ve açıklığa dayalı bir Berlin artı sosyal hizmetler ve sağlıkta önleme",
         "pl": "Prawie brak osobnego programu praw kobiet i przemocy domowej w znalezionych fragmentach; ogólny kierunek to Berlin oparty na solidarności, inkluzji i otwartości bez dyskryminacji oraz prewencja w usługach społecznych i ochronie zdrowia"
@@ -8446,7 +8446,7 @@
       "stance": "for",
       "summary": {
         "en": "A Land queer-safety strategy, regional centers assisting victims of extremist, racist, and anti-queer violence, and psychological and legal assistance",
-        "de": "Landesstrategie für Queersicherheit, regionale Zentren zur Unterstützung von Betroffenen extremistischer, rassistischer und queerfeindlicher Gewalt sowie psychologische und juristische Hilfe",
+        "de": "Landesstrategie für Queersicherheit, regionale Zentren zur Unterstützung von Betroffenen extremistischer, rassistischer und queerfeindlicher Gewalt und psychologische und juristische Hilfe",
         "ru": "земельная стратегия квир-безопасности, региональные центры помощи пострадавшим от экстремистского, расистского и антиквирного насилия, психологическая и юридическая помощь",
         "tr": "Land queer-güvenlik stratejisi, aşırılıkçı, ırkçı ve anti-queer şiddet mağdurlarına yardım eden bölgesel merkezler ve psikolojik ile hukuki yardım",
         "pl": "Landowa strategia bezpieczeństwa queer, regionalne ośrodki pomocy ofiarom przemocy ekstremistycznej, rasistowskiej i antyqueerowej oraz pomoc psychologiczna i prawna"
@@ -8566,7 +8566,7 @@
       "stance": "mixed",
       "summary": {
         "en": "No separate second vote; emphasis on randomly selected Bürgerräte, participatory budgets, and an optional referendum, plus voting rights for EU citizens",
-        "de": "Keine eigene Zweitstimme; Schwerpunkt auf ausgelosten Bürgerräten, Beteiligungshaushalten und fakultativem Referendum sowie Wahlrecht für EU-Bürger:innen",
+        "de": "Keine eigene Zweitstimme; Schwerpunkt auf ausgelosten Bürgerräten, Beteiligungshaushalten und fakultativem Referendum und Wahlrecht für EU-Bürger:innen",
         "ru": "отдельного второго голоса нет; ставка на Bürgerräte по жребию, бюджеты участия и факультативный референдум, плюс право голоса для граждан ЕС",
         "tr": "Ayrı ikinci oy yok; vurgu rastgele seçilmiş Bürgerräte, katılımcı bütçeler ve isteğe bağlı referandum artı AB vatandaşlarına oy hakkı",
         "pl": "Brak osobnego drugiego głosu; nacisk na losowo dobrane Bürgerräte, budżety partycypacyjne i opcjonalne referendum oraz prawo wyborcze obywateli UE"
@@ -8758,7 +8758,7 @@
       "stance": "for",
       "summary": {
         "en": "Supports the “Berlin werbefrei” goal and reducing commercial advertising in public space, especially large-format scaffolding advertising; separately, ban sports-betting advertising and all advertising and recruitment aimed at minors by the Bundeswehr",
-        "de": "Unterstützt das Ziel „Berlin werbefrei“ und die Verringerung kommerzieller Werbung im öffentlichen Raum, besonders großformatiger Gerüstwerbung; außerdem Werbung für Sportwetten sowie sämtliche Werbung und Anwerbung von Minderjährigen durch die Bundeswehr verbieten",
+        "de": "Unterstützt das Ziel „Berlin werbefrei“ und die Verringerung kommerzieller Werbung im öffentlichen Raum, besonders großformatiger Gerüstwerbung; außerdem Werbung für Sportwetten und sämtliche Werbung und Anwerbung von Minderjährigen durch die Bundeswehr verbieten",
         "ru": "поддерживают цель «Berlin werbefrei» и сокращение коммерческой рекламы в общественном пространстве, особенно крупноформатной на стройлесах; отдельно — запретить рекламу спортивных ставок и любую рекламу и рекрутинг несовершеннолетних (Бундесвер)",
         "tr": "„Berlin werbefrei“ hedefini ve kamusal alanda ticari reklamın azaltılmasını, özellikle büyük formatlı iskele reklamını destekler; ayrıca spor bahisi reklamını ve Bundeswehr’in küçüklere yönelik tüm reklam ile işe alımını yasaklamak",
         "pl": "Popiera cel „Berlin werbefrei” i ograniczenie reklamy komercyjnej w przestrzeni publicznej, zwłaszcza wielkoformatowej reklamy na rusztowaniach; osobno zakaz reklamy zakładów sportowych oraz wszelkiej reklamy i rekrutacji skierowanej do nieletnich przez Bundeswehr"
