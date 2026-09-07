@@ -1088,12 +1088,12 @@
       "partyId": "volt",
       "stance": "for",
       "summary": {
-        "en": "climate-neutral energy and heating; replace fossil sources, solar offensive, heating and electricity grid conversion",
-        "de": "klimaneutrale Energie und Wärme; fossile Quellen ersetzen, Solaroffensive, Umbau von Wärme- und Stromnetzen",
-        "ru": "климатически нейтральная энергия и тепло; замена ископаемых источников, активное расширение солнечных установок, модернизация теплосетей и электросетей",
-        "tr": "iklim nötr enerji ve ısıtma; fosil kaynakları değiştirmek, güneş ofansifi, ısıtma ve elektrik şebekesi dönüşümü",
-        "pl": "klimatycznie neutralna energia i ciepło; zastąpienie źródeł kopalnych, ofensywa solarna, przebudowa sieci ciepła i energii",
-        "uk": "кліматично нейтральні енергія та опалення; заміна викопних джерел, сонячний наступ, опалення та перетворення електричної мережі"
+        "en": "implement BEK 2030 and the Klimaschutz- und Energiewendegesetz (−70% CO₂ by 2030); accelerate with annual public reporting; climate-neutral power and heat via solar/wind, heat pumps and Brandenburg partnership",
+        "de": "BEK 2030 und Klimaschutz- und Energiewendegesetz umsetzen (−70 % CO₂ bis 2030); mit jährlichem öffentlichem Reporting beschleunigen; klimaneutraler Strom und Wärme über Solar/Wind, Wärmepumpen und Brandenburg-Partnerschaft",
+        "ru": "реализовать BEK 2030 и Klimaschutz- und Energiewendegesetz (−70 % CO₂ к 2030); ускорить ежегодной публичной отчётностью; климатически нейтральные электричество и тепло через солнце/ветер, теплонасосы и партнёрство с Бранденбургом",
+        "tr": "BEK 2030 ve Klimaschutz- und Energiewendegesetz’i uygulamak (2030’a kadar −%70 CO₂); yıllık kamu raporlamasıyla hızlandırmak; güneş/rüzgar, ısı pompaları ve Brandenburg ortaklığıyla iklim nötr elektrik ve ısı",
+        "pl": "wdrażać BEK 2030 i Klimaschutz- und Energiewendegesetz (−70% CO₂ do 2030); przyspieszać rocznym publicznym raportowaniem; klimatycznie neutralny prąd i ciepło przez słońce/wiatr, pompy ciepła i partnerstwo z Brandenburgią",
+        "uk": "впровадити BEK 2030 і Klimaschutz- und Energiewendegesetz (−70% CO₂ до 2030); прискорити щорічною публічною звітністю; кліматично нейтральні електрика й тепло через сонце/вітер, теплонасоси та партнерство з Бранденбургом"
       }
     },
     {
@@ -1216,14 +1216,14 @@
     {
       "topicId": "a100-construction",
       "partyId": "volt",
-      "stance": "against",
+      "stance": "none",
       "summary": {
-        "en": "against further expansion A100 and other major roads, e.g. TVO",
-        "de": "gegen weiteren Ausbau der A100 und anderer großer Straßen, z. B. TVO",
-        "ru": "против дальнейшего расширения A100 и других крупных дорог, например, TVO",
-        "tr": "A100 ve diğer büyük yolların, örn. TVO’nun, daha fazla genişletilmesine karşı",
-        "pl": "przeciw dalszej rozbudowie A100 i innych dużych dróg, np. TVO",
-        "uk": "проти подальшого розширення A100 та інших великих доріг, напр. TVO"
+        "en": "A100 / TVO motorway expansion is not addressed; mobility chapter focuses on ÖPNV, Vision Zero and reducing car dominance rather than naming those projects",
+        "de": "A100-/TVO-Autobahnausbau nicht thematisiert; Mobilitätskapitel setzt auf ÖPNV, Vision Zero und weniger Autovorrang, ohne diese Projekte zu nennen",
+        "ru": "расширение автобанов A100/TVO не затрагивается; глава о мобильности — ÖPNV, Vision Zero и меньше доминирования авто, без названия этих проектов",
+        "tr": "A100/TVO otoyol genişlemesi ele alınmıyor; mobilite bölümü ÖPNV, Vision Zero ve araba egemenliğini azaltmaya odaklanıyor, bu projeleri adlandırmadan",
+        "pl": "rozbudowa autostrad A100/TVO nieporuszana; rozdział o mobilności o ÖPNV, Vision Zero i mniejszej dominacji aut, bez nazw tych projektów",
+        "uk": "розширення автобанів A100/TVO не згадується; розділ про мобільність — ÖPNV, Vision Zero і менше домінування авто, без назви цих проєктів"
       }
     },
     {
@@ -1996,14 +1996,14 @@
     {
       "topicId": "tempelhofer-feld-development-edge-development",
       "partyId": "volt",
-      "stance": "none",
+      "stance": "mixed",
       "summary": {
-        "en": "",
-        "de": "",
-        "ru": "",
-        "tr": "",
-        "pl": "",
-        "uk": ""
+        "en": "Tempelhofer Feld as a test site for agri-photovoltaics and mobile energy storage; scale what works, end what does not — not framed as housing/edge development",
+        "de": "Tempelhofer Feld als Testfläche für Agri-Photovoltaik und mobile Energiespeicher; skalieren, was funktioniert, beenden, was nicht – nicht als Wohnungs-/Randbebauung formuliert",
+        "ru": "Темпельхофер-фельд как тестовая площадка для агрофотовольтаики и мобильных накопителей; масштабировать удачное, останавливать неудачное — не как жилищная/краевая застройка",
+        "tr": "Tempelhofer Feld’i tarımsal fotovoltaik ve mobil enerji depolama test alanı yapmak; işe yarayanı ölçeklemek, yaramayanı bırakmak — konut/kenar yapılaşma olarak çerçevelenmemiş",
+        "pl": "Tempelhofer Feld jako teren testowy agri-fotowoltaiki i mobilnych magazynów energii; skalować to, co działa, kończyć to, co nie — nie jako zabudowa mieszkaniowa/krawędziowa",
+        "uk": "Tempelhofer Feld як тестовий майданчик для агрофотовольтаїки та мобільних накопичувачів; масштабувати успішне, припиняти невдале — не як житлова/крайова забудова"
       }
     },
     {
@@ -2516,14 +2516,14 @@
     {
       "topicId": "zero-waste-waste-prevention",
       "partyId": "volt",
-      "stance": "none",
+      "stance": "for",
       "summary": {
-        "en": "",
-        "de": "",
-        "ru": "",
-        "tr": "",
-        "pl": "",
-        "uk": ""
+        "en": "Verpackungssteuer to cut single-use waste and fund citywide Mehrweg return infrastructure; Zero-Waste education workshops; Repair-Cafés and repair bonus; reject new waste incinerators",
+        "de": "Verpackungssteuer gegen Einwegmüll und für berlinweite Mehrweg-Rückgabeinfrastruktur; Zero-Waste-Bildungsangebote; Repair-Cafés und Reparaturbonus; keine neuen Müllverbrennungsanlagen",
+        "ru": "налог на упаковку против одноразового мусора и на городскую инфраструктуру Mehrweg; образовательные Zero-Waste-воркшопы; Repair-Cafés и бонус за ремонт; без новых мусоросжигателей",
+        "tr": "tek kullanımlık atığı azaltmak ve kent çapında Mehrweg iade altyapısını finanse etmek için Verpackungssteuer; Zero-Waste eğitim atölyeleri; Repair-Café ve onarım bonusu; yeni yakma tesisi yok",
+        "pl": "Verpackungssteuer przeciw jednorazowym odpadom i na miejską infrastrukturę Mehrweg; warsztaty Zero-Waste; Repair-Café i bonus naprawczy; bez nowych spalarni",
+        "uk": "податок на упаковку проти одноразового сміття і на міську інфраструктуру Mehrweg; освітні Zero-Waste-воркшопи; Repair-Café і бонус за ремонт; без нових сміттєспалювачів"
       }
     },
     {
@@ -3168,12 +3168,12 @@
       "partyId": "volt",
       "stance": "against",
       "summary": {
-        "en": "overcome dependence on gas; replace gas and oil heating with heat pumps and waste heat",
-        "de": "Gasabhängigkeit überwinden; Gas- und Ölheizungen durch Wärmepumpen und Abwärme ersetzen",
-        "ru": "преодолеть зависимость от газа; газовые и масляные отопления заменять тепловыми насосами и сбросное тепло",
-        "tr": "gaza bağımlılığı aşmak; gaz ve petrol ısıtmayı ısı pompaları ve atık ısıyla değiştirmek",
-        "pl": "przezwyciężyć zależność od gazu; zastąpić ogrzewanie gazowe i olejowe pompami ciepła i ciepłem odpadowym",
-        "uk": "подолати залежність від газу; замінити газове та масляне опалення тепловими насосами та відпрацьованим теплом"
+        "en": "overcome dependence on gas (majority of homes and ~¾ of Fernwärme still on Erdgas); replace fossil power/heat via renewables, (large) heat pumps and waste heat with Brandenburg partnership",
+        "de": "Gasabhängigkeit überwinden (Mehrheit der Haushalte und ~¾ der Fernwärme noch Erdgas); fossile Strom-/Wärmeerzeugung durch Erneuerbare, (Groß-)Wärmepumpen und Abwärme mit Brandenburg-Partnerschaft ersetzen",
+        "ru": "преодолеть зависимость от газа (большинство домов и ~¾ теплосети ещё на Erdgas); заменить ископаемые через ВИЭ, (крупные) теплонасосы и отходящее тепло в партнёрстве с Бранденбургом",
+        "tr": "gaz bağımlılığını aşmak (hanelerin çoğu ve Fernwärme’nin ~¾’ü hâlâ Erdgas); Brandenburg ortaklığıyla yenilenebilir, (büyük) ısı pompaları ve atık ısı ile fosili değiştirmek",
+        "pl": "przezwyciężyć zależność od gazu (większość domów i ~¾ ciepła sieciowego nadal Erdgas); zastąpić paliwa kopalne OZE, (dużymi) pompami ciepła i ciepłem odpadowym z partnerstwem Brandenburgii",
+        "uk": "подолати залежність від газу (більшість домівок і ~¾ тепломережі ще на Erdgas); замінити викопне через ВДЕ, (великі) теплонасоси й відхідне тепло в партнерстві з Бранденбургом"
       }
     },
     {
@@ -3296,14 +3296,14 @@
     {
       "topicId": "hydrogen",
       "partyId": "volt",
-      "stance": "against",
+      "stance": "mixed",
       "summary": {
-        "en": "hydrogen not as general heating technology; only where direct electrification is impossible, e.g. industry, chemicals, aviation",
-        "de": "Wasserstoff nicht als allgemeine Heiztechnologie; nur wo direkte Elektrifizierung unmöglich ist, z. B. Industrie, Chemie, Luftfahrt",
-        "ru": "водород не как общая тепловая технология; только там, где прямая электрификация невозможна, например индустрия, химия, авиация",
-        "tr": "hidrojen genel ısıtma teknolojisi olarak değil; yalnızca doğrudan elektrifikasyonun imkânsız olduğu yerlerde, örn. sanayi, kimya, havacılık",
-        "pl": "wodór nie jako powszechna technologia ogrzewania; tylko tam, gdzie bezpośrednia elektryfikacja jest niemożliwa, np. przemysł, chemia, lotnictwo",
-        "uk": "водень не як загальна технологія опалення; лише там, де пряма електрифікація неможлива, напр. промисловості, хім., авіації"
+        "en": "Tegel as Green Tech Hub for hydrogen pilots; biogas plant optionally H₂-based for peaks; heat strategy centers on heat pumps and waste heat, not hydrogen as mass home heating",
+        "de": "Tegel als Green-Tech-Hub für Wasserstoff-Piloten; Biogasanlage optional wasserstoffbasiert für Spitzen; Wärmestrategie setzt auf Wärmepumpen und Abwärme, nicht auf Wasserstoff als Massen-Heizung",
+        "ru": "Тегель как Green Tech Hub для водородных пилотов; биогаз опционально на H₂ для пиков; тепловая стратегия — теплонасосы и отходящее тепло, не водород как массовое отопление жилья",
+        "tr": "Tegel hidrojen pilotları için Green Tech Hub; biyogaz tesisi tepe yük için isteğe bağlı H₂ tabanlı; ısı stratejisi ısı pompaları ve atık ısı, kitlesel konut ısıtması olarak hidrojen değil",
+        "pl": "Tegel jako Green Tech Hub pilotów wodorowych; biogazownia opcjonalnie na H₂ na szczyty; strategia ciepła na pompach i cieple odpadowym, nie wodór jako masowe ogrzewanie mieszkań",
+        "uk": "Тегель як Green Tech Hub для водневих пілотів; біогазова установка опційно на H₂ для піків; теплова стратегія — теплонасоси й відхідне тепло, не водень як масове опалення житла"
       }
     },
     {
@@ -3426,14 +3426,14 @@
     {
       "topicId": "heat-pumps",
       "partyId": "volt",
-      "stance": "none",
+      "stance": "for",
       "summary": {
-        "en": "",
-        "de": "",
-        "ru": "",
-        "tr": "",
-        "pl": "",
-        "uk": ""
+        "en": "retrain installers from conventional heating to heat pumps; systematically convert district heating to large and river heat pumps plus waste heat from data centers, industry and U-Bahn; Smart Meters for heat-pump households",
+        "de": "Handwerker*innen von klassischen Heizungen auf Wärmepumpen umschulen; Fernwärme systematisch auf Groß- und Flusswärmepumpen sowie Abwärme aus Rechenzentren, Industrie und U-Bahn umstellen; Smart Meter für Wärmepumpen-Haushalte",
+        "ru": "переобучать монтажников с обычного отопления на тепловые насосы; систематически переводить теплосеть на крупные и речные теплонасосы плюс отходящее тепло ЦОД, промышленности и метро; Smart Meter для домов с теплонасосами",
+        "tr": "ustaları klasik ısıtmadan ısı pompalarına yeniden eğitmek; bölgesel ısıyı sistematik olarak büyük/nehir ısı pompaları ile veri merkezi, sanayi ve metro atık ısısına dönüştürmek; ısı pompalı haneler için Smart Meter",
+        "pl": "przekwalifikować instalatorów z klasycznego ogrzewania na pompy ciepła; systematycznie przestawić ciepło sieciowe na duże i rzeczne pompy ciepła oraz ciepło odpadowe z data center, przemysłu i metra; Smart Meter dla gospodarstw z pompami",
+        "uk": "перенавчати монтажників із класичного опалення на теплові насоси; систематично переводити тепломережу на великі й річкові теплонасоси плюс відхідне тепло ЦОД, промисловості та метро; Smart Meter для домівок із теплонасосами"
       }
     },
     {
@@ -3558,12 +3558,12 @@
       "partyId": "volt",
       "stance": "for",
       "summary": {
-        "en": "heating fully by 2035 from renewable energy sources; Heating Transition Fund; neighborhood approach; renovations that do not increase total rent including heating",
-        "de": "Wärme bis 2035 vollständig aus erneuerbaren Energien; Wärmewendefonds; Quartiersansatz; Sanierungen, die die Warmmiete nicht erhöhen",
-        "ru": "тепло до 2035 полностью на возобновляемых источниках энергии; Wärmewendefonds; квартальный подход; warmmietenneutrale Sanierungen",
-        "tr": "ısıtma 2035'e kadar tamamen yenilenebilir kaynaklardan; Wärmewende-Fonu; mahalle yaklaşımı; ısıtma dahil toplam kirayı artırmayan yenilemeler",
-        "pl": "ogrzewanie w pełni do 2035 ze źródeł odnawialnych; Fundusz transformacji ciepłowniczej; podejście osiedlowe; renowacje, które nie podnoszą całkowitego czynszu z ogrzewaniem",
-        "uk": "повне опалення до 2035 року за рахунок відновлюваних джерел енергії; Перехідний фонд опалення; сусідський підхід; ремонт, який не збільшує загальну орендну плату, включаючи опалення"
+        "en": "science-based BEW decarbonization timeline replacing plants with large heat pumps; expand Fernwärme; commit to BEK 2030 (−70% CO₂); socially compatible neighborhood renovations — no “fully renewable heat by 2035” or named Heating Transition Fund found",
+        "de": "wissenschaftsgestützter BEW-Dekarbonisierungsfahrplan mit Ablösung durch Großwärmepumpen; Fernwärme ausbauen; BEK 2030 (−70 % CO₂); sozialverträgliche Quartierssanierungen – kein „vollständig erneuerbare Wärme bis 2035“ und kein benannter Heizungswendefonds gefunden",
+        "ru": "научный график декарбонизации BEW с заменой на крупные теплонасосы; расширять Fernwärme; BEK 2030 (−70 % CO₂); социально приемлемая санация кварталов — цели «полностью ВИЭ-тепло к 2035» и отдельного фонда тепловой волны в тексте нет",
+        "tr": "büyük ısı pompalarıyla santralleri değiştiren bilimsel BEW karbonsuzlaştırma takvimi; Fernwärme’yi genişletmek; BEK 2030 (−%70 CO₂); sosyal uyumlu mahalle yenilemeleri — „2035’e kadar tamamen yenilenebilir ısı“ veya adlı ısı dönüşüm fonu yok",
+        "pl": "naukowy harmonogram dekarbonizacji BEW z zastąpieniem elektrowni dużymi pompami ciepła; rozbudowa Fernwärme; BEK 2030 (−70% CO₂); społecznie akceptowalna modernizacja kwartałów — brak „w pełni OZE do 2035” i nazwanego funduszu transformacji ciepła",
+        "uk": "науковий графік декарбонізації BEW із заміною станцій на великі теплонасоси; розширювати Fernwärme; BEK 2030 (−70% CO₂); соціально прийнятна санація кварталів — немає «повністю ВДЕ-тепло до 2035» і окремого фонду теплової хвилі"
       }
     },
     {
@@ -3688,12 +3688,12 @@
       "partyId": "volt",
       "stance": "none",
       "summary": {
-        "en": "",
-        "de": "",
-        "ru": "",
-        "tr": "",
-        "pl": "",
-        "uk": ""
+        "en": "not addressed in the Berlin Wahlprogramm",
+        "de": "im Berliner Wahlprogramm nicht thematisiert",
+        "ru": "в берлинской предвыборной программе не затрагивается",
+        "tr": "Berlin seçim programında ele alınmıyor",
+        "pl": "nieporuszane w berlińskim programie wyborczym",
+        "uk": "у берлінській передвиборчій програмі не згадується"
       }
     },
     {
@@ -4466,14 +4466,14 @@
     {
       "topicId": "housing-vacancy-tourist-apartments-speculation",
       "partyId": "volt",
-      "stance": "mixed",
+      "stance": "for",
       "summary": {
-        "en": "no separate Zweckentfremdung ban: emphasis on transparency, with a digital housing database exposing vacancy and speculation; a separate chapter addresses vacant commercial premises and their conversion into housing and cultural uses",
-        "de": "kein eigenes Zweckentfremdungsverbot: Schwerpunkt auf Transparenz, wobei eine digitale Wohnungsdatenbank Leerstand und Spekulation sichtbar macht; ein eigenes Kapitel behandelt leer stehende Gewerberäume und ihre Umwandlung in Wohnungen und kulturelle Nutzungen",
-        "ru": "отдельного запрета нецелевого использования жилья (Zweckentfremdung) нет: ставка на прозрачность — цифровая база жилья вскрывает пустующее жильё и спекуляцию; отдельно есть глава о борьбе с пустующим жильём коммерческих помещений и их передаче под жильё и культуру",
-        "tr": "ayrı Zweckentfremdung yasağı yok: vurgu şeffaflıkta, dijital konut veri tabanı boş daireleri ve spekülasyonu ortaya koyar; ayrı bölüm boş ticari mekânları ve konut ile kültürel kullanıma dönüşümünü ele alır",
-        "pl": "bez osobnego zakazu Zweckentfremdung: nacisk na przejrzystość, z cyfrową bazą mieszkań ujawniającą pustostany i spekulację; osobny rozdział o pustych lokalach komercyjnych i ich przekształcaniu w mieszkania oraz funkcje kulturalne",
-        "uk": "немає окремої заборони Zweckentfremdung: акцент на прозорості, з цифровою базою даних житла, що розкриває порожнє житло та спекуляції; окремий розділ присвячений вільним комерційним приміщенням та їх переобладнанню під житлові та культурні потреби"
+        "en": "tamper-proof digital Wohnraum-Datenbank to expose vacancy and speculation; map and reuse vacant commercial space (KiezLabs, culture) — no separate Zweckentfremdung/Ferienwohnungen ban chapter",
+        "de": "fälschungssichere digitale Wohnraum-Datenbank gegen Leerstand und Spekulation; Gewerbeleerstand kartieren und umnutzen (KiezLabs, Kultur) – kein eigenes Zweckentfremdungs-/Ferienwohnungs-Verbotskapitel",
+        "ru": "защищённая цифровая Wohnraum-Datenbank против пустования и спекуляции; картировать и переиспользовать пустующие коммерческие площади (KiezLabs, культура) — отдельной главы о запрете Zweckentfremdung/Ferienwohnungen нет",
+        "tr": "boşluk ve spekülasyonu açığa çıkaran sahteciliğe dayanıklı dijital Wohnraum-Datenbank; boş ticari alanları haritalayıp yeniden kullanmak (KiezLabs, kültür) — ayrı Zweckentfremdung/Ferienwohnungen yasağı bölümü yok",
+        "pl": "odporna na fałszerstwo cyfrowa Wohnraum-Datenbank przeciw pustostanom i spekulacji; mapować i zmieniać funkcję pustych lokali użytkowych (KiezLabs, kultura) — brak osobnego rozdziału o zakazie Zweckentfremdung/Ferienwohnungen",
+        "uk": "захищена цифрова Wohnraum-Datenbank проти простоювання та спекуляції; картографувати й перепрофільовувати порожні комерційні площі (KiezLabs, культура) — окремого розділу про заборону Zweckentfremdung/Ferienwohnungen немає"
       }
     },
     {
@@ -9406,14 +9406,14 @@
     {
       "topicId": "party-donations-lobbying-and-transparency",
       "partyId": "volt",
-      "stance": "mixed",
+      "stance": "for",
       "summary": {
-        "en": "Nothing about donations; a Hamburg-style Transparenzgesetz requires authorities to publish key data proactively without a request",
-        "de": "Nichts zu Spenden; ein Transparenzgesetz nach Hamburger Vorbild verpflichtet Behörden, zentrale Daten ohne Antrag eigenständig zu veröffentlichen",
-        "ru": "про пожертвования ничего; Transparenzgesetz по гамбургскому образцу обязывает ведомства сами публиковать ключевые данные без запроса",
-        "tr": "Bağışlar hakkında bir şey yok; Hamburg tarzı Transparenzgesetz makamların talep olmadan temel verileri proaktif yayımlamasını gerektirir",
-        "pl": "Nic o darowiznach; Transparenzgesetz w stylu hamburskim wymaga od urzędów proaktywnego publikowania kluczowych danych bez wniosku",
-        "uk": "Нічого про пожертви; Transparenzgesetz у гамбурзькому стилі вимагає від органів влади проактивно публікувати ключові дані без запиту"
+        "en": "Hamburg-style Transparenzgesetz: authorities must proactively publish key documents (opinions, Senat decisions, contracts) without a request — no separate party-donation rules",
+        "de": "Transparenzgesetz nach Hamburger Vorbild: Behörden veröffentlichen zentrale Dokumente (Gutachten, Senatsbeschlüsse, Verträge) proaktiv ohne Antrag – keine gesonderten Parteispendenregeln",
+        "ru": "Transparenzgesetz по образцу Гамбурга: власти проактивно публикуют ключевые документы (заключения, решения сената, договоры) без запроса — отдельных правил о партийных пожертвованиях нет",
+        "tr": "Hamburg tarzı Transparenzgesetz: makamlar temel belgeleri (raporlar, Senat kararları, sözleşmeler) talep olmadan proaktif yayımlar — ayrı parti bağışı kuralı yok",
+        "pl": "Transparenzgesetz wzorem Hamburga: władze proaktywnie publikują kluczowe dokumenty (opinie, decyzje Senatu, umowy) bez wniosku — brak osobnych reguł darowizn partyjnych",
+        "uk": "Transparenzgesetz за зразком Гамбурга: органи проактивно публікують ключові документи (висновки, рішення сенату, договори) без запиту — окремих правил партійних пожертв немає"
       }
     },
     {
