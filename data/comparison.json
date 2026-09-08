@@ -11,7 +11,7 @@
         "pl": "CDU",
         "uk": "CDU"
       },
-      "programUrl": "https://cdu.berlin/wofuer-wir-stehen"
+      "programUrl": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf"
     },
     {
       "id": "spd",
@@ -997,13 +997,27 @@
       "partyId": "cdu",
       "stance": "mixed",
       "summary": {
-        "en": "no clear target; emphasis on an “efficient and affordable” climate policy, decarbonizing district heating and energy grids, but oppose strict obligations and shutting down the gas network",
-        "de": "kein klares Ziel; Schwerpunkt: eine „effiziente und bezahlbare“ Klimapolitik, Dekarbonisierung von Fernwärme und Energienetzen, aber gegen strenge Verpflichtungen und die Abschaltung des Gasnetzes",
-        "ru": "цель в явном виде не сформулирована; делают ставку на «эффективный и доступный» климатический курс, декарбонизацию централизованное теплоснабжение энергосетей, но против жестких обязательств и отключения газовой сети",
-        "tr": "açık hedef yok; “verimli ve uygun maliyetli” iklim politikasına odak; merkezi ısıtma ve enerji şebekelerinin karbonsuzlaştırılması, ancak katı yükümlülüklere ve gaz şebekesinin kapatılmasına karşı",
-        "pl": "brak wyraźnego celu; nacisk na „efektywną i przystępną” politykę klimatyczną, dekarbonizację ciepła sieciowego i sieci energetycznych, ale przeciw ścisłym obowiązkom i wyłączaniu sieci gazowej",
-        "uk": "немає чіткої мети; акцент на «ефективній і доступній» кліматичній політиці, декарбонізації централізованого теплопостачання та енергомереж, але проти жорстких зобов’язань"
-      }
+        "en": "no dated city-wide climate-neutrality target; focus on “effective and affordable” climate policy (Fernwärme decarbonization, energy networks); reject shutting down the gas network",
+        "de": "kein datiertes gesamtstädtisches Klimaneutralitätsziel; Schwerpunkt „wirksamer und bezahlbarer“ Klimaschutz (Fernwärme-Dekarbonisierung, Energienetze); gegen Stilllegung des Gasnetzes",
+        "ru": "нет датированной цели климатической нейтральности по городу; акцент на «эффективной и доступной» климатической политике (декарбонизация Fernwärme, энергосети); против отключения газовой сети",
+        "tr": "tarihli kent çapında iklim nötrlüğü hedefi yok; “etkili ve karşılanabilir” iklim politikası (Fernwärme dekarbonizasyonu, enerji şebekeleri); gaz şebekesinin kapatılmasına karşı",
+        "pl": "brak datowanego miejskiego celu neutralności klimatycznej; nacisk na „skuteczną i przystępną” politykę klimatyczną (dekarbonizacja ciepła sieciowego, sieci energetyczne); przeciw wyłączeniu sieci gazowej",
+        "uk": "немає датованої загальноміської цілі кліматичної нейтральності; акцент на «дієвій і доступній» кліматичній політиці (декарбонізація Fernwärme, енергомережі); проти відключення газової мережі"
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird größer",
+          "page": 32,
+          "quote": "Statt teurer Symbolpolitik setzen wir auf wirksamen und bezahlbaren Klimaschutz dort, wo er tatsächlich große Wirkung entfaltet."
+        },
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird größer",
+          "page": 32,
+          "quote": "Klar ist für uns aber auch: Eine Stilllegung des Gasnetzes kommt für uns aus Gründen der Versorgungssicherheit nicht infrage."
+        }
+      ]
     },
     {
       "topicId": "climate-neutrality",
@@ -1175,7 +1189,15 @@
         "tr": "17. kesitin planlanmasını desteklemek; arabayı hareketliliğin gerekli parçası olarak tutmak",
         "pl": "za planowaniem 17. odcinka; samochody jako niezbędna część mobilności",
         "uk": "супровід планування 17 розділу; зберегти автомобілі як необхідну частину мобільності"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird schneller",
+          "page": 69,
+          "quote": "Übergeordnete Projekte wie den Weiterbau der A 100 oder die Tangentialverbindung Ost (TVO) werden wir entschlossen vorantreiben, um Wohngebiete von Durchgangsverkehr zu entlasten und insbesondere Stadtteile im Berliner Osten besser anzubinden."
+        }
+      ]
     },
     {
       "topicId": "a100-construction",
@@ -1331,7 +1353,21 @@
         "tr": "yol yapımına yatırımı belirgin artırmak; ana yollarda kural olarak Tempo 50; 2026/27’de köprüler için 200+ milyon €; TVO’yu inşa etmek",
         "pl": "znacznie zwiększyć inwestycje w budowę dróg; Tempo 50 jako reguła na arteriach; ponad 200 mln € na mosty w 2026/27; zbudować TVO",
         "uk": "значно збільшити інвестиції в будівництво доріг; Tempo 50 як правило на головних дорогах; 200+ мільйонів євро на мости в 2026/27; будувати ТВО"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird schneller",
+          "page": 69,
+          "quote": "Übergeordnete Projekte wie den Weiterbau der A 100 oder die Tangentialverbindung Ost (TVO) werden wir entschlossen vorantreiben, um Wohngebiete von Durchgangsverkehr zu entlasten und insbesondere Stadtteile im Berliner Osten besser anzubinden."
+        },
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird schneller",
+          "page": 68,
+          "quote": "Wo es möglich und sicher ist, gilt wieder Tempo 50. Wir haben nachgeholt, was lange vernachlässigt wurde und damit begonnen, die Infrastruktur unserer Stadt grundlegend zu sanieren."
+        }
+      ]
     },
     {
       "topicId": "road-construction",
@@ -1491,7 +1527,15 @@
         "tr": "U2, U3, U6, U7, U8, U9 uzatmaları; U10’u planlamaya almak; CBTC/kısmi otomasyon, S‑Bahn daha sık ve dış ilçelerde daha iyi hizmet, i2030",
         "pl": "przedłużenia U2, U3, U6, U7, U8, U9; U10 włączyć do planowania; CBTC/częściowa automatyzacja, S-Bahn częściej i lepsza obsługa dzielnic zewnętrznych, i2030",
         "uk": "розширення U2, U3, U6, U7, U8, U9; U10 включити в планування; CBTC/часткова автоматизація, S‑Bahn частіше та краще обслуговування у віддалених районах, i2030"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird schneller",
+          "page": 72,
+          "quote": "Besonders an S- und U-Bahnhöfen wollen wir moderne Fahrradboxen und Sammelschließanlagen ausbauen. Dabei prüfen wir auch die Nutzung bislang ungenutzter Flächen, etwa geeigneter Bereiche an S-Bahnbögen."
+        }
+      ]
     },
     {
       "topicId": "new-u-bahn-construction-line-extensions",
@@ -1645,7 +1689,15 @@
         "tr": "mevcut bisiklet yollarını yenilemek, boşlukları kapatmak, bisiklet otoyolları geliştirmek; yeni bisiklet yolları yalnızca gerektiğinde; S/U-Bahn istasyonlarında bisiklet parkı",
         "pl": "remont istniejących ścieżek rowerowych, zamykanie luk, rozwój tras ekspresowych dla rowerów; nowe ścieżki tylko tam, gdzie potrzeba; parkingi rowerowe przy stacjach S/U-Bahn",
         "uk": "оновити існуючі велосипедні доріжки, закрити прогалини, розвинути велосипедні магістралі; нові велосипедні доріжки лише там, де це необхідно; паркування велосипедів на станціях S/U-Bahn"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird schneller",
+          "page": 71,
+          "quote": "Mit dem Rad durch die Stadt Das Berliner Radwegenetz werden wir gezielt verbessern und bedarfsgerecht ausbauen."
+        }
+      ]
     },
     {
       "topicId": "cycling-infrastructure",
@@ -1799,7 +1851,15 @@
         "tr": "kamusal alanda park yerlerini korumak; yönetimli ücretli parkı sadeleştirmek; uygun fiyatlı sakin parkı; mahalle otoparkları; dış ilçelerde P+R; Bike&Ride",
         "pl": "zachować miejsca parkingowe w przestrzeni publicznej; uprościć płatne strefy parkingowe; przystępne parkowanie dla mieszkańców; garaże osiedlowe; P+R w dzielnicach zewnętrznych; Bike&Ride",
         "uk": "зберегти місця для паркування в громадському просторі; спростити кероване платне паркування; доступна парковка для мешканців; сусідські гаражі; P+R у зовнішніх районах; Bike&Ride"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird schneller",
+          "page": 69,
+          "quote": "Parkplätze zur Verfügung stehen. Gegen Falschparker, die den fließenden Verkehr behindern, ist konsequent vorzugehen."
+        }
+      ]
     },
     {
       "topicId": "parking",
@@ -1965,7 +2025,21 @@
         "tr": "şarj altyapısını genişletmeye devam; güvenilir kamusal şarj noktaları; P+R/Bike&Ride hub’larında şarj noktaları; ağır taşıma, otobüs ve gemiler için tamamlayıcı hidrojen",
         "pl": "kontynuować rozbudowę infrastruktury ładowania; niezawodne publiczne punkty ładowania; punkty w hubach P+R/Bike&Ride; wodór jako uzupełnienie dla ciężkiego transportu, autobusów i statków",
         "uk": "продовжити розширення інфраструктури зарядки; надійні громадські зарядні пункти; пункти зарядки в центрах P+R/Bike&Ride; водень як доповнення до важкого транспорту, автобусів і кораблів"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird schneller",
+          "page": 74,
+          "quote": "Die Ladeinfrastruktur in Berlin werden wir weiter ausbauen und für ausreichend, verlässlich verfügbare Ladepunkte im öffentlichen Raum sorgen."
+        },
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird schneller",
+          "page": 74,
+          "quote": "Wir wollen Wasserstoff als sinnvolle Ergänzung zur Elektromobilität stärken – insbesondere dort, wo batterieelektrische Lösungen an ihre Grenzen stoßen, etwa im Schwerlast-, Bus- und Schiffsverkehr."
+        }
+      ]
     },
     {
       "topicId": "ev-charging",
@@ -2135,7 +2209,15 @@
         "tr": "alanın kenarlarında konut için — “20.000 yeni daire”",
         "pl": "za zabudową mieszkaniową wokół krawędzi pola — „20 000 nowych mieszkań”",
         "uk": "для житла по краях поля — «20 000 нових квартир»"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird größer",
+          "page": 36,
+          "quote": "Wir bekennen uns klar zur Randbebauung des Tempelhofer Feldes. Auf den Randflächen des Feldes sollen mehr als 20.000 neue Wohnungen für etwa 50.000 Menschen entstehen."
+        }
+      ]
     },
     {
       "topicId": "tempelhofer-feld-development-edge-development",
@@ -2295,7 +2377,15 @@
         "tr": "sokak ağacı sayısını 2040’a kadar 1 milyona çıkarmak; gerçekçi hedefler, ilçe katılımı ve güvenilir finansman",
         "pl": "zwiększyć liczbę drzew ulicznych do 1 miliona do 2040; realistyczne cele, udział dzielnic i niezawodne finansowanie",
         "uk": "збільшити кількість вуличних дерев до 1 млн до 2040 року; реалістичні цілі, участь округу та надійне фінансування"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird sauber",
+          "page": 80,
+          "quote": "Wir wollen den Bestand an Straßenbäumen deutlich erhöhen und bis zum Jahr 2040 auf eine Million Bäume steigern, um Berlin widerstandsfähiger gegen Hitze und Extremwetter zu machen."
+        }
+      ]
     },
     {
       "topicId": "large-scale-tree-planting-and-or-tree-care",
@@ -2455,13 +2545,27 @@
       "partyId": "cdu",
       "stance": "for",
       "summary": {
-        "en": "put in place Climate Adaptation Act; heat protection take into account in planning; more street trees; drinking water and fountains",
-        "de": "Klimaanpassungsgesetz umsetzen; Hitzeschutz in der Planung berücksichtigen; mehr Straßenbäume; Trinkwasser und Brunnen",
-        "ru": "выполнить Klimaanpassungsgesetz; Hitzeschutz учитывать в планировании; больше уличных деревьев; питьевая вода и фонтаны",
-        "tr": "İklim Uyum Yasası’nı uygulamak; planlamada aşırı sıcak korumasını dikkate almak; daha fazla sokak ağacı; içme suyu ve çeşmeler",
-        "pl": "wdrożyć ustawę o adaptacji do klimatu; uwzględniać ochronę przed upałem w planowaniu; więcej drzew ulicznych; woda pitna i fontanny",
-        "uk": "прийняти Закон про адаптацію до клімату; теплозахист врахувати при плануванні; більше вуличних дерев; питної води та фонтанів"
-      }
+        "en": "implement the existing Berlin Climate Adaptation Act approach in planning; more street trees (to 1 million by 2040); expand drinking fountains",
+        "de": "Ansatz des bestehenden Berliner Klimaanpassungsgesetzes praxisnah umsetzen; mehr Straßenbäume (bis 2040 eine Million); Trinkbrunnen ausbauen",
+        "ru": "практично реализовать подход действующего Berliner Klimaanpassungsgesetz в планировании; больше уличных деревьев (до 1 млн к 2040); расширить питьевые фонтанчики",
+        "tr": "mevcut Berlin iklim uyum yasası yaklaşımını planlamada uygulamak; daha fazla sokak ağacı (2040’a kadar 1 milyon); içme suyu çeşmelerini genişletmek",
+        "pl": "wdrożyć podejście obowiązującej berlińskiej ustawy o adaptacji klimatycznej w planowaniu; więcej drzew ulicznych (do 1 mln do 2040); rozbudować fontanny pitne",
+        "uk": "практично впровадити підхід чинної Berliner Klimaanpassungsgesetz у плануванні; більше вуличних дерев (до 1 млн до 2040); розширити питні фонтанчики"
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird sauber",
+          "page": 80,
+          "quote": "Den Ansatz des Berliner Klimaanpassungsgesetzes, Hitzeschutz und Klimaanpassung verbindlich in Planung und Stadtentwicklung mitzudenken, wollen wir praxisnah und effizient umsetzen."
+        },
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird sauber",
+          "page": 80,
+          "quote": "Wir wollen den Bestand an Straßenbäumen deutlich erhöhen und bis zum Jahr 2040 auf eine Million Bäume steigern, um Berlin widerstandsfähiger gegen Hitze und Extremwetter zu machen."
+        }
+      ]
     },
     {
       "topicId": "heat-protection",
@@ -2615,7 +2719,15 @@
         "tr": "merkezi olmayan yağmur suyu yönetimi, depolama ve daha az deşarj; yeşil çatılar/cepheler; temiz su kütleleri",
         "pl": "zdecentralizowane zarządzanie wodą deszczową, retencja i mniej zrzutów; zielone dachy/fasady; czyste zbiorniki wodne",
         "uk": "децентралізоване управління дощовою водою, зберігання та менша кількість скидів; зелені дахи/фасади; чисті водойми"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird sauber",
+          "page": 82,
+          "quote": "Unser Ziel ist es, Berlin konsequent zur Schwammstadt weiterzuentwickeln. Regenwasser soll künftig stärker aufgefangen, gespeichert und genutzt werden statt ungenutzt abzufließen."
+        }
+      ]
     },
     {
       "topicId": "sponge-city-rainwater-retention-unsealing-surfaces",
@@ -2763,13 +2875,27 @@
       "partyId": "cdu",
       "stance": "for",
       "summary": {
-        "en": "waste prevention, repair bonus, NochMall, redistribution of clothing, organic-waste bins, wood-waste recycling; more sorting and recycling BSR in Berlin",
-        "de": "Abfallvermeidung, Reparaturbonus, NochMall, Umverteilung von Kleidung, Biotonnen, Altholzrecycling; mehr Sortierung und Recycling der BSR in Berlin",
-        "ru": "предотвращение мусора, ремонтный бонус (ReparaturBONUS), NochMall, перераспределение одежды, био‑контейнеры, переработка древесных отходов; больше сортировки и переработки BSR в Berlin",
-        "tr": "atık önleme, onarım primi, NochMall, giysi yeniden dağıtımı, organik atık kutuları, odun atığı geri dönüşümü; Berlin’de BSR’de daha fazla ayırma ve geri dönüşüm",
-        "pl": "zapobieganie odpadom, bonus naprawczy, NochMall, redystrybucja odzieży, pojemniki na bioodpady, recykling odpadów drzewnych; więcej sortowania i recyklingu BSR w Berlinie",
-        "uk": "запобігання утворенню відходів, бонус за ремонт, NochMall, перерозподіл одягу, урни для органічних відходів, переробка деревних відходів; більше сортування та переробки BSR у Берліні"
-      }
+        "en": "prevention before recycling; expand reuse systems and cut unnecessary packaging; circular construction — no Reparaturbonus/NochMall/Biotonnen/Altholz package in the program",
+        "de": "Abfallvermeidung vor Recycling; Mehrwegsysteme ausbauen, unnötige Verpackungen vermeiden; Kreislaufwirtschaft im Bau — kein Reparaturbonus/NochMall/Biotonnen/Altholz-Paket im Programm",
+        "ru": "предотвращение отходов прежде переработки; расширять многоразовые системы, меньше ненужной упаковки; цикл в строительстве — без пакета Reparaturbonus/NochMall/Biotonnen/Altholz в программе",
+        "tr": "geri dönüşümden önce atık önleme; yeniden kullanım sistemlerini genişletmek, gereksiz ambalajı azaltmak; inşaatta döngüsellik — programda Reparaturbonus/NochMall/Biotonnen/Altholz paketi yok",
+        "pl": "zapobieganie odpadom przed recyclingiem; rozbudowa systemów wielokrotnego użytku, mniej zbędnych opakowań; gospodarka o obiegu zamkniętym w budownictwie — bez pakietu Reparaturbonus/NochMall/Biotonnen/Altholz w programie",
+        "uk": "запобігання відходам перед переробкою; розширювати багаторазові системи, менше зайвої упаковки; циклічність у будівництві — без пакету Reparaturbonus/NochMall/Biotonnen/Altholz у програмі"
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird sauber",
+          "page": 83,
+          "quote": "Deshalb setzen wir auf das klare Prinzip: Abfallvermeidung vor Recycling. Unser Ziel ist es, Müll gar nicht erst entstehen zu lassen und so Umweltbelastungen nachhaltig zu reduzieren."
+        },
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird sauber",
+          "page": 84,
+          "quote": "84 Regierungsprogramm 2026-2031seiner Vorbildfunktion gerecht werden, die Kreislaufwirtschaft im Bauwesen fördern und zugleich Impulse für mehr nachhaltiges Bauen im privaten Sektor setzen."
+        }
+      ]
     },
     {
       "topicId": "zero-waste-waste-prevention",
@@ -2947,7 +3073,15 @@
         "tr": "BSR park, oyun alanı ve ormanlarda temizliği genişletir; evden ücretli BSR iri atık toplama hizmeti; daha fazla ayrı konteyner",
         "pl": "BSR rozszerza sprzątanie parków, placów zabaw i lasów; płatna usługa BSR odbioru gabarytów z domu; więcej osobnych pojemników",
         "uk": "BSR розширює прибирання в парках, на дитячих майданчиках і в лісах; платна послуга BSR вивіз великогабаритного сміття з дому; більше окремих контейнерів"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird sauber",
+          "page": 78,
+          "quote": "Sperrmüll spürbar geahndet. Gleichzeitig haben wir gezielte Anreize für mehr Kontrollen und eine konsequente Verfolgung von Ordnungswidrigkeiten geschaffen, indem Bußgelder nun direkt an die Bezirke fließen."
+        }
+      ]
     },
     {
       "topicId": "bsr-waste-collection-and-infrastructure",
@@ -3101,13 +3235,27 @@
       "partyId": "cdu",
       "stance": "for",
       "summary": {
-        "en": "fines; +3000 bins by 2030; underground containers; AI/video surveillance against waste hotspots",
-        "de": "Bußgelder; +3000 Behälter bis 2030; Unterflurcontainer; KI-/Videoüberwachung gegen Abfall-Hotspots",
-        "ru": "штрафы; +3000 урн к 2030; ИИ/видеонаблюдение против мусорных hotspots",
-        "tr": "cezalar; 2030’a kadar +3000 çöp kutusu; yeraltı konteynerler; atık sıcak noktalarına karşı YZ/video gözetimi",
-        "pl": "mandaty; +3000 koszy do 2030; podziemne kontenery; monitoring AI/wideo przeciw hotspotom odpadów",
-        "uk": "штрафи; +3000 бункерів до 2030 року; підземні контейнери; AI/відеоспостереження за гарячими точками відходів"
-      }
+        "en": "fines; about 30,000 public bins by 2030; underground containers; mobile video/AI against waste hotspots",
+        "de": "Bußgelder; rund 30.000 Papierkörbe bis 2030; Unterflurbehälter; mobile Videoüberwachung/KI gegen Müll-Hotspots",
+        "ru": "штрафы; около 30 000 урн к 2030; подземные контейнеры; мобильное видео/ИИ против мусорных очагов",
+        "tr": "cezalar; 2030’a kadar yaklaşık 30.000 çöp kutusu; yeraltı konteynerler; atık hotspotlarına karşı mobil video/YZ",
+        "pl": "mandaty; ok. 30 000 koszy do 2030; kontenery podziemne; mobilny monitoring/AI przeciwko hotspotom śmieci",
+        "uk": "штрафи; близько 30 000 урн до 2030; підземні контейнери; мобільне відео/ШІ проти сміттєвих осередків"
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird sauber",
+          "page": 79,
+          "quote": "Bis 2030 wollen wir die Zahl der Papierkörbe in Berlin auf rund 30.000 steigen. Bei Neubau- und Sanierungsprojekten des Landes soll die Installation von Unterflurbehältern geprüft werden, um Müllansammlungen, Lärm- sowie Geruchsbelästigung zukünftig zu vermeiden."
+        },
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird sauber",
+          "page": 78,
+          "quote": "Mit einem verschärften Bußgeldkatalog haben wir klare Maßstäbe gesetzt: Illegale Müllentsorgung ist kein Kavaliersdelikt und wird vom weggeworfenen Zigarettenstummel bis zum abgestellten Sperrmüll spürbar geahndet."
+        }
+      ]
     },
     {
       "topicId": "cleanliness-enforcement-litter",
@@ -3267,7 +3415,21 @@
         "tr": "Berlin zaten güneş lideri; büyük ve kamusal çatılarda, belediye konut şirketlerinde PV geliştirmek; zorunlu güneş paneli kurulumuna karşı, Berlin Solar Yasası’nı yürürlükten kaldırmak",
         "pl": "Berlin już jest liderem solarnym; rozwijać PV na dużych i publicznych dachach, u miejskich spółek mieszkaniowych; przeciw obowiązkowi instalacji paneli, uchylić berlińską ustawę solarną",
         "uk": "Берлін вже є сонячним лідером; розробити PV на великих і громадських дахах, на муніципальних житлових підприємствах; проти обов’язкового встановлення сонячних панелей, скасування Берлінського акту про сонячну енергію"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird sauber",
+          "page": 81,
+          "quote": "Photovoltaik ist heute eine ausgereifte und wirtschaftliche Technologie, deren Potenziale wir auch in Berlin konsequent nutzen wollen – insbesondere auf großen und öffentlichen Dächern sowie bei öffentlichen Gebäuden und landeseigenen Wohnungsbaugesellschaften."
+        },
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird sauber",
+          "page": 81,
+          "quote": "Eine Solarpflicht lehnen wir jedoch ab. Das Berliner Solargesetz wollen wir abschaffen, da entsprechende Vorgaben bereits durch die Umsetzung der EU-Gebäudeenergie-Richtlinie geregelt werden."
+        }
+      ]
     },
     {
       "topicId": "solar-energy-photovoltaics",
@@ -3421,7 +3583,15 @@
         "tr": "Berlin’de büyük rüzgâr türbinlerine karşı, özellikle orman ve rekreasyon alanlarında; federal düzeyde kent-eyaletleri için alan gereksinimlerini reform etmek",
         "pl": "przeciw dużym turbinom wiatrowym w Berlinie, zwłaszcza w lasach i terenach rekreacyjnych; na poziomie federalnym reforma wymogów powierzchniowych dla miast-krajów",
         "uk": "проти великих вітрових турбін у Берліні, особливо в лісах і зонах відпочинку; на федеральному рівні вимоги до районів реформ для міст-держав"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird sauber",
+          "page": 81,
+          "quote": "Den Bau großtechnischer Windenergieanlagen im Berliner Stadtgebiet, insbesondere in Wäldern und Erholungsräumen, lehnen wir ab."
+        }
+      ]
     },
     {
       "topicId": "wind-energy",
@@ -3579,7 +3749,15 @@
         "tr": "gaz ve gaz şebekesi güvenilir ve uygun maliyetli ısı için önemli kalır; gaz şebekesinin kapatılmasına karşı; gaz, merkezi ısıtma ve ısı pompaları arasında rekabet",
         "pl": "gaz i sieć gazowa pozostają ważne dla niezawodnego i przystępnego ciepła; przeciw wyłączaniu sieci gazowej; konkurencja między gazem, ciepłem sieciowym i pompami ciepła",
         "uk": "газ і газова мережа залишаються важливими для надійного та доступного тепла; проти відключення газової мережі; конкуренція між газом, централізованим опаленням і тепловими насосами"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird größer",
+          "page": 32,
+          "quote": "Klar ist für uns aber auch: Eine Stilllegung des Gasnetzes kommt für uns aus Gründen der Versorgungssicherheit nicht infrage."
+        }
+      ]
     },
     {
       "topicId": "gas-gas-network",
@@ -3739,7 +3917,15 @@
         "tr": "sanayi ve santraller için hidrojen; araştırma kümesi; ulaşım aksları, lojistik merkezleri ve sanayi bölgelerinde altyapı; hidrojen bölgesel trenleri",
         "pl": "wodór dla przemysłu i elektrowni; klaster badawczy; infrastruktura wzdłuż osi transportowych, centrów logistycznych i stref przemysłowych; regionalne pociągi wodorowe",
         "uk": "водень для промисловості та електростанцій; дослідницький кластер; інфраструктура вздовж транспортних осей, логістичні центри та промислові зони; водневі регіональні поїзди"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird schneller",
+          "page": 74,
+          "quote": "Wir wollen Wasserstoff als sinnvolle Ergänzung zur Elektromobilität stärken – insbesondere dort, wo batterieelektrische Lösungen an ihre Grenzen stoßen, etwa im Schwerlast-, Bus- und Schiffsverkehr."
+        }
+      ]
     },
     {
       "topicId": "hydrogen",
@@ -3899,7 +4085,15 @@
         "tr": "ısı pompaları enerji sistemleri rekabetinin parçası; mantıklı ve ekonomik olduğu yerde kullanmak; sığ ve derin jeotermal enerji",
         "pl": "pompy ciepła jako część konkurencji systemów energetycznych; stosować tam, gdzie ma sens i jest opłacalne; płytka i głęboka geotermia",
         "uk": "теплові насоси як частина конкуренції між енергосистемами; використовувати там, де це розумно та економно; мілка і глибока геотермальна енергія"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird sauber",
+          "page": 81,
+          "quote": "Technologien wie Photovoltaik, Windkraft oder Wärmepumpen sind vielerorts bereits wirtschaftlich und sollen sich vor allem durch Innovation und Wettbewerb durchsetzen können."
+        }
+      ]
     },
     {
       "topicId": "heat-pumps",
@@ -4063,13 +4257,27 @@
       "partyId": "cdu",
       "stance": "for",
       "summary": {
-        "en": "decarbonization of district heating; climate pact more than €0.5 billion for district heating and the electricity grid; municipal heating planning, but security of supply and affordability — main criterion",
-        "de": "Dekarbonisierung der Fernwärme; Klimapakt über 0,5 Mrd. € für Fernwärme und Stromnetz; kommunale Wärmeplanung, aber Versorgungssicherheit und Bezahlbarkeit — Hauptkriterium",
-        "ru": "декарбонизация централизованное теплоснабжение; Klimapakt более 0,5 млрд € на централизованное теплоснабжение и Stromnetz; коммунальная планирование теплоснабжения, но надежность снабжения и доступность — главный критерий",
-        "tr": "merkezi ısıtmanın karbonsuzlaştırılması; iklim paktında merkezi ısıtma ve elektrik şebekesi için 0,5 milyar €'dan fazla; belediye ısıtma planlaması, ancak arz güvenliği ve uygun fiyat — ana ölçüt",
-        "pl": "dekarbonizacja ciepłownictwa sieciowego; pakt klimatyczny ponad 0,5 mld € na ciepłownictwo i sieć elektroenergetyczną; komunalne planowanie ciepłownicze, ale bezpieczeństwo dostaw i dostępność cenowa — główne kryterium",
-        "uk": "декарбонізація централізованого теплопостачання; кліматичний пакт понад 0,5 мільярда євро для централізованого опалення та електромережі; планування муніципального теплопостачання, але надійність постачання та доступність — головний критерій"
-      }
+        "en": "Klimapakt: more than €0.5bn for Fernwärme decarbonization and separately about €0.5bn to reinforce the electricity grid; municipal heat planning with security of supply and affordability",
+        "de": "Klimapakt: mehr als 0,5 Mrd. € für Fernwärme-Dekarbonisierung und gesondert rund 0,5 Mrd. € für die Ertüchtigung des Stromnetzes; kommunale Wärmeplanung mit Versorgungssicherheit und Bezahlbarkeit",
+        "ru": "Klimapakt: более 0,5 млрд € на декарбонизацию Fernwärme и отдельно около 0,5 млрд € на усиление электросети; муниципальное теплопланирование с надёжностью и доступностью",
+        "tr": "Klimapakt: Fernwärme dekarbonizasyonu için 0,5 Mrd. €’dan fazla ve ayrıca elektrik şebekesini güçlendirmek için yaklaşık 0,5 Mrd. €; arz güvenliği ve karşılanabilirlikle yerel ısı planlaması",
+        "pl": "Klimapakt: ponad 0,5 mld € na dekarbonizację ciepła sieciowego i osobno ok. 0,5 mld € na wzmocnienie sieci elektroenergetycznej; lokalne planowanie ciepła z bezpieczeństwem dostaw i dostępnością",
+        "uk": "Klimapakt: понад 0,5 млрд € на декарбонізацію Fernwärme і окремо близько 0,5 млрд € на посилення електромережі; муніципальне теплопланування з надійністю постачання та доступністю"
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird größer",
+          "page": 32,
+          "quote": "Dazu gehören insbesondere der Ausbau und die Dekarbonisierung der Fernwärme. Mit dem Ankauf der Berliner Fernwärme haben wir die Grundlage dafür geschaffen, die Wärmeversorgung langfristig sicher und klimafreundlich weiterzuentwickeln."
+        },
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird größer",
+          "page": 32,
+          "quote": "Mit dem Klimapakt stellt der Senat bereits rund eine halbe Milliarde Euro für die Ertüchtigung und Erweiterung des Stromnetzes bereit."
+        }
+      ]
     },
     {
       "topicId": "heating-supply-networks-decarbonization-and-or-transformation",
@@ -4215,15 +4423,21 @@
     {
       "topicId": "nuclear-energy",
       "partyId": "cdu",
-      "stance": "for",
+      "stance": "none",
       "summary": {
-        "en": "for returning to nuclear energy; Berlin as a center of nuclear research",
-        "de": "für die Rückkehr zur Kernenergie; Berlin als Zentrum der Nuklearforschung",
-        "ru": "за возвращение ядерной энергетики; Берлин как центр ядерных исследований",
-        "tr": "nükleer enerjiye dönüşten yana; Berlin nükleer araştırma merkezi olarak",
-        "pl": "za powrotem do energii jądrowej; Berlin jako centrum badań jądrowych",
-        "uk": "за повернення до атомної енергетики; Берлін як центр ядерних досліджень"
-      }
+        "en": "nuclear energy is not addressed in the Berlin Regierungsprogramm",
+        "de": "Kernenergie wird im Berliner Regierungsprogramm nicht thematisiert",
+        "ru": "атомная энергия в берлинской правительственной программе не рассматривается",
+        "tr": "Berlin hükümet programında nükleer enerji ele alınmıyor",
+        "pl": "energia jądrowa nie jest poruszona w berlińskim programie rządowym",
+        "uk": "ядерна енергія в берлінській урядовій програмі не розглядається"
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "note": "kein Treffer zu Kernenergie / Atomkraft / Nuklearforschung"
+        }
+      ]
     },
     {
       "topicId": "nuclear-energy",
@@ -4371,7 +4585,15 @@
         "tr": "kamusal alanlarda evcil hayvan satışını yasaklamak; çevrimiçi platformların daha sıkı denetimi",
         "pl": "zakaz sprzedaży zwierząt domowych w miejscach publicznych; silniejsza kontrola platform internetowych",
         "uk": "заборонити продаж домашніх тварин у громадських місцях; посилення контролю над онлайн-платформами"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird sauber",
+          "page": 83,
+          "quote": "Wir wollen die bestehenden Regelungen zur Hundehaltung in Berlin grundlegend weiterentwickeln. Die bisherige Einteilung nach Hunderassen wird den tatsächlichen Anforderungen nicht gerecht und führt zu pauschalen Bewertungen, die weder dem Tierschutz noch der Sicherheit dienen."
+        }
+      ]
     },
     {
       "topicId": "animal-protection",
@@ -4537,7 +4759,15 @@
         "tr": "Mietendeckel'e kesin “hayır”; bunun yerine Mietpreisprüfstelle ve ücretsiz enerji danışmanlığı",
         "pl": "stanowcze „nie” wobec Mietendeckel; zamiast tego Mietpreisprüfstelle i bezpłatne doradztwo energetyczne",
         "uk": "тверде «ні» Мітендекелю; натомість Mietpreisprüfstelle та поради щодо безкоштовної енергії"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird größer",
+          "page": 30,
+          "quote": "Populistischen Forderungen nach Enteignungen oder der Einführung eines Mietendeckels erteilen wir eine klare Absage."
+        }
+      ]
     },
     {
       "topicId": "housing-rent-regulation-mietendeckel",
@@ -4691,7 +4921,15 @@
         "tr": "Berliner Wohnoffensive: 2031'e kadar 100.000 daire, standart “Berliner Mehrfamilienhaus,” çevre, biyoçeşitlilik ve anıt koruma standartlarını “gerekli asgariye” indirmek",
         "pl": "Berliner Wohnoffensive: 100 000 mieszkań do 2031, ujednolicony „Berliner Mehrfamilienhaus,” obniżyć normy środowiskowe, bioróżnorodności i ochrony zabytków „do niezbędnego minimum”",
         "uk": "Berliner Wohnoffensive: 100 000 квартир до 2031 року, стандартизований «Berliner Mehrfamilienhaus», знизити стандарти захисту навколишнього середовища, біорізноманіття та спадщини «до необхідного мінімуму»"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird größer",
+          "page": 34,
+          "quote": "Mit einer neuen Berliner Wohnoffensive wollen wir bis zum Jahr 2031 insgesamt 100.000 neue Wohnungen schaffen."
+        }
+      ]
     },
     {
       "topicId": "housing-new-construction-and-targets",
@@ -4851,7 +5089,15 @@
         "tr": "kamulaştırmalara ve Zwangsverwaltung'a kategorik karşı",
         "pl": "kategorycznie przeciw wywłaszczeniom i Zwangsverwaltung",
         "uk": "категорично проти експропріацій і Zwangsverwaltung"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird größer",
+          "page": 30,
+          "quote": "Populistischen Forderungen nach Enteignungen oder der Einführung eines Mietendeckels erteilen wir eine klare Absage."
+        }
+      ]
     },
     {
       "topicId": "housing-socialization-of-large-landlords",
@@ -4999,13 +5245,21 @@
       "partyId": "cdu",
       "stance": "mixed",
       "summary": {
-        "en": "80,000 apartments by the end of 2026, including approximately 7,000 municipal units; 5,175 new social-housing units, capital for municipal companies, faster and digital WBS and Wohngeld",
-        "de": "80,000 Wohnungen bis Ende 2026, darunter ungefähr 7,000 kommunale Einheiten; 5,175 neue Sozialwohnungen, Kapital für kommunale Unternehmen, schnellere und digitale Bearbeitung von WBS und Wohngeld",
-        "ru": "80 000 квартир к концу 2026 (из них ~7 000 коммунальных), 5 175 новых соцквартир, капитал для городских компаний, WBS и Wohngeld быстрее и цифровые",
-        "tr": "2026 sonuna kadar 80.000 daire, yaklaşık 7.000 belediye birimi dahil; 5.175 yeni sosyal konut, belediye şirketlerine sermaye, daha hızlı ve dijital WBS ile Wohngeld",
-        "pl": "80 000 mieszkań do końca 2026, w tym ok. 7000 mieszkań komunalnych; 5175 nowych mieszkań socjalnych, kapitał dla spółek komunalnych, szybsze i cyfrowe WBS oraz Wohngeld",
-        "uk": "80 000 квартир до кінця 2026 року, включаючи приблизно 7 000 муніципальних одиниць; 5175 нових одиниць соціального житла, капітал для муніципальних компаній, швидший і цифровий WBS і Wohngeld"
-      }
+        "en": "expand municipal housing stock to 500,000 with equity injections; digital WBS/housing-benefit applications; near-term build figures are secondary to this forward goal",
+        "de": "kommunalen Wohnungsbestand auf 500.000 ausbauen, mit Eigenkapitalzuführungen; digitale WBS-/Wohngeldanträge; kurzfristige Bauzahlen sind dem Ziel nachgeordnet",
+        "ru": "расширить муниципальный фонд до 500 000 с вливаниями капитала; цифровые заявки WBS/Wohngeld; краткосрочные цифры строительства вторичны",
+        "tr": "belediye konut stokunu sermaye enjeksiyonlarıyla 500.000’e çıkarmak; dijital WBS/konut yardımı başvuruları; kısa vadeli inşaat rakamları bu hedefe ikincil",
+        "pl": "rozbudować zasób komunalny do 500 000 z dokapitalizowaniem; cyfrowe wnioski WBS/dodatek mieszkaniowy; krótkoterminowe liczby budów są wtórne wobec tego celu",
+        "uk": "розширити муніципальний фонд до 500 000 із вливаннями капіталу; цифрові заявки WBS/житлової допомоги; короткострокові цифри будівництва вторинні"
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird größer",
+          "page": 35,
+          "quote": "Unser Ziel ist es, ihren Bestand auf 500.000 Wohnungen auszubauen und damit den Anteil gemeinwohlorientierten Wohnraums deutlich zu erhöhen."
+        }
+      ]
     },
     {
       "topicId": "housing-municipal-stock-social-housing-wbs",
@@ -5159,13 +5413,27 @@
       "partyId": "cdu",
       "stance": "mixed",
       "summary": {
-        "en": "shift Grundsteuer toward undeveloped plots",
-        "de": "Grundsteuer stärker auf unbebaute Grundstücke verlagern",
-        "ru": "Grundsteuer сдвинуть в сторону незастроенных участков",
-        "tr": "Grundsteuer'i gelişmemiş arsalara kaydırmak",
-        "pl": "przesunąć Grundsteuer w stronę niezabudowanych działek",
-        "uk": "зрушити Grundsteuer у бік незабудованих ділянок"
-      }
+        "en": "strengthen enforcement against misuse of housing (Zweckentfremdung); Grundsteuer C on build-ready vacant plots",
+        "de": "Einsatz gegen Zweckentfremdung von Wohnraum stärken; Grundsteuer C auf baureife unbebaute Grundstücke",
+        "ru": "усилить борьбу с нецелевым использованием жилья (Zweckentfremdung); Grundsteuer C на готовые к застройке пустующие участки",
+        "tr": "konutun amacı dışında kullanımına (Zweckentfremdung) karşı uygulamayı güçlendirmek; imara hazır boş arsalarda Grundsteuer C",
+        "pl": "wzmocnić egzekwowanie przeciwko niewłaściwemu wykorzystaniu mieszkań (Zweckentfremdung); Grundsteuer C na działki budowlane",
+        "uk": "посилити боротьбу з нецільовим використанням житла (Zweckentfremdung); Grundsteuer C на готові до забудови ділянки"
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird größer",
+          "page": 30,
+          "quote": "In Berlin verfügen wir mit Mietpreisbremse, Umwandlungsverordnung und Zweckentfremdungsverbot, der Kündigungsschutzklausel-Verordnung und der digitalen Beantragung des WBS bereits über wirksame Instrumente, um Mieterinnen und Mieter zu schützen."
+        },
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird größer",
+          "page": 35,
+          "quote": "Grundsteuer C aus, mit der nur baureife Grundstücke besonders hoch belastet werden. Modelle zur Umgehung der Grunderwerbsteuer sowie zur Verschleierung von Gewinnen werden wir wirksam unterbinden."
+        }
+      ]
     },
     {
       "topicId": "housing-vacancy-tourist-apartments-speculation",
@@ -5319,13 +5587,27 @@
       "partyId": "cdu",
       "stance": "mixed",
       "summary": {
-        "en": "Purchase of rented housing with city support, exemption from real estate transfer tax on the first purchase for owner-occupation; against a permanent ban on privatization; against increasing real estate transfer tax and in favor of reducing it significantly",
-        "de": "Erwerb der eigenen Mietwohnung mit Unterstützung des Landes, Befreiung von der Grunderwerbsteuer beim erstmaligen Kauf zur Selbstnutzung; gegen ein dauerhaftes Privatisierungsverbot; gegen eine Erhöhung der Grunderwerbsteuer und für deren deutliche Senkung",
-        "ru": "Выкуп арендуемого жилья с поддержкой города, освобождение от налога на покупку недвижимости при первой покупке для себя; против постоянного запрета приватизации; против повышения налога на покупку недвижимости и за его заметное снижение",
-        "tr": "kent desteğiyle kiralık konut satın alma, oturum amaçlı ilk alımda gayrimenkul transfer vergisinden muafiyet; kalıcı özelleştirme yasağına karşı; gayrimenkul transfer vergisi artışına karşı ve belirgin indirimden yana",
-        "pl": "zakup mieszkań na wynajem ze wsparciem miasta, zwolnienie z podatku od nabycia nieruchomości przy pierwszym zakupie na własne cele mieszkaniowe; przeciw stałemu zakazowi prywatyzacji; przeciw podnoszeniu podatku od nabycia nieruchomości i za jego znacznym obniżeniem",
-        "uk": "Придбання орендованого житла за кошти міської підтримки, звільнення від податку на передачу нерухомого майна при першому придбанні для проживання у власність; проти постійної заборони приватизації; проти підвищення податку на передачу нерухомого майна та за його значне зниження"
-      }
+        "en": "partial first-home Grunderwerbsteuer relief (waiver on up to €300k of price for purchases ≤ €800k, clawback within 10 years); Mietkauf/Eigentumsbonus; keep Umwandlungsverordnung as tenant protection; reject a permanent privatization ban",
+        "de": "teilweiser Erlass der Grunderwerbsteuer beim Ersterwerb zur Selbstnutzung (bis 300.000 € Kaufpreisanteil bei Käufen bis 800.000 €, Rückforderung bei Verkauf binnen 10 Jahren); Mietkauf/Eigentumsbonus; Umwandlungsverordnung als Mieterschutz; gegen dauerhaftes Privatisierungsverbot",
+        "ru": "частичная льгота по Grunderwerbsteuer при первой покупке для собственного жилья (до 300 000 € цены при сделках ≤ 800 000 €, возврат при продаже в течение 10 лет); Mietkauf/Eigentumsbonus; сохранить Umwandlungsverordnung; против постоянного запрета приватизации",
+        "tr": "ilk kez kendi kullanımına konut alımında kısmi Grunderwerbsteuer indirimi (≤800.000 € alımlarda fiyattan 300.000 €’ye kadar muafiyet, 10 yıl içinde satışta geri alma); Mietkauf/Eigentumsbonus; kiracı koruması olarak Umwandlungsverordnung; kalıcı özelleştirme yasağına karşı",
+        "pl": "częściowa ulga w Grunderwerbsteuer przy pierwszym zakupie na własne potrzeby (umorzenie do 300 000 € ceny przy zakupach ≤ 800 000 €, zwrot przy sprzedaży w ciągu 10 lat); Mietkauf/Eigentumsbonus; utrzymać Umwandlungsverordnung; przeciw trwałemu zakazowi prywatyzacji",
+        "uk": "часткова пільга з Grunderwerbsteuer при першій купівлі для власного проживання (до 300 000 € ціни при угодах ≤ 800 000 €, повернення при продажу протягом 10 років); Mietkauf/Eigentumsbonus; зберегти Umwandlungsverordnung; проти постійної заборони приватизації"
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird größer",
+          "page": 33,
+          "quote": "Wir setzen uns dafür ein, die Grunderwerbsteuer beim erstmaligen Erwerb von selbstgenutztem Wohneigentum deutlich zu reduzieren."
+        },
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird größer",
+          "page": 32,
+          "quote": "Wir wollen einen Berliner Eigentumsbonus für den erstmaligen Erwerb von selbstgenutztem Wohneigentum einführen: 10.000 Euro pro Erwachsenen, 5.000 Euro pro Kind."
+        }
+      ]
     },
     {
       "topicId": "housing-ownership-conversion-of-rental-apartments-into-condominiums-evic",
@@ -5477,13 +5759,21 @@
       "partyId": "cdu",
       "stance": "for",
       "summary": {
-        "en": "exempt the first purchase of a home for owner-occupation from real estate transfer tax; additionally, purchase of rented housing with city support",
-        "de": "Erstmaligen Kauf einer selbst genutzten Wohnung von der Grunderwerbsteuer befreien; zusätzlich Erwerb der eigenen Mietwohnung mit Unterstützung des Landes",
-        "ru": "освободить от налога на покупку недвижимости при первой покупке жилья для собственного проживания; дополнительно — выкуп арендуемого жилья с поддержкой города",
-        "tr": "oturum amaçlı ilk ev alımını gayrimenkul transfer vergisinden muaf tutmak; ayrıca kent desteğiyle kiralık konut satın alma",
-        "pl": "zwolnić pierwszy zakup mieszkania na własne cele z podatku od nabycia nieruchomości; dodatkowo zakup mieszkań na wynajem ze wsparciem miasta",
-        "uk": "звільнити перше придбання будинку для проживання у власність від податку на передачу нерухомості; додатково придбання орендованого житла за міську підтримку"
-      }
+        "en": "reduce/waive Grunderwerbsteuer on the first owner-occupied purchase for up to €300k of the price when the purchase is ≤ €800k; clawback if sold within 10 years — not a blanket full exemption",
+        "de": "Grunderwerbsteuer beim erstmaligen Erwerb selbstgenutzten Wohneigentums deutlich reduzieren bzw. bis zu einem Kaufpreisanteil von 300.000 € bei Käufen bis 800.000 € erlassen; Rückforderung bei Verkauf innerhalb von zehn Jahren — kein pauschaler Kompletterlass",
+        "ru": "снизить/освободить Grunderwerbsteuer при первой покупке жилья для себя до доли цены 300 000 € при сделке ≤ 800 000 €; возврат при продаже в течение 10 лет — не полное освобождение для всех",
+        "tr": "ilk kez kendi kullanımına konut alımında Grunderwerbsteuer’i ≤800.000 € alımlarda fiyattan 300.000 €’ye kadar indirmek/muaf tutmak; 10 yıl içinde satışta geri alma — genel tam muafiyet değil",
+        "pl": "obniżyć/umorzyć Grunderwerbsteuer przy pierwszym zakupie na własne potrzeby do 300 000 € ceny przy zakupie ≤ 800 000 €; zwrot przy sprzedaży w ciągu 10 lat — nie pełne zwolnienie dla wszystkich",
+        "uk": "знизити/скасувати Grunderwerbsteuer при першій купівлі для власного проживання до 300 000 € ціни при угоді ≤ 800 000 €; повернення при продажу протягом 10 років — не повне звільнення для всіх"
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird größer",
+          "page": 33,
+          "quote": "Wir setzen uns dafür ein, die Grunderwerbsteuer beim erstmaligen Erwerb von selbstgenutztem Wohneigentum deutlich zu reduzieren."
+        }
+      ]
     },
     {
       "topicId": "housing-tax-on-the-first-property-purchase",
@@ -5635,13 +5925,21 @@
       "partyId": "cdu",
       "stance": "mixed",
       "summary": {
-        "en": "a single social-support platform; the program supports assistance for homeless people and people with addictions, psychiatric care, and assistance for people with disabilities or limitations on participation in society, with separate proposals for women experiencing homelessness and consideration of psychiatric conditions and addictions in shelters; no dedicated plan to end homelessness",
-        "de": "Eine zentrale Plattform für soziale Unterstützung; das Programm befürwortet Hilfen für obdachlose und suchtkranke Menschen, psychiatrische Versorgung und Unterstützung für Menschen mit Behinderungen oder eingeschränkter gesellschaftlicher Teilhabe, mit eigenen Vorschlägen für obdachlose Frauen und der Berücksichtigung psychischer Erkrankungen und Suchterkrankungen in Unterkünften; kein eigener Plan zur Beendigung der Obdachlosigkeit",
-        "ru": "единая платформа социальной помощи; в программе есть поддержка помощи бездомным и зависимым, психиатрической помощи и помощи людям с инвалидностью или ограничениями участия в жизни общества, отдельные предложения для женщин в бездомности и учёт психиатрических и наркозависимостей в приютах; собственного плана преодоления бездомности нет",
-        "tr": "tek bir sosyal destek platformu; program evsizler ve bağımlılığı olanlara yardım, psikiyatrik bakım ile engelli veya toplumsal katılıma kısıtı olanlara yardıma destek verir, evsiz kadınlar için ayrı öneriler ve barınaklarda psikiyatrik durumlar ile bağımlılıkların dikkate alınmasıyla; evsizliği bitirmeye özel plan yok",
-        "pl": "jedna platforma wsparcia społecznego; program wspiera pomoc dla osób bezdomnych i uzależnionych, opiekę psychiatryczną oraz pomoc dla osób z niepełnosprawnościami lub ograniczeniami uczestnictwa w społeczeństwie, z osobnymi propozycjami dla kobiet w bezdomności oraz uwzględnieniem schorzeń psychiatrycznych i uzależnień w schroniskach; bez dedykowanego planu zakończenia bezdomności",
-        "uk": "єдина платформа соціальної підтримки; програма підтримує допомогу бездомним людям і людям із залежностями, психіатричну допомогу та допомогу людям з обмеженими можливостями чи обмеженнями участі в житті суспільства, з окремими пропозиціями для жінок, які переживають бездомність, і розглядом психіатричних станів і залежностей у притулках; немає спеціального плану подолання бездомності"
-      }
+        "en": "dedicated homelessness section: Housing First as one approach; Haus der Hilfe; Safe Places as a Land program; women-specific offers and medical care for uninsured homeless people",
+        "de": "eigenes Kapitel Wohnungslosigkeit: Housing First als Ansatz; Haus der Hilfe; Safe Places als Landesprogramm; frauenspezifische Angebote und medizinische Versorgung für unversicherte Obdachlose",
+        "ru": "отдельный раздел о бездомности: Housing First как подход; Haus der Hilfe; Safe Places как программа земли; женские предложения и медпомощь для бездомных без страховки",
+        "tr": "ayrı evsizlik bölümü: Housing First bir yaklaşım; Haus der Hilfe; Safe Places eyalet programı; kadınlara özel teklifler ve sigortasız evsizlere tıbbi bakım",
+        "pl": "osobny rozdział o bezdomności: Housing First jako podejście; Haus der Hilfe; Safe Places jako program landowy; oferty dla kobiet i opieka medyczna dla nieubezpieczonych osób bezdomnych",
+        "uk": "окремий розділ про бездомність: Housing First як підхід; Haus der Hilfe; Safe Places як програма землі; пропозиції для жінок і меддопомога для бездомних без страховки"
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird gerecht",
+          "page": 103,
+          "quote": "Unser Ziel ist es, Wohnungslosigkeit wirksam zu bekämpfen, Hilfen frühzeitig anzusetzen und bestehende Hilfestrukturen bedarfsgerecht weiterzuentwickeln."
+        }
+      ]
     },
     {
       "topicId": "housing-evictions-and-homelessness",
@@ -5807,7 +6105,15 @@
         "tr": "“yüksek suç bölgeleri” listesini genişletmek, toplu taşımada güvenlik, “schlagkräftige Justiz”",
         "pl": "rozszerzyć listę „miejsc o wysokiej przestępczości,” bezpieczeństwo w transporcie publicznym, „schlagkräftige Justiz”",
         "uk": "Розширити список «місць з високим рівнем злочинності», «охорона громадського транспорту», ​​«schlagkräftige Justiz»"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird sicher",
+          "page": 6,
+          "quote": "Für ein sicheres Berlin braucht es klare Regeln und eine Polizei, die handeln kann. Mit dem neuen Polizeigesetz haben wir genau das möglich gemacht: klare Befugnisse und moderne Technik für den täglichen Dienst, Bodycams und Taser für mehr Schutz im Einsatz."
+        }
+      ]
     },
     {
       "topicId": "security-police-in-neighborhoods",
@@ -5961,13 +6267,21 @@
       "partyId": "cdu",
       "stance": "for",
       "summary": {
-        "en": "expand video surveillance, including mobile and AI-assisted surveillance",
-        "de": "Videoüberwachung ausweiten, einschließlich mobiler und KI-gestützter Überwachung",
-        "ru": "расширить видеонаблюдение, включая мобильное и с ИИ",
-        "tr": "video gözetimini genişletmek, mobil ve yapay zekâ destekli gözetim dahil",
-        "pl": "rozszerzyć monitoring wideo, w tym mobilny i wspomagany AI",
-        "uk": "розширити відеоспостереження, включаючи мобільне спостереження та спостереження за допомогою ШІ"
-      }
+        "en": "expand intelligent video surveillance at crime hotspots and in public transport; biometrics not found; mobile video/AI mainly cited for waste hotspots elsewhere",
+        "de": "intelligente Videoüberwachung an Kriminalitätsschwerpunkten und im ÖPNV ausweiten; Biometrie nicht gefunden; mobile Video/KI vor allem bei Müll-Hotspots",
+        "ru": "расширить интеллектуальное видеонаблюдение в очагах преступности и в ÖPNV; биометрия не найдена; мобильное видео/ИИ в основном для мусорных очагов",
+        "tr": "suç hotspotlarında ve toplu taşımada akıllı video gözetimini genişletmek; biyometri bulunamadı; mobil video/YZ esas olarak atık hotspotlarında",
+        "pl": "rozszerzyć inteligentny monitoring w hotspotach przestępczości i w komunikacji; biometria nieznaleziona; mobilny monitoring/AI głównie przy hotspotach śmieci",
+        "uk": "розширити інтелектуальне відеоспостереження в осередках злочинності та в ÖPNV; біометрію не знайдено; мобільне відео/ШІ здебільшого для сміттєвих осередків"
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird sicher",
+          "page": 6,
+          "quote": "Genau hinschauen, was passiert, um Kriminelle dingfest zu machen: An bekannten Kriminalitätsschwerpunkten kommen nun verstärkt Videoüberwachung und Waffen- und Messerverbotszonen zum Einsatz."
+        }
+      ]
     },
     {
       "topicId": "security-video-surveillance-and-biometrics",
@@ -6125,7 +6439,15 @@
         "tr": "somut şüphe olmadan kişileri kontrol etmek",
         "pl": "kontrole osób bez konkretnego podejrzenia",
         "uk": "перевірки осіб без конкретної підозри"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird sicher",
+          "page": 8,
+          "quote": "Neben der konsequenten Nutzung der neuen Befugnisse der Polizei zur Kontrolle öffentlicher Räume durch Videoüberwachung muss die Polizei auch verdachtsunabhängig Personenkontrollen durchführen können."
+        }
+      ]
     },
     {
       "topicId": "security-suspicionless-checks-and-controversial-powers",
@@ -6287,7 +6609,15 @@
         "tr": "Anayasa Koruma Dairesi'ni organize suçla mücadeleye dahil etmek; uyuşturucu ticareti ve organize suç için anonim elektronik ihbar sistemi, dijital uyuşturucu ticaretine karşı özel birimler (örneğin SkyECC), güçlendirilmiş adli tıp ve savcılık hizmetleri ile vergi suçlarında daha sert yaklaşım",
         "pl": "Włączenie Urzędu Ochrony Konstytucji w zwalczanie przestępczości zorganizowanej; anonimowy elektroniczny system zgłoszeń dotyczący handlu narkotykami i przestępczości zorganizowanej, specjalne jednostki przeciw cyfrowemu handlowi narkotykami (np. SkyECC), silniejsza kryminalistyka i prokuratura oraz zdecydowane działania wobec przestępstw podatkowych",
         "uk": "Залучити Управління з питань захисту Конституції до боротьби з організованою злочинністю; анонімну електронну систему повідомлень про незаконний обіг наркотиків та організовану злочинність, спеціальні підрозділи по боротьбі з цифровим обігом наркотиків (наприклад, SkyECC), посилення судової експертизи та прокуратури, і жорсткіші дії щодо податкових злочинів"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird knallhart",
+          "page": 19,
+          "quote": "Wir werden die Vermögensabschöpfung im Kampf gegen Organisierte Kriminalität und Clanstrukturen weiter stärken."
+        }
+      ]
     },
     {
       "topicId": "security-organized-crime-and-money",
@@ -6439,13 +6769,27 @@
       "partyId": "cdu",
       "stance": "mixed",
       "summary": {
-        "en": "Jugendoffiziere and social educators in schools",
-        "de": "Jugendoffiziere und Sozialpädagog:innen an Schulen",
-        "ru": "Jugendoffiziere и социальные педагоги в школах",
-        "tr": "Okullarda Jugendoffiziere ve sosyal pedagoglar",
-        "pl": "Jugendoffiziere i pedagodzy społeczni w szkołach",
-        "uk": "Jugendoffiziere та соціальні педагоги в школах"
-      }
+        "en": "victim protection via Istanbul Convention action plan, more women’s shelter places (incl. a 10th Frauenhaus), electronic ankle monitors for high-risk offenders; plus school social work / Jugendoffiziere",
+        "de": "Opferschutz über Landesaktionsplan Istanbul-Konvention, mehr Schutzplätze inkl. zehntes Frauenhaus, elektronische Fußfessel für Hochrisiko-Täter; plus Schulsozialarbeit / Jugendoffiziere",
+        "ru": "защита жертв через план Стамбульской конвенции, больше мест в приютах (в т.ч. 10-й Frauenhaus), электронный браслет для опасных преступников; плюс школьная соцработа / Jugendoffiziere",
+        "tr": "İstanbul Sözleşmesi eylem planı, daha fazla kadın sığınma yeri (10. Frauenhaus dahil), yüksek riskli failler için elektronik kelepçe; ayrıca okul sosyal çalışması / Jugendoffiziere",
+        "pl": "ochrona ofiar przez plan konwencji stambulskiej, więcej miejsc w schroniskach (w tym 10. Frauenhaus), elektroniczna obroża dla sprawców wysokiego ryzyka; plus praca socjalna w szkołach / Jugendoffiziere",
+        "uk": "захист жертв через план Стамбульської конвенції, більше місць у притулках (зокрема 10-й Frauenhaus), електронний браслет для високоризикових правопорушників; плюс шкільна соцробота / Jugendoffiziere"
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird sicher",
+          "page": 11,
+          "quote": "Mit einer klaren gesetzlichen Grundlage für die elektronische Fußfessel in Berlin haben wir den Opferschutz spürbar verbessert."
+        },
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird smart",
+          "page": 58,
+          "quote": "Sozialpädagoginnen und Sozialpädagogen auszustatten. Damit entlasten wir Lehrkräfte im Schulalltag und ermöglichen eine stärkere Konzentration auf den Unterricht."
+        }
+      ]
     },
     {
       "topicId": "security-oversight-prevention-support-for-victims",
@@ -6599,7 +6943,15 @@
         "tr": "Kita-Chancenjahr — fiilen hazırlık yılının geri dönüşü, otomatik başvurulu aile portalı",
         "pl": "Kita-Chancenjahr — w praktyce powrót roku przygotowawczego, portal rodzinny z automatycznymi wnioskami",
         "uk": "Kita-Chancenjahr — фактично повернення підготовчого року, сімейний портал з автоматичними заявками"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird smart",
+          "page": 56,
+          "quote": "Mit dem Kita-Chancenjahr haben wir die Vorschule in Berlin wieder eingeführt. Diese wollen wir stärken und weiter ausbauen – mit dem Ziel, alle Kinder bestmöglich auf die Schule vorzubereiten."
+        }
+      ]
     },
     {
       "topicId": "kitas-access-and-quality",
@@ -6753,7 +7105,15 @@
         "tr": "“Akıcı Almanca olmadan kimse okula başlamaz,” ilkokulda Almanca ve matematiğe vurgu",
         "pl": "„Nikt nie zaczyna szkoły bez biegłego niemieckiego,” nacisk na niemiecki i matematykę w szkole podstawowej",
         "uk": "«Ніхто не починає школу без вільного знання німецької», акцент на німецькій і математиці в початковій школі"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird smart",
+          "page": 54,
+          "quote": "Für faire Chancen von Anfang an, soll kein Kind in die Schule kommen, ohne fließend Deutsch zu sprechen."
+        }
+      ]
     },
     {
       "topicId": "schools-language-and-preparation-for-first-grade",
@@ -6907,7 +7267,15 @@
         "tr": "Daha fazla Almanca ve matematik, “başarı ethos'u” ile okul sporu",
         "pl": "Więcej niemieckiego i matematyki, sport szkolny z „etosem osiągnięć”",
         "uk": "Більше німецької мови та математики, шкільний спорт із «етосом досягнень»"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird smart",
+          "page": 57,
+          "quote": "57 Regierungsprogramm 2026-2031 Verbindliche Grundstandards in Deutsch und Mathematik sind für uns die Basis einer verlässlichen Bildung."
+        }
+      ]
     },
     {
       "topicId": "schools-structure-and-requirements",
@@ -7055,13 +7423,21 @@
       "partyId": "cdu",
       "stance": "mixed",
       "summary": {
-        "en": "A social educator in every school",
-        "de": "Eine sozialpädagogische Fachkraft an jeder Schule",
-        "ru": "Социальный педагог в каждой школе",
-        "tr": "Her okulda bir sosyal pedagog",
-        "pl": "Pedagog społeczny w każdej szkole",
-        "uk": "Соціальний педагог в кожну школу"
-      }
+        "en": "equip every school with sufficient qualified social pedagogues — not literally one person per school",
+        "de": "jede Schule mit ausreichend qualifizierten Sozialpädagoginnen und Sozialpädagogen ausstatten — nicht wörtlich eine Person pro Schule",
+        "ru": "обеспечить каждую школу достаточным числом квалифицированных соцпедагогов — не буквально один человек на школу",
+        "tr": "her okulu yeterli nitelikli sosyal pedagoglarla donatmak — okul başına kelimenin tam anlamıyla bir kişi değil",
+        "pl": "wyposażyć każdą szkołę w wystarczającą liczbę wykwalifikowanych pedagogów społecznych — nie dosłownie jedną osobę na szkołę",
+        "uk": "забезпечити кожну школу достатньою кількістю кваліфікованих соцпедагогів — не буквально одна людина на школу"
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird smart",
+          "page": 58,
+          "quote": "Angesichts zunehmender sozialer Herausforderungen in einer wachsenden und vielfältigen Stadt ist es unser Ziel, jede Schule mit ausreichend qualifizierten Sozialpädagoginnen und Sozialpädagogen auszustatten."
+        }
+      ]
     },
     {
       "topicId": "schools-staff-social-work-screens",
@@ -7215,7 +7591,15 @@
         "tr": "Yabancı diplomaları daha hızlı tanımak ve nitelikli işlere, bakıma, eğitime, polise, itfaiyeye ve belediye şirketlerine daha fazla işçi almak",
         "pl": "szybsze uznawanie dyplomów zagranicznych i rekrutacja większej liczby pracowników do rzemiosła, opieki, edukacji, policji, straży pożarnej i spółek miejskich",
         "uk": "швидше визнавати іноземні дипломи та набирати більше працівників у кваліфіковані професії, догляд, освіту, поліцію, пожежну службу та муніципальні компанії"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird spitze",
+          "page": 40,
+          "quote": "Weil ohne gute Handwerker nichts in der Stadt läuft: wir fördern die Meisterausbildung mit dem “Meister- und MeisterinnenBONUS“."
+        }
+      ]
     },
     {
       "topicId": "shortage-of-qualified-professionals",
@@ -7369,7 +7753,15 @@
         "tr": "Kariyer rehberliğini ve okul sonrası pratik yolları güçlendirmek; daha fazla genci nitelikli işlere, bakıma, eğitime, polise, itfaiyeye ve belediye şirketlerine yönlendirmek; yabancı nitelikleri daha hızlı tanımak",
         "pl": "wzmocnienie doradztwa zawodowego i praktycznych ścieżek po szkole; więcej młodych ludzi w rzemiośle, opiece, edukacji, policji, straży pożarnej i spółkach miejskich; szybsze uznawanie kwalifikacji zagranicznych",
         "uk": "посилити профорієнтацію та практичні шляхи після школи; залучити більше молоді до професій, догляду, освіти, поліції, пожежної служби та муніципальних компаній; швидше визнавати іноземні кваліфікації"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird smart",
+          "page": 62,
+          "quote": "62 Regierungsprogramm 2026-2031 Praktische Bildung Nicht jeder erfolgreiche Lebensweg führt über ein Studium – und nicht jede Begabung entfaltet sich im Hörsaal."
+        }
+      ]
     },
     {
       "topicId": "vocational-education-and-dual-training",
@@ -7523,7 +7915,15 @@
         "tr": "Berlin bilim ve inovasyon merkezi olarak: tıp, biyoteknoloji, yapay zekâ, startup'lar; üniversiteler ve araştırma merkezleri ekonomik stratejinin parçası",
         "pl": "Berlin jako centrum nauki i innowacji: medycyna, biotechnologia, sztuczna inteligencja, startupy; uczelnie i ośrodki badawcze jako część strategii gospodarczej",
         "uk": "Берлін як центр науки та інновацій: медицина, біотехнології, ШІ, стартапи; університети та дослідницькі центри як частина економічної стратегії"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird spitze",
+          "page": 48,
+          "quote": "Vier Universitäten, die Universitätsmedizin der Charité, mehr als 40 Hochschulen, über 70 außeruniversitäre Forschungseinrichtungen und der größte deutsche Technologiepark in Adlershof bilden einen Wissenschaftsraum, der große nationale und internationale Strahlkraft besitzt und den es so kein zweites Mal in Deutschland gibt."
+        }
+      ]
     },
     {
       "topicId": "higher-education",
@@ -7677,7 +8077,15 @@
         "tr": "Yabancı nitelikleri daha hızlı tanımak, profesyoneller için daha az bürokrasi, dijital ve tıbbi beceriler; odak idare, eğitim, güvenlik, bakım ve geleceğin ekonomisi için personel",
         "pl": "szybsze uznawanie kwalifikacji zagranicznych, mniej biurokracji dla fachowców, kompetencje cyfrowe i medyczne; nacisk na kadry dla administracji, edukacji, bezpieczeństwa, opieki i gospodarki przyszłości",
         "uk": "швидше визнавати іноземні кваліфікації, менше бюрократії для професіоналів, цифрові та медичні навички; акцент на кадрах для управління, освіти, безпеки, догляду та економіки майбутнього"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird smart",
+          "page": 64,
+          "quote": "Lebenslanges Lernen Bildung endet nicht mit dem Schulabschluss. Die Erwachsenenbildung ist eine wichtige vierte Säule unseres Bildungssystems."
+        }
+      ]
     },
     {
       "topicId": "continuing-education-and-retraining",
@@ -7831,7 +8239,15 @@
         "tr": "Charité inovasyon merkezi olarak, Kiez-Gesundheits-Stützpunkte, E-Health, gen ve hücre terapisi, hastaneler için daha az bürokrasi",
         "pl": "Charité jako centrum innowacji, Kiez-Gesundheits-Stützpunkte, E-Health, terapia genowa i komórkowa, mniej biurokracji dla szpitali",
         "uk": "Шаріте як центр інновацій, Kiez-Gesundheits-Stützpunkte, E-Health, генна та клітинна терапія, менше бюрократії для лікарень"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird gerecht",
+          "page": 97,
+          "quote": "Wir werden die Umsetzung der Krankenhausreform mit einem klaren, verlässlichen und gemeinsam mit allen Berliner Krankenhausträgern erarbeiteten Konzept vorantreiben."
+        }
+      ]
     },
     {
       "topicId": "healthcare-hospitals-and-neighborhood-care",
@@ -7985,7 +8401,15 @@
         "tr": "Gençlerin ruh sağlığına özel odak",
         "pl": "Osobny nacisk na zdrowie psychiczne młodych ludzi",
         "uk": "Приділено увагу психічному здоров’ю молоді"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird smart",
+          "page": 61,
+          "quote": "Präventionsangebote zu Bewegung, Ernährung und psychischer Gesundheit sollen flächendeckend im Schulalltag verankert werden."
+        }
+      ]
     },
     {
       "topicId": "healthcare-mental-health",
@@ -8139,7 +8563,15 @@
         "tr": "“Ambulant vor stationär” ilkesi — mümkün olduğunca uzun süre alışılmış çevrede kalmak; ilçelerde merkezi danışma noktaları olarak Pflegestützpunkte, gönüllü yardımcılara ücretsiz kurslar, ayakta destekli Pflege-WG, tele-tıp ve video görüşmeler, yaşlılar ve hareket kısıtlı kişiler için “Kiez-Gesundheits-Stützpunkte”, doktor, ebe ve bakım yerlerinin tek net sicili",
         "pl": "Zasada „ambulant vor stationär” — jak najdłużej w znanym otoczeniu; Pflegestützpunkte w dzielnicach jako centralne punkty doradztwa, bezpłatne kursy dla wolontariuszy, ambulatoryjnie wspierane Pflege-WG, telemedycyna i wideokonsultacje, „Kiez-Gesundheits-Stützpunkte” dla osób starszych i o ograniczonej mobilności, jeden jasny rejestr lekarzy, położnych i miejsc opieki",
         "uk": "Принцип «ambulant vor stationär» — якомога довше залишатися у знайомій обстановці; Pflegestützpunkte в районах як центральні пункти консультації, безкоштовні курси для волонтерів-помічників, амбулаторна підтримка Pflege-WG, телемедицина та відеоконсультації, «Kiez-Gesundheits-Stützpunkte» для людей похилого віку та людей з обмеженою мобільністю, єдиний чіткий реєстр лікарів, акушерок та місць догляду"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird gerecht",
+          "page": 98,
+          "quote": "In der Pflege gilt für uns der Grundsatz „ambulant vor stationär“. Unser Ziel ist es, pflegebedürftigen Menschen so lange wie möglich ein Leben im vertrauten Umfeld zu ermöglichen."
+        }
+      ]
     },
     {
       "topicId": "care-pflege-and-older-people",
@@ -8293,7 +8725,15 @@
         "tr": "“Sert” uyuşturucuların yasallaştırılmasına ve crack Konsumräume'ye karşı; odak uyuşturucu ticaretini bastırmak — anonim elektronik ihbar sistemi, köpeklerle cezaevi aramaları, dijital uyuşturucu ticaretine karşı özel birimler; bağımlılara destek yalnızca sosyal altyapının parçası olarak geçiyor",
         "pl": "przeciw legalizacji „twardych” narkotyków i przeciw crack Konsumräume; nacisk na tłumienie handlu narkotykami — anonimowy elektroniczny system zgłoszeń, przeszukania więzień z psami, specjalne jednostki przeciw cyfrowemu handlowi narkotykami; wsparcie osób z uzależnieniami wspomniane tylko jako część infrastruktury społecznej",
         "uk": "проти легалізації «важких» наркотиків і проти crack Konsumräume; акцент на боротьбу з наркобізнесом — система анонімних електронних повідомлень, обшуки в’язниць із собаками, спецпідрозділи по боротьбі з цифровим наркобізнесом; підтримка людей із залежностями згадується лише як частина соціальної інфраструктури"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird sicher",
+          "page": 16,
+          "quote": "Was wir für ein sicheres Berlin NICHT brauchen: Legalisierung von harten Drogen und Crack-Konsumräumen."
+        }
+      ]
     },
     {
       "topicId": "drug-policy",
@@ -8447,7 +8887,15 @@
         "tr": "Ayrı bölüm “Migration ordnen, steuern und begrenzen” — düzenlemek, yönetmek ve sınırlamak",
         "pl": "Osobny rozdział „Migration ordnen, steuern und begrenzen” — uporządkować, sterować i ograniczać",
         "uk": "Спеціальний розділ «Migration ordnen, steuern und begrenzen» — організація, керування та обмеження"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird knallhart",
+          "page": 25,
+          "quote": "25 Regierungsprogramm 2026-2031 Migration ordnen, steuern und begrenzen Wir stehen zu unserer humanitären Verantwortung und zum Grundrecht auf Asyl."
+        }
+      ]
     },
     {
       "topicId": "migration-admission-and-deportations",
@@ -8619,7 +9067,21 @@
         "tr": "Bezahlkarte'yi korumak ve kalıcı kılmak; ✗ kaldırılmasını reddetmek ve ✗ eyalet kabul programlarının yeniden başlatılmasını reddetmek; ayrılma yükümlülüğü olan kişilerin verilerini merkezi toplamak ve makamlara hızla iletmek",
         "pl": "utrzymać Bezahlkarte i uczynić ją stałą; ✗ odrzucić jej zniesienie oraz ✗ odrzucić wznowienie landowych programów przyjęć; zbierać dane o osobach zobowiązanych do wyjazdu centralnie i szybko przekazywać je organom",
         "uk": "зберегти Bezahlkarte та зробити його постійним; ✗ відмовитися від його скасування та ✗ відмовитися від відновлення державних програм прийому; централізовано збирати дані про осіб, які зобов’язані виїхати, і швидко передавати їх владі"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird knallhart",
+          "page": 25,
+          "quote": "Wir stehen zur Einführung der Bezahlkarte und wollen diese dauerhaft etablieren. Wir werden die Zusammenarbeit zwischen Aufnahmeeinrichtungen, dem Landesamt für Flüchtlingsangelegenheiten und Unterbringung, dem Landesamt für Einwanderung, den Sozialämtern und der Polizei stärken, um die Ausreisepflicht konsequenter durchzusetzen."
+        },
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird knallhart",
+          "page": 27,
+          "quote": "Was wir für ein knallhartes Berlin NICHT brauchen: Abkehr von der Bezahlkarte für Asylbewerber; Wiederaufnahme von Landesaufnahmeprogrammen."
+        }
+      ]
     },
     {
       "topicId": "migration-bezahlkarte-and-access-to-benefits-and-healthcare",
@@ -8785,7 +9247,15 @@
         "tr": "Her ilçede kamu entegrasyon merkezleri — dil kursları, danışmanlık ve yardım bir arada; “Fördern und Fordern” ilkesi, dil ve entegrasyon kurslarına aktif katılım zorunlu; yardım alanlar için §5 AsylbLG kapsamında topluluk çalışması, yabancı niteliklerin daha hızlı tanınması, vicdansız aracılara karşı daha sert yaklaşım; ayrılma yükümlülüklerini uygulamak için LEA, mülteci makamları, sosyal yardım daireleri ve polis arasında daha sıkı bağlar",
         "pl": "publiczne centra integracji w każdej dzielnicy — kursy językowe, doradztwo i pomoc w jednym miejscu; zasada „Fördern und Fordern,” z wymaganym aktywnym udziałem w kursach językowych i integracyjnych; prace społeczne według §5 AsylbLG dla świadczeniobiorców, szybsze uznawanie kwalifikacji zagranicznych, zdecydowane działania przeciw nieuczciwym pośrednikom; ściślejsze powiązania LEA, urzędów ds. uchodźców, ośrodków pomocy społecznej i policji w celu egzekwowania obowiązku wyjazdu",
         "uk": "центри громадської інтеграції в кожному районі — мовні курси, консультації та допомога в одному місці; принцип «Fördern und Fordern» з обов’язковою активною участю в мовних та інтеграційних курсах; громадська робота відповідно до §5 AsylbLG для одержувачів допомоги, швидше визнання іноземних кваліфікацій, жорсткіші дії проти недобросовісних посередників; більш тісні зв'язки між LEA, органами влади у справах біженців, службами соціального забезпечення та поліцією для виконання зобов'язань залишити"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird einig",
+          "page": 117,
+          "quote": "Integration braucht Werte und Regeln Berlin ist eine weltoffene Metropole und Heimat für Menschen aus aller Welt."
+        }
+      ]
     },
     {
       "topicId": "migration-lea-integration-participation",
@@ -8945,7 +9415,15 @@
         "tr": "Mittelstand, „sanayi metropolü,“ „Spree’de Boston,“ EXPO 2035, yapay zekâ asistanı BärGPT, „yaratılardan daha fazla düzenlemeyi kaldırmak“",
         "pl": "Mittelstand, „metropolia przemysłowa”, „Boston on the Spree”, EXPO 2035, asystent AI BärGPT, „znieść więcej regulacji, niż się tworzy”",
         "uk": "Mittelstand, «промисловий мегаполіс», «Бостон на Шпрее», EXPO 2035, асистент ШІ BärGPT, «скасувати більше правил, ніж створено»"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird spitze",
+          "page": 43,
+          "quote": "Starker Mittelstand Der Mittelstand ist das Rückgrat der Berliner Wirtschaft. Wir wollen die Unternehmen auch weiterhin bei der Transformation begleiten und sie mit passgenauen Förderprogrammen unterstützen."
+        }
+      ]
     },
     {
       "topicId": "economy-and-innovation",
@@ -9105,7 +9583,15 @@
         "tr": "Berlin „Spree’de Boston“ olarak: tıp, biyoteknoloji, yapay zekâ, startup’lar ve EXPO 2035; daha az bürokrasi, dijital yapay zekâ asistanı BärGPT ve yaratılardan daha fazla kuralı kaldırma ilkesi",
         "pl": "Berlin jako „Boston on the Spree”: medycyna, biotechnologia, sztuczna inteligencja, startupy i EXPO 2035; mniej biurokracji, cyfrowy asystent AI BärGPT oraz zasada znoszenia więcej przepisów, niż się tworzy",
         "uk": "Берлін як «Бостон на Шпрее»: медицина, біотехнології, ШІ, стартапи та EXPO 2035; менше бюрократії, цифровий помічник AI BärGPT і принцип скасування більшої кількості правил, ніж створено"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird spitze",
+          "page": 44,
+          "quote": "Start-ups und Wissenschaft intensiviert werden. Die industrielle Wertschöpfung in der Metropolregion wollen wir nachhaltig steigern."
+        }
+      ]
     },
     {
       "topicId": "innovation-and-startups",
@@ -9251,15 +9737,23 @@
     {
       "topicId": "business-succession",
       "partyId": "cdu",
-      "stance": "mixed",
+      "stance": "for",
       "summary": {
-        "en": "no separate business-transfer program; general focus on Mittelstand, skilled trades, reducing bureaucracy, professional supervisory boards, and clearer rules for municipal companies",
-        "de": "kein eigenes Programm zur Unternehmensnachfolge; allgemeiner Schwerpunkt auf Mittelstand, Handwerk, Bürokratieabbau, professionellen Aufsichtsräten und klareren Regeln für landeseigene Unternehmen",
-        "ru": "отдельной программы передачи бизнеса нет; общий фокус на среднем бизнесе, ремесле, снижении бюрократии, профессиональных наблюдательных советах и более понятных правилах для городских предприятий",
-        "tr": "ayrı bir işletme devri programı yok; genel odak Mittelstand, zanaat, bürokrasi azaltma, profesyonel denetim kurulları ve belediye şirketleri için daha net kurallar",
-        "pl": "brak osobnego programu sukcesji firm; ogólny nacisk na Mittelstand, rzemiosło, ograniczenie biurokracji, profesjonalne rady nadzorcze i jaśniejsze reguły dla spółek komunalnych",
-        "uk": "окремої програми бізнес-трансферу немає; загальна увага до Mittelstand, кваліфікованих професій, зменшення бюрократії, професійні наглядові ради та чіткіші правила для муніципальних компаній"
-      }
+        "en": "secure business succession with the Nachfolgezentrale and new networking for generational change in Berlin companies",
+        "de": "Unternehmensnachfolgen sichern: Kooperation mit der Nachfolgezentrale und neue Vernetzung für den Generationswechsel",
+        "ru": "обеспечить преемственность бизнеса через Nachfolgezentrale и новые сети для смены поколений",
+        "tr": "Nachfolgezentrale ile işletme devrini güvenceye almak ve kuşak değişimi için yeni ağlar",
+        "pl": "zabezpieczyć sukcesję firm z Nachfolgezentrale i nową siecią na zmianę pokoleniową",
+        "uk": "забезпечити наступність бізнесу через Nachfolgezentrale і нові мережі для зміни поколінь"
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird spitze",
+          "page": 43,
+          "quote": "Ein zentrales Anliegen ist für uns die Sicherung von Unternehmensnachfolgen. In enger Kooperation mit der Nachfolgezentrale werden wir neue Vernetzungsmöglichkeiten schaffen, um den Generationswechsel in den Berliner Unternehmen erfolgreich zu gestalten."
+        }
+      ]
     },
     {
       "topicId": "business-succession",
@@ -9409,7 +9903,15 @@
         "tr": "Orta ölçekli işletmelere, zanaata ve mahalle ekonomisine destek: daha az bürokrasi, daha fazla dijital hizmet, bir sanayi sahası, „Spree’de Boston“ ve yaratılardan daha fazla kuralı kaldırma ilkesi",
         "pl": "Wsparcie średnich firm, rzemiosła i gospodarki dzielnicowej: mniej biurokracji, więcej usług cyfrowych, ośrodek przemysłowy, „Boston on the Spree” oraz zasada znoszenia więcej przepisów, niż się tworzy",
         "uk": "Підтримка середнього бізнесу, ремесел та економіки сусідства: менше бюрократії, більше цифрових послуг, промисловий майданчик, «Бостон на Шпрее» та принцип скасування більше правил, ніж створено"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird spitze",
+          "page": 43,
+          "quote": "Starker Mittelstand Der Mittelstand ist das Rückgrat der Berliner Wirtschaft. Wir wollen die Unternehmen auch weiterhin bei der Transformation begleiten und sie mit passgenauen Förderprogrammen unterstützen."
+        }
+      ]
     },
     {
       "topicId": "small-business",
@@ -9561,15 +10063,35 @@
     {
       "topicId": "taxes-and-budget",
       "partyId": "cdu",
-      "stance": "against",
+      "stance": "mixed",
       "summary": {
-        "en": "Increase in Grunderwerbsteuer; shift Grundsteuer toward undeveloped plots",
-        "de": "Erhöhung der Grunderwerbsteuer; Verlagerung der Grundsteuer auf unbebaute Grundstücke",
-        "ru": "повышение Grunderwerbsteuer; Grundsteuer сдвинуть на незастроенные участки",
-        "tr": "Grunderwerbsteuer artışı; Grundsteuer’in imarsız arsalara kaydırılması",
-        "pl": "Podwyższenie Grunderwerbsteuer; przesunięcie Grundsteuer w stronę niezabudowanych działek",
-        "uk": "Збільшення Grunderwerbsteuer; зрушити Grundsteuer у бік незабудованих ділянок"
-      }
+        "en": "first-home Grunderwerbsteuer relief (partial waiver up to €300k / purchases ≤ €800k); Grundsteuer C on build-ready vacant plots — not an across-the-board increase in transfer tax",
+        "de": "Grunderwerbsteuer-Erlass/-Senkung beim Ersterwerb zur Selbstnutzung (bis 300.000 € / Käufe bis 800.000 €); Grundsteuer C auf baureife Grundstücke — keine pauschale Erhöhung der Grunderwerbsteuer",
+        "ru": "льгота по Grunderwerbsteuer при первой покупке (частично до 300 000 € / сделки ≤ 800 000 €); Grundsteuer C на готовые участки — не общее повышение налога на покупку",
+        "tr": "ilk konut Grunderwerbsteuer indirimi (kısmi, 300.000 € / ≤800.000 € alımlar); imara hazır arsalarda Grundsteuer C — genel transfer vergisi artışı değil",
+        "pl": "ulga w Grunderwerbsteuer przy pierwszym zakupie (częściowo do 300 000 € / zakupy ≤ 800 000 €); Grundsteuer C na działki budowlane — nie ogólna podwyżka podatku od nabycia",
+        "uk": "пільга з Grunderwerbsteuer при першій купівлі (частково до 300 000 € / угоди ≤ 800 000 €); Grundsteuer C на будівельні ділянки — не загальне підвищення податку на придбання"
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird größer",
+          "page": 33,
+          "quote": "Wir setzen uns dafür ein, die Grunderwerbsteuer beim erstmaligen Erwerb von selbstgenutztem Wohneigentum deutlich zu reduzieren."
+        },
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird größer",
+          "page": 35,
+          "quote": "Grundsteuer C aus, mit der nur baureife Grundstücke besonders hoch belastet werden. Modelle zur Umgehung der Grunderwerbsteuer sowie zur Verschleierung von Gewinnen werden wir wirksam unterbinden."
+        },
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird funktionieren",
+          "page": 91,
+          "quote": "Solide Finanzen Solide Haushaltspolitik und die Einhaltung der Schuldenbremse sind für uns eine Frage der Generationengerechtigkeit und bleiben Eckpfeiler für unsere zukünftigen Gestaltungsmöglichkeiten."
+        }
+      ]
     },
     {
       "topicId": "taxes-and-budget",
@@ -9735,7 +10257,15 @@
         "tr": "Bürokrasiyi kesmek; otomatik başvurulu bir aile portalı; eyalet iştirakleri ve işletmelerinin yönetimini birleştirmek, profesyonel denetim kurulları ve temsilciler kurumu ile çok sayıdaki konseylerin gözden geçirilmesi",
         "pl": "Ograniczenie biurokracji; portal rodzinny z automatycznymi wnioskami; połączenie zarządzania udziałami i przedsiębiorstwami landu, profesjonalne rady nadzorcze oraz przegląd instytucji pełnomocników i licznych rad",
         "uk": "Скоротити бюрократію; сімейний портал з автоматичними додатками; поєднати управління державними холдингами та підприємствами, професійні наглядові ради, і перегляд інституту комісарів та багатьох рад"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird funktionieren",
+          "page": 88,
+          "quote": "Mit der Verwaltungsreform haben wir den Grundstein für eine moderne, leistungsfähige und bürgernahe Verwaltung gelegt."
+        }
+      ]
     },
     {
       "topicId": "governance-and-administrative-reform",
@@ -9901,7 +10431,15 @@
         "tr": "BärGPT, E-Health, WBS ve Wohngeld için dijital başvurular",
         "pl": "BärGPT, E-Health, cyfrowe wnioski o WBS i Wohngeld",
         "uk": "BärGPT, E-Health, цифрові програми для WBS і Wohngeld"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird funktionieren",
+          "page": 87,
+          "quote": "Unser cleverer KI-Assistent BärGPT entlastet die Mitarbeiter der Stadt bei Routinetätigkeiten, damit mehr Zeit für Anliegen der Berliner bleibt."
+        }
+      ]
     },
     {
       "topicId": "digitalization-data-ai",
@@ -10061,7 +10599,15 @@
         "tr": "Yardımlara tek erişim noktası olarak SOZIALES BERLIN platformu",
         "pl": "Platforma SOZIALES BERLIN jako jeden punkt dostępu do pomocy",
         "uk": "Платформа SOZIALES BERLIN як єдина точка доступу до допомоги"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird gerecht",
+          "page": 100,
+          "quote": "Wir stehen für ein Berlin, in dem Zusammenhalt gelebt wird und Menschen Verantwortung füreinander übernehmen. Ziel ist es, allen Berlinerinnen und Berlinern echte Teilhabe zu ermöglichen – unabhängig von ihrer Herkunft, ihrem Einkommen oder ihren Lebensumständen."
+        }
+      ]
     },
     {
       "topicId": "social-affairs-poverty-income",
@@ -10221,7 +10767,15 @@
         "tr": "Ayrı bir bölüm, „Kültür ve medya“: Jugendclubs buluşma ve zorunlu koruma kavramlarıyla demokratik eğitim mekânları olarak; büyük kültür ve spor etkinlikleri için zorunlu strateji ve olimpiyat adaylığı; kültür ve zanaat için S-Bahn kemerleri; kültürde antisemitizme karşı destek (OpenArtsHub); Erinnerungskultur ve anma çalışması",
         "pl": "Osobny rozdział „Kultura i media”: Jugendclubs jako miejsca spotkań i przestrzenie edukacji demokratycznej z obowiązkowymi koncepcjami ochrony; obowiązkowa strategia dużych wydarzeń kulturalnych i sportowych oraz kandydatura olimpijska; łuki S-Bahn dla kultury i rzemiosła; wsparcie przeciw antysemityzmowi w kulturze (OpenArtsHub); Erinnerungskultur i praca pamięci",
         "uk": "Окремий розділ «Культура та медіа»: молодежні клуби як місця зустрічей і простори для демократичної освіти з обов’язковими концепціями захисту; обов'язкова стратегія для великих культурних і спортивних подій і олімпійської заявки; арки S-Bahn для культури та ремесел; підтримка боротьби з антисемітизмом у культурі (OpenArtsHub); Erinnerungskultur і меморіальна робота"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird einig",
+          "page": 119,
+          "quote": "Kultur und Medien Kultur ist das Lebenselixier Berlins. Die außergewöhnliche Vielfalt an Bühnen, Museen, Orchestern, Gedenkorten, Clubs, Festivals und der freien Szene macht die deutsche Hauptstadt zu einer Kulturmetropole von Weltrang."
+        }
+      ]
     },
     {
       "topicId": "culture-and-clubs",
@@ -10375,13 +10929,27 @@
       "partyId": "cdu",
       "stance": "mixed",
       "summary": {
-        "en": "School sports with an “achievement ethos” and a “Berlin swimming offensive”—no one should finish primary school unable to swim, with lessons from age 3; renovation of sports facilities (districts alone need more than €400 million), standardized swimming halls, reform of Bäder-Betriebe management, mobile gyms, the first floating football stadium in Rummelsburger Bucht, and an Olympic bid",
-        "de": "Schulsport mit „Leistungsgedanken“ und „Berliner Schwimmoffensive“ – niemand soll die Grundschule verlassen, ohne schwimmen zu können, Unterricht ab 3 Jahren; Sanierung von Sportanlagen (allein in den Bezirken besteht ein Bedarf von über 400 Mio. €), Typenschwimmhallen, Reform der Steuerung der Bäder-Betriebe, mobile Sporthallen, erstes schwimmendes Fußballstadion in der Rummelsburger Bucht und Olympiabewerbung",
-        "ru": "Школьный спорт с «идеей достижения» и «Берлинская плавательная офензива» — никто не должен закончить началку, не умея плавать, занятия с 3 лет; санация спортобъектов (только в районах нужно свыше 400 млн €), типовые плавательные залы, реформа управления Bäder-Betriebe, мобильные спортзалы, первый плавучий футбольный стадион в Rummelsburger Bucht, заявка на Олимпиаду",
-        "tr": "„Başarı ethos’u“ ile okul sporu ve „Berlin yüzme seferberliği“—kimse ilkokulu yüzemeden bitirmemeli, 3 yaşından derslerle; spor tesislerinin yenilenmesi (yalnızca ilçelerin 400 milyon €’dan fazla ihtiyacı var), standartlaştırılmış yüzme salonları, Bäder-Betriebe yönetiminin reformu, mobil spor salonları, Rummelsburger Bucht’ta ilk yüzen futbol stadyumu ve olimpiyat adaylığı",
-        "pl": "Sport szkolny z „etosem osiągnięć” oraz „berlińska ofensywa pływacka” — nikt nie powinien kończyć szkoły podstawowej bez umiejętności pływania, z lekcjami od 3. roku życia; remont obiektów sportowych (same dzielnice potrzebują ponad 400 mln €), ustandaryzowane hale pływackie, reforma zarządzania Bäder-Betriebe, mobilne sale gimnastyczne, pierwszy pływający stadion piłkarski w Rummelsburger Bucht oraz kandydatura olimpijska",
-        "uk": "Шкільний спорт із «досягненнями» та «Берлінським плавальним наступом» — ніхто не повинен закінчувати початкову школу, не вміючи плавати, з уроками з 3 років; реконструкція спортивних споруд (тільки для районів потрібно понад 400 мільйонів євро), стандартизовані плавальні зали, реформа управління Bäder-Betriebe, мобільні спортивні зали, перший плавучий футбольний стадіон у Rummelsburger Bucht та олімпійська заявка"
-      }
+        "en": "school sport with a performance focus; swimming skills; first floating football pitch (not stadium) in Rummelsburger Bucht with a feasibility study",
+        "de": "Schulsport mit Leistungsgedanken; Schwimmen lernen; erster schwimmender Fußballplatz (kein Stadion) in der Rummelsburger Bucht mit Machbarkeitsstudie",
+        "ru": "школьный спорт с акцентом на результат; умение плавать; первое плавучее футбольное поле (не стадион) в Rummelsburger Bucht с исследованием feasibility",
+        "tr": "performans odaklı okul sporu; yüzme; Rummelsburger Bucht’te fizibilite çalışmalı ilk yüzen futbol sahası (stadyum değil)",
+        "pl": "sport szkolny z naciskiem na wynik; pływanie; pierwsze pływające boisko piłkarskie (nie stadion) w Rummelsburger Bucht z studium wykonalności",
+        "uk": "шкільний спорт з акцентом на результат; плавання; перше плавуче футбольне поле (не стадіон) у Rummelsburger Bucht із техніко-економічним обґрунтуванням"
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird einig",
+          "page": 112,
+          "quote": "Wir wollen den ersten schwimmenden Fußballplatz Berlins. Dafür bietet sich die Rummelsburger Bucht an."
+        },
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird einig",
+          "page": 112,
+          "quote": "Funktionierende Schwimmbäder sind unverzichtbar für Schwimmausbildung, Gesundheitsvorsorge, Breitensport und Vereinsarbeit."
+        }
+      ]
     },
     {
       "topicId": "sports-and-swimming",
@@ -10565,7 +11133,15 @@
         "tr": "Tersine, sadeleştirme: idari verimliliği artırmak için katılım yapıları, temsilciler ve konseylerin „kafa karıştırıcı ağını“ gözden geçirip azaltmak; projelerin 3D görselleştirmesiyle katılım platformu olarak kentin „dijital ikizi“; çocuk ve gençlik parlamentolarına destek; queerphobic suçları öne çıkarmak için video gözetimi kullanmak",
         "pl": "Przeciwnie, uproszczenie: przegląd i ograniczenie „nieprzejrzystej sieci” struktur partycypacji, pełnomocników i rad dla poprawy efektywności administracji; „cyfrowy bliźniak” miasta jako platforma partycypacji z wizualizacją 3D projektów; wsparcie parlamentów dziecięcych i młodzieżowych; wykorzystanie monitoringu wideo do uwidocznienia przestępstw queerfobicznych",
         "uk": "І навпаки, спрощення: переглянути та скоротити «заплутану павутину» структур участі, уповноважених та рад для підвищення адміністративної ефективності; «цифровий двійник» міста як платформа участі з 3D візуалізацією проектів; підтримка дитячих та молодіжних парламентів; використовувати відеоспостереження, щоб висвітлити квірфобні злочини"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird funktionieren",
+          "page": 88,
+          "quote": "Im Mittelpunkt steht für uns der konsequente Abbau von Doppelstrukturen und unnötiger Bürokratie."
+        }
+      ]
     },
     {
       "topicId": "democracy-participation-equality",
@@ -10729,15 +11305,23 @@
     {
       "topicId": "women-s-rights-and-prevention-of-domestic-violence",
       "partyId": "cdu",
-      "stance": "mixed",
+      "stance": "for",
       "summary": {
-        "en": "Little broad women’s-rights agenda in the excerpts found; there are proposals for women experiencing homelessness, youth mental health, and identifying queerphobic crimes through video surveillance",
-        "de": "In den gefundenen Passagen kaum umfassende frauenpolitische Agenda; es gibt Vorschläge für wohnungslose Frauen, zur psychischen Gesundheit Jugendlicher und zur Erkennung queerfeindlicher Straftaten durch Videoüberwachung",
-        "ru": "отдельной широкой повестки прав женщин в программе мало; есть предложения для женщин в бездомности, психическое здоровье молодёжи и выявление квирфобных преступлений через видеонаблюдение",
-        "tr": "Bulunan alıntılarda geniş bir kadın hakları gündemi az; evsizlik yaşayan kadınlar, genç ruh sağlığı ve video gözetimiyle queerphobic suçları saptamaya yönelik öneriler var",
-        "pl": "Niewiele szerokiej agendy praw kobiet w znalezionych fragmentach; są propozycje dotyczące kobiet doświadczających bezdomności, zdrowia psychicznego młodzieży oraz identyfikowania przestępstw queerfobicznych przez monitoring wideo",
-        "uk": "широкого порядку денного щодо прав жінок у програмі мало; є пропозиції для жінок у бездомності, психічного здоров’я молоді та фіксації квірфобних злочинів"
-      }
+        "en": "Landesaktionsplan to implement the Istanbul Convention; more shelter places including a 10th women’s shelter; prevention and perpetrator measures (incl. electronic monitoring)",
+        "de": "Landesaktionsplan zur Umsetzung der Istanbul-Konvention; mehr Schutzplätze inkl. zehntes Frauenhaus; Prävention und Täterarbeit (inkl. elektronischer Fußfessel)",
+        "ru": "земельный план Стамбульской конвенции; больше мест в приютах, включая 10-й Frauenhaus; профилактика и работа с агрессорами (в т.ч. электронный браслет)",
+        "tr": "İstanbul Sözleşmesi için eyalet eylem planı; 10. Frauenhaus dahil daha fazla sığınma yeri; önleme ve fail önlemleri (elektronik kelepçe dahil)",
+        "pl": "krajowy plan konwencji stambulskiej; więcej miejsc w schroniskach, w tym 10. Frauenhaus; profilaktyka i praca ze sprawcami (w tym elektroniczna obroża)",
+        "uk": "земельний план Стамбульської конвенції; більше місць у притулках, зокрема 10-й Frauenhaus; профілактика та робота з кривдниками (зокрема електронний браслет)"
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird sicher",
+          "page": 11,
+          "quote": "Gewalt gegen Frauen konsequent bekämpfen Mit dem Landesaktionsplan zur Umsetzung der Istanbul-Konvention haben wir einen umfassenden strategischen Rahmen geschaffen, um Gewalt gegen Frauen und häusliche Gewalt wirksam zu bekämpfen."
+        }
+      ]
     },
     {
       "topicId": "women-s-rights-and-prevention-of-domestic-violence",
@@ -10889,13 +11473,33 @@
       "partyId": "cdu",
       "stance": "mixed",
       "summary": {
-        "en": "Almost no separate positive queer policy; queerphobic crimes are to be identified through video surveillance, while participation structures and commissioners are to be reviewed and reduced",
-        "de": "Kaum eigenständige positive Queerpolitik; queerfeindliche Straftaten sollen durch Videoüberwachung erkannt werden, Beteiligungsstrukturen und Beauftragte sollen überprüft und reduziert werden",
-        "ru": "отдельной позитивной квир-политики почти нет; квирфобные преступления предлагается выявлять через видеонаблюдение, институты участия и уполномоченных хотят проверить и сократить",
-        "tr": "Neredeyse ayrı olumlu queer politikası yok; queerphobic suçlar video gözetimiyle saptanacak, katılım yapıları ve temsilciler ise gözden geçirilip azaltılacak",
-        "pl": "Prawie brak osobnej pozytywnej polityki queer; przestępstwa queerfobiczne mają być identyfikowane przez monitoring wideo, natomiast struktury partycypacji i pełnomocnicy mają być przeglądane i ograniczane",
-        "uk": "Майже немає окремої позитивної квір-політики; Квірфобні злочини мають бути виявлені за допомогою відеоспостереження, а структури участі та уповноважених мають бути переглянуті та скорочені"
-      }
+        "en": "affirms same-sex relationships as part of Berlin’s Heimat; supports World Pride / InterPride bids; also expands video surveillance against queerphobic crime",
+        "de": "gleichgeschlechtliche Beziehungen als Teil der Berliner Heimat; Bewerbung um World Pride / InterPride unterstützen; zugleich Videoüberwachung gegen queerfeindliche Straftaten",
+        "ru": "однополые отношения как часть берлинской Heimat; поддержка заявок World Pride / InterPride; также расширение видеонаблюдения против квирфобных преступлений",
+        "tr": "eşcinsel ilişkileri Berlin’in Heimat’inin parçası sayar; World Pride / InterPride başvurularını destekler; ayrıca queer düşmanı suçlara karşı video gözetimini genişletir",
+        "pl": "związki jednopłciowe jako część berlińskiej Heimat; wsparcie kandydatur World Pride / InterPride; także rozszerzenie monitoringu przeciwko przestępstwom queerofobicznym",
+        "uk": "одностатеві стосунки як частина берлінської Heimat; підтримка заявок World Pride / InterPride; також розширення відеоспостереження проти квірофобних злочинів"
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird einig",
+          "page": 107,
+          "quote": "Wir lieben Berlin und Berlin liebt die Liebe: Egal ob klassische Familien, Patchwork- und Trennungsfamilien, Pflegefamilien, Alleinerziehende mit ihren Kindern oder gleichgeschlechtliche Beziehungen, sie alle finden in Berlin Heimat!"
+        },
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird spitze",
+          "page": 48,
+          "quote": "Eine Bewerbung um die Ausrichtung eines World Pride sowie um ein InterPride General Meeting & World Conference unterstützen wir."
+        },
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "section": "Berlin wird einig",
+          "page": 110,
+          "quote": "Zur Aufhellung des Dunkelfeldes queerfeindlicher Straftaten forcieren wir unter anderem eine flächendeckende Videoüberwachung an kriminalitätsbelasteten Orten sowie im ÖPNV mit einer Speicherdauer von mindestens 96 Stunden."
+        }
+      ]
     },
     {
       "topicId": "queer-and-lgbtq-issues",
@@ -11041,15 +11645,21 @@
     {
       "topicId": "elections-second-vote-and-5-percent-threshold",
       "partyId": "cdu",
-      "stance": "mixed",
+      "stance": "none",
       "summary": {
-        "en": "No electoral-law reform in the program",
-        "de": "Keine Reform des Wahlrechts im Programm",
-        "ru": "реформы избирательного права в программе нет",
-        "tr": "Programda seçim hukuku reformu yok",
-        "pl": "Brak reformy prawa wyborczego w programie",
-        "uk": "У програмі немає реформи виборчого законодавства"
-      }
+        "en": "no electoral-system reform in the program",
+        "de": "keine Wahlrechtsreform im Programm",
+        "ru": "в программе нет реформы избирательной системы",
+        "tr": "programda seçim sistemi reformu yok",
+        "pl": "brak reformy prawa wyborczego w programie",
+        "uk": "у програмі немає реформи виборчої системи"
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "note": "kein Treffer zu Wahlrechtsreform / Zweitstimme / 5-Prozent-Hürde"
+        }
+      ]
     },
     {
       "topicId": "elections-second-vote-and-5-percent-threshold",
@@ -11199,15 +11809,21 @@
     {
       "topicId": "party-donations-lobbying-and-transparency",
       "partyId": "cdu",
-      "stance": "mixed",
+      "stance": "none",
       "summary": {
-        "en": "Neither party donations nor a transparency law is mentioned in the program",
-        "de": "Weder Parteispenden noch ein Transparenzgesetz werden im Programm erwähnt",
-        "ru": "ни партийные пожертвования, ни закон о прозрачности в программе не упоминаются",
-        "tr": "Programda ne parti bağışları ne de şeffaflık yasası anılır",
-        "pl": "Ani darowizny partyjne, ani ustawa o transparentności nie są wspomniane w programie",
-        "uk": "У програмі не йдеться ні про партійні пожертви, ні про закон про прозорість"
-      }
+        "en": "party donations and a dedicated lobby/transparency statute are not addressed",
+        "de": "Parteispenden und ein eigenes Lobby-/Transparenzgesetz werden nicht thematisiert",
+        "ru": "партийные пожертвования и отдельный закон о лобби/прозрачности не рассматриваются",
+        "tr": "parti bağışları ve ayrı bir lobi/şeffaflık yasası ele alınmıyor",
+        "pl": "darowizny partyjne i osobna ustawa lobbingowa/transparentności nie są poruszone",
+        "uk": "партійні пожертви та окремий закон про лобі/прозорість не розглядаються"
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "note": "kein Treffer zu Parteispendenregeln / Lobbyregister; Transparenz nur in anderen Kontexten"
+        }
+      ]
     },
     {
       "topicId": "party-donations-lobbying-and-transparency",
@@ -11369,15 +11985,21 @@
     {
       "topicId": "advertising-in-public-space-alcohol-tobacco-betting",
       "partyId": "cdu",
-      "stance": "mixed",
+      "stance": "none",
       "summary": {
-        "en": "Advertising is not addressed in the program",
-        "de": "Werbung wird im Programm nicht behandelt",
-        "ru": "темы рекламы в программе нет",
-        "tr": "Programda reklama değinilmez",
-        "pl": "Reklama nie jest poruszana w programie",
-        "uk": "Реклама в програмі не розглядається"
-      }
+        "en": "outdoor advertising and alcohol/tobacco/betting ads are not addressed",
+        "de": "Außenwerbung sowie Alkohol-, Tabak- und Glücksspielwerbung werden nicht thematisiert",
+        "ru": "наружная реклама и реклама алкоголя/табака/азартных игр не рассматриваются",
+        "tr": "açık hava reklamı ile alkol/tütün/bahis reklamı ele alınmıyor",
+        "pl": "reklama zewnętrzna oraz alkohol/tytoń/hazard nie są poruszone",
+        "uk": "зовнішня реклама та реклама алкоголю/тютюну/азартних ігор не розглядаються"
+      },
+      "sources": [
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "note": "kein Treffer zu Außenwerbung / Alkohol- Tabak- oder Glücksspielwerbung im öffentlichen Raum"
+        }
+      ]
     },
     {
       "topicId": "advertising-in-public-space-alcohol-tobacco-betting",
