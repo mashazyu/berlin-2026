@@ -1128,7 +1128,27 @@
         "tr": "Berlin mümkün olduğunca hızlı iklim nötr, yalnızca 2045 değil; 2030’a kadar kömür çıkışı; Fridays/Scientists for Future talepleriyle uyum",
         "pl": "Berlin klimatycznie neutralny jak najszybciej, nie dopiero 2045; odejście od węgla do 2030; w linii Fridays/Scientists for Future",
         "uk": "Берлін кліматично нейтральний якомога швидше, не лише до 2045; вугілля до 2030; у руслі Fridays/Scientists for Future"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Klimaneutrales Berlin",
+          "page": 3,
+          "quote": "schnellstmöglich klimaneutral werden und nicht erst im Jahr 2045, wie es die Senatsverwal tung aktuell vorsie ht. Berlin hat erheblichen Nach holbedarf beim Klimaschutz."
+        },
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Klimaneutrales Berlin",
+          "page": 4,
+          "quote": "Raus aus der Kohle bis 2030 und flächendeckender Ausbau von Photovoltaik- und Solaranlagen durch Abbau bürokratischer Hürden."
+        },
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Klimaneutrales Berlin",
+          "page": 3,
+          "quote": "Wir stellen uns beim Thema Klimawandel hinter die Forderungen der Bewegungen „Fridays for Future“ und „Scientists for Future“ und begrüßen ausdrücklich zivilgesellschaftliches Engagement im."
+        }
+      ]
     },
     {
       "topicId": "a100-construction",
@@ -1264,7 +1284,19 @@
         "tr": "A100 / TVO adlandırılmıyor; mobilite ÖPNV, bisiklet ve daha az araba — yeni araba odaklı yollar değil",
         "pl": "A100 / TVO nienazwane; mobilność: priorytet ÖPNV, roweru i mniej aut zamiast nowych dróg samochodowych",
         "uk": "A100 / TVO не названі; мобільність — пріоритет ÖPNV, велосипеда і менше авто замість нових автодоріг"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "note": "kein Treffer zu A100 / A 100; kein namentliches Autobahnprojekt"
+        },
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Mobilitätswende jetzt – Mobilitätsgesetz umsetzen, ÖPNV ausbauen",
+          "page": 5,
+          "quote": "Der Anteil des Autoverkehrs, der unsere Luft verschmutzt, muss zugunsten von schadstoffarmen Alternativen wie Fuß- und Radverkehr sowie ÖPNV verringert werden. Wir brauchen keine autogerechten, sondern menschengerechte Städte!"
+        }
+      ]
     },
     {
       "topicId": "road-construction",
@@ -1402,7 +1434,21 @@
         "tr": "hareketlilik projelerini çevresel ve kamu yararına göre önceliklendirmek; daha az araba trafiği",
         "pl": "priorytetyzować projekty mobilności według korzyści środowiskowych i publicznych; mniej ruchu samochodowego",
         "uk": "надати пріоритет проектам мобільності з екологічної та громадської користі; менше автомобільного руху"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Mobilitätswende jetzt – Mobilitätsgesetz umsetzen, ÖPNV ausbauen",
+          "page": 5,
+          "quote": "Die ÖDP verfolgt eine klare Linie: Motorisierter Individualverkehr soll so weit wie möglich vermieden, unvermeidbarer Verkehr auf umweltfreundliche Verkehrsmittel verlagert und der übrige Verkehr."
+        },
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Mobilitätswende jetzt – Mobilitätsgesetz umsetzen, ÖPNV ausbauen",
+          "page": 6,
+          "quote": "Radverkehrssteigerung durch den Umbau von Verkehrswegen für mehr und sicheren Radverkehr. Endlich ein ökologisch und ökonomisch nachhaltiges Verkehrskonzept!"
+        }
+      ]
     },
     {
       "topicId": "new-u-bahn-construction-line-extensions",
@@ -1540,7 +1586,15 @@
         "tr": "toplu taşıma genişlemesi, banliyölere S‑Bahn ve bölgesel ulaşım; daha sık sefer",
         "pl": "rozbudowa transportu publicznego, S-Bahn i transportu regionalnego do przedmieść; częstsze kursy",
         "uk": "розширення громадського транспорту, S-Bahn і регіонального транспорту до передмістя; більш часте обслуговування"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Mobilitätswende jetzt – Mobilitätsgesetz umsetzen, ÖPNV ausbauen",
+          "page": 6,
+          "quote": "Ausbau des ÖPNV, dazu auch S- und Regionalbahnverkehrs ins Berliner Umland und Verdichtung der Fahrplantakte."
+        }
+      ]
     },
     {
       "topicId": "cycling-infrastructure",
@@ -1678,7 +1732,15 @@
         "tr": "daha fazla ve daha güvenli bisiklet için sokakları yeniden tasarlamak; toplu taşıma aktarma noktalarında kapalı bisiklet parkı",
         "pl": "przebudowa ulic pod więcej i bezpieczniejszą jazdę rowerem; zadaszone parkingi rowerowe przy węzłach transportu publicznego",
         "uk": "перепланування вулиць для більшого та безпечнішого велосипедного руху; криті стоянки для велосипедів у вузлах громадського транспорту"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Mobilitätswende jetzt – Mobilitätsgesetz umsetzen, ÖPNV ausbauen",
+          "page": 6,
+          "quote": "Radverkehrssteigerung durch den Umbau von Verkehrswegen für mehr und sicheren Radverkehr. Endlich ein ökologisch und ökonomisch nachhaltiges Verkehrskonzept!"
+        }
+      ]
     },
     {
       "topicId": "parking",
@@ -1828,7 +1890,15 @@
         "tr": "çevrede daha fazla ücretsiz P+R park yeri; aktarma istasyonlarında güvenli kapalı bisiklet parkı",
         "pl": "więcej darmowych miejsc P+R na peryferiach; bezpieczne zadaszone parkingi rowerowe przy stacjach przesiadkowych",
         "uk": "більше вільних паркомісць P+R на периферії; безпечні криті стоянки для велосипедів на пересадочних станціях"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Mobilitätswende jetzt – Mobilitätsgesetz umsetzen, ÖPNV ausbauen",
+          "page": 6,
+          "quote": "Mehr kostenlose P+R Parkplätze in der Peripherie.  Keine Privatisierung und Zerschlagung der S -Bahn! Sofortige R ücknahme der Ausschreibung der Berliner S -Bahn."
+        }
+      ]
     },
     {
       "topicId": "ev-charging",
@@ -1972,7 +2042,25 @@
         "tr": "EV şarj altyapısı ele alınmıyor; mobilite ÖPNV, bisiklet, City-Maut ve P+R",
         "pl": "infrastruktura ładowania EV nieporuszana; mobilność: ÖPNV, rower, City-Maut i P+R",
         "uk": "зарядна інфраструктура EV не згадується; мобільність — ÖPNV, велосипед, City-Maut і P+R"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "note": "kein Treffer zu Ladeinfrastruktur / Wallbox / E-Laden"
+        },
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Mobilitätswende jetzt – Mobilitätsgesetz umsetzen, ÖPNV ausbauen",
+          "page": 6,
+          "quote": "Ausbau des ÖPNV, dazu auch S- und Regionalbahnverkehrs ins Berliner Umland und Verdichtung der Fahrplantakte."
+        },
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Mobilitätswende jetzt – Mobilitätsgesetz umsetzen, ÖPNV ausbauen",
+          "page": 6,
+          "quote": "Einführung einer sozialverträglichen City-Maut."
+        }
+      ]
     },
     {
       "topicId": "tempelhofer-feld-development-edge-development",
@@ -2110,7 +2198,15 @@
         "tr": "Volksentscheid’e göre Tempelhofer Feld’i boş kamu rekreasyon alanı olarak tutmak; kenar yapılaşmayı reddetmek; havalimanı binasının kısmen konuta çevrilmesine izin",
         "pl": "utrzymać Tempelhofer Feld niezabudowane jako publiczną rekreację wg Volksentscheid; odrzucać zabudowę krawędzi; dopuścić częściową konwersję budynku lotniska na mieszkania",
         "uk": "зберегти Tempelhofer Feld незабудованим як публічну рекреацію за Volksentscheid; відхиляти крайову забудову; дозволити часткову конверсію будівлі аеропорту в квартири"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Gemeinwohlökonomie für Berlin",
+          "page": 11,
+          "quote": "Erhalt und Nutzung des Tempelhofer Feldes auf der Basis des Berliner Volksentscheides: Erhalt der Fläche für die Öffentlichkeit als Freizeit- und Erholungsraum, keine Be bauung, jedoch."
+        }
+      ]
     },
     {
       "topicId": "large-scale-tree-planting-and-or-tree-care",
@@ -2248,7 +2344,21 @@
         "tr": "kentsel ağaçlar, çitler ve odunsu bitkilerin yuvalanma yeri ve hayvan habitatı olarak korunması",
         "pl": "ochrona drzew miejskich, żywopłotów i zadrzewień jako miejsc lęgowych i siedlisk zwierząt",
         "uk": "захист міських дерев, живоплотів і деревних рослин як місць гніздування та проживання тварин"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Klimaneutrales Berlin",
+          "page": 3,
+          "quote": "Straßenbäume leiden auch an den Folgen des Klimawandels. Bisher bei uns hei mische Baumarten werden hier nicht überleben."
+        },
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Öffentliches Wassermanagement",
+          "page": 21,
+          "quote": "Straßenbäumen und Parkanlagen. Davon zu unterscheiden ist Niederschlagswasser, das z. B. auf Straßen oder Gewerbefl ächen fällt."
+        }
+      ]
     },
     {
       "topicId": "heat-protection",
@@ -2386,7 +2496,15 @@
         "tr": "ayrı Hitzeplan yok; parklar, ağaçlar ve kentsel yeşil/su buharlaşmasıyla soğuma artı yağmur suyu yönetimi — soğutma odası/çeşme paketi değil",
         "pl": "brak osobnego Hitzeplanu; chłodzenie przez parki, drzewa i parowanie zieleni/wód oraz zarządzanie deszczówką — nie pakiet chłodni/fontann",
         "uk": "окремого Hitzeplan немає; охолодження через парки, дерева й випаровування зелені/водойм плюс управління дощовою водою — не пакет охолоджувальних кімнат/фонтанів"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Öffentliches Wassermanagement",
+          "page": 20,
+          "quote": "Verdunstungseffekte eine Befeuchtung und Abkühlung im Sommer. Parks und Bäume sind für ein gesundes Stadtklima wichtig."
+        }
+      ]
     },
     {
       "topicId": "sponge-city-rainwater-retention-unsealing-surfaces",
@@ -2524,7 +2642,15 @@
         "tr": "depolama ve drenaj sistemlerinin modernizasyonu; çatı yağmur suyunu ağaç ve park sulamak için kullanmak; yağmur suyu tutma sistemlerine mali destek",
         "pl": "modernizacja systemów retencji i odprowadzania; wykorzystanie wody deszczowej z dachów do podlewania drzew i parków; wsparcie finansowe systemów retencji wody deszczowej",
         "uk": "модернізація накопичувальних та водовідливних систем; використовувати дощову воду з даху для поливу дерев і парків; фінансова підтримка систем утримання дощової води"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Öffentliches Wassermanagement",
+          "page": 21,
+          "quote": "Regenwasser ist eine Ressource! Nutzung von Regenwasser, das auf Gebäude fällt, für die Bewässerung von Straßenbäumen und Parkanlagen. Davon zu unterscheiden ist Niederschlagswasser, das z. B."
+        }
+      ]
     },
     {
       "topicId": "zero-waste-waste-prevention",
@@ -2680,7 +2806,21 @@
         "tr": "Pfand/iade yükümlülüğünü tüm Mehrweg ambalaj türlerine ve daha fazla tek kullanımlığa genişletmek; ambalajsız ticareti teşvik; sorunlu ambalaja karşı Bundesrat; greenwashing’siz döngüsel ekonomi",
         "pl": "rozszerzyć kaucję/odbiór na wszystkie opakowania Mehrweg i więcej pojemników jednorazowych; wspierać handel bez opakowań; inicjatywa Bundesratu przeciw problematycznym opakowaniom; gospodarka obiegu bez greenwashingu",
         "uk": "розширити заставу/повернення на всі типи Mehrweg-упаковки й більше не-багаторазових контейнерів; просувати торгівлю без упаковки; ініціатива в Бундесраті проти проблемної упаковки; циркулярна економіка без грінвошингу"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Ökologische Abfallwirtschaft für Berlin",
+          "page": 18,
+          "quote": "Einsatz der Landesregierung für eine Ausweitung der Pfand- und Rücknahmepflicht auf alle mehrwegfähigen Verpackungsarten im Handel sowie Ausweitung der Rücknahme- bzw."
+        },
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Ökologische Abfallwirtschaft für Berlin",
+          "page": 17,
+          "quote": "Kreislaufwirtschaft ohne Greenwashing! Ressourcen sparen und die Ausbeutung der Natur stoppen – das sind die Ziele einer ökologischen Kreislaufwirtschaft."
+        }
+      ]
     },
     {
       "topicId": "bsr-waste-collection-and-infrastructure",
@@ -2824,7 +2964,15 @@
         "tr": "hizmet odaklı imha: iri atık ve tehlikeli atık için merkezi olmayan noktalar",
         "pl": "utylizacja zorientowana na usługę: zdecentralizowane punkty dla gabarytów i odpadów niebezpiecznych",
         "uk": "сервісно-орієнтована утилізація: децентралізовані пункти прийому великогабаритних та небезпечних відходів"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Ökologische Abfallwirtschaft für Berlin",
+          "page": 18,
+          "quote": "Ortsnahe Wiederaufbereitung - Ziel: eine zirkuläre Wirtschaft mit Förder ung von verpackungsfreiem Warenverkehr."
+        }
+      ]
     },
     {
       "topicId": "cleanliness-enforcement-litter",
@@ -2968,7 +3116,15 @@
         "tr": "yasadışı döküm, atık ihracatı ve depolamaya karşı; daha iyi denetim ve yaptırımlar; yeniden kullanım ve geri dönüşüme destek",
         "pl": "przeciw nielegalnemu wyrzucaniu, eksportowi odpadów i składowaniu; lepsza egzekucja i sankcje; wsparcie ponownego użycia i recyklingu",
         "uk": "проти незаконного звалища, вивезення та захоронення відходів; краще правозастосування та санкції; підтримка повторного використання та переробки"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Ökologische Abfallwirtschaft für Berlin",
+          "page": 17,
+          "quote": "deponiert oder unter Tage gebracht . So werden wertvolle Rohstoffe verschwendet und es können Dioxine und andere giftige Altlasten entstehen."
+        }
+      ]
     },
     {
       "topicId": "solar-energy-photovoltaics",
@@ -3106,7 +3262,15 @@
         "tr": "bürokratik engelleri kaldırarak fotovoltaik ve güneş tesisatlarını genişletmek; tüm kamu bina çatılarında PV",
         "pl": "rozbudowa fotowoltaiki i instalacji solarnych przez usuwanie barier biurokratycznych; PV na wszystkich dachach budynków publicznych",
         "uk": "розширення фотоелектричних і сонячних установок шляхом усунення бюрократичних бар'єрів; PV на дахах усіх громадських будівель"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Klimaneutrales Berlin",
+          "page": 4,
+          "quote": "Raus aus der Kohle bis 2030 und flächendeckender Ausbau von Photovoltaik- und Solaranlagen durch Abbau bürokratischer Hürden."
+        }
+      ]
     },
     {
       "topicId": "wind-energy",
@@ -3244,7 +3408,19 @@
         "tr": "Berlin’de rüzgar enerjisi ele alınmıyor; yenilenebilir vurgu fotovoltaik ve Solaranlagen",
         "pl": "energia wiatrowa w Berlinie nieporuszana; nacisk OZE na fotowoltaikę i Solaranlagen",
         "uk": "вітрова енергія в Берліні не згадується; акцент ВДЕ — фотовольтаїка та сонячні установки"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "note": "kein Treffer zu Windenergie / Windkraft in Berlin"
+        },
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Klimaneutrales Berlin",
+          "page": 4,
+          "quote": "Raus aus der Kohle bis 2030 und flächendeckender Ausbau von Photovoltaik- und Solaranlagen durch Abbau bürokratischer Hürden. Photovoltaikanlagen auf allen Dächern öffentlicher Gebäude könnten hier einen relevanten und sichtbaren Beitrag leisten."
+        }
+      ]
     },
     {
       "topicId": "gas-gas-network",
@@ -3382,7 +3558,21 @@
         "tr": "2030’a kadar kömür çıkışı; BEW’nin 2040’a kadar gazı „fosil-free“ hidrojene çevirme planını somut plansız diye eleştirir — genel gaz şebekesi çıkışı yok",
         "pl": "odejście od węgla do 2030; krytykuje plan BEW do 2040 na wodór „bezfosilny” jako bez konkretów — brak ogólnego wyjścia z sieci gazowej",
         "uk": "вугілля до 2030; критикує план BEW до 2040 перевести газові ТЕС на «безфосильний» водень як без конкретних планів — загального виходу з газової мережі немає"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Klimaneutrales Berlin",
+          "page": 3,
+          "quote": "Gaskraftwerke auf „fossilfreien“ Wasserstoff, die von der landeseigenen BEW bis 2040 angekündigt wurde, fehlt es bislang noch an konkreten und praktikablen Umsetzungsplänen."
+        },
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Klimaneutrales Berlin",
+          "page": 4,
+          "quote": "Raus aus der Kohle bis 2030 und flächendeckender Ausbau von Photovoltaik- und Solaranlagen durch Abbau bürokratischer Hürden."
+        }
+      ]
     },
     {
       "topicId": "hydrogen",
@@ -3526,7 +3716,15 @@
         "tr": "BEW gaz santrallerinin 2040’a kadar „fosil-free“ hidrojene dönüşümü için somut uygulanabilir planların hâlâ eksik olduğunu not eder",
         "pl": "zauważa, że zapowiedziana do 2040 konwersja elektrowni gazowych BEW na „bezfosilny” wodór wciąż nie ma konkretnych, wykonalnych planów",
         "uk": "зазначає, що оголошена до 2040 конверсія газових ТЕС BEW на «безфосильний» водень досі без конкретних здійсненних планів"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Klimaneutrales Berlin",
+          "page": 3,
+          "quote": "Wasserstoff, die von der landeseigenen BEW bis 2040 angekündigt wurde, fehlt es bislang noch an konkreten und praktikablen Umsetzungsplänen."
+        }
+      ]
     },
     {
       "topicId": "heat-pumps",
@@ -3676,7 +3874,19 @@
         "tr": "Wärmepumpe ele alınmıyor; ısı bölümü eski yapılarda Wärmewende ve Plusenergiehaus düzeyinde yenilere odaklanır",
         "pl": "pompy ciepła nieporuszane; rozdział ciepła: Wärmewende w starych budynkach i nowe na poziomie Plusenergiehaus",
         "uk": "теплові насоси не згадуються; розділ про тепло — Wärmewende в старих будинках і новобудови рівня Plusenergiehaus"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "note": "kein Treffer zu Wärmepumpe"
+        },
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Klimaneutrales Berlin",
+          "page": 4,
+          "quote": "Wärmewende bei Altbauten vorantreiben. Neubauten am gesetzlichen Plusenergiehaus-Niveau anlehnen, für eine bezirksweise Versorgung mit erneuerbarer Energie."
+        }
+      ]
     },
     {
       "topicId": "heating-supply-networks-decarbonization-and-or-transformation",
@@ -3814,7 +4024,15 @@
         "tr": "eski yapılarda Wärmewende; kiracıya ek yük olmadan renovasyonla iklim nötr binalar; 2030’a kadar kömür çıkışı; Plusenergiehaus’a yakın yeni yapılar — ayrıntılı Fernwärme planı yok",
         "pl": "przyspieszać Wärmewende w starych budynkach; budynki klimatycznie neutralne przez modernizację bez obciążania najemców; odejście od węgla do 2030; nowe blisko Plusenergiehaus — brak szczegółowego planu Fernwärme",
         "uk": "просувати теплову хвилю в старих будинках; кліматично нейтральні будівлі санацією без допнавантаження на орендарів; вугілля до 2030; новобудови близько Plusenergiehaus — детального плану рекомуналізації Fernwärme немає"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Klimaneutrales Berlin",
+          "page": 4,
+          "quote": "Klimaneutralität im Gebäudesektor durch Sanierung des vorhandenen Gebäudebestands, ohne dabei die Mieter finanziell mehr zu belasten.  Wärmewende bei Altbauten vorantreiben."
+        }
+      ]
     },
     {
       "topicId": "nuclear-energy",
@@ -3950,7 +4168,13 @@
         "tr": "Berlin eyalet programında ele alınmıyor",
         "pl": "nieporuszane w berlińskim programie landowym",
         "uk": "у берлінській земельній програмі не згадується"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "note": "kein Treffer zu Kernenergie / Atomkraft / Atomenergie"
+        }
+      ]
     },
     {
       "topicId": "animal-protection",
@@ -4088,7 +4312,21 @@
         "tr": "Tempelhofer Feld, ağaçlar, çalılar, ormanlar ve su kütleleri habitat olarak; araştırma amaçlı hayvan deneyleri yasağı; hayvansız araştırma kürsüsü",
         "pl": "Tempelhofer Feld, drzewa, żywopłoty, lasy i zbiorniki wodne jako siedliska; zakaz eksperymentów na zwierzętach w celach badawczych; katedra badań bez zwierząt",
         "uk": "Tempelhofer Feld, дерева, живоплоти, ліси та водойми як середовища проживання; заборона випробувань на тваринах для дослідницьких цілей; крісло для досліджень без тварин"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Biologische Vielfalt, nachhaltige Landwirtschaft und Tierschutz",
+          "page": 22,
+          "quote": "Tierschutz Erfolgreiche Politik mit dem Volksbegehren zur Artenvielfalt und der Bienenrettung machten die ÖDP deutschlandweit bekannt."
+        },
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Gemeinwohlökonomie für Berlin",
+          "page": 11,
+          "quote": "Erhalt und Nutzung des Tempelhofer Feldes auf der Basis des Berliner Volksentscheides: Erhalt der Fläche für die Öffentlichkeit als Freizeit- und Erholungsraum, keine Be bauung, jedoch."
+        }
+      ]
     },
     {
       "topicId": "housing-rent-regulation-mietendeckel",
@@ -4226,7 +4464,15 @@
         "tr": "Wuchermieten ve spekülasyona karşı adil Mietrecht; konut öncelikle yatırımcıya hizmet etmemeli — açık Mietendeckel yok",
         "pl": "sprawiedliwe Mietrecht przeciw lichwiarskim czynszom i spekulacji; mieszkanie nie ma służyć inwestorom — brak jawnego Mietendeckla",
         "uk": "справедливе Mietrecht проти лихварської оренди та житлової спекуляції; житло не має служити інвесторам — явного Mietendeckel немає"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "L(i)ebenswertes Berlin – sicher und bezahlbar wohnen",
+          "page": 9,
+          "quote": "Die ÖDP setzt sich für ein faires Mietrecht ein. Wuchermieten und Immobilienspekulation zu Lasten der Menschen in dieser Stadt müssen verhindert werden."
+        }
+      ]
     },
     {
       "topicId": "housing-new-construction-and-targets",
@@ -4364,7 +4610,21 @@
         "tr": "daha fazla Nachverdichtung'a karşı ve Kleingärten'i korumaktan yana; belediye arsaları yalnızca belediye ve kooperatif konutu için, konut ofislere öncelikli; boş sanayi binalarını konuta dönüştürmek; hedef: “kısa mesafeler kenti” (15 dakikalık kent)",
         "pl": "przeciw dalszemu Nachverdichtung i za zachowaniem Kleingärten; działki komunalne tylko pod mieszkania komunalne i spółdzielcze, mieszkania mają pierwszeństwo przed biurami; przekształcać puste budynki przemysłowe w mieszkania; cel: „miasto krótkich dystansów” (15-minutowe miasto)",
         "uk": "проти подальшого Nachverdichtung і за збереження Kleingärten; муніципальні ділянки тільки для муніципального та кооперативного житла, житло має пріоритет над офісами; переобладнати пустуючі промислові будівлі під житлові приміщення; мета: «місто на короткі відстані» (місто за 15 хвилин)"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "L(i)ebenswertes Berlin – sicher und bezahlbar wohnen",
+          "page": 9,
+          "quote": "Nachverdichtung darf nicht maßlos fortgesetzt werden und die bestehenden Grünflächen sowie Kleingärten gefährden. Wohnraum muss Vorrang vor Gewerbe- und Büroflächen haben."
+        },
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Gemeinwohlökonomie für Berlin",
+          "page": 10,
+          "quote": "sozialen Wohnungsbaus in städtischer Trägerschaft ist dringend notwendig. Eine sichere und liebenswerte Stadt benötigt auch eine angemessene Ausstattung von Polizei, Feuerwehr und Justizbehörden."
+        }
+      ]
     },
     {
       "topicId": "housing-socialization-of-large-landlords",
@@ -4502,7 +4762,15 @@
         "tr": "arazi spekülasyonuna karşı vergi; sosyalleştirme açıkça belirtilmiyor, ancak önemli kamu malları “istisnasız kamuya geri dönmeli”",
         "pl": "podatek przeciw spekulacji gruntami; uspołecznienie nie jest sformułowane wprost, ale ważne dobra publiczne „muszą bez wyjątków wrócić do własności publicznej”",
         "uk": "податок проти спекуляції землею; про соціалізацію прямо не сказано, але важливі суспільні блага «повинні повернутися до суспільної власності без винятку»"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "L(i)ebenswertes Berlin – sicher und bezahlbar wohnen",
+          "page": 11,
+          "quote": "Bodenspekulation auf ausgewiesene Baulandbrachen.  Erhalt und Nutzung des Tempelhofer Feldes auf der Basis des Berliner Volksentscheides: Erhalt der Fläche für die Öffentlichkeit als Freizeit- und."
+        }
+      ]
     },
     {
       "topicId": "housing-municipal-stock-social-housing-wbs",
@@ -4646,7 +4914,15 @@
         "tr": "belediye yönetimi altında sosyal konutu canlandırmak ve genişletmek, belediye şirketleri ve kooperatifleri güçlendirmek, kamu arazi ve gayrimenkul satışında onlara öncelik vermek",
         "pl": "odrodzenie i rozbudowa mieszkań socjalnych pod zarządem komunalnym, wzmocnienie spółek komunalnych i spółdzielni, z pierwszeństwem przy sprzedaży publicznych gruntów i nieruchomości",
         "uk": "Відродження та розширення соціального житла під муніципальним управлінням, зміцнення муніципальних компаній і кооперативів, надання їм пріоритету при продажу державної землі та нерухомості"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Gemeinwohlökonomie für Berlin",
+          "page": 10,
+          "quote": "sozialen Wohnungsbaus in städtischer Trägerschaft ist dringend notwendig. Eine sichere und liebenswerte Stadt benötigt auch eine angemessene Ausstattung von Polizei, Feuerwehr und Justizbehörden."
+        }
+      ]
     },
     {
       "topicId": "housing-vacancy-tourist-apartments-speculation",
@@ -4790,7 +5066,15 @@
         "tr": "Bauland olarak ayrılmış boş arsalarda spekülasyona karşı vergi; boş sanayi binalarını konuta çevirmek — ayrı Zweckentfremdung/Ferienwohnungen bölümü yok",
         "pl": "podatek przeciw spekulacji gruntami na wyznaczonych Baulandbrachen; puste budynki przemysłowe na mieszkania — brak osobnego rozdziału Zweckentfremdung/Ferienwohnungen",
         "uk": "податок проти земельної спекуляції на виділених будівельних пустках; порожні промбудівлі в житло — окремого розділу Zweckentfremdung/Ferienwohnungen немає"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Gemeinwohlökonomie für Berlin",
+          "page": 11,
+          "quote": "Vermeidung weiterer Flächenverdichtung, brachliegende Industriebauten umwandeln zu Wohnraum, Bestandschutz von Schrebergärten."
+        }
+      ]
     },
     {
       "topicId": "housing-ownership-conversion-of-rental-apartments-into-condominiums-evic",
@@ -4928,7 +5212,19 @@
         "tr": "odak ev satın alma değil, arazinin kamu mülkiyetinde tutulması; program kiralık dairelerin mülkiyete dönüşümü veya “kişisel kullanım” tahliyeleri hakkında bir şey söylemiyor",
         "pl": "fokus nie na zakupach mieszkań, lecz na utrzymaniu gruntów we własności publicznej; program nic nie mówi o przekształcaniu mieszkań na wynajem w Eigentumswohnungen ani o eksmisjach z powodu „Eigenbedarf”",
         "uk": "його фокус — не купівля житла, а збереження землі у державній власності; у програмі нічого не говориться про перетворення орендованих квартир на кондомініуми чи виселення для «особистого користування»"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Gemeinwohlökonomie für Berlin",
+          "page": 10,
+          "quote": "städtischer Trägerschaft ist dringend notwendig. Eine sichere und liebenswerte Stadt benötigt auch eine angemessene Ausstattung von Polizei, Feuerwehr und Justizbehörden."
+        },
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "note": "kein Treffer zu Umwandlung Miet-→Eigentum oder Eigenbedarfskündigung; Schwerpunkt öffentliches/genossenschaftliches Wohnen"
+        }
+      ]
     },
     {
       "topicId": "housing-tax-on-the-first-property-purchase",
@@ -5066,7 +5362,19 @@
         "tr": "ilk ev alımı için ayrı istisna yok; öncelik kamuda arazi ve konut, kooperatif konutu ve belediye konutu",
         "pl": "brak osobnej ulgi na zakup pierwszego mieszkania; priorytetem grunty i mieszkania w rękach publicznych, budownictwo spółdzielcze i komunalne",
         "uk": "окремої допомоги на придбання першого житла немає; пріоритетом є державна земля та житло, кооперативне та муніципальне житло"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Gemeinwohlökonomie für Berlin",
+          "page": 10,
+          "quote": "städtischer Trägerschaft ist dringend notwendig. Eine sichere und liebenswerte Stadt benötigt auch eine angemessene Ausstattung von Polizei, Feuerwehr und Justizbehörden."
+        },
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "note": "kein Treffer zu Grunderwerbsteuer-Freibetrag / Ersterwerb"
+        }
+      ]
     },
     {
       "topicId": "housing-evictions-and-homelessness",
@@ -5210,7 +5518,21 @@
         "tr": "evsizlikle aktif mücadele; tüm kuşaklar için konut ve yaşlılar için daha fazla engelsiz daire",
         "pl": "aktywnie zwalczać bezdomność; mieszkania dla wszystkich pokoleń i więcej mieszkań bez barier dla starszych osób",
         "uk": "Активно боротися з бездомністю; житло для всіх поколінь і більше безбар’єрних квартир для літніх людей"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Gemeinwohlökonomie für Berlin",
+          "page": 11,
+          "quote": "Wohnungs- und Obdachlosigkeit muss aktiv bekämpft werden."
+        },
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Berlin – sozial und solidarisch",
+          "page": 14,
+          "quote": "Generationen, denn Bildung schafft Chancengleichheit und wirkt inklusiv."
+        }
+      ]
     },
     {
       "topicId": "security-police-in-neighborhoods",
@@ -5354,7 +5676,15 @@
         "tr": "polis, itfaiye ve yargı için uygun personel ve ekipman, “tüm Kieze için eşit hukuki güvenlik,” Kontaktbeamte ve sokaklarda bisiklet birimleri",
         "pl": "właściwa obsada i wyposażenie policji, straży pożarnej i wymiaru sprawiedliwości, „równa pewność prawa dla wszystkich Kieze,” Kontaktbeamte i jednostki rowerowe na ulicach",
         "uk": "Належне укомплектування та обладнання для поліції, пожежної служби та судової системи, «рівна правова визначеність для всіх Kieze», Kontaktbeamte та велосипедні одиниці на вулицях"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "L(i)ebenswertes Berlin – sicher und bezahlbar wohnen",
+          "page": 10,
+          "quote": "Polizei, Feuerwehr und Justizbehörden. Dies muss auch in Berlin gewährleistet sein. Die Berliner Verwaltung muss schneller und effizienter werden."
+        }
+      ]
     },
     {
       "topicId": "security-video-surveillance-and-biometrics",
@@ -5492,7 +5822,19 @@
         "tr": "programda kamera yok, ancak kapsamlı veri koruma, “şeffaf vatandaş yok” ve telekomünikasyon sağlayıcılarının meta verileri kendi amaçları için kullanmasının yasaklanmasını ister",
         "pl": "brak kamer w programie, ale wymaga kompleksowej ochrony danych, „żadnych przejrzystych obywateli,” oraz zakazu wykorzystywania metadanych przez operatorów telekomunikacyjnych do własnych celów",
         "uk": "камер у програмі немає, але вимагають повного захисту даних, заборони «прозорого громадянина» (держава не повинна бачити все приватне життя) і заборони операторам зв’язку використовувати метадані у власних цілях"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Mobilfunk – gesundheits- und umweltverträglich sowie datenschutzkonform gestalten",
+          "page": 24,
+          "quote": "datenschutzkonform gestalten Die Nutzung des Mobilfunks, WLAN und anderer Funktechniken erleichtert und bereichert das Leben vieler Menschen."
+        },
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "note": "kein Treffer zu Videoüberwachung / Gesichtserkennung / Biometrie"
+        }
+      ]
     },
     {
       "topicId": "security-suspicionless-checks-and-controversial-powers",
@@ -5634,7 +5976,19 @@
         "tr": "sebepsiz kontroller programda ele alınmıyor; vurgu tüm mahalleler için eşit hukuki güvenlik",
         "pl": "kontrole bezpodstawne nie są omówione w programie; nacisk na równą pewność prawa dla wszystkich dzielnic",
         "uk": "теми перевірок без підозри в програмі немає; акцент на рівній правовій визначеності для всіх районів"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "L(i)ebenswertes Berlin – sicher und bezahlbar wohnen",
+          "page": 10,
+          "quote": "Polizei, Feuerwehr und Justizbehörden. Dies muss auch in Berlin gewährleistet sein. Die Berliner Verwaltung muss schneller und effizienter werden."
+        },
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "note": "kein Treffer zu verdachtsunabhängigen/anlasslosen Kontrollen"
+        }
+      ]
     },
     {
       "topicId": "security-organized-crime-and-money",
@@ -5772,7 +6126,19 @@
         "tr": "Programda organize suç ve kara para aklamaya karşı ayrı önlem yok; en yakın öneri şirket ve çıkar gruplarından parti bağışlarının tamamen yasaklanması ile idari işlemde tam şeffaflık",
         "pl": "w programie brak osobnych środków przeciw przestępczości zorganizowanej i praniu pieniędzy; najbliższa propozycja to całkowity zakaz darowizn partyjnych od firm i grup interesu oraz pełna przejrzystość działań administracji",
         "uk": "окремих заходів проти організованої злочинності та відмивання грошей у програмі немає; найближча пропозиція – повна заборона партійних пожертвувань від компаній і груп інтересів і повна прозорість адміністративних дій"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Demokratie fördern – Berlin transparent und bürgernah",
+          "page": 13,
+          "quote": "Einführung eines Verbots für alle im Abgeordnetenhaus vertretenen Parteien, Parteispenden von Unternehmen und Interessenverbänden anzunehmen."
+        },
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "note": "kein Treffer zu organisierter Kriminalität / Geldwäsche als Sicherheitsthema"
+        }
+      ]
     },
     {
       "topicId": "security-oversight-prevention-support-for-victims",
@@ -5910,7 +6276,15 @@
         "tr": "Sosyal hizmetler ve sağlıkta önlemeyi önemli ölçüde genişletmek; erken önleme olarak okullarda eğitimciler, sosyal çalışanlar ve psikologlarla yeterli kadro",
         "pl": "Znaczne rozszerzenie profilaktyki w usługach społecznych i ochronie zdrowia; wystarczająca kadra pedagogów, pracowników socjalnych i psychologów w szkołach jako wczesna profilaktyka",
         "uk": "Суттєво розширити профілактику в соціальних службах та охороні здоров'я; відповідне кадрове забезпечення шкіл педагогами, соціальними працівниками, психологами як рання профілактика"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Berlin – sozial und solidarisch",
+          "page": 15,
+          "quote": "Berlin als Hauptstadt sollte Vorbild werden in Sachen Nichtraucherschutz und Drogenprävention."
+        }
+      ]
     },
     {
       "topicId": "kitas-access-and-quality",
@@ -6048,7 +6422,15 @@
         "tr": "“Nicelikten çok nitelik” ve Kita'da eğitim kalitesinin değerlendirmesi, gerçek seçim özgürlüğü olarak ebeveynlere Erziehungsgehalt; iki dilli çocuklara eğitimli personelle hedefli destek",
         "pl": "„Jakość ponad ilość” i ocena jakości edukacyjnej w Kita, Erziehungsgehalt dla rodziców jako prawdziwa wolność wyboru; ukierunkowane wsparcie dzieci dwujęzycznych przez przeszkolony personel",
         "uk": "«Якість над кількістю» та оцінка якості освіти в Kita, Erziehungsgehalt для батьків як справжня свобода вибору; цілеспрямована підтримка двомовних дітей підготовленим персоналом"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Impulse für Bildung, Kultur und Freizeit setzen",
+          "page": 26,
+          "quote": "Kitas und Schulen stärken! Bildung ist einer der wichtigsten Schlüssel für das spätere Leben - hier darf nicht gespart w erden."
+        }
+      ]
     },
     {
       "topicId": "schools-language-and-preparation-for-first-grade",
@@ -6186,7 +6568,15 @@
         "tr": "“Entegrasyon dil engellerini kaldırmak demektir”: iki dilli çocuklara erken eğitim fırsatları ve ebeveyn-çocuk grupları ile Kita'larda eğitimli personelle her iki dilin desteklenmesi",
         "pl": "„Integracja oznacza usuwanie barier językowych”: wczesne szanse edukacyjne dla dzieci dwujęzycznych i wsparcie obu języków przez przeszkolony personel w grupach rodzic–dziecko i Kita",
         "uk": "«Інтеграція означає усунення мовних бар’єрів»: ранні освітні можливості для двомовних дітей і підтримка обох мов навченим персоналом у групах «батьки-дитина» та Kitas"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Impulse für Bildung, Kultur und Freizeit setzen",
+          "page": 27,
+          "quote": "Integration fördern heißt Sprachbarrieren abbauen: Frühe Bildungschancen für zweisprachige Kinder , Fremdsprachförderung bei kleinen Kindern."
+        }
+      ]
     },
     {
       "topicId": "schools-structure-and-requirements",
@@ -6324,7 +6714,15 @@
         "tr": "Okulun merkezi görevi olarak “Herz und Verstand”, Kopiergeld olmadan ücretsiz öğrenme materyalleri; tüm duyular için dersler — müzik, medya okuryazarlığı, yemek, el sanatları, tiyatro, okul bahçesi",
         "pl": "„Herz und Verstand” jako centralne zadanie szkoły, bezpłatne materiały dydaktyczne bez Kopiergeld; lekcje dla wszystkich zmysłów — muzyka, kompetencje medialne, gotowanie, rękodzieło, teatr, ogród szkolny",
         "uk": "«Herz und Verstand» як головне завдання школи, безкоштовні навчальні матеріали без Kopiergeld; уроки для всіх почуттів — музика, медіаграмотність, кулінарія, рукоділля, театр, шкільний сад"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Impulse für Bildung, Kultur und Freizeit setzen",
+          "page": 26,
+          "quote": "Herz und Verstand“ auszubilden ist die wichtigste Aufgabe der Schulen, verfrühter oder übermäßiger Einsatz digitaler Medien, wie er neuerdings propagiert wird, lenkt genau davon ab und stört die."
+        }
+      ]
     },
     {
       "topicId": "schools-staff-social-work-screens",
@@ -6462,7 +6860,15 @@
         "tr": "İlkokulda erken ve aşırı dijital öğrenmeye karşı — çocukların motor ve duyusal deneyimlere ve gerçek insanlarla ekip çalışmasına ihtiyacı var; eğitimci, sosyal çalışan ve psikologlarla yeterli kadro; yabancı diplomaların tanınmasındaki bürokrasiyi kaldırarak ve taşınma ödeneğiyle öğretmen almak",
         "pl": "Przeciw wczesnej i nadmiernej cyfrowej nauce w szkole podstawowej — dzieci potrzebują doświadczeń motorycznych i sensorycznych oraz pracy zespołowej z prawdziwymi ludźmi; wystarczająca kadra pedagogów, pracowników socjalnych i psychologów; rekrutacja nauczycieli przez usunięcie biurokracji przy uznawaniu dyplomów zagranicznych i zasiłek relocacyjny",
         "uk": "Проти раннього та надмірного цифрового навчання в початковій школі — дітям потрібні моторні та сенсорні враження та командна робота з реальними людьми; належне кадрове забезпечення вихователями, соціальними працівниками, психологами; набирати вчителів шляхом усунення бюрократії у визнанні іноземних дипломів та надання допомоги на переїзд"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Impulse für Bildung, Kultur und Freizeit setzen",
+          "page": 27,
+          "quote": "Die ÖDP Berlin fordert für die Schulen eine adäquate Personalstruktur von Pädagog innen, Sozialarbeitern und Psychologinnen."
+        }
+      ]
     },
     {
       "topicId": "shortage-of-qualified-professionals",
@@ -6600,7 +7006,15 @@
         "tr": "Yabancı diplomaların tanınmasındaki bürokrasiyi kaldırarak ve taşınma ödeneğiyle öğretmen almak; genel odak eğitimci, sosyal çalışan ve psikologlarla yeterli kadro",
         "pl": "rekrutacja nauczycieli przez usunięcie biurokracji przy uznawaniu dyplomów zagranicznych i zasiłek relocacyjny; ogólny nacisk na wystarczającą kadrę pedagogów, pracowników socjalnych i psychologów",
         "uk": "набрати вчителів шляхом усунення бюрократії у визнанні іноземних дипломів та надання допомоги на переїзд; загальна увага до належного кадрового забезпечення педагогами, соціальними працівниками та психологами"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Impulse für Bildung, Kultur und Freizeit setzen",
+          "page": 27,
+          "quote": "Gewinnung von mehr Lehrpersonal durch Bürokratieabbau bei Anerkennung ausländischer Abschlüsse. Festzuschuss zum Umzug für Lehrerinnen und Lehrer, die für Ihren Job nach Berlin ziehen."
+        }
+      ]
     },
     {
       "topicId": "vocational-education-and-dual-training",
@@ -6738,7 +7152,15 @@
         "tr": "Yabancı nitelikleri daha hızlı tanımak, nitelikli işçilere taşınma ödeneği, daha fazla eğitimci, sosyal çalışan ve psikolog; pratik becerilere vurgu — el sanatları, yemek, okul bahçeleri",
         "pl": "szybsze uznawanie kwalifikacji zagranicznych, zasiłek relocacyjny dla fachowców, więcej pedagogów, pracowników socjalnych i psychologów; nacisk na umiejętności praktyczne — rzemiosło, gotowanie, ogrody szkolne",
         "uk": "швидше визнавати іноземні кваліфікації, допомога на переїзд для кваліфікованих робітників, більше педагогів, соціальних працівників, психологів; акцент на практичних навичках — рукоділля, кулінарія, шкільні сади"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Impulse für Bildung, Kultur und Freizeit setzen",
+          "page": 27,
+          "quote": "Schulunterricht für alle Si nne: Musisches, Medienkompetenz und Kochen für alle Kinder, ein verstärktes Gewicht auf lebenskundliche Fächer wie Werken, Theaterunterricht, Anlegen eines Schulgartens."
+        }
+      ]
     },
     {
       "topicId": "higher-education",
@@ -6876,7 +7298,15 @@
         "tr": "Aşırı erken dijitalleşme olmadan eğitimi desteklemek; yabancı niteliklerin tanınması ve taşınma ödeneğiyle nitelikli işçi çekmek, tüm duyuları ve pratik becerileri kapsayan eğitim",
         "pl": "wsparcie edukacji bez nadmiernej wczesnej cyfryzacji; przyciąganie fachowców przez uznawanie kwalifikacji zagranicznych i zasiłek relocacyjny, edukacja angażująca wszystkie zmysły i umiejętności praktyczne",
         "uk": "підтримувати освіту без надмірної ранньої цифровізації; залучення кваліфікованих працівників шляхом визнання іноземних кваліфікацій та допомоги на переїзд, освіта, що залучає всі почуття та практичні навички"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Impulse für Bildung, Kultur und Freizeit setzen",
+          "page": 27,
+          "quote": "Verbesserte Instandhaltung der Bildungseinrichtungen für angenehmere Lernatmosphäre, Förderung von studentischem Wohnraum."
+        }
+      ]
     },
     {
       "topicId": "continuing-education-and-retraining",
@@ -7014,7 +7444,15 @@
         "tr": "Yabancı nitelikleri daha hızlı tanımak, nitelikli işçilere taşınma ödeneği, bürokrasiyi kesmek; pratik beceriler öğretmek ve eğitim, bakım ile sosyal sektör için profesyonelleri desteklemek",
         "pl": "szybsze uznawanie kwalifikacji zagranicznych, zasiłek relocacyjny dla fachowców, cięcie biurokracji; nauka umiejętności praktycznych i wsparcie fachowców dla edukacji, opieki i sektora społecznego",
         "uk": "швидше визнати іноземні кваліфікації, допомога на переїзд для кваліфікованих працівників, скоротити бюрократію; навчати практичних навичок та підтримувати спеціалістів у сфері освіти, догляду та соціального сектору"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Impulse für Bildung, Kultur und Freizeit setzen",
+          "page": 27,
+          "quote": "Gewinnung von mehr Lehrpersonal durch Bürokratieabbau bei Anerkennung ausländischer Abschlüsse. Festzuschuss zum Umzug für Lehrerinnen und Lehrer, die für Ihren Job nach Berlin ziehen."
+        }
+      ]
     },
     {
       "topicId": "healthcare-hospitals-and-neighborhood-care",
@@ -7152,7 +7590,15 @@
         "tr": "Sağlık ve bakımda kâr peşinde koşmamak, paranın daha iyi personel ücretine gitmesi; yetersiz hizmet alan ilçelerde çocuk doktoru muayenehanelerinin kurulmasını desteklemek",
         "pl": "Bez dążenia do zysku w ochronie zdrowia i opiece, a pieniądze na lepsze wynagrodzenia personelu; wsparcie zakładania praktyk pediatrycznych w niedostatecznie obsłużonych dzielnicach",
         "uk": "гонитви за прибутком у сфері охорони здоров’я та догляду, гроші йдуть на підвищення оплати праці персоналу немає; сприяти створенню педіатричних практик у районах, які не охоплені послугами"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Berlin – sozial und solidarisch",
+          "page": 15,
+          "quote": "Förderung der Ansiedlung von Kinderärzten in unterversorgten Bezirken."
+        }
+      ]
     },
     {
       "topicId": "healthcare-mental-health",
@@ -7290,7 +7736,15 @@
         "tr": "Ruh sağlığına dair ayrı bölüm yok; en yakın nokta sosyal ve sağlık sektöründe “tüm makul önleyici tedbirleri önemli ölçüde genişletmek” ve okullarda psikologlar",
         "pl": "brak osobnej sekcji o zdrowiu psychicznym; najbliższy punkt to „znaczne rozszerzenie wszystkich sensownych środków profilaktycznych” w sektorze społecznym i zdrowotnym oraz psycholodzy w szkołach",
         "uk": "окремого розділу про психічне здоров'я немає; найближче – «суттєво розширити всі розумні профілактичні заходи» в соціальних і медичних сферах та психологів у школах"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Berlin – sozial und solidarisch",
+          "page": 15,
+          "quote": "Berlin als Hauptstadt sollte Vorbild werden in Sachen Nichtraucherschutz und Drogenprävention."
+        }
+      ]
     },
     {
       "topicId": "care-pflege-and-older-people",
@@ -7428,7 +7882,15 @@
         "tr": "Kâr odaklı olmayan bakım ve daha iyi ücret için para, yaşlılar için daha uygun engelsiz ve uygun fiyatlı konut, katılım biçimi olarak gençlere Gesellschaftsdienst",
         "pl": "Opieka bez orientacji na zysk i pieniądze na lepsze wynagrodzenia, więcej odpowiednich mieszkań bez barier i przystępnych dla osób starszych, Gesellschaftsdienst dla młodych jako forma uczestnictwa",
         "uk": "Догляд без орієнтації на прибуток і гроші за кращу оплату, більш відповідне безбар’єрне та доступне житло для літніх людей, Gesellschaftsdienst для молоді як форма участі"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Berlin – sozial und solidarisch",
+          "page": 15,
+          "quote": "barrierefreier Zugang aller öffentlichen Gebäude und Verkehrsmittel.  Texte müssen verständlich und leicht lesbar bleiben."
+        }
+      ]
     },
     {
       "topicId": "drug-policy",
@@ -7566,7 +8028,15 @@
         "tr": "Önlemeye odak: Berlin sigara içmeyenleri koruma ve bağımlılık önlemede model, kamusal alan ve medyada alkol reklamını yasaklamak, tütün ve alkolü kasa bölgelerinden kaldırmak ve sıkı kuralları Shisha barlarına da yaymak; Konsumräume, Drug-Checking ve yasallaştırma anılmıyor",
         "pl": "nacisk na profilaktykę: Berlin jako wzór ochrony niepalących i profilaktyki uzależnień, zakaz reklamy alkoholu w przestrzeni publicznej i mediach, usunięcie tytoniu i alkoholu ze stref kas oraz rozszerzenie surowych reguł na bary Shisha; Konsumräume, Drug-Checking i legalizacja nie są wspomniane",
         "uk": "акцент на профілактиці: Берлін як модель захисту некурців і профілактики залежності, заборона реклами алкоголю в громадських місцях і засобах масової інформації, видалення тютюну та алкоголю з касових зон і поширення суворих правил на кальянні; Konsumräume, Drug-Checking і легалізація не згадуються"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Berlin – sozial und solidarisch",
+          "page": 15,
+          "quote": "Berlin als Hauptstadt sollte Vorbild werden in Sachen Nichtraucherschutz und Drogenprävention."
+        }
+      ]
     },
     {
       "topicId": "migration-admission-and-deportations",
@@ -7708,7 +8178,19 @@
         "tr": "Programda kabul ve sınır dışı etme ele alınmıyor; genel ton dayanışma, kapsayıcılık ve dünyaya açıklığa dayalı bir Berlin — yaşam tarzı veya inanç nedeniyle kimsenin ayrımcılığa uğramadığı",
         "pl": "przyjmowanie i deportacje nie są objęte programem; ogólny ton to Berlin oparty na solidarności, inkluzji i otwartości na świat, gdzie nikt nie jest dyskryminowany ze względu na styl życia lub przekonania",
         "uk": "прийом і депортація не охоплені програмою; загальний тон – це Берлін, заснований на солідарності, включеності та відкритості до світу, де нікого не дискримінують через спосіб життя чи переконання"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Berlin – sozial und solidarisch",
+          "page": 14,
+          "quote": "Wir wollen eine Stadt, in der sich Menschen unterschiedlicher Kultur, Herkunft, Muttersprache, sexueller oder religiöser Orientierung sicher und wohl fühlen."
+        },
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "note": "kein Treffer zu Abschiebung / Aufnahmequoten / Asylverfahren"
+        }
+      ]
     },
     {
       "topicId": "migration-bezahlkarte-and-access-to-benefits-and-healthcare",
@@ -7850,7 +8332,19 @@
         "tr": "Bezahlkarte ele alınmıyor; ilgili: Kindergeld’i Bürgergeld’den düşmemek",
         "pl": "Bezahlkarte nieporuszana; pokrewne: nie potrącać Kindergeld z Bürgergeld",
         "uk": "Bezahlkarte не згадується; суміжне: не відраховувати Kindergeld з Bürgergeld"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "note": "kein Treffer zu Bezahlkarte"
+        },
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "L(i)ebenswertes Berlin – sicher und bezahlbar wohnen",
+          "page": 11,
+          "quote": "Kindergeld nicht mehr auf Bürgergeld anrechnen."
+        }
+      ]
     },
     {
       "topicId": "migration-lea-integration-participation",
@@ -7994,7 +8488,15 @@
         "tr": "Bürokrasiyi azaltarak yabancı yeterlilikleri daha hızlı tanımak, nitelikli işçiler için taşınma yardımı, iki dilli çocuklar için erken dil desteği",
         "pl": "Szybsze uznawanie kwalifikacji zagranicznych przez ograniczenie biurokracji, dodatek relokacyjny dla wykwalifikowanych pracowników, wczesne wsparcie językowe dla dzieci dwujęzycznych",
         "uk": "Швидше визнавайте іноземні кваліфікації за рахунок скорочення бюрократії, допомоги на переїзд для кваліфікованих робітників, ранньої мовної підтримки для дітей, які говорять двома мовами"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Impulse für Bildung, Kultur und Freizeit setzen",
+          "page": 27,
+          "quote": "Gewinnung von mehr Lehrpersonal durch Bürokratieabbau bei Anerkennung ausländischer Abschlüsse. Festzuschuss zum Umzug für Lehrerinnen und Lehrer, die für Ihren Job nach Berlin ziehen."
+        }
+      ]
     },
     {
       "topicId": "economy-and-innovation",
@@ -8138,7 +8640,15 @@
         "tr": "Büyüme sonrası ekonomi ve kamu yararı ekonomisi: Berlin’i ilerici refah göstergeleriyle bir Gemeinwohlökonomie kenti yapmak, kamu yararı bilançosu olan şirketlere vergi avantajları (örneğin yarıya indirilmiş Gewerbesteuer-Hebesatz), bölgesel küçük işletmelere ve kadın kurucu programlarına destek, sahte serbest çalışmayla mücadele",
         "pl": "Gospodarka postwzrostowa i gospodarka dobra wspólnego: Berlin jako miasto Gemeinwohlökonomie z progresywnymi wskaźnikami dobrobytu, ulgi podatkowe (np. Gewerbesteuer-Hebesatz obniżony o połowę) dla firm z bilansem dobra wspólnego, wsparcie regionalnych małych firm i programów dla założycielek, walka z pozornym samozatrudnieniem",
         "uk": "Економіка після зростання та економіка загального блага: Берлін як місто Gemeinwohlökonomie з прогресивними показниками процвітання, податкові пільги (наприклад, Gewerbesteuer-Hebesatz зменшений вдвічі) для компаній із балансом загального блага, підтримка регіонального малого бізнесу та програми для жінок-засновниць, боротьба з фіктивною самозайнятістю"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Gemeinwohlökonomie für Berlin",
+          "page": 7,
+          "quote": "Gemeinwohlökonomie für Berlin Die ÖDP Berlin setzt sich für die Erhöhung der Lebensqualität für alle ein."
+        }
+      ]
     },
     {
       "topicId": "innovation-and-startups",
@@ -8276,7 +8786,15 @@
         "tr": "kamu yararı ekonomisi ve bölgesel küçük işletme yoluyla inovasyon: kamu yararı bilançosu olan şirketlere vergi avantajları, kadın kurucu programları, şeffaflık ve sahte serbest çalışmaya karşı önlemler; geleneksel startup ekosistemine daha az vurgu",
         "pl": "innowacje przez gospodarkę dobra wspólnego i regionalne małe firmy: ulgi podatkowe dla firm z bilansem dobra wspólnego, programy dla założycielek, transparentność i działania przeciw pozornemu samozatrudnieniu; mniejszy nacisk na konwencjonalny ekosystem startupów",
         "uk": "інновації через економіку загального блага та регіональний малий бізнес: податкові пільги для компаній із балансом загального блага, програми для жінок-засновників, прозорість та заходи проти фіктивної самозайнятості; менше акценту на звичайну екосистему стартапів"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Gemeinwohlökonomie für Berlin",
+          "page": 8,
+          "quote": "Unternehmen, die zusätzlich zur herkömmlichen, ökonomischen Bilanz eine Gemeinwohlbilanz nach GWÖ-Richtlinien aufstellen und dabei Mindestergebnisse erzielen, sollen steuerliche Vorteile - wie z.B."
+        }
+      ]
     },
     {
       "topicId": "business-succession",
@@ -8414,7 +8932,13 @@
         "tr": "işletme devri / Betriebsnachfolge ele alınmıyor",
         "pl": "sukcesja firm / Betriebsnachfolge nieporuszana",
         "uk": "передача бізнесу / Betriebsnachfolge не згадується"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "note": "kein Treffer zu Betriebsnachfolge / Unternehmensnachfolge"
+        }
+      ]
     },
     {
       "topicId": "small-business",
@@ -8558,7 +9082,15 @@
         "tr": "Bölgesel küçük işletmelere, kadın kurucu programlarına ve kamu yararı bilançosu olan şirketlere destek; bu tür şirketlere vergi avantajları ve sahte serbest çalışmaya karşı önlemler",
         "pl": "Wsparcie regionalnych małych firm, programów dla założycielek oraz firm z bilansem dobra wspólnego; ulgi podatkowe dla takich firm i działania przeciw pozornemu samozatrudnieniu",
         "uk": "Підтримка регіонального малого бізнесу, програми для жінок-засновниць, і компаній із загальним добробутом; податкові пільги для таких компаній і дії проти фіктивної самозайнятості"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Gemeinwohlökonomie für Berlin",
+          "page": 7,
+          "quote": "regional. Ewiges Wachstum gibt es nicht; wir müssen uns auf eine Postwachstumsökonomie vorbereiten."
+        }
+      ]
     },
     {
       "topicId": "taxes-and-budget",
@@ -8702,7 +9234,21 @@
         "tr": "Büyüme yerine kamu yararına odak: kentin tüm yeni yatırımlarını CO2 azaltma potansiyeline göre değerlendirmek; kamu yararı bilançosu olan şirketlere vergi avantajları",
         "pl": "Nacisk na dobro wspólne zamiast wzrostu: oceniać wszystkie nowe inwestycje miasta pod kątem potencjału redukcji CO2; ulgi podatkowe dla firm z bilansem dobra wspólnego",
         "uk": "Зосередьтеся на загальному благу, а не на зростанні: оцінюйте всі нові міські інвестиції за їхнім потенціалом скорочення CO2; податкові переваги для компаній з балансом загального блага"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Klimaneutrales Berlin",
+          "page": 4,
+          "quote": "Alle neu geplanten Investitionen der Stadt Berlin müssen an den CO2-Einsparpotenzialen ausgerichtet werden."
+        },
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Gemeinwohlökonomie für Berlin",
+          "page": 8,
+          "quote": "Unternehmen, die zusätzlich zur herkömmlichen, ökonomischen Bilanz eine Gemeinwohlbilanz nach GWÖ-Richtlinien aufstellen und dabei Mindestergebnisse erzielen, sollen steuerliche Vorteile - wie z.B."
+        }
+      ]
     },
     {
       "topicId": "governance-and-administrative-reform",
@@ -8846,7 +9392,21 @@
         "tr": "E-Governing ve idarenin daha hızlı ve verimli olması için ekipman iyileştirmelerine öncelik; idari işlemlerin tam şeffaflığı ve „Berliner Transparenzgesetz“ girişimini desteklemek",
         "pl": "E-Governing i priorytetowe poprawy wyposażenia, by administracja była szybsza i skuteczniejsza; pełna transparentność działań administracyjnych oraz wsparcie inicjatywy „Berliner Transparenzgesetz”",
         "uk": "Електронне управління та пріоритетне вдосконалення обладнання, щоб адміністрування стало швидшим та ефективнішим; повна прозорість адміністративних дій та підтримка ініціативи «Berliner Transparenzgesetz»."
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Demokratie fördern – Berlin transparent und bürgernah",
+          "page": 12,
+          "quote": "transparent und bürgernah Das Handeln der Berliner Verwaltung muss transparent und nachvollziehbar werden."
+        },
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "L(i)ebenswertes Berlin – sicher und bezahlbar wohnen",
+          "page": 10,
+          "quote": "Verwaltung muss schneller und effizienter werden. Hierfür müssen die Möglichkeiten von E-Governing genutzt und die Ausrüstung mit hoher Priorität gesteigert werden."
+        }
+      ]
     },
     {
       "topicId": "digitalization-data-ai",
@@ -8984,7 +9544,21 @@
         "tr": "E-Governing; ayrıca mobil ağlar ve ihtiyat ilkesi konusunda temkin: radyasyon sınırını m2 başına 100 μW’ye düşürmek, elektriksel olarak hassas kişiler için „beyaz bölgeler“ oluşturmak, tüm operatörler için tek ağı kamu görevi olarak sağlamak ve bağımsızlık ile daha uzun donanım ömrü için belediye BT’sinde açık kaynak kullanmak",
         "pl": "E-Governing; także ostrożność wobec sieci mobilnych i zasada ostrożności: obniżyć limit promieniowania do 100 μW na m², stworzyć „białe strefy” dla osób elektrowrażliwych, zapewnić jedną sieć dla wszystkich operatorów jako zadanie publiczne oraz używać open source w IT komunalnym dla niezależności i dłuższej żywotności sprzętu",
         "uk": "Е-управління; також обережно щодо мобільних мереж і принципу обережності: знизити межу випромінювання до 100 мкВт на м2, створити «білі зони» для чутливих до електрики людей, забезпечити одну мережу для всіх операторів як загальнодоступне завдання та використовувати відкритий код у муніципальних ІТ для незалежності та довшого терміну служби апаратного забезпечення"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Mobilfunk – gesundheits- und umweltverträglich sowie datenschutzkonform gestalten",
+          "page": 25,
+          "quote": "Absenkung des Grenzwertes für die Mobilfunk strahlung auf 100 μW/m2 – das ist etwa das Doppelte der Immission natürlicher elektromagnetischer Strahlung in dem Frequenzbereich, der für 5G genutzt w."
+        },
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "L(i)ebenswertes Berlin – sicher und bezahlbar wohnen",
+          "page": 10,
+          "quote": "E-Governing genutzt und die Ausrüstung mit hoher Priorität gesteigert werden."
+        }
+      ]
     },
     {
       "topicId": "social-affairs-poverty-income",
@@ -9128,7 +9702,15 @@
         "tr": "Gelirden bağımsız Erziehungsgehalt, Kindergeld’i Bürgergeld’den düşmemek ve çocuk veya yaşlı bakımında kâr amacı gütmemek",
         "pl": "Erziehungsgehalt niezależnie od dochodu, nie odejmować Kindergeld od Bürgergeld oraz brak dążenia do zysku w opiece nad dziećmi i osobami starszymi",
         "uk": "Erziehungsgehalt незалежно від доходу, не вираховуйте Kindergeld з Bürgergeld і не шукайте прибутку в догляді за дітьми чи літніми людьми"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Berlin – sozial und solidarisch",
+          "page": 15,
+          "quote": "Erziehungsgehalt!  Rückbesinnung auf Werte anregen, die sich nicht an Besitz und Konsum messen lassen. In Familien kann dieses Wertebewusstsein am besten vermittelt werden."
+        }
+      ]
     },
     {
       "topicId": "culture-and-clubs",
@@ -9272,7 +9854,15 @@
         "tr": "Her ilçede kültür artı yaratıcı profesyoneller ve ortak atölyeler için alan; Museumssonntag’ı geri getirmek (ayın ilk Pazar’ı tüm müzelere ücretsiz giriş); 2022 mahkeme kararının ardından müzik okulları ve Volkshochschulen için hukuki güvenlik; geçici kullanıma destekle mekân ve gençlik kültürünü planlamak",
         "pl": "Kultura w każdej dzielnicy plus przestrzeń dla twórców i wspólne warsztaty; przywrócić Museumssonntag (darmowy wstęp do wszystkich muzeów w pierwszą niedzielę miesiąca); pewność prawna dla szkół muzycznych i Volkshochschulen po wyroku sądowym z 2022; planować miejsca i kulturę młodzieżową ze wsparciem użytku tymczasowego",
         "uk": "Культура в кожному районі плюс простір для творчих професіоналів і спільні майстерні; відновити Museumssonntag (безкоштовний вхід у всі музеї першої неділі місяця); юридична визначеність для музичних шкіл і Volkshochschulen після рішення суду 2022 року; планувати місця проведення та молодіжну культуру з підтримкою для тимчасового використання"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Impulse für Bildung, Kultur und Freizeit setzen",
+          "page": 27,
+          "quote": "Vorausschauende Planung für Hallen- und Jugendkultur, inklusive der Förderung von Zwischennutzungen."
+        }
+      ]
     },
     {
       "topicId": "sports-and-swimming",
@@ -9434,7 +10024,21 @@
         "tr": "İlçe projeleri ve çocuklar ile gençler için yüzme dersleriyle taban spor, kapsayıcılık vurgulu spor tesislerinin genişletilmesi ve tüm kamu binaları ile ulaşıma engelsiz erişim",
         "pl": "Sport powszechny z projektami dzielnicowymi i lekcjami pływania dla dzieci i młodzieży, rozbudowa obiektów sportowych z naciskiem na inkluzję oraz bezbarierowy dostęp do wszystkich budynków publicznych i transportu",
         "uk": "Масовий спорт з районними проектами та уроками плавання для дітей і підлітків, розширенням спортивних об’єктів з акцентом на інклюзії та безбар’єрним доступом до всіх громадських будівель і транспорту"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Impulse für Bildung, Kultur und Freizeit setzen",
+          "page": 28,
+          "quote": "Förderung von Breitensport inkl. Kiezprojekten sowie Schwimmunterricht für Kinder und Jugendliche."
+        },
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Berlin – sozial und solidarisch",
+          "page": 15,
+          "quote": "Ausbau von Sportstätten unter dem Gesichtspunkt der Inklusion, barrierefreier Zugang aller öffentlichen Gebäude und Verkehrsmittel."
+        }
+      ]
     },
     {
       "topicId": "democracy-participation-equality",
@@ -9578,7 +10182,21 @@
         "tr": "İlçe ve Land düzeylerinde zorunlu Bürgerentscheide, önerilerin uygulanması için bağlayıcı kurallarla Kiez ve ilçe kararları için Bürger:innenräte, boşluksuz gerçek bir Transparenzgesetz, 16 yaşından oy ve parlamento seçimlerinde AB vatandaşlarına oy hakkı, şirketlerden ve çıkar gruplarından parti bağışlarına yasak; katılım biçimi olarak Gesellschaftsdienst",
         "pl": "Obowiązkowe Bürgerentscheide na poziomie dzielnic i landu, Bürger:innenräte dla decyzji Kiez i dzielnic z wiążącymi regułami wdrażania propozycji, prawdziwa Transparenzgesetz bez luk, głosowanie od 16. roku życia i prawo wyborcze obywateli UE w wyborach parlamentarnych, zakaz darowizn partyjnych od firm i grup interesu; Gesellschaftsdienst jako forma partycypacji",
         "uk": "Обов’язковий Bürgerentscheide на окружному та земельному рівнях, Bürger:innenräte для Kiez та окружних рішень із обов’язковими правилами реалізації пропозицій, справжній Transparenzgesetz без лазівок, голосування з 16 років та права голосу для громадян ЄС на парламентських виборах, заборона партійних пожертвувань від компаній та груп інтересів; Gesellschaftsdienst як форма участі"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Demokratie fördern – Berlin transparent und bürgernah",
+          "page": 13,
+          "quote": "Ermöglichung von mehr Partizipation: Einführung von Bürger/-innenräten für die Erarbeitung von Lösungsvorschlägen zu Problemen im Kiez oder Bezirk."
+        },
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Demokratie fördern – Berlin transparent und bürgernah",
+          "page": 12,
+          "quote": "Transparenzgesetz“. Bürgerschaftliches Engagement auf Landesebene und in den Bezirken muss unterstützt werden. Die dafür nötigen Rahmenbedingungen müssen geschaffen und gestärkt werden."
+        }
+      ]
     },
     {
       "topicId": "women-s-rights-and-prevention-of-domestic-violence",
@@ -9716,7 +10334,19 @@
         "tr": "ayrı kadın hakları / aile içi şiddet bölümü yok; yalnızca kadın girişimcilere destek programları",
         "pl": "brak osobnego rozdziału o prawach kobiet / przemocy domowej; pokrewne tylko: programy dla założycielek firm",
         "uk": "окремого розділу про права жінок / домашнє насильство немає; суміжне лише: програми підтримки жіночого підприємництва"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "note": "kein Treffer zu Frauenhaus / häusliche Gewalt / Istanbul-Konvention"
+        },
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Gemeinwohlökonomie für Berlin",
+          "page": 8,
+          "quote": "Forderung nach einer Ausweitung der Existenzgründerprogramme und speziell Beratungsangebote für die Förderung von Existenzgründungen von Frauen."
+        }
+      ]
     },
     {
       "topicId": "queer-and-lgbtq-issues",
@@ -9854,7 +10484,15 @@
         "tr": "Yaşam tarzı veya inançlara dayalı ayrımcılık olmadan dayanışma, kapsayıcılık ve dünyaya açıklığa dayalı bir Berlin",
         "pl": "Berlin oparty na solidarności, inkluzji i otwartości na świat, bez dyskryminacji ze względu na styl życia czy przekonania",
         "uk": "Берлін, заснований на солідарності, включеності та відкритості до світу, без дискримінації за способом життя чи переконаннями"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Berlin – sozial und solidarisch",
+          "page": 14,
+          "quote": "Toleranz und Vielfalt ist Teil der Anziehungskraft unserer Stadt."
+        }
+      ]
     },
     {
       "topicId": "elections-second-vote-and-5-percent-threshold",
@@ -9996,7 +10634,15 @@
         "tr": "Dualwahl, yani „Ersatzstimme“: her seçmen ilk parti eşiği geçmezse oyun aktarılacağı ikinci bir parti adlandırabilir—„insanlar taktiksel değil dürüstçe oy versin“; artı zorunlu Bürgerentscheide ve Bürger:innenräte",
         "pl": "Dualwahl, czyli „Ersatzstimme”: każdy wyborca może wskazać drugą partię, na którą przechodzi głos, jeśli pierwsza nie przekroczy progu — „aby ludzie mogli głosować szczerze, a nie taktycznie”; plus obowiązkowe Bürgerentscheide i Bürger:innenräte",
         "uk": "Dualwahl, що означає «Ersatzstimme»: кожен виборець може назвати другу партію, до якої переходить голос, якщо перша не подолає прохідний бар’єр — «щоб люди могли голосувати чесно, а не тактично»; плюс обов’язкові Bürgerentscheide та Bürger:innenräte"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Demokratie fördern – Berlin transparent und bürgernah",
+          "page": 13,
+          "quote": "Einführung der Dualwahl quasi einer „Ersatzstimme“ zur Wahl des Abgeordnetenhauses: Jeder Wähler/jede Wählerin sollte eine zweite Partei benennen dürfen, an die die Stimme fällt, wenn die Partei der."
+        }
+      ]
     },
     {
       "topicId": "party-donations-lobbying-and-transparency",
@@ -10134,7 +10780,27 @@
         "tr": "Temsilciler Meclisi’ndeki tüm partilerin şirketlerden ve çıkar gruplarından parti bağışı kabul etmesine yasak isteyen tek parti; ÖDP’nin kendisi tüzüğünde bu tür bağışlardan vazgeçmiş ve bunu lobicilikten bağımsızlık güvencesi olarak gösterir; artı boşluksuz gerçek bir Transparenzgesetz ve idari işlemlerin tam şeffaflığı",
         "pl": "Jedyna partia domagająca się zakazu przyjmowania przez wszystkie partie w Izbie Reprezentantów darowizn partyjnych od firm i grup interesu; sama ÖDP zrzekła się takich darowizn w statutach i wskazuje to jako gwarancję niezależności od lobbingu; plus prawdziwa Transparenzgesetz bez luk oraz pełna transparentność działań administracyjnych",
         "uk": "Єдина партія, яка вимагає заборонити всім партіям, представленим у Палаті представників, приймати партійні пожертви від компаній і груп інтересів; Сама ÖDP відмовилася від таких пожертв у своєму статуті та посилається на це як на гарантію незалежності від лобіювання; плюс справжній Transparenzgesetz без лазівок і повна прозорість адміністративних дій"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Demokratie fördern – Berlin transparent und bürgernah",
+          "page": 12,
+          "quote": "Die ÖDP ist die einzige Partei in Deutschland, die seit ihrer Gründung ganz bewusst auf Unternehmensspenden verzichtet. Politik muss gemeinwohlorientiert und unabhängig von Geldflüssen und Einzelinteressen sein."
+        },
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Demokratie fördern – Berlin transparent und bürgernah",
+          "page": 13,
+          "quote": "Einführung eines Verbots für alle im Abgeordnetenhaus vertretenen Parteien, Parteispenden von Unternehmen und Interessenverbänden anzunehmen."
+        },
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Demokratie fördern – Berlin transparent und bürgernah",
+          "page": 12,
+          "quote": "Vollständige Transparenz des städtischen Handelns, ohne Ausnahme, und Unterstützung der Initiative „Berliner Transparenzgesetz“."
+        }
+      ]
     },
     {
       "topicId": "advertising-in-public-space-alcohol-tobacco-betting",
@@ -10270,7 +10936,15 @@
         "tr": "Tüm alkollü içecek reklamları kamusal alandan ve özellikle medyadan sistematik olarak kaldırılmalı; ayrıca kasa bölgelerinden tütün ve alkolü kaldırmak ve sıkı sigara içmeyen koruma kurallarını Shisha barlara genişletmek",
         "pl": "Reklama wszystkich napojów alkoholowych powinna być systematycznie usuwana z przestrzeni publicznej, a zwłaszcza z mediów; także usunąć tytoń i alkohol ze stref kas oraz rozszerzyć surowe reguły ochrony niepalących na bary Shisha",
         "uk": "Рекламу всіх алкогольних напоїв слід систематично видаляти з публічного простору, особливо зі ЗМІ; також видаліть тютюн і алкоголь із касових зон і поширте суворі правила захисту некурців на кальянні"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "section": "Berlin – sozial und solidarisch",
+          "page": 15,
+          "quote": "alkoholische Getränke ist konsequent aus dem öffentlichen Raum und insbesondere aus den Medien zu verbannen."
+        }
+      ]
     }
   ]
 }

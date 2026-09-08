@@ -151,6 +151,7 @@
     "openProgram": "Party program",
     "sourceQuote": "Original quotes",
     "sourceQuoteLink": "Open source in program",
+    "sourceNote": "Not found in program",
     "expandGroup": "Expand group",
     "collapseGroup": "Collapse group",
     "searchPlaceholder": "Search topics…",
