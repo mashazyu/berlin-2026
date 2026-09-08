@@ -1192,19 +1192,25 @@
       "partyId": "volt",
       "stance": "for",
       "summary": {
-        "en": "implement BEK 2030 and the Klimaschutz- und Energiewendegesetz (−70% CO₂ by 2030); accelerate with annual public reporting; climate-neutral power and heat via solar/wind, heat pumps and Brandenburg partnership",
-        "de": "BEK 2030 und Klimaschutz- und Energiewendegesetz umsetzen (−70 % CO₂ bis 2030); mit jährlichem öffentlichem Reporting beschleunigen; klimaneutraler Strom und Wärme über Solar/Wind, Wärmepumpen und Brandenburg-Partnerschaft",
-        "ru": "реализовать BEK 2030 и Klimaschutz- und Energiewendegesetz (−70 % CO₂ к 2030); ускорить ежегодной публичной отчётностью; климатически нейтральные электричество и тепло через солнце/ветер, теплонасосы и партнёрство с Бранденбургом",
-        "tr": "BEK 2030 ve Klimaschutz- und Energiewendegesetz’i uygulamak (2030’a kadar −%70 CO₂); yıllık kamu raporlamasıyla hızlandırmak; güneş/rüzgar, ısı pompaları ve Brandenburg ortaklığıyla iklim nötr elektrik ve ısı",
-        "pl": "wdrażać BEK 2030 i Klimaschutz- und Energiewendegesetz (−70% CO₂ do 2030); przyspieszać rocznym publicznym raportowaniem; klimatycznie neutralny prąd i ciepło przez słońce/wiatr, pompy ciepła i partnerstwo z Brandenburgią",
-        "uk": "впровадити BEK 2030 і Klimaschutz- und Energiewendegesetz (−70% CO₂ до 2030); прискорити щорічною публічною звітністю; кліматично нейтральні електрика й тепло через сонце/вітер, теплонасоси та партнерство з Бранденбургом"
+        "en": "turn the BEK measures into an acceleration plan closing the 2022–2026 implementation gap; annual public reporting on progress toward climate targets",
+        "de": "aus dem BEK-Maßnahmenkatalog einen Beschleunigungsplan machen, der die Umsetzungslücke 2022–2026 schließt; jährliches öffentliches Reporting zum Klimaschutz",
+        "ru": "превратить каталог мер BEK в план ускорения, закрывающий разрыв реализации 2022–2026; ежегодная публичная отчётность по климату",
+        "tr": "BEK önlem katalogunu 2022–2026 uygulama açığını kapatan bir hızlandırma planına dönüştürmek; iklim için yıllık kamuya açık raporlama",
+        "pl": "z katalogu środków BEK zrobić plan przyspieszenia zamykający lukę wdrożeniową 2022–2026; coroczne publiczne raportowanie klimatu",
+        "uk": "перетворити каталог заходів BEK на план прискорення, що закриває розрив реалізації 2022–2026; щорічна публічна звітність щодо клімату"
       },
       "sources": [
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
-          "section": "Jetzt Berliner Energie- und Klimaschutzprogramm umsetzen",
-          "quote": "Wir bekennen uns zu den ambitionierten Zielen des fortgeschriebenen BEK 2030 und des Berliner Klimaschutz- und Energiewendegesetzes, die eine CO₂-Reduktion von 70 % bis 2030 vorschreiben.",
-          "page": 93
+          "page": 94,
+          "section": "Klimaschutz",
+          "quote": "Wir machen aus dem bisherigen Maßnahmenkatalog einen echten Beschleunigungsplan, der die Umsetzungslücke der aktuellen Periode (2022–2026) schließt."
+        },
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "page": 94,
+          "section": "Klimaschutz",
+          "quote": "Wir schaffen mit jährlichem öffentlichen Reporting Transparenz über den Umsetzungsstand."
         }
       ]
     },
@@ -2723,35 +2729,17 @@
       "partyId": "bsw",
       "stance": "none",
       "summary": {
-        "en": "EV charging infrastructure is not addressed (Ladezonen means delivery loading zones)",
-        "de": "Ladeinfrastruktur für E-Autos nicht thematisiert („Ladezonen“ meint Lieferzonen)",
-        "ru": "зарядная инфраструктура для электромобилей не рассматривается («Ladezonen» — зоны погрузки)",
-        "tr": "E-şarj altyapısı ele alınmıyor (Ladezonen teslimat yükleme alanları demektir)",
-        "pl": "infrastruktura ładowania EV nie jest poruszona (Ladezonen = strefy załadunku)",
-        "uk": "зарядну інфраструктуру для електромобілів не розглянуто («Ladezonen» — зони завантаження)"
+        "en": "no EV charging infrastructure program; “Ladezonen” means delivery/parking loading zones",
+        "de": "keine Ladeinfrastruktur für E-Autos im Programm; „Ladezonen“ meint Liefer-/Parkorganisation",
+        "ru": "нет программы зарядной инфраструктуры; «Ladezonen» — зоны погрузки/парковки",
+        "tr": "E-şarj altyapısı programı yok; „Ladezonen“ teslimat/park düzeni demek",
+        "pl": "brak programu ładowania EV; „Ladezonen“ to strefy załadunku/parkowania",
+        "uk": "немає програми зарядної інфраструктури; „Ladezonen“ — зони завантаження/паркування"
       },
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "page": 1,
-          "quote": "Das sind die Prinzipien, die unser Handeln leiten: In der Wirtschafts- und Energiepolitik muss wieder Vernunft Einzug halten, statt den Bürgern E-Autos und Wärmepumpen aufzuzwingen, die sich die meisten schlicht nicht leisten können.",
-          "section": "Einleitung"
-        },
-        {
-          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "page": 49,
-          "quote": "Klimafreundliche Antriebe sollen gefördert werden, ohne Menschen mit niedrigen und mittleren Einkommen zusätzlich zu belasten.",
-          "section": "Verkehr"
-        },
-        {
-          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "page": 49,
-          "quote": "Stattdessen setzen wir auf ausgewogene Lösungen mit Parkraummanagement, Quartiersgaragen, Ladezonen und einer besseren Organisation des ruhenden Verkehrs.",
-          "section": "Parken"
-        },
-        {
-          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "note": "kein Treffer zu Ladepunkt/Ladesäule/bidirektionalem Laden/E-Abfallflotte; Ladezonen meint Organisation des ruhenden/Lieferverkehrs"
+          "note": "kein Treffer zu Ladepunkt/Ladesäule/Wallbox/E-Ladeinfrastruktur; „Ladezonen“ = Organisation des ruhenden/Lieferverkehrs"
         }
       ]
     },
@@ -4061,7 +4049,7 @@
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
           "section": "Jetzt Müll reduzieren",
-          "quote": "Damit stärken wir auch Repair-Cafés als wichtige Orte des Zusammenhalts und gemeinsamen Lernens sowie lokale Reparaturbetriebe, deren Dienste durch den Bonus stärker nachgefragt werden.",
+          "quote": "Damit stärken wir auch Repair-Cafés als wichtige Orte des Zusammenhalts und gemeinsamen Lernens.",
           "page": 40
         }
       ]
@@ -4780,31 +4768,27 @@
     {
       "topicId": "solar-energy-photovoltaics",
       "partyId": "afd",
-      "stance": "none",
+      "stance": "against",
       "summary": {
-        "en": "no pro-solar program; reject additional Land PV-retrofit obligations; weather-dependent sources deemed unfit for baseload; technology-open mix with coal, gas and nuclear",
-        "de": "kein pro-Photovoltaik-Programm; zusätzliche landesrechtliche PV-Nachrüstpflichten ablehnen; wetterabhängige Quellen als ungeeignet für die Grundlast; technologieoffener Mix mit Kohle, Gas und Kernenergie",
-        "ru": "нет программы за фотовольтаику; отклонить доп. земельные обязанности дооснащения PV; погодозависимые источники непригодны для базовой нагрузки; открытый микс с углём, газом и АЭС",
-        "tr": "pro-fotovoltaik program yok; ek eyalet PV sonradan takma yükümlülüklerini reddetmek; hava bağımlı kaynaklar baz yük için uygun değil; kömür, gaz ve nükleer içeren teknolojiye açık karışım",
-        "pl": "brak programu pro-fotowoltaicznego; odrzucić dodatkowe landowe obowiązki doposażenia PV; źródła zależne od pogody nie nadają się do mocy podstawowej; mix z węglem, gazem i atomem",
-        "uk": "немає програми за фотовольтаїку; відхилити додаткові земельні обов’язки дооснащення PV; погодозалежні джерела непридатні для базового навантаження; відкритий мікс з вугіллям, газом і АЕС"
+        "en": "against additional state PV retrofit mandates; weather-dependent sources cannot guarantee supply security for a metropolis",
+        "de": "gegen zusätzliche landesrechtliche PV-Nachrüstpflichten; wetterabhängige Quellen können Versorgungssicherheit und Netzstabilität einer Millionenstadt nicht garantieren",
+        "ru": "против дополнительных земельных обязательств по дооснащению ФЭС; зависящие от погоды источники не гарантируют снабжение мегаполиса",
+        "tr": "ek PV sonradan donatım zorunluluklarına karşı; hava durumuna bağlı kaynaklar milyonluk şehirde arz güvenliğini garanti edemez",
+        "pl": "przeciw dodatkowym landowym obowiązkom doposażenia w PV; źródła zależne od pogody nie gwarantują bezpieczeństwa dostaw wielkiego miasta",
+        "uk": "проти додаткових земельних зобовʼязань з дооснащення ФЕС; залежні від погоди джерела не гарантують постачання мегаполісу"
       },
       "sources": [
         {
           "url": "https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf",
           "page": 9,
-          "quote": "Die Einführung zusätzlicher landesrechtlicher Verpflichtungen, wie die Nachrüstung von Fotovoltaikanlagen, lehnen wir strikt ab.",
-          "section": "Bauen & Wohnen"
+          "section": "Bauen & Wohnen",
+          "quote": "Die Einführung zusätzlicher landesrechtlicher Verpflichtungen, wie die Nachrüstung von Fotovoltaikanlagen, lehnen wir strikt ab."
         },
         {
           "url": "https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf",
           "page": 55,
-          "quote": "Wetterabhängige Energiequellen können Versorgungssicherheit und Netzstabilität nicht garantieren.",
-          "section": "Alle Energie für Berlin"
-        },
-        {
-          "url": "https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf",
-          "note": "kein eigenes Photovoltaik-Ausbauprogramm; nur Ablehnung landesrechtlicher PV-Nachrüstung + Kritik wetterabhängiger Quellen"
+          "section": "Alle Energie für Berlin",
+          "quote": "Wetterabhängige Energiequellen können Versorgungssicherheit und Netzstabilität nicht garantieren."
         }
       ]
     },
@@ -5867,7 +5851,7 @@
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
           "section": "Jetzt Klimatransformation als wirtschaftliche Chance nutzen",
-          "quote": "Handwerker*innen, die gestern Heizungen eingebaut haben, sollen heute Wärmepumpen installieren können.",
+          "quote": "Transformation: Handwerker*innen, die gestern Gas- und Ölheizungen eingebaut haben, sollen heute Wärmepumpen installieren können.",
           "page": 60
         }
       ]
@@ -6784,7 +6768,7 @@
         {
           "url": "https://www.fdp-berlin.de/sites/default/files/2026-07/Wahlprogramm_FDP%20Berlin_Abgeordnetenhauswahl%202026_FINAL.pdf",
           "page": 44,
-          "quote": "Die bestehenden Gesetze sollen darauf geprüft werden, ob sie das Bauen und somit die Mieten verteuern (Mieten-TÜV).",
+          "quote": "Alle neuen und bestehenden Gesetze sollen darauf geprüft werden, ob sie das Bauen und somit die Mieten verteuern (Mieten-TÜV).",
           "section": "Wohnen"
         }
       ]
@@ -7655,7 +7639,7 @@
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
           "section": "Jetzt soziales Wohnen fördern",
-          "quote": "Wir halten an verbindlichen Sozialquoten bei großen Neubauprojekten fest, damit Berlin eine Stadt für alle bleibt. Wir führen eine Fehlbelegungsabgabe für Sozialwohnungen ein.",
+          "quote": "Wir halten an verbindlichen Sozialquoten bei großen Neubauprojekten fest, damit Berlin eine Stadt für alle bleibt.",
           "page": 29
         }
       ]
@@ -7677,7 +7661,7 @@
           "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
           "section": "Bauen, Wohnen und Stadtentwicklung",
           "page": 8,
-          "quote": "Neuvermietungen erfolgen mindestens zehn Prozent unter der ortsüblichen Vergleichsmiete und WBS-Wohnungen werden zu sozial verträglichen Mieten von maximal 6,50 Euro pro Quadratmeter angeboten."
+          "quote": "Neuvermietungen erfolgen mindestens zehn Prozent unter der ortsüblichen Vergleichsmiete und WBS-Wohnungen werden zu sozial verträglichen Mieten von maximal 6,50 Euro."
         }
       ]
     },
@@ -8060,7 +8044,7 @@
           "url": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf",
           "section": "Umwandlung",
           "page": 22,
-          "quote": "Die Umwandlung von Miet- in Eigentumswohnungen wollen wir dauerhaft ausschließen und setzen uns für eine Entfristung des § 250 BauGB ein."
+          "quote": "Die Umwandlung von Mietin Eigentumswohnungen wollen wir dauerhaft ausschließen und setzen uns für eine Entfristung des § 250 BauGB ein."
         },
         {
           "url": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf",
@@ -8933,7 +8917,7 @@
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
           "section": "Jetzt früh handeln und Kriminalität vorbeugen",
-          "quote": "Wir unterstützen gefährdete oder bereits straffällige Jugendliche, um frühzeitig Eskalation zu verhindern und so Kriminalität zu verhindern, statt sie nur zu bekämpfen.",
+          "quote": "Wir unterstützen gefährdete oder bereits straffällige Jugendliche, um frühzeitig Eskalation und so Kriminalität zu verhindern, statt sie nur zu bekämpfen.",
           "page": 74
         }
       ]
@@ -9683,7 +9667,7 @@
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
           "section": "Jetzt Organisierte Kriminalität entschlossen bekämpfen",
-          "quote": "Wir entwickeln die polizeilichen Entscheidungsunterstützungssysteme wie »Radar« des Bundeskriminalamts im Land Berlin weiter, um die Bevölkerung besser vor organisierter Kriminalität zu schützen.",
+          "quote": "Wir entwickeln die polizeilichen Entscheidungsunterstützungssysteme, wie »Radar« des Bundeskriminalamts, im Land Berlin weiter, um die Bevölkerung besser vor organisierter Kriminalität zu schützen.",
           "page": 78
         }
       ]
@@ -10318,7 +10302,7 @@
           "url": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf",
           "section": "Fremdsprachen",
           "page": 163,
-          "quote": "Wir wollen die Liste der in Berlin zu erlernenden Fremdsprachen erweitern, u. a. um Arabisch und Kurdisch."
+          "quote": "Darüber hinaus wollen wir die Liste der in Berlin zu erlernenden Fremdsprachen erweitern, u. a. um Arabisch und Kurdisch."
         }
       ]
     },
@@ -10433,21 +10417,21 @@
     {
       "topicId": "schools-language-and-preparation-for-first-grade",
       "partyId": "tierschutz",
-      "stance": "mixed",
+      "stance": "for",
       "summary": {
-        "en": "Expand language support: the previous threshold of 40 percent of children of non-German origin does not reflect actual need, so funding should follow actual demand; provide stronger support for multilingual educational offerings",
-        "de": "Sprachförderung ausbauen: Der bisherige Schwellenwert von 40 Prozent Kindern nichtdeutscher Herkunft bildet den tatsächlichen Bedarf nicht ab, daher soll sich die Finanzierung am tatsächlichen Bedarf orientieren; mehrsprachige Bildungsangebote stärker fördern",
-        "ru": "Расширить языковую поддержку: прежний порог в 40 процентов детей ненемецкого происхождения не отражает реальную потребность, поэтому финансирование должно идти по фактическому спросу; сильнее поддерживать мультиязычные образовательные предложения",
-        "tr": "Dil desteğini genişletmek: Alman kökenli olmayan çocukların yüzde 40 eşiği gerçek ihtiyacı yansıtmıyor, finansman gerçek talebi izlemeli; çok dilli eğitim sunumlarına daha güçlü destek",
-        "pl": "Rozbudowa wsparcia językowego: dotychczasowy próg 40 procent dzieci pochodzenia nie-niemieckiego nie oddaje rzeczywistych potrzeb, więc finansowanie powinno iść za faktycznym popytem; silniejsze wsparcie wielojęzycznych ofert edukacyjnych",
-        "uk": "Розширення мовної підтримки: попередній поріг у 40 відсотків дітей ненімецького походження не відображає реальних потреб, тому фінансування має відповідати фактичному попиту; забезпечити більшу підтримку багатомовних освітніх пропозицій"
+        "en": "at school entry: evidence-based language assessment plus binding low-threshold support; interpreters for parent talks",
+        "de": "beim Schuleintritt: wissenschaftlich fundierte Sprachstandserhebung mit verbindlichen, niedrigschwelligen Förderangeboten; Sprachmittler für Elterngespräche",
+        "ru": "при поступлении в школу: научно обоснованная оценка языка и обязательная поддержка; переводчики для встреч с родителями",
+        "tr": "okula girişte bilimsel dil düzeyi ölçümü ve bağlayıcı destek; veli görüşmeleri için dil aracıları",
+        "pl": "przy starcie szkoły: naukowa ocena języka i wiążące wsparcie; tłumacze na rozmowy z rodzicami",
+        "uk": "при вступі до школи: науково обґрунтована оцінка мови та обовʼязкова підтримка; перекладачі для розмов із батьками"
       },
       "sources": [
         {
           "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
-          "section": "Bildung",
-          "page": 20,
-          "quote": "Sprachförderung aus und integrieren Tierschutz und Naturerfahrungen in den Alltag. Das Schulsystem werden wir grundlegend reformieren."
+          "page": 22,
+          "section": "3.2 Schulen",
+          "quote": "Beim Schuleintritt führen wir eine wissenschaftlich fundierte Sprachstandserhebung ein und verbinden sie mit verbindlichen, niedrigschwelligen Förderangeboten."
         }
       ]
     },
@@ -12143,7 +12127,7 @@
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
           "section": "Jetzt Gesundheitszentren ausbauen",
-          "quote": "Wir bringen Gesundheit nah an die Menschen im Kiez: Mit einer Ausweitung des Landesprogramms der integrierten Gesundheitszentren (LIG), die wir vor allem in strukturschwachen Bezirken ausbauen.",
+          "quote": "Wir bringen Gesundheit nah an die Menschen im Kiez: mit einer Ausweitung des Landesprogramms der integrierten Gesundheitszentren (LIG), die wir vor allem in strukturschwachen Bezirken wie den Außenbezirken ansiedeln.",
           "page": 80
         }
       ]
@@ -12701,7 +12685,7 @@
           "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
           "section": "Berlin wird sicher",
           "page": 16,
-          "quote": "Was wir für ein sicheres Berlin NICHT brauchen: Legalisierung von harten Drogen und Crack-Konsumräumen."
+          "quote": "Legalisierung von harten Drogen und Crack-Konsumräumen."
         }
       ]
     },
@@ -12903,7 +12887,7 @@
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
           "section": "Jetzt mit Drogenpolitik helfen statt kriminalisieren",
-          "quote": "Wir werben für den Ausbau von kostenfreien Mobilen Drug-Checkings. Wir setzen uns dafür ein, dass Strafverfahren wegen Besitzes geringer Mengen zum Eigenbedarf grundsätzlich eingestellt werden.",
+          "quote": "Wir werben für den Ausbau von kostenfreien Mobilen Drug-Checkings.",
           "page": 84
         }
       ]
@@ -13161,8 +13145,8 @@
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
           "section": "Jetzt Unterkünfte für Geflüchtete menschenwürdig gestalten",
-          "quote": "Wir führen einheitliche Mindeststandards für alle Berliner Unterkünfte ein, in denen besonders schutzbedürftige Menschen leben: In LAF-Unterkünften, ASOG-Unterkünften und anderen.",
-          "page": 106
+          "quote": "Wir führen einheitliche Mindeststandards für alle Berliner Unterkünfte ein, in denen besonders schutzbedürftige Menschen leben: für LAF-Unterkünfte, ASOG-Unterkünfte und andere Notunterkünfte.",
+          "page": 107
         },
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
@@ -13249,7 +13233,7 @@
           "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
           "section": "Berlin wird knallhart",
           "page": 27,
-          "quote": "Was wir für ein knallhartes Berlin NICHT brauchen: Abkehr von der Bezahlkarte für Asylbewerber; Wiederaufnahme von Landesaufnahmeprogrammen."
+          "quote": "Abkehr von der Bezahlkarte für Asylbewerber."
         }
       ]
     },
@@ -13389,16 +13373,22 @@
     {
       "topicId": "migration-bezahlkarte-and-access-to-benefits-and-healthcare",
       "partyId": "bsw",
-      "stance": "none",
+      "stance": "against",
       "summary": {
-        "en": "Bezahlkarte is not addressed in the program",
-        "de": "Bezahlkarte wird im Programm nicht thematisiert",
-        "ru": "Bezahlkarte в программе не рассматривается",
-        "tr": "programda Bezahlkarte ele alınmıyor",
-        "pl": "Bezahlkarte nie jest poruszona w programie",
-        "uk": "Bezahlkarte у програмі не розглядається"
+        "en": "Bezahlkarte not named; entrants via a safe third country should have no right to an asylum procedure or social benefits",
+        "de": "Bezahlkarte nicht genannt; wer über einen sicheren Drittstaat einreist, soll kein Recht auf Asylverfahren und soziale Leistungen haben",
+        "ru": "Bezahlkarte не названа; въезд через безопасную третью страну — без права на убежище и соцвыплаты",
+        "tr": "Bezahlkarte anılmıyor; güvenli üçüncü ülkeden girişte iltica prosedürü ve sosyal yardım hakkı olmamalı",
+        "pl": "Bezahlkarte niewymieniona; wjazd przez bezpieczne państwo trzecie — bez prawa do azylu i świadczeń socjalnych",
+        "uk": "Bezahlkarte не названа; вʼїзд через безпечну третю країну — без права на притулок і соцвиплати"
       },
       "sources": [
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 35,
+          "section": "Migration",
+          "quote": "Wer aus einem sicheren Drittstaat einreist, hat nach unserer Ansicht kein Recht auf ein Asylverfahren und auf soziale Leistungen."
+        },
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
           "note": "kein Treffer zu Bezahlkarte"
@@ -13433,25 +13423,25 @@
     {
       "topicId": "migration-bezahlkarte-and-access-to-benefits-and-healthcare",
       "partyId": "tierschutz",
-      "stance": "none",
+      "stance": "against",
       "summary": {
-        "en": "Bezahlkarte is not addressed; related social policy raises Regelbedarf, restores Berlin-Pass and tests unconditional basic income",
-        "de": "Bezahlkarte nicht thematisiert; verwandte Sozialpolitik erhöht Regelbedarf, stellt Berlin-Pass wieder her und erprobt bedingungsloses Grundeinkommen",
-        "ru": "Bezahlkarte не затрагивается; смежная соцполитика повышает Regelbedarf, возвращает Berlin-Pass и тестирует безусловный базовый доход",
-        "tr": "Bezahlkarte ele alınmıyor; ilgili sosyal politika Regelbedarf’i artırır, Berlin-Pass’ı geri getirir ve koşulsuz temel geliri dener",
-        "pl": "Bezahlkarte nieporuszana; pokrewna polityka społeczna podnosi Regelbedarf, przywraca Berlin-Pass i testuje bezwarunkowy dochód podstawowy",
-        "uk": "Bezahlkarte не згадується; суміжна соцполітика підвищує Regelbedarf, повертає Berlin-Pass і тестує безумовний базовий дохід"
+        "en": "Bezahlkarte not named; firmly reject switching asylum seekers to in-kind benefits (Sachleistungen) as undignified",
+        "de": "Bezahlkarte nicht genannt; Umstellung auf Sachleistungen für Asylsuchende entschieden ablehnen als entmündigend",
+        "ru": "Bezahlkarte не названа; решительно против перевода просителей убежища на натуральные выплаты",
+        "tr": "Bezahlkarte anılmıyor; sığınmacılar için ayni yardıma geçişi kararlılıkla reddetmek",
+        "pl": "Bezahlkarte niewymieniona; zdecydowanie przeciw przejściu na świadczenia rzeczowe dla osób ubiegających się o azyl",
+        "uk": "Bezahlkarte не названа; рішуче проти переходу на речові виплати для шукачів притулку"
       },
       "sources": [
         {
           "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
-          "note": "kein Treffer zu Bezahlkarte"
+          "page": 30,
+          "section": "Sozialpolitik",
+          "quote": "Die Umstellung auf Sachleistungen für Asylsuchende lehnen wir entschieden ab."
         },
         {
           "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
-          "section": "Sozialpolitik",
-          "page": 42,
-          "quote": "Der aktuelle Regelbedarf für Leistungsberechtigte reicht häufig nicht aus, um ein selbstbestimmtes und würdevolles Leben in Berlin zu führen."
+          "note": "kein Treffer zu Bezahlkarte"
         }
       ]
     },
@@ -13723,21 +13713,33 @@
     {
       "topicId": "economy-and-innovation",
       "partyId": "cdu",
-      "stance": "mixed",
+      "stance": "for",
       "summary": {
-        "en": "Mittelstand, “industrial metropolis,” “Boston on the Spree,” EXPO 2035, AI assistant BärGPT, “abolish more regulations than are created”",
-        "de": "Mittelstand, „Industriemetropole“, „Boston an der Spree“, EXPO 2035, KI-Assistent BärGPT, „mehr Regeln abschaffen als schaffen“",
-        "ru": "Mittelstand, «индустриальная метрополия», «Бостон на Шпрее», EXPO 2035, ИИ-ассистент BärGPT, «отменять регуляций больше, чем создавать»",
-        "tr": "Mittelstand, „sanayi metropolü,“ „Spree’de Boston,“ EXPO 2035, yapay zekâ asistanı BärGPT, „yaratılardan daha fazla düzenlemeyi kaldırmak“",
-        "pl": "Mittelstand, „metropolia przemysłowa”, „Boston on the Spree”, EXPO 2035, asystent AI BärGPT, „znieść więcej regulacji, niż się tworzy”",
-        "uk": "Mittelstand, «промисловий мегаполіс», «Бостон на Шпрее», EXPO 2035, асистент ШІ BärGPT, «скасувати більше правил, ніж створено»"
+        "en": "Mittelstand as backbone with transformation support; Industriemetropole / start-up capital framing; EXPO 2035 bid with Brandenburg",
+        "de": "Mittelstand als Rückgrat mit Transformationsförderung; Industriemetropole und Gründerhauptstadt; Bewerbung um EXPO 2035 mit Brandenburg",
+        "ru": "средний бизнес как опора с поддержкой трансформации; промышленная метрополия и столица стартапов; заявка на EXPO 2035 с Бранденбургом",
+        "tr": "dönüşüm desteğiyle orta sınıf omurga; sanayi metropolü ve girişim başkenti; Brandenburg ile EXPO 2035 başvurusu",
+        "pl": "Mittelstand jako kręgosłup ze wsparciem transformacji; metropolia przemysłowa i stolica startupów; kandydatura EXPO 2035 z Brandenburgią",
+        "uk": "середній бізнес як опора з підтримкою трансформації; промислова метрополія й столиця стартапів; заявка на EXPO 2035 з Бранденбургом"
       },
       "sources": [
         {
           "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
-          "section": "Berlin wird spitze",
           "page": 43,
-          "quote": "Starker Mittelstand Der Mittelstand ist das Rückgrat der Berliner Wirtschaft. Wir wollen die Unternehmen auch weiterhin bei der Transformation begleiten und sie mit passgenauen Förderprogrammen unterstützen."
+          "section": "Berlin wird spitze",
+          "quote": "Der Mittelstand ist das Rückgrat der Berliner Wirtschaft."
+        },
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "page": 43,
+          "section": "Berlin wird spitze",
+          "quote": "Wir wollen die Unternehmen auch weiterhin bei der Transformation begleiten und sie mit passgenauen Förderprogrammen unterstützen."
+        },
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "page": 48,
+          "section": "Berlin wird spitze",
+          "quote": "Eine Weltausstellung bietet die Chance, Berlin und Brandenburg international als Zukunftsregion zu positionieren, Innovationen sichtbar zu machen und wichtige Impulse für Infrastruktur, Wissenschaft, Wirtschaft und Stadtentwicklung zu setzen."
         }
       ]
     },
@@ -15856,7 +15858,7 @@
           "url": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf",
           "section": "Freie Szene / Clubkultur",
           "page": 230,
-          "quote": "Berlins Kulturlandschaft umfasst die großen Institutionen ebenso wie die Freie Szene, den Amateur*innenbereich ebenso wie die Clubkultur – und all die Menschen, die in dieser Stadt künstlerisch tätig sind, Kultur erleben und gestalten."
+          "quote": "Berlins Kulturlandschaft umfasst die großen Institutionen ebenso wie die Freie Szene, den Amateur*innenbereich ebenso wie die Clubkultur - und all die Menschen, die in dieser Stadt künstlerisch tätig sind, Kultur erleben und mitgestalten."
         }
       ]
     },
@@ -16249,14 +16251,14 @@
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
           "section": "Jetzt Sport für alle Menschen zugänglich machen",
-          "quote": "Wir schaffen in jedem Bezirk mindestens ein barrierefreies, inklusives Bewegungsangebot. Wir setzen dafür bei allen Neu- und Umbauten von Sportstätten die Vorgaben der DIN 18040 sowie die Leitfäden von DOSB und DBS um.",
+          "quote": "Wir schaffen in jedem Bezirk mindestens ein barrierefreies, inklusives Bewegungsangebot.",
           "page": 87
         },
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
           "section": "Jetzt Sport für alle Menschen zugänglich machen",
-          "quote": "Wir bauen den BuT-Pass aus. Damit erhalten Kinder aus einkommensschwachen Familien höhere Zuschüsse, um Sportvereine und Schwimmbäder günstiger nutzen zu können.",
-          "page": 87
+          "quote": "Damit erhalten Kinder aus einkommensschwachen Familien höhere Zuschüsse, um Sportvereine und Schwimmbäder günstiger nutzen zu können.",
+          "page": 88
         },
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
@@ -16267,8 +16269,8 @@
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
           "section": "Jetzt Sport für alle Menschen zugänglich machen",
-          "quote": "Wir entwickeln das bestehende Portal „Berlin bewegt sich“ weiter und bauen Programme wie „Integration durch Sport“ weiter aus.",
-          "page": 87
+          "quote": "Wir entwickeln das bestehende Portal „Berlin bewegt sich“ zu einer zentralen berlinweiten Plattform für Bewegungsangebote im öffentlichen Raum weiter.",
+          "page": 88
         }
       ]
     },
@@ -17057,19 +17059,27 @@
     {
       "topicId": "queer-and-lgbtq-issues",
       "partyId": "bsw",
-      "stance": "none",
+      "stance": "mixed",
       "summary": {
-        "en": "queer/LGBTQ policy is not addressed",
-        "de": "Queer-/LGBTQ-Politik wird nicht thematisiert",
-        "ru": "квир-/ЛГБТ-политика не рассматривается",
-        "tr": "queer/LGBTQ politikası ele alınmıyor",
-        "pl": "polityka queer/LGBTQ nie jest poruszona",
-        "uk": "квір-/ЛГБТ-політика не розглядається"
+        "en": "scrap the state “acceptance of sexual and gender diversity” contact point as failed; redirect funds to projects against homophobic violence",
+        "de": "Stelle der Ansprechperson für Akzeptanz sexueller und geschlechtlicher Vielfalt als gescheitert abschaffen; Mittel in Projekte gegen homophobe Gewalt umlenken",
+        "ru": "упразднить должность уполномоченного по принятию сексуального и гендерного многообразия как неудачную; средства направить в проекты против гомофобного насилия",
+        "tr": "cinsel ve toplumsal cinsiyet çeşitliliği kabulü irtibat noktasını başarısız bulup kaldırmak; kaynakları homofobik şiddete karşı projelere kaydırmak",
+        "pl": "zlikwidować stanowisko osoby ds. akceptacji różnorodności seksualnej i płciowej jako nieudane; środki przekierować na projekty przeciw przemocy homofobicznej",
+        "uk": "скасувати посаду уповноваженого з прийняття сексуального та гендерного розмаїття як невдалу; кошти спрямувати на проєкти проти гомофобного насильства"
       },
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "note": "kein Treffer zu queer / LGBTQ / LSBTI / Homosexualität / Trans*"
+          "page": 33,
+          "section": "Gesellschaft",
+          "quote": "Die Stelle der „Ansprechperson der Landesregierung Berlin für die Akzeptanz sexueller und geschlechtlicher Vielfalt“ hat sich nicht bewährt."
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 33,
+          "section": "Gesellschaft",
+          "quote": "Die Mittel sollten in Projekte gegen homophobe Gewalt umgelenkt werden."
         }
       ]
     },
@@ -17638,7 +17648,7 @@
           "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
           "section": "Demokratie fördern – Berlin transparent und bürgernah",
           "page": 12,
-          "quote": "Vollständige Transparenz des städtischen Handelns, ohne Ausnahme, und Unterstützung der Initiative „Berliner Transparenzgesetz“."
+          "quote": "Wir fordern Transparenz in allen Bereichen des städtischen Handelns, ohne Ausnahme und unterstützen die Initiative „Berliner Transparenzgesetz“."
         }
       ]
     },
