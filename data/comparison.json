@@ -102,7 +102,7 @@
         "pl": "Volt",
         "uk": "Volt"
       },
-      "programUrl": "https://voltdeutschland.org/berlin/programm/programme"
+      "programUrl": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf"
     },
     {
       "id": "tierschutz",
@@ -1094,7 +1094,15 @@
         "tr": "BEK 2030 ve Klimaschutz- und Energiewendegesetz’i uygulamak (2030’a kadar −%70 CO₂); yıllık kamu raporlamasıyla hızlandırmak; güneş/rüzgar, ısı pompaları ve Brandenburg ortaklığıyla iklim nötr elektrik ve ısı",
         "pl": "wdrażać BEK 2030 i Klimaschutz- und Energiewendegesetz (−70% CO₂ do 2030); przyspieszać rocznym publicznym raportowaniem; klimatycznie neutralny prąd i ciepło przez słońce/wiatr, pompy ciepła i partnerstwo z Brandenburgią",
         "uk": "впровадити BEK 2030 і Klimaschutz- und Energiewendegesetz (−70% CO₂ до 2030); прискорити щорічною публічною звітністю; кліматично нейтральні електрика й тепло через сонце/вітер, теплонасоси та партнерство з Бранденбургом"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Berliner Energie- und Klimaschutzprogramm umsetzen",
+          "quote": "Wir bekennen uns zu den ambitionierten Zielen des fortgeschriebenen BEK 2030 und des Berliner Klimaschutz- und Energiewendegesetzes, die eine CO₂-Reduktion von 70 % bis 2030 vorschreiben.",
+          "page": 93
+        }
+      ]
     },
     {
       "topicId": "climate-neutrality",
@@ -1224,7 +1232,13 @@
         "tr": "A100/TVO otoyol genişlemesi ele alınmıyor; mobilite bölümü ÖPNV, Vision Zero ve araba egemenliğini azaltmaya odaklanıyor, bu projeleri adlandırmadan",
         "pl": "rozbudowa autostrad A100/TVO nieporuszana; rozdział o mobilności o ÖPNV, Vision Zero i mniejszej dominacji aut, bez nazw tych projektów",
         "uk": "розширення автобанів A100/TVO не згадується; розділ про мобільність — ÖPNV, Vision Zero і менше домінування авто, без назви цих проєктів"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "note": "kein Treffer zu A100 / A 100 / TVO / Tangentialverbindung Ost als Autobahnprojekt; Mobilität ohne diese Projekte"
+        }
+      ]
     },
     {
       "topicId": "a100-construction",
@@ -1354,7 +1368,15 @@
         "tr": "odak güvenli sokaklar, Vision Zero, transit trafiği azaltmak ve yol/kaldırım şantiyelerini daha hızlı bitirmek",
         "pl": "nacisk na bezpieczne ulice, Vision Zero, ograniczenie ruchu tranzytowego i szybsze kończenie robót na drogach/chodnikach",
         "uk": "акцент на безпечних вулицях, Vision Zero, зменшення наскрізного трафіку та швидше завершення робіт на дорогах/тротуарах"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Straßen sicher machen",
+          "quote": "Wir starten ein Sofortprogramm, um Kreuzungen sicherer zu machen und alle Unfallschwerpunkte bis 2030 zu beseitigen. Wir weiten Tempo-30-Zonen konsequent an Orten aus, an denen Menschen besonderen Sch",
+          "page": 33
+        }
+      ]
     },
     {
       "topicId": "road-construction",
@@ -1484,7 +1506,15 @@
         "tr": "U-Bahn, tramvay, S‑Bahn ve bölgesel ulaşımın genişlemesi; daha kısa aralıklar ve daha stabil işletme için U-Bahn otomasyonu",
         "pl": "rozbudowa U-Bahn, tramwajów, S-Bahn i transportu regionalnego; automatyzacja U-Bahn dla krótszych interwałów i stabilniejszej eksploatacji",
         "uk": "розширення U-Bahn, трамваїв, S‑Bahn і регіонального транспорту; Автоматизація U-Bahn для скорочення інтервалів і більш стабільної роботи"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Mobilität digitalisieren und ausbauen",
+          "quote": "Wir priorisieren die Vollautomatisierung von U-Bahnen, um höhere Taktungen und den stabilen Betrieb rund um die Uhr zu ermöglichen. Der Ausbau von U-Bahn, Tram, S-Bahn und Regionalverkehr wird dabei i",
+          "page": 32
+        }
+      ]
     },
     {
       "topicId": "new-u-bahn-construction-line-extensions",
@@ -1614,7 +1644,15 @@
         "tr": "korumalı bisiklet yolları, bisiklet sokakları ve bisiklet otoyolları; durdurulan bisiklet otoyolu planlarını yeniden başlatmak; istasyonlarda Bike&Ride",
         "pl": "chronione ścieżki rowerowe, ulice rowerowe i trasy ekspresowe dla rowerów; wznowić wstrzymane plany tras ekspresowych dla rowerów; Bike&Ride przy stacjach",
         "uk": "захищені велосипедні доріжки, велосипедні вулиці та велосипедні магістралі; перезапустити зупинені плани веломагістралі; Bike&Ride на станціях"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Geh- und Radwege sicher machen",
+          "quote": "Wir planen und bauen Radwege, Fahrradstraßen und Radschnellverbindungen konsequent und zügig aus. Insbesondere fordern wir, die Planung der gestoppten Radschnellwege unverzüglich wieder aufzunehmen un",
+          "page": 33
+        }
+      ]
     },
     {
       "topicId": "cycling-infrastructure",
@@ -1744,7 +1782,27 @@
         "tr": "kent sınırlarında ve dış ilçelerde Park&Ride; boyuta ve emisyona göre ücretli dijital park; kaldırım, bisiklet yolu ve yeşillik için park yerlerini azaltmak",
         "pl": "Park&Ride na granicach miasta i w dzielnicach zewnętrznych; płatne cyfrowe parkowanie według wielkości i emisji; zmniejszanie miejsc parkingowych na rzecz chodników, ścieżek rowerowych i zieleni",
         "uk": "Park&Ride на кордоні міста та в околицях; платне цифрове паркування залежно від розміру та викидів; зменшення паркувальних місць для тротуарів, велосипедних доріжок та зелених насаджень"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt ÖPNV attraktiver machen",
+          "quote": "Park&Ride-Standorte an den Stadtgrenzen und in den Außenbezirken entlasten die Innenstadt vom Verkehr und ermöglichen einen unkomplizierten Umstieg auf das gemeinsame Mobilitätsnetz.",
+          "page": 30
+        },
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt die Verkehrswende finanzieren",
+          "quote": "Parken wird berlinweit digital organisiert und nach Fahrzeuggröße und Emissionen gestaffelt bepreist. Anwohnerparkausweise werden kostendeckend bepreist und nach Fahrzeuggröße gestaffelt.",
+          "page": 31
+        },
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Kieze beleben",
+          "quote": "Wir bauen Parkplatzflächen schrittweise zurück, um Platz für breite Gehwege, sichere Radspuren, Grünflächen und Außengastronomie zu gewinnen.",
+          "page": 35
+        }
+      ]
     },
     {
       "topicId": "parking",
@@ -1874,7 +1932,21 @@
         "tr": "şarj altyapısını genişletmek ve standartlaştırmak; elektrikli taksiler için hızlı şarj; elektrikli turist tekneleri için iskelelerde şarj",
         "pl": "rozbudować i ujednolicić infrastrukturę ładowania; szybkie ładowanie dla elektrycznych taksówek; ładowanie przy nabrzeżach dla elektrycznych łodzi turystycznych",
         "uk": "розширити та стандартизувати зарядну інфраструктуру; швидка зарядка для електротаксі; зарядка на пристанях для електричних туристичних човнів"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Müll reduzieren",
+          "quote": "Parallel dazu beschleunigen wir die Umstellung auf eine emissionsfreie E-Flotte in der Abfallwirtschaft durch priorisierte Genehmigungen der notwendigen Ladeinfrastruktur.",
+          "page": 40
+        },
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt das Stromnetz intelligent ausbauen",
+          "quote": "Wir erproben technische und regulatorische Lösungen zum bidirektionalen Laden. Inhaber*innen von E-Autos sollen Geld dafür erhalten, wenn sie überschüssigen Strom in ihrer Autobatterie zwischenspeiche",
+          "page": 93
+        }
+      ]
     },
     {
       "topicId": "ev-charging",
@@ -2004,7 +2076,15 @@
         "tr": "Tempelhofer Feld’i tarımsal fotovoltaik ve mobil enerji depolama test alanı yapmak; işe yarayanı ölçeklemek, yaramayanı bırakmak — konut/kenar yapılaşma olarak çerçevelenmemiş",
         "pl": "Tempelhofer Feld jako teren testowy agri-fotowoltaiki i mobilnych magazynów energii; skalować to, co działa, kończyć to, co nie — nie jako zabudowa mieszkaniowa/krawędziowa",
         "uk": "Tempelhofer Feld як тестовий майданчик для агрофотовольтаїки та мобільних накопичувачів; масштабувати успішне, припиняти невдале — не як житлова/крайова забудова"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Klimatransformation als wirtschaftliche Chance nutzen",
+          "quote": "Das Tempelhofer Feld wird Testfläche für Agri-Photovoltaik und mobile Energiespeicher. Was funktioniert, wird skaliert. Was nicht funktioniert, wird beendet.",
+          "page": 60
+        }
+      ]
     },
     {
       "topicId": "tempelhofer-feld-development-edge-development",
@@ -2134,7 +2214,15 @@
         "tr": "aşırı sıcak koruması ve yeşil-mavi altyapının parçası olarak daha fazla sokak ağacı",
         "pl": "więcej drzew ulicznych jako element ochrony przed upałem i infrastruktury zielono-niebieskiej",
         "uk": "більше вуличних дерев як частина теплозахисної та зелено-блакитної інфраструктури"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Berlin zur Schwammstadt machen",
+          "quote": "Die Anpflanzung von mehr Straßenbäumen sorgt zudem für schattige und barrierefreie Aufenthaltsorte.",
+          "page": 97
+        }
+      ]
     },
     {
       "topicId": "large-scale-tree-planting-and-or-tree-care",
@@ -2264,7 +2352,15 @@
         "tr": "Berlin’in ısı eylem planını genişletmek: koordinasyon, finansman, ücretsiz serin oda ve içme çeşmesi haritası, daha fazla ağaç",
         "pl": "rozszerzyć berliński plan działań przeciw upałom: koordynacja, finansowanie, mapa darmowych chłodnych pomieszczeń i fontann pitnych, więcej drzew",
         "uk": "розширити Берлінський план дій щодо тепла: координація, фінансування, карта безкоштовних прохолодних кімнат і питних фонтанчиків, більше дерев"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Berlin zur Schwammstadt machen",
+          "quote": "Wir bauen den Berliner Hitze-Aktionsplan strukturell aus: mit zentraler Koordination, gesicherter Finanzierung und wissenschaftlicher Begleitung. Wir zeigen Berliner*innen auf einer Karte, wo sich kos",
+          "page": 97
+        }
+      ]
     },
     {
       "topicId": "heat-protection",
@@ -2394,7 +2490,15 @@
         "tr": "“sünger kent” programı: sızdırmazlığı kaldırma, geçirgen yüzeyler, çatı/cephe yeşillendirmesinin basitleştirilmesi ve su toplama tankları",
         "pl": "program „miasta gąbki”: odszczelnianie, powierzchnie przepuszczalne, uproszczone zazielenianie dachów/fasad i zbiorniki na wodę",
         "uk": "Програма «місто-губка»: розущільнення поверхонь, водопроникні поверхні, спрощене озеленення дахів/фасадів та водозбірних резервуарів"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Berlin zur Schwammstadt machen",
+          "quote": "Wir speichern Regenwasser vor Ort, statt es ungenutzt in die Kanalisation zu leiten. Dafür initiieren wir eine systematische Entsiegelungsoffensive, bei der wir versiegelte Flächen auf Plätzen und im ",
+          "page": 97
+        }
+      ]
     },
     {
       "topicId": "sponge-city-rainwater-retention-unsealing-surfaces",
@@ -2524,7 +2628,27 @@
         "tr": "tek kullanımlık atığı azaltmak ve kent çapında Mehrweg iade altyapısını finanse etmek için Verpackungssteuer; Zero-Waste eğitim atölyeleri; Repair-Café ve onarım bonusu; yeni yakma tesisi yok",
         "pl": "Verpackungssteuer przeciw jednorazowym odpadom i na miejską infrastrukturę Mehrweg; warsztaty Zero-Waste; Repair-Café i bonus naprawczy; bez nowych spalarni",
         "uk": "податок на упаковку проти одноразового сміття і на міську інфраструктуру Mehrweg; освітні Zero-Waste-воркшопи; Repair-Café і бонус за ремонт; без нових сміттєспалювачів"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Müll reduzieren",
+          "quote": "Wir führen eine Verpackungssteuer ein, um Einwegabfälle zu reduzieren. Mit den Einnahmen bauen wir eine berlinweite Mehrweg-Infrastruktur auf: mit flächendeckenden Rückgabestationen.",
+          "page": 40
+        },
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Müll reduzieren",
+          "quote": "Neue Müllverbrennungsanlagen lehnen wir ab, um keine langfristigen Abhängigkeiten von Abfallmengen zu schaffen und Recycling zu priorisieren.",
+          "page": 40
+        },
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Müll einfacher entsorgen",
+          "quote": "Ze ro-Waste”) langfristig verankern. Wir erhöhen die Anzahl der städtischen Mülleimer deutlich und statten müllanfällige Punkte wie Bushaltestellen, Parks oder Sitzbänke konsequent mit separ",
+          "page": 39
+        }
+      ]
     },
     {
       "topicId": "zero-waste-waste-prevention",
@@ -2654,7 +2778,21 @@
         "tr": "Berlin-Pay’i BSR “Kehrenbürger gönüllü temizlik programı”yla bağlamak; geri dönüştürülebilirler, tehlikeli atık ve iri atık için mahalle geri dönüşüm noktaları",
         "pl": "powiązać Berlin-Pay z programem wolontariackiego sprzątania BSR „Kehrenbürger”; osiedlowe punkty recyklingu surowców wtórnych, odpadów niebezpiecznych i gabarytów",
         "uk": "пов’язати Berlin-Pay з BSR «Програмою волонтерського очищення Kehrenbürger»; пункти переробки вторинної сировини, небезпечних і великогабаритних відходів"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Müll einfacher entsorgen",
+          "quote": "Wir schaffen wohnortnahe Kiez-Recycling-Punkte, die man einfach über mein.berlin.de oder eine App finden kann.",
+          "page": 39
+        },
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Müll einfacher entsorgen",
+          "quote": "Wir bauen das Belohnungssystem „Berlin-Pay“ für Berliner*innen und Tourist*innen weiter aus und verknüpfen es eng mit dem „Kehrenbürger“-Programm der BSR.",
+          "page": 39
+        }
+      ]
     },
     {
       "topicId": "bsr-waste-collection-and-infrastructure",
@@ -2784,7 +2922,21 @@
         "tr": "daha fazla çöp kutusu ve sigara izmariti için ayrı konteynerler; ayırma hakkında çok dilli bilgi; yasadışı döküme karşı yaptırım; ambalaj vergisi ve yeniden kullanılabilir ambalaj altyapısı",
         "pl": "więcej koszy i osobnych pojemników na niedopałki; wielojęzyczna informacja o sortowaniu; egzekucja przeciw nielegalnemu wyrzucaniu; podatek od opakowań i infrastruktura opakowań wielokrotnego użytku",
         "uk": "більше баків і окремих контейнерів для недопалків; багатомовна інформація про сортування; правозастосування проти незаконних звалищ; податок на упаковку та інфраструктуру багаторазової упаковки"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Müll einfacher entsorgen",
+          "quote": "Wir erhöhen die Anzahl der städtischen Mülleimer deutlich und statten müllanfällige Punkte wie Bushaltestellen, Parks oder Sitzbänke konsequent mit separaten Zigaretten-Abfalleimern aus.",
+          "page": 39
+        },
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Müll reduzieren",
+          "quote": "Wir führen eine Verpackungssteuer ein, um Einwegabfälle zu reduzieren.",
+          "page": 40
+        }
+      ]
     },
     {
       "topicId": "cleanliness-enforcement-litter",
@@ -2914,7 +3066,15 @@
         "tr": "güneş programı; 2031’e kadar uygun tüm kamu binalarında güneş tesisatı; otoparklarda, otoyol ve demiryolu boyunca PV; yerel güneş tesisatlarından kiracı elektriği ve yurttaş projelerine destek",
         "pl": "program solarny; wszystkie odpowiednie budynki publiczne z instalacjami solarnymi do 2031; PV na parkingach, wzdłuż autostrad i kolei; wsparcie prądu dla najemców z lokalnych instalacji i projektów obywatelskich",
         "uk": "сонячна програма; всі відповідні громадські будівлі з сонячними установками до 2031 року; PV на стоянках, вздовж автомагістралей та залізниць; підтримка електроенергії орендарів від місцевих сонячних установок і громадських проектів"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Strom für Berlin klimaneutral erzeugen",
+          "quote": "Wir starten dazu gemeinsam mit den Berliner Stadtwerken eine Solaroffensive und gehen als öffentliche Hand voran: Bis 2031 statten wir jedes öffentliche und technisch geeignete Gebäude mit Solaranlage",
+          "page": 91
+        }
+      ]
     },
     {
       "topicId": "solar-energy-photovoltaics",
@@ -3044,7 +3204,15 @@
         "tr": "Brandenburg’da rüzgâr ve güneş enerjisi genişlemesini Berlin’de fosil enerjinin azaltılmasıyla koordine etmek; rüzgâr gücünü kısıtlamadan yeşil enerji kullanmak",
         "pl": "koordynować rozbudowę energii wiatrowej i solarnej w Brandenburgii z redukcją energii kopalnej w Berlinie; wykorzystywać zieloną energię bez ograniczania mocy wiatrowej",
         "uk": "координувати розширення вітрової та сонячної енергії в Бранденбурзі зі скороченням викопної енергії в Берліні; використовувати зелену енергію без скорочення енергії вітру"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt die Energiepartnerschaft Berlin-Brandenburg ausbauen",
+          "quote": "Wir koordinieren dafür den Ausbau von Windkraft und Solar in Brandenburg mit dem schrittweisen Rückbau fossiler Energiequellen in Berlin. So verhindern wir „Abregelungen“ von Windrädern und leiten die",
+          "page": 92
+        }
+      ]
     },
     {
       "topicId": "wind-energy",
@@ -3174,7 +3342,15 @@
         "tr": "gaz bağımlılığını aşmak (hanelerin çoğu ve Fernwärme’nin ~¾’ü hâlâ Erdgas); Brandenburg ortaklığıyla yenilenebilir, (büyük) ısı pompaları ve atık ısı ile fosili değiştirmek",
         "pl": "przezwyciężyć zależność od gazu (większość domów i ~¾ ciepła sieciowego nadal Erdgas); zastąpić paliwa kopalne OZE, (dużymi) pompami ciepła i ciepłem odpadowym z partnerstwem Brandenburgii",
         "uk": "подолати залежність від газу (більшість домівок і ~¾ тепломережі ще на Erdgas); замінити викопне через ВДЕ, (великі) теплонасоси й відхідне тепло в партнерстві з Бранденбургом"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "BERLIN GEWINNT: MIT UNABHÄNGIGER, BEZAHLBARER UND KLIMANEUTRALER ENERGIE",
+          "quote": "Aktuell werden über die Hälfte der Berliner Haushalte mit Gas beheizt, bei der Berliner Fernwärmeversorgung entfallen drei Viertel der Versorgung auf Erdgas. Wir überwinden diese Abhängigkeit und mach",
+          "page": 91
+        }
+      ]
     },
     {
       "topicId": "gas-gas-network",
@@ -3304,7 +3480,21 @@
         "tr": "Tegel hidrojen pilotları için Green Tech Hub; biyogaz tesisi tepe yük için isteğe bağlı H₂ tabanlı; ısı stratejisi ısı pompaları ve atık ısı, kitlesel konut ısıtması olarak hidrojen değil",
         "pl": "Tegel jako Green Tech Hub pilotów wodorowych; biogazownia opcjonalnie na H₂ na szczyty; strategia ciepła na pompach i cieple odpadowym, nie wodór jako masowe ogrzewanie mieszkań",
         "uk": "Тегель як Green Tech Hub для водневих пілотів; біогазова установка опційно на H₂ для піків; теплова стратегія — теплонасоси й відхідне тепло, не водень як масове опалення житла"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Klimatransformation als wirtschaftliche Chance nutzen",
+          "quote": "Wir schaffen Testfelder für Wasserstoff, bidirektionales Laden und dezentrale Energienetze: Tegel wird zum Green Tech Hub für Wasserstoff- und Recyclingtechnologien.",
+          "page": 60
+        },
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Heizen für Berlin klimaneutral machen",
+          "quote": "Wir halten die bisherigen Müllverbrennungskapazitäten für Rest- und Sperrmüll für ausreichend und nicht erweiterungsbedürftig, forcieren jedoch den Bau einer modular erweiterbaren Biogasanlage für die",
+          "page": 92
+        }
+      ]
     },
     {
       "topicId": "hydrogen",
@@ -3434,7 +3624,27 @@
         "tr": "ustaları klasik ısıtmadan ısı pompalarına yeniden eğitmek; bölgesel ısıyı sistematik olarak büyük/nehir ısı pompaları ile veri merkezi, sanayi ve metro atık ısısına dönüştürmek; ısı pompalı haneler için Smart Meter",
         "pl": "przekwalifikować instalatorów z klasycznego ogrzewania na pompy ciepła; systematycznie przestawić ciepło sieciowe na duże i rzeczne pompy ciepła oraz ciepło odpadowe z data center, przemysłu i metra; Smart Meter dla gospodarstw z pompami",
         "uk": "перенавчати монтажників із класичного опалення на теплові насоси; систематично переводити тепломережу на великі й річкові теплонасоси плюс відхідне тепло ЦОД, промисловості та метро; Smart Meter для домівок із теплонасосами"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Heizen für Berlin klimaneutral machen",
+          "quote": "Wir stellen das Fernwärmenetz systematisch auf Großwärmepumpen um.",
+          "page": 92
+        },
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Heizen für Berlin klimaneutral machen",
+          "quote": "Flusswärmepumpen nutzen die Wärme der Spree und Havel sowie aus Abwasser. Wir schließen Rechenzentren, Industrie und U-Bahn-Stationen an Fernwärmenetze an, um deren Abwärme für die Wärmeversorgung zu nutzen.",
+          "page": 92
+        },
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Klimatransformation als wirtschaftliche Chance nutzen",
+          "quote": "Handwerker*innen, die gestern Heizungen eingebaut haben, sollen heute Wärmepumpen installieren können.",
+          "page": 60
+        }
+      ]
     },
     {
       "topicId": "heat-pumps",
@@ -3564,7 +3774,15 @@
         "tr": "büyük ısı pompalarıyla santralleri değiştiren bilimsel BEW karbonsuzlaştırma takvimi; Fernwärme’yi genişletmek; BEK 2030 (−%70 CO₂); sosyal uyumlu mahalle yenilemeleri — „2035’e kadar tamamen yenilenebilir ısı“ veya adlı ısı dönüşüm fonu yok",
         "pl": "naukowy harmonogram dekarbonizacji BEW z zastąpieniem elektrowni dużymi pompami ciepła; rozbudowa Fernwärme; BEK 2030 (−70% CO₂); społecznie akceptowalna modernizacja kwartałów — brak „w pełni OZE do 2035” i nazwanego funduszu transformacji ciepła",
         "uk": "науковий графік декарбонізації BEW із заміною станцій на великі теплонасоси; розширювати Fernwärme; BEK 2030 (−70% CO₂); соціально прийнятна санація кварталів — немає «повністю ВДЕ-тепло до 2035» і окремого фонду теплової хвилі"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Heizen für Berlin klimaneutral machen",
+          "quote": "Zusammen mit der BEW überarbeiten wir den Dekarbonisierungsfahrplan zu einem wissenschaftsgestützten Zeitplan, der festlegt, wann welche Kraftwerke durch Großwärmepumpen und ergänzende Technologien ab",
+          "page": 92
+        }
+      ]
     },
     {
       "topicId": "heating-supply-networks-decarbonization-and-or-transformation",
@@ -3694,7 +3912,13 @@
         "tr": "Berlin seçim programında ele alınmıyor",
         "pl": "nieporuszane w berlińskim programie wyborczym",
         "uk": "у берлінській передвиборчій програмі не згадується"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "note": "kein Treffer zu Kernenergie / Atomkraft / Atomenergie im Berliner Wahlprogramm"
+        }
+      ]
     },
     {
       "topicId": "nuclear-energy",
@@ -3824,7 +4048,15 @@
         "tr": "kentsel gelişim ve hayvan koruması birlikte; yaban hayvanlarının hareketi için sokakları, kanalları ve parkları bağlamak; eğlencede vahşi hayvanlı gösterilere karşı",
         "pl": "rozwój miasta i ochrona zwierząt razem; łączyć ulice, kanały i parki dla ruchu dzikich zwierząt; przeciw pokazom ze zwierzętami dzikimi w rozrywce",
         "uk": "розвиток міст і захист тварин разом; з’єднайте вулиці, канали та парки для пересування дикої природи; проти виступів з дикими тваринами в розвазі"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Stadtentwicklung und Tierschutz stärker zusammendenken",
+          "quote": "Wir setzen uns für sogenannte grün-blaue Korridore ein, die Lebensräume von Arten wie Füchsen, Hasen und Ottern verbinden. Außerdem setzen wir uns auf Bundes- und Europaebene für ein Verbot der Zucht ",
+          "page": 98
+        }
+      ]
     },
     {
       "topicId": "animal-protection",
@@ -3954,7 +4186,15 @@
         "tr": "sıkı Mietendeckel ve “toplu kamulaştırmalara” karşı: değerlendirmesinde arzı azaltır ve modernizasyonu yavaşlatır; sıkışık piyasalı mahallelerde Mietpreisbremse'yi korumak, izin verilen kirayı denetlemeyi basitleştirmek ve Mietspiegel şeffaflığı ile boş daireleri ve spekülasyonu tespit için manipülasyona dayanıklı dijital konut veri tabanı",
         "pl": "przeciw surowemu Mietendeckel i „szerokim wywłaszczeniom”: w ocenie partii ogranicza to podaż i spowalnia modernizację; zachować Mietpreisbremse w dzielnicach z napiętym rynkiem, uprościć kontrolę dopuszczalnego czynszu i wprowadzić odporną na manipulacje cyfrową bazę mieszkań dla przejrzystości Mietspiegel oraz wykrywania pustostanów i spekulacji",
         "uk": "проти жорсткого Mietendeckel та «поголовної експропріації»: за його оцінкою, це зменшує пропозицію та сповільнює модернізацію; зберегти Mietpreisbremse в районах із обмеженими ринками, спростити перевірку допустимої орендної плати та запровадити захищену від підробок цифрову базу даних житла для прозорості Mietspiegel та виявлення порожнього житла і спекуляцій"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt den Mietmarkt fair und sicher gestalten",
+          "quote": "Wir lehnen starre Mietendeckel und pauschale Enteignungen ab, da die Evidenz zeigt, dass sie das eigentliche Problem verschärfen: Sie verknappen das Angebot, bremsen Investitionen. Die Mietpreisbremse",
+          "page": 28
+        }
+      ]
     },
     {
       "topicId": "housing-rent-regulation-mietendeckel",
@@ -4084,7 +4324,15 @@
         "tr": "inşa etmek ve yeniden kullanmak: boş ticari ve depo alanlarının konuta basitleştirilmiş dönüşümü mevcut binalarda 30.000 daireye yer sağlar; artı ek katlar, esnek standartlar ve boş/infill alanlar için dijital harita ve uydu görüntüsü aramaları; Denkmalschutz ve Milieuschutz'u daha esnek uygulamak, hızlı ve uygun fiyatlı inşaat için “Hamburg standardı”",
         "pl": "budować i ponownie wykorzystywać: uproszczone przekształcanie pustych powierzchni komercyjnych i magazynowych w mieszkania daje miejsce na 30 000 mieszkań w istniejącej zabudowie; plus dodatkowe kondygnacje, elastyczne standardy oraz wyszukiwanie pustostanów i luk w zabudowie na mapach cyfrowych i zdjęciach satelitarnych; stosować Denkmalschutz i Milieuschutz elastyczniej, wykorzystać „standard hamburski” dla szybkiego i niedrogiego budownictwa",
         "uk": "будувати та повторно використовувати: спрощене перетворення вільних комерційних і складських площ у житло забезпечує місце для 30 000 квартир у існуючих будинках; плюс додаткові історії, гнучкі стандарти та пошук на цифрових картах і супутникових зображеннях для вільних і заповнених ділянок; застосовуйте Denkmalschutz і Milieuschutz більш гнучко, використовуйте «Гамбурзький стандарт» для швидкого та доступного будівництва"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt mehr bauen und umnutzen",
+          "quote": "Wir passen den Stadtentwicklungsplan 2040 konsequent an die Realität an, um Flächen für 300.000 neue Wohnungen zu sichern. Gleichzeitig vereinfachen wir die Umwandlung leerstehender Gewerbe- oder Best",
+          "page": 25
+        }
+      ]
     },
     {
       "topicId": "housing-new-construction-and-targets",
@@ -4214,7 +4462,15 @@
         "tr": "toplu kamulaştırmaları reddeder: milyarlarca tazminat inşaat bütçesinden sapar; bunun yerine belediye ve kooperatif konutunun %50 sosyal odaklı konuta kitlesel genişlemesiyle “fiyat çapası”",
         "pl": "odrzuca szerokie wywłaszczenia: miliardy odszkodowań zostałyby odjęte od budżetu budowlanego; zamiast tego „kotwica cenowa” przez masową rozbudowę mieszkań komunalnych i spółdzielczych do 50 procent mieszkań o orientacji społecznej",
         "uk": "відкидає масштабну експропріацію: мільярди компенсацій будуть витрачені з бюджету будівництва; натомість «ціновий якір» шляхом масового розширення муніципального та кооперативного житла до 50 відсотків соціально орієнтованого житла"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt den Mietmarkt fair und sicher gestalten",
+          "quote": "Wir lehnen starre Mietendeckel und pauschale Enteignungen ab, da die Evidenz zeigt, dass sie das eigentliche Problem verschärfen: Sie verknappen das Angebot, bremsen Investitionen.",
+          "page": 28
+        }
+      ]
     },
     {
       "topicId": "housing-socialization-of-large-landlords",
@@ -4344,7 +4600,21 @@
         "tr": "sosyal odaklı stoku %50'ye çıkarmak: kooperatifler, belediye şirketleri, çok kuşaklı konut, Baugruppen, çalışan konutu; Erbbaurecht ile arazi, arsaları en yüksek fiyat yerine kavram kalitesine göre tahsis; gelir sınırını belirgin aşanlar için Fehlbelegungsabgabe, geliri yeni sosyal konuta ayırmak; sosyal kiralama ajansı piyasadan konut kiralayıp düşük gelirliye alt kiralama yapar, sahibe ödemeyi garanti eder",
         "pl": "zwiększyć zasób o orientacji społecznej do 50 procent: spółdzielnie, spółki komunalne, mieszkania wielopokoleniowe, Baugruppen, mieszkania pracownicze; grunty przez Erbbaurecht, przydzielać działki według jakości koncepcji, nie najwyższej ceny; Fehlbelegungsabgabe dla osób wyraźnie powyżej limitu dochodu, wpływy przeznaczone na nowe mieszkania socjalne; społeczna agencja najmu wynajmuje mieszkania na rynku i podnajmuje je osobom o niskich dochodach, gwarantując płatności właścicielowi",
         "uk": "Збільшити соціально орієнтований фонд до 50 відсотків: кооперативи, муніципальні компанії, житло для кількох поколінь, Baugruppen, житло для працівників; землі через Erbbaurecht, розподіляйте ділянки на основі концепції якості, а не найвищої ціни; Fehlbelegungsabgabe для тих, хто значно перевищує межу доходу, призначаючи дохід на нове соціальне житло; соціальна орендна агенція здає житло на ринку та в суборенду малозабезпеченим жителям, гарантуючи виплати власнику"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt bezahlbares Wohnen fördern",
+          "quote": "Wir stärken Genossenschaften, landeseigene Wohnungsunternehmen, aber auch Konzepte für Mehrgenerationenwohnen, private Baugruppen und Modelle für Werkswohnungen von Unternehmen, um den gemeinwohlorien",
+          "page": 27
+        },
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt soziales Wohnen fördern",
+          "quote": "Wir halten an verbindlichen Sozialquoten bei großen Neubauprojekten fest, damit Berlin eine Stadt für alle bleibt. Wir führen eine Fehlbelegungsabgabe für Sozialwohnungen ein.",
+          "page": 29
+        }
+      ]
     },
     {
       "topicId": "housing-municipal-stock-social-housing-wbs",
@@ -4474,7 +4744,21 @@
         "tr": "boşluk ve spekülasyonu açığa çıkaran sahteciliğe dayanıklı dijital Wohnraum-Datenbank; boş ticari alanları haritalayıp yeniden kullanmak (KiezLabs, kültür) — ayrı Zweckentfremdung/Ferienwohnungen yasağı bölümü yok",
         "pl": "odporna na fałszerstwo cyfrowa Wohnraum-Datenbank przeciw pustostanom i spekulacji; mapować i zmieniać funkcję pustych lokali użytkowych (KiezLabs, kultura) — brak osobnego rozdziału o zakazie Zweckentfremdung/Ferienwohnungen",
         "uk": "захищена цифрова Wohnraum-Datenbank проти простоювання та спекуляції; картографувати й перепрофільовувати порожні комерційні площі (KiezLabs, культура) — окремого розділу про заборону Zweckentfremdung/Ferienwohnungen немає"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt den Mietmarkt fair und sicher gestalten",
+          "quote": "Wir führen eine fälschungssichere, digitale Wohnraum-Datenbank für maximale Transparenz des Mietspiegels ein. Damit machen wir die Ausgestaltung von Mieten nachvollziehbar und legen Leerstand und Spek",
+          "page": 28
+        },
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Leerstand bekämpfen",
+          "quote": "Wir kartieren alle leerstehenden Gewerbeflächen digital, damit Bezirke, Eigentümer*innen und potentielle Nutzer*innen wissen, was wo verfügbar ist.",
+          "page": 61
+        }
+      ]
     },
     {
       "topicId": "housing-vacancy-tourist-apartments-speculation",
@@ -4604,7 +4888,15 @@
         "tr": "satın alma desteği: oturum amaçlı yeni inşa ev alırken kent yatırım bankasından iyileştirilmiş kredi ve kefalet koşulları; kişi başına bir kerelik 36.000 € gayrimenkul transfer vergisi istisnası için federal girişim — kişi başına 600.000 €'ya kadar fiilen tam muafiyet",
         "pl": "wsparcie zakupów: lepsze warunki kredytów i poręczeń od miejskiego banku inwestycyjnego przy zakupie nowego mieszkania na własne cele; inicjatywa federalna o jednorazowe zwolnienie z podatku od nabycia nieruchomości 36 000 € na osobę — faktycznie pełne zwolnienie przy cenie do 600 000 € na osobę",
         "uk": "Супровід покупок: покращені умови кредиту та гарантії від міського інвестиційного банку при купівлі новобудови для власного проживання; ініціатива на федеральному рівні щодо одноразової податкової пільги на передачу нерухомості в розмірі 36 000 євро на особу — фактично повне звільнення від податку на суму до 600 000 євро на особу"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt bezahlbares Wohnen fördern",
+          "quote": "Wir setzen uns mit einer Bundesratsinitiative für eine einmalige, personengebundene Grunderwerbsteuer-Freigrenze von 36.000 Euro beim erstmaligen Erwerb von Wohneigentum ein. Damit ermöglichen wir ein",
+          "page": 27
+        }
+      ]
     },
     {
       "topicId": "housing-ownership-conversion-of-rental-apartments-into-condominiums-evic",
@@ -4734,7 +5026,15 @@
         "tr": "federal girişim: kişi başına bir kerelik 36.000 € gayrimenkul transfer vergisi istisnası — kişi başına 600.000 €'ya kadar fiilen tam muafiyet; artı oturum amaçlı yeni inşa ev almak için kent yatırım bankası kredileri ve kefaletleri",
         "pl": "inicjatywa federalna: jednorazowe zwolnienie z podatku od nabycia nieruchomości 36 000 € na osobę — faktycznie pełne zwolnienie przy cenie do 600 000 € na osobę; plus kredyty i poręczenia miejskiego banku inwestycyjnego na zakup nowego mieszkania na własne cele",
         "uk": "Ініціатива на федеральному рівні: одноразова пільга на передачу податку на нерухомість у розмірі 36 000 євро на особу — фактично повне звільнення від податку на суму до 600 000 євро на особу; плюс кредити та гарантії від міського інвестиційного банку для купівлі новозбудованого будинку для проживання власника"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt bezahlbares Wohnen fördern",
+          "quote": "Wir setzen uns mit einer Bundesratsinitiative für eine einmalige, personengebundene Grunderwerbsteuer-Freigrenze von 36.000 Euro beim erstmaligen Erwerb von Wohneigentum ein. Damit ermöglichen wir ein",
+          "page": 27
+        }
+      ]
     },
     {
       "topicId": "housing-tax-on-the-first-property-purchase",
@@ -4864,7 +5164,21 @@
         "tr": "“Housing First” temelli eyalet inşaat programı: maliyetli toplu barınaklar ve sokak yerine özel daire ve destek, seri üretilmiş mini daireler; tüm barınaklar için tek tip asgari standartlar — mahremiyet, hijyen, koruma kavramları, danışmanlığa erişim, zorunlu sakin konseyleri ve bağımsız şikâyet denetimi; Finlandiya örneği — evsizlik %80 azaldı",
         "pl": "landowy program budowlany oparty na „Housing First”: prywatne mieszkanie i wsparcie zamiast kosztownych schronisk zbiorowych i ulicy, seryjnie budowane minimieszkania; jednolite minimalne standardy dla wszystkich schronisk — prywatność, higiena, koncepcje ochrony, dostęp do doradztwa, obowiązkowe rady mieszkańców i niezależny monitoring skarg; przykład Finlandii — bezdomność spadła o 80 procent",
         "uk": "Державна програма будівництва за принципом «Житло перш за все»: приватна квартира та підтримка замість дорогих колективних притулків та вулиці серійно побудованих міні-квартир; єдині мінімальні стандарти для всіх притулків — приватність, гігієна, концепції захисту, доступ до консультацій, обов’язкові ради жителів і незалежний моніторинг скарг; Приклад Фінляндії — кількість бездомних скоротилася на 80 відсотків"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Wohnungslosigkeit überwinden",
+          "quote": "Wir bekämpfen Wohnungs- und Obdachlosigkeit mit einem landesweiten Housing First-Bauprogramm. Ein eigenes Zuhause und Betreuung ist die Grundvoraussetzung für Gesundheit und Arbeit.",
+          "page": 29
+        },
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Unterkünfte für Geflüchtete menschenwürdig gestalten",
+          "quote": "Wir führen einheitliche Mindeststandards für alle Berliner Unterkünfte ein, in denen besonders schutzbedürftige Menschen leben.",
+          "page": 106
+        }
+      ]
     },
     {
       "topicId": "housing-evictions-and-homelessness",
@@ -4994,7 +5308,21 @@
         "tr": "aydınlatma oranı %50'nin altında: önleme (Streetwork, Jugendhilfe, sosyal mesleklerde erkekler, çıkış programları) artı daha yoğun devriye ve tutarlı ceza için daha fazla polis ve yargı personeli; polisin çekirdek görevlere odaklanabilmesi için polis ile Ordnungsdienst arasında mantıklı görev bölüşümü",
         "pl": "wskaźnik wyjaśnialności poniżej 50 procent: prewencja (Streetwork, Jugendhilfe, mężczyźni w zawodach społecznych, programy wyjścia) plus więcej personelu policji i wymiaru sprawiedliwości dla gęstszych patroli i konsekwentnego karania; sensowny podział zadań między policją a Ordnungsdienst, by policjanci mogli skupić się na podstawowych obowiązkach",
         "uk": "Рівень розкриття нижче 50 відсотків: профілактика (Streetwork, Jugendhilfe, чоловіки в соціальних професіях, програми звільнення) плюс більше поліцейського та судового персоналу для щільнішого патрулювання та послідовного покарання; розумний розподіл завдань між поліцією та Ordnungsdienst, щоб поліцейські могли зосередитися на основних обов’язках"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Polizei und Justiz stärken und modernisieren",
+          "quote": "Wir verbessern die personelle Ausstattung der Polizei und der Justiz, um eine höhere Streifendichte und die konsequente Verfolgung und Bestrafung von Straftaten zu gewährleisten.",
+          "page": 76
+        },
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt früh handeln und Kriminalität vorbeugen",
+          "quote": "Wir unterstützen gefährdete oder bereits straffällige Jugendliche, um frühzeitig Eskalation zu verhindern und so Kriminalität zu verhindern, statt sie nur zu bekämpfen.",
+          "page": 74
+        }
+      ]
     },
     {
       "topicId": "security-police-in-neighborhoods",
@@ -5124,7 +5452,15 @@
         "tr": "programda kitlesel video gözetimi yok: zorunlu aktivasyonlu body kamera, ilgili herkese tam ekipman ve kullanıcıların kayıtları kendilerinin silememesini destekler; dijital egemenlik için soruşturma yazılımı yalnızca Avrupa şirketlerinden; güvensiz yerler için anonim dijital bildirim sistemleri",
         "pl": "brak masowego monitoringu wideo w programie: popiera bodycamy z obowiązkową aktywacją, pełne wyposażenie dla wszystkich zaangażowanych i bez możliwości samodzielnego usuwania nagrań przez użytkowników; oprogramowanie śledcze tylko od firm europejskich dla suwerenności cyfrowej; anonimowe cyfrowe systemy zgłaszania niebezpiecznych miejsc",
         "uk": "масового відеоспостереження в програмі немає: підтримує натільні камери з обов’язковою активацією, повне оснащення для всіх учасників і відсутність можливості для користувачів самостійно видаляти записи; програмне забезпечення для розслідувань лише від європейських компаній для цифрового суверенітету; анонімні цифрові системи звітності про небезпечні місця"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Polizei und Justiz stärken und modernisieren",
+          "quote": "Gleichzeitig gelten für KI klare Datenschutzregeln, kurze Speicherfristen, keine biometrische Echtzeit-Überwachung und immer menschliche Kontrolle.",
+          "page": 76
+        }
+      ]
     },
     {
       "topicId": "security-video-surveillance-and-biometrics",
@@ -5254,7 +5590,19 @@
         "tr": "sebepsiz kontrollere doğrudan tutum yok; vurgu önleme, çıkış programları ve aydınlatma ile yeşillikle güvenli kamusal alan, artı de-eskalasyon aracı olarak body kameralar",
         "pl": "brak bezpośredniego stanowiska wobec kontroli bezpodstawnych; nacisk na prewencję, programy wyjścia i bezpieczną przestrzeń publiczną przez oświetlenie i zieleń oraz bodycamy jako narzędzie deeskalacji",
         "uk": "окремої позиції щодо перевірок без підозри немає; акцент на профілактиці, програмах виходу та безпечному громадському просторі через освітлення й озеленення, плюс натільні камери для деескалації"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt öffentliche Räume sicherer gestalten",
+          "quote": "Wir erarbeiten ein Konzept, das es allen Menschen ermöglicht, sich in Grün- und Bewegungsräumen sowie im öffentlichen Raum sicher zu fühlen, etwa durch bessere Beleuchtung und Begrünung.",
+          "page": 78
+        },
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "note": "kein Treffer zu verdachtsunabhängigen/anlasslosen Kontrollen; Schwerpunkt Prävention und sichere öffentliche Räume"
+        }
+      ]
     },
     {
       "topicId": "security-suspicionless-checks-and-controversial-powers",
@@ -5384,7 +5732,15 @@
         "tr": "BKA “Radar” karar destek sistemini eyalet düzeyinde geliştirmek, Avrupa ve uluslararası makamlarla tüm suç ağlarını hedef almak, organize suçun opak mülkiyet yapılarının arkasına gizlenmesini engellemek; şüpheli varlıklar için ispat yükünü tersine çevirmek ve kurumlar arası çalışma için İngiltere MASH modelini kullanmak",
         "pl": "Rozwinięcie systemu wsparcia decyzji BKA „Radar” na poziomie landu, celowanie w całe sieci przestępcze wraz z organami europejskimi i międzynarodowymi oraz uniemożliwienie ukrywania się przestępczości zorganizowanej za nieprzejrzystymi strukturami własności; odwrócenie ciężaru dowodu przy podejrzanych majątkach oraz model brytyjski MASH dla współpracy międzyinstytucjonalnej",
         "uk": "розвивати систему підтримки рішень BKA «Radar» на рівні землі, бити по злочинних мережах загалом разом із європейськими та міжнародними органами"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Organisierte Kriminalität entschlossen bekämpfen",
+          "quote": "Wir entwickeln die polizeilichen Entscheidungsunterstützungssysteme wie »Radar« des Bundeskriminalamts im Land Berlin weiter, um die Bevölkerung besser vor organisierter Kriminalität zu schützen.",
+          "page": 78
+        }
+      ]
     },
     {
       "topicId": "security-organized-crime-and-money",
@@ -5514,7 +5870,15 @@
         "tr": "Queer güvenlik için eyalet stratejisi ve aşırı sağ, ırkçılık ile antisemitizme karşı kavram; aşırılıkçı, ırkçı ve queer karşıtı şiddet mağdurları için bölgesel merkezler — psikologlar, hukuki yardım, acil yardım; aile içi şiddet failleri için elektronik ayak bileği monitörleri ve İstanbul Sözleşmesi'ni tam uygulamak için kadın sığınma evlerinde en az 330 ek yer; dijital cinselleştirilmiş şiddet ayrı bir şiddet biçimi olarak; çocuklar için Barnahus modeli ve İngiliz MARAC",
         "pl": "Strategia landowa na rzecz bezpieczeństwa queer oraz koncepcja przeciw ekstremizmowi skrajnej prawicy, rasizmowi i antysemityzmowi; regionalne ośrodki dla ofiar przemocy ekstremistycznej, rasistowskiej i antyqueer — psycholodzy, pomoc prawna, pomoc kryzysowa; elektroniczne opaski dla sprawców przemocy domowej i co najmniej 330 dodatkowych miejsc w schroniskach dla kobiet w celu pełnej realizacji Konwencji stambulskiej; cyfrowa przemoc seksualizowana jako osobna forma przemocy; model Barnahus dla dzieci oraz brytyjski MARAC",
         "uk": "Державна стратегія безпеки квірів та концепція проти ультраправого екстремізму, расизму та антисемітизму; регіональні центри для постраждалих від екстремістського, расистського та антиквір насильства — психологи, юридична допомога, швидка допомога; електронні монітори для щиколоток для винних у домашньому насильстві та принаймні 330 додаткових місць у притулках для жінок для повного впровадження Стамбульської конвенції; цифрове сексуальне насильство як окрема форма насильства; модель Barnahus для дітей і британський MARAC"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Opfer gezielter schützen",
+          "quote": "Wir stärken den sofortigen Schutz von Opfern. Wir bauen regionale Anlaufstellen aus, die insbesondere Opfern extremistischer, rassistischer und anti-queerer Gewalt psychologische Beratung bieten. Wir ",
+          "page": 75
+        }
+      ]
     },
     {
       "topicId": "security-oversight-prevention-support-for-victims",
@@ -5644,7 +6008,15 @@
         "tr": "Zorunlu kalite standartları: kreş gruplarında 1:3 ve Kita'da 1:7,5 oranlarını yasaya bağlamak, personel eğitimini genişletmek, meslek değişimlerini örgütlemek ve yabancı diplomaların tanınmasını hızlandırmak; Kita'larda çok profesyonelli ekipler ve bilim, uygulama ile Träger'den oluşan Berlin Kita-Rat; dil desteği ailelerin zaten bulunduğu yerde — ayrı randevuyla değil Kita'da; okula zorunlu ve destekli geçiş",
         "pl": "Obowiązkowe standardy jakości: uregulowanie w ustawie proporcji 1:3 w grupach żłobkowych i 1:7,5 w Kita, rozbudowa szkoleń kadry, organizacja zmian zawodu i przyspieszenie uznawania dyplomów zagranicznych; zespoły multiprofesjonalne w Kita oraz berlińska Kita-Rat złożona z nauki, praktyki i Träger; wsparcie językowe tam, gdzie są rodziny — w Kita, nie przez osobne wizyty; obowiązkowe i wspierane przejście do szkoły",
         "uk": "Обов’язкові стандарти якості: законодавчо закріпити співвідношення 1:3 у ясельних групах та 1:7,5 у Кіта, розширити навчання кадрів, організувати кар’єрні зміни, прискорити визнання іноземних дипломів; мультипрофесійні команди в Kitas і Berlin Kita-Rat, що включають науку, практику та Träger; мовна підтримка там, де сім’ї вже є — у Кіті, а не за окремим записом; обов'язковий і підтримуваний перехід до школи"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt verbindliche Standards für jede Kita",
+          "quote": "Wir stärken die Qualität frühkindlicher Bildung durch verlässliche Standards und bessere Arbeitsbedingungen.",
+          "page": 44
+        }
+      ]
     },
     {
       "topicId": "kitas-access-and-quality",
@@ -5774,7 +6146,15 @@
         "tr": "Zorunlu okul öncesi aşama — çocukların üçte birinde dil açığı var; nitelikli dil öğretmenlerinden destek, Kita ile ilkokul arasında düzenli alışverişli ortak destek planı; model üç yaşından itibaren zorunlu Fransız Vorschule",
         "pl": "Obowiązkowa faza przedszkolna — jedna trzecia dzieci ma deficyty językowe; wsparcie przez wykwalifikowanych nauczycieli języka, wspólny plan wsparcia Kita i szkoły podstawowej z regularną wymianą; wzorem obowiązkowa francuska Vorschule od trzeciego roku życia",
         "uk": "Обов’язковий дошкільний етап — третина дітей має мовний дефіцит; підтримка кваліфікованих викладачів мов, спільний план підтримки між Kita та початковою школою з регулярним обміном; Модель є обов'язковою французькою Vorschule з трьох років"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt den Übergang in die Schule verbindlich machen",
+          "quote": "Wir führen eine qualitativ gesicherte Vorschulphase ab fünf Jahren verbindlich ein, in der sprachliche, soziale und kognitive Grundlagen gezielt gestärkt werden. Wir führen Sprachtests mit vier Jahren",
+          "page": 45
+        }
+      ]
     },
     {
       "topicId": "schools-language-and-preparation-for-first-grade",
@@ -5904,7 +6284,15 @@
         "tr": "“Destekleyen ve zorlayan” bir okul: okul türleri arasında daha kolay geçiş, şeffaf kriterler ile öğrenci ve ebeveynlere daha iyi danışmanlık, kendi üst ortaöğretim kademesi veya güvenilir işbirliği olan daha fazla okul, sistemi parçalamak yerine mevcut okul türlerini geliştirmek; yetenekli öğrencilere destek — MINT programları, yarışmalar ve okul akademileri; okullarda çok profesyonelli ekipler",
         "pl": "Szkoła, która „wspiera i stawia wymagania”: łatwiejsze przejścia między typami szkół, przejrzyste kryteria i lepsze doradztwo dla uczniów i rodziców, więcej szkół z własnym poziomem ponadgimnazjalnym lub wiarygodną współpracą, rozwój istniejących typów szkół zamiast rozmontowywania systemu; wsparcie uczniów uzdolnionych — programy MINT, konkursy i akademie szkolne; zespoły multiprofesjonalne w szkołach",
         "uk": "Школа, яка «підтримує та кидає виклик»: легший перехід між типами шкіл, прозорі критерії та кращі консультації для учнів і батьків, більше шкіл із власним старшим середнім рівнем або надійною співпрацею, розвиток існуючих типів шкіл замість демонтажу системи; підтримувати обдарованих учнів — програми, конкурси та шкільні академії MINT; мультипрофесійні команди в школах"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Unterrichtsqualität stärken",
+          "quote": "Wir stärken die Unterrichtsqualität, indem wir in die Menschen investieren, die sie tragen. Wir gewinnen deshalb Lehrkräfte langfristiger und gezielter.",
+          "page": 46
+        }
+      ]
     },
     {
       "topicId": "schools-structure-and-requirements",
@@ -6034,7 +6422,15 @@
         "tr": "Çok profesyonelli ekipler ve sosyal ile psikolojik mesleklere rol model olarak erkeklerin alınması; eğitimi genişleterek, meslek değişimlerini örgütleyerek ve yabancı diplomaları hızla tanıyarak personel açığını gidermek",
         "pl": "Zespoły multiprofesjonalne i rekrutacja mężczyzn do zawodów społecznych i psychologicznych jako wzorów; niedobory kadrowe przez rozbudowę szkoleń, organizację zmian zawodu i szybkie uznawanie dyplomów zagranicznych",
         "uk": "Мультипрофесійні команди та залучення чоловіків до соціальних та психологічних професій як зразків для наслідування; подолати дефіцит персоналу шляхом розширення навчання, зміни кар’єри та швидкого визнання іноземних дипломів"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Unterrichtsqualität stärken",
+          "quote": "Wir stärken die Unterrichtsqualität, indem wir in die Menschen investieren, die sie tragen. Wir gewinnen deshalb Lehrkräfte langfristiger und gezielter und bauen Ausbildungs- und …",
+          "page": 46
+        }
+      ]
     },
     {
       "topicId": "schools-staff-social-work-screens",
@@ -6164,7 +6560,15 @@
         "tr": "En ayrıntılı gündem: personel açıkları ekonomiyi frenliyor; göç idaresini modernleştirmek, tamamen dijital başvurular, uzman daireleri güçlendirmek, yabancı diplomaların tanınmasını hızlandırmak ve uluslararası profesyoneller ile işverenler için SIRI modelinde merkezi dijital temas noktası oluşturmak",
         "pl": "najbardziej szczegółowy program: niedobory kadrowe hamują gospodarkę; modernizacja urzędu imigracyjnego, w pełni cyfrowe wnioski, wzmocnienie wydziałów specjalistycznych, przyspieszenie uznawania dyplomów zagranicznych oraz centralny cyfrowy punkt kontaktowy dla międzynarodowych fachowców i pracodawców wzorowany na SIRI",
         "uk": "найдетальніший порядок денний: кадровий дефіцит гальмує економіку; модернізувати імміграційну службу, повністю цифрові додатки, зміцнити спеціалізовані відділи, прискорити визнання іноземних дипломів і створити центральну цифрову контактну точку для міжнародних професіоналів і роботодавців за зразком SIRI"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt die Anerkennung von Qualifikationen beschleunigen und digitalisieren",
+          "quote": "Wir schaffen digitale Schnittstellen zwischen LEA, Kammern und Betrieben. Damit laufen Anerkennungs- und Aufenthaltsverfahren parallel statt nacheinander.",
+          "page": 68
+        }
+      ]
     },
     {
       "topicId": "shortage-of-qualified-professionals",
@@ -6294,7 +6698,15 @@
         "tr": "Okuldan mesleki eğitime, üniversiteye ve istihdama geçişi şeffaf kılmak: açık mesleki eğitim yerlerinin merkezi genel görünümü, üniversiteyle eşit bir yol olarak mesleki eğitim, Viyana modeline dayalı çıraklık yeri garantisi, açık mesleklerde stajyerler için işyeri konutu ve dernekler (Azubiwerke)",
         "pl": "przejrzyste przejście ze szkoły do szkolenia zawodowego, studiów i zatrudnienia: centralny przegląd wolnych miejsc szkoleniowych, szkolenie zawodowe jako równorzędna ścieżka obok studiów, gwarancja miejsca na praktykę według modelu wiedeńskiego, mieszkania zakładowe i stowarzyszenia dla praktykantów (Azubiwerke) w zawodach deficytowych",
         "uk": "зробити прозорим перехід від школи до професійного навчання, університету та працевлаштування: центральний огляд відкритих місць професійного навчання, професійне навчання як рівноправний шлях поряд з університетом, гарантія місця учнівства на основі віденської моделі, житло на робочому місці та асоціації для стажерів (Azubiwerke) у дефіцитних професіях"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt duale Ausbildung stärken und absichern",
+          "quote": "Wir stärken die duale Ausbildung als gleichwertigen Bildungsweg neben dem Studium. Wir schaffen eine zentrale, leicht zugängliche Übersicht über offene Ausbildungsstellen in Berlin.",
+          "page": 50
+        }
+      ]
     },
     {
       "topicId": "vocational-education-and-dual-training",
@@ -6424,7 +6836,15 @@
         "tr": "Üniversite ve mesleki eğitim eşit yollar; okuldan eğitime birleşik geçiş, Avrupa standartlarına dayalı dijital nitelik kanıtı, yinelenen kontroller olmadan niteliklerin tanınması",
         "pl": "studia i szkolenie zawodowe jako równorzędne ścieżki; jednolite przejście ze szkoły do szkolenia, cyfrowe potwierdzenie kwalifikacji według standardów europejskich, uznawanie kwalifikacji bez podwójnych kontroli",
         "uk": "університетське та професійне навчання як рівні шляхи; уніфікований перехід від школи до навчання, цифрове підтвердження кваліфікації за європейськими стандартами, визнання кваліфікації без повторних перевірок"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Arbeits- und Studienbedingungen an Hochschulen verbessern",
+          "quote": "Wir sichern den Berliner Hochschulen eine verlässliche und planbare Grundfinanzierung. Mit langfristigen Budgetperspektiven ermöglichen wir, Personal dauerhaft zu binden.",
+          "page": 51
+        }
+      ]
     },
     {
       "topicId": "higher-education",
@@ -6554,7 +6974,15 @@
         "tr": "Berlin Eğitim Pasaportu: 25 yaş üstü tüm Berlinliler için akredite sağlayıcılarda yıllık sürekli eğitim bütçesi; pasaport ayrıca iş, gönüllülük ve kendi kendine öğrenmeyle kazanılan becerileri kaydeder ve dijital kimlik bilgileriyle kredilendirir; ayrıca modüler yeniden eğitim ve piyasanın karşılamadığı gerekli işlerde asgari ücretle toplumsal olarak yararlı istihdam",
         "pl": "Berlin Education Passport: coroczny budżet na kształcenie ustawiczne u akredytowanych dostawców dla wszystkich berlińczyków powyżej 25 lat; paszport rejestruje też umiejętności zdobyte w pracy, wolontariacie i samodzielnej nauce oraz zalicza je przez cyfrowe poświadczenia; plus modułowe przekwalifikowanie i społecznie użyteczne zatrudnienie przy płacy minimalnej, gdy rynek nie zapewnia niezbędnej pracy",
         "uk": "Berlin Education Passport: річний бюджет на безперервну освіту в акредитованих закладах для всіх берлінців старше 25 років; паспорт також записує навички, отримані під час роботи, волонтерства та самостійного навчання, і зараховує їх за допомогою цифрових облікових даних; плюс модульна перепідготовка та суспільно корисна зайнятість за мінімальну зарплату там, де необхідну роботу не забезпечує ринок"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Weiterbildung für alle zugänglich machen",
+          "quote": "Wir führen einen Berliner BildungsPass ein. Denn technologische Veränderungen, neue Berufsbilder und längere Erwerbsbiografien erfordern kontinuierliche Weiterbildung.",
+          "page": 53
+        }
+      ]
     },
     {
       "topicId": "continuing-education-and-retraining",
@@ -6684,7 +7112,15 @@
         "tr": "Entegre sağlık merkezleri için eyalet programını (LIG) genişletmek, özellikle dış ve yapısal olarak zayıf ilçelerde: ebe ve psikolojik destekli çok profesyonelli ekiplerle “bakım evleri,” her merkezde yaşlılar için bakım danışmanlığı ve terapi sunan Gesundheitskiosk; uzun açık saatler acil servisleri rahatlatır; çok dilli Gesundheitslots:innen; ruhsal krizlerde polis yerine Street Triage; Senior-Berlin uygulaması, ME/CFS ve Long-COVID'in tanınması",
         "pl": "Rozbudowa programu landowego zintegrowanych centrów zdrowia (LIG), zwłaszcza na peryferiach i w dzielnicach strukturalnie słabych: „domy opieki” z zespołami multiprofesjonalnymi, położnymi i wsparciem psychologicznym, z Gesundheitskiosk dla osób starszych w każdym centrum oferującym doradztwo opiekuńcze i terapię; długie godziny otwarcia odciążają SOR-y; wielojęzyczne Gesundheitslots:innen; Street Triage zamiast policji przy kryzysach zdrowia psychicznego; aplikacja Senior-Berlin, uznanie ME/CFS i Long-COVID",
         "uk": "Розширити державну програму інтегрованих центрів здоров’я (LIG), особливо у віддалених і структурно слабких районах: «будинки опіки» з мультипрофесійними командами, акушерками та психологічною підтримкою, з Gesundheitskiosk для людей похилого віку в кожному центрі, що надає консультації по догляду та терапію; тривалий час роботи розвантажує відділення невідкладної допомоги; багатомовний Gesundheitslots:innen; Вуличне сортування замість поліції під час криз психічного здоров’я; Додаток Senior-Berlin, розпізнавання ME/CFS та Long-COVID"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Gesundheitszentren ausbauen",
+          "quote": "Wir bringen Gesundheit nah an die Menschen im Kiez: Mit einer Ausweitung des Landesprogramms der integrierten Gesundheitszentren (LIG), die wir vor allem in strukturschwachen Bezirken ausbauen.",
+          "page": 80
+        }
+      ]
     },
     {
       "topicId": "healthcare-hospitals-and-neighborhood-care",
@@ -6814,7 +7250,15 @@
         "tr": "Müfredatta Mental Health, yalnızlığa karşı buluşma yerleri — çok kuşaklı kafeler ve mahalle merkezleri, doğum sonrası depresyon hakkında ücretsiz materyaller, tek ebeveynlere yoğun destek; ruhsal krizlerde yalnız polis yerine polisle Berliner Krisendienst'ten oluşan mobil Street Triage ekipleri",
         "pl": "Mental Health w programie nauczania, miejsca spotkań przeciw samotności — kawiarnie międzypokoleniowe i centra sąsiedzkie, bezpłatne materiały o depresji poporodowej, intensywne wsparcie dla rodziców samotnie wychowujących; mobilne zespoły Street Triage złożone z policji i Berliner Krisendienst zamiast samej policji przy kryzysach zdrowia psychicznego",
         "uk": "Психічне здоров’я в навчальній програмі, місця зустрічі проти самотності — кав’ярні для кількох поколінь і районні центри, безкоштовні матеріали про післяпологову депресію, інтенсивна підтримка батьків-одинаків; мобільні групи Street Triage, що складаються з поліції та Berliner Krisendienst замість однієї поліції під час криз психічного здоров’я"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Hilfsangebote für Menschen mit psychischen Problemen ausbauen",
+          "quote": "Wir bauen die sozialpsychiatrischen Dienste der Bezirke aus. Wir beziehen Betroffene mit ein: bei der Gestaltung von Programmen, bei Anti-Stigma-Kampagnen und bei der Förderung von …",
+          "page": 83
+        }
+      ]
     },
     {
       "topicId": "healthcare-mental-health",
@@ -6944,7 +7388,15 @@
         "tr": "Aile bakıcılarına destek: başvurulara yardımcı chatbot'lu dijital platformlar ve alışveriş topluluğu, Landeskompetenzzentrum 4.0 ile hızlandırılmış dijital başvurular; her sağlık merkezinde yaşlılar için Gesundheitskiosk; Senior-Berlin uygulaması; “ageing in place” modeliyle — mümkün olduğunca uzun süre alışılmış çevrede kalmak",
         "pl": "Wsparcie opiekunów rodzinnych: cyfrowe platformy z chatbotem do pomocy przy wnioskach i społecznością do wymiany, przyspieszone cyfrowe wnioski przez Landeskompetenzzentrum 4.0; Gesundheitskiosk dla osób starszych przy każdym centrum zdrowia; aplikacja Senior-Berlin; według modelu „ageing in place” — jak najdłużej w znanym otoczeniu",
         "uk": "Підтримка сімейних опікунів: цифрові платформи з чат-ботом для допомоги з додатками та спільнотою для обміну, прискорені цифрові додатки через Landeskompetenzzentrum 4.0; Gesundheitskiosk для літніх людей у ​​кожному оздоровчому центрі; Додаток Senior-Berlin; керуючись моделлю «старіння на місці» — якомога довше залишатися у звичному оточенні"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt pflegende Angehörige unterstützen",
+          "quote": "Wir schätzen die Care-Arbeit von Angehörigen und unterstützen pflegende Angehörige gezielt. Wir bauen bestehende digitale Plattformen aus, die spürbar den Alltag erleichtern.",
+          "page": 82
+        }
+      ]
     },
     {
       "topicId": "care-pflege-and-older-people",
@@ -7074,7 +7526,15 @@
         "tr": "Suçlaştırma yerine yardım: kulüplerde ücretsiz mobil Drug-Checking (Fixpunkt ve Vista laboratuvarları), güvenilir açık saatli daha fazla Konsumräume, diamorfin ikamesini ve uzun vadeli psikoterapiye erişimi genişletmek; kişisel kullanım için küçük miktar bulundurma dosyalarını düşürmek, bağımlılık tıbbı ve kollukla kanıta dayalı prosedürle eşik değerleri yükseltmek; kenevir yasasının sorunsuz uygulanması ve Anbauvereinigungen için dijital başvurular",
         "pl": "pomoc zamiast kryminalizacji: bezpłatny mobilny Drug-Checking w klubach (laboratoria Fixpunkt i Vista), więcej Konsumräume z wiarygodnymi godzinami otwarcia, rozbudowa substytucji diamorfiną i dostęp do długoterminowej psychoterapii; umarzanie spraw za posiadanie małych ilości na własny użytek, podniesienie wartości progowych w oparciu o dowody z udziałem medycyny uzależnień i organów ścigania; prosta implementacja ustawy o cannabis i cyfrowe wnioski dla Anbauvereinigungen",
         "uk": "допомога замість криміналізації: безкоштовна мобільна перевірка на наркотики в клубах (лабораторії Fixpunkt і Vista), більше Konsumräume з надійними годинами роботи, розширення діаморфінової заміни та доступ до довгострокової психотерапії; припинити розгляд справ про зберігання невеликих кількостей для особистого користування, підвищити порогові значення через процедуру, засновану на доказах, із залученням наркологічної медицини та правоохоронних органів; пряме впровадження закону про марихуану та цифрових програм для Anbauvereinigungen"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt mit Drogenpolitik helfen statt kriminalisieren",
+          "quote": "Wir werben für den Ausbau von kostenfreien Mobilen Drug-Checkings. Wir setzen uns dafür ein, dass Strafverfahren wegen Besitzes geringer Mengen zum Eigenbedarf grundsätzlich eingestellt werden.",
+          "page": 84
+        }
+      ]
     },
     {
       "topicId": "drug-policy",
@@ -7204,7 +7664,19 @@
         "tr": "Programda sınır dışı etme anılmıyor: odak insani barınma — LAF, ASOG ve diğer barınaklar için birörnek asgari standartlar, statüden bağımsız mahremiyet, hijyen ve koruma kavramları, zorunlu sakin konseyleri, bağımsız izleme ve şikâyet hizmeti; grup aidiyetine değil gerçek ihtiyaca dayalı yardım",
         "pl": "deportacje nie są wspomniane w programie: nacisk na humanitarne zakwaterowanie — jednolite minimalne standardy dla LAF, ASOG i innych schronisk, prywatność, higiena i koncepcje ochrony niezależnie od statusu, obowiązkowe rady mieszkańców, niezależny monitoring i punkt skarg; pomoc według rzeczywistych potrzeb, a nie przynależności grupowej",
         "uk": "депортації не згадуються в програмі: акцент на гуманному розміщенні — єдині мінімальні стандарти для LAF, ASOG та інших притулків, конфіденційність, гігієна та концепції захисту незалежно від статусу, обов’язкові ради мешканців, незалежний моніторинг та служба скарг; допомога на основі реальних потреб, а не групової приналежності"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Unterkünfte für Geflüchtete menschenwürdig gestalten",
+          "quote": "Wir führen einheitliche Mindeststandards für alle Berliner Unterkünfte ein, in denen besonders schutzbedürftige Menschen leben: In LAF-Unterkünften, ASOG-Unterkünften und anderen.",
+          "page": 106
+        },
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "note": "kein Treffer zu Abschiebung / Abschiebungen; Fokus menschenwürdige Unterbringung"
+        }
+      ]
     },
     {
       "topicId": "migration-admission-and-deportations",
@@ -7334,7 +7806,19 @@
         "tr": "Bezahlkarte anılmıyor; bunun yerine tüm barınak sakinleri için statüden bağımsız eşit standartlar, danışmanlığa erişim ve esnek programlar",
         "pl": "Bezahlkarte nie jest wspomniana; zamiast tego równe standardy, dostęp do doradztwa i elastyczne programy dla wszystkich mieszkańców schronisk niezależnie od statusu",
         "uk": "Bezahlkarte у програмі немає; натомість рівні стандарти, доступ до консультацій та гнучкі програми для всіх мешканців притулку незалежно від статусу"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Unterkünfte für Geflüchtete menschenwürdig gestalten",
+          "quote": "Wir führen einheitliche Mindeststandards für alle Berliner Unterkünfte ein, in denen besonders schutzbedürftige Menschen leben.",
+          "page": 106
+        },
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "note": "kein Treffer zu Bezahlkarte; Programm betont gleiche Standards und Zugang zu Beratung unabhängig vom Status"
+        }
+      ]
     },
     {
       "topicId": "migration-bezahlkarte-and-access-to-benefits-and-healthcare",
@@ -7464,7 +7948,21 @@
         "tr": "Entegrasyon bir konum avantajı: tek duraklı giriş noktası ve Welcome Center, tek dijital dosya, LEA, odalar ve şirketler arasında dijital arayüzler, „Integrationspass Arbeit“ — Avrupa standartlarına dayalı, çift denetimsiz dijital yeterlilik belgesi, mesleğe yönelik dil desteği ve Viyana modeline dayalı çıraklık yeri garantisi",
         "pl": "Integracja jako atut lokalizacyjny: one-stop entry point i Welcome Center, jedna cyfrowa teczka sprawy, cyfrowe interfejsy między LEA, izbami a firmami, „Integrationspass Arbeit” — cyfrowe potwierdzenie kwalifikacji według standardów europejskich bez podwójnych kontroli, wsparcie językowe ukierunkowane na zawód oraz gwarancja miejsca nauki zawodu według modelu wiedeńskiego",
         "uk": "Інтеграція як локаційна перевага: єдина точка входу та Welcome Center, єдиний цифровий файл справи, цифрові інтерфейси між LEA, палатами та компаніями, «Integrationspass Arbeit» — цифрове підтвердження кваліфікації на основі європейських стандартів без повторних перевірок, мовна підтримка, орієнтована на професію, і гарантія місця учнівства за моделлю Відня"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt das Ankommen für Fachkräfte und Geflüchtete erleichtern",
+          "quote": "Wir schaffen eine verbindliche, ressortübergreifende „integrierte Zuständigkeitsstruktur”: In Jugendamt, Sozialamt, Gesundheitsamt, Schulamt, Jobcenter, Bürgeramt sowie in den Landesämtern.",
+          "page": 105
+        },
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt die Anerkennung von Qualifikationen beschleunigen und digitalisieren",
+          "quote": "Wir schaffen digitale Schnittstellen zwischen LEA, Kammern und Betrieben.",
+          "page": 68
+        }
+      ]
     },
     {
       "topicId": "migration-lea-integration-participation",
@@ -7594,7 +8092,21 @@
         "tr": "„Startup başkenti“: kent çapa müşteri olarak, modern çalışan hisse katılımı, büyüme aşaması için risk sermayesi, ekonomik olarak güçlü mahalleler için KiezLabs, Brandenburg ve Oder bölgesiyle Avrupa büyüme alanı olarak ortak planlama; küçük firmaların günlük işine yapay zekâ girmesine destek; iklim dönüşümü ekonomik fırsat olarak — Green Tech Hub, Tempelhofer Feld’in agrivoltaik test alanı olarak, gaz kazanlarından ısı pompalarına teknisyen yeniden eğitimi; boş ticari mekânlarla mücadele ve işletme devrine yardım",
         "pl": "„Stolica startupów”: miasto jako klient kotwiczący, nowoczesny udział pracowników w kapitale, venture capital na fazę wzrostu, KiezLabs dla silnych gospodarczo dzielnic, wspólne planowanie z Brandenburgią i regionem Odry jako europejskim obszarem wzrostu; wsparcie wdrażania AI w codziennej działalności małych firm; transformacja klimatyczna jako szansa gospodarcza — Green Tech Hub, Tempelhofer Feld jako poligon agrivoltaiki, przekwalifikowanie techników z kotłów gazowych na pompy ciepła; walka z pustostanami komercyjnymi i pomoc przy sukcesji firm",
         "uk": "«Стартовий капітал»: місто як основний замовник, сучасна участь співробітників у акціонерному капіталі, венчурний капітал для фази зростання, KiezLabs для економічно сильних районів, спільне планування з Бранденбургом і Одерським регіоном як європейською зоною зростання; підтримка впровадження ШІ в повсякденну діяльність малих фірм; зміна клімату як економічна можливість — Green Tech Hub, Tempelhofer Feld як тестовий майданчик для агровольтаїки, перепідготовка техніків з газових котлів на теплові насоси; боротися з вільними комерційними приміщеннями та сприяти спадкоємності бізнесу"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt einen zentralen Gründungshub aufbauen",
+          "quote": "Wir schaffen eine zentrale Anlaufstelle (Gründungshub) für Gründende aus der ganzen Metropolregion Berlin-Brandenburg.",
+          "page": 58
+        },
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt KiezLabs gründen",
+          "quote": "Wir verwandeln leerstehende Immobilien und alte Fabrikhallen in KiezLabs – lokale Innovations- und Gründerzentren in jedem Berliner Bezirk.",
+          "page": 61
+        }
+      ]
     },
     {
       "topicId": "economy-and-innovation",
@@ -7724,7 +8236,15 @@
         "tr": "„startup başkenti“: kent ilk büyük müşteri olarak, çalışan hisse katılımı, büyüme için risk sermayesi, boş fabrikalar ve mekânların KiezLabs — ekonomik olarak güçlü mahalleler için mahalle laboratuvarları — olarak kullanımı, yapay zekâ benimseyen küçük firmalara destek, yeşil teknolojiler ve Tempelhofer Feld’de agrivoltaik test alanı",
         "pl": "„stolica startupów”: miasto jako pierwszy duży klient, udział pracowników w kapitale, venture capital na wzrost, wykorzystanie pustych fabryk i lokali na KiezLabs — laboratoria dzielnicowe dla silnych gospodarczo dzielnic, wsparcie małych firm wdrażających AI, zielone technologie oraz poligon agrivoltaiki na Tempelhofer Feld",
         "uk": "«Стартовий капітал»: місто як перший великий клієнт, участь співробітників у акціонерному капіталі, венчурний капітал для зростання, використання вільних фабрик і приміщень для KiezLabs — сусідніх лабораторій для економічно міцних районів, підтримка невеликих компаній, які впроваджують ШІ, зелені технології та агроелектричний випробувальний полігон на Tempelhofer Feld"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt einen zentralen Gründungshub aufbauen",
+          "quote": "Wir schaffen eine zentrale Anlaufstelle (Gründungshub) für Gründende aus der ganzen Metropolregion Berlin-Brandenburg.",
+          "page": 58
+        }
+      ]
     },
     {
       "topicId": "innovation-and-startups",
@@ -7854,7 +8374,15 @@
         "tr": "işletme devrine yardım: mahalle dükkânları, atölyeler ve işletmeler yeni sahip olmadığı için kapanmasın diye küçük ve orta ölçekli firma sahiplerinin halef bulmasına destek",
         "pl": "pomoc przy sukcesji firm: wsparcie właścicieli MŚP w znalezieniu następców, aby sklepy dzielnicowe, warsztaty i firmy nie zamykały się z braku nowego właściciela",
         "uk": "допомога у спадкоємності бізнесу: підтримка власників малих і середніх фірм у пошуку наступників, щоб сусідні магазини, майстерні та підприємства не закривалися через відсутність нового власника"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Betriebsnachfolge sichern",
+          "quote": "Wir stärken die Nachfolgezentrale Berlin als zentrale Anlaufstelle und bauen sie zu einem echten One-Stop-Shop aus, der Übergebende und Übernehmende durch den gesamten Prozess begleitet.",
+          "page": 61
+        }
+      ]
     },
     {
       "topicId": "business-succession",
@@ -7984,7 +8512,21 @@
         "tr": "Günlük işte yapay zekâ, dijitalleşme ve yapay zekâ benimsemesi için krediler, inovasyon alıcısı olarak kent, boş mekânlarda KiezLabs, işletme devrine yardım ve boş ticari mekâna karşı önlemlerle küçük işletmelere destek",
         "pl": "Wsparcie małych firm przez AI w codziennej pracy, kredyty na cyfryzację i wdrażanie AI, miasto jako nabywca innowacji, KiezLabs w pustostanach, pomoc przy sukcesji firm oraz działania przeciw pustostanom komercyjnym",
         "uk": "Підтримка малого бізнесу через ШІ у повсякденній роботі, позики на цифровізацію та впровадження ШІ, місто як покупець інновацій, KiezLabs у вільних приміщеннях, допомога з правонаступництвом бізнесу та боротьба з вільними комерційними площами"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt KI für alle attraktiv und sicher machen",
+          "quote": "Wir definieren gemeinsam mit IHK, Handwerkskammern und Branchenverbänden branchenspezifische Mindeststandards für KI- und Digitalisierungslösungen, etwa für Kassensysteme, Buchhaltung.",
+          "page": 64
+        },
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Betriebsnachfolge sichern",
+          "quote": "Wir stärken die Nachfolgezentrale Berlin als zentrale Anlaufstelle und bauen sie zu einem echten One-Stop-Shop aus.",
+          "page": 61
+        }
+      ]
     },
     {
       "topicId": "small-business",
@@ -8114,7 +8656,21 @@
         "tr": "Şeffaf ve öngörülebilir maliye politikası: yalnızca tam bilgiyle yatırım yapmak, bütçeyi orta vadeli mali plana sıkı bağlamak, sapmaları parlamentoda ve kamuya gerekçelendirmek, harcama artışları için karşı finansman ve nerede tasarruf yapılacağını belirtmek zorunluluğu; güven temeli olarak anlaşılır bütçe verileri",
         "pl": "Przejrzysta i przewidywalna polityka fiskalna: inwestować tylko przy pełnej informacji, ściśle wiązać budżet z średnioterminowym planem finansowym, uzasadniać wszelkie odstępstwa przed parlamentem i publicznie oraz wymagać kontrfinansowania wzrostów wydatków ze wskazaniem, gdzie będą oszczędności; zrozumiałe dane budżetowe jako podstawa zaufania",
         "uk": "Прозора та передбачувана фіскальна політика: інвестуйте лише за наявності повної інформації, чітко прив’яжіть бюджет до середньострокового фінансового плану, обґрунтовуйте будь-які відхилення перед парламентом та публічно та вимагайте зустрічного фінансування для збільшення видатків, вказуючи, де будуть зроблені заощадження; зрозумілі бюджетні дані як основа для довіри"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt mit vorausschauender Planung Sicherheit schaffen",
+          "quote": "Wir machen aus der mittelfristigen Finanzplanung ein stärkeres Lenkungsinstrument, indem wir wichtige Aspekte einer politischen Selbstbindung einführen. Wir koppeln den Haushalt an …",
+          "page": 18
+        },
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt mit Transparenz Vertrauen gewinnen",
+          "quote": "Wir veröffentlichen regelmäßig aktualisierte Haushaltszahlen, sodass nachvollziehbar ist, wo Steuergelder hinfließen.",
+          "page": 19
+        }
+      ]
     },
     {
       "topicId": "taxes-and-budget",
@@ -8244,7 +8800,21 @@
         "tr": "„Berlin çalışıyor“: önce kimin neyin sorumlu olduğunu kararlaştırmak ve idareyi sonuçlarla ölçmek—net hedefler, göstergeler, bağlayıcı hizmet standartları ve „üç evet“ ilkesi (başvuru onayı, süre, karar); sakinler ve şirketler için tek duraklı yapılar; tamamen dijital İK süreçleriyle cazip kamu hizmeti ve birçok ay yerine 90 günde işe alım",
         "pl": "„Berlin działa”: najpierw ustalić, kto za co odpowiada, i mierzyć administrację wynikami — jasne cele, wskaźniki, wiążące standardy usług oraz zasada „trzech tak” (potwierdzenie wniosku, termin, decyzja); struktury one-stop dla mieszkańców i firm; atrakcyjna służba cywilna z w pełni cyfrowymi procesami HR i rekrutacją w 90 dni zamiast wielu miesięcy",
         "uk": "«Берлін працює»: спочатку визначте, хто за що відповідає, і оцініть адміністрацію за результатами — чіткі цілі, індикатори, обов’язкові стандарти обслуговування та принцип «трьох так» (підтвердження заявки, кінцевий термін, рішення); єдині структури для жителів і компаній; приваблива державна служба з повністю цифровими кадровими процесами та наймом за 90 днів, а не за багато місяців"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt mit Transparenz Vertrauen gewinnen",
+          "quote": "Wir veröffentlichen regelmäßig aktualisierte Haushaltszahlen, sodass nachvollziehbar ist, wo Steuergelder hinfließen.",
+          "page": 19
+        },
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Beteiligung im System verankern",
+          "quote": "Wir schaffen eine verbindliche und transparente Beteiligungsstruktur für ganz Berlin. Mit mein.berlin.de bündeln wir alle Verfahren zentral.",
+          "page": 20
+        }
+      ]
     },
     {
       "topicId": "governance-and-administrative-reform",
@@ -8374,7 +8944,15 @@
         "tr": "Tamamen dijital süreçler: birbirleriyle „konuşan“ sistemler, birleşik dijital dosya, dijital egemenlik, hedefli inovasyon kullanımı ve daha basit dijital idare; yeni hizmetlerin temeli olarak ulaşım, enerji ve işte açık veri; üretkenlik, hizmet kalitesi ve katılım için yapay zekâ—benimseyen küçük firmalara destek ve soruşturma yazılımları yalnızca Avrupa sağlayıcılarından",
         "pl": "W pełni cyfrowe procesy: systemy, które „rozmawiają” ze sobą, jednolita cyfrowa teczka, cyfrowa suwerenność, celowe wykorzystanie innowacji i prostsza cyfrowa administracja; open data o transporcie, energii i biznesie jako podstawa nowych usług; AI dla produktywności, jakości usług i partycypacji — wsparcie małych firm we wdrażaniu oraz oprogramowanie śledcze tylko od europejskich dostawców",
         "uk": "Повністю цифрові процеси: системи, які «розмовляють» одна з одною, уніфікований цифровий файл, цифровий суверенітет, цільове використання інновацій та спрощене цифрове адміністрування; відкриті дані про транспорт, енергетику та бізнес як основу для нових послуг; AI для підвищення продуктивності, якості обслуговування та участі — підтримка для невеликих компаній, які використовують його, і програмне забезпечення для розслідувань лише від європейських постачальників"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt KI für alle attraktiv und sicher machen",
+          "quote": "Wir definieren gemeinsam mit IHK, Handwerkskammern und Branchenverbänden branchenspezifische Mindeststandards für KI- und Digitalisierungslösungen.",
+          "page": 64
+        }
+      ]
     },
     {
       "topicId": "digitalization-data-ai",
@@ -8504,7 +9082,21 @@
         "tr": "Yapısal işsizlikten çıkış yolları: modüler yeniden eğitim ve piyasanın ihtiyaç duyulan işi sağlamadığı yerde asgari ücretle toplumsal yararlı istihdam; düşük gelirli ailelerin çocukları için BuT-Pass ve „Berlin bewegt sich“; yalnızlığa karşı buluşma yerleri—çok kuşaklı kafeler ve mahalle merkezleri",
         "pl": "Ścieżki wyjścia ze strukturalnego bezrobocia: modularne przekwalifikowanie i społecznie użyteczne zatrudnienie za płacę minimalną tam, gdzie rynek nie zapewnia potrzebnej pracy; BuT-Pass dla dzieci z rodzin o niskich dochodach oraz „Berlin bewegt sich”; miejsca spotkań przeciw samotności — kawiarnie wielopokoleniowe i centra dzielnicowe",
         "uk": "Шляхи виходу зі структурного безробіття: модульна перекваліфікація та суспільно корисна зайнятість за мінімальну заробітну плату там, де ринок не забезпечує необхідної роботи; BuT-Pass для дітей із малозабезпечених сімей та «Berlin bewegt sich»; місця зустрічі проти самотності — кав’ярні для багатьох поколінь і квартали"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Weiterbildung für alle zugänglich machen",
+          "quote": "Wir führen einen Berliner BildungsPass ein. Denn technologische Veränderungen, neue Berufsbilder und längere Erwerbsbiografien erfordern kontinuierliche Weiterbildung.",
+          "page": 53
+        },
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Sport für alle Menschen zugänglich machen",
+          "quote": "Wir ermöglichen eine bessere Nutzung der rund 1.200 Sportstandorte Berlins.",
+          "page": 87
+        }
+      ]
     },
     {
       "topicId": "social-affairs-poverty-income",
@@ -8634,7 +9226,21 @@
         "tr": "Kültürü uzun vadede güvenceye almak: kısa vadeli proje parası yerine Land ve tüm ilçelerde güvenilir yapısal finansman; sivil toplum katılımıyla bağlayıcı kültür geliştirme planı; AB finansmanı stratejisi ve ilçeler için „rehberler“; dijital platform üzerinden boş ticari mekânı bürokrasisiz kültüre açmak; kulüpleri kültür mekânı olarak tanımak ve Agent of Change ilkesiyle korumak (sonra gelen taraf ses yalıtımını öder); Open Air’lere, herkes için kültür eğitimine, Erinnerungskultur’a ve Avrupa değişimine destek",
         "pl": "Zabezpieczyć kulturę długoterminowo: wiarygodne finansowanie strukturalne w landzie i wszystkich dzielnicach zamiast krótkoterminowych pieniędzy projektowych; wiążący plan rozwoju kultury z udziałem społeczeństwa obywatelskiego; strategia funduszy UE i „przewodnicy” dla dzielnic; otworzyć pustostany komercyjne na kulturę bez biurokracji przez platformę cyfrową; uznać kluby za miejsca kultury i chronić je zasadą Agent of Change (strona przychodząca później płaci za izolację akustyczną); wsparcie Open Airs, edukacji kulturalnej dla wszystkich, Erinnerungskultur oraz wymiany europejskiej",
         "uk": "Безпечна культура на довгострокову перспективу: надійне структурне фінансування в краї та всіх районах замість короткострокових проектних грошей; обов'язковий план культурного розвитку за участі громадянського суспільства; стратегія фінансування ЄС та «посібники» для районів; відкрити вільні комерційні площі для культури без бюрократії через цифрову платформу; визнавати клуби культурними закладами та захищати їх за принципом «Агент змін» (за звукоізоляцію оплачує той, хто приходить пізніше); підтримувати Open Airs, культурну освіту для всіх, Erinnerungskultur та європейський обмін"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Kultur langfristig absichern",
+          "quote": "Wir sichern Kulturförderung dauerhaft auf Landesebene und in allen Bezirken, indem wir kurzfristige Projektlogiken durch verlässliche Strukturförderung ersetzen.",
+          "page": 109
+        },
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Clubkultur und Open Airs fördern",
+          "quote": "Wir erkennen Clubs als Kulturstätten an und begreifen ihren Schutz und ihre Förderung als zentrale Aufgabe der Politik.",
+          "page": 110
+        }
+      ]
     },
     {
       "topicId": "culture-and-clubs",
@@ -8764,7 +9370,21 @@
         "tr": "Kentın yaklaşık 1.200 spor tesisini daha iyi kullanmak: okul bahçelerini, salonları, parkları ve yeşil alanları ders sonrası, hafta sonu ve tatillerde açmak; kulüpler ve girişimler için şeffaf çevrimiçi rezervasyon; her ilçede en az bir erişilebilir, kapsayıcı sunum (DIN 18040 standartları, DOSB ve DBS yönergeleri), FLINTA grupları için korumalı saatler; daha ucuz havuz kullanımı, göçmenlerle çalışan kulüplere destek, Kita ve okullarda daha fazla hareket; „Integration durch Sport“ ve „Berlin bewegt sich“ portalı",
         "pl": "Lepiej wykorzystać ok. 1200 obiektów sportowych miasta: otwierać boiska szkolne, hale, parki i tereny zielone po lekcjach, w weekendy i w wakacje; przejrzysta rezerwacja online dla klubów i inicjatyw; co najmniej jedna dostępna, inkluzywna oferta w każdej dzielnicy (standardy DIN 18040, wytyczne DOSB i DBS), chronione godziny dla grup FLINTA; tańsze korzystanie z basenów, wsparcie klubów pracujących z migrantami, więcej ruchu w Kita i szkołach; „Integration durch Sport” oraz portal „Berlin bewegt sich”",
         "uk": "Ефективніше використовувати близько 1200 спортивних об’єктів міста: відкриті шкільні подвір’я, холи, парки та зелені зони після уроків, у вихідні та під час канікул; прозоре онлайн-бронювання клубів та ініціатив; принаймні одна доступна, інклюзивна пропозиція в кожному районі (стандарти DIN 18040, рекомендації DOSB і DBS), захищені години для груп FLINTA; дешевше користування басейном, підтримка клубів, що працюють з мігрантами, більше руху в Кіті та школах; «Integration durch Sport» і портал «Berlin bewegt sich»."
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Sport für alle Menschen zugänglich machen",
+          "quote": "Wir ermöglichen eine bessere Nutzung der rund 1.200 Sportstandorte Berlins. Dafür öffnen wir Schulhöfe, Sporthallen, Parks und Grünflächen konsequent auch nach Schulschluss, am Wochenende.",
+          "page": 87
+        },
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Sport für alle Menschen zugänglich machen",
+          "quote": "Schwimm bäder günstiger nutzen zu können. Wir unterstützen Vereine, die Migrant*innen und Menschen mit Fluchterfahrung aktiv einbinden, mit Zuschüssen für Ausrüstung oder für Honorare. Wir f",
+          "page": 87
+        }
+      ]
     },
     {
       "topicId": "sports-and-swimming",
@@ -8894,7 +9514,21 @@
         "tr": "Katılımı sisteme yerleştirmek: kentin çeşitliliğini yansıtan düzenli rastgele seçilmiş Bürgerräte, siyasetçiler ve idarenin önerilerine kamuya yanıt vermek zorunda; ilçelerde ve Land düzeyinde zorunlu katılımcı bütçeler ve garantili uygulamalı gerçek sakin bütçeleri (Paris örneği: yatırım bütçesinin yaklaşık yüzde 5’i); isteğe bağlı referandum: parlamentonun referandumla kabul edilen bir yasayı değiştirmesi halinde yeni halk oylaması için yalnızca yüzde 2,5 seçmen yeter; AB vatandaşlarına oy hakkı ve Alman pasaportu olmayan uluslararası Berlinlilerin Bürgerräte’ye katılımı; Land queer-güvenlik stratejisi",
         "pl": "Wbudować partycypację w system: regularne losowo dobrane Bürgerräte odzwierciedlające różnorodność miasta, z obowiązkiem polityków i administracji do publicznego odpowiadania na ich rekomendacje; obowiązkowe budżety partycypacyjne w dzielnicach i na poziomie landu oraz prawdziwe budżety mieszkańców z gwarantowaną realizacją (przykład Paryża: ok. 5 procent budżetu inwestycyjnego); opcjonalne referendum: jeśli parlament zmienia ustawę przyjętą w referendum, wystarczy 2,5 procent wyborców, by uruchomić nowe głosowanie ludowe; prawo wyborcze dla obywateli UE oraz udział międzynarodowych berlińczyków bez niemieckich paszportów w Bürgerräte; landowa strategia bezpieczeństwa queer",
         "uk": "вбудувати участь у систему: регулярні випадково відібрані Bürgerräte, що відображають різноманітність міста; політики й адміністрація зобов’язані публічно реагувати на їхні рекомендації"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Demokratie für alle, die hier leben",
+          "quote": "Wir führen dazu regelmäßig Bürgerräte ein, die per Losverfahren zusammengesetzt werden und die Vielfalt der Stadt abbilden.",
+          "page": 21
+        },
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Beteiligung im System verankern",
+          "quote": "Ein Transparenzgesetz verpflichtet zur Veröffentlichung zentraler Dokumente wie Gutachten, Senatsbeschlüsse und Verträge.",
+          "page": 20
+        }
+      ]
     },
     {
       "topicId": "democracy-participation-equality",
@@ -9024,7 +9658,15 @@
         "tr": "Aile içi şiddet failleri için elektronik ayak bileği monitörleri, İstanbul Sözleşmesi’ni yerine getirmek için kadın sığınma evlerinde en az 330 ek yer ve ayrı bir şiddet biçimi olarak dijital cinsel şiddet; çocuklar için Barnahus modeli ve Britanya kurumlar arası risk ekipleri",
         "pl": "Elektroniczne bransolety dla sprawców przemocy domowej, co najmniej 330 dodatkowych miejsc w schroniskach dla kobiet w celu realizacji Konwencji stambulskiej oraz cyfrowa przemoc seksualizowana jako odrębna forma przemocy; model Barnahus dla dzieci oraz brytyjskie międzydziałowe zespoły ryzyka",
         "uk": "Електронні щиколотки для винуватців домашнього насильства, принаймні 330 додаткових місць у притулках для жінок відповідно до Стамбульської конвенції та цифрове сексуальне насильство як окрема форма насильства; модель Барнахуса для дітей і британських міжвідомчих груп ризиків"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Opfer gezielter schützen",
+          "quote": "Wir schützen Frauen*, die häusliche Gewalt erlebt haben, vor weiterer Gewalt. Dafür verpflichten wir Täter*innen, eine Fußfessel zu tragen. Wir bauen die Frauenhausbetten aus, um die Vorgaben der Ista",
+          "page": 75
+        }
+      ]
     },
     {
       "topicId": "women-s-rights-and-prevention-of-domestic-violence",
@@ -9154,7 +9796,15 @@
         "tr": "Land queer-güvenlik stratejisi, aşırılıkçı, ırkçı ve anti-queer şiddet mağdurlarına yardım eden bölgesel merkezler ve psikolojik ile hukuki yardım",
         "pl": "Landowa strategia bezpieczeństwa queer, regionalne ośrodki pomocy ofiarom przemocy ekstremistycznej, rasistowskiej i antyqueerowej oraz pomoc psychologiczna i prawna",
         "uk": "Земельна стратегія квір-безпеки, регіональні центри допомоги жертвам екстремістського, расистського та антиквір-насильства, психологічна та юридична допомога"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Opfer gezielter schützen",
+          "quote": "Wir bauen regionale Anlaufstellen aus, die insbesondere Opfern extremistischer, rassistischer und anti-queerer Gewalt psychologische Beratung bieten. Berlin zeigt mit der LSBTQIA* Kontaktpersonen in d",
+          "page": 75
+        }
+      ]
     },
     {
       "topicId": "queer-and-lgbtq-issues",
@@ -9284,7 +9934,19 @@
         "tr": "Ayrı ikinci oy yok; vurgu rastgele seçilmiş Bürgerräte, katılımcı bütçeler ve isteğe bağlı referandum artı AB vatandaşlarına oy hakkı",
         "pl": "Brak osobnego drugiego głosu; nacisk na losowo dobrane Bürgerräte, budżety partycypacyjne i opcjonalne referendum oraz prawo wyborcze obywateli UE",
         "uk": "Немає окремого другого голосування; акцент на випадково обраних Bürgerräte, бюджети участі та необов’язковий референдум, і право голосу для громадян ЄС"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Demokratie für alle, die hier leben",
+          "quote": "Wir führen dazu regelmäßig Bürgerräte ein, die per Losverfahren zusammengesetzt werden und die Vielfalt der Stadt abbilden.",
+          "page": 21
+        },
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "note": "kein Treffer zu Zweitstimme / Ersatzstimme / 5-Prozent-Hürde als Wahlrechtsreform; Beteiligung über Bürgerräte und Bürgerhaushalte"
+        }
+      ]
     },
     {
       "topicId": "elections-second-vote-and-5-percent-threshold",
@@ -9414,7 +10076,15 @@
         "tr": "Hamburg tarzı Transparenzgesetz: makamlar temel belgeleri (raporlar, Senat kararları, sözleşmeler) talep olmadan proaktif yayımlar — ayrı parti bağışı kuralı yok",
         "pl": "Transparenzgesetz wzorem Hamburga: władze proaktywnie publikują kluczowe dokumenty (opinie, decyzje Senatu, umowy) bez wniosku — brak osobnych reguł darowizn partyjnych",
         "uk": "Transparenzgesetz за зразком Гамбурга: органи проактивно публікують ключові документи (висновки, рішення сенату, договори) без запиту — окремих правил партійних пожертв немає"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "section": "Jetzt Beteiligung im System verankern",
+          "quote": "Ein Transparenzgesetz verpflichtet zur Veröffentlichung zentraler Dokumente wie Gutachten, Senatsbeschlüsse und Verträge.",
+          "page": 20
+        }
+      ]
     },
     {
       "topicId": "party-donations-lobbying-and-transparency",
@@ -9536,15 +10206,21 @@
     {
       "topicId": "advertising-in-public-space-alcohol-tobacco-betting",
       "partyId": "volt",
-      "stance": "mixed",
+      "stance": "none",
       "summary": {
-        "en": "Advertising in public space is not addressed in the program",
-        "de": "Werbung im öffentlichen Raum ist kein Thema im Programm",
-        "ru": "реклама в общественном пространстве в программе не тема",
-        "tr": "Programda kamusal alanda reklama değinilmez",
-        "pl": "Reklama w przestrzeni publicznej nie jest poruszana w programie",
-        "uk": "Реклама в публічному просторі в програмі не розглядається"
-      }
+        "en": "Advertising in public space (alcohol, tobacco, betting) is not addressed in the Berlin Wahlprogramm",
+        "de": "Werbung im öffentlichen Raum (Alkohol, Tabak, Wetten) wird im Berliner Wahlprogramm nicht thematisiert",
+        "ru": "Реклама в общественном пространстве (алкоголь, табак, ставки) в берлинской Wahlprogramm не рассматривается",
+        "tr": "Kamusal alandaki reklam (alkol, tütün, bahis) Berlin Wahlprogramm’da ele alınmıyor",
+        "pl": "Reklama w przestrzeni publicznej (alkohol, tytoń, zakłady) nie jest poruszona w berlińskim Wahlprogramm",
+        "uk": "Реклама в публічному просторі (алкоголь, тютюн, ставки) у берлінській Wahlprogramm не розглядається"
+      },
+      "sources": [
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "note": "kein Treffer zu Außenwerbung / Alkoholwerbung / Tabakwerbung / Wettwerbung im öffentlichen Raum"
+        }
+      ]
     },
     {
       "topicId": "advertising-in-public-space-alcohol-tobacco-betting",
