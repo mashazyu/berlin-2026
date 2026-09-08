@@ -3,9 +3,11 @@ import { pickLocalized } from "@/lib/i18n/fallback"
 import type { Language } from "@/lib/i18n/types"
 import { bestProgramHref, sourceHref } from "./source-href"
 import type {
+  CellSource,
   ComparisonData,
   ResolvedCell,
   ResolvedComparison,
+  ResolvedSourceQuote,
 } from "./types"
 
 const data = comparisonData as ComparisonData
@@ -14,18 +16,28 @@ export function cellKey(topicId: string, partyId: string): string {
   return `${topicId}::${partyId}`
 }
 
-function resolveSourceQuote(sources: ComparisonData["cells"][number]["sources"]): {
-  sourceQuote?: string
-  programHref?: string
-} {
-  const quoted = sources?.find((s) => s.quote?.trim())
-  if (quoted?.quote) {
-    return {
-      sourceQuote: quoted.quote.trim(),
-      programHref: sourceHref(quoted),
-    }
+function resolveSourceQuotes(
+  sources: CellSource[] | undefined,
+  fallbackUrl: string,
+): ResolvedSourceQuote[] {
+  if (!sources?.length) return []
+
+  const seen = new Set<string>()
+  const quotes: ResolvedSourceQuote[] = []
+
+  for (const source of sources) {
+    const quote = source.quote?.trim()
+    if (!quote) continue
+    const key = quote.toLowerCase()
+    if (seen.has(key)) continue
+    seen.add(key)
+    quotes.push({
+      quote,
+      href: sourceHref(source) || fallbackUrl,
+    })
   }
-  return {}
+
+  return quotes
 }
 
 export function getComparison(lang: Language): ResolvedComparison {
@@ -36,17 +48,17 @@ export function getComparison(lang: Language): ResolvedComparison {
 
   for (const cell of data.cells) {
     const fallback = partyUrl[cell.partyId] ?? ""
-    const { sourceQuote, programHref: quoteHref } = resolveSourceQuote(
-      cell.sources,
-    )
+    const sourceQuotes = resolveSourceQuotes(cell.sources, fallback)
     cellsByKey[cellKey(cell.topicId, cell.partyId)] = {
       topicId: cell.topicId,
       partyId: cell.partyId,
       stance: cell.stance,
       summary: pickLocalized(cell.summary, lang),
-      sourceQuote,
+      sourceQuotes: sourceQuotes.length ? sourceQuotes : undefined,
       programHref:
-        quoteHref || bestProgramHref(cell.sources, fallback) || undefined,
+        sourceQuotes[0]?.href ||
+        bestProgramHref(cell.sources, fallback) ||
+        undefined,
     }
   }
 

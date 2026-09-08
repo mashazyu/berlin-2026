@@ -60,6 +60,13 @@ export type ComparisonData = {
   cells: Cell[]
 }
 
+export type ResolvedSourceQuote = {
+  /** Original program excerpt (never translated) */
+  quote: string
+  /** Deep link into the program PDF when available */
+  href: string
+}
+
 export type ResolvedCell = {
   topicId: string
   partyId: string
@@ -67,8 +74,8 @@ export type ResolvedCell = {
   summary: string
   /** Program link, with `#page=N` when a sourced page is known */
   programHref?: string
-  /** Original program excerpt (never translated) */
-  sourceQuote?: string
+  /** All original excerpts for claims in this cell (never translated) */
+  sourceQuotes?: ResolvedSourceQuote[]
 }
 
 export type ResolvedComparison = {
