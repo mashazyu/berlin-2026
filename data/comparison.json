@@ -53,19 +53,6 @@
       "programUrl": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf"
     },
     {
-      "id": "fdp",
-      "shortName": "FDP",
-      "name": {
-        "en": "FDP",
-        "de": "FDP",
-        "ru": "FDP",
-        "tr": "FDP",
-        "pl": "FDP",
-        "uk": "FDP"
-      },
-      "programUrl": "https://www.fdp-berlin.de/sites/default/files/2026-07/Wahlprogramm_FDP%20Berlin_Abgeordnetenhauswahl%202026_FINAL.pdf"
-    },
-    {
       "id": "afd",
       "shortName": "AfD",
       "name": {
@@ -77,6 +64,19 @@
         "uk": "AfD"
       },
       "programUrl": "https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf"
+    },
+    {
+      "id": "fdp",
+      "shortName": "FDP",
+      "name": {
+        "en": "FDP",
+        "de": "FDP",
+        "ru": "FDP",
+        "tr": "FDP",
+        "pl": "FDP",
+        "uk": "FDP"
+      },
+      "programUrl": "https://www.fdp-berlin.de/sites/default/files/2026-07/Wahlprogramm_FDP%20Berlin_Abgeordnetenhauswahl%202026_FINAL.pdf"
     },
     {
       "id": "bsw",
