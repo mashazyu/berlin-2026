@@ -1115,7 +1115,21 @@
         "tr": "Berlin en geç 2035’te iklim nötr (pazarlık edilemez); kamu yönetimi 2035’e kadar iklim nötr; Volksentscheid Berlin 2030 klimaneutral’i uygulamak; bağlayıcı CO₂ bütçesi, gölge fiyat, ısı 2035’e kadar yenilenebilir",
         "pl": "Berlin klimatycznie neutralny najpóźniej 2035 (nie do negocjacji); administracja do 2035; wdrożyć Volksentscheid Berlin 2030 klimaneutral; wiążący budżet CO₂, cena cienia, ciepło OZE do 2035",
         "uk": "Берлін кліматично нейтральний щонайпізніше 2035 (необговорювано); держуправління до 2035; впровадити Volksentscheid Berlin 2030 klimaneutral; обов’язковий бюджет CO₂, тіньова ціна, тепло до 2035 на ВДЕ"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Klimaschutz",
+          "page": 66,
+          "quote": "Berlin muss bis spätestens 2035 klimaneutral sein. Dieses Ziel ist für uns nicht verhandelbar. Anders als andere Parteien denken wir nicht in Legislaturperioden, sondern in Generationen."
+        },
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Klimaschutz",
+          "page": 67,
+          "quote": "Wir führen einen CO₂-Schattenpreis von 195 Euro pro Tonne CO₂ als internen Preis bei allen Projekten, Vergabeverfahren und Haushaltsentscheidungen ein."
+        }
+      ]
     },
     {
       "topicId": "climate-neutrality",
@@ -1134,7 +1148,7 @@
           "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
           "section": "Klimaneutrales Berlin",
           "page": 3,
-          "quote": "schnellstmöglich klimaneutral werden und nicht erst im Jahr 2045, wie es die Senatsverwal tung aktuell vorsie ht. Berlin hat erheblichen Nach holbedarf beim Klimaschutz."
+          "quote": "Um das 1,5-Grad-Ziel des Pariser Abkommens von 2015 noch zu erreichen, muss Berlin schnellstmöglich klimaneutral werden und nicht erst im Jahr 2045, wie es die Senatsverwal tung aktuell vorsie ht."
         },
         {
           "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
@@ -1271,7 +1285,15 @@
         "tr": "Stadtautobahn A100 ve TVO gibi yüksek kapasiteli yolların genişlemesini durdurmak; eski trafik tahminleri, patlayan maliyetler ve Verkehrswende’ye aykırı — iklim adaletli mobiliteye kaynak",
         "pl": "zatrzymać dalszą rozbudowę Stadtautobahn A100 i dróg wysokiej klasy jak TVO; przestarzałe prognozy, eksplodujące koszty i sprzeczność z Verkehrswende — zamiast tego mobilność klimatyczna",
         "uk": "зупинити подальше розширення Stadtautobahn A100 і магістралей на кшталт TVO; застарілі прогнози, вибухові витрати і проти Verkehrswende — замість цього кліматично справедлива мобільність"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Mobilität und Verkehr",
+          "page": 15,
+          "quote": "Wir werden den weiteren Ausbau der Stadtautobahn A 100 und anderer hochrangiger Straßen wie der Tangentialverbindung Ost (TVO) im Berliner Südosten verhindern."
+        }
+      ]
     },
     {
       "topicId": "a100-construction",
@@ -1405,7 +1427,7 @@
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
           "section": "Jetzt Straßen sicher machen",
-          "quote": "Wir starten ein Sofortprogramm, um Kreuzungen sicherer zu machen und alle Unfallschwerpunkte bis 2030 zu beseitigen. Wir weiten Tempo-30-Zonen konsequent an Orten aus, an denen Menschen besonderen Sch",
+          "quote": "Wir starten ein Sofortprogramm, um Kreuzungen sicherer zu machen und alle Unfallschwerpunkte bis 2030 zu beseitigen.",
           "page": 33
         }
       ]
@@ -1421,7 +1443,15 @@
         "tr": "özel otomobil trafiği için yeni büyük yollara karşı; emisyonları azaltan ulaşım planlaması için",
         "pl": "przeciw nowym dużym drogom dla ruchu prywatnych samochodów; za planowaniem transportu ograniczającym emisje",
         "uk": "проти нових магістральних доріг для руху приватних автомобілів; для планування транспорту, що зменшує викиди"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Mobilität und Verkehr",
+          "page": 15,
+          "quote": "Wir werden den weiteren Ausbau der Stadtautobahn A 100 und anderer hochrangiger Straßen wie der Tangentialverbindung Ost (TVO) im Berliner Südosten verhindern."
+        }
+      ]
     },
     {
       "topicId": "road-construction",
@@ -1557,7 +1587,7 @@
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
           "section": "Jetzt Mobilität digitalisieren und ausbauen",
-          "quote": "Wir priorisieren die Vollautomatisierung von U-Bahnen, um höhere Taktungen und den stabilen Betrieb rund um die Uhr zu ermöglichen. Der Ausbau von U-Bahn, Tram, S-Bahn und Regionalverkehr wird dabei i",
+          "quote": "Wir priorisieren die Vollautomatisierung von U-Bahnen, um höhere Taktungen und den stabilen Betrieb rund um die Uhr zu ermöglichen.",
           "page": 32
         }
       ]
@@ -1573,7 +1603,15 @@
         "tr": "U-Bahn, S‑Bahn ve bölgesel ray için en yüksek öncelik olarak toplu taşıma genişlemesi; ağ genişlemesi ve daha sık sefer",
         "pl": "rozbudowa transportu publicznego jako najwyższy priorytet dla U-Bahn, S-Bahn i kolei regionalnej; rozbudowa sieci i częstsze kursy",
         "uk": "розширення громадського транспорту як найвищий пріоритет для U-Bahn, S‑Bahn і регіональної залізниці; розширення мережі та більш часте обслуговування"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Mobilität und Verkehr",
+          "page": 13,
+          "quote": "Der Ausbau des ÖPNV, insbesondere von U-Bahn, S-Bahn und Regionalbahn, erhält bei uns höchste Priorität unter allen Infrastrukturprojekten."
+        }
+      ]
     },
     {
       "topicId": "new-u-bahn-construction-line-extensions",
@@ -1703,8 +1741,8 @@
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
           "section": "Jetzt Geh- und Radwege sicher machen",
-          "quote": "Wir planen und bauen Radwege, Fahrradstraßen und Radschnellverbindungen konsequent und zügig aus. Insbesondere fordern wir, die Planung der gestoppten Radschnellwege unverzüglich wieder aufzunehmen un",
-          "page": 33
+          "quote": "Wir planen und bauen Radwege, Fahrradstraßen und Radschnellverbindungen konsequent und zügig aus.",
+          "page": 34
         }
       ]
     },
@@ -1719,7 +1757,15 @@
         "tr": "ana caddelerde korumalı bisiklet yolları, yılda en az 365 km yeni bisiklet yolu, bisiklet altyapısına park ve araba şeritlerinden öncelik",
         "pl": "chronione ścieżki na głównych ulicach, co najmniej 365 km nowych ścieżek rocznie, priorytet infrastruktury rowerowej nad parkingiem i pasami samochodowymi",
         "uk": "захищені велодоріжки на головних вулицях, щонайменше 365 км нових велодоріжок на рік, пріоритет велосипедної інфраструктури над паркуванням і автомобільними смугами"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Mobilität und Verkehr",
+          "page": 15,
+          "quote": "Die PARTEI MENSCH KLIMA TIERSCHUTZ (Tierschutzpartei) wird den Ausbau der Radinfrastruktur deutlich beschleunigen."
+        }
+      ]
     },
     {
       "topicId": "cycling-infrastructure",
@@ -1877,7 +1923,15 @@
         "tr": "P+R genişlemesi; evrensel park bölgesi, araç boyutuna göre ücret; daha yüksek sakin park ücretleri; bisiklet altyapısının park yerlerine önceliği",
         "pl": "rozbudowa P+R; uniwersalna strefa parkingowa, opłata według wielkości pojazdu; wyższe opłaty za parkowanie mieszkańców; infrastruktura rowerowa ma priorytet nad parkingiem",
         "uk": "P+R розширення; універсальна паркувальна зона, оплата в залежності від розміру автомобіля; підвищення плати за паркування для мешканців; велосипедна інфраструктура має пріоритет над паркуванням"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Mobilität und Verkehr",
+          "page": 14,
+          "quote": "Park-and-Ride-Anlagen (P+R) werden wir ausbauen und, wo nötig, neu schaffen, damit Pendler:innen aus schlecht angebundenen Regionen unkompliziert auf die Bahn umsteigen können."
+        }
+      ]
     },
     {
       "topicId": "parking",
@@ -2013,7 +2067,7 @@
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
           "section": "Jetzt das Stromnetz intelligent ausbauen",
-          "quote": "Wir erproben technische und regulatorische Lösungen zum bidirektionalen Laden. Inhaber*innen von E-Autos sollen Geld dafür erhalten, wenn sie überschüssigen Strom in ihrer Autobatterie zwischenspeiche",
+          "quote": "Wir erproben technische und regulatorische Lösungen zum bidirektionalen Laden. Inhaber*innen von E-Autos sollen Geld dafür erhalten, wenn sie überschüssigen Strom in ihrer Autobatterie zwischenspeichern und bei Nachfrage wieder in das Netz einspeisen.",
           "page": 93
         }
       ]
@@ -2029,7 +2083,15 @@
         "tr": "EV şarj altyapısını genişletmek ve karmaşık ödemeyi birleştirmek; özel işletmeciler birlikte çalışsın; taksi duraklarında reserved Schnelllade; Elektromobilität’i desteklemek ama genel araba trafiğini azaltmak",
         "pl": "rozbudować infrastrukturę ładowania EV i ujednolicić płatności; prywatni operatorzy mają współpracować; reserved Schnelllade dla taksówek; wspierać Elektromobilität, ale redukować ogólny ruch aut",
         "uk": "розширювати зарядну інфраструктуру EV і уніфікувати оплату; приватні оператори мають краще співпрацювати; reserved Schnelllade для таксі; підтримувати електромобільність, але зменшувати загальний автотрафік"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Mobilität und Verkehr",
+          "page": 15,
+          "quote": "Die Ladeinfrastruktur für Elektrofahrzeuge werden wir weiter ausbauen."
+        }
+      ]
     },
     {
       "topicId": "ev-charging",
@@ -2185,7 +2247,21 @@
         "tr": "Tempelhofer Feld’i kalıcı olarak boş tutmak; 2014 Volksentscheid’e saygı (yalnızca yeni oylamayla değişir); tam ve kenar yapılaşmayı reddetmek; havalimanı binası kültür/spor/eğitim için kamu yararı, kenar konut değil",
         "pl": "trzymać Tempelhofer Feld trwale niezabudowane; szanować Volksentscheid 2014 (zmiana tylko nowym głosowaniem); odrzucać pełną i krawędziową zabudowę; budynek lotniska na kulturę/sport/edukację dla dobra wspólnego, nie zabudowa krawędzi",
         "uk": "зберегти Tempelhofer Feld незабудованим; поважати Volksentscheid 2014 (зміна лише новим голосуванням); відхиляти повну й крайову забудову; будівля аеропорту — суспільне благо для культури/спорту/освіти, не крайове житло"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Umweltschutz",
+          "page": 75,
+          "quote": "Auch eine Randbebauung lehnen wir entschieden ab."
+        },
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Umweltschutz",
+          "page": 74,
+          "quote": "Tempelhofer Feld in seiner ursprünglichen Form zu erhalten und vor Bebauung zu schützen."
+        }
+      ]
     },
     {
       "topicId": "tempelhofer-feld-development-edge-development",
@@ -2325,13 +2401,27 @@
       "partyId": "tierschutz",
       "stance": "for",
       "summary": {
-        "en": "expand urban greenery in dense and overheated areas; “tree-watering service”; punish damage to trees more strictly",
-        "de": "Stadtgrün in dichten und überhitzten Gebieten ausweiten; „Baumgießdienst“; Baumschäden strenger ahnden",
-        "ru": "расширять городскую зелень в плотных и перегретых районах; «служба полива деревьев»; строже наказывать повреждение деревьев",
-        "tr": "yoğun ve aşırı ısınmış alanlarda kentsel yeşilliği genişletmek; “ağaç sulama hizmeti”; ağaç hasarını daha sıkı cezalandırmak",
-        "pl": "rozszerzyć zieleń miejską w gęstych i przegrzanych obszarach; „serwis podlewania drzew”; surowiej karać uszkodzenia drzew",
-        "uk": "розширювати міські зелені насадження в густонаселених і перегрітих районах; «служба поливу дерев»; суворіше карати за пошкодження дерев"
-      }
+        "en": "tighten Berlin’s tree-protection ordinance with binding nearby replacement planting; expand urban greenery in dense, heat-stressed and disadvantaged neighbourhoods, with secured long-term care",
+        "de": "Berliner Baumschutzverordnung verschärfen, Ersatzpflanzungen verbindlich und standortnah; Stadtgrün gezielt in dicht bebauten, hitzebelasteten und sozial benachteiligten Quartieren ausbauen, Pflege dauerhaft sichern",
+        "ru": "ужесточить берлинское постановление об охране деревьев с обязательными посадками на замену поблизости; целенаправленно расширять городскую зелень в плотных, перегретых и социально уязвимых кварталах и обеспечить долгосрочный уход",
+        "tr": "Berlin ağaç koruma yönetmeliğini sıkılaştırmak, yerinde zorunlu ikame dikimleri; yoğun, sıcak stresi yaşayan ve dezavantajlı mahallelerde kentsel yeşilliği hedefli genişletmek, bakımı kalıcı güvenceye almak",
+        "pl": "zaostrzyć berlińskie rozporządzenie o ochronie drzew z obowiązkowymi nasadzeniami zastępczymi w pobliżu; celowo rozbudować zieleń miejską w gęstych, przegrzanych i społecznie upośledzonych dzielnicach oraz trwale zapewnić pielęgnację",
+        "uk": "посилити берлінське положення про охорону дерев із обов’язковими замісними посадками поруч; цілеспрямовано розширювати міську зелень у щільних, перегрітих і соціально вразливих кварталах та забезпечити довготривалий догляд"
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Umweltschutz",
+          "page": 72,
+          "quote": "Baumschutzverordnung verschärfen wir, schränken Ausnahmeregelungen weiter ein und setzen Ersatzpflanzungen verbindlich, standortnah und kontrolliert um."
+        },
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Umweltschutz",
+          "page": 72,
+          "quote": "Wir bauen Berlins Stadtgrün gezielt in dicht bebauten, hitzebelasteten und sozial benachteiligten Quartieren aus."
+        }
+      ]
     },
     {
       "topicId": "large-scale-tree-planting-and-or-tree-care",
@@ -2350,13 +2440,13 @@
           "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
           "section": "Klimaneutrales Berlin",
           "page": 3,
-          "quote": "Straßenbäume leiden auch an den Folgen des Klimawandels. Bisher bei uns hei mische Baumarten werden hier nicht überleben."
+          "quote": "Straßenbäume leiden auch an den Folgen des Klimawandels. Bisher bei uns heimische Baumarten werden hier nicht überleben."
         },
         {
           "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
           "section": "Öffentliches Wassermanagement",
           "page": 21,
-          "quote": "Straßenbäumen und Parkanlagen. Davon zu unterscheiden ist Niederschlagswasser, das z. B. auf Straßen oder Gewerbefl ächen fällt."
+          "quote": "Straßenbäumen und Parkanlagen. Davon zu unterscheiden ist Niederschlagswasser, das z."
         }
       ]
     },
@@ -2467,7 +2557,7 @@
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
           "section": "Jetzt Berlin zur Schwammstadt machen",
-          "quote": "Wir bauen den Berliner Hitze-Aktionsplan strukturell aus: mit zentraler Koordination, gesicherter Finanzierung und wissenschaftlicher Begleitung. Wir zeigen Berliner*innen auf einer Karte, wo sich kos",
+          "quote": "Wir bauen den Berliner Hitze-Aktionsplan strukturell aus: mit zentraler Koordination, gesicherter Finanzierung und wissenschaftlicher Begleitung.",
           "page": 97
         }
       ]
@@ -2483,7 +2573,15 @@
         "tr": "yoğun yerlerde ücretsiz vegan güneş kremi, daha fazla içme çeşmesi, gölge, açık renkli yüzeyler, çatı ve cephe yeşillendirmesi, inşaat ve yenileme için ısı koruma standartları",
         "pl": "darmowy wegański krem z filtrem w ruchliwych miejscach, więcej fontann pitnych, cień, jasne powierzchnie, zazielenianie dachów i fasad, standardy ochrony przed upałem przy budowie i renowacji",
         "uk": "безкоштовний веганський сонцезахисний крем в людних місцях, більше питних фонтанчиків, тінь, світлі поверхні, озеленення дахів і фасадів, стандарти теплозахисту для будівництва та ремонту"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Klimaschutz",
+          "page": 67,
+          "quote": "Dazu zählen kostenlose vegane Sonnencreme an stark frequentierten Orten, mehr öffentliche Trinkbrunnen sowie kühle Rückzugsorte in Bibliotheken, Behörden und Sozialräumen."
+        }
+      ]
     },
     {
       "topicId": "heat-protection",
@@ -2613,7 +2711,7 @@
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
           "section": "Jetzt Berlin zur Schwammstadt machen",
-          "quote": "Wir speichern Regenwasser vor Ort, statt es ungenutzt in die Kanalisation zu leiten. Dafür initiieren wir eine systematische Entsiegelungsoffensive, bei der wir versiegelte Flächen auf Plätzen und im ",
+          "quote": "Wir speichern Regenwasser vor Ort, statt es ungenutzt in die Kanalisation zu leiten. So verhindern wir Überflutungen bei Starkregen, stabilisieren das Grundwasser und kühlen das Stadtklima aktiv durch Verdunstung.",
           "page": 97
         }
       ]
@@ -2629,7 +2727,15 @@
         "tr": "“sünger kent” kavramı: yağmur suyunu yerinde depolamak, sızdırmak ve buharlaştırmak; inşaat ve yenileme için zorunlu yağmur suyu kavramları",
         "pl": "koncepcja „miasta gąbki”: magazynować, infiltrować i odparowywać wodę deszczową na miejscu; obowiązkowe koncepcje wody deszczowej przy budowie i renowacji",
         "uk": "Концепція «міста-губки»: зберігати, проникати та випаровувати дощову воду на місці; обов'язкові концепції дощової води для будівництва та реконструкції"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Klimaschutz",
+          "page": 67,
+          "quote": "Schwammstadt, bei der Regenwasser gespeichert und an heißen Tagen kühlend wirkt, werden dabei konsequent berücksichtigt, ohne zusätzliche Versiegelung zuzulassen."
+        }
+      ]
     },
     {
       "topicId": "sponge-city-rainwater-retention-unsealing-surfaces",
@@ -2793,7 +2899,15 @@
         "tr": "tek kullanımlık ambalaja Verpackungssteuer; standart Mehrweg ve depozito; her Kiez’de Repair-/Tausch-Café, Reuse-Hub, ReparaturBONUS; döngüsel inşaat; yakmadan önce geri dönüşüm",
         "pl": "Verpackungssteuer na jednorazowe opakowania; standardowe Mehrweg i kaucja; Repair-/Tausch-Café w każdym Kiezie, Reuse-Huby, ReparaturBONUS; budownictwo cyrkularne; recykling przed spalaniem",
         "uk": "податок на одноразову упаковку; стандартні Mehrweg і застава; Repair-/Tausch-кафе в кожному Kiez, Reuse-Hubs, ReparaturBONUS; циркулярне будівництво; переробка замість спалювання"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Nachhaltigkeit und Kreislaufwirtschaft",
+          "page": 76,
+          "quote": "Reparatur- und Tauschinfrastruktur. Nachhaltigen Konsum fördern wir durch Bildungsprogramme, standardisierte Mehrwegbehälter und eine Verpackungssteuer auf Einwegverpackungen."
+        }
+      ]
     },
     {
       "topicId": "zero-waste-waste-prevention",
@@ -2951,7 +3065,15 @@
         "tr": "iri atık ve tehlikeli atık için merkezi olmayan noktalar; her ilçede ayda en az iki kez BSR mahalle toplama günleri",
         "pl": "zdecentralizowane punkty dla gabarytów i odpadów niebezpiecznych; dni zbiórki osiedlowej BSR co najmniej dwa razy w miesiącu w każdej dzielnicy",
         "uk": "децентралізовані пункти прийому великогабаритних та небезпечних відходів; Дні збору BSR у кожному районі принаймні двічі на місяць"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Nachhaltigkeit und Kreislaufwirtschaft",
+          "page": 77,
+          "quote": "Sperrmüll und Sonderabfälle sowie eine flächendeckende Durchführung der BSR-Kieztage werden die Erreichbarkeit für alle Berliner:innen verbessern."
+        }
+      ]
     },
     {
       "topicId": "bsr-waste-collection-and-infrastructure",
@@ -3103,7 +3225,15 @@
         "tr": "daha fazla ve daha büyük çöp kutusu, ayrı konteynerler, köpek dışkısı poşetleri, “izmaritsiz Berlin”, yasadışı döküm için yaptırım ve cezalar",
         "pl": "więcej i większe kosze, osobne pojemniki, worki na psie odchody, „Berlin wolny od niedopałków”, egzekucja i mandaty za nielegalne wyrzucanie",
         "uk": "більше і більші баки, окремі контейнери, мішки для собачих відходів, «Берлін без недопалків», правозастосування та штрафи за незаконне звалище"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Nachhaltigkeit und Kreislaufwirtschaft",
+          "page": 77,
+          "quote": "Hundekotbeutelspender an öffentlichen Stellen ergänzen das Angebot. Zigarettenbehälter sollen spielerische Elemente erhalten, um zu einer ordnungsgemäßen Entsorgung zu motivieren."
+        }
+      ]
     },
     {
       "topicId": "cleanliness-enforcement-litter",
@@ -3122,7 +3252,7 @@
           "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
           "section": "Ökologische Abfallwirtschaft für Berlin",
           "page": 17,
-          "quote": "deponiert oder unter Tage gebracht . So werden wertvolle Rohstoffe verschwendet und es können Dioxine und andere giftige Altlasten entstehen."
+          "quote": "Der nicht recycelte Teil des Mülls wird verbrannt, verschifft, deponiert oder unter Tage gebracht ."
         }
       ]
     },
@@ -3233,7 +3363,7 @@
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
           "section": "Jetzt Strom für Berlin klimaneutral erzeugen",
-          "quote": "Wir starten dazu gemeinsam mit den Berliner Stadtwerken eine Solaroffensive und gehen als öffentliche Hand voran: Bis 2031 statten wir jedes öffentliche und technisch geeignete Gebäude mit Solaranlage",
+          "quote": "Wir starten dazu gemeinsam mit den Berliner Stadtwerken eine Solaroffensive und gehen als öffentliche Hand voran: Bis 2031 statten wir jedes öffentliche und technisch geeignete Gebäude mit Solaranlagen aus, egal ob Ämter, Schulen oder Bahnhöfe.",
           "page": 91
         }
       ]
@@ -3249,7 +3379,15 @@
         "tr": "somut PV hedefleri; uygun tüm çatı, cephe, otopark, otopark yapısı, gürültü bariyeri ve bisiklet otoyollarını kullanmak; Solar Center Berlin’i güçlendirmek",
         "pl": "konkretne cele PV; wykorzystać wszystkie odpowiednie dachy, fasady, parkingi, parkingi wielopoziomowe, ekrany akustyczne i trasy ekspresowe dla rowerów; wzmocnić Solar Center Berlin",
         "uk": "конкретні цілі PV; використовувати всі відповідні дахи, фасади, паркінги, паркувальні споруди, шумозахисні екрани та велосипедні магістралі; посилити Сонячний центр Берліна"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Energiewende",
+          "page": 69,
+          "quote": "Die PARTEI MENSCH KLIMA TIERSCHUTZ (Tierschutzpartei) wird konkrete Photovoltaik-Ausbauziele für das gesamte Stadtgebiet und alle kommunalen Liegenschaften definieren und ihre Umsetzung öffentlich über diBEK ausweisen."
+        }
+      ]
     },
     {
       "topicId": "solar-energy-photovoltaics",
@@ -3379,7 +3517,7 @@
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
           "section": "Jetzt die Energiepartnerschaft Berlin-Brandenburg ausbauen",
-          "quote": "Wir koordinieren dafür den Ausbau von Windkraft und Solar in Brandenburg mit dem schrittweisen Rückbau fossiler Energiequellen in Berlin. So verhindern wir „Abregelungen“ von Windrädern und leiten die",
+          "quote": "Wir koordinieren dafür den Ausbau von Windkraft und Solar in Brandenburg mit dem schrittweisen Rückbau fossiler Energiequellen in Berlin unter der Federführung der Gemeinsamen Landesplanungsgesellschaft (GL).",
           "page": 92
         }
       ]
@@ -3395,7 +3533,15 @@
         "tr": "Berlin’de Tegel, Gatow ve Müggelheim dahil 8 rüzgâr enerjisi sahasını uygulamak; sakinler, kooperatifler ve belediye enerji şirketlerinin gelirlere katılımı",
         "pl": "wdrożyć 8 lokalizacji energii wiatrowej w Berlinie, w tym Tegel, Gatow i Müggelheim; udział mieszkańców, spółdzielni i miejskich przedsiębiorstw energetycznych w przychodach",
         "uk": "ввести в дію 8 вітроенергетичних об’єктів у Берліні, включаючи Тегель, Гатов і Мюггельхайм; участь жителів, кооперативів і комунальних підприємств у доходах"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Energiewende",
+          "page": 68,
+          "quote": "Wir realisieren acht Windkraftstandorte. Berliner:innen lassen wir an der Energiewende teilhaben, indem sie selbst Strom produzieren, mitentscheiden und mitverdienen können. 15."
+        }
+      ]
     },
     {
       "topicId": "wind-energy",
@@ -3529,7 +3675,7 @@
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
           "section": "BERLIN GEWINNT: MIT UNABHÄNGIGER, BEZAHLBARER UND KLIMANEUTRALER ENERGIE",
-          "quote": "Aktuell werden über die Hälfte der Berliner Haushalte mit Gas beheizt, bei der Berliner Fernwärmeversorgung entfallen drei Viertel der Versorgung auf Erdgas. Wir überwinden diese Abhängigkeit und mach",
+          "quote": "Aktuell werden über die Hälfte der Berliner Haushalte mit Gas beheizt, bei der Berliner Fernwärmeversorgung entfallen drei Viertel der Versorgung auf Erdgas und der Anteil erneuerbarer Energien bei der Stromeinspeisung liegt gerade einmal bei 5,6 %.",
           "page": 91
         }
       ]
@@ -3545,7 +3691,15 @@
         "tr": "bugün fosil gazı genişletip sonra hidrojenle değiştirme vaadine karşı (fosil kilit); ısı yenilenebilir, ısı pompaları ve Fernwärme ile",
         "pl": "przeciw rozbudowie gazu kopalnego dziś z obietnicą wodoru później (lock-in); ciepło przez OZE, pompy i Fernwärme",
         "uk": "проти розширення викопного газу сьогодні з обіцянкою потім замінити воднем (lock-in); тепло через ВДЕ, теплонасоси й Fernwärme"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Energiewende",
+          "page": 68,
+          "quote": "Die Strategie, fossiles Erdgas heute weiter auszubauen und künftig durch Wasserstoff zu ersetzen, birgt daher ein erhebliches Risiko eines fossilen Lock-ins und verhindert dringend notwendige strukturelle Transformationen im Wärmebereich."
+        }
+      ]
     },
     {
       "topicId": "gas-gas-network",
@@ -3687,8 +3841,8 @@
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
           "section": "Jetzt Heizen für Berlin klimaneutral machen",
-          "quote": "Wir halten die bisherigen Müllverbrennungskapazitäten für Rest- und Sperrmüll für ausreichend und nicht erweiterungsbedürftig, forcieren jedoch den Bau einer modular erweiterbaren Biogasanlage für die",
-          "page": 92
+          "quote": "Wir halten die bisherigen Müllverbrennungskapazitäten für Rest- und Sperrmüll für ausreichend und nicht erweiterungsbedürftig, forcieren jedoch den Bau einer modular erweiterbaren Biogasanlage für die Verwertung von Bioabfällen.",
+          "page": 93
         }
       ]
     },
@@ -3703,7 +3857,15 @@
         "tr": "genel ısı çözümü ve bugün fosil gaz / yarın H₂ kilidini reddetmek; yeşil H₂ yalnızca doğrudan elektrifikasyonun imkânsız olduğu yerde (örn. bazı yüksek sıcaklık/kimya), kitlesel ısı değil",
         "pl": "odrzucać wodór jako ogólne ciepło i lock-in gaz dziś / H₂ jutro; zielony H₂ tylko tam, gdzie nie da się elektryfikować (np. niektóre procesy wysokotemp./chemia), nie jako masowe ciepło",
         "uk": "відхиляти водень як загальне опалення і lock-in «газ зараз / H₂ потім»; зелений H₂ лише де пряма електрифікація неможлива (напр. окремі високотемп./хім. процеси), не як масове тепло"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Energiewende",
+          "page": 68,
+          "quote": "Wasserstoff setzen wir nicht als allgemeine Wärmelösung ein. Grüner Wasserstoff wird weder in ausreichenden Mengen noch zu bezahlbaren Kosten verfügbar sein, um ihn breit in der Wärmeerzeugung einzusetzen."
+        }
+      ]
     },
     {
       "topicId": "hydrogen",
@@ -3861,7 +4023,15 @@
         "tr": "Wärmepumpe, Quartierswärme, jeotermal ve solartermik için Wärmewendefonds; belediye yenilemede PV, ısı pompası, depo ve akıllı kontrol standart; Sanierungsfonds ile su-su ısı pompaları",
         "pl": "Wärmewendefonds na pompy ciepła, Quartierswärme, geotermalnię i solartermikę; PV, pompy, magazyny i sterowanie jako standard w komunalnych modernizacjach; pompy woda-woda przez Sanierungsfonds",
         "uk": "Wärmewendefonds для теплонасосів, Quartierswärme, геотермії та сонячного тепла; PV, теплонасоси, накопичувачі й розумне керування як стандарт у муніципальних санаціях; водяні теплонасоси через Sanierungsfonds"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Energiewende",
+          "page": 68,
+          "quote": "Wir werden einen Wärmewendefonds einrichten, der Wärmepumpen, Quartierswärme, Geothermie und Solarthermie gezielt fördert."
+        }
+      ]
     },
     {
       "topicId": "heat-pumps",
@@ -3995,7 +4165,7 @@
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
           "section": "Jetzt Heizen für Berlin klimaneutral machen",
-          "quote": "Zusammen mit der BEW überarbeiten wir den Dekarbonisierungsfahrplan zu einem wissenschaftsgestützten Zeitplan, der festlegt, wann welche Kraftwerke durch Großwärmepumpen und ergänzende Technologien ab",
+          "quote": "Zusammen mit der BEW überarbeiten wir den Dekarbonisierungsfahrplan zu einem wissenschaftsgestützten Zeitplan, der festlegt, wann welche Kraftwerke durch Großwärmepumpen und ergänzende Technologien abgelöst werden.",
           "page": 92
         }
       ]
@@ -4011,7 +4181,15 @@
         "tr": "2035’e kadar ısı tamamen yenilenebilir; Wärmewendefonds + warmmietenneutral yenileme; Fernwärme’yi hızlandırmak ve ana ısı altyapısını yeniden belediyelendirmek — açık 2030 kömür çıkışı yok",
         "pl": "ciepło w pełni OZE do 2035; Wärmewendefonds + modernizacja warmmietenneutral; przyspieszyć Fernwärme i rekomunalizować kluczową infrastrukturę ciepła — brak jawnego odejścia od węgla do 2030",
         "uk": "тепло повністю на ВДЕ до 2035; Wärmewendefonds + санація без зростання теплої оренди; прискорити Fernwärme і рекомуналізувати ключову теплоінфраструктуру — явного виходу з вугілля до 2030 немає"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Energiewende",
+          "page": 68,
+          "quote": "Wir werden die Wärmeversorgung bis 2035 vollständig auf erneuerbare Energien umstellen, einen Wärmewendefonds einrichten und warmmietenneutrale Sanierungen sicherstellen."
+        }
+      ]
     },
     {
       "topicId": "heating-supply-networks-decarbonization-and-or-transformation",
@@ -4155,7 +4333,13 @@
         "tr": "Berlin seçim programında ele alınmıyor",
         "pl": "nieporuszane w berlińskim programie wyborczym",
         "uk": "у берлінській передвиборчій програмі не згадується"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "note": "kein Treffer zu Kernenergie / Atomkraft / Atomenergie"
+        }
+      ]
     },
     {
       "topicId": "nuclear-energy",
@@ -4283,7 +4467,7 @@
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
           "section": "Jetzt Stadtentwicklung und Tierschutz stärker zusammendenken",
-          "quote": "Wir setzen uns für sogenannte grün-blaue Korridore ein, die Lebensräume von Arten wie Füchsen, Hasen und Ottern verbinden. Außerdem setzen wir uns auf Bundes- und Europaebene für ein Verbot der Zucht ",
+          "quote": "Wir setzen uns für sogenannte grün-blaue Korridore ein, die Lebensräume von Arten, wie Füchsen, Hasen und Ottern, verbinden.",
           "page": 98
         }
       ]
@@ -4299,7 +4483,21 @@
         "tr": "ayrı bölümler: yaban hayvanları/hayvan dostu kentsel yönetim; insan bakımındaki hayvanlar ve veterinerlik; hayvan ticareti; spor/eğlencedeki hayvanlar; hayvan deneyleri; artı Zero Waste olarak atıktan hayvanları korumak",
         "pl": "osobne sekcje: zwierzęta dzikie/przyjazne zwierzętom zarządzanie miastem; zwierzęta pod opieką człowieka i medycyna weterynaryjna; handel zwierzętami; zwierzęta w sporcie/rozrywce; eksperymenty na zwierzętach; plus Zero Waste jako ochrona zwierząt przed odpadami",
         "uk": "окремі розділи: дикі тварини/міське господарство, дружнє до тварин; тварини у сфері догляду та ветеринарії; торгівля тваринами; тварини в спорті/розвагах; випробування на тваринах; плюс Zero Waste як захист тварин від відходів"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Wildtiere",
+          "page": 80,
+          "quote": "Wir werden ein umfassendes Artenschutzprogramm umsetzen, das heimische Arten aktiv schützt, sichere Nist- und Lebensräume schafft, Biotopverbünde aufbaut und Insekten durch pestizidfreie Grünflächen und insektenfreundliche Beleuchtung fördert."
+        },
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Tierversuche",
+          "page": 84,
+          "quote": "Jährlich werden in deutschen Laboren Millionen Tiere für Versuche eingesetzt, gequält und getötet, obwohl viele Tierversuche weder auf den Menschen übertragbar, noch notwendig sind, um medizinische oder wissenschaftliche Erkenntnisse zu gewinnen."
+        }
+      ]
     },
     {
       "topicId": "animal-protection",
@@ -4435,7 +4633,7 @@
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
           "section": "Jetzt den Mietmarkt fair und sicher gestalten",
-          "quote": "Wir lehnen starre Mietendeckel und pauschale Enteignungen ab, da die Evidenz zeigt, dass sie das eigentliche Problem verschärfen: Sie verknappen das Angebot, bremsen Investitionen. Die Mietpreisbremse",
+          "quote": "Wir lehnen starre Mietendeckel und pauschale Enteignungen ab, da die Evidenz zeigt, dass sie das eigentliche Problem verschärfen: Sie verknappen das Angebot, bremsen Investitionen in Modernisierung aus und binden im Fall von Enteignungen Milliarden an Entschädigungen, die für den Neubau fehlen.",
           "page": 28
         }
       ]
@@ -4451,7 +4649,15 @@
         "tr": "belediye stoku için zorunlu eyalet Mietendeckel'ini geri getirmek: yeni sözleşmeler ilçe ortalamasının en az %10 altında, WBS daireleri m² başına en fazla 6,50 €, sıcak kiranın gelirin %30'unu aşamayacağı zorunlu kural, geçici iflasta feshe karşı koruma; Mietenkataster ve “kiraya verme lisansı” (Vermieter:innenführerschein)",
         "pl": "przywrócić obowiązkowy landowy Mietendeckel dla zasobu komunalnego: nowe umowy co najmniej 10 procent poniżej średniej dzielnicowej, mieszkania WBS maksymalnie 6,50 €/m², obowiązkowa zasada, że Warmmiete nie przekracza 30 procent dochodu, ochrona przed wypowiedzeniem przy tymczasowej niewypłacalności; Mietenkataster i „prawo jazdy wynajmującego” (Vermieter:innenführerschein)",
         "uk": "відновити обов’язковий Mietendeckel на рівні землі для муніципального капіталу: нові контракти щонайменше на 10 відсотків нижче середнього по району, квартири WBS не дорожче 6,50 євро за м2, обов’язкове правило про те, що орендна плата за тепло не може перевищувати 30 відсотків доходу, захист від розірвання під час тимчасової неплатоспроможності; Mietenkataster і «ліцензія на оренду» (Vermieter:innenführerschein)"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Bauen, Wohnen und Stadtentwicklung",
+          "page": 8,
+          "quote": "Wir werden einen verbindlichen Landesmietendeckel für den öffentlichen Wohnungsbestand wieder einführen, um Mietsprünge zu verhindern und soziale Sicherheit zu schaffen."
+        }
+      ]
     },
     {
       "topicId": "housing-rent-regulation-mietendeckel",
@@ -4581,7 +4787,7 @@
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
           "section": "Jetzt mehr bauen und umnutzen",
-          "quote": "Wir passen den Stadtentwicklungsplan 2040 konsequent an die Realität an, um Flächen für 300.000 neue Wohnungen zu sichern. Gleichzeitig vereinfachen wir die Umwandlung leerstehender Gewerbe- oder Best",
+          "quote": "Wir passen den Stadtentwicklungsplan 2040 konsequent an die Realität an, um Flächen für 300.000 neue Wohnungen zu sichern.",
           "page": 25
         }
       ]
@@ -4597,7 +4803,15 @@
         "tr": "öncelik yeni inşaat değil yeniden kullanım: boş ofisleri, aşırı büyük alışveriş merkezlerini ve diğer binaları konut ile kültür ve eğitim mekânlarına dönüştürmek; Nachverdichtung yalnızca zaten yapılaşmış ve az kullanılan alanlarda, örn. tek katlı ticari binalar, otoparklar ve süpermarket arazileri; zorunlu çevresel inşaat standartları",
         "pl": "priorytetem jest ponowne wykorzystanie zamiast nowej zabudowy: przekształcać puste biura, zbyt duże centra handlowe i inne budynki w mieszkania oraz przestrzenie kulturalne i edukacyjne; Nachverdichtung tylko na już zabudowanych i niedostatecznie wykorzystanych terenach, np. jednokondygnacyjne obiekty komercyjne, parkingi i tereny supermarketów; obowiązkowe środowiskowe standardy budowlane",
         "uk": "пріоритетом є повторне використання, а не нове будівництво: перетворення порожніх офісів, великих торгових центрів та інших будівель на житлові та культурно-освітні приміщення; Nachverdichtung лише на вже забудованих та недостатньо використовуваних ділянках, таких як одноповерхові комерційні будівлі, автостоянки та супермаркети; обов'язкові екологічні норми будівництва"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Bauen, Wohnen und Stadtentwicklung",
+          "page": 8,
+          "quote": "Ökologische Baustandards verbindlich einführen Neue Bauvorhaben müssen hohen ökologischen und energetischen Standards entsprechen."
+        }
+      ]
     },
     {
       "topicId": "housing-new-construction-and-targets",
@@ -4622,7 +4836,7 @@
           "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
           "section": "Gemeinwohlökonomie für Berlin",
           "page": 10,
-          "quote": "sozialen Wohnungsbaus in städtischer Trägerschaft ist dringend notwendig. Eine sichere und liebenswerte Stadt benötigt auch eine angemessene Ausstattung von Polizei, Feuerwehr und Justizbehörden."
+          "quote": "Berlin Landespolitisches Programm Stand 2026-03-21 bung des jahrzehntelang vernachlässigten sozialen Wohnungsbaus in städtischer Trägerschaft ist dringend notwendig."
         }
       ]
     },
@@ -4749,7 +4963,15 @@
         "tr": "Madde 15 GG altında büyük konut portföylerini sosyalleştirmek; birkaç hukuki görüş anayasaya uygunluğu teyit eder; “Deutsche Wohnen und Co. enteignen” referandumunu uygulamak, sosyal odaklı yönetime devirle istikrarlı fiyatlar, yerinden edilmeyi durdurmak ve demokratik kontrol",
         "pl": "uspołecznić duże portfele mieszkaniowe na podstawie art. 15 GG; kilka ekspertyz prawnych potwierdza zgodność z konstytucją; wdrożyć referendum „Deutsche Wohnen und Co. enteignen”, a przekazanie pod zarządzanie o orientacji społecznej ma zapewnić stabilne ceny, zatrzymać wypieranie i stworzyć demokratyczną kontrolę",
         "uk": "соціалізувати великі портфелі житла відповідно до статті 15 GG; декілька правових висновків підтверджують конституційність; провести референдум «Deutsche Wohnen und Co. enteignen» із переходом до соціально орієнтованого управління, що забезпечує стабільні ціни, зупиняє переміщення та створює демократичний контроль."
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Bauen, Wohnen und Stadtentwicklung",
+          "page": 10,
+          "quote": "Wir werden große Wohnungsbestände nach Artikel 15 Grundgesetz vergesellschaften."
+        }
+      ]
     },
     {
       "topicId": "housing-socialization-of-large-landlords",
@@ -4879,7 +5101,7 @@
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
           "section": "Jetzt bezahlbares Wohnen fördern",
-          "quote": "Wir stärken Genossenschaften, landeseigene Wohnungsunternehmen, aber auch Konzepte für Mehrgenerationenwohnen, private Baugruppen und Modelle für Werkswohnungen von Unternehmen, um den gemeinwohlorien",
+          "quote": "Wir stärken Genossenschaften, landeseigene Wohnungsunternehmen, aber auch Konzepte für Mehrgenerationenwohnen, private Baugruppen und Modelle für Werkswohnungen von Unternehmen, um den gemeinwohlorientierten Berliner Wohnungsbestand perspektivisch auf einen Anteil von bis zu 50 % zu erhöhen.",
           "page": 27
         },
         {
@@ -4901,7 +5123,15 @@
         "tr": "belediye stoku için eyalet Mietendeckel'i, WBS daireleri m² 6,50 €, zorunlu sosyal konut kotasını belirgin yükseltmek; boş daire, spekülasyon veya iflastan etkilenen binalar için kredi hatları ve aktif satın alma stratejili eyalet arazi ve konut fonu; şeffaf daire tahsis ölçütleri ve bağımsız şikâyet ofisi",
         "pl": "landowy Mietendeckel dla zasobu komunalnego, mieszkania WBS po 6,50 €/m², wyraźnie podnieść obowiązkowy udział mieszkań socjalnych; landowy fundusz gruntów i mieszkań z liniami kredytowymi oraz aktywną strategią wykupu budynków dotkniętych pustostanem, spekulacją lub niewypłacalnością; przejrzyste kryteria przydziału mieszkań i niezależne biuro skarg",
         "uk": "Mietendeckel на рівні землі для муніципального фонду, квартири WBS за 6,50 євро за м2, значно підвищують обов’язкову квоту соціального житла; державний фонд землі та житла з кредитними лініями та активною стратегією придбання будівель, які постраждали від порожніх, спекуляційних чи неплатоспроможних; прозорі критерії розподілу квартир і незалежна служба розгляду скарг"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Bauen, Wohnen und Stadtentwicklung",
+          "page": 8,
+          "quote": "Neuvermietungen erfolgen mindestens zehn Prozent unter der ortsüblichen Vergleichsmiete und WBS-Wohnungen werden zu sozial verträglichen Mieten von maximal 6,50 Euro pro Quadratmeter angeboten."
+        }
+      ]
     },
     {
       "topicId": "housing-municipal-stock-social-housing-wbs",
@@ -4920,7 +5150,7 @@
           "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
           "section": "Gemeinwohlökonomie für Berlin",
           "page": 10,
-          "quote": "sozialen Wohnungsbaus in städtischer Trägerschaft ist dringend notwendig. Eine sichere und liebenswerte Stadt benötigt auch eine angemessene Ausstattung von Polizei, Feuerwehr und Justizbehörden."
+          "quote": "Berlin Landespolitisches Programm Stand 2026-03-21 bung des jahrzehntelang vernachlässigten sozialen Wohnungsbaus in städtischer Trägerschaft ist dringend notwendig."
         }
       ]
     },
@@ -5031,7 +5261,7 @@
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
           "section": "Jetzt den Mietmarkt fair und sicher gestalten",
-          "quote": "Wir führen eine fälschungssichere, digitale Wohnraum-Datenbank für maximale Transparenz des Mietspiegels ein. Damit machen wir die Ausgestaltung von Mieten nachvollziehbar und legen Leerstand und Spek",
+          "quote": "Wir führen eine fälschungssichere, digitale Wohnraum-Datenbank für maximale Transparenz des Mietspiegels ein.",
           "page": 28
         },
         {
@@ -5053,7 +5283,15 @@
         "tr": "boşluğu bitirmek, Zweckentfremdung'u cezalandırmak ve turistik daireleri sıkı izlemek, makamlarda belirgin daha fazla personelle; boş daire bildirimi reddi para cezası, sonra izin verilen kiraya otomatik sınır ve son çare olarak binayı satma yükümlülüğü; piyasa şeffaflığı için Mietenkataster",
         "pl": "zakończyć pustostany, karać Zweckentfremdung i ściśle monitorować mieszkania turystyczne, przy znacznie większej obsadzie urzędów; odmowa zgłoszenia pustostanu prowadzi do kary, potem automatycznego limitu dopuszczalnego czynszu, a w ostateczności do obowiązku sprzedaży budynku; Mietenkataster dla przejrzystości rynku",
         "uk": "припинити порожнє житло, покарати Zweckentfremdung і суворо контролювати туристичні апартаменти, залучивши значно більше персоналу в органи влади; відмова повідомити про порожнє житло тягне за собою штраф, потім автоматичне обмеження допустимої орендної плати і, в крайньому випадку, зобов'язання продати будівлю; Mietenkataster для прозорості ринку"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Bauen, Wohnen und Stadtentwicklung",
+          "page": 8,
+          "quote": "Mietenkataster. Öffentliche Grundstücke sollen dem Gemeinwohl dienen und bevorzugt an gemeinwohlorientierte Projekte vergeben werden."
+        }
+      ]
     },
     {
       "topicId": "housing-vacancy-tourist-apartments-speculation",
@@ -5183,7 +5421,7 @@
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
           "section": "Jetzt bezahlbares Wohnen fördern",
-          "quote": "Wir setzen uns mit einer Bundesratsinitiative für eine einmalige, personengebundene Grunderwerbsteuer-Freigrenze von 36.000 Euro beim erstmaligen Erwerb von Wohneigentum ein. Damit ermöglichen wir ein",
+          "quote": "Wir setzen uns mit einer Bundesratsinitiative für eine einmalige, personengebundene Grunderwerbsteuer-Freigrenze von 36.000 Euro beim erstmaligen Erwerb von Wohneigentum ein.",
           "page": 27
         }
       ]
@@ -5199,7 +5437,15 @@
         "tr": "kiracıları yerinden edilme, lüks modernizasyon ve kiralık dairelerin mülkiyete dönüşümünden korumak; yerinden edilmeye karşı özel koruma alanlarını genişletmek; sahiplerin aynı kirayla daire takasına razı olmasını zorunlu kılmak; kentin önalım hakkını yasaya işlemek",
         "pl": "chronić najemców przed wypieraniem, luksusową modernizacją i przekształcaniem mieszkań na wynajem w Eigentumswohnungen; rozszerzyć obszary szczególnej ochrony przed wypieraniem; wymagać od właścicieli zgody na zamiany mieszkań przy tym samym czynszu; ustawić w prawie miejskie prawo pierwokupu",
         "uk": "захистити орендарів від переселення, елітної модернізації та перетворення орендованих квартир на кондомініуми; розширити зони зі спеціальним захистом від зміщення; вимагати від власників згоди на обмін квартирами за однакову орендну плату; законодавчо встановити право першочергової покупки міста"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Bauen, Wohnen und Stadtentwicklung",
+          "page": 9,
+          "quote": "Wir werden Mieter:innen vor Verdrängung, Luxussanierungen und der Umwandlung von Miet- in Eigentumswohnungen schützen und den Milieuschutz ausweiten."
+        }
+      ]
     },
     {
       "topicId": "housing-ownership-conversion-of-rental-apartments-into-condominiums-evic",
@@ -5218,7 +5464,7 @@
           "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
           "section": "Gemeinwohlökonomie für Berlin",
           "page": 10,
-          "quote": "städtischer Trägerschaft ist dringend notwendig. Eine sichere und liebenswerte Stadt benötigt auch eine angemessene Ausstattung von Polizei, Feuerwehr und Justizbehörden."
+          "quote": "Berlin Landespolitisches Programm Stand 2026-03-21 bung des jahrzehntelang vernachlässigten sozialen Wohnungsbaus in städtischer Trägerschaft ist dringend notwendig."
         },
         {
           "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
@@ -5333,7 +5579,7 @@
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
           "section": "Jetzt bezahlbares Wohnen fördern",
-          "quote": "Wir setzen uns mit einer Bundesratsinitiative für eine einmalige, personengebundene Grunderwerbsteuer-Freigrenze von 36.000 Euro beim erstmaligen Erwerb von Wohneigentum ein. Damit ermöglichen wir ein",
+          "quote": "Wir setzen uns mit einer Bundesratsinitiative für eine einmalige, personengebundene Grunderwerbsteuer-Freigrenze von 36.000 Euro beim erstmaligen Erwerb von Wohneigentum ein.",
           "page": 27
         }
       ]
@@ -5349,7 +5595,15 @@
         "tr": "progresif Grunderwerbsteuer: az arazi sahipliğinde Freibetrag, büyük mülkte daha yüksek oran — konut projeleri/kooperatifler için erişim ve spekülasyonu dizginlemek",
         "pl": "progresywny Grunderwerbsteuer: ulgi przy małej ziemi, wyższe stawki przy większej — ułatwić dostęp projektom/spółdzielniom i ograniczyć spekulację",
         "uk": "прогресивний Grunderwerbsteuer: пільги за малої землі, вищі ставки за більшої власності — доступ для житлових проєктів/кооперативів і проти спекуляції"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Haushalt und Finanzen",
+          "page": 48,
+          "quote": "Grunderwerbsteuer entwickeln wir progressiv weiter. 9."
+        }
+      ]
     },
     {
       "topicId": "housing-tax-on-the-first-property-purchase",
@@ -5368,7 +5622,7 @@
           "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
           "section": "Gemeinwohlökonomie für Berlin",
           "page": 10,
-          "quote": "städtischer Trägerschaft ist dringend notwendig. Eine sichere und liebenswerte Stadt benötigt auch eine angemessene Ausstattung von Polizei, Feuerwehr und Justizbehörden."
+          "quote": "Berlin Landespolitisches Programm Stand 2026-03-21 bung des jahrzehntelang vernachlässigten sozialen Wohnungsbaus in städtischer Trägerschaft ist dringend notwendig."
         },
         {
           "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
@@ -5505,7 +5759,15 @@
         "tr": "kira borçları doğunca önleme: ücretsiz borç danışmanlığı, sahiplerle arabuluculuk, belediye konut şirketlerinde sosyal hizmetliler; koşulsuz “Housing First”; sosyal konut yardımına daha fazla personel ve finansman; her ilçede akşam, gece ve hafta sonu saatleriyle genişletilmiş çay odaları ve sıcak odalar; barınak standartlarının bağımsız incelemesi; evsizler için mobil tıbbi ekipler",
         "pl": "prewencja przy powstaniu długów czynszowych: bezpłatne doradztwo zadłużeniowe, mediacja z właścicielami, pracownicy socjalni w spółkach komunalnych; bezwarunkowe „Housing First”; więcej personelu i środków na socjalną pomoc mieszkaniową; rozszerzone herbaciarnie i ciepłe pomieszczenia w każdej dzielnicy z godzinami wieczornymi, nocnymi i weekendowymi; niezależna kontrola standardów schronisk; mobilne zespoły medyczne dla osób bezdomnych",
         "uk": "Профілактика при виникненні боргів по квартплаті: безкоштовні консультації щодо боргів, посередництво з власниками, соціальними працівниками ЖЕКів; безумовне «Житло перш за все»; більше персоналу та фінансування соціальної житлової допомоги; розширені чайні та теплі кімнати в кожному районі з вечірнім, нічним і вихідним часом; незалежний огляд стандартів укриття; мобільні медичні бригади для бездомних"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Sozialpolitik",
+          "page": 43,
+          "quote": "Die PARTEI MENSCH KLIMA TIERSCHUTZ (Tierschutzpartei) setzt auf frühzeitige Intervention bei Mietschulden, um Wohnungsverlust zu verhindern."
+        }
+      ]
     },
     {
       "topicId": "housing-evictions-and-homelessness",
@@ -5663,7 +5925,15 @@
         "tr": "merkezi olmayan polis karakolları, özellikle dış ilçelerde, mahalle polis memurları ve Community Policing; bağımsız polis şikâyet ofisi ve ombudsman, kontrollerden sonra makbuz, acı zorlama teknikleri ve orantısız güç yasağı, özel birimlerde rotasyon ve denetim, görev dışı özel silah taşıma yasağı; sosyal ve ruh sağlığı krizleri için karma müdahale ekipleri",
         "pl": "zdecentralizowane komisariaty, zwłaszcza w zewnętrznych dzielnicach, dzielnicowi policjanci i Community Policing; niezależne biuro skarg na policję i ombudsman, pokwitowanie po kontroli, zakaz technik bólowych i nieproporcjonalnej siły, rotacja i nadzór w jednostkach specjalnych, zakaz noszenia prywatnej broni poza służbą; mieszane zespoły reagowania na kryzysy społeczne i zdrowia psychicznego",
         "uk": "Децентралізовані поліцейські дільниці, особливо у віддалених районах, місцеві поліцейські офіцери та громадська поліція; незалежний відділ розгляду скарг на поліцію та омбудсмен, розписка після перевірок, заборона на застосування болезаспокійливих прийомів і непропорційної сили, ротація та нагляд у спеціальних підрозділах, заборона на носіння особистої зброї поза службою; змішані групи реагування на кризи соціального та психічного здоров’я"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Innere Sicherheit und Justiz",
+          "page": 51,
+          "quote": "Polizeiliches Handeln kontrollieren Eine unabhängige Polizeibeschwerdestelle sowie ein:e Polizeibeauftragte:r sollen transparente Anlaufstellen für Bürger:innen schaffen."
+        }
+      ]
     },
     {
       "topicId": "security-police-in-neighborhoods",
@@ -5809,7 +6079,15 @@
         "tr": "kamusal alanda video gözetimi ve Vorratsdatenspeicherung'u reddeder, otomatik yüz tanımayı dışlar ve biyometriyi yalnızca mahkeme kararıyla dar istisnalarda izin verir; veri saklama yerine Quick-Freeze usulü, drone'ların sıkı düzenlenmesi ve Social Scoring ile yapay zekâ tabanlı davranış analizinin dışlanması",
         "pl": "odrzuca monitoring wideo w przestrzeni publicznej i Vorratsdatenspeicherung, wyklucza automatyczne rozpoznawanie twarzy i dopuszcza biometrię tylko w wąskich wyjątkach na mocy nakazu sądowego; procedura Quick-Freeze zamiast retencji danych, ścisła regulacja dronów oraz wykluczenie Social Scoring i analizy behawioralnej opartej na AI",
         "uk": "відмовляється від відеоспостереження в громадському просторі та Vorratsdatenspeicherung, виключає автоматичне розпізнавання обличчя та дозволяє біометричні дані лише у вузьких винятках за рішенням суду; Процедура швидкого заморожування замість збереження даних, суворе регулювання безпілотників і виключення соціального оцінювання та аналізу поведінки на основі ШІ"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Innere Sicherheit und Justiz",
+          "page": 50,
+          "quote": "Gesichtserkennung im öffentlichen Raum lehnen wir ab, da sie Grundrechte gefährden."
+        }
+      ]
     },
     {
       "topicId": "security-video-surveillance-and-biometrics",
@@ -5828,7 +6106,7 @@
           "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
           "section": "Mobilfunk – gesundheits- und umweltverträglich sowie datenschutzkonform gestalten",
           "page": 24,
-          "quote": "datenschutzkonform gestalten Die Nutzung des Mobilfunks, WLAN und anderer Funktechniken erleichtert und bereichert das Leben vieler Menschen."
+          "quote": "Berlin Landespolitisches Programm Stand 2026-03-21 Mobilfunk – gesundheits- und umweltverträglich sowie datenschutzkonform gestalten Die Nutzung des Mobilfunks, WLAN und anderer Funktechniken erleichtert und bereichert das Leben vieler Menschen."
         },
         {
           "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
@@ -5963,7 +6241,15 @@
         "tr": "sebepsiz kontrolleri bitirmek: polis önlemleri gerekçeli, orantılı ve denetlenebilir olmalı; polis uygulamasındaki ayrımcı farkları gidermek ve acı zorlama tekniklerini yasaklamak",
         "pl": "zakończyć kontrole bezpodstawne: działania policji muszą być uzasadnione, proporcjonalne i możliwe do skontrolowania; wyeliminować dyskryminacyjne różnice w praktyce policyjnej i zakazać technik bólowych",
         "uk": "припинити перевірки без підозри: поліцейські заходи мають бути обґрунтованими, співмірними й такими, що підлягають контролю"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Innere Sicherheit und Justiz",
+          "page": 50,
+          "quote": "Anlasslose Kontrollen, biometrische Überwachung und ein Strafrecht, das Armut bestraft, schaffen keine Sicherheit, sie untergraben das Vertrauen in den Rechtsstaat."
+        }
+      ]
     },
     {
       "topicId": "security-suspicionless-checks-and-controversial-powers",
@@ -6113,7 +6399,15 @@
         "tr": "Organize suçu kararlılıkla kovuşturmak, ancak “tüm nüfus gruplarını topluca şüphe altına almadan”: köken ve aile bağları devlet eyleminin gerekçesi olamaz; yasadışı mali ve mülk yapılarını çökertmeye odaklanmak, kara para aklamaya karşı gayrimenkul ve varlık sicili ile eğitim, entegrasyon ve çıkış programları",
         "pl": "Zdecydowane ściganie przestępczości zorganizowanej, ale „bez zbiorowego podejrzenia wobec całych grup ludności”: pochodzenie i przynależność rodzinna nie mogą być podstawą działań państwa; nacisk na rozbijanie nielegalnych struktur finansowych i majątkowych, rejestr nieruchomości i aktywów przeciw praniu pieniędzy oraz edukacja, integracja i programy wyjścia",
         "uk": "Рішуче переслідувати організовану злочинність, але «не ставлячи під загальну підозру цілі групи населення»: походження та родинна приналежність не можуть бути підставою для дій держави; акцент на демонтаж незаконних фінансових і майнових структур, використання реєстру нерухомості та активів проти відмивання грошей, і програми навчання, інтеграції та виходу"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Innere Sicherheit und Justiz",
+          "page": 50,
+          "quote": "Gleichzeitig braucht es wirksame Instrumente gegen organisierte Kriminalität und Extremismus, die Grundrechte achten und demokratisch kontrolliert werden."
+        }
+      ]
     },
     {
       "topicId": "security-organized-crime-and-money",
@@ -6247,7 +6541,7 @@
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
           "section": "Jetzt Opfer gezielter schützen",
-          "quote": "Wir stärken den sofortigen Schutz von Opfern. Wir bauen regionale Anlaufstellen aus, die insbesondere Opfern extremistischer, rassistischer und anti-queerer Gewalt psychologische Beratung bieten. Wir ",
+          "quote": "Wir stärken den sofortigen Schutz von Opfern. Wir bauen regionale Anlaufstellen aus, die insbesondere Opfern extremistischer, rassistischer und anti-queerer Gewalt psychologische Betreuung, Rechtsberatung und Soforthilfe bieten.",
           "page": 75
         }
       ]
@@ -6263,7 +6557,15 @@
         "tr": "İstanbul Sözleşmesi standardına uygun kadın sığınma evleri (10 000 sakine 2,5 yer — Berlin'de karşılanmıyor), polis, yargı ve kamu kurumlarına Hate Speech, stalking ve femicide eğitimi, düşük eşikli çevrimiçi danışmanlık; Täter-Opfer-Ausgleich'i genişletmek; önleme olarak her okulda okul sosyal çalışması",
         "pl": "Schroniska dla kobiet według standardu Konwencji stambulskiej (2,5 miejsca na 10 000 mieszkańców — w Berlinie niespełnione), szkolenia dla policji, sądownictwa i urzędów z Hate Speech, stalkingu i femicydu, niskoprogowe poradnictwo online; rozbudowa Täter-Opfer-Ausgleich; praca socjalna szkolna w każdej szkole jako profilaktyka",
         "uk": "Жіночі притулки, що відповідають стандартам Стамбульської конвенції (2,5 місця на 10 000 мешканців — не зустрічається в Берліні), тренінги для поліцейських, судових органів і органів державної влади з питань ненависті, переслідування та феміцидів, онлайн-консультування з низьким порогом; розгорнути Täter-Opfer-Ausgleich; шкільна соціальна робота в кожній школі як профілактика"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Gesellschaft und Zusammenleben",
+          "page": 31,
+          "quote": "Frauenhäuser, Schutzwohnungen und spezialisierte Beratungsstellen. Die Istanbul-Konvention verlangt mindestens 2,5 Frauenhausplätze pro 10.000 Einwohner:innen."
+        }
+      ]
     },
     {
       "topicId": "security-oversight-prevention-support-for-victims",
@@ -6409,7 +6711,15 @@
         "tr": "Ebeveynlerin istihdamına bakılmaksızın bir yaşından itibaren her çocuğa tam gün yer hakkı; Kita-Navigator'ı güncel ve güvenilir bir yerleştirme aracı yapmak; dil desteğini genişletmek — Alman kökenli olmayan çocukların yüzde 40 eşiği gerçek ihtiyacı yansıtmıyor; eğitimcileri idari işten rahatlatmak ve küçük Kita'larda bile özel idari personel sağlamak; iki dilli Kita'larda çok dilli sunumlar",
         "pl": "Prawo do miejsca całodniowego dla każdego dziecka od roku życia niezależnie od zatrudnienia rodziców; Kita-Navigator jako aktualne i wiarygodne narzędzie przydziału miejsc; rozbudowa wsparcia językowego — próg 40 procent dzieci pochodzenia nie-niemieckiego nie oddaje rzeczywistych potrzeb; odciążenie wychowawców od pracy administracyjnej i zapewnienie personelu administracyjnego nawet w małych Kita; oferty wielojęzyczne w dwujęzycznych Kita",
         "uk": "Право на місце повного дня для кожної дитини від одного року незалежно від зайнятості батьків; зробити Kita-Navigator сучасним і надійним інструментом розміщення; розширення мовної підтримки — показник у 40 відсотків дітей ненімецького походження не відображає реальної потреби; звільнити вихователів від адміністративної роботи та забезпечити спеціальним адміністративним персоналом навіть для маленьких Кіт; багатомовні пропозиції в двомовних Kitas"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Bildung",
+          "page": 20,
+          "quote": "Sprachförderung aus und integrieren Tierschutz und Naturerfahrungen in den Alltag. Das Schulsystem werden wir grundlegend reformieren."
+        }
+      ]
     },
     {
       "topicId": "kitas-access-and-quality",
@@ -6539,7 +6849,7 @@
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
           "section": "Jetzt den Übergang in die Schule verbindlich machen",
-          "quote": "Wir führen eine qualitativ gesicherte Vorschulphase ab fünf Jahren verbindlich ein, in der sprachliche, soziale und kognitive Grundlagen gezielt gestärkt werden. Wir führen Sprachtests mit vier Jahren",
+          "quote": "Wir führen eine qualitativ gesicherte Vorschulphase ab fünf Jahren verbindlich ein, in der sprachliche, soziale und kognitive Grundlagen gezielt gestärkt werden.",
           "page": 45
         }
       ]
@@ -6555,7 +6865,15 @@
         "tr": "Dil desteğini genişletmek: Alman kökenli olmayan çocukların yüzde 40 eşiği gerçek ihtiyacı yansıtmıyor, finansman gerçek talebi izlemeli; çok dilli eğitim sunumlarına daha güçlü destek",
         "pl": "Rozbudowa wsparcia językowego: dotychczasowy próg 40 procent dzieci pochodzenia nie-niemieckiego nie oddaje rzeczywistych potrzeb, więc finansowanie powinno iść za faktycznym popytem; silniejsze wsparcie wielojęzycznych ofert edukacyjnych",
         "uk": "Розширення мовної підтримки: попередній поріг у 40 відсотків дітей ненімецького походження не відображає реальних потреб, тому фінансування має відповідати фактичному попиту; забезпечити більшу підтримку багатомовних освітніх пропозицій"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Bildung",
+          "page": 20,
+          "quote": "Sprachförderung aus und integrieren Tierschutz und Naturerfahrungen in den Alltag. Das Schulsystem werden wir grundlegend reformieren."
+        }
+      ]
     },
     {
       "topicId": "schools-language-and-preparation-for-first-grade",
@@ -6701,7 +7019,15 @@
         "tr": "Okul sistemini reforme etmek: çocukların daha az erken ayrıştırılması, toplumsal karışım için bazı yerleri kurayla tahsis etmek ve geçişte okul türü değişimini kolaylaştırmak; harap binaları yenilemek, modernizasyon yetmediğinde yeni inşaat — uygun akustik, ışık ve hava ile; okulları yaşayan demokrasi mekânları yapmak, öğrencilere okul çaplı organlara önerge sunma hakkı vermek",
         "pl": "Reforma systemu szkolnego: mniej wczesnego sortowania dzieci, część miejsc losowana dla mieszania społecznego oraz uproszczenie zmiany typu szkoły przy przejściu; remont zniszczonych budynków, nowa budowa tylko gdy modernizacja nie wystarczy — z właściwą akustyką, światłem i powietrzem; szkoły jako miejsca żywej demokracji, z prawem uczniów do składania wniosków do organów szkolnych",
         "uk": "Реформувати шкільну систему: менше раннього сортування дітей, розподіляти місця за допомогою жеребкування для соціального змішування та спростити зміну типу школи під час переходу; реконструювати старі будівлі, оновлювати лише там, де модернізація недостатня — з належною акустикою, світлом і повітрям; школи як місця живої демократії, де учням надається право подавати пропозиції до загальношкільних органів"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Bildung",
+          "page": 20,
+          "quote": "BILDUNG Berlins Bildungssystem steht unter erheblichem Druck: Kitas sind personell unterbesetzt, Schulgebäude sind marode, der Lehrkräftemangel wächst und soziale Herkunft entscheidet noch immer zu stark darüber, welche Bildungswege offenstehen."
+        }
+      ]
     },
     {
       "topicId": "schools-structure-and-requirements",
@@ -6831,7 +7157,7 @@
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
           "section": "Jetzt Unterrichtsqualität stärken",
-          "quote": "Wir stärken die Unterrichtsqualität, indem wir in die Menschen investieren, die sie tragen. Wir gewinnen deshalb Lehrkräfte langfristiger und gezielter und bauen Ausbildungs- und …",
+          "quote": "Wir stärken die Unterrichtsqualität, indem wir in die Menschen investieren, die sie tragen. Wir gewinnen deshalb Lehrkräfte langfristiger und gezielter und bauen Ausbildungs- und Qualifizierungswege aus.",
           "page": 46
         }
       ]
@@ -6847,7 +7173,15 @@
         "tr": "Her okulda okul sosyal çalışması — yıllık gözden geçirilen değil kalıcı finansmanla; daha fazla okul psikoloğu ve terapisti, SIBUZ'un büyük genişlemesi; öğretmen açığı ve bürokrasiyi işgücü politikası, toplu sözleşme bağlantısı, bağımsız ve kamu Träger'de eşit ücret ile daha az süreli sözleşmeyle ele almak; sosyal mesleklerde daha fazla eğitim yeri",
         "pl": "Praca socjalna szkolna w każdej szkole z finansowaniem stałym, a nie corocznie weryfikowanym; więcej psychologów i terapeutów szkolnych, znaczna rozbudowa SIBUZ; niedobór nauczycieli i biurokracja poprzez politykę kadrową, powiązanie z układami zbiorowymi, równe płace u niezależnych i publicznych Träger oraz mniej umów terminowych; więcej miejsc szkoleniowych w zawodach społecznych",
         "uk": "Шкільна соціальна робота в кожній школі з постійним, а не щорічним фінансуванням; більше шкільних психологів і терапевтів, значне розширення СИБУЗу; вирішувати проблему нестачі вчителів і бюрократії за допомогою кадрової політики, колективних угод, рівної оплати праці в незалежних і державних компаніях Träger і меншої кількості строкових контрактів; більше місць для навчання за соціальними професіями"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Bildung",
+          "page": 20,
+          "quote": "Lehrkräftemangel wächst und soziale Herkunft entscheidet noch immer zu stark darüber, welche Bildungswege offenstehen."
+        }
+      ]
     },
     {
       "topicId": "schools-staff-social-work-screens",
@@ -6993,7 +7327,15 @@
         "tr": "Öğretmen, eğitimci ve sosyal bakım uzmanı açıklarını işgücü politikası, toplu sözleşme bağlantısı, daha az süreli sözleşme ve daha fazla eğitim yeriyle ele almak; bulunan parçalarda yurtdışından alıma dair ayrı önlem yok",
         "pl": "niedobory nauczycieli, wychowawców i fachowców opieki społecznej poprzez politykę kadrową, powiązanie z układami zbiorowymi, mniej umów terminowych i więcej miejsc szkoleniowych; w znalezionych fragmentach brak osobnego środka dotyczącego rekrutacji z zagranicy",
         "uk": "усунути нестачу вчителів, вихователів і спеціалістів із соціальної допомоги за допомогою політики щодо робочої сили, зв’язку між колективними угодами, меншої кількості строкових контрактів і збільшення місць для навчання; окремого заходу про вербування з-за кордону у фрагментах не виявлено"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Bildung",
+          "page": 20,
+          "quote": "Lehrkräftemangel wächst und soziale Herkunft entscheidet noch immer zu stark darüber, welche Bildungswege offenstehen."
+        }
+      ]
     },
     {
       "topicId": "shortage-of-qualified-professionals",
@@ -7139,7 +7481,15 @@
         "tr": "Sosyal mesleklerde daha fazla eğitim yeri, bağımsız ve kamu sağlayıcılarda eşit ücret, daha az süreli sözleşme; ayrımcılık olmadan kariyer rehberliği ve destek",
         "pl": "więcej miejsc szkoleniowych w zawodach społecznych, równe płace u niezależnych i publicznych Träger, mniej umów terminowych; doradztwo zawodowe i wsparcie bez dyskryminacji",
         "uk": "більше місць для навчання за соціальними професіями, рівна оплата в незалежних і державних провайдерах, менше строкових контрактів; профорієнтація та підтримка без дискримінації"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Arbeit und Wirtschaft",
+          "page": 24,
+          "quote": "Berufsorientierung im Schulalltag verankern Kochen, Werken, Finanzen und weitere Alltagskompetenzen werden wir an allen Schulformen verbindlich verankern, um alle Schüler:innen optimal auf das Leben vorzubereiten."
+        }
+      ]
     },
     {
       "topicId": "vocational-education-and-dual-training",
@@ -7285,7 +7635,15 @@
         "tr": "Sosyal mesleklerde daha fazla eğitim yeri, daha az süreli sözleşme ve eşit ücret; yükseköğretim erişilebilir, toplumsal olarak adil ve ayrımcılıksız olmalı",
         "pl": "więcej miejsc szkoleniowych w zawodach społecznych, mniej umów terminowych i równe płace; szkolnictwo wyższe powinno być dostępne, społecznie sprawiedliwe i niedyskryminujące",
         "uk": "більше місць для навчання за соціальними професіями, менше строкових контрактів і рівна оплата праці; вища освіта має бути доступною, соціально справедливою та недискримінаційною"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Bildung",
+          "page": 20,
+          "quote": "Hochschulen transformieren wir ökologisch und sozial. Lebenslanges Lernen fördern wir durch ausgebaute Volkshochschulangebote und ein Umweltbildungszentrum in jedem Bezirk. 3."
+        }
+      ]
     },
     {
       "topicId": "higher-education",
@@ -7431,7 +7789,15 @@
         "tr": "Jobcenter'lar yaptırım uygulamak yerine danışmanlık ve eğitim vermeli; sosyal mesleklerde daha fazla eğitim yeri, sosyal çalışma için kalıcı finansman ve daha az süreli sözleşme",
         "pl": "Jobcentery powinny doradzać i szkolić zamiast nakładać sankcje; więcej miejsc szkoleniowych w zawodach społecznych, stałe finansowanie pracy socjalnej i mniej umów terminowych",
         "uk": "Центри зайнятості повинні консультувати та навчати, а не накладати санкції; більше місць для навчання за соціальними професіями, постійне фінансування соціальної роботи та менше строкових контрактів"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Arbeit und Wirtschaft",
+          "page": 45,
+          "quote": "Wir machen Jobcenter zu Orten, die Menschen gezielt beraten, fördern und für Ausbildung und Qualifizierung stark machen, statt sie mit Sanktionen unter Druck zu setzen."
+        }
+      ]
     },
     {
       "topicId": "continuing-education-and-retraining",
@@ -7577,7 +7943,15 @@
         "tr": "Rettungsdienst ve birincil tıbbi bakımı bakım zinciri boyunca güçlendirmek, gelir ve kökene bakılmaksızın psikososyal desteğe düşük eşikli erişim; antibiyotiğe dirençli enfeksiyonlara yanıt olarak her hastanede beslenme ekibi ve bitkisel menü; mobil ekiplerle evsizlere ücretsiz ve bürokrasisiz tıbbi bakım; toplumsal olarak adil veteriner bakımı",
         "pl": "Wzmocnienie Rettungsdienst i podstawowej opieki medycznej w całym łańcuchu opieki, niskoprogowy dostęp do wsparcia psychospołecznego niezależnie od dochodu i pochodzenia; zespół żywieniowy i menu roślinne w każdym szpitalu jako odpowiedź na zakażenia oporne na antybiotyki; bezpłatna i wolna od biurokracji opieka medyczna dla osób bezdomnych przez zespoły mobilne; społecznie sprawiedliwa opieka weterynaryjna",
         "uk": "Зміцнити Rettungsdienst і первинну медичну допомогу в усьому ланцюжку надання допомоги, низькопороговий доступ до психосоціальної підтримки незалежно від доходу та походження; бригада дієтологів і рослинне меню в кожній лікарні як відповідь на стійкі до антибіотиків інфекції; безкоштовне та безаппаратне медичне обслуговування бездомних через мобільні бригади; соціально справедлива ветеринарна допомога"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Gesundheit und Pflege",
+          "page": 36,
+          "quote": "Rettungsdienst ist überlastet, Therapieplätze für psychische Erkrankungen sind unzureichend, Pflegekräfte arbeiten unter schwierigen Bedingungen und der Zugang zur Versorgung hängt zu oft von Einkommen, Wohnort oder Versicherungsstatus ab."
+        }
+      ]
     },
     {
       "topicId": "healthcare-hospitals-and-neighborhood-care",
@@ -7707,7 +8081,7 @@
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
           "section": "Jetzt Hilfsangebote für Menschen mit psychischen Problemen ausbauen",
-          "quote": "Wir bauen die sozialpsychiatrischen Dienste der Bezirke aus. Wir beziehen Betroffene mit ein: bei der Gestaltung von Programmen, bei Anti-Stigma-Kampagnen und bei der Förderung von …",
+          "quote": "Wir bauen die sozialpsychiatrischen Dienste der Bezirke aus. Wir beziehen Betroffene mit ein: bei der Gestaltung von Programmen, bei Anti-Stigma-Kampagnen und bei der Förderung von Gesundheitskompetenz in Schulen, Vereinen und Betrieben.",
           "page": 83
         }
       ]
@@ -7723,7 +8097,15 @@
         "tr": "Ayrı “Ruh sağlığı” bölümü: gelir ve kökene bakılmaksızın düşük eşikli psikososyal destek, okullarda ve Kita'larda sosyal çalışanlar ve terapistler, stres, zorbalık, kaygı bozuklukları ve depresyonu önlemek için zorunlu programlar — ücretsiz ve ayrımcılıksız; ruh sağlığı suç önlemenin parçası; yalnızlıkla mücadele komiseri",
         "pl": "Osobny rozdział „Mental health”: niskoprogowe wsparcie psychospołeczne niezależnie od dochodu i pochodzenia, pracownicy socjalni i terapeuci w szkołach i Kita, obowiązkowe programy zapobiegania stresowi, bullyingowi, zaburzeniom lękowym i depresji — bezpłatne i bez dyskryminacji; zdrowie psychiczne jako część profilaktyki przestępczości; komisarz ds. walki z samotnością",
         "uk": "Окремий розділ «Психічне здоров’я»: низькопорогова психосоціальна підтримка незалежно від доходу та походження, соціальні працівники та терапевти в школах та Китах, обов’язкові програми запобігання стресу, булінгу, тривожним розладам та депресії — безкоштовно та без дискримінації; психічне здоров'я як складова профілактики правопорушень; уповноважений по боротьбі з самотністю"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Gesundheit und Pflege",
+          "page": 38,
+          "quote": "Die PARTEI MENSCH KLIMA TIERSCHUTZ (Tierschutzpartei) setzt sich dafür ein, dass alle Menschen in Berlin unabhängig von Einkommen, Herkunft oder Aufenthaltsstatus einen schnellen und niedrigschwelligen Zugang zu Beratung, Therapie und Krisenhilfe erhalten."
+        }
+      ]
     },
     {
       "topicId": "healthcare-mental-health",
@@ -7869,7 +8251,15 @@
         "tr": "Yaşlılara dair ayrı bölüm: çevre ve hayvan koruma projelerine daha fazla katılım fırsatı, engelsiz erişilebilirlik ve izolasyondan koruma; bakım ve sosyal meslekler — toplu sözleşmeli ücret, daha az süreli sözleşme, bağımsız ve kamu Träger'de eşit ücret; saha danışmanlığı sunan mobil Kiez ekipleri",
         "pl": "Osobny rozdział o osobach starszych: więcej szans udziału w projektach ochrony środowiska i zwierząt, dostępność bez barier i ochrona przed izolacją; opieka i zawody społeczne — wynagrodzenia objęte układami zbiorowymi, mniej umów terminowych, równe płace u niezależnych i publicznych Träger; mobilne zespoły Kiez zapewniające doradztwo outreach",
         "uk": "Розділ, присвячений людям похилого віку: більше можливостей для участі в проектах із захисту навколишнього середовища та тварин, безбар’єрний доступ та захист від ізоляції; піклування та соціальні професії — оплата за колективним договором, менша кількість контрактів на визначений термін, рівна оплата в незалежних і державних Träger; мобільні команди Kiez, які надають виїзні консультації"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Gesundheit und Pflege",
+          "page": 36,
+          "quote": "Pflegeeinrichtungen dafür ein, dass sogenannte „Haustiere” unkompliziert und tiergerecht gehalten werden können."
+        }
+      ]
     },
     {
       "topicId": "care-pflege-and-older-people",
@@ -7888,7 +8278,7 @@
           "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
           "section": "Berlin – sozial und solidarisch",
           "page": 15,
-          "quote": "barrierefreier Zugang aller öffentlichen Gebäude und Verkehrsmittel.  Texte müssen verständlich und leicht lesbar bleiben."
+          "quote": "Ausbau von Sportstätten unter dem Gesichtspunkt der Inklusion, barrierefreier Zugang aller öffentlichen Gebäude und Verkehrsmittel."
         }
       ]
     },
@@ -8015,7 +8405,15 @@
         "tr": "Baskı yerine önleme: bağımlılık öncelikle sağlık ve sosyal bir konu, bu yüzden kent çapında bağımlılık desteği, danışmanlık, terapi ve çıkış programları sunmak ve uyuşturucu kullananları suç olmaktan çıkarmak; organize, kâr odaklı uyuşturucu ticaretine kararlılıkla karşı çıkmak, ancak toplumsal olarak kırılgan insanları damgalamadan",
         "pl": "profilaktyka zamiast represji: uzależnienie to przede wszystkim kwestia zdrowotna i społeczna, więc wsparcie uzależnień, poradnictwo, terapia i programy wyjścia w całym mieście oraz dekryminalizacja osób używających narkotyków; zdecydowane działanie przeciw zorganizowanemu, nastawionemu na zysk handlowi narkotykami, ale bez stygmatyzowania osób społecznie wrażliwych",
         "uk": "профілактика замість репресій: залежність – це перш за все медична та соціальна проблема, тому забезпечте підтримку залежностей, консультації, терапію та програми виходу з наркоманії по всьому місту та декриміналізуйте людей, які вживають наркотики; діяти рішуче проти організованої, орієнтованої на отримання прибутку торгівлі наркотиками, але без стигматизації соціально незахищених людей"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Gesundheit und Pflege",
+          "page": 37,
+          "quote": "Drogenpolitik richten wir stärker an Gesundheit und Prävention aus statt an Repression, denn Sucht ist in erster Linie eine gesundheitliche und soziale Herausforderung."
+        }
+      ]
     },
     {
       "topicId": "drug-policy",
@@ -8165,7 +8563,25 @@
         "tr": "Programda sınır dışı etme konu değil: yardım bürokrasi, dil veya ikamet statüsüyle engellenmemeli; güvenceli statüsü olmayan mülteciler WBS almalı, ASOG barınaklarındaki standartlar bağımsız bir organ tarafından denetlenmeli",
         "pl": "deportacje nie są tematem programu: pomocy nie powinny blokować biurokracja, język ani status pobytu; uchodźcy bez pewnego statusu powinni otrzymywać WBS, standardy w schroniskach ASOG weryfikowane przez niezależny organ",
         "uk": "депортації не є темою програми: допомога не повинна блокуватися через бюрократію, мову чи статус проживання; біженці без безпечного статусу повинні отримувати WBS, стандарти в притулках ASOG, перевірені незалежним органом"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Gesellschaft und Zusammenleben",
+          "page": 28,
+          "quote": "Geflüchteten sichern wir gleichen Zugang zu Bildung, Arbeit und würdigem Wohnen und beseitigen bürokratische Hürden. Queere und feministische Räume und Schutzangebote fördern wir dauerhaft in allen Bezirken."
+        },
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Sozialpolitik",
+          "page": 44,
+          "quote": "Standards in ASOG-Unterkünften verbindlich kontrollieren Bestehende Standards in Unterkünften nach dem Allgemeinen Sicherheits- und Ordnungsgesetz (ASOG) werden systematisch überprüft, aktualisiert und verbindlich umgesetzt."
+        },
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "note": "kein Treffer zu Abschiebung als Programmpunkt"
+        }
+      ]
     },
     {
       "topicId": "migration-admission-and-deportations",
@@ -8319,7 +8735,19 @@
         "tr": "Bezahlkarte ele alınmıyor; ilgili sosyal politika Regelbedarf’i artırır, Berlin-Pass’ı geri getirir ve koşulsuz temel geliri dener",
         "pl": "Bezahlkarte nieporuszana; pokrewna polityka społeczna podnosi Regelbedarf, przywraca Berlin-Pass i testuje bezwarunkowy dochód podstawowy",
         "uk": "Bezahlkarte не згадується; суміжна соцполітика підвищує Regelbedarf, повертає Berlin-Pass і тестує безумовний базовий дохід"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "note": "kein Treffer zu Bezahlkarte"
+        },
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Sozialpolitik",
+          "page": 42,
+          "quote": "Der aktuelle Regelbedarf für Leistungsberechtigte reicht häufig nicht aus, um ein selbstbestimmtes und würdevolles Leben in Berlin zu führen."
+        }
+      ]
     },
     {
       "topicId": "migration-bezahlkarte-and-access-to-benefits-and-healthcare",
@@ -8475,7 +8903,15 @@
         "tr": "Kamu hizmetinde göç geçmişi ve ırkçılık deneyimi olanlar için nüfus paylarına uygun kotalar; kadın temsil organlarıyla eşdeğer haklara sahip göç geçmişi olanlar için temsilciler; güvenceli statüsü olmayan mülteciler WBS’ye erişir; tercüme hizmetleri ve düşük eşikli çok dilli danışmanlık",
         "pl": "Kwoty w służbie publicznej dla osób z historią migracji i doświadczeniem rasizmu, zgodnie z ich udziałem w populacji; pełnomocnicy ds. osób z historią migracji z uprawnieniami równymi przedstawicielkom kobiet; uchodźcy bez pewnego statusu otrzymują dostęp do WBS; usługi tłumaczeniowe i niskoprogowe wielojęzyczne konsultacje",
         "uk": "Квоти на державній службі для людей з міграційною історією та досвідом расизму відповідно до їхньої частки населення; уповноважені у справах осіб з міграційною історією з правами, еквівалентними представницьким органам жінок; біженці без безпечного статусу отримують доступ до WBS; послуги усного перекладу та низькопорогові багатомовні консультації"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Gesellschaft und Zusammenleben",
+          "page": 29,
+          "quote": "Die PARTEI MENSCH KLIMA TIERSCHUTZ (Tierschutzpartei) wird Sprachkurse unabhängig vom Aufenthaltsstatus anbieten – auch für diejenigen, die durch das Raster bundesweiter Programme fallen."
+        }
+      ]
     },
     {
       "topicId": "migration-lea-integration-participation",
@@ -8627,7 +9063,15 @@
         "tr": "GSYİH büyümesi yerine eko-sosyal ekonomi: yıllık endekslemeli en az 16 € eyalet asgari ücreti, dört günlük hafta ve mobil çalışmaya destek, Jobcenter’lar yaptırım yerine danışmanlık ve eğitim verir, toplu sözleşmesiz işlere zorunlu yerleştirmeyi kaldırmak; döngüsel ekonomi, bitkisel gıda ve sürdürülebilir mobilite için inovasyon kümeleri, açık kaynak, yapay zekâ ve kuantum teknolojilerini yalnızca kamu yararı için desteklemek; sakinlerin ekonomik kuralları kendilerinin geliştirdiği Donut Action Lab",
         "pl": "Gospodarka eko-społeczna zamiast wzrostu PKB: państwowa płaca minimalna co najmniej 16 € z coroczną indeksacją, wsparcie czterodniowego tygodnia pracy i pracy mobilnej, Jobcenters doradzają i szkolą zamiast nakładać sankcje, zniesienie obowiązkowego kierowania do pracy poza układami zbiorowymi; klastry innowacji dla gospodarki obiegu zamkniętego, żywności roślinnej i zrównoważonej mobilności, wsparcie open source, AI i technologii kwantowych tylko dla dobra wspólnego; Donut Action Lab, w którym mieszkańcy sami tworzą reguły gospodarcze",
         "uk": "Екосоціальна економіка замість зростання ВВП: державна мінімальна заробітна плата не менше 16 євро з щорічною індексацією, підтримка чотириденного робочого тижня та мобільної роботи, центри зайнятості консультують та навчають замість накладення санкцій, скасування обов’язкового працевлаштування на роботи, не передбачені колективними договорами; інноваційні кластери для циркулярної економіки, рослинної їжі та сталої мобільності, підтримують відкриті вихідні коди, ШІ та квантові технології лише для загального блага; Donut Action Lab, де мешканці самі розробляють економічні правила"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Arbeit und Wirtschaft",
+          "page": 45,
+          "quote": "Wir schaffen faire Löhne, gute Arbeitsbedingungen und zukunftsfähige Arbeitsmodelle. Deshalb heben wir den Landesmindestlohn an, fördern mobiles Arbeiten und die Vier-Tage-Woche."
+        }
+      ]
     },
     {
       "topicId": "economy-and-innovation",
@@ -8646,7 +9090,7 @@
           "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
           "section": "Gemeinwohlökonomie für Berlin",
           "page": 7,
-          "quote": "Gemeinwohlökonomie für Berlin Die ÖDP Berlin setzt sich für die Erhöhung der Lebensqualität für alle ein."
+          "quote": "Die ÖDP Berlin setzt sich für die Erhöhung der Lebensqualität für alle ein."
         }
       ]
     },
@@ -8773,7 +9217,15 @@
         "tr": "inovasyon yalnızca kamu yararı için: döngüsel ekonomi, bitkisel gıda ve sürdürülebilir mobilite kümeleri; toplum, iklim ve hayvanlara hizmet ederse açık kaynak, yapay zekâ ve kuantum teknolojilerine destek",
         "pl": "innowacje tylko dla dobra wspólnego: klastry gospodarki obiegu zamkniętego, żywności roślinnej i zrównoważonej mobilności; wsparcie open source, AI i technologii kwantowych, jeśli służą społeczeństwu, klimatowi i zwierzętom",
         "uk": "інновації лише для загального блага: кластери для циркулярної економіки, рослинної їжі та стійкої мобільності; підтримувати відкриті джерела, AI та квантові технології, якщо вони служать суспільству, клімату та тваринам"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Arbeit und Wirtschaft",
+          "page": 45,
+          "quote": "Die PARTEI MENSCH KLIMA TIERSCHUTZ (Tierschutzpartei) steht für eine ökosoziale Wirtschaft, die Gemeinwohl, Nachhaltigkeit und faire Arbeitsbedingungen in den Mittelpunkt stellt."
+        }
+      ]
     },
     {
       "topicId": "innovation-and-startups",
@@ -8919,7 +9371,13 @@
         "tr": "işletme devri / Betriebsnachfolge ele alınmıyor",
         "pl": "sukcesja firm / Betriebsnachfolge nieporuszana",
         "uk": "передача бізнесу / Betriebsnachfolge не згадується"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "note": "kein Treffer zu Betriebsnachfolge / Unternehmensnachfolge"
+        }
+      ]
     },
     {
       "topicId": "business-succession",
@@ -9069,7 +9527,15 @@
         "tr": "Eko-sosyal ekonomi içinde küçük işletme: adil çalışma koşulları, asgari ücret, dört günlük hafta, mobil çalışma, açık kaynağa destek ve inovasyon yalnızca kamu yararı için",
         "pl": "Małe firmy w gospodarce eko-społecznej: uczciwe warunki pracy, płaca minimalna, czterodniowy tydzień pracy, praca mobilna, wsparcie open source oraz innowacje tylko dla dobra wspólnego",
         "uk": "Малий бізнес в еко-соціальній економіці: справедливі умови праці, мінімальна зарплата, чотириденний тиждень, мобільна робота, підтримка відкритого коду та інновації лише для загального блага"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Arbeit und Wirtschaft",
+          "page": 45,
+          "quote": "Die PARTEI MENSCH KLIMA TIERSCHUTZ (Tierschutzpartei) steht für eine ökosoziale Wirtschaft, die Gemeinwohl, Nachhaltigkeit und faire Arbeitsbedingungen in den Mittelpunkt stellt."
+        }
+      ]
     },
     {
       "topicId": "small-business",
@@ -9088,7 +9554,7 @@
           "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
           "section": "Gemeinwohlökonomie für Berlin",
           "page": 7,
-          "quote": "regional. Ewiges Wachstum gibt es nicht; wir müssen uns auf eine Postwachstumsökonomie vorbereiten."
+          "quote": "Eine lebenswerte Wirtschaft heißt: nachhaltig, gesund, sozial und regional. Ewiges Wachstum gibt es nicht; wir müssen uns auf eine Postwachstumsökonomie vorbereiten."
         }
       ]
     },
@@ -9199,8 +9665,8 @@
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
           "section": "Jetzt mit vorausschauender Planung Sicherheit schaffen",
-          "quote": "Wir machen aus der mittelfristigen Finanzplanung ein stärkeres Lenkungsinstrument, indem wir wichtige Aspekte einer politischen Selbstbindung einführen. Wir koppeln den Haushalt an …",
-          "page": 18
+          "quote": "Wir machen aus der mittelfristigen Finanzplanung ein stärkeres Lenkungsinstrument, indem wir wichtige Aspekte einer politischen Selbstbindung einführen. Wir koppeln den Haushalt an die mittelfristige Finanzplanung und geben so Bürger*innen, Unternehmen und sozialen Einrichtungen verlässliche Rahmenbedingungen für ihre eigenen Entscheidungen.",
+          "page": 19
         },
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
@@ -9221,7 +9687,15 @@
         "tr": "Sosyal, iklim dostu ve „hayvan dostu“ bütçe: öncelikler konut, mobilite, eğitim, iklim, hayvan koruma ve sosyal altyapı, ilçelerin payında kesinti yok; Bundesrat üzerinden Vermögensteuer’i yeniden getirmek, Grundsteuer ve Grunderwerbsteuer’i artan oranlı yapmak ve Grundsteuer’in kiracılara yansıtılmasını durdurmak; turist vergisini korumak ve gerekirse artırmak; iklim bütçesi artı ayrı bir „hayvanlar için bütçe,“ büyük projelerde maliyet aşımına karşı bağımsız komisyon, kamuya açık şeffaflık platformu ve kent çapında katılımcı bütçe",
         "pl": "Budżet społeczny, przyjazny klimatowi i „przyjazny zwierzętom”: priorytety to mieszkalnictwo, mobilność, edukacja, klimat, ochrona zwierząt i infrastruktura społeczna, bez cięć udziału dzielnic; przywrócenie Vermögensteuer przez Bundesrat, progresywna Grundsteuer i Grunderwerbsteuer oraz zaprzestanie przerzucania Grundsteuer na najemców; utrzymanie i w razie potrzeby podwyższenie podatku turystycznego; budżet klimatyczny plus osobny „budżet dla zwierząt”, niezależna komisja przeciw przekroczeniom kosztów dużych projektów, publiczna platforma transparentności oraz ogólnomiejski budżet partycypacyjny",
         "uk": "Соціальний, кліматичний та «дружній до тварин» бюджет: пріоритети – житло, мобільність, освіта, клімат, захист тварин та соціальна інфраструктура, без скорочення частки районів; відновити Vermögensteuer через Бундесрат, зробити Grundsteuer і Grunderwerbsteuer прогресивними і припинити передавати Grundsteuer орендарям; зберегти та при необхідності збільшити туристичний збір; кліматичний бюджет плюс окремий «бюджет для тварин», незалежна комісія проти перевищення витрат на великі проекти, публічна платформа прозорості та загальноміський бюджет участі"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Haushalt und Finanzen",
+          "page": 48,
+          "quote": "Vermögensteuer einsetzen. Grundsteuer und Grunderwerbsteuer entwickeln wir progressiv weiter. 9."
+        }
+      ]
     },
     {
       "topicId": "taxes-and-budget",
@@ -9379,7 +9853,15 @@
         "tr": "İdari reform siyasi öncelik olarak: daha fazla personel ve daha kısa süreçler, tercih edilen herhangi bir Bürgeramt’ta 14 gün içinde randevu ve eski/çelişkili kuralların kaldırılması; Senat ile ilçeler arasında net görev dağılımı, BVV kararlarına daha fazla hukuki güç; belediye işletmeleri verilerini içeren portal ve 100.000 € ve üzeri sözleşmelere ücretsiz erişimle şeffaflık",
         "pl": "Reforma administracji jako priorytet polityczny: więcej personelu i krótsze procesy, termin w dowolnym Bürgeramt z wyboru w ciągu 14 dni oraz uchylenie przestarzałych i sprzecznych przepisów; jasny podział zadań między Senat a dzielnice, większa moc prawna decyzji BVV; transparentność przez portal z danymi o przedsiębiorstwach komunalnych i wolny dostęp do umów o wartości 100 000 € lub więcej",
         "uk": "Адміністративна реформа як політичний пріоритет: більше персоналу та коротші процеси, призначення в будь-якому Bürgeramt протягом 14 днів, і скасування застарілих і суперечливих правил; чіткий розподіл завдань між Сенатом і округами, більша юридична сила рішень BVV; прозорість через портал із даними про муніципальні підприємства та вільний доступ до контрактів на суму від 100 000 євро"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Verwaltung und Digitalisierung",
+          "page": 54,
+          "quote": "Alle Berliner:innen sollen innerhalb von 14 Tagen einen Termin in einem Bürgeramt ihrer Wahl erhalten können."
+        }
+      ]
     },
     {
       "topicId": "governance-and-administrative-reform",
@@ -9398,7 +9880,7 @@
           "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
           "section": "Demokratie fördern – Berlin transparent und bürgernah",
           "page": 12,
-          "quote": "transparent und bürgernah Das Handeln der Berliner Verwaltung muss transparent und nachvollziehbar werden."
+          "quote": "Das Handeln der Berliner Verwaltung muss transparent und nachvollziehbar werden."
         },
         {
           "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
@@ -9531,7 +10013,15 @@
         "tr": "Hızlı ama güvenli ve Avrupa çözümleriyle dijitalleştirmek: „Public Money, Public Code“ ve varsayılan açık kaynak; ITDZ’ye finansman ve yetki vermek; sıfırdan geliştirmek yerine diğer Länder’den hazır çözümleri uyarlamak; veri koruma ve enerji verimliliği olan kendi veri merkezleri, atık ısıyı ısıtma ağına vermek; yenilenmiş donanıma öncelik; fiber genişletmeye devam ve „Free Wifi Berlin“i geri getirmek; idare, polis ve adalette yapay zekâ yalnızca insan gözetiminde, zorunlu algoritmik şeffaflık ve Social Scoring yok",
         "pl": "Cyfryzować szybko, ale bezpiecznie i rozwiązaniami europejskimi: „Public Money, Public Code” i open source domyślnie; dać ITDZ finansowanie i uprawnienia; adaptować gotowe rozwiązania z innych landów zamiast budować od zera; własne centra danych z ochroną danych i efektywnością energetyczną, zasilające sieć ciepłowniczą ciepłem odpadowym; priorytet dla odnowionego sprzętu; kontynuować rozbudowę światłowodu i przywrócić „Free Wifi Berlin”; AI w administracji, policji i sądownictwie tylko pod nadzorem człowieka, z obowiązkową transparentnością algorytmów i bez Social Scoring",
         "uk": "цифровізувати швидко, але безпечно й на європейських рішеннях: «Public Money, Public Code» і відкритий код за замовчуванням; дати ITDZ фінансування та повноваження"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Verwaltung und Digitalisierung",
+          "page": 55,
+          "quote": "Open Source Software werden wir bevorzugt einsetzen. Eigene oder gemeinsam betriebene Lösungen werden, wo sinnvoll, entwickelt."
+        }
+      ]
     },
     {
       "topicId": "digitalization-data-ai",
@@ -9689,7 +10179,15 @@
         "tr": "Regelbedarf’i artırmak, Berlin-Pass’ı geri getirmek ve sosyal biletleri ayrımcılık yapmayan hale getirmek; evrensel temel geliri denemek; sosyal hizmet makamlarında daha fazla personel, proje yerine çok yıllı finansmanlı kent çapında sokak sosyal çalışması ve mobil Kiez ekipleri; okullarda, üniversitelerde ve kamu makamlarında ücretsiz menstrual hijyen ürünleri; kamu kurumlarında erişilebilirlik ve vegan yemekler; yalnızlıkla mücadele temsilcisi",
         "pl": "Podwyższenie Regelbedarf, przywrócenie Berlin-Pass oraz niedyskryminujące bilety socjalne; test bezwarunkowego dochodu podstawowego; więcej personelu w urzędach pomocy społecznej, ogólnomiejska streetwork z finansowaniem wieloletnim zamiast projektowym oraz mobilne zespoły Kiez; darmowe produkty higieny menstruacyjnej w szkołach, na uczelniach i w urzędach; dostępność i posiłki wegańskie w instytucjach publicznych; pełnomocnik ds. walki z samotnością",
         "uk": "Збільшити Regelbedarf, відновити Berlin-Pass і зробити соціальні квитки недискримінаційними; тест універсального базового доходу; більше персоналу в органах соціального обслуговування, загальноміська вулична соціальна робота з багаторічним, а не проектним фінансуванням, мобільні команди Kiez; безкоштовні гігієнічні засоби для менструального циклу в школах, університетах та державних установах; доступність і веганське харчування в громадських закладах; уповноважений по боротьбі з самотністю"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Sozialpolitik",
+          "page": 42,
+          "quote": "Der aktuelle Regelbedarf für Leistungsberechtigte reicht häufig nicht aus, um ein selbstbestimmtes und würdevolles Leben in Berlin zu führen."
+        }
+      ]
     },
     {
       "topicId": "social-affairs-poverty-income",
@@ -9841,7 +10339,15 @@
         "tr": "Kültür kamu malı olarak: küçük sahneler, kulüpler ve öz yönetimli mekânlar dahil uzun vadeli sözleşmeli temel finansman; kulüpleri tiyatro ve konser salonlarıyla hukuken eşitlemek ve yerinden edilme ile sıkı nükle kurallarından korumak; müzik mekânlarını kamu yararına hizmet eden olarak tanımak; ücretsiz Museumssonntag’ı geri getirmek; Street Art’ı yasallaştırmak ve yasal duvarları genişletmek; boş belediye binalarını kültüre açmak; kültür kurumlarında ekolojik standartlar ve vegan menüler; yıkım yerine yenileme; hukuka aykırı edinilmiş kültür varlıklarını iade etmek",
         "pl": "Kultura jako dobro publiczne: długoterminowe umowne finansowanie podstawowe, także dla małych scen, klubów i miejsc samorządnych; zrównać kluby prawnie z teatrami i salami koncertowymi oraz chronić je przed wypieraniem i surowymi regułami hałasu; uznać miejsca muzyczne za służące dobru publicznemu; przywrócić darmowy Museumssonntag; zalegalizować Street Art i rozszerzyć legalne ściany; otworzyć puste budynki komunalne na kulturę; standardy ekologiczne i wegańskie menu w instytucjach kultury; remont zamiast wyburzania; zwrot bezprawnie pozyskanych dóbr kultury",
         "uk": "Культура як суспільне благо: довгострокове контрактне базове фінансування, включно з малими сценами, клубами та самокерованими закладами; поставити клуби в рівні правові умови з театрами та концертними залами та захистити їх від переміщення та жорстких правил шуму; визнавати музичні заклади такими, що служать суспільному благу; відновити безкоштовний Museumssonntag; легалізувати вуличне мистецтво та розширити правові стіни; відкрити пустуючі муніципальні будівлі для культури; екологічні стандарти та веганське меню в закладах культури; ремонт замість знесення; повернути незаконно набуті культурні цінності"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Kultur und Sport",
+          "page": 57,
+          "quote": "Clubs und freie Kulturorte kämpfen gegen Verdrängung, ökologische Standards fehlen in vielen Einrichtungen, kulturelle Teilhabe hängt nach wie vor zu oft vom Einkommen ab und Kulturschaffende arbeiten häufig unter prekären Bedingungen."
+        }
+      ]
     },
     {
       "topicId": "culture-and-clubs",
@@ -10011,7 +10517,15 @@
         "tr": "Spor, cinsiyet, yaş, köken veya engellilikten bağımsız herkes için buluşma ve katılım yeri: tüm ilçelerde erişilebilirlik ve ilçe başına en az bir tamamen kapsayıcı spor tesisi hedefi; Jahn-Sportpark’ı yeniden adlandırma tartışması dahil kapsayıcı komplekse dönüştürmek; „Sport im Park“ gibi programlara ve aşırılığa karşı kulüplere destek; her çocuk yüzmeyi öğrenmeli, yeterli kurs, havuz kapasitesi ve işbirliğiyle; tek ebeveynli ailelerden 18 yaş altı çocuklara ücretsiz havuz girişi; ✗ Berlin olimpiyat adaylığı; E-Sport’u kamu yararına hizmet eden olarak tanımak",
         "pl": "Sport jako miejsce spotkań i uczestnictwa dla wszystkich, bez względu na płeć, wiek, pochodzenie czy niepełnosprawność: dostępność we wszystkich dzielnicach i cel co najmniej jednego w pełni inkluzywnego obiektu sportowego na dzielnicę; rozwinąć Jahn-Sportpark w inkluzywny kompleks, w tym dyskusja o zmianie nazwy; wsparcie programów takich jak „Sport im Park” i klubów przeciw ekstremizmowi; każde dziecko powinno nauczyć się pływać, z wystarczającą liczbą kursów, pojemnością basenów i współpracą; darmowy wstęp na basen dla dzieci poniżej 18 lat z rodzin niepełnych; ✗ berlińska kandydatura olimpijska; uznać E-Sport za służący dobru publicznemu",
         "uk": "Спорт як місце зустрічі та участі для всіх, незалежно від статі, віку, походження чи обмежених можливостей: доступність у всіх районах і мета принаймні одного повністю інклюзивного спортивного об’єкта на район; перетворити Jahn-Sportpark на інклюзивний комплекс, включаючи обговорення перейменування; підтримувати такі програми, як «Sport im Park» і клуби протидії екстремізму; кожна дитина повинна навчитися плавати, маючи достатні курси, місткість басейну та співпрацю; безкоштовне відвідування басейну для дітей до 18 років з неповних сімей; ✗ Берлінська олімпійська заявка; визнати, що кіберспорт служить суспільному благу"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Kultur und Sport",
+          "page": 60,
+          "quote": "Unser Ziel ist mindestens eine vollinklusive Sportanlage pro Bezirk. Wir unterstützen die Weiterentwicklung zentraler Anlagen wie des Friedrich-Ludwig-Jahn-Sportparks zu einem inklusiven, modernen Sportareal."
+        }
+      ]
     },
     {
       "topicId": "sports-and-swimming",
@@ -10169,7 +10683,21 @@
         "tr": "Doğrudan demokrasi eşiklerini düşürmek: yeter sayılar, çevrimiçi imza toplama ve Einwohner:innenanträge eşiğini 1.000’den 200’e indirmek; „Deutsche Wohnen und Co. enteignen,“ „Berlin 2030 klimaneutral,“ Tempelhofer Feld, „Berlin autofrei“ ve „Berlin werbefrei“ referandumlarını uygulamak; Berlin’de en az üç yıldır yaşayan herkese oy hakkı, ilçelerde oy yaşını 14’e düşürmek, Neutralitätsgesetz’i kaldırmak; queer insanlar için daha iyi koruma ve daha fazla erişilebilirlik",
         "pl": "Obniżyć progi demokracji bezpośredniej: kwora, zbieranie podpisów online oraz obniżenie progu Einwohner:innenanträge z 1000 do 200; wdrożyć referenda „Deutsche Wohnen und Co. enteignen”, „Berlin 2030 klimaneutral”, Tempelhofer Feld, „Berlin autofrei” i „Berlin werbefrei”; prawo wyborcze dla każdego, kto mieszka w Berlinie co najmniej trzy lata, obniżyć wiek wyborczy do 14 lat w dzielnicach, znieść Neutralitätsgesetz; lepsza ochrona osób queer i większa dostępność",
         "uk": "Знизити пороги для прямої демократії: кворуми, онлайн-збір підписів і зниження порогу для Einwohner:innenanträge з 1000 до 200; провести референдуми «Deutsche Wohnen und Co. enteignen», «Berlin 2030 klimaneutral», Tempelhofer Feld, «Berlin autofrei» і «Berlin werbefrei»; виборчі права для всіх, хто прожив у Берліні принаймні три роки, знизити виборчий вік до 14 років у округах, скасувати Neutralitätsgesetz; кращий захист для диваків і більша доступність"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Demokratie",
+          "page": 61,
+          "quote": "Die PARTEI MENSCH KLIMA TIERSCHUTZ (Tierschutzpartei) baut Volksbegehren und Volksentscheide auf Landesebene sowie Bürger:innenbegehren, Bürger:innenentscheide und Einwohner:innenanträge auf Bezirksebene mit klar gesenkten Hürden und vereinfachten Verfahren aus."
+        },
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Demokratie",
+          "page": 63,
+          "quote": "Junge Menschen zeigen täglich, dass sie über das notwendige politische Urteilsvermögen verfügen, um an demokratischen Entscheidungen teilzuhaben."
+        }
+      ]
     },
     {
       "topicId": "democracy-participation-equality",
@@ -10305,7 +10833,7 @@
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
           "section": "Jetzt Opfer gezielter schützen",
-          "quote": "Wir schützen Frauen*, die häusliche Gewalt erlebt haben, vor weiterer Gewalt. Dafür verpflichten wir Täter*innen, eine Fußfessel zu tragen. Wir bauen die Frauenhausbetten aus, um die Vorgaben der Ista",
+          "quote": "Wir schützen Frauen*, die häusliche Gewalt erlebt haben, vor weiterer Gewalt. Dafür verpflichten wir Täter*innen, eine Fußfessel zu tragen, die dazu führt, dass Täter*innen sich ihren Opfern nicht unbemerkt nähern können.",
           "page": 75
         }
       ]
@@ -10321,7 +10849,15 @@
         "tr": "Güçlü bölüm: İstanbul Sözleşmesi’nin gerektirdiği düzeyde kadın sığınma evleri, nefret söylemi, stalking ve femicide konusunda polis, adalet ve makamlar için eğitim, düşük eşikli çevrimiçi danışmanlık ve daha fazla psikososyal yardım; okullarda, üniversitelerde ve kamu makamlarında ücretsiz menstrual hijyen ürünleri",
         "pl": "Silna sekcja: schroniska dla kobiet na poziomie wymaganym przez Konwencję stambulską, szkolenia dla policji, wymiaru sprawiedliwości i urzędów w zakresie mowy nienawiści, stalkingu i femicydów, niskoprogowe poradnictwo online oraz więcej pomocy psychospołecznej; darmowe produkty higieny menstruacyjnej w szkołach, na uczelniach i w urzędach",
         "uk": "Сильна частина: жіночі притулки на рівні, який вимагає Стамбульська конвенція, тренінги для поліції, правосуддя та органів влади з питань ненависті, переслідування та феміцидів, низькопорогові онлайн-консультації та більше психосоціальної допомоги; безкоштовні гігієнічні засоби для менструального циклу в школах, університетах та державних установах"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Gesellschaft und Zusammenleben",
+          "page": 31,
+          "quote": "Frauenhäuser, Schutzwohnungen und spezialisierte Beratungsstellen. Die Istanbul-Konvention verlangt mindestens 2,5 Frauenhausplätze pro 10.000 Einwohner:innen."
+        }
+      ]
     },
     {
       "topicId": "women-s-rights-and-prevention-of-domestic-violence",
@@ -10455,7 +10991,7 @@
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
           "section": "Jetzt Opfer gezielter schützen",
-          "quote": "Wir bauen regionale Anlaufstellen aus, die insbesondere Opfern extremistischer, rassistischer und anti-queerer Gewalt psychologische Beratung bieten. Berlin zeigt mit der LSBTQIA* Kontaktpersonen in d",
+          "quote": "Wir bauen regionale Anlaufstellen aus, die insbesondere Opfern extremistischer, rassistischer und anti-queerer Gewalt psychologische Betreuung, Rechtsberatung und Soforthilfe bieten.",
           "page": 75
         }
       ]
@@ -10471,7 +11007,15 @@
         "tr": "Queer insanlar için koruma, Neutralitätsgesetz’in kaldırılması ve ayrımcılık karşıtlığı; bağımsız polis şikâyetleri ve ayrımcı uygulamalara karşı önlemler",
         "pl": "Ochrona osób queer, zniesienie Neutralitätsgesetz oraz antydyskryminacja; niezależne skargi na policję i środki przeciw praktykom dyskryminującym",
         "uk": "Захист диваків, скасування Neutralitätsgesetz та боротьба з дискримінацією; незалежні скарги поліції та заходи проти дискримінаційної практики"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Gesellschaft und Zusammenleben",
+          "page": 30,
+          "quote": "Die PARTEI MENSCH KLIMA TIERSCHUTZ (Tierschutzpartei) setzt sich für den langfristigen Erhalt und die strukturelle Förderung bestehender queerer Einrichtungen ein."
+        }
+      ]
     },
     {
       "topicId": "queer-and-lgbtq-issues",
@@ -10621,7 +11165,15 @@
         "tr": "Tercih sistemi (Präferenzwahl): seçmenler parti veya adayları sıralar, ilk tercih eşiği geçmezse oy otomatik olarak sonrakine aktarılır—„hiçbir oy kaybolmaz“; artı yüzde 5 eşiğinin tamamen kaldırılması, kabaca yüzde 0,8’den sandalye (şu an eşik yüzünden oyların ortalama yüzde 10’undan fazlası temsilsiz kalıyor)",
         "pl": "System preferencji (Präferenzwahl): wyborcy rankingują partie lub kandydatów, a jeśli pierwsza preferencja nie przekroczy progu, głos automatycznie przechodzi na kolejną — „żaden głos nie jest tracony”; plus całkowite zniesienie progu 5 procent, z miejscem dostępnym od ok. 0,8 procent (obecnie przez próg średnio ponad 10 procent głosów pozostaje bez reprezentacji)",
         "uk": "Система преференцій (Präferenzwahl): виборці ранжують партії чи кандидатів, і якщо перша перевага не долає бар’єру, голос автоматично передається наступній — «жоден голос не втрачено»; плюс повне скасування 5-відсоткового бар’єру з доступним місцем приблизно від 0,8 відсотка (наразі через цей бар’єр у середньому більше 10 відсотків голосів залишаються непредставленими)"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Demokratie",
+          "page": 62,
+          "quote": "Die PARTEI MENSCH KLIMA TIERSCHUTZ (Tierschutzpartei) setzt sich für die Weiterentwicklung des Wahlsystems ein, damit der politische Wille der Wähler:innen besser abgebildet wird."
+        }
+      ]
     },
     {
       "topicId": "elections-second-vote-and-5-percent-threshold",
@@ -10767,7 +11319,19 @@
         "tr": "Parti bağışları hakkında bir şey yok; belediye işletmeleri verilerini içeren portal, 100.000 € ve üzeri sözleşmelere ücretsiz erişim ve kamuya açık bütçe şeffaflık platformu yoluyla şeffaflık",
         "pl": "Nic o darowiznach partyjnych; transparentność przez portal z danymi o przedsiębiorstwach komunalnych, wolny dostęp do umów o wartości 100 000 € lub więcej oraz publiczną platformę transparentności budżetu",
         "uk": "Нічого про партійні пожертви; прозорість через портал із даними про муніципальні підприємства, вільний доступ до контрактів на суму від 100 тис. євро та платформу прозорості публічного бюджету"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "note": "kein Treffer zu Parteispendenregeln"
+        },
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Verwaltung und Digitalisierung",
+          "page": 54,
+          "quote": "Verträge ab 100.000 Euro zwischen öffentlich-rechtlichen Körperschaften und der Privatwirtschaft müssen dort gebührenfrei nachzulesen sein."
+        }
+      ]
     },
     {
       "topicId": "party-donations-lobbying-and-transparency",
@@ -10923,7 +11487,15 @@
         "tr": "„Berlin werbefrei“ referandumunu ve ticari reklamın kamusal alandan kaldırılmasını destekler; ayrıca özellikle kamusal alanda alkol reklamını ve hayvan yetiştiriciliği ürünleri reklamını yasaklamak",
         "pl": "Popiera referendum „Berlin werbefrei” i usunięcie reklamy komercyjnej z przestrzeni publicznej; osobno zakaz reklamy alkoholu, zwłaszcza w przestrzeni publicznej, oraz zakaz reklamy produktów hodowli zwierząt",
         "uk": "Підтримує референдум «Berlin werbefrei» та видалення комерційної реклами з публічного простору; окремо заборонити рекламу алкоголю, особливо в публічному просторі, та заборонити рекламу продукції тваринництва"
-      }
+      },
+      "sources": [
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "section": "Demokratie",
+          "page": 62,
+          "quote": "Berlin werbefrei. Bürger:innen- und Zukunftsräte als Beratungsinstrument einführen Wir stärken neue Formen der Bürger:innenbeteiligung."
+        }
+      ]
     },
     {
       "topicId": "advertising-in-public-space-alcohol-tobacco-betting",
@@ -10942,7 +11514,7 @@
           "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
           "section": "Berlin – sozial und solidarisch",
           "page": 15,
-          "quote": "alkoholische Getränke ist konsequent aus dem öffentlichen Raum und insbesondere aus den Medien zu verbannen."
+          "quote": "Werbung jeglicher Art für alkoholische Getränke ist konsequent aus dem öffentlichen Raum und insbesondere aus den Medien zu verbannen."
         }
       ]
     }
