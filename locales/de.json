@@ -150,6 +150,7 @@
     "openProgram": "Wahlprogramm",
     "sourceQuote": "Originalzitate",
     "sourceQuoteLink": "Quelle im Programm öffnen",
+    "sourceNote": "Nicht im Programm gefunden",
     "expandGroup": "Gruppe ausklappen",
     "collapseGroup": "Gruppe einklappen",
     "searchPlaceholder": "Themen suchen…",

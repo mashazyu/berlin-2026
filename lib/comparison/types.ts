@@ -67,6 +67,12 @@ export type ResolvedSourceQuote = {
   href: string
 }
 
+export type ResolvedSourceNote = {
+  /** Absence / search note (German audit note, shown as-is) */
+  note: string
+  href: string
+}
+
 export type ResolvedCell = {
   topicId: string
   partyId: string
@@ -76,6 +82,8 @@ export type ResolvedCell = {
   programHref?: string
   /** All original excerpts for claims in this cell (never translated) */
   sourceQuotes?: ResolvedSourceQuote[]
+  /** Absence notes when a topic is not in the program */
+  sourceNotes?: ResolvedSourceNote[]
 }
 
 export type ResolvedComparison = {
