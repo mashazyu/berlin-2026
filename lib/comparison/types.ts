@@ -31,11 +31,27 @@ export type Topic = {
   sortOrder: number
 }
 
+/** Evidence linking a cell claim to an official program PDF. */
+export type CellSource = {
+  /** Party program PDF URL */
+  url: string
+  /** Printed/PDF page number when known */
+  page?: number
+  /** Stable program heading, e.g. "Jetzt Heizen für Berlin klimaneutral machen" */
+  section?: string
+  /** German excerpt ≤ ~200 chars to re-find the claim */
+  quote?: string
+  /** For stance none / absence: search terms checked */
+  note?: string
+}
+
 export type Cell = {
   topicId: string
   partyId: string
   stance: Stance
   summary: LocalizedString
+  /** Optional audit sources (pilot: Volt). Quote shown in UI in original language. */
+  sources?: CellSource[]
 }
 
 export type ComparisonData = {
@@ -49,6 +65,10 @@ export type ResolvedCell = {
   partyId: string
   stance: Stance
   summary: string
+  /** Program link, with `#page=N` when a sourced page is known */
+  programHref?: string
+  /** Original program excerpt (never translated) */
+  sourceQuote?: string
 }
 
 export type ResolvedComparison = {

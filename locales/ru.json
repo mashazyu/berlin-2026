@@ -148,6 +148,8 @@
     "expandTopic": "Показать позиции",
     "collapseTopic": "Скрыть",
     "openProgram": "Программа партии",
+    "sourceQuote": "Оригинальная цитата",
+    "sourceQuoteLink": "Открыть источник в программе",
     "expandGroup": "Развернуть группу",
     "collapseGroup": "Свернуть группу",
     "searchPlaceholder": "Поиск по темам…",

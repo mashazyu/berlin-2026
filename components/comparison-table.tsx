@@ -18,6 +18,58 @@ const CURRENT_FACTION_PARTY_IDS = [
 const TOPIC_COL_PX = 220
 const PARTY_COL_PX = 160
 
+function SourceQuote({
+  quote,
+  href,
+  label,
+  linkLabel,
+  className,
+}: {
+  quote: string
+  href?: string
+  label: string
+  linkLabel: string
+  className?: string
+}) {
+  const body = (
+    <>
+      <span className="mb-0.5 block text-[10px] font-semibold uppercase tracking-wide text-muted-foreground/80">
+        {label}
+      </span>
+      <span className="text-[12px] leading-snug text-foreground/80">
+        „{quote}“
+      </span>
+      {href ? (
+        <ExternalLink
+          className="ml-1 inline h-3 w-3 shrink-0 align-text-bottom opacity-60"
+          aria-hidden
+        />
+      ) : null}
+    </>
+  )
+
+  if (!href) {
+    return <div className={cn("mt-2", className)}>{body}</div>
+  }
+
+  return (
+    <a
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={cn(
+        "mt-2 block rounded-sm transition-colors hover:text-primary",
+        className,
+      )}
+      title={linkLabel}
+      onClick={(event) => event.stopPropagation()}
+    >
+      {body}
+      <span className="sr-only">{linkLabel}</span>
+    </a>
+  )
+}
+
 export function ComparisonTable({
   comparison,
 }: {
@@ -328,9 +380,11 @@ export function ComparisonTable({
                                       <span className="text-sm font-semibold text-foreground">
                                         {party.shortName}
                                       </span>
-                                      {party.programUrl ? (
+                                      {(cell?.programHref || party.programUrl) ? (
                                         <a
-                                          href={party.programUrl}
+                                          href={
+                                            cell?.programHref || party.programUrl
+                                          }
                                           target="_blank"
                                           rel="noopener noreferrer"
                                           className="inline-flex items-center gap-1 text-xs text-primary hover:underline"
@@ -347,6 +401,14 @@ export function ComparisonTable({
                                     <p className="text-sm leading-relaxed text-muted-foreground">
                                       {summary || t.comparison.emptyCell}
                                     </p>
+                                    {cell?.sourceQuote ? (
+                                      <SourceQuote
+                                        quote={cell.sourceQuote}
+                                        href={cell.programHref || party.programUrl}
+                                        label={t.comparison.sourceQuote}
+                                        linkLabel={t.comparison.sourceQuoteLink}
+                                      />
+                                    ) : null}
                                   </li>
                                 )
                               })}
@@ -474,6 +536,16 @@ export function ComparisonTable({
                                     <span className="text-[13px] leading-snug">
                                       {summary || t.comparison.emptyCell}
                                     </span>
+                                    {cell?.sourceQuote ? (
+                                      <SourceQuote
+                                        quote={cell.sourceQuote}
+                                        href={
+                                          cell.programHref || party.programUrl
+                                        }
+                                        label={t.comparison.sourceQuote}
+                                        linkLabel={t.comparison.sourceQuoteLink}
+                                      />
+                                    ) : null}
                                   </td>
                                 )
                               })}

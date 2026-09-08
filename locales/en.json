@@ -149,6 +149,8 @@
     "expandTopic": "Show positions",
     "collapseTopic": "Hide",
     "openProgram": "Party program",
+    "sourceQuote": "Original quote",
+    "sourceQuoteLink": "Open source in program",
     "expandGroup": "Expand group",
     "collapseGroup": "Collapse group",
     "searchPlaceholder": "Search topics…",

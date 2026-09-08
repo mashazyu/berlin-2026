@@ -67,6 +67,8 @@ export type Translations = {
     expandTopic: string
     collapseTopic: string
     openProgram: string
+    sourceQuote: string
+    sourceQuoteLink: string
     expandGroup: string
     collapseGroup: string
     searchPlaceholder: string
