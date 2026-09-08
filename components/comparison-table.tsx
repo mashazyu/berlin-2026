@@ -1,6 +1,12 @@
 "use client"
 
-import { useDeferredValue, useMemo, useRef, useState } from "react"
+import {
+  useDeferredValue,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+} from "react"
 import { ChevronDown, ExternalLink, Search, X } from "lucide-react"
 import { useLanguage } from "@/components/language-provider"
 import { groupTopics, TOPIC_GROUP_ORDER } from "@/lib/comparison/groups"
@@ -15,8 +21,24 @@ const CURRENT_FACTION_PARTY_IDS = [
   "linke",
   "afd",
 ] as const
+const SELECTED_PARTIES_STORAGE_KEY = "berlin-2026:selected-parties"
 const TOPIC_COL_PX = 220
 const PARTY_COL_PX = 160
+
+function readStoredPartyIds(validIds: Set<string>): string[] | null {
+  try {
+    const raw = localStorage.getItem(SELECTED_PARTIES_STORAGE_KEY)
+    if (!raw) return null
+    const parsed = JSON.parse(raw)
+    if (!Array.isArray(parsed)) return null
+    const ids = parsed.filter(
+      (id): id is string => typeof id === "string" && validIds.has(id)
+    )
+    return ids.length > 0 ? ids : null
+  } catch {
+    return null
+  }
+}
 
 function SourceEvidence({
   quotes,
@@ -70,6 +92,7 @@ export function ComparisonTable({
   const [selectedIds, setSelectedIds] = useState<string[]>([
     ...CURRENT_FACTION_PARTY_IDS,
   ])
+  const [selectionReady, setSelectionReady] = useState(false)
   const [openTopicId, setOpenTopicId] = useState<string | null>(null)
   const [openMobileGroup, setOpenMobileGroup] = useState<TopicGroup | null>(null)
   const [topicQuery, setTopicQuery] = useState("")
@@ -81,6 +104,29 @@ export function ComparisonTable({
   const headerScrollRef = useRef<HTMLDivElement>(null)
   const bodyScrollRef = useRef<HTMLDivElement>(null)
   const syncingScroll = useRef(false)
+
+  const validPartyIds = useMemo(
+    () => new Set(parties.map((party) => party.id)),
+    [parties]
+  )
+
+  useEffect(() => {
+    const stored = readStoredPartyIds(validPartyIds)
+    if (stored) setSelectedIds(stored)
+    setSelectionReady(true)
+  }, [validPartyIds])
+
+  useEffect(() => {
+    if (!selectionReady) return
+    try {
+      localStorage.setItem(
+        SELECTED_PARTIES_STORAGE_KEY,
+        JSON.stringify(selectedIds)
+      )
+    } catch {
+      // Ignore quota / private-mode write failures.
+    }
+  }, [selectedIds, selectionReady])
 
   const selectedParties = useMemo(
     () => parties.filter((party) => selectedIds.includes(party.id)),
