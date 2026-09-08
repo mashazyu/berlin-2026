@@ -20,79 +20,41 @@ const PARTY_COL_PX = 160
 
 function SourceEvidence({
   quotes,
-  notes,
   quoteLabel,
-  noteLabel,
   linkLabel,
 }: {
   quotes?: Array<{ quote: string; href: string }>
-  notes?: Array<{ note: string; href: string }>
   quoteLabel: string
-  noteLabel: string
   linkLabel: string
 }) {
-  if (!quotes?.length && !notes?.length) return null
+  if (!quotes?.length) return null
 
   return (
-    <div className="mt-2 space-y-3">
-      {quotes?.length ? (
-        <div className="space-y-2">
-          <span className="block text-[10px] font-semibold uppercase tracking-wide text-muted-foreground/80">
-            {quoteLabel}
-          </span>
-          <ul className="space-y-2">
-            {quotes.map((item) => (
-              <li key={item.quote}>
-                <a
-                  href={item.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="block rounded-sm text-foreground/80 transition-colors hover:text-primary"
-                  title={linkLabel}
-                  onClick={(event) => event.stopPropagation()}
-                >
-                  <span className="text-[12px] leading-snug">
-                    „{item.quote}“
-                  </span>
-                  <ExternalLink
-                    className="ml-1 inline h-3 w-3 shrink-0 align-text-bottom opacity-60"
-                    aria-hidden
-                  />
-                  <span className="sr-only">{linkLabel}</span>
-                </a>
-              </li>
-            ))}
-          </ul>
-        </div>
-      ) : null}
-      {notes?.length ? (
-        <div className="space-y-2">
-          <span className="block text-[10px] font-semibold uppercase tracking-wide text-muted-foreground/80">
-            {noteLabel}
-          </span>
-          <ul className="space-y-2">
-            {notes.map((item) => (
-              <li key={item.note}>
-                <a
-                  href={item.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="block rounded-sm text-[12px] leading-snug text-muted-foreground transition-colors hover:text-primary"
-                  title={linkLabel}
-                  onClick={(event) => event.stopPropagation()}
-                >
-                  {item.note}
-                  <ExternalLink
-                    className="ml-1 inline h-3 w-3 shrink-0 align-text-bottom opacity-60"
-                    aria-hidden
-                  />
-                  <span className="sr-only">{linkLabel}</span>
-                </a>
-              </li>
-            ))}
-          </ul>
-        </div>
-      ) : null}
+    <div className="mt-2 space-y-2">
+      <span className="block text-[10px] font-semibold uppercase tracking-wide text-muted-foreground/80">
+        {quoteLabel}
+      </span>
+      <ul className="space-y-2">
+        {quotes.map((item) => (
+          <li key={item.quote}>
+            <a
+              href={item.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block rounded-sm text-foreground/80 transition-colors hover:text-primary"
+              title={linkLabel}
+              onClick={(event) => event.stopPropagation()}
+            >
+              <span className="text-[12px] leading-snug">„{item.quote}“</span>
+              <ExternalLink
+                className="ml-1 inline h-3 w-3 shrink-0 align-text-bottom opacity-60"
+                aria-hidden
+              />
+              <span className="sr-only">{linkLabel}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
     </div>
   )
 }
@@ -428,13 +390,10 @@ export function ComparisonTable({
                                     <p className="text-sm leading-relaxed text-muted-foreground">
                                       {summary || t.comparison.emptyCell}
                                     </p>
-                                    {(cell?.sourceQuotes?.length ||
-                                      cell?.sourceNotes?.length) ? (
+                                    {cell?.sourceQuotes?.length ? (
                                       <SourceEvidence
                                         quotes={cell.sourceQuotes}
-                                        notes={cell.sourceNotes}
                                         quoteLabel={t.comparison.sourceQuote}
-                                        noteLabel={t.comparison.sourceNote}
                                         linkLabel={t.comparison.sourceQuoteLink}
                                       />
                                     ) : null}
@@ -565,13 +524,10 @@ export function ComparisonTable({
                                     <span className="text-[13px] leading-snug">
                                       {summary || t.comparison.emptyCell}
                                     </span>
-                                    {(cell?.sourceQuotes?.length ||
-                                      cell?.sourceNotes?.length) ? (
+                                    {cell?.sourceQuotes?.length ? (
                                       <SourceEvidence
                                         quotes={cell.sourceQuotes}
-                                        notes={cell.sourceNotes}
                                         quoteLabel={t.comparison.sourceQuote}
-                                        noteLabel={t.comparison.sourceNote}
                                         linkLabel={t.comparison.sourceQuoteLink}
                                       />
                                     ) : null}
