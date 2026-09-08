@@ -7,6 +7,7 @@ import type {
   ComparisonData,
   ResolvedCell,
   ResolvedComparison,
+  ResolvedSourceNote,
   ResolvedSourceQuote,
 } from "./types"
 
@@ -40,6 +41,30 @@ function resolveSourceQuotes(
   return quotes
 }
 
+function resolveSourceNotes(
+  sources: CellSource[] | undefined,
+  fallbackUrl: string,
+): ResolvedSourceNote[] {
+  if (!sources?.length) return []
+
+  const seen = new Set<string>()
+  const notes: ResolvedSourceNote[] = []
+
+  for (const source of sources) {
+    const note = source.note?.trim()
+    if (!note || source.quote?.trim()) continue
+    const key = note.toLowerCase()
+    if (seen.has(key)) continue
+    seen.add(key)
+    notes.push({
+      note,
+      href: sourceHref(source) || fallbackUrl,
+    })
+  }
+
+  return notes
+}
+
 export function getComparison(lang: Language): ResolvedComparison {
   const cellsByKey: Record<string, ResolvedCell> = {}
   const partyUrl = Object.fromEntries(
@@ -49,14 +74,17 @@ export function getComparison(lang: Language): ResolvedComparison {
   for (const cell of data.cells) {
     const fallback = partyUrl[cell.partyId] ?? ""
     const sourceQuotes = resolveSourceQuotes(cell.sources, fallback)
+    const sourceNotes = resolveSourceNotes(cell.sources, fallback)
     cellsByKey[cellKey(cell.topicId, cell.partyId)] = {
       topicId: cell.topicId,
       partyId: cell.partyId,
       stance: cell.stance,
       summary: pickLocalized(cell.summary, lang),
       sourceQuotes: sourceQuotes.length ? sourceQuotes : undefined,
+      sourceNotes: sourceNotes.length ? sourceNotes : undefined,
       programHref:
         sourceQuotes[0]?.href ||
+        sourceNotes[0]?.href ||
         bestProgramHref(cell.sources, fallback) ||
         undefined,
     }
