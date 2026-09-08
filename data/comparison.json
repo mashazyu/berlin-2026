@@ -1169,9 +1169,21 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Klima und Energie",
-          "page": 57,
-          "quote": "Bauwende und sozialer Umweltschutz Berlin kann bezahlbar, klimaneutral und nachhaltig bauen. Wir setzen uns für eine grundlegende Bauwende ein."
+          "page": 47,
+          "quote": "Aktivismus zum Erreichen bestimmter Zielmarken sehen wir nicht als primäres Ziel an.",
+          "section": "Energie"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 46,
+          "quote": "Wir wollen eine Abschaffung des CO2-Preises.",
+          "section": "Energiepreise"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 46,
+          "quote": "Wir werden Energieanlagen, wie z.B. Kohlekraftwerke, erst dann außer Betrieb nehmen, wenn ausreichend wettbewerbsfähige und sichere Alternativen zur Verfügung stehen.",
+          "section": "Energie"
         }
       ]
     },
@@ -1421,9 +1433,9 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Mobilität",
           "page": 49,
-          "quote": "Bauabschnitts der A100 bis zur Storkower Straße befürworten wir. Dabei sind die berechtigten Anliegen der Anwohner und eine verbindliche Bürgerbeteiligung angemessen zu berücksichtigen."
+          "quote": "Die Fortführung des 17. Bauabschnitts der A100 bis zur Storkower Straße befürworten wir.",
+          "section": "Verkehr"
         }
       ]
     },
@@ -1681,9 +1693,21 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Mobilität",
+          "page": 49,
+          "quote": "Die Fortführung des 17. Bauabschnitts der A100 bis zur Storkower Straße befürworten wir.",
+          "section": "Verkehr"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
           "page": 50,
-          "quote": "TVO). Die TVO ist die Verkehrsader für einen zukunftsfähigen und lebenswerten Osten."
+          "quote": "Dazu gehören auch die Optimierung von Ampelschaltungen, die bessere Anpassung an Umleitungen und Baustellen sowie der Ausbau zentraler Verbindungen wie der Tangentialen Verbindung Ost (TVO).",
+          "section": "Verkehr"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 50,
+          "quote": "Baustellen besser koordinieren Zentrale Straßen- und Schienenprojekte müssen schneller und besser koordiniert umgesetzt werden.",
+          "section": "Baustellen"
         }
       ]
     },
@@ -1945,9 +1969,15 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Mobilität",
           "page": 48,
-          "quote": "Öffentlichen Nahverkehr gezielt ausbauen Ein Schwerpunkt unserer Verkehrspolitik ist die Stärkung des ÖPNV, vor allem in den Berliner Außenbezirken."
+          "quote": "Deshalb setzen wir uns für den gezielten Ausbau von U-Bahn, S-Bahn, Straßenbahn und Bus ein .",
+          "section": "ÖPNV"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 48,
+          "quote": "Zudem setzen wir uns für den Bau von zwei Seilbahnlinien in Treptow-Köpenick sowie Pankow Nord ein.",
+          "section": "ÖPNV"
         }
       ]
     },
@@ -2191,9 +2221,15 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Mobilität",
-          "page": 48,
-          "quote": "Berlin braucht keinen ideologischen Gegensatz zwischen Auto, Fahrrad und öffentlichem Nahverkehr, sondern ein vernünftiges Miteinander."
+          "page": 49,
+          "quote": "Radverkehr sicher und durchgängig gestalten Berlin braucht ein sicheres, zusammenhängendes und alltagstaugliches Radwegenetz.",
+          "section": "Rad"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 49,
+          "quote": "Radwege dürfen nicht im Nichts beginnen und enden.",
+          "section": "Rad"
         }
       ]
     },
@@ -2427,19 +2463,29 @@
       "partyId": "bsw",
       "stance": "mixed",
       "summary": {
-        "en": "against the “unnecessary destruction of parking spaces”; parking management, neighborhood garages, loading zones and better organization of parked traffic; P&R on the outskirts",
-        "de": "gegen die „unnötige Vernichtung von Parkplätzen“; Parkraummanagement, Quartiersgaragen, Ladezonen und bessere Organisation des ruhenden Verkehrs; P&R am Stadtrand",
-        "ru": "против «ненужного уничтожения парковок»; управление парковочным пространством, квартальные гаражи, зоны погрузки и лучшая организация стоящего транспорта; P&R на окраинах",
-        "tr": "“park yerlerinin gereksiz yok edilmesine” karşı; park yönetimi, mahalle otoparkları, yükleme bölgeleri ve park etmiş trafiğin daha iyi örgütlenmesi; dış mahallelerde P&R",
-        "pl": "przeciw „niepotrzebnemu niszczeniu miejsc parkingowych”; zarządzanie parkingiem, garaże osiedlowe, strefy załadunku i lepsza organizacja parkującego ruchu; P&R na obrzeżach",
-        "uk": "проти «непотрібного знищення паркомісць»; управління паркуванням, сусідні гаражі, зони завантаження та краща організація припаркованого руху; П&Р на околиці"
+        "en": "against the “unnecessary destruction of parking spaces”; parking management, neighborhood garages, loading zones and better organization of parked traffic — no Park-and-Ride program found",
+        "de": "gegen die „unnötige Vernichtung von Parkplätzen“; Parkraummanagement, Quartiersgaragen, Ladezonen und bessere Organisation des ruhenden Verkehrs – kein P&R-Programm gefunden",
+        "ru": "против «ненужного уничтожения парковочных мест»; управление парковкой, квартальные гаражи, зоны погрузки и лучшая организация стоящего транспорта — программы P&R не найдено",
+        "tr": "“gereksiz park yeri yok edilmesine” karşı; park yönetimi, mahalle garajları, yükleme alanları ve duran trafiğin daha iyi örgütlenmesi – P&R programı bulunamadı",
+        "pl": "przeciw „niepotrzebnemu niszczeniu miejsc parkingowych”; zarządzanie parkingiem, garaże osiedlowe, strefy załadunku i lepsza organizacja ruchu postojowego — nie znaleziono programu P&R",
+        "uk": "проти «непотрібного знищення паркувальних місць»; управління паркуванням, квартальні гаражі, зони завантаження та краща організація припаркованого транспорту — програми P&R не знайдено"
       },
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Mobilität",
           "page": 49,
-          "quote": "Stattdessen setzen wir auf ausgewogene Lösungen mit Parkraummanagement, Quartiersgaragen, Ladezonen und einer besseren Organisation des ruhenden Verkehrs."
+          "quote": "Unnötige Parkplatzvernichtung sehen wir ebenso kritisch wie Verkehrskonzepte, die Verkehre nur verlagern, statt sie sinnvoll zu ordnen.",
+          "section": "Parken"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 49,
+          "quote": "Stattdessen setzen wir auf ausgewogene Lösungen mit Parkraummanagement, Quartiersgaragen, Ladezonen und einer besseren Organisation des ruhenden Verkehrs.",
+          "section": "Parken"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "note": "kein Treffer zu Park-and-Ride / P&R / Pendlerparkplätzen am Stadtrand"
         }
       ]
     },
@@ -2687,7 +2733,25 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "note": "kein Treffer zu Ladeinfrastruktur / Wallbox / E-Laden; „Ladezonen“ = Lieferzonen"
+          "page": 1,
+          "quote": "Das sind die Prinzipien, die unser Handeln leiten: In der Wirtschafts- und Energiepolitik muss wieder Vernunft Einzug halten, statt den Bürgern E-Autos und Wärmepumpen aufzuzwingen, die sich die meisten schlicht nicht leisten können.",
+          "section": "Einleitung"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 49,
+          "quote": "Klimafreundliche Antriebe sollen gefördert werden, ohne Menschen mit niedrigen und mittleren Einkommen zusätzlich zu belasten.",
+          "section": "Verkehr"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 49,
+          "quote": "Stattdessen setzen wir auf ausgewogene Lösungen mit Parkraummanagement, Quartiersgaragen, Ladezonen und einer besseren Organisation des ruhenden Verkehrs.",
+          "section": "Parken"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "note": "kein Treffer zu Ladepunkt/Ladesäule/bidirektionalem Laden/E-Abfallflotte; Ladezonen meint Organisation des ruhenden/Lieferverkehrs"
         }
       ]
     },
@@ -2921,9 +2985,13 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Wohnen",
           "page": 32,
-          "quote": "Gesetze, die durch einen Volksentscheid zustande gekommen sind, können nicht durch das Abgeordnetenhaus allein geändert werden, sondern müssen der Bevölkerung erneut zur Abstimmung gestellt werden (Bsp."
+          "quote": "Gesetze, die durch einen Volksentscheid zustande gekommen sind, können nicht durch das Abgeordnetenhaus allein geändert werden, sondern müssen der Bevölkerung erneut zur Abstimmung gestellt werden (Bsp. Randbebauung Tempelhofer Feld).",
+          "section": "Direkte Demokratie"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "note": "kein Treffer zu Flughafengebäude→Wohnungen / Teilumwandlung Flughafengebäude"
         }
       ]
     },
@@ -3145,19 +3213,31 @@
       "partyId": "bsw",
       "stance": "for",
       "summary": {
-        "en": "put in place the tree initiative as a real tree-planting offensive: reliable funding, new planting and care; green roofs, facades, and courtyards as standard for new buildings",
-        "de": "Bauminitiative als echte Pflanzoffensive umsetzen: verlässliche Finanzierung, Neupflanzung und Pflege; Gründächer, Fassaden und Höfe als Standard bei Neubauten",
-        "ru": "выполнить народную инициативу о деревьях (Baumbegehren) как реальную программу масштабных посадок деревьев: надежное финансирование, новые посадки и уход; крыши, фасады и дворы озеленять как правило для новостроек",
-        "tr": "ağaç girişimini gerçek bir ağaç dikim ofansifi olarak uygulamak: güvenilir finansman, yeni dikim ve bakım; yeşil çatılar, cepheler ve avlular yeni binalarda standart",
-        "pl": "wdrożyć inicjatywę drzew jako prawdziwą ofensywę sadzenia: niezawodne finansowanie, nowe nasadzenia i pielęgnacja; zielone dachy, fasady i podwórka jako standard w nowym budownictwie",
-        "uk": "запровадити ініціативу «Дерево» як справжній наступ із посадки дерев: надійне фінансування, нові посадки та догляд; озеленення дахів, фасадів, внутрішніх дворів як стандарт новобудов"
+        "en": "turn the Berlin Baumbegehren decisions into real tree offensives: reliable budget funding, priority for new planting and care; green roofs, facades and courtyards as the rule for new builds",
+        "de": "Beschlüsse des Berliner Baumbegehrens zu echten Baumoffensiven machen: verlässliche Haushaltsfinanzierung, Priorität für Neupflanzung und Pflege; begrünte Dächer, Fassaden und Innenhöfe als Regel bei Neubauten",
+        "ru": "превратить решения Berliner Baumbegehren в реальные древесные кампании: надёжное бюджетное финансирование, приоритет новых посадок и ухода; зелёные крыши, фасады и дворы как правило для новостроек",
+        "tr": "Berliner Baumbegehren kararlarını gerçek ağaç kampanyalarına dönüştürmek: güvenilir bütçe finansmanı, yeni dikim ve bakıma öncelik; yeni yapılarda yeşil çatı, cephe ve avlular kural olsun",
+        "pl": "zamienić decyzje Berliner Baumbegehren w prawdziwe ofensywy drzewne: wiarygodne finansowanie budżetowe, priorytet dla nasadzeń i pielęgnacji; zielone dachy, fasady i podwórza jako reguła w nowym budownictwie",
+        "uk": "перетворити рішення Berliner Baumbegehren на справжні деревні кампанії: надійне бюджетне фінансування, пріоритет нових посадок і догляду; зелені дахи, фасади й двори як правило для новобудов"
       },
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Klima und Energie",
           "page": 56,
-          "quote": "Sie lebt durch ihre Bäume, ihre Parks, ihre Höfe, ihre Gärten. Doch genau diese Lebensadern geraten unter Druck: Neubauten versiegeln Flächen, alte Bäume verschwinden, Grünanlagen verkommen, während sich im Sommer die Hitze immer mehr staut."
+          "quote": "Jetzt braucht Berlin mehr als gute Vorsätze: Wir wollen, dass aus diesen Beschlüssen echte Baumoffensiven werden.",
+          "section": "Natur"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 56,
+          "quote": "Dazu gehören eine verlässliche Finanzierung im Haushalt und klare Priorität für Neupflanzungen und Pflege.",
+          "section": "Natur"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 56,
+          "quote": "Verbindliche Begrünungspflichten für Neubauten: begrünte Dächer, Fassaden und Innenhöfe sollen die Regel sein.",
+          "section": "Natur"
         }
       ]
     },
@@ -3415,9 +3495,19 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Klima und Energie",
           "page": 47,
-          "quote": "Baumpflanzungen, Fassaden - und Dachbegrünung, offene Wasserflächen, Trinkwasserbrunnen und Kühlräume sind sinnvolle Investitionen im Innenstadtbereich."
+          "quote": "Baumpflanzungen, Fassaden- und Dachbegrünung, offene Wasserflächen, Trinkwasserbrunnen und Kühlräume sind sinnvolle Investitionen im Innenstadtbereich.",
+          "section": "Stadtgrün"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 56,
+          "quote": "Wir fordern: Mehr Trinkwasserstellen im öffentlichen Raum.",
+          "section": "Natur"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "note": "kein Treffer zu Berliner Hitzeplan / Kühlraum-Karte / Koordinierungsstelle"
         }
       ]
     },
@@ -3661,9 +3751,15 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Klima und Energie",
-          "page": 43,
-          "quote": "Schwammstadtkonzept und die Dauerwaldwirtschaft. In der Bauwirtschaft möchten wir ein kommunales Bauunternehmen gründen, welches durch eigene Produktionskapazitäten preisgünstig und ökologisch Sozialwohnungsbau betreibt."
+          "page": 56,
+          "quote": "Das Schwammstadt-Prinzip soll Leitlinie aller Planungen werden: Regenwasser soll nicht in die Kanalisation fließen, sondern vor Ort versickern, gespeichert oder zur Bewässerung genutzt werden.",
+          "section": "Schwammstadt"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 56,
+          "quote": "Entsiegelung und verstärkte Regenwassernutzung im privaten, öffentlichen und gewerblichen Bereich.",
+          "section": "Schwammstadt"
         }
       ]
     },
@@ -3915,9 +4011,19 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Klima und Energie",
           "page": 43,
-          "quote": "Kreislaufwirtschaft, das Schwammstadtkonzept und die Dauerwaldwirtschaft. In der Bauwirtschaft möchten wir ein kommunales Bauunternehmen gründen, welches durch eigene Produktionskapazitäten preisgünstig und ökologisch Sozialwohnungsbau betreibt."
+          "quote": "Nachhaltig wirtschaften Unser Nachhaltigkeitskonzept ist sowohl sozial als auch ökologisch: in Berlin machen wir uns stark für die öffentliche Daseinsvorsorge, ein integriertes Mobilitätssystem, Kreislaufwirtschaft, das Schwammstadtkonzept und die Dauerwaldwirtschaft.",
+          "section": "Nachhaltigkeit"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 58,
+          "quote": "Zusätzlich sollen mobile Recyclingstationen regelmäßig durch die Kieze fahren, damit niemand seinen Müll in Parks oder Hinterhöfe werfen muss.",
+          "section": "BSR"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "note": "kein Treffer zu Zero-Waste-Kapitel / Verbot von Müllexport oder Deponierung"
         }
       ]
     },
@@ -4191,9 +4297,15 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Klima und Energie",
           "page": 58,
-          "quote": "Wir fordern, dass die BSR die zentrale Zuständigkeit für die Beräumung der Geh - und Fahrradwege übernimmt."
+          "quote": "Wir fordern, dass die BSR die zentrale Zuständigkeit für die Beräumung der Geh- und Fahrradwege übernimmt.",
+          "section": "BSR"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 58,
+          "quote": "Wir fordern eine feste Sperrmüllabfuhr in allen Bezirken, mindestens zweimal im Jahr – kostenlos, zuverlässig, für jeden Haushalt.",
+          "section": "BSR"
         }
       ]
     },
@@ -4455,9 +4567,15 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Klima und Energie",
           "page": 58,
-          "quote": "Abgeordnetenhaus von Berlin Seite 58 von 66 Die Zersplitterung der Müllentsorgung hat versagt. Private Anbieter, unterschiedliche Zuständigkeiten und mangelnde Kontrolle führen dazu, dass vieles liegenbleibt."
+          "quote": "Wir wollen die Kampagne „Berlin räumt auf“ dauerhaft stärken – mit Schulen, Vereinen und Nachbarschaften, unterstützt durch Material und Logistik der BSR.",
+          "section": "Sauberkeit"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 58,
+          "quote": "Bei illegalen Ablagerungen oder Verschmutzungen muss innerhalb von 24 Stunden reagiert werden.",
+          "section": "Sauberkeit"
         }
       ]
     },
@@ -4705,9 +4823,15 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Klima und Energie",
           "page": 46,
-          "quote": "Wir brauchen Investitionen in die Energieinfrastruktur, die das Abschalten von Photovoltaikanlagen im Sommer sowie von Windrädern bei flächendeckenden Starkwinden möglichst ausschließen sowie die oft unzureichende elektrische Reserveleistung im Winter ausgleichen."
+          "quote": "Der Zubau von Photovoltaikanlagen, welche für Berlin von großer Bedeutung sind, muss im Kontext mit dem Ausbau der Energieinfrastruktur erfolgen.",
+          "section": "Energie"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 46,
+          "quote": "Die Investitionen betreffen z.B. Strom- und Fernwärmeleitungen, Umspannwerke, Energiespeicher, Elektrolyseure, Power-to-Heat-Anlagen und Reservekraftwerke.",
+          "section": "Energie"
         }
       ]
     },
@@ -4943,9 +5067,15 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Klima und Energie",
-          "page": 46,
-          "quote": "Windrädern bei flächendeckenden Starkwinden möglichst ausschließen sowie die oft unzureichende elektrische Reserveleistung im Winter ausgleichen."
+          "page": 47,
+          "quote": "Wir fordern den Verzicht auf die Errichtung von Windrädern in Berlin und eine Initiative zur Veränderung des Wind-an-Land-Gesetzes, um die Flächenvorgaben für Windenergieanlagen abzuschaffen.",
+          "section": "Wind"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 47,
+          "quote": "Wir setzen uns für das Repowering alter Windkraftanlagen ein.",
+          "section": "Wind"
         }
       ]
     },
@@ -5203,9 +5333,21 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Klima und Energie",
           "page": 46,
-          "quote": "Den Rückbau des derzeitigen Erdgasnetzes lehnen wir ebenfalls ab. Wir unterstützen die Rekommunalisierung der GASAG AG."
+          "quote": "Den Rückbau des derzeitigen Erdgasnetzes lehnen wir ebenfalls ab.",
+          "section": "Gas"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 46,
+          "quote": "Wir unterstützen die Rekommunalisierung der GASAG AG.",
+          "section": "GASAG"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 46,
+          "quote": "Wir setzen uns für die Wiederinbetriebnahme des noch nutzbaren Stranges der Nord-Stream- Pipeline ein.",
+          "section": "Nord Stream"
         }
       ]
     },
@@ -5435,9 +5577,25 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Klima und Energie",
           "page": 46,
-          "quote": "Strom - und Fernwärmeleitungen, Umspannwerke, Energiespeicher, Elektrolyseure, Power -to-Heat-Anlagen und Reservekraftwerke."
+          "quote": "Der Ausbau des Wasserstoffnetzes muss im Einklang mit der Nachfrage nach grünem Wasserstoff erfolgen um teure Fehlinvestitionen zu vermeiden.",
+          "section": "H2"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 46,
+          "quote": "Das BSW sieht in der energieintensiven Industrie, in industriellen Hochtemperaturprozessen sowie in Gaskraftwerken die Schwerpunkte der energetischen Wasserstoffnutzung.",
+          "section": "H2"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 47,
+          "quote": "Das betrifft beispielhaft die Herstellung von Wasserstoff sowie von synthetischen Kraftstoffen.",
+          "section": "Tech"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "note": "kein Treffer zu Tegel Green Tech Hub / H₂-Biogasanlage für Spitzenlast"
         }
       ]
     },
@@ -5659,9 +5817,25 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Klima und Energie",
+          "page": 1,
+          "quote": "Das sind die Prinzipien, die unser Handeln leiten: In der Wirtschafts- und Energiepolitik muss wieder Vernunft Einzug halten, statt den Bürgern E-Autos und Wärmepumpen aufzuzwingen, die sich die meisten schlicht nicht leisten können.",
+          "section": "Einleitung"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
           "page": 47,
-          "quote": "Abgeordnetenhaus von Berlin Seite 47 von 66 Wir wollen Bedingungen schaffen, bei denen die Nutzung von Wärmepumpen wirtschaftlich und technisch sinnvoll ist, d."
+          "quote": "Wir wollen Bedingungen schaffen, bei denen die Nutzung von Wärmepumpen wirtschaftlich und technisch sinnvoll ist, d. h. Integration in ein Fernwärmesystem mit Wärmespeichern.",
+          "section": "Wärme"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 47,
+          "quote": "Berlin verfügt über nutzbares geothermisches Potential, das die Berliner Gebäudeheizung umweltfreundlicher machen kann.",
+          "section": "Geothermie"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "note": "kein Treffer zu Heizungswendefonds / kommunalem Wärmepumpen-Standard"
         }
       ]
     },
@@ -5927,9 +6101,25 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Klima und Energie",
           "page": 46,
-          "quote": "Strom - und Fernwärmeleitungen, Umspannwerke, Energiespeicher, Elektrolyseure, Power -to-Heat-Anlagen und Reservekraftwerke."
+          "quote": "Das BSW fordert einen konsequenten Ausbau von Fernwärmeanlagen.",
+          "section": "Fernwärme"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 46,
+          "quote": "Zur Steuerung dieses Prozesses soll maßgeblich die kommunale Wärmeplanung dienen.",
+          "section": "Wärmeplanung"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 46,
+          "quote": "Wir werden Energieanlagen, wie z.B. Kohlekraftwerke, erst dann außer Betrieb nehmen, wenn ausreichend wettbewerbsfähige und sichere Alternativen zur Verfügung stehen.",
+          "section": "Energie"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "note": "kein Treffer zu wissenschaftlichem Fossil-Ersatzfahrplan / dynamischen Wärmetarifen"
         }
       ]
     },
@@ -6139,7 +6329,7 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "note": "kein Treffer zu Kernenergie / Atomkraft / Nuklear"
+          "note": "kein Treffer zu Kernenergie / Atomkraft / Nuklearforschung"
         }
       ]
     },
@@ -6377,9 +6567,21 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Klima und Energie",
-          "page": 56,
-          "quote": "Abgeordnetenhaus von Berlin Seite 56 von 66 Natur, Umwelt, Sauberkeit und Tierschutz Berlin ist eine Stadt voller Leben."
+          "page": 58,
+          "quote": "Tierschutz ist kein Nebenthema.",
+          "section": "Tierschutz"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 58,
+          "quote": "Wir wollen, dass Berlin eine Vorreiterrolle beim Ausstieg aus dem Tierversuch einnimmt und zeigt, dass moderne Forschung auch ohne Tierleid möglich ist.",
+          "section": "Tierschutz"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 59,
+          "quote": "Wir fordern eine dauerhafte Grundfinanzierung, damit Aufnahme, Versorgung, Prävention und Bildungsarbeit planbar werden.",
+          "section": "Tierschutz"
         }
       ]
     },
@@ -6635,9 +6837,15 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Wohnen",
-          "page": 2,
-          "quote": "Ihre Stimme für das BSW in Berlin ist eine Stimme dafür, dass die Mietenexplosion gestoppt wird. Wir wollen die bestehenden Instrumente der Mietenregulierung schärfen und endlich konsequent durchsetzen und zusätzlich über eine Bundesratsinitiative einen Mietendeckel einführen."
+          "page": 6,
+          "quote": "Wir brauchen außerdem einen weiteren Anlauf für einen Mietendeckel.",
+          "section": "Wohnen"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 6,
+          "quote": "Mit einer Bundesratsinitiative wollen wir erreichen, dass entweder bundesweit ein Mietendeckel für angespannte Wohnungsmärkte wie Berlin eingeführt oder zumindest ermöglicht wird und dass die Bundesländer selbständig über die Einführung eines solchen Mietendeckels entscheiden können.",
+          "section": "Wohnen"
         }
       ]
     },
@@ -6905,9 +7113,15 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Wohnen",
-          "page": 6,
-          "quote": "Berlin braucht mehr Einfluss auf die Bodenpolitik, mehr dauerhaft gebundene Sozialwohnungen und eine stärkere Förderung gemeinnütziger und genossenschaftlicher Wohnformen."
+          "page": 7,
+          "quote": "Wir setzen uns für ein verbindliches Ziel von mindestens 6.000 neuen Sozialwohnungen pro Jahr ein.",
+          "section": "Wohnen"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 7,
+          "quote": "Deshalb braucht Berlin eine klare Wende: Landeseigener Grund und Boden darf grundsätzlich nicht weiterverkauft werden.",
+          "section": "Boden"
         }
       ]
     },
@@ -7143,9 +7357,15 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Wohnen",
           "page": 6,
-          "quote": "Die Berliner Politik muss den Willen der Berliner Bevölkerung respektieren und den Volksentscheid „Deutsche Wohnen & Co."
+          "quote": "Die Berliner Politik muss den Willen der Berliner Bevölkerung respektieren und den Volksentscheid „Deutsche Wohnen & Co. enteignen“ umsetzen.",
+          "section": "Wohnen"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 8,
+          "quote": "Als letztes Mittel bleibt auch die Vergesellschaftung vorbehalten.",
+          "section": "Leerstand"
         }
       ]
     },
@@ -7395,9 +7615,21 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Wohnen",
+          "page": 7,
+          "quote": "Wir setzen uns für ein verbindliches Ziel von mindestens 6.000 neuen Sozialwohnungen pro Jahr ein.",
+          "section": "Wohnen"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 7,
+          "quote": "Öffentliche Förderung muss dauerhaft an Mietpreis- und Belegungsbindungen gebunden sein.",
+          "section": "Sozialwohnungen"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
           "page": 6,
-          "quote": "Berlin braucht mehr Einfluss auf die Bodenpolitik, mehr dauerhaft gebundene Sozialwohnungen und eine stärkere Förderung gemeinnütziger und genossenschaftlicher Wohnformen."
+          "quote": "Das Land Berlin muss seine Kooperation mit den Mietervereinen zur Übernahme von Mitgliedsbeiträgen für Transferleistungsbeziehende (Bürgergeld ‑, Sozialhilfe ‑ und Grundsicherungsbeziehende) wieder aufnehmen und dauerhaft sichern.",
+          "section": "Mieterschutz"
         }
       ]
     },
@@ -7655,9 +7887,15 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Wohnen",
           "page": 8,
-          "quote": "Ferienwohnungen zweckentfremdet werden. Das BSW wendet sich gegen den Abriss noch nutzbarer Gebäude, gegen unnötige Zwangsmodernisierungen, gegen überteuerte möblierte Vermietungen und gegen jede Form der Zweckentfremdung."
+          "quote": "Auch gegen spekulativen Leerstand muss Berlin konsequenter vorgehen.",
+          "section": "Leerstand"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 8,
+          "quote": "Deshalb muss die Umwandlung von Wohnungen in Ferienunterkünfte oder vergleichbare Nutzungen wirksam unterbunden werden.",
+          "section": "Zweckentfremdung"
         }
       ]
     },
@@ -7907,9 +8145,13 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Wohnen",
           "page": 7,
-          "quote": "Ebenso muss verhindert werden, dass geförderte Wohnungen später in Eigentum umgewandelt oder mit starken Mietsteigerungen dem sozialen Wohnungsbestand entzogen werden."
+          "quote": "Für uns gilt zugleich ein klarer Grundsatz: Sozialwohnungen müssen auf Dauer Sozialwohnungen bleiben.",
+          "section": "Sozialwohnungen"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "note": "kein Treffer zu allgemeiner Umwandlung Miet→Eigentum oder Eigenbedarfskündigungen"
         }
       ]
     },
@@ -8145,9 +8387,13 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Wohnen",
           "page": 55,
-          "quote": "Share Deals. Damit vermeiden Wohnungskonzerne in vielen Fällen die Grunderwerbsteuer, während andere Käufer diese zahlen müssen."
+          "quote": "Steuerschlupflöcher schließen Wir fordern eine Bundesratsinitiative Berlins für eine strengere Begrenzung von sogenannten Share Deals.",
+          "section": "Steuern"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "note": "kein Treffer zu Ersterwerber-Freibetrag bei der Grunderwerbsteuer"
         }
       ]
     },
@@ -8395,9 +8641,15 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Soziales",
           "page": 11,
-          "quote": "Diese Angebote sind insbesondere zur Prävention von Suchtkrankheiten und Wohnungslosigkeit einzusetzen."
+          "quote": "Statt wie bisher mit umfangreicher Sozialarbeit zu beginnen und erst danach eine Unterbringung anzubieten, setzt „Housing First“ die Wohnung an den Anfang – verbunden mit freiwilliger, bedarfsorientierter sozialer Betreuung.",
+          "section": "Wohnungslosigkeit"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 11,
+          "quote": "000 wohnungslose Menschen, darunter mindestens 6.000 Obdachlose.",
+          "section": "Wohnungslosigkeit"
         }
       ]
     },
@@ -8647,9 +8899,15 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Sicherheit",
           "page": 38,
-          "quote": "Kiezen. Viele Berlinerinnen und Berliner berichten von einem gestiegenen unwohlen Gefühl im öffentlichen Raum."
+          "quote": "Wir wollen das ändern – durch mehr Präsenz und bessere Ausstattung der Polizei sowie durch kluge Prävention, nicht aber durch pauschale Überwachung oder Vorverurteilung.",
+          "section": "Sicherheit"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 38,
+          "quote": "Wir wollen das ändern – durch mehr Präsenz und bessere Ausstattung der Polizei sowie durch kluge Prävention, nicht aber durch pauschale Überwachung oder Vorverurteilung.",
+          "section": "Sicherheit"
         }
       ]
     },
@@ -8879,9 +9137,15 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Sicherheit",
           "page": 41,
-          "quote": "Dazu setzen wir Videoüberwachung an nachweislich besonders kriminalitätsbelasteten Orten ein – mit parlamentarischer Genehmigung und Echtzeit -Auswertung durch ausreichend Personal."
+          "quote": "Dazu setzen wir Videoüberwachung an nachweislich besonders kriminalitätsbelasteten Orten ein – mit parlamentarischer Genehmigung und Echtzeit-Auswertung durch ausreichend Personal.",
+          "section": "Video"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 41,
+          "quote": "Für BVG- und DB-Kameras räume wir eine längere Speicherfrist von 96 Stunden ein.",
+          "section": "Video"
         }
       ]
     },
@@ -9147,9 +9411,13 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Sicherheit",
-          "page": 40,
-          "quote": "Schulen müssen sichere Orte sein: bei nachgewiesener hoher Gefährdung kann an Schulen temporärer Wachschutz (ausschließlich in zivil und finanziell abgesichert) eingesetzt werden."
+          "page": 38,
+          "quote": "Wir wollen das ändern – durch mehr Präsenz und bessere Ausstattung der Polizei sowie durch kluge Prävention, nicht aber durch pauschale Überwachung oder Vorverurteilung.",
+          "section": "Sicherheit"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "note": "kein Treffer zu anlasslosen Kontrollen / Schleierfahndung"
         }
       ]
     },
@@ -9389,9 +9657,13 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Sicherheit",
-          "page": 39,
-          "quote": "Wir fordern eine Einstellungsoffensive bei Polizei und Feuerwehr – mit Fokus auf qualitativ hochwertiger Auswahl, basierend auf Sprachkenntnissen, körperlicher und charakterlicher Eignung, statt auf Quoten."
+          "page": 41,
+          "quote": "Quellen-TKÜ und KI setzen wir ausschließlich zur Bekämpfung von organisierter Kriminalität, und Straftaten mit Extremismus- bzw. Terrorismusbezug ein.",
+          "section": "OK"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "note": "kein eigenes Kapitel Geldwäsche / Finanzkriminalität"
         }
       ]
     },
@@ -9633,9 +9905,15 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Sicherheit",
           "page": 40,
-          "quote": "Wir setzen auf Prävention vor Repression. In die Schulen gehören mehr Sozalarbeiter."
+          "quote": "Häuslicher Gewalt und Gewalt gegen Frauen entschieden entgegentreten Wir unterstützen in Fällen, in denen Gefahr für Leib und Leben droht, das spanische Modell (elektronische Fußfessel bei Annäherungsverbot und Warnsystem für Betroffene) – richterlich angeordnet und verhältnismäßig.",
+          "section": "Gewalt"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 40,
+          "quote": "Das Angebot von Frauenhäusern bauen wir aus, mehrsprachige Hinweise auf Hilfsangebote (Ärzte, Ämter, Schulen) inklusive.",
+          "section": "Frauenhäuser"
         }
       ]
     },
@@ -9873,9 +10151,21 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Bildung",
+          "page": 14,
+          "quote": "Das BSW Berlin fordert deshalb eine verpflichtende Teilnahme an der Kita spätestens ab dem vierten Lebensjahr.",
+          "section": "Kita"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
           "page": 13,
-          "quote": "Sie braucht Begegnungsräume und politische Unterstützung sowie die Förderung von Zusammendenken von Kitas, Grundschulen und Seniorenheimen."
+          "quote": "Sie braucht Begegnungsräume und politische Unterstützung sowie die Förderung von Zusammendenken von Kitas, Grundschulen und Seniorenheimen.",
+          "section": "Soziales"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 3,
+          "quote": "Monatelange Kita- und Schulschließungen, der unsägliche Umgang mit Altenheimen und die Ausgrenzung Andersdenkender sind aufzuarbeiten.",
+          "section": "Pandemie"
         }
       ]
     },
@@ -10107,9 +10397,15 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Bildung",
-          "page": 13,
-          "quote": "Sie braucht Begegnungsräume und politische Unterstützung sowie die Förderung von Zusammendenken von Kitas, Grundschulen und Seniorenheimen."
+          "page": 2,
+          "quote": "Wir setzen uns dafür ein, dass der Lehrermangel beendet wird und in den Grundschulen wieder das Erlernen der Kernkompetenzen Lesen, Schreiben und Rechnen im Vordergrund steht.",
+          "section": "Bildung"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 15,
+          "quote": "Der Erwerb grundlegender Fähigkeiten – Lesen, Schreiben und Rechnen – muss in der Grundschule wieder oberste Priorität erhal ten.",
+          "section": "Grundschule"
         }
       ]
     },
@@ -10347,9 +10643,21 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Bildung",
-          "page": 14,
-          "quote": "Abgeordnetenhaus von Berlin Seite 14 von 66 Bildung Das deutsche Bildungssystem verliert zunehmend an Bildungsqualität, Chancengerechtigkeit und kultureller Tiefe."
+          "page": 2,
+          "quote": "Wir setzen uns dafür ein, dass der Lehrermangel beendet wird und in den Grundschulen wieder das Erlernen der Kernkompetenzen Lesen, Schreiben und Rechnen im Vordergrund steht.",
+          "section": "Bildung"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 15,
+          "quote": "Neben Gymnasien sollte es in den Berliner Bezirken ein breites Angebot an Gemeinschaftsschulen mit einer hohen Bildungsqualität geben.",
+          "section": "Schulen"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 2,
+          "quote": "Ihre Stimme für das BSW in Berlin ist eine Stimme für gute Schulen, in denen jedes Kind unabhängig vom Geldbeutel der Eltern die besten Bildungschancen erhält.",
+          "section": "Bildung"
         }
       ]
     },
@@ -10575,9 +10883,15 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Bildung",
           "page": 2,
-          "quote": "Wir setzen uns dafür ein, dass der Lehrermangel beendet wird und in den Grundschulen wieder das Erlernen der Kernkompetenzen Lesen, Schreiben und Rechnen im Vordergrund steht."
+          "quote": "Smartphones und Tablets, die den Wissenserwerb nachweislich erschweren, wollen wir aus den Klassenzimmern der Grundschulen verbannen.",
+          "section": "Bildung"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 16,
+          "quote": "Deshalb fordern wir den flächendeckenden Einsatz multiprofessioneller Teams, bestehend aus Lehrkräften, Erziehern, Sozialarbeitern, Psychologen sowie Fachkräften für IT , Prävention und Verwaltung.",
+          "section": "Schulen"
         }
       ]
     },
@@ -10827,9 +11141,19 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Wirtschaft",
+          "page": 2,
+          "quote": "Wir setzen uns dafür ein, dass der Lehrermangel beendet wird und in den Grundschulen wieder das Erlernen der Kernkompetenzen Lesen, Schreiben und Rechnen im Vordergrund steht.",
+          "section": "Bildung"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
           "page": 15,
-          "quote": "Der gegenwärtige Fachkräftemangel entsteht auch daraus, dass es den Schülerinnen und Schülern an einer Vorstellung vom Handwerk fehlt."
+          "quote": "Der gegenwärtige Fachkräftemangel entsteht auch daraus, dass es den Schülerinnen und Schülern an einer Vorstellung vom Handwerk fehlt.",
+          "section": "Ausbildung"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "note": "kein Treffer zu Ankunftszentrum / systematischer Anwerbung aus dem Ausland"
         }
       ]
     },
@@ -11067,9 +11391,15 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Bildung",
-          "page": 17,
-          "quote": "Sanierungen sollen innerhalb klarer Fristen erfolgen und ein funkti onierendes Hausmeisterwesen muss die Wartung vor Ort sicherstellen."
+          "page": 15,
+          "quote": "Durch eine Ausweitung der Schülerpraktika erhalten junge Menschen einen besseren, tiefergehenden Einblick in die Arbeitswelt und können sich später bewusster für Ausbildungsberufe entscheiden.",
+          "section": "Berufsorientierung"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 34,
+          "quote": "Es ist vernünftig, die Zuwanderung nach Deutschland streng zu regulieren und rechtmäßige Asylbewerber zu Integrationsmaßnahmen zu verpflichten, die ihnen das Erlernen der sprachlichen und sozialen Rahmenbedingungen für ein gelingendes Leben in ihrer neuen Heimat ermöglichen.",
+          "section": "Integration"
         }
       ]
     },
@@ -11295,9 +11625,27 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Bildung",
           "page": 17,
-          "quote": "Hochschulen angemessen finanzieren Hochschulen müssen der gesellschaftlichen Bedeutung von Forschung, Lehre und Wissenstransfer gerecht werden."
+          "quote": "Wir fordern, die Landeszuschüsse für die Berliner Hochschulen auf mindestens zwei Prozent des Berliner Bruttoinlandsprodukts (BIP) zu erhöhen.",
+          "section": "Hochschulen"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 17,
+          "quote": "Der Friedenspolitik des BSW entsprechend setzen wir für alle Berliner Hochschulen eine verpflichtende Zivilklausel durch.",
+          "section": "Zivilklausel"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 17,
+          "quote": "Wir setzen uns für die Abschaffung befristeter Kettenverträge in Forschung und Lehre ein.",
+          "section": "Hochschulen"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 17,
+          "quote": "Einführung eines neuen Studentenwohnheimfonds Studieren darf nicht vom Einkommen der Eltern abhängen.",
+          "section": "Studentenwohnen"
         }
       ]
     },
@@ -11523,9 +11871,13 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Bildung",
-          "page": 16,
-          "quote": "Digitalisierung ist ein Werkzeug des Lernens, kein Ersatz für Bildung."
+          "page": 40,
+          "quote": "Dazu erweitern und verbessern wir Fortbildungsangebote für Lehrkräfte, Sozialarbeiter und die Polizei.",
+          "section": "Fortbildung"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "note": "kein eigenes Kapitel Weiterbildung/Umschulung; nur punktuelle Fortbildung"
         }
       ]
     },
@@ -11757,9 +12109,21 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Soziales",
           "page": 21,
-          "quote": "Abgeordnetenhaus von Berlin Seite 21 von 66 Gesundheitswesen Wir wollen das solidarische Gesundheitswesen stärken, statt es weiter kaputtzusparen."
+          "quote": "Krankenhäuser sind keine Unternehmen, sondern Orte der Heilung und Pflege.",
+          "section": "KH"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 21,
+          "quote": "Das BSW Berlin fordert eine gemeinwohlorientierte Krankenhausplanung unter Einbeziehung der Bürgerinnen und Bürger.",
+          "section": "KH"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 21,
+          "quote": "Der Investitionsstau von mehreren hundert Millionen Euro muss beendet werden – das Land Berlin muss seiner gesetzlichen Pflicht zur Investitionsfinanzierung nachkommen.",
+          "section": "KH"
         }
       ]
     },
@@ -11999,9 +12363,15 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Soziales",
-          "page": 24,
-          "quote": "Chronische Erkrankte besser begleiten Menschen mit schweren chronischen Erkrankungen und psychischen Belastungen stoßen in Berlin oft auf Versorgungslücken."
+          "page": 12,
+          "quote": "Einsamkeit ist auch in Berlin ein wachsendes gesellschaftliches Problem.",
+          "section": "Einsamkeit"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 12,
+          "quote": "Kommt es infolge der Drogenabhängigkeit zu Obdachlosigkeit, so verschärfen sich die körperlichen und psychischen Belastungen der Suchtkranken.",
+          "section": "Drogenhilfe"
         }
       ]
     },
@@ -12233,9 +12603,21 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Soziales",
-          "page": 21,
-          "quote": "Krankenhäuser sind keine Unternehmen, sondern Orte der Heilung und Pflege. Das BSW Berlin fordert eine gemeinwohlorientierte Krankenhausp lanung unter Einbeziehung der Bürgerinnen und Bürger."
+          "page": 2,
+          "quote": "Kein Arbeiter soll weniger als 15 Euro in der Stunde verdienen und kein Rentner mit einer Rente bis 2000 Euro Steuern bezahlen müssen.",
+          "section": "Soziales"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 23,
+          "quote": "Pflege darf nicht zur Armutsfalle werden.",
+          "section": "Pflege"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 13,
+          "quote": "Sie braucht Begegnungsräume und politische Unterstützung sowie die Förderung von Zusammendenken von Kitas, Grundschulen und Seniorenheimen.",
+          "section": "Soziales"
         }
       ]
     },
@@ -12495,9 +12877,13 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Sicherheit",
           "page": 12,
-          "quote": "Drogenpolitik und Suchtprävention Drogensucht hat neben den individuellen Schäden auch gesellschaftliche Folgen, die keine verantwortungsbewusste Partei ignorieren oder abstreiten sollte."
+          "quote": "Aufgrund der steigenden Zahl von Drogenkranken sollten Hilfsangebote wie geschützte Drogenkonsumräume, medizinische Betreuungseinrichtungen oder die Unterstützung bei Substitutionstherapien ausgeweitet werden.",
+          "section": "Drogenhilfe"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "note": "kein Treffer zu Cannabis-/Drogenlegalisierung"
         }
       ]
     },
@@ -12747,9 +13133,15 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Sicherheit",
           "page": 34,
-          "quote": "Es ist vernünftig, die Zuwanderung nach Deutschland streng zu regulieren und rechtmäßige Asylbewerber zu Integrationsmaßnahmen zu verpflichten, die ihnen das Erlernen der sprachlichen und sozialen Rahmenbedingungen für ein gelingendes Leben in ihrer neuen Heimat ermöglichen."
+          "quote": "Damit ist nun möglich, alle Asylverfahren in sicheren Drittstaaten außerhalb der Europäischen Union durchzuführen.",
+          "section": "Migration"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 34,
+          "quote": "Wer keinen Anspruch auf Asyl hat, darf gar nicht erst in die Europäische Union einreisen und es kann somit auch nicht mehr zu Schwierigkeiten bei einer Abschiebung kommen.",
+          "section": "Migration"
         }
       ]
     },
@@ -13247,9 +13639,15 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Sicherheit",
+          "page": 36,
+          "quote": "Wir wollen, dass Zuwanderer umfassender als bisher in den Integrationskursen mit allen Aspekten des Zusammenlebens in Deutschland vertraut gemacht werden.",
+          "section": "Integration"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
           "page": 34,
-          "quote": "Abgeordnetenhaus von Berlin Seite 34 von 66 Zuwanderung und Integration Das BSW steht für eine gerechte und vernünftige Zuwanderungspolitik."
+          "quote": "Es ist vernünftig, die Zuwanderung nach Deutschland streng zu regulieren und rechtmäßige Asylbewerber zu Integrationsmaßnahmen zu verpflichten, die ihnen das Erlernen der sprachlichen und sozialen Rahmenbedingungen für ein gelingendes Leben in ihrer neuen Heimat ermöglichen.",
+          "section": "Migration"
         }
       ]
     },
@@ -13487,9 +13885,21 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Wirtschaft",
+          "page": 2,
+          "quote": "Kein Arbeiter soll weniger als 15 Euro in der Stunde verdienen und kein Rentner mit einer Rente bis 2000 Euro Steuern bezahlen müssen.",
+          "section": "Arbeit"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
           "page": 43,
-          "quote": "Nachhaltig wirtschaften Unser Nachhaltigkeitskonzept ist sowohl sozial als auch ökologisch: in Berlin machen wir uns stark für die öffentliche Daseinsvorsorge, ein integriertes Mobilitätssystem, Kreislaufwirtschaft, das Schwammstadtkonzept und die Dauerwaldwirtschaft."
+          "quote": "Für Start-ups sollen geeignete Rahmenbedingungen vereinbart und der Zugang zu notwendigem Risikokapital erleichtert werden, damit neue Ideen in Berlin entstehen, wachsen und Arbeitsplätze geschaffen werden können.",
+          "section": "Start-ups"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 44,
+          "quote": "Zivile Produktion statt Kriegswirtschaft In Berlin findet derzeit eine teilweise Umstellung von ziviler Produktion auf Rüstungsgüter statt, maßgeblich getrieben durch Rheinmetall.",
+          "section": "Wirtschaft"
         }
       ]
     },
@@ -13715,9 +14125,15 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Wirtschaft",
           "page": 43,
-          "quote": "Innovationspolitik für einen starken Wissenschafts- und Technologiestandort Die Zukunft der Stadt Berlin wird maßgeblich durch eine kluge und unabhängige Innovationspolitik geprägt."
+          "quote": "Für Start-ups sollen geeignete Rahmenbedingungen vereinbart und der Zugang zu notwendigem Risikokapital erleichtert werden, damit neue Ideen in Berlin entstehen, wachsen und Arbeitsplätze geschaffen werden können.",
+          "section": "Start-ups"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 44,
+          "quote": "Die hochsubventionierte Games-Branche bietet sich der Politik an, um „Verteidigungsfähigkeit“ zu stärken.",
+          "section": "Games"
         }
       ]
     },
@@ -13941,7 +14357,7 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "note": "kein Treffer zu Betriebsnachfolge / Unternehmensnachfolge"
+          "note": "kein Treffer zu Betriebsnachfolge / Unternehmensnachfolge / Nachfolgeberatung"
         }
       ]
     },
@@ -14175,9 +14591,15 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Wirtschaft",
           "page": 43,
-          "quote": "Wissenstransfer und Förderung des Mittelstands Das BSW setzt sich für einen systematischen Wissenstransfer zwischen den Berliner Universitäten und Hochschulen, dem Technologiestandort Adlershof sowie den zahlreichen mittelständischen Unternehmen in der Stadt ein."
+          "quote": "Wissenstransfer und Förderung des Mittelstands Das BSW setzt sich für einen systematischen Wissenstransfer zwischen den Berliner Universitäten und Hochschulen, dem Technologiestandort Adlershof sowie den zahlreichen mittelständischen Unternehmen in der Stadt ein.",
+          "section": "Mittelstand"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 1,
+          "quote": "Der Industriestandort und hunderttausende Arbeitsplätze sind in Gefahr.",
+          "section": "Einleitung"
         }
       ]
     },
@@ -14451,9 +14873,21 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Wirtschaft",
-          "page": 55,
-          "quote": "Wir schlagen darüber hinaus vor, dass der Steuerfreibetrag für Erbschaften und Schenkungen bei Verwandten ersten Grades auf eine Million Euro und ein übliches selbstgenutztes Wohneigentum angehoben wird und diese Freibeträge einmal im Leben in Anspruch genommen werden können."
+          "page": 2,
+          "quote": "Kein Arbeiter soll weniger als 15 Euro in der Stunde verdienen und kein Rentner mit einer Rente bis 2000 Euro Steuern bezahlen müssen.",
+          "section": "Steuern"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 4,
+          "quote": "Verschwenderische Budgets für Aufrüstung bedeuten weniger Geld für Bildung, Infrastruktur, Gesundheit, Renten, Kultur und soziale Sicherheit.",
+          "section": "Haushalt"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 53,
+          "quote": "Die Berliner Finanzämter müssen dazu gestärkt und personell besser ausgestattet werden.",
+          "section": "Steuern"
         }
       ]
     },
@@ -14709,9 +15143,15 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Demokratie",
-          "page": 64,
-          "quote": "Öffentliche Mittel fließen in Systeme, deren Quellcode offen ist, damit Verwaltung und Bürger gemeinsam vom Fortschritt profitieren."
+          "page": 3,
+          "quote": "Wir wollen ein Berlin, in dem Verkehr und Verwaltung funktionieren und die Fehlentscheidungen der letzten Landesregierungen zurückgenommen werden.",
+          "section": "Leitbild"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 39,
+          "quote": "Wir treiben die Digitalisierung voran, um schnellere Vorgangsbearbeitungen zu ermöglichen, Bürokratie abzubauen und kürzere Ausschreibungsverfahren zu ermöglichen.",
+          "section": "Verwaltung"
         }
       ]
     },
@@ -14967,9 +15407,21 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Demokratie",
           "page": 16,
-          "quote": "Digitalisierung und Medienbildung anpassen Digitalisierung ist ein Werkzeug des Lernens, kein Ersatz für Bildung."
+          "quote": "Digitalisierung ist ein Werkzeug des Lernens, kein Ersatz für Bildung.",
+          "section": "Bildung"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 2,
+          "quote": "Smartphones und Tablets, die den Wissenserwerb nachweislich erschweren, wollen wir aus den Klassenzimmern der Grundschulen verbannen.",
+          "section": "Bildung"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 39,
+          "quote": "Wir treiben die Digitalisierung voran, um schnellere Vorgangsbearbeitungen zu ermöglichen, Bürokratie abzubauen und kürzere Ausschreibungsverfahren zu ermöglichen.",
+          "section": "Verwaltung"
         }
       ]
     },
@@ -15219,9 +15671,21 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Soziales",
           "page": 11,
-          "quote": "Armut bekämpfen Armut ist Realität in vielen Wohnvierteln in Berlin. Besonders schwer trifft sie Kinder, alte Menschen, Arbeitslose, Alleinerziehende und prekär Beschäftigte."
+          "quote": "Armut ist Realität in vielen Wohnvierteln in Berlin.",
+          "section": "Armut"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 2,
+          "quote": "Kein Arbeiter soll weniger als 15 Euro in der Stunde verdienen und kein Rentner mit einer Rente bis 2000 Euro Steuern bezahlen müssen.",
+          "section": "Arbeit"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 6,
+          "quote": "Das Land Berlin muss seine Kooperation mit den Mietervereinen zur Übernahme von Mitgliedsbeiträgen für Transferleistungsbeziehende (Bürgergeld ‑, Sozialhilfe ‑ und Grundsicherungsbeziehende) wieder aufnehmen und dauerhaft sichern.",
+          "section": "Mieterschutz"
         }
       ]
     },
@@ -15471,9 +15935,21 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Demokratie",
           "page": 18,
-          "quote": "Abgeordnetenhaus von Berlin Seite 18 von 66 Kulturhauptstadt Berlin Grundsätze Kunst muss frei sein: Frei von Disziplinierung durch politisch beeinflusste Preisvergaben und Förderentscheidungen, die regierungskonforme Positionen belohnen und regierungskritische Positionen ausgrenzen."
+          "quote": "Deshalb fordern wir e in Berliner Kulturfördergesetz, das den Rahmen für eine langfristige, verlässliche Kulturförderung schafft.",
+          "section": "Kultur"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 19,
+          "quote": "Kulturgebundene Verwendung der Übernachtungssteuer (CityTax) Die Einnahmen aus der CityTax verschwinden gegenwärtig im allgemeinen Landeshaushalt.",
+          "section": "CityTax"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 19,
+          "quote": "Kulturpass für Jugendliche Studien zur kulturellen Teilhabe zeigen, dass Jugendliche aus einkommensschwachen Familien deutlich seltener ins Theater, in Museen oder zu Konzerten gehen.",
+          "section": "Kulturpass"
         }
       ]
     },
@@ -15733,9 +16209,21 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Demokratie",
           "page": 26,
-          "quote": "Abgeordnetenhaus von Berlin Seite 26 von 66 Sport für alle Sport verbindet Menschen, hält gesund, fördert Integration und schenkt Kindern, Jugendlichen und Erwachsenen Lebensfreude."
+          "quote": "Wiederaufbau der Sportinfrastruktur Berlin hat seine Sportinfrastruktur jahrzehntelang vernachlässigt – und die regierenden Altparteien tragen die volle Verantwortung dafür.",
+          "section": "Sport"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 27,
+          "quote": "Breitensport und Vereine stärken: Kostenlose oder stark vergünstigte Nutzung kommunaler Anlagen für Vereine.",
+          "section": "Breitensport"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 53,
+          "quote": "Für die Olympiabewerbung an sich plant man zehn Millionen Euro ein, während eine tatsächliche Ausrichtung rund 16 Milliarden Euro kosten könnte.",
+          "section": "Olympia"
         }
       ]
     },
@@ -16021,9 +16509,21 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Demokratie",
-          "page": 31,
-          "quote": "Wir wollen echte Mitbestimmung der Beitragszahler. Im Rundfunkrat des rbb sitzen die Vertreter von Parteien und Verbänden, also des politischen Mainstreams."
+          "page": 32,
+          "quote": "Das wollen wir ändern und mehr direkte Demokratie in Berlin einführen.",
+          "section": "Demokratie"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 32,
+          "quote": "Gesetze, die durch einen Volksentscheid zustande gekommen sind, können nicht durch das Abgeordnetenhaus allein geändert werden, sondern müssen der Bevölkerung erneut zur Abstimmung gestellt werden (Bsp. Randbebauung Tempelhofer Feld).",
+          "section": "Volksentscheid"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 2,
+          "quote": "Wir lehnen die Wehrpflicht ab!",
+          "section": "Frieden"
         }
       ]
     },
@@ -16301,9 +16801,15 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Sicherheit",
-          "page": 27,
-          "quote": "Besondere Förderung für Frauen - und Mädchensport, Seniorensport sowie Integrationsprojekte. Mit diesen Schritten machen wir Berlin zur echten Sportstadt – nicht durch teure Spiele, sondern durch gelebten Sport im Alltag."
+          "page": 40,
+          "quote": "Häuslicher Gewalt und Gewalt gegen Frauen entschieden entgegentreten Wir unterstützen in Fällen, in denen Gefahr für Leib und Leben droht, das spanische Modell (elektronische Fußfessel bei Annäherungsverbot und Warnsystem für Betroffene) – richterlich angeordnet und verhältnismäßig.",
+          "section": "Gewalt"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 40,
+          "quote": "Das Angebot von Frauenhäusern bauen wir aus, mehrsprachige Hinweise auf Hilfsangebote (Ärzte, Ämter, Schulen) inklusive.",
+          "section": "Frauenhäuser"
         }
       ]
     },
@@ -16563,7 +17069,7 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "note": "kein Treffer zu queer / LGBTQ / LSBTI"
+          "note": "kein Treffer zu queer / LGBTQ / LSBTI / Homosexualität / Trans*"
         }
       ]
     },
@@ -16781,17 +17287,17 @@
       "partyId": "bsw",
       "stance": "none",
       "summary": {
-        "en": "no electoral-system reform in the program",
-        "de": "keine Wahlrechtsreform im Programm",
-        "ru": "в программе нет реформы избирательной системы",
-        "tr": "programda seçim sistemi reformu yok",
-        "pl": "brak reformy prawa wyborczego",
-        "uk": "у програмі немає реформи виборчої системи"
+        "en": "Zweitstimme and the 5% threshold are not addressed in the Berlin Wahlprogramm",
+        "de": "Zweitstimme und 5-Prozent-Hürde im Berliner Wahlprogramm nicht thematisiert",
+        "ru": "второй голос (Zweitstimme) и пятипроцентный барьер в берлинской программе не затрагиваются",
+        "tr": "Berlin seçim programında Zweitstimme ve %5 barajı ele alınmıyor",
+        "pl": "Zweitstimme i próg 5% nie są poruszane w berlińskim programie wyborczym",
+        "uk": "другий голос (Zweitstimme) і 5-відсотковий бар’єр у берлінській програмі не згадуються"
       },
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "note": "kein Treffer zu Wahlrechtsreform / 5-Prozent-Hürde / Zweitstimme"
+          "note": "kein Treffer zu Zweitstimme / 5-Prozent-Hürde / Sperrklausel / Wahlrechtsreform"
         }
       ]
     },
@@ -17035,9 +17541,25 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Demokratie",
-          "page": 64,
-          "quote": "Offene Systeme ermöglichen nicht nur Selbstbestimmung und Transparenz, sondern auch fairen Wettbewerb und mehr Innovationen."
+          "page": 54,
+          "quote": "Um finanzielle Spielräume für unser Gemeinwohl zu schaffen, müssen die von Lobbyisten erzielten Lücken in unserem Steuersystem geschlossen und Steuervermeidung und Steuerhinterziehung aktiv bekämpft werden.",
+          "section": "Lobby"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 53,
+          "quote": "Die Berliner Finanzämter müssen dazu gestärkt und personell besser ausgestattet werden.",
+          "section": "Finanzämter"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 31,
+          "quote": "Wir brauchen eine echte Transparenz über die Chefredakteure und die Chefs vom Dienst: Wer sind diese Leute, die letztlich darüber entscheiden, was wir zu sehen bekommen (und was nicht), und warum sind die auf diesen Posten?",
+          "section": "Medien"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "note": "kein Treffer zu Parteispendenregeln / Parteispendenobergrenze"
         }
       ]
     },
@@ -17277,9 +17799,13 @@
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Demokratie",
           "page": 5,
-          "quote": "Wir verbieten, wo immer möglich, Bundeswehr-Werbung an Schulen, auf BVG-Fahrzeugen, an Haltestellen und in öffentlichen Räumen."
+          "quote": "Wir verbieten, wo immer möglich, Bundeswehr-Werbung an Schulen, auf BVG-Fahrzeugen, an Haltestellen und in öffentlichen Räumen.",
+          "section": "Werbung"
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "note": "kein Treffer zu Alkohol-/Tabak-/Wettwerbung"
         }
       ]
     },
