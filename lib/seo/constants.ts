@@ -2,6 +2,12 @@ import type { Language } from "@/lib/i18n/types"
 
 export const BASE_URL = "https://www.berlin-2026.de"
 
+/** Sole public contact / feedback inbox (reports, mailto, privacy). */
+export const CONTACT_EMAIL = "feedback@berlin-2026.de"
+
+/** Resend “from” address using the same inbox. */
+export const CONTACT_FROM = `Berlin 2026 <${CONTACT_EMAIL}>`
+
 export const SUPPORTED_LANGUAGES = ["en", "de", "tr", "uk", "pl", "ru"] as const satisfies readonly Language[]
 
 export const DEFAULT_LANGUAGE: Language = "de"
