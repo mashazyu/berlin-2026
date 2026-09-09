@@ -1450,17 +1450,17 @@
       "partyId": "volt",
       "stance": "none",
       "summary": {
-        "en": "A100 / TVO motorway expansion is not addressed; mobility chapter focuses on ÖPNV, Vision Zero and reducing car dominance rather than naming those projects",
-        "de": "A100-/TVO-Autobahnausbau nicht thematisiert; Mobilitätskapitel setzt auf ÖPNV, Vision Zero und weniger Autovorrang, ohne diese Projekte zu nennen",
-        "ru": "расширение автобанов A100/TVO не затрагивается; глава о мобильности — ÖPNV, Vision Zero и меньше доминирования авто, без названия этих проектов",
-        "tr": "A100/TVO otoyol genişlemesi ele alınmıyor; mobilite bölümü ÖPNV, Vision Zero ve araba egemenliğini azaltmaya odaklanıyor, bu projeleri adlandırmadan",
-        "pl": "rozbudowa autostrad A100/TVO nieporuszana; rozdział o mobilności o ÖPNV, Vision Zero i mniejszej dominacji aut, bez nazw tych projektów",
-        "uk": "розширення автобанів A100/TVO не згадується; розділ про мобільність — ÖPNV, Vision Zero і менше домінування авто, без назви цих проєктів"
+        "en": "A100 / TVO not addressed in the program",
+        "de": "A100 / TVO im Programm nicht thematisiert",
+        "ru": "A100 / TVO в программе не упоминаются",
+        "tr": "Programda A100 / TVO ele alınmıyor",
+        "pl": "A100 / TVO nie są tematyzowane w programie",
+        "uk": "A100 / TVO у програмі не згадуються"
       },
       "sources": [
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
-          "note": "kein Treffer zu A100 / A 100 / TVO / Tangentialverbindung Ost als Autobahnprojekt; Mobilität ohne diese Projekte"
+          "note": "kein Treffer zu A100 / A 100 / TVO / Tangentialverbindung Ost als Autobahnprojekt"
         }
       ]
     },
@@ -1471,17 +1471,35 @@
       "summary": {
         "en": "stop further expansion of Stadtautobahn A100 and high-capacity roads such as TVO; outdated traffic forecasts, exploding costs, and counter to the Verkehrswende — fund climate-just mobility instead",
         "de": "weiteren Ausbau der Stadtautobahn A100 und hochrangiger Straßen wie der TVO stoppen; veraltete Verkehrsprognosen, explodierende Kosten und Gegenlauf zur Verkehrswende – stattdessen klimagerechte Mobilität",
-        "ru": "остановить дальнейшее расширение Stadtautobahn A100 и магистралей вроде TVO; устаревшие прогнозы, взрывные затраты и против Verkehrswende — вместо этого климатически справедливая мобильность",
-        "tr": "Stadtautobahn A100 ve TVO gibi yüksek kapasiteli yolların genişlemesini durdurmak; eski trafik tahminleri, patlayan maliyetler ve Verkehrswende’ye aykırı — iklim adaletli mobiliteye kaynak",
-        "pl": "zatrzymać dalszą rozbudowę Stadtautobahn A100 i dróg wysokiej klasy jak TVO; przestarzałe prognozy, eksplodujące koszty i sprzeczność z Verkehrswende — zamiast tego mobilność klimatyczna",
-        "uk": "зупинити подальше розширення Stadtautobahn A100 і магістралей на кшталт TVO; застарілі прогнози, вибухові витрати і проти Verkehrswende — замість цього кліматично справедлива мобільність"
+        "ru": "остановить дальнейшее расширение городской автомагистрали A100 и мощных дорог вроде TVO; устаревшие прогнозы, взрывные затраты и против Verkehrswende — вместо этого климатически справедливая мобильность",
+        "tr": "Stadtautobahn A100 ve TVO gibi yüksek kapasiteli yolların daha fazla genişlemesini durdurmak; eski trafik tahminleri, patlayan maliyetler ve Verkehrswende’ye aykırı — bunun yerine iklim-adil mobilite",
+        "pl": "zatrzymać dalszą rozbudowę Stadtautobahn A100 i dróg wysokiej przepustowości jak TVO; przestarzałe prognozy, eksplodujące koszty i sprzeczność z Verkehrswende — zamiast tego mobilność przyjazna klimatowi",
+        "uk": "зупинити подальше розширення міської автомагістралі A100 і високонавантажених доріг на кшталт TVO; застарілі прогнози, вибухові витрати й супротив Verkehrswende — замість цього кліматично справедлива мобільність"
       },
       "sources": [
         {
           "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
-          "section": "Mobilität und Verkehr",
           "page": 15,
+          "section": "Stadtautobahn-Ausbau stoppen",
           "quote": "Wir werden den weiteren Ausbau der Stadtautobahn A 100 und anderer hochrangiger Straßen wie der Tangentialverbindung Ost (TVO) im Berliner Südosten verhindern."
+        },
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "page": 15,
+          "section": "Stadtautobahn-Ausbau stoppen",
+          "quote": "Die zugrunde liegenden Verkehrsprognosen sind veraltet, während der Bau einer neuen Hochleistungsstraße die Verkehrswende konterkariert."
+        },
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "page": 15,
+          "section": "Stadtautobahn-Ausbau stoppen",
+          "quote": "Zugleich explodieren die Kosten so stark, dass das Projekt nicht mehr realisierbar sein könnte."
+        },
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "page": 15,
+          "section": "Stadtautobahn-Ausbau stoppen",
+          "quote": "Statt Milliarden in neue Straßen für den motorisierten Individualverkehr zu stecken, setzen wir uns für eine klimagerechte Mobilitätsplanung ein, die Stadtteile lebenswert und emissionsarm verbindet."
         }
       ]
     },
@@ -1689,31 +1707,37 @@
       "partyId": "bsw",
       "stance": "for",
       "summary": {
-        "en": "A100 to Storkower Straße; complete TVO and other central road/rail projects faster and coordinate them better",
-        "de": "A100 bis Storkower Straße; TVO und andere zentrale Straßen-/Schienenprojekte schneller fertigstellen und besser koordinieren",
-        "ru": "A100 до Storkower Straße; достроить TVO и другие центральные дорожные/рельсовые проекты быстрее и лучше координировать",
-        "tr": "A100’ü Storkower Straße’ye; TVO ve diğer merkezi yol/ray projelerini daha hızlı tamamlamak ve daha iyi koordine etmek",
-        "pl": "A100 do Storkower Straße; szybciej dokończyć TVO i inne kluczowe projekty drogowe/kolejowe oraz lepiej je koordynować",
-        "uk": "A100 до Storkower Straße; завершуйте TVO та інші проекти центральних доріг/залізниць швидше та краще їх координуйте"
+        "en": "relieve bottlenecks in Berlin’s road network; finish A100 to Storkower Straße; expand TVO and coordinate major road/rail worksites faster",
+        "de": "Engpässe im Berliner Straßennetz entlasten; A100 bis Storkower Straße fertigstellen; TVO ausbauen und zentrale Straßen-/Schienenbaustellen besser koordinieren",
+        "ru": "снять узкие места улично-дорожной сети Берлина; достроить A100 до Storkower Straße; развивать TVO и лучше координировать крупные дорожно-рельсовые стройки",
+        "tr": "Berlin yol ağındaki darboğazları rahatlatmak; A100’ü Storkower Straße’ye kadar bitirmek; TVO’yu genişletmek ve merkezi yol/ray şantiyelerini daha iyi koordine etmek",
+        "pl": "odciążyć wąskie gardła sieci drogowej Berlina; dokończyć A100 do Storkower Straße; rozbudować TVO i lepiej koordynować centralne budowy dróg/torów",
+        "uk": "розвантажити вузькі місця дорожньої мережі Берліна; добудувати A100 до Storkower Straße; розширити TVO і краще координувати центральні дорожньо-рейкові будови"
       },
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
           "page": 49,
-          "quote": "Die Fortführung des 17. Bauabschnitts der A100 bis zur Storkower Straße befürworten wir.",
-          "section": "Verkehr"
+          "section": "Verkehr",
+          "quote": "Dazu gehört für uns auch, bestehende Engpässe im Berliner Straßennetz gezielt zu entlasten."
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 49,
+          "section": "Verkehr",
+          "quote": "Die Fortführung des 17. Bauabschnitts der A100 bis zur Storkower Straße befürworten wir."
         },
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
           "page": 50,
-          "quote": "Dazu gehören auch die Optimierung von Ampelschaltungen, die bessere Anpassung an Umleitungen und Baustellen sowie der Ausbau zentraler Verbindungen wie der Tangentialen Verbindung Ost (TVO).",
-          "section": "Verkehr"
+          "section": "Verkehr",
+          "quote": "Dazu gehören auch die Optimierung von Ampelschaltungen, die bessere Anpassung an Umleitungen und Baustellen sowie der Ausbau zentraler Verbindungen wie der Tangentialen Verbindung Ost (TVO)."
         },
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
           "page": 50,
-          "quote": "Baustellen besser koordinieren Zentrale Straßen- und Schienenprojekte müssen schneller und besser koordiniert umgesetzt werden.",
-          "section": "Baustellen"
+          "section": "Baustellen",
+          "quote": "Zentrale Straßenund Schienenprojekte müssen schneller und besser koordiniert umgesetzt werden."
         }
       ]
     },
@@ -1722,19 +1746,43 @@
       "partyId": "volt",
       "stance": "mixed",
       "summary": {
-        "en": "emphasis on safe streets, Vision Zero, reducing through traffic and faster completion of road/sidewalk worksites",
-        "de": "Schwerpunkt auf sichere Straßen, Vision Zero, weniger Durchgangsverkehr und schnellere Fertigstellung von Straßen-/Gehwegbaustellen",
-        "ru": "фокус на безопасных улицах, Vision Zero, снижении транзитного трафика и более быстром завершении дорожных/тротуарных стройплощадок",
-        "tr": "odak güvenli sokaklar, Vision Zero, transit trafiği azaltmak ve yol/kaldırım şantiyelerini daha hızlı bitirmek",
-        "pl": "nacisk na bezpieczne ulice, Vision Zero, ograniczenie ruchu tranzytowego i szybsze kończenie robót na drogach/chodnikach",
-        "uk": "акцент на безпечних вулицях, Vision Zero, зменшення наскрізного трафіку та швидше завершення робіт на дорогах/тротуарах"
+        "en": "Vision Zero / safer intersections and Tempo 30; end worksite chaos so road and sidewalk works disrupt traffic only while work is actually happening",
+        "de": "Vision Zero / sicherere Kreuzungen und Tempo 30; Baustellenchaos beenden, damit Straßen- und Gehwegbaustellen den Verkehr nur während echter Arbeit beeinträchtigen",
+        "ru": "Vision Zero / более безопасные перекрёстки и Tempo 30; покончить с хаосом строек, чтобы дорожные и тротуарные работы мешали только во время реальной работы",
+        "tr": "Vision Zero / daha güvenli kavşaklar ve Tempo 30; yol ve kaldırım şantiyelerinin trafiği yalnızca gerçekten çalışılırken etkilemesi için şantiye kaosunu bitirmek",
+        "pl": "Vision Zero / bezpieczniejsze skrzyżowania i Tempo 30; koniec chaosu budów, by roboty drogowe i chodnikowe utrudniały ruch tylko podczas realnej pracy",
+        "uk": "Vision Zero / безпечніші перехрестя і Tempo 30; покінчити з хаосом будов, щоб дорожні та тротуарні роботи заважали лише під час реальної роботи"
       },
       "sources": [
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "page": 33,
           "section": "Jetzt Straßen sicher machen",
-          "quote": "Wir starten ein Sofortprogramm, um Kreuzungen sicherer zu machen und alle Unfallschwerpunkte bis 2030 zu beseitigen.",
-          "page": 33
+          "quote": "Wir starten ein Sofortprogramm, um Kreuzungen sicherer zu machen und alle Unfallschwerpunkte bis 2030 zu beseitigen."
+        },
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "page": 33,
+          "section": "Jetzt Straßen sicher machen",
+          "quote": "Best Practice Helsinki: Die Stadt erreichte im Juli 2025 erstmals zwölf Monate ohne Verkehrstote dank konsequentem Tempo 30 auf den meisten innerstädtischen Straßen und wirksamer Geschwindigkeitskontrollen im Rahmen der „Vision Zero“-Strategie."
+        },
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "page": 33,
+          "section": "Jetzt Straßen sicher machen",
+          "quote": "Gleichzeitig arbeiten wir auf Bundesebene daran, Tempo-30 als Regelgeschwindigkeit in Innenstädten festzuschreiben, um Unfälle zu vermeiden und die Aufenthaltsqualität zu erhöhen."
+        },
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "page": 34,
+          "section": "Jetzt Baustellen reduzieren",
+          "quote": "Wir beenden das Baustellenchaos, damit Baustellen den Verkehr nur so lange beeinträchtigen, wie dort auch wirklich gearbeitet wird."
+        },
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "page": 34,
+          "section": "Jetzt Baustellen reduzieren",
+          "quote": "Wir setzen auf eine rechtssichere Durchsetzung von pauschalierten Vertragsstrafen bei Fristüberschreitungen von Straßenund Gehwegbaustellen."
         }
       ]
     },
@@ -1743,19 +1791,25 @@
       "partyId": "tierschutz",
       "stance": "against",
       "summary": {
-        "en": "against new major roads for private car traffic; for transport planning that reduces emissions",
-        "de": "gegen neue Großstraßen für den privaten Autoverkehr; für Verkehrsplanung, die Emissionen senkt",
-        "ru": "против новых крупных дорог для индивидуального автотранспорта; за транспортное планирование, снижающее выбросы",
-        "tr": "özel otomobil trafiği için yeni büyük yollara karşı; emisyonları azaltan ulaşım planlaması için",
-        "pl": "przeciw nowym dużym drogom dla ruchu prywatnych samochodów; za planowaniem transportu ograniczającym emisje",
-        "uk": "проти нових магістральних доріг для руху приватних автомобілів; для планування транспорту, що зменшує викиди"
+        "en": "against new major roads for private car traffic; for climate-just transport planning that keeps districts livable and low-emission",
+        "de": "gegen neue Großstraßen für den privaten Autoverkehr; für klimagerechte Mobilitätsplanung, die Stadtteile lebenswert und emissionsarm verbindet",
+        "ru": "против новых крупных дорог для частного автотрафика; за климатически справедливое планирование мобильности, связывающее районы с низкими выбросами",
+        "tr": "özel araç trafiği için yeni büyük yollara karşı; semtleri yaşanabilir ve düşük emisyonlu bağlayan iklim-adil mobilite planlaması için",
+        "pl": "przeciw nowym wielkim drogom dla prywatnego ruchu samochodowego; za sprawiedliwym klimatycznie planowaniem mobilności łączącym dzielnice niskoemisyjnie",
+        "uk": "проти нових великих доріг для приватного автотрафіку; за кліматично справедливе планування мобільності, що з’єднує райони з низькими викидами"
       },
       "sources": [
         {
           "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
-          "section": "Mobilität und Verkehr",
           "page": 15,
+          "section": "Stadtautobahn-Ausbau stoppen",
           "quote": "Wir werden den weiteren Ausbau der Stadtautobahn A 100 und anderer hochrangiger Straßen wie der Tangentialverbindung Ost (TVO) im Berliner Südosten verhindern."
+        },
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "page": 15,
+          "section": "Stadtautobahn-Ausbau stoppen",
+          "quote": "Statt Milliarden in neue Straßen für den motorisierten Individualverkehr zu stecken, setzen wir uns für eine klimagerechte Mobilitätsplanung ein, die Stadtteile lebenswert und emissionsarm verbindet."
         }
       ]
     },
