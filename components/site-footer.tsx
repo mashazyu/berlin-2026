@@ -2,6 +2,7 @@
 
 import Link from "next/link"
 import { useLanguage } from "@/components/language-provider"
+import { CONTACT_EMAIL } from "@/lib/seo/constants"
 
 export function SiteFooter() {
   const { language, translations: t } = useLanguage()
@@ -45,7 +46,7 @@ export function SiteFooter() {
               {t.footer.privacy}
             </Link>
             <a
-              href="mailto:feedback.berlin.2026@gmail.com"
+              href={`mailto:${CONTACT_EMAIL}`}
               className="transition-colors hover:text-foreground"
             >
               {t.footer.contact}

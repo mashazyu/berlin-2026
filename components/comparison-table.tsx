@@ -1,6 +1,13 @@
 "use client"
 
-import { useDeferredValue, useMemo, useRef, useState } from "react"
+import {
+  useDeferredValue,
+  useEffect,
+  useLayoutEffect,
+  useMemo,
+  useRef,
+  useState,
+} from "react"
 import { ChevronDown, ExternalLink, Search, X } from "lucide-react"
 import { useLanguage } from "@/components/language-provider"
 import { groupTopics, TOPIC_GROUP_ORDER } from "@/lib/comparison/groups"
@@ -15,8 +22,65 @@ const CURRENT_FACTION_PARTY_IDS = [
   "linke",
   "afd",
 ] as const
+const SELECTED_PARTIES_STORAGE_KEY = "berlin-2026:selected-parties"
 const TOPIC_COL_PX = 220
 const PARTY_COL_PX = 160
+
+function readStoredPartyIds(validIds: Set<string>): string[] | null {
+  try {
+    const raw = localStorage.getItem(SELECTED_PARTIES_STORAGE_KEY)
+    if (!raw) return null
+    const parsed = JSON.parse(raw)
+    if (!Array.isArray(parsed)) return null
+    const ids = parsed.filter(
+      (id): id is string => typeof id === "string" && validIds.has(id)
+    )
+    return ids.length > 0 ? ids : null
+  } catch {
+    return null
+  }
+}
+
+function SourceEvidence({
+  quotes,
+  quoteLabel,
+  linkLabel,
+}: {
+  quotes?: Array<{ quote: string; href: string }>
+  quoteLabel: string
+  linkLabel: string
+}) {
+  if (!quotes?.length) return null
+
+  return (
+    <div className="mt-2 space-y-2">
+      <span className="block text-[10px] font-semibold uppercase tracking-wide text-muted-foreground/80">
+        {quoteLabel}
+      </span>
+      <ul className="space-y-2">
+        {quotes.map((item) => (
+          <li key={item.quote}>
+            <a
+              href={item.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block rounded-sm text-foreground/80 transition-colors hover:text-primary"
+              title={linkLabel}
+              onClick={(event) => event.stopPropagation()}
+            >
+              <span className="text-[12px] leading-snug">„{item.quote}“</span>
+              <ExternalLink
+                className="ml-1 inline h-3 w-3 shrink-0 align-text-bottom opacity-60"
+                aria-hidden
+              />
+              <span className="sr-only">{linkLabel}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  )
+}
 
 export function ComparisonTable({
   comparison,
@@ -29,6 +93,7 @@ export function ComparisonTable({
   const [selectedIds, setSelectedIds] = useState<string[]>([
     ...CURRENT_FACTION_PARTY_IDS,
   ])
+  const [selectionReady, setSelectionReady] = useState(false)
   const [openTopicId, setOpenTopicId] = useState<string | null>(null)
   const [openMobileGroup, setOpenMobileGroup] = useState<TopicGroup | null>(null)
   const [topicQuery, setTopicQuery] = useState("")
@@ -40,6 +105,43 @@ export function ComparisonTable({
   const headerScrollRef = useRef<HTMLDivElement>(null)
   const bodyScrollRef = useRef<HTMLDivElement>(null)
   const syncingScroll = useRef(false)
+  /** Keep the tapped accordion control fixed in the viewport across layout changes. */
+  const mobileScrollAnchor = useRef<{ el: HTMLElement; top: number } | null>(
+    null
+  )
+
+  useLayoutEffect(() => {
+    const anchor = mobileScrollAnchor.current
+    if (!anchor) return
+    mobileScrollAnchor.current = null
+    const delta = anchor.el.getBoundingClientRect().top - anchor.top
+    if (Math.abs(delta) > 0.5) {
+      window.scrollBy({ top: delta, left: 0, behavior: "auto" })
+    }
+  }, [openMobileGroup, openTopicId])
+
+  const validPartyIds = useMemo(
+    () => new Set(parties.map((party) => party.id)),
+    [parties]
+  )
+
+  useEffect(() => {
+    const stored = readStoredPartyIds(validPartyIds)
+    if (stored) setSelectedIds(stored)
+    setSelectionReady(true)
+  }, [validPartyIds])
+
+  useEffect(() => {
+    if (!selectionReady) return
+    try {
+      localStorage.setItem(
+        SELECTED_PARTIES_STORAGE_KEY,
+        JSON.stringify(selectedIds)
+      )
+    } catch {
+      // Ignore quota / private-mode write failures.
+    }
+  }, [selectedIds, selectionReady])
 
   const selectedParties = useMemo(
     () => parties.filter((party) => selectedIds.includes(party.id)),
@@ -106,9 +208,24 @@ export function ComparisonTable({
     })
   }
 
-  function toggleMobileGroup(group: TopicGroup) {
+  function captureMobileScrollAnchor(el: HTMLElement) {
+    // Accordion height changes can fire scroll; don't snap to section headings.
+    window.dispatchEvent(new CustomEvent("section-nav-start"))
+    mobileScrollAnchor.current = {
+      el,
+      top: el.getBoundingClientRect().top,
+    }
+  }
+
+  function toggleMobileGroup(group: TopicGroup, el: HTMLElement) {
+    captureMobileScrollAnchor(el)
     setOpenMobileGroup((current) => (current === group ? null : group))
     setOpenTopicId(null)
+  }
+
+  function toggleMobileTopic(topicId: string, el: HTMLElement) {
+    captureMobileScrollAnchor(el)
+    setOpenTopicId((current) => (current === topicId ? null : topicId))
   }
 
   function isDesktopGroupCollapsed(group: TopicGroup) {
@@ -243,14 +360,14 @@ export function ComparisonTable({
         ) : (
         <>
         {/* Mobile: one group at a time; topics show party short-name strip */}
-        <div className="mt-6 space-y-3 lg:hidden">
+        <div className="mt-6 space-y-3 [overflow-anchor:none] lg:hidden">
           {topicGroups.map(({ group, topics: groupTopicList }) => {
             const open = isMobileGroupOpen(group)
             const groupLabel = t.comparison.groups[group]
             return (
               <div
                 key={group}
-                className="overflow-hidden rounded-xl border border-border bg-white"
+                className="overflow-hidden rounded-xl border border-border bg-white [overflow-anchor:none]"
               >
                 <button
                   type="button"
@@ -258,7 +375,9 @@ export function ComparisonTable({
                   aria-expanded={open}
                   aria-label={open ? t.comparison.collapseGroup : t.comparison.expandGroup}
                   disabled={forceExpandGroups}
-                  onClick={() => toggleMobileGroup(group)}
+                  onClick={(event) =>
+                    toggleMobileGroup(group, event.currentTarget)
+                  }
                 >
                   <span className="font-display text-base font-semibold tracking-[-0.01em] text-foreground">
                     {groupLabel}
@@ -284,10 +403,8 @@ export function ComparisonTable({
                             type="button"
                             className="flex w-full flex-col gap-2.5 px-4 py-3.5 text-left"
                             aria-expanded={detailOpen}
-                            onClick={() =>
-                              setOpenTopicId((current) =>
-                                current === topic.id ? null : topic.id
-                              )
+                            onClick={(event) =>
+                              toggleMobileTopic(topic.id, event.currentTarget)
                             }
                           >
                             <span className="flex items-start justify-between gap-3">
@@ -328,9 +445,11 @@ export function ComparisonTable({
                                       <span className="text-sm font-semibold text-foreground">
                                         {party.shortName}
                                       </span>
-                                      {party.programUrl ? (
+                                      {(cell?.programHref || party.programUrl) ? (
                                         <a
-                                          href={party.programUrl}
+                                          href={
+                                            cell?.programHref || party.programUrl
+                                          }
                                           target="_blank"
                                           rel="noopener noreferrer"
                                           className="inline-flex items-center gap-1 text-xs text-primary hover:underline"
@@ -347,6 +466,13 @@ export function ComparisonTable({
                                     <p className="text-sm leading-relaxed text-muted-foreground">
                                       {summary || t.comparison.emptyCell}
                                     </p>
+                                    {cell?.sourceQuotes?.length ? (
+                                      <SourceEvidence
+                                        quotes={cell.sourceQuotes}
+                                        quoteLabel={t.comparison.sourceQuote}
+                                        linkLabel={t.comparison.sourceQuoteLink}
+                                      />
+                                    ) : null}
                                   </li>
                                 )
                               })}
@@ -474,6 +600,13 @@ export function ComparisonTable({
                                     <span className="text-[13px] leading-snug">
                                       {summary || t.comparison.emptyCell}
                                     </span>
+                                    {cell?.sourceQuotes?.length ? (
+                                      <SourceEvidence
+                                        quotes={cell.sourceQuotes}
+                                        quoteLabel={t.comparison.sourceQuote}
+                                        linkLabel={t.comparison.sourceQuoteLink}
+                                      />
+                                    ) : null}
                                   </td>
                                 )
                               })}

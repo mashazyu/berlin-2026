@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server"
 import { Resend } from "resend"
 import { verifyTurnstileToken } from "@/lib/feedback/verify-turnstile"
+import { CONTACT_EMAIL, CONTACT_FROM } from "@/lib/seo/constants"
 
 export const runtime = "nodejs"
 
@@ -90,7 +91,6 @@ export async function POST(request: Request) {
   const pageUrl = (body.pageUrl ?? "").slice(0, MAX_CONTEXT)
   const locale = (body.locale ?? "").slice(0, 16)
   const context = (body.context ?? "").slice(0, MAX_CONTEXT)
-  const to = process.env.FEEDBACK_TO_EMAIL || "feedback.berlin.2026@gmail.com"
   const subject =
     kind === "text-report"
       ? `[Berlin 2026] Text correction (${locale || "site"})`
@@ -121,12 +121,10 @@ export async function POST(request: Request) {
   }
 
   const resend = new Resend(apiKey)
-  const from =
-    process.env.FEEDBACK_FROM_EMAIL || "Berlin 2026 <onboarding@resend.dev>"
 
   const { error } = await resend.emails.send({
-    from,
-    to: [to],
+    from: CONTACT_FROM,
+    to: [CONTACT_EMAIL],
     replyTo: email || undefined,
     subject,
     text,
@@ -136,10 +134,9 @@ export async function POST(request: Request) {
     console.error("[feedback] Resend error:", error)
     return NextResponse.json(
       {
-        error:
-          error.message?.includes("domain is not verified")
-            ? "Email domain is not verified in Resend yet. Use onboarding@resend.dev as FEEDBACK_FROM_EMAIL until DNS is verified."
-            : "Failed to send feedback",
+        error: error.message?.includes("domain is not verified")
+          ? `Email domain is not verified in Resend yet for ${CONTACT_EMAIL}.`
+          : "Failed to send feedback",
       },
       { status: 502 }
     )
