@@ -3595,14 +3595,14 @@
     {
       "topicId": "nuclear-energy",
       "partyId": "cdu",
-      "stance": "for",
+      "stance": "none",
       "summary": {
-        "en": "for returning to nuclear energy; Berlin as a center of nuclear research",
-        "de": "für die Rückkehr zur Kernenergie; Berlin als Zentrum der Nuklearforschung",
-        "ru": "за возвращение ядерной энергетики; Берлин как центр ядерных исследований",
-        "tr": "nükleer enerjiye dönüşten yana; Berlin nükleer araştırma merkezi olarak",
-        "pl": "za powrotem do energii jądrowej; Berlin jako centrum badań jądrowych",
-        "uk": "за повернення до атомної енергетики; Берлін як центр ядерних досліджень"
+        "en": "not addressed in the Berlin Regierungsprogramm",
+        "de": "im Berliner Regierungsprogramm nicht thematisiert",
+        "ru": "в берлинской правительственной программе не затрагивается",
+        "tr": "Berlin hükümet programında ele alınmıyor",
+        "pl": "nieporuszane w berlińskim programie rządowym",
+        "uk": "у берлінській урядовій програмі не згадується"
       }
     },
     {
