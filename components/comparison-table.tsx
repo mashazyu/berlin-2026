@@ -3,6 +3,7 @@
 import {
   useDeferredValue,
   useEffect,
+  useLayoutEffect,
   useMemo,
   useRef,
   useState,
@@ -104,6 +105,20 @@ export function ComparisonTable({
   const headerScrollRef = useRef<HTMLDivElement>(null)
   const bodyScrollRef = useRef<HTMLDivElement>(null)
   const syncingScroll = useRef(false)
+  /** Keep the tapped accordion control fixed in the viewport across layout changes. */
+  const mobileScrollAnchor = useRef<{ el: HTMLElement; top: number } | null>(
+    null
+  )
+
+  useLayoutEffect(() => {
+    const anchor = mobileScrollAnchor.current
+    if (!anchor) return
+    mobileScrollAnchor.current = null
+    const delta = anchor.el.getBoundingClientRect().top - anchor.top
+    if (Math.abs(delta) > 0.5) {
+      window.scrollBy({ top: delta, left: 0, behavior: "auto" })
+    }
+  }, [openMobileGroup, openTopicId])
 
   const validPartyIds = useMemo(
     () => new Set(parties.map((party) => party.id)),
@@ -193,9 +208,24 @@ export function ComparisonTable({
     })
   }
 
-  function toggleMobileGroup(group: TopicGroup) {
+  function captureMobileScrollAnchor(el: HTMLElement) {
+    // Accordion height changes can fire scroll; don't snap to section headings.
+    window.dispatchEvent(new CustomEvent("section-nav-start"))
+    mobileScrollAnchor.current = {
+      el,
+      top: el.getBoundingClientRect().top,
+    }
+  }
+
+  function toggleMobileGroup(group: TopicGroup, el: HTMLElement) {
+    captureMobileScrollAnchor(el)
     setOpenMobileGroup((current) => (current === group ? null : group))
     setOpenTopicId(null)
+  }
+
+  function toggleMobileTopic(topicId: string, el: HTMLElement) {
+    captureMobileScrollAnchor(el)
+    setOpenTopicId((current) => (current === topicId ? null : topicId))
   }
 
   function isDesktopGroupCollapsed(group: TopicGroup) {
@@ -330,14 +360,14 @@ export function ComparisonTable({
         ) : (
         <>
         {/* Mobile: one group at a time; topics show party short-name strip */}
-        <div className="mt-6 space-y-3 lg:hidden">
+        <div className="mt-6 space-y-3 [overflow-anchor:none] lg:hidden">
           {topicGroups.map(({ group, topics: groupTopicList }) => {
             const open = isMobileGroupOpen(group)
             const groupLabel = t.comparison.groups[group]
             return (
               <div
                 key={group}
-                className="overflow-hidden rounded-xl border border-border bg-white"
+                className="overflow-hidden rounded-xl border border-border bg-white [overflow-anchor:none]"
               >
                 <button
                   type="button"
@@ -345,7 +375,9 @@ export function ComparisonTable({
                   aria-expanded={open}
                   aria-label={open ? t.comparison.collapseGroup : t.comparison.expandGroup}
                   disabled={forceExpandGroups}
-                  onClick={() => toggleMobileGroup(group)}
+                  onClick={(event) =>
+                    toggleMobileGroup(group, event.currentTarget)
+                  }
                 >
                   <span className="font-display text-base font-semibold tracking-[-0.01em] text-foreground">
                     {groupLabel}
@@ -371,10 +403,8 @@ export function ComparisonTable({
                             type="button"
                             className="flex w-full flex-col gap-2.5 px-4 py-3.5 text-left"
                             aria-expanded={detailOpen}
-                            onClick={() =>
-                              setOpenTopicId((current) =>
-                                current === topic.id ? null : topic.id
-                              )
+                            onClick={(event) =>
+                              toggleMobileTopic(topic.id, event.currentTarget)
                             }
                           >
                             <span className="flex items-start justify-between gap-3">
