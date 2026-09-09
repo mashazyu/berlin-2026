@@ -131,11 +131,11 @@ export function FeedbackFab() {
         aria-label={t.feedback.fabLabel}
         title={t.feedback.fabLabel}
         className={cn(
-          "fixed right-4 bottom-4 z-40 flex h-10 w-10 items-center justify-center rounded-full",
+          "fixed end-4 bottom-4 z-40 flex h-10 w-10 items-center justify-center rounded-full",
           "border border-border/80 bg-white/90 text-muted-foreground shadow-sm backdrop-blur-sm",
           "transition-colors hover:border-border hover:bg-white hover:text-foreground",
           "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2",
-          "sm:right-5 sm:bottom-5"
+          "sm:end-5 sm:bottom-5"
         )}
       >
         <MessageSquare className="h-4 w-4" strokeWidth={1.75} aria-hidden />

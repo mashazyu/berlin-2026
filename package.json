@@ -11,7 +11,8 @@
     "type-check": "tsc --noEmit --incremental false",
     "encode:comparison": "node scripts/encode-comparison.mjs",
     "regen:og-fonts": "node scripts/regen-og-fonts.mjs",
-    "verify:citations": "python3 scripts/verify-citations.py --force-extract",
+    "verify:citations": "python3 scripts/verify-citations.py",
+    "verify:citations:refresh": "python3 scripts/verify-citations.py --force-extract",
     "verify:relevance": "python3 scripts/verify-relevance.py"
   },
   "dependencies": {

@@ -69,7 +69,7 @@ function SourceEvidence({
             >
               <span className="text-[12px] leading-snug">„{item.quote}“</span>
               <ExternalLink
-                className="ml-1 inline h-3 w-3 shrink-0 align-text-bottom opacity-60"
+                className="ms-1 inline h-3 w-3 shrink-0 align-text-bottom opacity-60"
                 aria-hidden
               />
               <span className="sr-only">{linkLabel}</span>
@@ -245,7 +245,7 @@ export function ComparisonTable({
           <div className="flex flex-wrap items-center justify-between gap-3">
             <p className="text-sm font-medium text-foreground">
               {t.comparison.partiesLabel}
-              <span className="ml-2 font-normal text-muted-foreground">
+              <span className="ms-2 font-normal text-muted-foreground">
                 ({countLabel})
               </span>
             </p>
@@ -292,7 +292,7 @@ export function ComparisonTable({
 
           <div className="relative mt-4">
             <Search
-              className="pointer-events-none absolute top-1/2 left-3 h-4 w-4 -translate-y-1/2 text-muted-foreground"
+              className="pointer-events-none absolute top-1/2 start-3 h-4 w-4 -translate-y-1/2 text-muted-foreground"
               aria-hidden
             />
             <input
@@ -301,13 +301,13 @@ export function ComparisonTable({
               onChange={(event) => setTopicQuery(event.target.value)}
               placeholder={t.comparison.searchPlaceholder}
               aria-label={t.comparison.searchPlaceholder}
-              className="h-10 w-full rounded-md border border-border bg-background pr-10 pl-9 text-sm text-foreground outline-none transition-colors placeholder:text-muted-foreground focus:border-primary focus:ring-2 focus:ring-primary/20"
+              className="h-10 w-full rounded-md border border-border bg-background pe-10 ps-9 text-sm text-foreground outline-none transition-colors placeholder:text-muted-foreground focus:border-primary focus:ring-2 focus:ring-primary/20"
             />
             {topicQuery && (
               <button
                 type="button"
                 onClick={() => setTopicQuery("")}
-                className="absolute top-1/2 right-2 inline-flex h-7 w-7 -translate-y-1/2 items-center justify-center rounded-md text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
+                className="absolute top-1/2 end-2 inline-flex h-7 w-7 -translate-y-1/2 items-center justify-center rounded-md text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
                 aria-label={t.comparison.searchClear}
               >
                 <X className="h-4 w-4" />
@@ -341,7 +341,7 @@ export function ComparisonTable({
               >
                 <button
                   type="button"
-                  className="flex w-full items-center justify-between gap-3 bg-muted/50 px-4 py-3.5 text-left disabled:cursor-default"
+                  className="flex w-full items-center justify-between gap-3 bg-muted/50 px-4 py-3.5 text-start disabled:cursor-default"
                   aria-expanded={open}
                   aria-label={open ? t.comparison.collapseGroup : t.comparison.expandGroup}
                   disabled={forceExpandGroups}
@@ -349,7 +349,7 @@ export function ComparisonTable({
                 >
                   <span className="font-display text-base font-semibold tracking-[-0.01em] text-foreground">
                     {groupLabel}
-                    <span className="ml-2 text-sm font-normal text-muted-foreground">
+                    <span className="ms-2 text-sm font-normal text-muted-foreground">
                       ({groupTopicList.length})
                     </span>
                   </span>
@@ -369,7 +369,7 @@ export function ComparisonTable({
                         <li key={topic.id}>
                           <button
                             type="button"
-                            className="flex w-full flex-col gap-2.5 px-4 py-3.5 text-left"
+                            className="flex w-full flex-col gap-2.5 px-4 py-3.5 text-start"
                             aria-expanded={detailOpen}
                             onClick={() =>
                               setOpenTopicId((current) =>
@@ -466,7 +466,7 @@ export function ComparisonTable({
             className="sticky top-14 z-30 overflow-x-auto rounded-t-xl border border-border bg-muted shadow-[0_1px_0_hsl(var(--border))] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
           >
             <table
-              className="w-full table-fixed border-collapse text-left text-sm"
+              className="w-full table-fixed border-collapse text-start text-sm"
               style={{ minWidth: tableMinWidth }}
             >
               <colgroup>
@@ -479,7 +479,7 @@ export function ComparisonTable({
                 <tr>
                   <th
                     scope="col"
-                    className="sticky left-0 z-40 border-r border-border bg-muted px-3 py-3 text-xs font-semibold uppercase tracking-wide text-foreground"
+                    className="sticky start-0 z-40 border-e border-border bg-muted px-3 py-3 text-xs font-semibold uppercase tracking-wide text-foreground"
                   >
                     {t.comparison.topicColumn}
                   </th>
@@ -512,7 +512,7 @@ export function ComparisonTable({
             className="overflow-x-auto rounded-b-xl border border-t-0 border-border bg-white"
           >
             <table
-              className="w-full table-fixed border-collapse text-left text-sm"
+              className="w-full table-fixed border-collapse text-start text-sm"
               style={{ minWidth: tableMinWidth }}
             >
               <colgroup>
@@ -548,7 +548,7 @@ export function ComparisonTable({
                             >
                               <th
                                 scope="row"
-                                className="sticky left-0 z-10 border-r border-border px-3 py-3 align-top text-left font-medium text-foreground"
+                                className="sticky start-0 z-10 border-e border-border px-3 py-3 align-top text-start font-medium text-foreground"
                                 style={{
                                   backgroundColor:
                                     rowIndex % 2 === 0
@@ -624,7 +624,7 @@ function GroupRows({
       <tr className="bg-section-muted">
         <th
           colSpan={colSpan}
-          className="sticky left-0 z-20 border-y border-border p-0 text-left"
+          className="sticky start-0 z-20 border-y border-border p-0 text-start"
           style={{ minWidth: topicColPx }}
         >
           <button
@@ -633,11 +633,11 @@ function GroupRows({
             disabled={disableToggle}
             aria-expanded={!collapsed}
             aria-label={collapsed ? expandLabel : collapseLabel}
-            className="flex w-full items-center justify-between gap-3 px-3 py-2.5 text-left transition-colors hover:bg-muted/80 disabled:cursor-default disabled:hover:bg-transparent"
+            className="flex w-full items-center justify-between gap-3 px-3 py-2.5 text-start transition-colors hover:bg-muted/80 disabled:cursor-default disabled:hover:bg-transparent"
           >
             <span className="font-display text-sm font-semibold tracking-[-0.01em] text-foreground">
               {groupLabel}
-              <span className="ml-2 text-xs font-normal text-muted-foreground">
+              <span className="ms-2 text-xs font-normal text-muted-foreground">
                 ({topicCount})
               </span>
             </span>

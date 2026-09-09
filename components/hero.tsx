@@ -20,7 +20,7 @@ export function Hero({ language }: { language: Language }) {
       </div>
 
       <div className="mx-auto flex w-full max-w-xl flex-col items-center gap-6 sm:gap-8">
-        <p className="w-full border-l-4 border-accent pl-4 text-left text-sm font-medium text-foreground/80">
+        <p className="w-full border-s-4 border-accent ps-4 text-start text-sm font-medium text-foreground/80">
           {t.hero.disclaimer}
         </p>
         <HeroScrollHint />

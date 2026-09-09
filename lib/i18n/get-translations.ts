@@ -4,12 +4,13 @@ import ru from "../../locales/ru.json"
 import tr from "../../locales/tr.json"
 import uk from "../../locales/uk.json"
 import pl from "../../locales/pl.json"
+import ar from "../../locales/ar.json"
 import { deepMergeWithFallback } from "./fallback"
 import type { Language, Translations } from "./types"
 
 export type { Language, Translations }
 
-export const SUPPORTED_LANGUAGES = ["en", "de", "tr", "uk", "pl", "ru"] as const satisfies readonly Language[]
+export const SUPPORTED_LANGUAGES = ["en", "de", "tr", "uk", "pl", "ru", "ar"] as const satisfies readonly Language[]
 
 export const languages: Record<Language, Translations> = {
   en: en as Translations,
@@ -18,6 +19,7 @@ export const languages: Record<Language, Translations> = {
   uk: deepMergeWithFallback(en as Translations, uk as Partial<Translations>),
   pl: deepMergeWithFallback(en as Translations, pl as Partial<Translations>),
   ru: deepMergeWithFallback(en as Translations, ru as Partial<Translations>),
+  ar: deepMergeWithFallback(en as Translations, ar as Partial<Translations>),
 }
 
 export function getTranslations(lang: Language): Translations {
