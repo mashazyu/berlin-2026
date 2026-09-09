@@ -10966,19 +10966,61 @@
       "partyId": "cdu",
       "stance": "mixed",
       "summary": {
-        "en": "Involve the Office for the Protection of the Constitution in combating organized crime; anonymous electronic reporting system for drug trafficking and organized crime, special units against digital drug trafficking (for example, SkyECC), stronger forensics and prosecution services, and tougher action on tax crimes",
-        "de": "Verfassungsschutz in die Bekämpfung organisierter Kriminalität einbeziehen; anonymes elektronisches Meldesystem für Drogenhandel und organisierte Kriminalität, Spezialeinheiten gegen digitalen Drogenhandel (zum Beispiel SkyECC), Stärkung von Forensik und Staatsanwaltschaften und härteres Vorgehen gegen Steuerkriminalität",
-        "ru": "Ведомство по защите конституции подключить к борьбе с ОПГ; анонимная электронная система сообщений о наркоторговле и оргпреступности, спецподразделения против цифровой наркоторговли (например, SkyECC), усиление криминалистики и прокуратуры, жёстче с налоговыми преступлениями",
-        "tr": "Anayasa Koruma Dairesi'ni organize suçla mücadeleye dahil etmek; uyuşturucu ticareti ve organize suç için anonim elektronik ihbar sistemi, dijital uyuşturucu ticaretine karşı özel birimler (örneğin SkyECC), güçlendirilmiş adli tıp ve savcılık hizmetleri ile vergi suçlarında daha sert yaklaşım",
-        "pl": "Włączenie Urzędu Ochrony Konstytucji w zwalczanie przestępczości zorganizowanej; anonimowy elektroniczny system zgłoszeń dotyczący handlu narkotykami i przestępczości zorganizowanej, specjalne jednostki przeciw cyfrowemu handlowi narkotykami (np. SkyECC), silniejsza kryminalistyka i prokuratura oraz zdecydowane działania wobec przestępstw podatkowych",
-        "uk": "Залучити Управління з питань захисту Конституції до боротьби з організованою злочинністю; анонімну електронну систему повідомлень про незаконний обіг наркотиків та організовану злочинність, спеціальні підрозділи по боротьбі з цифровим обігом наркотиків (наприклад, SkyECC), посилення судової експертизи та прокуратури, і жорсткіші дії щодо податкових злочинів"
+        "en": "strengthen asset seizure against organized crime and clans; anonymous tip line for drugs/OK; beef up IT forensics and specialized units against digital drug crime (e.g. SkyECC); involve the Verfassungsschutz; tougher tax/financial crime enforcement",
+        "de": "Vermögensabschöpfung gegen OK und Clanstrukturen stärken; anonymes Hinweisgebersystem zu Drogen/OK; IT-Forensik und Spezialeinheiten gegen digitale Drogenkriminalität (z. B. SkyECC); Verfassungsschutz einbeziehen; härter gegen Steuer-/Finanzkriminalität",
+        "ru": "усилить конфискацию активов против оргпреступности и кланов; анонимная линия для наркотиков/ОК; IT-криминалистика и спецподразделения против цифрового наркобизнеса (напр. SkyECC); привлечь Verfassungsschutz; жёстче против налоговых/финансовых преступлений",
+        "tr": "organize suç ve klanlara karşı malvarlığı müsaderesını güçlendirmek; uyuşturucu/OK için anonim ihbar hattı; dijital uyuşturucu suçuna karşı IT adli bilim ve özel birimler (örn. SkyECC); Verfassungsschutz’u dahil etmek; vergi/finans suçuna daha sert",
+        "pl": "wzmocnić konfiskatę majątku przeciw OK i klanom; anonimowa linia o narkotykach/OK; IT-forensics i jednostki specjalne przeciw cyfrowej przestępczości narkotykowej (np. SkyECC); włączyć Verfassungsschutz; twardziej przeciw przestępczości podatkowej/finansowej",
+        "uk": "посилити конфіскацію активів проти оргзлочинності та кланів; анонімна лінія щодо наркотиків/ОК; IT-криміналістика та спецпідрозділи проти цифрової наркозлочинності (напр. SkyECC); залучити Verfassungsschutz; жорсткіше проти податкових/фінансових злочинів"
       },
       "sources": [
         {
           "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
-          "section": "Berlin wird knallhart",
           "page": 19,
+          "section": "Kampf gegen Organisierte Kriminalität",
           "quote": "Wir werden die Vermögensabschöpfung im Kampf gegen Organisierte Kriminalität und Clanstrukturen weiter stärken."
+        },
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "page": 11,
+          "section": "Sicherheit",
+          "quote": "Deshalb wollen wir ein anonymes elektronisches Hinweisgebersystem bei der Polizei Berlin einführen, über das Hinweise zu Drogenhandel und Organisierter Kriminalität sicher und vertraulich gemeldet werden können."
+        },
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "page": 19,
+          "section": "Kampf gegen Organisierte Kriminalität",
+          "quote": "Gleichzeitig wollen wir die IT-Forensik personell und technisch so ausstatten, dass digitale Beweismittel wie Mobiltelefone oder verschlüsselte Kommunikationsdaten zeitnah ausgewertet werden können."
+        },
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "page": 19,
+          "section": "Kampf gegen Organisierte Kriminalität",
+          "quote": "Auch spezialisierte Polizeieinheiten, etwa Observationsteams, wollen wir gezielt ausbauen, um organisierte und digital vernetzte Drogenkriminalität wirksam zu bekämpfen."
+        },
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "page": 19,
+          "section": "Kampf gegen Organisierte Kriminalität",
+          "quote": "Darüber hinaus ist die Strafverfolgung digital organisierter Drogenkriminalität – etwa über Kommunikationsplattformen wie SkyECC – rechtlich und organisatorisch abzusichern."
+        },
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "page": 19,
+          "section": "Kampf gegen Organisierte Kriminalität",
+          "quote": "Die Bekämpfung der Organisierten Kriminalität und der Clankriminalität erfordert eine schlagkräftige Staats- und Amtsanwaltschaft, um kriminelle Strukturen aufzuklären und zu zerschlagen."
+        },
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "page": 20,
+          "section": "Verfassungsschutz",
+          "quote": "Wir setzen uns für die Einbeziehung der Verfassungsschutzbehörden bei der Bekämpfung der Organisierten Kriminalität ein und wollen dafür das Verfassungsschutzgesetz ändern."
+        },
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "page": 21,
+          "section": "Steuerkriminelle",
+          "quote": "Wir werden den entschlossenen Kampf gegen Steuerbetrug und Finanzkriminalität verstärken."
         }
       ]
     },
@@ -11136,19 +11178,49 @@
       "partyId": "volt",
       "stance": "mixed",
       "summary": {
-        "en": "Develop the BKA “Radar” decision-support system at state level, target entire criminal networks together with European and international authorities, and prevent organized crime from hiding behind opaque ownership structures; reverse the burden of proof for suspicious assets, and use the UK MASH model for interagency work",
-        "de": "Das BKA-Entscheidungsunterstützungssystem „Radar“ auf Landesebene weiterentwickeln, gemeinsam mit europäischen und internationalen Behörden ganze kriminelle Netzwerke ins Visier nehmen und verhindern, dass sich organisierte Kriminalität hinter undurchsichtigen Eigentumsstrukturen verbirgt",
-        "ru": "Систему поддержки решений «Radar» BKA развивать на уровне земли, бить по криминальным сетям целиком вместе с европейскими и международными органами, не давать оргпреступности прятаться за скрытыми структурами собственности; перенос бремени доказывания по подозрительному имуществу, модель MASH из Великобритании для межведомственной работы",
-        "tr": "BKA “Radar” karar destek sistemini eyalet düzeyinde geliştirmek, Avrupa ve uluslararası makamlarla tüm suç ağlarını hedef almak, organize suçun opak mülkiyet yapılarının arkasına gizlenmesini engellemek; şüpheli varlıklar için ispat yükünü tersine çevirmek ve kurumlar arası çalışma için İngiltere MASH modelini kullanmak",
-        "pl": "Rozwinięcie systemu wsparcia decyzji BKA „Radar” na poziomie landu, celowanie w całe sieci przestępcze wraz z organami europejskimi i międzynarodowymi oraz uniemożliwienie ukrywania się przestępczości zorganizowanej za nieprzejrzystymi strukturami własności; odwrócenie ciężaru dowodu przy podejrzanych majątkach oraz model brytyjski MASH dla współpracy międzyinstytucjonalnej",
-        "uk": "розвивати систему підтримки рішень BKA «Radar» на рівні землі, бити по злочинних мережах загалом разом із європейськими та міжнародними органами"
+        "en": "develop BKA “Radar”-style decision support in Berlin; tackle whole criminal networks with European/international partners; stop OK hiding behind concealed assets; push federal reverse burden of proof; expand capacity against financial crime",
+        "de": "polizeiliche Entscheidungsunterstützung wie BKA-»Radar« in Berlin weiterentwickeln; kriminelle Netzwerke als Ganzes mit europäischen/internationalen Partnern bekämpfen; OK hinter verschleierten Vermögen verhindern; Beweislastumkehr im Bund; Kapazitäten gegen Finanzkriminalität ausbauen",
+        "ru": "развивать в Берлине системы поддержки решений вроде BKA-»Radar»; бить по целым сетям с европ./международными партнёрами; не давать ОК прятаться за скрытыми активами; федеральная перестановка бремени доказывания; нарастить борьбу с финансовой преступностью",
+        "tr": "Berlin’de BKA »Radar« tarzı karar destek sistemlerini geliştirmek; Avrupa/uluslararası ortaklarla suç ağlarını bütün olarak hedeflemek; OK’nin gizlenmiş varlıkların ardına saklanmasını engellemek; federal ispat yükü tersine çevirme; mali suç kapasitesini artırmak",
+        "pl": "rozwijać w Berlinie systemy wsparcia decyzji typu BKA »Radar«; zwalczać całe sieci z partnerami europejskimi/międzynarodowymi; uniemożliwić OK ukrywanie się za ukrytym majątkiem; federalne odwrócenie ciężaru dowodu; rozbudować walkę z przestępczością finansową",
+        "uk": "розвивати в Берліні системи підтримки рішень на кшталт BKA »Radar«; бити по цілих мережах з європейськими/міжнародними партнерами; не дати ОК ховатися за прихованими активами; федеральне перенесення тягаря доведення; наростити боротьбу з фінансовою злочинністю"
       },
       "sources": [
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
-          "section": "Jetzt Organisierte Kriminalität entschlossen bekämpfen",
-          "quote": "Wir entwickeln die polizeilichen Entscheidungsunterstützungssysteme, wie »Radar« des Bundeskriminalamts, im Land Berlin weiter, um die Bevölkerung besser vor organisierter Kriminalität zu schützen.",
-          "page": 78
+          "page": 78,
+          "section": "Organisierte Kriminalität",
+          "quote": "Wir entwickeln die polizeilichen Entscheidungsunterstützungssysteme, wie »Radar« des Bundeskriminalamts, im Land Berlin weiter, um die Bevölkerung besser vor organisierter Kriminalität zu schützen."
+        },
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "page": 78,
+          "section": "Organisierte Kriminalität",
+          "quote": "Wir bekämpfen die Netzwerke der kriminellen Systeme als Ganzes."
+        },
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "page": 78,
+          "section": "Organisierte Kriminalität",
+          "quote": "Wir arbeiten dafür mit europäischen und internationalen Behörden und Partnern zusammen."
+        },
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "page": 78,
+          "section": "Organisierte Kriminalität",
+          "quote": "Wir verhindern, dass sich organisierte Kriminalität in Berlin hinter verschleierten Vermögen versteckt."
+        },
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "page": 78,
+          "section": "Organisierte Kriminalität",
+          "quote": "Wir setzen uns deshalb auf Bundesebene dafür ein, die Beweislastumkehr einzuführen."
+        },
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "page": 79,
+          "section": "Finanzkriminalität",
+          "quote": "Wir bauen die Kapazitäten zur Bekämpfung von Finanzkriminalität in Berlin gezielt aus."
         }
       ]
     },
