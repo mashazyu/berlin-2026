@@ -13,6 +13,7 @@ const LABELS: Record<Language, string> = {
   uk: "UK",
   pl: "PL",
   ru: "RU",
+  ar: "AR",
 }
 
 export function LanguageSwitcher({ className }: { className?: string }) {

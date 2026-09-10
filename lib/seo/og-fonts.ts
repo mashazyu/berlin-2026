@@ -1,12 +1,14 @@
-/** Subsetted Noto Sans TTFs for `next/og` (Latin + Cyrillic as needed).
+/** Subsetted Noto Sans TTFs for `next/og` (Latin + Cyrillic / Arabic as needed).
  *  Restored from 882e210 — fetches a Google `text=` subset for the exact OG copy.
  *  Falls back to local assets/fonts if the network fetch fails (e.g. offline build). */
 
 import { readFile } from "node:fs/promises"
 import path from "node:path"
 
-const GOOGLE_CSS =
+const GOOGLE_CSS_NOTO_SANS =
   "https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap&text="
+const GOOGLE_CSS_NOTO_SANS_ARABIC =
+  "https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;700&display=swap&text="
 
 /** Old Safari UA → Google returns `truetype` instead of woff2. */
 const FONT_UA =
@@ -25,11 +27,17 @@ function toArrayBuffer(buf: Buffer): ArrayBuffer {
   ) as ArrayBuffer
 }
 
+function hasArabic(text: string): boolean {
+  return /[\u0600-\u06FF]/.test(text)
+}
+
 async function loadWeightFromGoogle(
   chars: string,
-  weight: 400 | 700
+  weight: 400 | 700,
+  cssBase: string,
+  familyLabel: string
 ): Promise<ArrayBuffer> {
-  const cssUrl = `${GOOGLE_CSS}${encodeURIComponent(chars)}`
+  const cssUrl = `${cssBase}${encodeURIComponent(chars)}`
   const css = await fetch(cssUrl, {
     headers: { "User-Agent": FONT_UA },
   }).then((res) => {
@@ -43,7 +51,7 @@ async function loadWeightFromGoogle(
 
   const match = block?.match(/src:\s*url\(([^)]+)\)\s*format\('truetype'\)/)
   if (!match?.[1]) {
-    throw new Error(`No truetype URL for Noto Sans weight ${weight}`)
+    throw new Error(`No truetype URL for ${familyLabel} weight ${weight}`)
   }
 
   const fontRes = await fetch(match[1])
@@ -51,42 +59,53 @@ async function loadWeightFromGoogle(
   return fontRes.arrayBuffer()
 }
 
-async function loadWeightFromLocal(weight: 400 | 700): Promise<ArrayBuffer> {
-  const buf = await readFile(path.join(FONT_DIR, `NotoSans-${weight}.ttf`))
+async function loadWeightFromLocal(
+  weight: 400 | 700,
+  arabic: boolean
+): Promise<ArrayBuffer> {
+  const file = arabic
+    ? `NotoSansArabic-${weight}.ttf`
+    : `NotoSans-${weight}.ttf`
+  const buf = await readFile(path.join(FONT_DIR, file))
   return toArrayBuffer(buf)
 }
 
 async function loadWeight(
   chars: string,
-  weight: 400 | 700
+  weight: 400 | 700,
+  arabic: boolean
 ): Promise<ArrayBuffer> {
+  const cssBase = arabic ? GOOGLE_CSS_NOTO_SANS_ARABIC : GOOGLE_CSS_NOTO_SANS
+  const familyLabel = arabic ? "Noto Sans Arabic" : "Noto Sans"
   try {
-    return await loadWeightFromGoogle(chars, weight)
+    return await loadWeightFromGoogle(chars, weight, cssBase, familyLabel)
   } catch (err) {
     console.warn(
-      `[og-fonts] Google fetch failed for ${weight}, using local fallback:`,
+      `[og-fonts] Google fetch failed for ${familyLabel} ${weight}, using local fallback:`,
       err
     )
-    return loadWeightFromLocal(weight)
+    return loadWeightFromLocal(weight, arabic)
   }
 }
 
 export async function getOgFonts(text: string) {
   const chars = uniqueChars(`Berlin2026· ${text}`)
+  const arabic = hasArabic(text)
+  const familyName = arabic ? "Noto Sans Arabic" : "Noto Sans"
   const [regular, bold] = await Promise.all([
-    loadWeight(chars, 400),
-    loadWeight(chars, 700),
+    loadWeight(chars, 400, arabic),
+    loadWeight(chars, 700, arabic),
   ])
 
   return [
     {
-      name: "Noto Sans",
+      name: familyName,
       data: regular,
       style: "normal" as const,
       weight: 400 as const,
     },
     {
-      name: "Noto Sans",
+      name: familyName,
       data: bold,
       style: "normal" as const,
       weight: 700 as const,

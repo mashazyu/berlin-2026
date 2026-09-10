@@ -48,6 +48,7 @@
   --color-section-muted: hsl(var(--section-muted));
   --font-sans: var(--font-dm-sans), ui-sans-serif, system-ui, sans-serif;
   --font-display: var(--font-lora), ui-serif, Georgia, serif;
+  --font-arabic: var(--font-noto-sans-arabic), ui-sans-serif, system-ui, sans-serif;
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
@@ -103,6 +104,10 @@
     min-height: 100vh;
   }
 
+  body.font-arabic {
+    font-family: var(--font-arabic);
+  }
+
   h1,
   h2,
   h3,
@@ -110,6 +115,15 @@
     font-family: var(--font-display);
     font-weight: 600;
     letter-spacing: -0.01em;
+  }
+
+  body.font-arabic h1,
+  body.font-arabic h2,
+  body.font-arabic h3,
+  body.font-arabic h4,
+  body.font-arabic .font-display {
+    font-family: var(--font-arabic);
+    letter-spacing: 0;
   }
 }
 

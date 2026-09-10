@@ -52,6 +52,15 @@ function electionCopy(language: Language) {
       performerName: "Partie i kandydaci startujący w wyborach",
     }
   }
+  if (language === "ar") {
+    return {
+      name: "انتخابات مجلس نواب برلين 2026",
+      description:
+        "انتخابات مجلس نواب برلين (Abgeordnetenhaus) في 20 سبتمبر 2026. انتخابات حرة للبرلمان الإقليمي في برلين.",
+      organizerName: "لجنة الانتخابات الإقليمية في برلين (Landeswahlleitung)",
+      performerName: "الأحزاب والمرشحون المشاركون في الانتخابات",
+    }
+  }
   return {
     name: "2026 Berlin Abgeordnetenhaus election",
     description:
@@ -76,7 +85,7 @@ export function JsonLd({ language }: { language: Language }) {
         "@id": `${BASE_URL}/#website`,
         url: BASE_URL,
         name: "Berlin 2026",
-        inLanguage: ["en", "de", "tr", "uk", "pl", "ru"],
+        inLanguage: ["en", "de", "tr", "uk", "pl", "ru", "ar"],
         publisher: {
           "@type": "Organization",
           name: "Berlin 2026",

@@ -8,7 +8,7 @@ export const CONTACT_EMAIL = "feedback@berlin-2026.de"
 /** Resend “from” address using the same inbox. */
 export const CONTACT_FROM = `Berlin 2026 <${CONTACT_EMAIL}>`
 
-export const SUPPORTED_LANGUAGES = ["en", "de", "tr", "uk", "pl", "ru"] as const satisfies readonly Language[]
+export const SUPPORTED_LANGUAGES = ["en", "de", "tr", "uk", "pl", "ru", "ar"] as const satisfies readonly Language[]
 
 export const DEFAULT_LANGUAGE: Language = "de"
 
@@ -19,6 +19,7 @@ export const CONTENT_LANGUAGE: Record<Language, string> = {
   uk: "uk-DE",
   pl: "pl-DE",
   ru: "ru-DE",
+  ar: "ar-DE",
 }
 
 /** Open Graph / Facebook locale tags */
@@ -29,6 +30,7 @@ export const OG_LOCALES: Record<Language, string> = {
   uk: "uk_UA",
   pl: "pl_PL",
   ru: "ru_RU",
+  ar: "ar_AE",
 }
 export function toSafeLanguage(lang: string | undefined | null): Language {
   return (SUPPORTED_LANGUAGES as readonly string[]).includes(lang ?? "")
