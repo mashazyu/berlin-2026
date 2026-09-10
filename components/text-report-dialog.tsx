@@ -112,18 +112,18 @@ export function TextReportDialog({
           type="button"
           onClick={handleClose}
           aria-label={t.feedback.close}
-          className="absolute right-3 top-3 inline-flex h-8 w-8 items-center justify-center rounded-md text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
+          className="absolute end-3 top-3 inline-flex h-8 w-8 items-center justify-center rounded-md text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
         >
           <X className="h-4 w-4" aria-hidden />
         </button>
 
         {status === "ok" ? (
-          <p id={titleId} className="pr-8 text-base text-foreground" role="status">
+          <p id={titleId} className="pe-8 text-base text-foreground" role="status">
             {t.feedback.success}
           </p>
         ) : (
           <>
-            <h2 id={titleId} className="pr-8 font-display text-xl font-semibold tracking-[-0.01em]">
+            <h2 id={titleId} className="pe-8 font-display text-xl font-semibold tracking-[-0.01em]">
               {tr.title}
             </h2>
             <p className="mt-2 text-sm text-muted-foreground">{tr.intro}</p>

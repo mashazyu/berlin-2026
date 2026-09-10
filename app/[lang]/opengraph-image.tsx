@@ -16,9 +16,10 @@ export default async function OpenGraphImage({
   const { lang } = await params
   const language = toSafeLanguage(lang) as Language
   const t = getTranslations(language)
-  const fonts = await getOgFonts(
-    `${t.metadata.homeTitle} ${t.hero.headline} ${t.hero.support}`
-  )
+  const copy = `${t.metadata.homeTitle} ${t.hero.headline} ${t.hero.support}`
+  const fonts = await getOgFonts(copy)
+  const fontFamily = fonts[0]?.name ?? "Noto Sans"
+  const isRtl = language === "ar"
 
   return new ImageResponse(
     (
@@ -32,7 +33,8 @@ export default async function OpenGraphImage({
           padding: "64px 72px",
           background: "#ffffff",
           color: "#171E25",
-          fontFamily: '"Noto Sans"',
+          fontFamily: `"${fontFamily}"`,
+          direction: isRtl ? "rtl" : "ltr",
         }}
       >
         <div style={{ display: "flex", alignItems: "baseline", gap: 16 }}>
@@ -41,7 +43,7 @@ export default async function OpenGraphImage({
               fontSize: 52,
               fontWeight: 700,
               color: "#F55A1F",
-              fontFamily: '"Noto Sans"',
+              fontFamily: `"${fontFamily}"`,
             }}
           >
             Berlin
@@ -52,7 +54,7 @@ export default async function OpenGraphImage({
               fontSize: 52,
               fontWeight: 700,
               color: "#171E25",
-              fontFamily: '"Noto Sans"',
+              fontFamily: `"${fontFamily}"`,
             }}
           >
             2026
@@ -65,7 +67,7 @@ export default async function OpenGraphImage({
               fontWeight: 700,
               lineHeight: 1.2,
               maxWidth: 980,
-              fontFamily: '"Noto Sans"',
+              fontFamily: `"${fontFamily}"`,
             }}
           >
             {t.hero.headline}
@@ -76,7 +78,7 @@ export default async function OpenGraphImage({
               color: "#5A6570",
               maxWidth: 900,
               fontWeight: 400,
-              fontFamily: '"Noto Sans"',
+              fontFamily: `"${fontFamily}"`,
             }}
           >
             {t.hero.support}

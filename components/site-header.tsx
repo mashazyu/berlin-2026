@@ -51,7 +51,7 @@ export function SiteHeader() {
         </Link>
 
         <div className="flex h-9 items-center gap-1 sm:gap-2">
-          <nav className="mr-3 hidden h-9 items-center md:mr-5 md:flex" aria-label="Primary">
+          <nav className="me-3 hidden h-9 items-center md:me-5 md:flex" aria-label="Primary">
             {sectionLinks.map((link) =>
               onHome ? (
                 <a

@@ -4,13 +4,14 @@ import ru from "../../locales/ru.json"
 import tr from "../../locales/tr.json"
 import uk from "../../locales/uk.json"
 import pl from "../../locales/pl.json"
+import ar from "../../locales/ar.json"
 import { CONTACT_EMAIL } from "@/lib/seo/constants"
 import { deepMergeWithFallback } from "./fallback"
 import type { Language, Translations } from "./types"
 
 export type { Language, Translations }
 
-export const SUPPORTED_LANGUAGES = ["en", "de", "tr", "uk", "pl", "ru"] as const satisfies readonly Language[]
+export const SUPPORTED_LANGUAGES = ["en", "de", "tr", "uk", "pl", "ru", "ar"] as const satisfies readonly Language[]
 
 function injectContactEmail<T>(value: T): T {
   if (typeof value === "string") {
@@ -45,6 +46,9 @@ export const languages: Record<Language, Translations> = {
   ),
   ru: injectContactEmail(
     deepMergeWithFallback(en as Translations, ru as Partial<Translations>)
+  ),
+  ar: injectContactEmail(
+    deepMergeWithFallback(en as Translations, ar as Partial<Translations>)
   ),
 }
 

@@ -15,9 +15,12 @@ const OUT_DIR = path.join(ROOT, "assets", "fonts")
 const FONT_UA =
   "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_8; de-at) AppleWebKit/533.21.1 (KHTML, like Gecko) Version/5.0.5 Safari/533.21.1"
 
-function collectChars() {
+function collectChars(arabic = false) {
   const chunks = ["Berlin2026·"]
-  for (const lang of ["en", "de", "tr", "uk", "pl", "ru"]) {
+  const langs = arabic
+    ? ["ar"]
+    : ["en", "de", "tr", "uk", "pl", "ru"]
+  for (const lang of langs) {
     const t = JSON.parse(
       fs.readFileSync(path.join(ROOT, "locales", `${lang}.json`), "utf8")
     )
@@ -31,22 +34,35 @@ function collectChars() {
   return [...new Set(chunks.join(" ").replace(/\s+/g, " "))].join("")
 }
 
-async function loadWeight(weight, chars) {
-  const cssUrl = `https://fonts.googleapis.com/css2?family=Noto+Sans:wght@${weight}&display=swap&text=${encodeURIComponent(chars)}`
+async function loadWeight(weight, chars, family) {
+  const familyParam =
+    family === "arabic"
+      ? `Noto+Sans+Arabic:wght@${weight}`
+      : `Noto+Sans:wght@${weight}`
+  const cssUrl = `https://fonts.googleapis.com/css2?family=${familyParam}&display=swap&text=${encodeURIComponent(chars)}`
   const css = await fetch(cssUrl, { headers: { "User-Agent": FONT_UA } }).then(
     (r) => r.text()
   )
   const block = css.split("@font-face").find((p) => p.includes(`font-weight: ${weight}`))
   const match = block?.match(/src:\s*url\(([^)]+)\)\s*format\('truetype'\)/)
-  if (!match) throw new Error(`No TTF for ${weight}:\n${css.slice(0, 400)}`)
+  if (!match) throw new Error(`No TTF for ${family} ${weight}:\n${css.slice(0, 400)}`)
   const buf = Buffer.from(await fetch(match[1]).then((r) => r.arrayBuffer()))
-  const out = path.join(OUT_DIR, `NotoSans-${weight}.ttf`)
+  const filename =
+    family === "arabic"
+      ? `NotoSansArabic-${weight}.ttf`
+      : `NotoSans-${weight}.ttf`
+  const out = path.join(OUT_DIR, filename)
   fs.mkdirSync(OUT_DIR, { recursive: true })
   fs.writeFileSync(out, buf)
   console.log("wrote", path.relative(ROOT, out), buf.length)
 }
 
-const chars = collectChars()
-console.log("unique chars", chars.length)
-await loadWeight(400, chars)
-await loadWeight(700, chars)
+const latinChars = collectChars(false)
+console.log("unique latin/cyrillic chars", latinChars.length)
+await loadWeight(400, latinChars, "latin")
+await loadWeight(700, latinChars, "latin")
+
+const arabicChars = collectChars(true)
+console.log("unique arabic chars", arabicChars.length)
+await loadWeight(400, arabicChars, "arabic")
+await loadWeight(700, arabicChars, "arabic")
