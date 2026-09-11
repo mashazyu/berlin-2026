@@ -16591,56 +16591,50 @@
       "partyId": "cdu",
       "stance": "for",
       "summary": {
-        "en": "Mittelstand as backbone with transformation support; Industriemetropole / start-up capital framing; EXPO 2035 bid with Brandenburg",
-        "de": "Mittelstand als Rückgrat mit Transformationsförderung; Industriemetropole und Gründerhauptstadt; Bewerbung um EXPO 2035 mit Brandenburg; Wir wollen die Unternehmen auch weiterhin bei der Transformation begleiten und sie mit passgenauen Förderprogrammen unterstützen",
-        "ru": "средний бизнес как опора с поддержкой трансформации; промышленная метрополия и столица стартапов; заявка на EXPO 2035 с Бранденбургом",
-        "tr": "dönüşüm desteğiyle orta sınıf omurga; sanayi metropolü ve girişim başkenti; Brandenburg ile EXPO 2035 başvurusu",
-        "pl": "Mittelstand jako kręgosłup ze wsparciem transformacji; metropolia przemysłowa i stolica startupów; kandydatura EXPO 2035 z Brandenburgią",
-        "uk": "середній бізнес як опора з підтримкою трансформації; промислова метрополія й столиця стартапів; заявка на EXPO 2035 з Бранденбургом",
-        "ar": "Mittelstand بمثابة العمود الفقري مع دعم التحول؛ الصناعة / تأطير رأس المال المبتدئ ؛ عرض إكسبو 2035 مع براندنبورغ"
+        "en": "Mittelstand as backbone with transformation support; keep Berlin an industrial and startup/digital hub; EXPO 2035 bid with Brandenburg as a future region for innovation",
+        "de": "Mittelstand als Rückgrat mit Transformationsbegleitung; Berlin als Industrie- und Gründer-/Digitalstandort sichern; EXPO-2035-Bewerbung mit Brandenburg als Zukunftsregion für Innovation",
+        "ru": "Mittelstand как опора с поддержкой трансформации; сохранить Берлин как промышленный и стартап/цифровой хаб; заявка EXPO 2035 с Бранденбургом как регионом будущего для инноваций",
+        "tr": "dönüşüm desteğiyle omurga olarak Mittelstand; Berlin’i sanayi ve startup/dijital merkez olarak tutmak; inovasyon için gelecek bölgesi olarak Brandenburg’la EXPO 2035 adaylığı",
+        "pl": "Mittelstand jako kręgosłup ze wsparciem transformacji; utrzymać Berlin jako hub przemysłowy i startup/cyfrowy; kandydatura EXPO 2035 z Brandenburgią jako regionem przyszłości dla innowacji",
+        "uk": "Mittelstand як опора з підтримкою трансформації; зберегти Берлін як промисловий і стартап/цифровий хаб; заявка EXPO 2035 з Бранденбургом як регіоном майбутнього для інновацій",
+        "ar": "Mittelstand كعمود فقري مع دعم التحول؛ الإبقاء على برلين مركزاً صناعياً وناشئاً/رقمياً؛ ترشيح EXPO 2035 مع براندنبورغ كمنطقة مستقبل للابتكار"
       },
       "sources": [
         {
           "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
           "page": 43,
-          "section": "Berlin wird spitze",
+          "section": "Mittelstand",
           "quote": "Der Mittelstand ist das Rückgrat der Berliner Wirtschaft."
         },
         {
           "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
           "page": 43,
-          "section": "Berlin wird spitze",
+          "section": "Mittelstand",
           "quote": "Wir wollen die Unternehmen auch weiterhin bei der Transformation begleiten und sie mit passgenauen Förderprogrammen unterstützen."
         },
         {
           "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
-          "page": 48,
-          "section": "Berlin wird spitze",
-          "quote": "Eine Weltausstellung bietet die Chance, Berlin und Brandenburg international als Zukunftsregion zu positionieren, Innovationen sichtbar zu machen und wichtige Impulse für Infrastruktur, Wissenschaft, Wirtschaft und Stadtentwicklung zu setzen."
-        },
-        {
-          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
-          "section": "Wirtschaft",
-          "page": 48,
-          "quote": "Berlin-Brandenburg für die EXPO 2035."
-        },
-        {
-          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
-          "section": "Wirtschaft",
-          "page": 48,
-          "quote": "Berlin-Brandenburg für die EXPO 2035."
-        },
-        {
-          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
-          "section": "Wirtschaft",
           "page": 43,
-          "quote": "Industriemetropole BerlinWir stehen zum Industriestandort Berlin."
+          "section": "Industrie",
+          "quote": "Wir stehen zum Industriestandort Berlin."
         },
         {
           "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
-          "section": "Wirtschaft",
           "page": 44,
-          "quote": "Gründerhauptstadt BerlinBerlin soll auch künftig die Gründerhauptstadt und das Zentrum der Digitalwirtschaft bleiben."
+          "section": "Gründerhauptstadt",
+          "quote": "Berlin soll auch künftig die Gründerhauptstadt und das Zentrum der Digitalwirtschaft bleiben."
+        },
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "page": 48,
+          "section": "EXPO",
+          "quote": "Wir unterstützen eine Bewerbung der Metropolregion Berlin-Brandenburg für die EXPO 2035."
+        },
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "page": 48,
+          "section": "EXPO",
+          "quote": "Eine Weltausstellung bietet die Chance, Berlin und Brandenburg international als Zukunftsregion zu positionieren, Innovationen sichtbar zu machen und wichtige Impulse für Infrastruktur, Wissenschaft, Wirtschaft und Stadtentwicklung zu setzen."
         }
       ]
     },
@@ -16705,31 +16699,31 @@
       "partyId": "linke",
       "stance": "for",
       "summary": {
-        "en": "restructure economic policy around strategic goals and “in people’s interests”: increase industry’s share of value added, collectively bargained jobs, socially and ecologically just transformation in healthcare, energy, and transport engineering; in procurement, give priority to open source, digital sovereignty, and global justice, with fewer formalities for companies (positive lists and certificates)",
-        "de": "Wirtschaftspolitik an strategischen Zielen und „im Interesse der Menschen“ ausrichten: Anteil der Industrie an der Wertschöpfung erhöhen, tarifgebundene Arbeitsplätze, sozial und ökologisch gerechte Transformation in Gesundheitswesen, Energie und Verkehrstechnik; Dies muss sich auch in der Verteilung finanzieller Ressourcen widerspiegeln; Außerdem Unternehmen, die mit Open Source arbeiten und die digitale Souveränität stärken",
-        "ru": "экономическую политику перестроить по стратегическим целям и «в интересах людей»: поднять долю промышленности в добавленной стоимости, тарифные рабочие места, социально и экологически справедливая трансформация в здравоохранении, энергетике и транспортном машиностроении; в закупках приоритет open source, цифровому суверенитету и глобальной справедливости, меньше формальностей для фирм (позитивные списки и сертификаты)",
-        "tr": "ekonomi politikasını stratejik hedefler ve „insanların çıkarları“ etrafında yeniden yapılandırmak: sanayinin katma değer payını artırmak, toplu sözleşmeli işler, sağlık, enerji ve ulaşım mühendisliğinde sosyal ve ekolojik adil dönüşüm; kamu alımlarında açık kaynak, dijital egemenlik ve küresel adalete öncelik, şirketler için daha az formalite (pozitif listeler ve sertifikalar)",
-        "pl": "przestawić politykę gospodarczą wokół celów strategicznych i „w interesie ludzi”: zwiększyć udział przemysłu w wartości dodanej, miejsca pracy objęte układami zbiorowymi, społecznie i ekologicznie sprawiedliwa transformacja w ochronie zdrowia, energii i inżynierii transportu; w zamówieniach publicznych priorytet dla open source, cyfrowej suwerenności i sprawiedliwości globalnej, mniej formalności dla firm (listy pozytywne i certyfikaty)",
-        "uk": "реструктуризувати економічну політику навколо стратегічних цілей та «в інтересах людей»: збільшення частки доданої вартості промисловості, колективні робочі місця, соціально та екологічно справедливі перетворення в охороні здоров’я, енергетиці та транспорті; у закупівлях надавайте пріоритет відкритому коду, цифровому суверенітету та глобальній справедливості з меншою кількістю формальностей для компаній (позитивні списки та сертифікати)",
-        "ar": "وإعادة هيكلة السياسة الاقتصادية حول أهداف استراتيجية و\"في مصلحة الناس\": زيادة حصة الصناعة من القيمة المضافة، والوظائف المتفق عليها جماعيا، والتحول العادل اجتماعيا وبيئيا في الرعاية الصحية، والطاقة، وهندسة النقل؛ في مجال المشتريات، إعطاء الأولوية للمصادر المفتوحة، والسيادة الرقمية، والعدالة العالمية، مع عدد أقل من الإجراءات الشكلية للشركات (القوائم والشهادات الإيجابية)"
+        "en": "future-proof Berlin industry and raise industry’s share of value added with collectively bargained jobs; in procurement prioritize common-good economy firms and companies working with Open Source / digital sovereignty",
+        "de": "Berliner Industrie zukunftsfest machen und Anteil der Industrie an der Wertschöpfung erhöhen mit tarifgebundenen Jobs; in der Vergabe Gemeinwohlökonomie sowie Open-Source-/Souveränitäts-Unternehmen besonders berücksichtigen",
+        "ru": "сделать берлинскую промышленность устойчивой к будущему и повысить долю промышленности в добавленной стоимости с тарифными рабочими местами; в закупках приоритет предприятиям Gemeinwohlökonomie и Open Source/цифрового суверенитета",
+        "tr": "Berlin sanayisini geleceğe dayanıklı kılıp tarifeli işlerle sanayinin katma değer payını artırmak; ihalelerde Gemeinwohlökonomie ile Open Source/dijital egemenlik firmalarına öncelik",
+        "pl": "uczynić berliński przemysł odpornym na przyszłość i podnieść udział przemysłu w wartości dodanej z miejscami pracy objętych układami; w zamówieniach preferować firmy Gemeinwohlökonomie oraz Open Source/suwerenność cyfrowa",
+        "uk": "зробити берлінську промисловість стійкою до майбутнього і підвищити частку промисловості в доданій вартості з тарифними робочими місцями; у закупівлях пріоритет підприємствам Gemeinwohlökonomie та Open Source/цифрового суверенітету",
+        "ar": "جعل صناعة برلين متينة للمستقبل ورفع حصة الصناعة من القيمة المضافة بوظائف مشمولة بالاتفاقيات؛ في المشتريات إعطاء أولوية لشركات Gemeinwohlökonomie وOpen Source/السيادة الرقمية"
       },
       "sources": [
         {
           "url": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf",
           "page": 91,
-          "quote": "Wir wollen die Berliner Industrie zukunftsfest machen, sie erfolgreich transformieren und den Anteil der Industrie an der Wertschöpfung in Berlin erhöhen.",
-          "section": "Industriepolitik"
+          "section": "Industriepolitik",
+          "quote": "Wir wollen die Berliner Industrie zukunftsfest machen, sie erfolgreich transformieren und den Anteil der Industrie an der Wertschöpfung in Berlin erhöhen."
         },
         {
           "url": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf",
-          "section": "Programm",
-          "page": 287,
-          "quote": "Dies muss sich auch in der Verteilung finanzieller Ressourcen widerspiegeln."
-        },
-        {
-          "url": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf",
-          "section": "Programm",
           "page": 88,
+          "section": "Vergabe",
+          "quote": "Bereits existierenden sozial-ökologischen Vergabekriterien sollen Unternehmen der Gemeinwohlökonomie besonders berücksichtigt werden."
+        },
+        {
+          "url": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf",
+          "page": 88,
+          "section": "Vergabe",
           "quote": "Außerdem Unternehmen, die mit Open Source arbeiten und die digitale Souveränität stärken."
         }
       ]
@@ -16791,26 +16785,26 @@
       "partyId": "afd",
       "stance": "mixed",
       "summary": {
-        "en": "A central location for Berlin’s startup ecosystem based on Station F in Paris and transfer of scientific findings into entrepreneurship; less burden on small and medium-sized businesses (including the transition to digital-only invoices by 2028), strategic digitalization to strengthen Berlin as a technology location",
-        "de": "Zentraler Ort für Berlins Start-up-Ökosystem nach dem Vorbild von Station F in Paris und Transfer wissenschaftlicher Ergebnisse ins Unternehmertum; Unnötige Belastungen für kleine und mittelständische Unternehmen durch die bis 2028 erfolgende Umstellung ausschließlich auf digitale Rechnungen (E-Re",
-        "ru": "Центральное место для берлинской стартап-экосистемы по образцу Station F в Париже и перенос научных результатов в предпринимательство; меньше нагрузки на малый и средний бизнес (в том числе при переходе только на цифровые счёта до 2028), стратегическая цифровизация как усиление технологической площадки",
-        "tr": "Paris’teki Station F örneğine dayalı Berlin’in startup ekosistemi için merkezi bir yer ve bilimsel bulguların girişimciliğe aktarımı; KOBİ’lere daha az yük (2028’e kadar yalnızca dijital faturalara geçiş dahil), Berlin’i teknoloji merkezi olarak güçlendirmek için stratejik dijitalleşme",
-        "pl": "Centralny ośrodek ekosystemu startupów Berlina wzorowana na Station F w Paryżu oraz transfer wyników naukowych do przedsiębiorczości; mniejsze obciążenie MŚP (w tym przejście na wyłącznie cyfrowe faktury do 2028), strategiczna cyfryzacja wzmacniająca Berlin jako lokalizację technologiczną",
-        "uk": "Центральне розташування екосистеми стартапів у Берліні на основі станції F у Парижі та перенесення наукових результатів у підприємництво; зменшення навантаження на малий і середній бізнес (включаючи перехід на цифрові рахунки-фактури до 2028 року), стратегічна цифровізація для зміцнення Берліна як технологічного місця",
-        "ar": "موقع مركزي للنظام البيئي للشركات الناشئة في برلين استنادًا إلى المحطة F في باريس ونقل النتائج العلمية إلى ريادة الأعمال؛ تخفيف العبء على الشركات الصغيرة والمتوسطة (بما في ذلك الانتقال إلى الفواتير الرقمية فقط بحلول عام 2028)، والرقمنة الاستراتيجية لتعزيز برلين كموقع للتكنولوجيا"
+        "en": "a central Station-F-style hub for Berlin’s startup ecosystem and research transfer into entrepreneurship; ease unnecessary burdens on SMEs from the switch to fully digital invoicing by 2028",
+        "de": "zentraler Ort für das Berliner Start-up-Ökosystem nach Vorbild Station F und Transfer von Forschung in Entrepreneurship; unnötige Belastungen für KMU durch die Umstellung bis 2028 ausschließlich auf digitale Rechnungen vermeiden",
+        "ru": "центральный хаб экосистемы стартапов по образцу Station F и трансфер исследований в предпринимательство; снизить лишнюю нагрузку на МСП от перехода к полностью цифровым счетам к 2028",
+        "tr": "Station F tarzı merkezi startup ekosistemi merkezi ve araştırmanın girişimciliğe aktarımı; 2028’e kadar tam dijital faturalamaya geçişte KOBİ’lere gereksiz yükleri azaltmak",
+        "pl": "centralny hub ekosystemu startupów wzorowany na Station F i transfer badań do przedsiębiorczości; ograniczyć zbędne obciążenia MŚP przy przejściu do w pełni cyfrowych faktur do 2028",
+        "uk": "центральний хаб екосистеми стартапів за зразком Station F і трансфер досліджень у підприємництво; зменшити зайве навантаження на МСП від переходу до повністю цифрових рахунків до 2028",
+        "ar": "مركز مركزي لنظام الشركات الناشئة على غرار Station F ونقل البحث إلى ريادة الأعمال؛ تخفيف الأعباء غير الضرورية على الشركات الصغيرة من التحول إلى الفوترة الرقمية بالكامل بحلول 2028"
       },
       "sources": [
         {
           "url": "https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf",
           "page": 48,
-          "quote": "Zu diesem Zweck schlagen wir vor, einen zentralen Ort für das Berliner Start-up-Ökosystem nach dem Vorbild der Station F in Paris zu schaffen.",
-          "section": "Wirtschaft & Soziales"
+          "section": "Start-ups",
+          "quote": "Zu diesem Zweck schlagen wir vor, einen zentralen Ort für das Berliner Start-up-Ökosystem nach dem Vorbild der Station F in Paris zu schaffen."
         },
         {
           "url": "https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf",
           "page": 18,
-          "quote": "Unnötige Belastungen für kleine und mittelständische Unternehmen durch die bis 2028 erfolgende Umstellung ausschließlich auf digitale Rechnungen (E-Rechnungen) wollen wir durch eine Befreiung kleiner Betriebe von der E-Rechnungspflicht reduzieren.",
-          "section": "Digitalisierung"
+          "section": "Mittelstand",
+          "quote": "Unnötige Belastungen für kleine und mittelständische Unternehmen durch die bis 2028 erfolgende Umstellung ausschließlich auf digitale Rechnungen (E-Rechnungen) wollen wir durch eine Befreiung kleiner Betriebe von der E-Rechnungspflicht reduzieren."
         }
       ]
     },
@@ -16859,50 +16853,38 @@
       "partyId": "volt",
       "stance": "mixed",
       "summary": {
-        "en": "“Startup capital”: the city as an anchor customer, modern employee equity participation, venture capital for the growth phase, KiezLabs for economically strong neighborhoods, joint planning with Brandenburg and the Oder region as a European growth area; support for introducing AI into the everyday operations of small firms; combat vacant commercial premises and assist with business succession",
-        "de": "„Start-up-Hauptstadt“: Stadt als Ankerkundin, moderne Mitarbeiterkapitalbeteiligung, Risikokapital für die Wachstumsphase, KiezLabs für wirtschaftlich starke Quartiere, gemeinsame Planung mit Brandenburg und Oderregion als europäischer Wachstumsraum; Das Tempelhofer Feld wird Testfläche für Agri-Photovoltaik und mobile Energiespeicher; Wir dokumentieren alle vorgestellten Praxisbeispiele und veröffentlichen sie auf einer Plattform als „Berliner KI-Erfahrungsbibliothek“, sor; Jetzt Organisierte Kriminalität entschlossen bekämpfenWir entwickeln die polizeilichen Entscheidungsunterstützungssysteme, wie »Radar« des B; Wir schaffen Testfelder für Wasserstoff, bidirektionales Laden und dezentrale Energienetze: Tegel wird zum Green Tech Hub für Wasserstoff- und",
-        "ru": "«Столица стартапов»: город как якорный клиент, современное долевое участие сотрудников, венчурный капитал на фазе роста, KiezLabs для экономически сильных кварталов, совместное планирование с Бранденбургом и регионом Одер как европейским пространством роста; поддержка внедрения ИИ в повседневную работу малых фирм; борьба с пустующими коммерческими помещениями и помощь в преемственности бизнеса",
-        "tr": "“Startup başkenti”: şehir çapa müşteri olarak, modern çalışan hisse katılımı, büyüme aşaması için risk sermayesi, ekonomik olarak güçlü mahalleler için KiezLabs, Brandenburg ve Oder bölgesiyle Avrupa büyüme alanı olarak ortak planlama; küçük firmaların günlük işine yapay zekâ girişi desteği; boş ticari mekânlarla mücadele ve işletme devrine yardım",
-        "pl": "„Stolica startupów”: miasto jako klient kotwiczący, nowoczesny udział kapitałowy pracowników, venture capital na fazę wzrostu, KiezLabs dla silnych gospodarczo dzielnic, wspólne planowanie z Brandenburgią i regionem Odry jako europejskim obszarem wzrostu; wsparcie wdrażania AI w codzienną działalność małych firm; walka z pustostanami komercyjnymi i pomoc w sukcesji firm",
-        "uk": "«Столиця стартапів»: місто як якірний клієнт, сучасна часткова участь співробітників, венчурний капітал на фазі зростання, KiezLabs для економічно сильних кварталів, спільне планування з Бранденбургом і регіоном Одер як європейським простором зростання; підтримка впровадження ШІ в повсякденну роботу малих фірм; боротьба з порожніми комерційними приміщеннями та допомога в наступності бізнесу",
-        "ar": "\"رأس مال الشركات الناشئة\": المدينة كعميل رئيسي، ومشاركة حديثة في أسهم الموظفين، ورأس المال الاستثماري لمرحلة النمو، وKiezLabs للأحياء القوية اقتصاديًا، والتخطيط المشترك مع براندنبورغ ومنطقة أودر كمنطقة نمو أوروبية؛ ودعم إدخال الذكاء الاصطناعي في العمليات اليومية للشركات الصغيرة؛ مكافحة المباني التجارية الشاغرة والمساعدة في خلافة الأعمال"
+        "en": "startup capital: central Gründungshub for the Berlin-Brandenburg metro region; KiezLabs in vacant buildings as local innovation hubs; test fields for hydrogen/bidirectional charging (Tegel) and Agri-PV on Tempelhofer Feld",
+        "de": "Startup-Hauptstadt: zentraler Gründungshub für die Metropolregion Berlin-Brandenburg; KiezLabs in Leerständen als lokale Innovationszentren; Testfelder für Wasserstoff/bidirektionales Laden (Tegel) und Agri-PV auf dem Tempelhofer Feld",
+        "ru": "столица стартапов: центральный Gründungshub для метрополии Берлин-Бранденбург; KiezLabs в пустующих зданиях как локальные инновационные хабы; тестовые поля для водорода/двунаправленной зарядки (Tegel) и Agri-PV на Tempelhofer Feld",
+        "tr": "startup başkenti: Berlin-Brandenburg metropolü için merkezi Gründungshub; boş yapılarda yerel inovasyon merkezleri olarak KiezLabs; hidrojen/çift yönlü şarj (Tegel) ve Tempelhofer Feld’de Agri-PV test alanları",
+        "pl": "stolica startupów: centralny Gründungshub dla metropolii Berlin-Brandenburg; KiezLabs w pustostanach jako lokalne huby innowacji; pola testowe wodoru/ładowania dwukierunkowego (Tegel) i Agri-PV na Tempelhofer Feld",
+        "uk": "столиця стартапів: центральний Gründungshub для метрополії Берлін-Бранденбург; KiezLabs у порожніх будівлях як локальні інноваційні хаби; тестові поля для водню/двобічної зарядки (Tegel) і Agri-PV на Tempelhofer Feld",
+        "ar": "عاصمة الشركات الناشئة: Gründungshub مركزي لمنطقة برلين-براندنبورغ؛ KiezLabs في المباني الشاغرة كمراكز ابتكار محلية؛ حقول اختبار للهيدروجين/الشحن ثنائي الاتجاه (Tegel) وAgri-PV على Tempelhofer Feld"
       },
       "sources": [
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
-          "section": "Jetzt einen zentralen Gründungshub aufbauen",
-          "quote": "Wir schaffen eine zentrale Anlaufstelle (Gründungshub) für Gründende aus der ganzen Metropolregion Berlin-Brandenburg.",
-          "page": 58
+          "page": 58,
+          "section": "Gründungshub",
+          "quote": "Wir schaffen eine zentrale Anlaufstelle (Gründungshub) für Gründende aus der ganzen Metropolregion Berlin-Brandenburg."
         },
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
-          "section": "Jetzt KiezLabs gründen",
-          "quote": "Wir verwandeln leerstehende Immobilien und alte Fabrikhallen in KiezLabs – lokale Innovations- und Gründerzentren in jedem Berliner Bezirk.",
-          "page": 61
+          "page": 61,
+          "section": "KiezLabs",
+          "quote": "Wir verwandeln leerstehende Immobilien und alte Fabrikhallen in KiezLabs – lokale Innovations- und Gründerzentren in jedem Berliner Bezirk."
         },
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
-          "section": "Wirtschaft",
           "page": 60,
-          "quote": "Wir schaffen Testfelder für Wasserstoff, bidirektionales Laden und dezentrale Energienetze: Tegel wird zum Green Tech Hub für Wasserstoff- und Recyclingtechnologien."
+          "section": "Green Tech",
+          "quote": "Tegel wird zum Green Tech Hub für Wasserstoff- und Recyclingtechnologien."
         },
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
-          "section": "Wirtschaft",
           "page": 60,
+          "section": "Energie",
           "quote": "Das Tempelhofer Feld wird Testfläche für Agri-Photovoltaik und mobile Energiespeicher."
-        },
-        {
-          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
-          "section": "Programm",
-          "page": 66,
-          "quote": "Wir dokumentieren alle vorgestellten Praxisbeispiele und veröffentlichen sie auf einer Plattform als „Berliner KI-Erfahrungsbibliothek“, sortiert nach Branche, Unternehmensgröße und eingesetzter Lösung."
-        },
-        {
-          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
-          "section": "Programm",
-          "page": 78,
-          "quote": "Jetzt Organisierte Kriminalität entschlossen bekämpfenWir entwickeln die polizeilichen Entscheidungsunterstützungssysteme, wie »Radar« des Bundeskriminalamts, im Land Berlin weiter, um die Bevölkerung besser vor organisierter Kriminalität zu schützen."
         }
       ]
     },
@@ -16911,26 +16893,44 @@
       "partyId": "tierschutz",
       "stance": "mixed",
       "summary": {
-        "en": "An eco-social economy instead of GDP growth: state minimum wage of at least 16 € with annual indexation, support for a four-day week and mobile work, Jobcenters advise and train instead of imposing sanctions, abolish compulsory placement in jobs not covered by collective agreements; innovation clusters for the circular economy, plant-based food, and sustainable mobility, support open source, AI, and quantum technologies only for the common good; Donut Action Lab where residents develop economic rules themselves",
-        "de": "Ökosoziale Wirtschaft statt BIP-Wachstum: Landesmindestlohn von mindestens 16 € mit jährlicher Anpassung, Unterstützung für Viertagewoche und mobiles Arbeiten, Jobcenter beraten und qualifizieren statt sanktionieren, Zwangsvermittlung in nicht tarifgebundene Stellen abschaffen; Innovationscluster für Kreislaufwirtschaft, pflanzliche Ernährung und nachhaltige Mobilität, Open Source, KI und Quantentechnologien nur für das Gemeinwohl fördern; Donut Action Lab, in dem Einwohner:innen selbst Wirtschaftsregeln entwickeln",
-        "ru": "Экосоциальная экономика вместо роста ВВП: земельная минимальная зарплата минимум 16 € с ежегодной индексацией, поддержка четырёхдневной недели и мобильной работы, Jobcenter консультируют и обучают вместо санкций, принудительное трудоустройство в нетарифные места отменить; инновационные кластеры по циркулярной экономике, растительному питанию и устойчивой мобильности, поддержка open source, ИИ и квантовых технологий только для общего блага; Donut Action Lab, где жители сами вырабатывают правила экономики",
-        "tr": "GSYİH büyümesi yerine eko-sosyal ekonomi: yıllık endekslemeli en az 16 € eyalet asgari ücreti, dört günlük hafta ve mobil çalışmaya destek, Jobcenter’lar yaptırım yerine danışmanlık ve eğitim verir, toplu sözleşmesiz işlere zorunlu yerleştirmeyi kaldırmak; döngüsel ekonomi, bitkisel gıda ve sürdürülebilir mobilite için inovasyon kümeleri, açık kaynak, yapay zekâ ve kuantum teknolojilerini yalnızca kamu yararı için desteklemek; sakinlerin ekonomik kuralları kendilerinin geliştirdiği Donut Action Lab",
-        "pl": "Gospodarka eko-społeczna zamiast wzrostu PKB: państwowa płaca minimalna co najmniej 16 € z coroczną indeksacją, wsparcie czterodniowego tygodnia pracy i pracy mobilnej, Jobcenters doradzają i szkolą zamiast nakładać sankcje, zniesienie obowiązkowego kierowania do pracy poza układami zbiorowymi; klastry innowacji dla gospodarki obiegu zamkniętego, żywności roślinnej i zrównoważonej mobilności, wsparcie open source, AI i technologii kwantowych tylko dla dobra wspólnego; Donut Action Lab, w którym mieszkańcy sami tworzą reguły gospodarcze",
-        "uk": "Екосоціальна економіка замість зростання ВВП: державна мінімальна заробітна плата не менше 16 євро з щорічною індексацією, підтримка чотириденного робочого тижня та мобільної роботи, центри зайнятості консультують та навчають замість накладення санкцій, скасування обов’язкового працевлаштування на роботи, не передбачені колективними договорами; інноваційні кластери для циркулярної економіки, рослинної їжі та сталої мобільності, підтримують відкриті вихідні коди, ШІ та квантові технології лише для загального блага; Donut Action Lab, де мешканці самі розробляють економічні правила",
-        "ar": "اقتصاد بيئي اجتماعي بدلاً من نمو الناتج المحلي الإجمالي: الحد الأدنى للأجور على الأقل 16 يورو مع فهرسة سنوية، ودعم العمل لمدة أربعة أيام في الأسبوع والعمل المتنقل، وتقدم مراكز العمل المشورة والتدريب بدلاً من فرض العقوبات، وإلغاء التعيين الإجباري في الوظائف التي لا تغطيها الاتفاقيات الجماعية؛ مجموعات الابتكار للاقتصاد الدائري، والأغذية النباتية، والتنقل المستدام، تدعم المصدر المفتوح، والذكاء الاصطناعي، والتكنولوجيات الكمية فقط من أجل الصالح العام؛ مختبر دونات أكشن حيث يقوم السكان بتطوير القواعد الاقتصادية بأنفسهم"
+        "en": "eco-social economy for the common good: raise the Land minimum wage to at least €16 with annual inflation indexation; promote mobile work and a four-day week; turn Jobcenters into advice/training places instead of sanctioning; build innovation clusters for circular economy, plant-based food and sustainable mobility; advance open source, AI and quantum tech when they serve the common good",
+        "de": "ökosoziale Gemeinwohl-Wirtschaft: Landesmindestlohn auf mindestens 16 € mit jährlicher Inflationsanpassung; mobiles Arbeiten und Vier-Tage-Woche fördern; Jobcenter zu Beratungs-/Qualifizierungsorten statt Sanktionen; Innovationscluster für Kreislaufwirtschaft, pflanzenbasierte Ernährung und nachhaltige Mobilität; Open Source, KI und Quantentechnologien vorantreiben, wenn sie dem Gemeinwohl dienen",
+        "ru": "экосоциальная экономика общего блага: поднять земельный МРОТ минимум до 16 € с ежегодной индексацией; поощрять удалённую работу и четырёхдневку; Jobcenter как места консультаций/обучения вместо санкций; кластеры инноваций для циркулярной экономики, растительного питания и устойчивой мобильности; развивать Open Source, ИИ и квантовые технологии для общего блага",
+        "tr": "ortak yarar için eko-sosyal ekonomi: eyalet asgari ücretini en az 16 €’ya çıkarıp yıllık enflasyon endeksi; mobil çalışma ve dört günlük haftayı teşvik; Jobcenter’ları yaptırım yerine danışma/eğitim yerleri yapmak; döngüsel ekonomi, bitkisel gıda ve sürdürülebilir mobilite için inovasyon kümeleri; ortak yarara hizmet eden Open Source, KI ve kuantum teknolojileri",
+        "pl": "ekospołeczna gospodarka dobra wspólnego: podnieść płacę minimalną landu do co najmniej 16 € z roczną indeksacją; promować pracę mobilną i czterodniowy tydzień; Jobcentery jako miejsca doradztwa/szkoleń zamiast sankcji; klastry innowacji dla gospodarki obiegu zamkniętego, żywności roślinnej i zrównoważonej mobilności; rozwijać Open Source, AI i technologie kwantowe dla dobra wspólnego",
+        "uk": "екосоціальна економіка спільного блага: підняти земельний мінзарплату щонайменше до 16 € з річною індексацією; заохочувати мобільну працю й чотириденку; Jobcenter як місця консультацій/навчання замість санкцій; кластери інновацій для циркулярної економіки, рослинної їжі й сталої мобільності; розвивати Open Source, ШІ та квантові технології для спільного блага",
+        "ar": "اقتصاد إيكو-اجتماعي للمنفعة العامة: رفع الحد الأدنى للأجور في الولاية إلى 16 يورو على الأقل مع مؤشر تضخم سنوي؛ تشجيع العمل المتنقل وأسبوع أربعة أيام؛ تحويل Jobcenter إلى أماكن إرشاد/تدريب بدل العقوبات؛ عناقيد ابتكار للاقتصاد الدائري والغذاء النباتي والتنقل المستدام؛ دفع Open Source والذكاء الاصطناعي والتقنيات الكمومية لخدمة الصالح العام"
       },
       "sources": [
         {
           "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
-          "section": "Arbeit und Wirtschaft",
           "page": 45,
-          "quote": "Wir schaffen faire Löhne, gute Arbeitsbedingungen und zukunftsfähige Arbeitsmodelle. Deshalb heben wir den Landesmindestlohn an, fördern mobiles Arbeiten und die Vier-Tage-Woche."
+          "section": "Wirtschaft",
+          "quote": "Die PARTEI MENSCH KLIMA TIERSCHUTZ (Tierschutzpartei) steht für eine ökosoziale Wirtschaft, die Gemeinwohl, Nachhaltigkeit und faire Arbeitsbedingungen in den Mittelpunkt stellt."
         },
         {
           "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
-          "section": "Programm",
-          "page": 62,
-          "quote": "Die benötigten Stimmen für Einwohner:innenanträge werden wir von 1."
+          "page": 46,
+          "section": "Mindestlohn",
+          "quote": "Die PARTEI MENSCH KLIMA TIERSCHUTZ (Tierschutzpartei) wird den Landesmindestlohn auf mindestens 16 Euro anheben und jährlich an die Inflation anpassen."
+        },
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "page": 45,
+          "section": "Arbeit",
+          "quote": "Deshalb heben wir den Landesmindestlohn an, fördern mobiles Arbeiten und die Vier-Tage-Woche."
+        },
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "page": 48,
+          "section": "Innovation",
+          "quote": "Innovationscluster für Kreislaufwirtschaft, pflanzenbasierte Ernährung, nachhaltige Mobilität und Ressourcenschonung werden aufgebaut."
+        },
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "page": 48,
+          "section": "Innovation",
+          "quote": "Künstliche Intelligenz und Quantentechnologien werden durch öffentliche Förderprogramme vorangetrieben, wenn sie dem Gemeinwohl dienen und auf Nachhaltigkeit ausgerichtet sind."
         }
       ]
     },
@@ -16939,20 +16939,44 @@
       "partyId": "oedp",
       "stance": "mixed",
       "summary": {
-        "en": "A post-growth economy and common-good economy: Berlin as a city of Gemeinwohlökonomie with progressive prosperity indicators, tax benefits (for example, a Gewerbesteuer-Hebesatz reduced by half) for companies with a common-good balance sheet, support for regional small businesses and programs for women founders, combat bogus self-employment",
-        "de": "Postwachstums- und Gemeinwohlökonomie: Berlin als Stadt der Gemeinwohlökonomie mit fortschrittlichen Wohlstandsindikatoren, Steuervergünstigungen (zum Beispiel halbierter Gewerbesteuer-Hebesatz) für Unternehmen mit Gemeinwohlbilanz, Unterstützung regionaler kleiner Unternehmen und Programme für Gründerinnen, Scheinselbstständigkeit bekämpfen; Die ÖDP Berlin setzt sich für die Erhöhung der Lebensqualität für alle ein",
-        "ru": "Экономика без роста и экономика общего блага: Берлин как город Gemeinwohlökonomie с прогрессивными индикаторами благосостояния, налоговые льготы (например, вдвое меньший Gewerbesteuer-Hebesatz) фирмам с балансом общего блага, поддержка регионального малого бизнеса и программ для основательниц, борьба с мнимой самозанятостью",
-        "tr": "Büyüme sonrası ekonomi ve kamu yararı ekonomisi: Berlin’i ilerici refah göstergeleriyle bir Gemeinwohlökonomie kenti yapmak, kamu yararı bilançosu olan şirketlere vergi avantajları (örneğin yarıya indirilmiş Gewerbesteuer-Hebesatz), bölgesel küçük işletmelere ve kadın kurucu programlarına destek, sahte serbest çalışmayla mücadele",
-        "pl": "Gospodarka postwzrostowa i gospodarka dobra wspólnego: Berlin jako miasto Gemeinwohlökonomie z progresywnymi wskaźnikami dobrobytu, ulgi podatkowe (np. Gewerbesteuer-Hebesatz obniżony o połowę) dla firm z bilansem dobra wspólnego, wsparcie regionalnych małych firm i programów dla założycielek, walka z pozornym samozatrudnieniem",
-        "uk": "Економіка після зростання та економіка загального блага: Берлін як місто Gemeinwohlökonomie з прогресивними показниками процвітання, податкові пільги (наприклад, Gewerbesteuer-Hebesatz зменшений вдвічі) для компаній із балансом загального блага, підтримка регіонального малого бізнесу та програми для жінок-засновниць, боротьба з фіктивною самозайнятістю",
-        "ar": "اقتصاد ما بعد النمو واقتصاد الصالح العام: برلين كمدينة Gemeinwohlökonomie مع مؤشرات الرخاء التدريجي، والمزايا الضريبية (على سبيل المثال، تخفيض Gewerbesteuer-Hebesatz بمقدار النصف) للشركات ذات الميزانية العمومية للصالح العام، ودعم الشركات الإقليمية الصغيرة وبرامج للنساء المؤسسات، ومكافحة العمل الحر المزيف"
+        "en": "prepare for a post-growth / common-good economy: Berlin as a Gemeinwohlökonomie city with progressive prosperity indicators; tax benefits (e.g. Gewerbesteuer rate cut by half) for firms with a common-good balance sheet; support regional small businesses and women founders",
+        "de": "auf Postwachstums-/Gemeinwohlökonomie vorbereiten: Berlin als Stadt der Gemeinwohlökonomie mit progressiven Wohlstandsindikatoren; steuerliche Vorteile (z. B. halber Gewerbesteuer-Hebesatz) für Unternehmen mit Gemeinwohlbilanz; regionale Kleinbetriebe und Gründerinnen fördern",
+        "ru": "готовиться к экономике пост-роста / общего блага: Берлин как город Gemeinwohlökonomie с прогрессивными индикаторами благосостояния; налоговые льготы (напр. ставка Gewerbesteuer вдвое ниже) для фирм с балансом общего блага; поддержка регионального малого бизнеса и женщин-основательниц",
+        "tr": "büyüme sonrası / ortak yarar ekonomisine hazırlanmak: ilerici refah göstergeleriyle Gemeinwohlökonomie kenti Berlin; ortak yarar bilançolu firmalara vergi avantajı (örn. yarı Gewerbesteuer); bölgesel KOBİ ve kadın kurucuları desteklemek",
+        "pl": "przygotować się na gospodarkę post-wzrostu / dobra wspólnego: Berlin jako miasto Gemeinwohlökonomie z progresywnymi wskaźnikami dobrobytu; ulgi podatkowe (np. o połowę niższy Gewerbesteuer) dla firm z bilansem dobra wspólnego; wspierać regionalne małe firmy i założycielki",
+        "uk": "готуватися до економіки пост-зростання / спільного блага: Берлін як місто Gemeinwohlökonomie з прогресивними індикаторами добробуту; податкові пільги (напр. ставка Gewerbesteuer вдвічі нижча) для фірм із балансом спільного блага; підтримка регіонального малого бізнесу й жінок-засновниць",
+        "ar": "الاستعداد لاقتصاد ما بعد النمو / المنفعة العامة: برلين مدينة Gemeinwohlökonomie بمؤشرات رخاء تقدمية؛ مزايا ضريبية (مثل خفض معدل Gewerbesteuer إلى النصف) للشركات ذات ميزانية المنفعة العامة؛ دعم الأعمال الصغيرة الإقليمية والمؤسسات"
       },
       "sources": [
         {
           "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
-          "section": "Gemeinwohlökonomie für Berlin",
           "page": 7,
+          "section": "Gemeinwohlökonomie",
           "quote": "Die ÖDP Berlin setzt sich für die Erhöhung der Lebensqualität für alle ein."
+        },
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "page": 7,
+          "section": "Postwachstum",
+          "quote": "Unser Ziel ist eine Wirtschaft ohne Wachstumszwang, ohne Profitgier, ohne soziale Ausgrenzung und ohne Umweltzerstörung: eine ökosoziale Marktwirtschaft."
+        },
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "page": 8,
+          "section": "Gemeinwohlökonomie",
+          "quote": "Berlin muss Stadt der Gemeinwohlökonomie werden."
+        },
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "page": 8,
+          "section": "Gemeinwohlökonomie",
+          "quote": "einen um 50% ermäßigten Gewerbesteuer-Hebesatz - genießen."
+        },
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "page": 8,
+          "section": "Gründung",
+          "quote": "Förderung von Existenzgründungen von Frauen."
         }
       ]
     },
@@ -16961,44 +16985,50 @@
       "partyId": "cdu",
       "stance": "for",
       "summary": {
-        "en": "Berlin as “Boston on the Spree”: medicine, biotechnology, artificial intelligence, startups, and EXPO 2035; less bureaucracy, the digital AI assistant BärGPT, and a principle of abolishing more rules than are created",
-        "de": "Berlin als „Boston an der Spree“ (Gesundheitsstandort): Medizin, Biotechnologie, künstliche Intelligenz, Start-ups und EXPO 2035; weniger Bürokratie, digitaler KI-Assistent BärGPT und der Grundsatz, mehr Regeln abzuschaffen als zu schaffen",
-        "ru": "Берлин как «Бостон на Шпрее»: медицина, биотехнологии, искусственный интеллект, стартапы и EXPO 2035; меньше бюрократии, цифровой ИИ-ассистент BärGPT и принцип отменять больше правил, чем создавать",
-        "tr": "Berlin „Spree’de Boston“ olarak: tıp, biyoteknoloji, yapay zekâ, startup’lar ve EXPO 2035; daha az bürokrasi, dijital yapay zekâ asistanı BärGPT ve yaratılardan daha fazla kuralı kaldırma ilkesi",
-        "pl": "Berlin jako „Boston on the Spree”: medycyna, biotechnologia, sztuczna inteligencja, startupy i EXPO 2035; mniej biurokracji, cyfrowy asystent AI BärGPT oraz zasada znoszenia więcej przepisów, niż się tworzy",
-        "uk": "Берлін як «Бостон на Шпрее»: медицина, біотехнології, ШІ, стартапи та EXPO 2035; менше бюрократії, цифровий помічник AI BärGPT і принцип скасування більшої кількості правил, ніж створено",
-        "ar": "وبرلين باسم \"بوسطن في المرحة\": الطب، والتكنولوجيا الحيوية، والذكاء الاصطناعي، والشركات الناشئة، ومعرض إكسبو 2035؛ بيروقراطية أقل، ومساعد الذكاء الاصطناعي الرقمي BärGPT، ومبدأ إلغاء المزيد من القواعد التي تم إنشاؤها"
+        "en": "Berlin as Gründerhauptstadt and digital hub (“Boston on the Spree” for health/biotech); intensify Mittelstand–startup–science links; EXPO 2035; bureaucracy “One in – two out”; KI assistant BärGPT for routine city work",
+        "de": "Berlin als Gründerhauptstadt und Digitalzentrum („Boston an der Spree“ für Gesundheit/Biotech); Vernetzung Mittelstand–Start-ups–Wissenschaft intensivieren; EXPO 2035; Bürokratieprinzip „One in – two out“; KI-Assistent BärGPT für Routinearbeit der Stadt",
+        "ru": "Берлин как столица основателей и цифровой хаб («Boston an der Spree» для здоровья/биотех); усилить связи Mittelstand–стартапы–наука; EXPO 2035; бюрократия «One in – two out»; ИИ-ассистент BärGPT для рутины города",
+        "tr": "Berlin Gründerhauptstadt ve dijital merkez (sağlık/biyotek için „Boston an der Spree“); Mittelstand–startup–bilim bağlarını güçlendirmek; EXPO 2035; bürokrasi „One in – two out“; kent rutini için KI asistanı BärGPT",
+        "pl": "Berlin jako Gründerhauptstadt i hub cyfrowy („Boston an der Spree” dla zdrowia/biotech); intensyfikować powiązania Mittelstand–startup–nauka; EXPO 2035; biurokracja „One in – two out”; asystent KI BärGPT do rutyny miasta",
+        "uk": "Берлін як столиця засновників і цифровий хаб («Boston an der Spree» для здоров’я/біотех); посилити зв’язки Mittelstand–стартапи–наука; EXPO 2035; бюрократія «One in – two out»; ШІ-асистент BärGPT для рутини міста",
+        "ar": "برلين كعاصمة مؤسِّسين ومركز رقمي («Boston an der Spree» للصحة/التكنولوجيا الحيوية)؛ تكثيف روابط Mittelstand–الشركات الناشئة–العلم؛ EXPO 2035؛ بيروقراطية «One in – two out»؛ مساعد الذكاء الاصطناعي BärGPT لأعمال المدينة الروتينية"
       },
       "sources": [
         {
           "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
-          "section": "Berlin wird spitze",
           "page": 44,
-          "quote": "Start-ups und Wissenschaft intensiviert werden. Die industrielle Wertschöpfung in der Metropolregion wollen wir nachhaltig steigern."
+          "section": "Gründerhauptstadt",
+          "quote": "Berlin soll auch künftig die Gründerhauptstadt und das Zentrum der Digitalwirtschaft bleiben."
         },
         {
           "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
-          "section": "Innovation",
-          "page": 48,
-          "quote": "Wir unterstützen eine Bewerbung der Metropolregion Berlin-Brandenburg für die EXPO 2035."
+          "page": 44,
+          "section": "Start-ups",
+          "quote": "Dazu sollen Reallabore für neue Energie- und Wärmetechnologien ermöglicht und die Zusammenarbeit zwischen Mittelstand, Start-ups und Wissenschaft intensiviert werden."
         },
         {
           "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
-          "section": "Innovation",
           "page": 50,
+          "section": "Gesundheit",
           "quote": "Unsere Stadt zählt zu den weltweit führenden Gesundheitsstandorten – von der Wissenschaft und Forschung über die Produktion bis hin zur medizinischen Versorgung."
         },
         {
           "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
-          "section": "Innovation",
           "page": 48,
+          "section": "EXPO",
           "quote": "Wir unterstützen eine Bewerbung der Metropolregion Berlin-Brandenburg für die EXPO 2035."
         },
         {
           "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
-          "section": "Programm",
-          "page": 99,
-          "quote": "Auch im Bereich der Pflege wollen wir für weniger Bürokratie sorgen."
+          "page": 41,
+          "section": "Bürokratie",
+          "quote": "Dabei verfolgen wir das Prinzip „One in – two out“."
+        },
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "page": 87,
+          "section": "BärGPT",
+          "quote": "Unser cleverer KI-Assistent BärGPT entlastet die Mitarbeiter der Stadt bei Routinetätigkeiten, damit mehr Zeit für Anliegen der Berliner bleibt."
         }
       ]
     },
@@ -17007,32 +17037,32 @@
       "partyId": "spd",
       "stance": "for",
       "summary": {
-        "en": "startups and future industries: artificial intelligence, DeepTech, games, finance, aerospace, railway technology, pharmaceuticals, and medical technology; support for women founders, laboratories for testing new solutions, and visibility for entrepreneurship by people with a migration history",
-        "de": "Start-ups und Zukunftsbranchen: künstliche Intelligenz, DeepTech, Games, Finanzen, Luft- und Raumfahrt, Bahntechnik, Pharma und Medizintechnik; Unterstützung von Gründerinnen, Labore zum Testen neuer Lösungen und Sichtbarkeit des Unternehmertums von Menschen mit Migrationsgeschichte; Die Berliner Wirtschaft wächst seit Jahren stärker als der Bundesdurchschnitt",
-        "ru": "стартапы и отрасли будущего: искусственный интеллект, глубокие технологии, игры, финансы, авиакосмос, железнодорожная техника, фарма и медтехника; поддержка основательниц, лаборатории для тестирования новых решений и видимость предпринимательства людей с миграционной историей",
-        "tr": "startup’lar ve gelecek sektörleri: yapay zekâ, DeepTech, oyunlar, finans, havacılık, demiryolu teknolojisi, ilaç ve tıbbi teknoloji; kadın kuruculara destek, yeni çözümleri test eden laboratuvarlar ve göç geçmişi olanların girişimciliğine görünürlük",
-        "pl": "startupy i branże przyszłości: sztuczna inteligencja, DeepTech, games, finanse, aerospace, technologia kolejowa, farmacja i technologia medyczna; wsparcie założycielek, laboratoria do testowania nowych rozwiązań oraz widoczność przedsiębiorczości osób z historią migracji",
-        "uk": "стартапи та галузі майбутнього: ШІ, DeepTech, ігри, фінанси, аерокосмічна промисловість, залізничні технології, фармацевтика та медичні технології; підтримка жінок-засновниць, лабораторії для тестування нових рішень і видимість підприємницької діяльності для людей з міграційною історією",
-        "ar": "الشركات الناشئة والصناعات المستقبلية: الذكاء الاصطناعي، والتكنولوجيا العميقة، والألعاب، والتمويل، والفضاء، وتكنولوجيا السكك الحديدية، والأدوية، والتكنولوجيا الطبية؛ دعم المؤسسين من النساء، ومختبرات لاختبار الحلول الجديدة، ورؤية ريادة الأعمال من قبل الأشخاص الذين لديهم تاريخ هجرة"
+        "en": "strengthen future industries (life sciences/health, AI and DeepTech, games, finance, aerospace, rail tech, etc.); continue the Reallabor strategy with funding and a “Made in Berlin” focus; expand support for women founders and access to risk capital",
+        "de": "Zukunftsbranchen stärken (Lebenswissenschaften/Gesundheit, KI und DeepTech, Games, Finanzen, Luft- und Raumfahrt, Bahntechnik u. a.); Reallaborstrategie fortführen mit Finanzierung und Fokus „Made in Berlin“; Förderung von Gründerinnen und Zugang zu Risikokapital ausbauen",
+        "ru": "укрепить отрасли будущего (life sciences/здоровье, ИИ и DeepTech, games, финансы, аэрокосмос, ж/д техника и др.); продолжить стратегию Reallabor с финансированием и фокусом „Made in Berlin“; расширить поддержку основательниц и доступ к венчуру",
+        "tr": "gelecek sektörlerini güçlendirmek (yaşam bilimleri/sağlık, KI ve DeepTech, oyun, finans, havacılık, demiryolu vb.); finansman ve „Made in Berlin“ odağıyla Reallabor stratejisini sürdürmek; kadın kurucu desteği ve risk sermayesine erişimi artırmak",
+        "pl": "wzmocnić branże przyszłości (life sciences/zdrowie, AI i DeepTech, gry, finanse, lotnictwo, kolej itd.); kontynuować strategię Reallabor z finansowaniem i fokusem „Made in Berlin”; rozszerzyć wsparcie założycielek i dostęp do kapitału ryzyka",
+        "uk": "посилити галузі майбутнього (life sciences/здоров’я, ШІ та DeepTech, ігри, фінанси, авіакосмос, залізнична техніка тощо); продовжити стратегію Reallabor з фінансуванням і фокусом „Made in Berlin“; розширити підтримку засновниць і доступ до венчуру",
+        "ar": "تعزيز صناعات المستقبل (علوم الحياة/الصحة والذكاء الاصطناعي وDeepTech والألعاب والمال والطيران وتقنية السكك وغيرها)؛ مواصلة استراتيجية Reallabor بتمويل وتركيز „Made in Berlin“؛ توسيع دعم المؤسسات ووصول رأس المال المخاطر"
       },
       "sources": [
         {
           "url": "https://spd.berlin/media/2026/08/SPD_Berlin_Wahlprogramm_20260521-v4-1.pdf",
           "page": 10,
-          "quote": "Deshalb stärken wir besonders die Zukunftsbranchen und Spitzentechnologien in den Bereichen Lebenswissenschaften und Gesundheit, Künstliche Intelligenz und DeepTech, Bahntechnik und autonome Mobilitätsformen, Umwelt- und Klimaschutz, Games, Finanzdienstleistungen, Verteidigung und Resilienz, Drohnen, Luft- und Raumfahrt, sowie den Bereich Governance Technology zur Digitalisierung von Dienstleistungen und Prozessen im öffentlichen Sektor.",
-          "section": "Zukunftsbranchen"
+          "section": "Zukunftsbranchen",
+          "quote": "Deshalb stärken wir besonders die Zukunftsbranchen und Spitzentechnologien in den Bereichen Lebenswissenschaften und Gesundheit, Künstliche Intelligenz und DeepTech, Bahntechnik und autonome Mobilitätsformen, Umwelt- und Klimaschutz, Games, Finanzdienstleistungen, Verteidigung und Resilienz, Drohnen, Luft- und Raumfahrt, sowie den Bereich Governance Technology zur Digitalisierung von Dienstleistungen und Prozessen im öffentlichen Sektor."
         },
         {
           "url": "https://spd.berlin/media/2026/08/SPD_Berlin_Wahlprogramm_20260521-v4-1.pdf",
           "page": 10,
-          "quote": "Um die Wirtschaft besser in den Technologietransfer einzubinden, schreiben wir die Berliner Reallaborstrategie fort, unterfüttern sie finanziell und setzen einen klaren Schwerpunkt auf Produkte „Made in Berlin“ . Innovation durch Vielfalt Die Berliner Wirtschaft wächst seit Jahren stärker als der Bundesdurchschnitt.",
-          "section": "Reallabor"
+          "section": "Reallabor",
+          "quote": "schreiben wir die Berliner Reallaborstrategie fort, unterfüttern sie finanziell und setzen einen klaren Schwerpunkt auf Produkte „Made in Berlin“."
         },
         {
           "url": "https://spd.berlin/media/2026/08/SPD_Berlin_Wahlprogramm_20260521-v4-1.pdf",
-          "section": "Programm",
-          "page": 59,
-          "quote": "Vom Gas- zum WasserstoffnetzDas Berliner Gasnetz braucht klare regulatorische Unterstützung für den Aufbau eines WasserstoffKernnetzes mit Fokus auf Großverbraucher, zu denen auch quartiersbezogene Kraftwerke zählen können."
+          "page": 11,
+          "section": "Gründerinnen",
+          "quote": "Den Zugang zu Fördermitteln und Risikokapital für Frauen erleichtern wir, damit der Anteil weiblicher Gründungen weiter steigt: Wir fördern Frauen in Führungspositionen."
         }
       ]
     },
@@ -17041,44 +17071,32 @@
       "partyId": "gruene",
       "stance": "for",
       "summary": {
-        "en": "innovation through a green and social economy: climate transformation, workforce strategy, equal pay, support for science and games; business must be compatible with the climate and social justice",
-        "de": "Innovation durch eine ökologische und soziale Wirtschaft: Klimatransformation, Fachkräftestrategie, gleiche Bezahlung, Förderung von Wissenschaft und Games; Wirtschaft muss mit Klimaschutz und sozialer Gerechtigkeit vereinbar sein; Diese Innovationskraft entsteht auch aus der internationalen Vielfalt: weil Menschen aus den unterschiedlichsten Gründen aus aller Welt nach Berlin ko; Wir setzen uns für ein Berliner Innovationsfreiheitsgesetz ein, das Reallabore, Experimentierklauseln und beschleunigte Verfahren ermöglicht; Wir setzen auf Kreislaufwirtschaft statt Verschwendung, auf Zusammenarbeit statt Konkurrenz, auf Gemeinwohl statt Profitdenken",
-        "ru": "инновации через зелёную и социальную экономику: климатическая трансформация, стратегия кадров, равная оплата, поддержка науки и игр; бизнес должен быть совместим с климатом и социальной справедливостью",
-        "tr": "yeşil ve sosyal ekonomi üzerinden inovasyon: iklim dönüşümü, işgücü stratejisi, eşit ücret, bilim ve oyun desteği; işletme iklim ve sosyal adaletle uyumlu olmalı",
-        "pl": "innowacje przez zieloną i społeczną gospodarkę: transformacja klimatyczna, strategia kadr, równe płace, wsparcie nauki i gier; biznes musi być zgodny z klimatem i sprawiedliwością społeczną",
-        "uk": "інновації через зелену та соціальну економіку: кліматична трансформація, кадрова стратегія, рівна оплата, підтримка науки та ігор; бізнес має бути сумісним із кліматом і соціальною справедливістю",
-        "ar": "والابتكار من خلال الاقتصاد الأخضر والاجتماعي: التحول المناخي، واستراتيجية القوى العاملة، والمساواة في الأجور، ودعم العلوم والألعاب؛ يجب أن تكون الأعمال متوافقة مع المناخ والعدالة الاجتماعية"
+        "en": "strong innovation ecosystem linking science, business and industrial value creation; a Berlin Innovationsfreiheitsgesetz for real labs, experiment clauses and faster procedures; innovation through international diversity",
+        "de": "starkes Innovationsökosystem aus Wissenschaft, Unternehmertum und industrieller Wertschöpfung; Berliner Innovationsfreiheitsgesetz für Reallabore, Experimentierklauseln und schnellere Verfahren; Innovationskraft durch internationale Vielfalt",
+        "ru": "сильная инновационная экосистема науки, бизнеса и промышленной добавленной стоимости; Innovationsfreiheitsgesetz для реал-лаб, экспериментальных оговорок и быстрых процедур; инновации через международное разнообразие",
+        "tr": "bilim, işletme ve endüstriyel katma değeri bağlayan güçlü inovasyon ekosistemi; Reallabore, deney maddeleri ve hızlandırılmış usuller için Berliner Innovationsfreiheitsgesetz; uluslararası çeşitlilikle inovasyon",
+        "pl": "silny ekosystem innowacji łączący naukę, biznes i przemysłową wartość dodaną; Berliner Innovationsfreiheitsgesetz dla real-labów, klauzul eksperymentalnych i szybszych procedur; innowacja przez międzynarodową różnorodność",
+        "uk": "сильна інноваційна екосистема науки, бізнесу й промислової доданої вартості; Innovationsfreiheitsgesetz для реал-лаб, експериментальних застережень і швидших процедур; інновації через міжнародне розмаїття",
+        "ar": "منظومة ابتكار قوية تربط العلم والأعمال والقيمة الصناعية؛ Innovationsfreiheitsgesetz لمختبرات واقعية وبنود تجريبية وإجراءات أسرع؛ ابتكار عبر التنوع الدولي"
       },
       "sources": [
         {
           "url": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
-          "section": "3.2 Fortschrittliche Wirtschaft",
           "page": 97,
-          "quote": "Diese Vielfalt ist die Grundlage eines starken Innovationsökosystems, das wissenschaftliche Exzellenz, unternehmerische Dynamik und industrielle Wertschöpfung miteinander verbindet. Unsere wertvollste Ressource ist unsere Innovationskraft."
+          "section": "Innovation",
+          "quote": "Diese Vielfalt ist die Grundlage eines starken Innovationsökosystems, das wissenschaftliche Exzellenz, unternehmerische Dynamik und industrielle Wertschöpfung miteinander verbindet."
         },
         {
           "url": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
-          "section": "Programm",
           "page": 96,
+          "section": "Innovationsfreiheitsgesetz",
           "quote": "Wir setzen uns für ein Berliner Innovationsfreiheitsgesetz ein, das Reallabore, Experimentierklauseln und beschleunigte Verfahren ermöglicht."
         },
         {
           "url": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
-          "section": "Programm",
-          "page": 12,
-          "quote": "Wir setzen auf Kreislaufwirtschaft statt Verschwendung, auf Zusammenarbeit statt Konkurrenz, auf Gemeinwohl statt Profitdenken."
-        },
-        {
-          "url": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
-          "section": "Programm",
           "page": 93,
+          "section": "Vielfalt",
           "quote": "Diese Innovationskraft entsteht auch aus der internationalen Vielfalt: weil Menschen aus den unterschiedlichsten Gründen aus aller Welt nach Berlin kommen und mit ihren Ideen, ihrem Wissen und ihrer Kultur unsere Stadt prägen und tragen."
-        },
-        {
-          "url": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
-          "section": "Programm",
-          "page": 4,
-          "quote": "Fortschrittliche Wirtschaft – ökologisch, sozial und innovativ ."
         }
       ]
     },
@@ -17087,32 +17105,26 @@
       "partyId": "linke",
       "stance": "mixed",
       "summary": {
-        "en": "innovation not as an end in itself, but through public benefit: industry, healthcare, energy, and transport engineering; give priority to open source, digital sovereignty, and global justice in municipal procurement",
-        "de": "Innovation nicht als Selbstzweck, sondern durch gesellschaftlichen Nutzen: Industrie, Gesundheitswesen, Energie und Verkehrstechnik; Coaching-Bonus für Gründer*innen wieder einsetzen und den Zugang zu Krediten für Gründungen fördern: Sei es für Deep-Tech-Start-ups, für den; Dass über ein Viertel der Berliner*innen zu den kommunalen Wahlen und Abgeordnetenhauswahlen nicht wählen und sich nicht zur Wahl aufstellen darf, ste",
-        "ru": "инновации не как самоцель, а через общественную пользу: промышленность, здравоохранение, энергетика и транспортное машиностроение; в городских закупках приоритет открытого кода, цифрового суверенитета и глобальной справедливости",
-        "tr": "inovasyon kendi başına amaç değil, kamu yararı yoluyla: sanayi, sağlık, enerji ve ulaşım mühendisliği; belediye alımlarında açık kaynak, dijital egemenlik ve küresel adalete öncelik",
-        "pl": "innowacje nie jako cel sam w sobie, lecz przez pożytek publiczny: przemysł, ochrona zdrowia, energia i inżynieria transportu; w zamówieniach komunalnych priorytet dla open source, cyfrowej suwerenności i sprawiedliwości globalnej",
-        "uk": "інновації не як самоціль, а через суспільну користь: промисловість, охорона здоров'я, енергетика, транспортне машинобудування; надати пріоритет відкритому коду, цифровому суверенітету та глобальній справедливості в муніципальних закупівлях",
-        "ar": "والابتكار ليس كغاية في حد ذاته، بل من خلال المنفعة العامة: الصناعة والرعاية الصحية والطاقة وهندسة النقل؛ إعطاء الأولوية للمصادر المفتوحة، والسيادة الرقمية، والعدالة العالمية في المشتريات البلدية"
+        "en": "restore the coaching bonus for founders and improve access to credit—for Deep-Tech startups as well as local shops; innovation via public benefit, Open Source and digital sovereignty in procurement (see economy)",
+        "de": "Coaching-Bonus für Gründer*innen wieder einsetzen und Kreditzugang verbessern – für Deep-Tech-Start-ups ebenso wie für den Laden um die Ecke; Innovation über Gemeinwohl, Open Source und digitale Souveränität in der Vergabe",
+        "ru": "вернуть coaching-бонус основателям и улучшить доступ к кредитам — для Deep-Tech и местного магазина; инновации через общее благо, Open Source и цифровой суверенитет в закупках",
+        "tr": "kurucular için coaching bonusunu geri getirip kredi erişimini iyileştirmek — Deep-Tech startup’lar ve mahalle dükkânı için; ihalelerde kamu yararı, Open Source ve dijital egemenlikle inovasyon",
+        "pl": "przywrócić coaching-bonus dla założycieli i poprawić dostęp do kredytów — dla Deep-Tech i lokalnego sklepu; innowacje przez dobro wspólne, Open Source i cyfrową suwerenność w zamówieniach",
+        "uk": "повернути coaching-бонус засновникам і покращити доступ до кредитів — для Deep-Tech і місцевої крамниці; інновації через спільне благо, Open Source і цифровий суверенітет у закупівлях",
+        "ar": "إعادة مكافأة التوجيه للمؤسسين وتحسين الوصول إلى الائتمان — للشركات العميقة التقنية والمتجر المحلي؛ ابتكار عبر المنفعة العامة وOpen Source والسيادة الرقمية في المشتريات"
       },
       "sources": [
         {
           "url": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf",
           "page": 86,
-          "quote": "Coaching-Bonus für Gründer*innen wieder einsetzen und den Zugang zu Krediten für Gründungen fördern: Sei es für Deep-Tech-Start-ups, für den Gründer eines Gemüseladens oder die Gründerin einer Fahrradwerkstatt.",
-          "section": "Gründungen"
+          "section": "Gründung",
+          "quote": "Coaching-Bonus für Gründer*innen wieder einsetzen und den Zugang zu Krediten für Gründungen fördern: Sei es für Deep-Tech-Start-ups, für den Gründer eines Gemüseladens oder die Gründerin einer Fahrradwerkstatt."
         },
         {
           "url": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf",
-          "section": "Programm",
-          "page": 236,
-          "quote": "Sie ist Ort des Experiments, der gesellschaftlichen Auseinandersetzung und der künstlerischen Innovation – und sie ist strukturell auf verlässliche Unterstützung angewiesen."
-        },
-        {
-          "url": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf",
-          "section": "Programm",
-          "page": 276,
-          "quote": "Dass über ein Viertel der Berliner*innen zu den kommunalen Wahlen und Abgeordnetenhauswahlen nicht wählen und sich nicht zur Wahl aufstellen darf, stellt ein großes Demokratiedefizit dar."
+          "page": 88,
+          "section": "Vergabe",
+          "quote": "Außerdem Unternehmen, die mit Open Source arbeiten und die digitale Souveränität stärken."
         }
       ]
     },
@@ -17149,20 +17161,20 @@
       "partyId": "afd",
       "stance": "for",
       "summary": {
-        "en": "a central location for startups based on Station F in Paris, transfer of scientific findings into business, less burden on small and medium-sized businesses, and strategic digitalization to strengthen Berlin as a technology location",
-        "de": "zentraler Ort für Start-ups nach dem Vorbild von Station F in Paris, Transfer wissenschaftlicher Ergebnisse in die Wirtschaft, geringere Belastung kleiner und mittlerer Unternehmen und strategische Digitalisierung zur Stärkung des Technologiestandorts",
-        "ru": "центральное место для стартапов по образцу Station F в Париже, перенос научных результатов в бизнес, меньше нагрузки на малый и средний бизнес и стратегическая цифровизация как усиление технологической площадки",
-        "tr": "Paris’teki Station F örneğine dayalı startup’lar için merkezi yer, bilimsel bulguların işe aktarımı, KOBİ’lere daha az yük ve Berlin’i teknoloji merkezi olarak güçlendirmek için stratejik dijitalleşme",
-        "pl": "centralny ośrodek startupów wzorowana na Station F w Paryżu, transfer wyników naukowych do biznesu, mniejsze obciążenie MŚP oraz strategiczna cyfryzacja wzmacniająca Berlin jako lokalizację technologiczną",
-        "uk": "центральне розташування для стартапів на станції F у Парижі, передача наукових результатів у бізнес, зменшення навантаження на малий і середній бізнес і стратегічна цифровізація для зміцнення Берліна як технологічного місця",
-        "ar": "موقع مركزي للشركات الناشئة على أساس المحطة F في باريس، ونقل النتائج العلمية إلى الأعمال التجارية، وتقليل العبء على الشركات الصغيرة والمتوسطة الحجم، والتحول الرقمي الاستراتيجي لتعزيز برلين كموقع تكنولوجي"
+        "en": "central Station-F-style location for Berlin’s startup ecosystem to strengthen innovation culture and transfer research into entrepreneurship",
+        "de": "zentraler Ort für das Berliner Start-up-Ökosystem nach Vorbild Station F, um Innovationskultur zu stärken und Forschung in Entrepreneurship zu überführen",
+        "ru": "центральная площадка экосистемы стартапов по образцу Station F для усиления инновационной культуры и перевода исследований в предпринимательство",
+        "tr": "inovasyon kültürünü güçlendirmek ve araştırmayı girişimciliğe aktarmak için Station F tarzı merkezi startup ekosistemi yeri",
+        "pl": "centralna lokalizacja ekosystemu startupów wzorowana na Station F, by wzmocnić kulturę innowacji i przenieść badania do przedsiębiorczości",
+        "uk": "центральна локація екосистеми стартапів за зразком Station F для посилення інноваційної культури й перенесення досліджень у підприємництво",
+        "ar": "موقع مركزي لنظام الشركات الناشئة على غرار Station F لتعزيز ثقافة الابتكار ونقل البحث إلى ريادة الأعمال"
       },
       "sources": [
         {
           "url": "https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf",
           "page": 48,
-          "quote": "Zu diesem Zweck schlagen wir vor, einen zentralen Ort für das Berliner Start-up-Ökosystem nach dem Vorbild der Station F in Paris zu schaffen.",
-          "section": "Wirtschaft & Soziales"
+          "section": "Start-ups",
+          "quote": "Zu diesem Zweck schlagen wir vor, einen zentralen Ort für das Berliner Start-up-Ökosystem nach dem Vorbild der Station F in Paris zu schaffen."
         }
       ]
     },
@@ -17205,38 +17217,32 @@
       "partyId": "volt",
       "stance": "for",
       "summary": {
-        "en": "startup capital with KiezLabs for local trades, founders and freelancers; industry-specific minimum standards for AI and digitalization solutions with the chambers of commerce and crafts",
-        "de": "Start-up-Hauptstadt mit KiezLabs für lokales Handwerk, Gründende und Selbständige; branchenspezifische Mindeststandards für KI- und Digitalisierungslösungen mit IHK und Handwerk",
-        "ru": "«столица стартапов»: город как первый крупный заказчик, участие сотрудников в капитале, венчурный капитал для роста, использование путстующих фабрик и помещений для KiezLabs — районные лаборатории для экономически сильных кварталов, поддержка внедрения ИИ малыми фирмами, зелёные технологии и тестовая площадка агро-фотоэлектричества на Темпельхофском поле",
-        "tr": "„startup başkenti“: kent ilk büyük müşteri olarak, çalışan hisse katılımı, büyüme için risk sermayesi, boş fabrikalar ve mekânların KiezLabs — ekonomik olarak güçlü mahalleler için mahalle laboratuvarları — olarak kullanımı, yapay zekâ benimseyen küçük firmalara destek, yeşil teknolojiler ve Tempelhofer Feld’de agrivoltaik test alanı",
-        "pl": "„stolica startupów”: miasto jako pierwszy duży klient, udział pracowników w kapitale, venture capital na wzrost, wykorzystanie pustych fabryk i lokali na KiezLabs — laboratoria dzielnicowe dla silnych gospodarczo dzielnic, wsparcie małych firm wdrażających AI, zielone technologie oraz poligon agrivoltaiki na Tempelhofer Feld",
-        "uk": "«Стартовий капітал»: місто як перший великий клієнт, участь співробітників у акціонерному капіталі, венчурний капітал для зростання, використання вільних фабрик і приміщень для KiezLabs — сусідніх лабораторій для економічно міцних районів, підтримка невеликих компаній, які впроваджують ШІ, зелені технології та агроелектричний випробувальний полігон на Tempelhofer Feld",
-        "ar": "رأس مال بدء التشغيل مع KiezLabs للتجار المحليين والمؤسسين والمستقلين؛ الحد الأدنى من المعايير الخاصة بالصناعة لحلول الذكاء الاصطناعي والرقمنة مع غرف التجارة والحرف"
+        "en": "central Gründungshub for Berlin-Brandenburg founders; KiezLabs where local crafts, founders and freelancers grow together; chamber-defined minimum standards for AI/digitalization tools for SMEs",
+        "de": "zentraler Gründungshub für Gründende aus Berlin-Brandenburg; KiezLabs, in denen lokales Handwerk, Gründende und Selbständige gemeinsam wachsen; branchenbezogene Mindeststandards für KI-/Digitalisierungslösungen mit den Kammern",
+        "ru": "центральный Gründungshub для основателей Берлин-Бранденбург; KiezLabs, где вместе растут местные ремёсла, основатели и самозанятые; отраслевые минимумы для ИИ/цифровых инструментов с палатами",
+        "tr": "Berlin-Brandenburg kurucuları için merkezi Gründungshub; yerel zanaat, kurucu ve serbest çalışanların birlikte büyüdüğü KiezLabs; odalarla KOBİ’ler için KI/dijital araç asgari standartları",
+        "pl": "centralny Gründungshub dla założycieli Berlin-Brandenburg; KiezLabs, gdzie razem rosną lokalne rzemiosło, założyciele i freelancerzy; branżowe minima narzędzi AI/cyfrowych z izbami",
+        "uk": "центральний Gründungshub для засновників Берлін-Бранденбург; KiezLabs, де разом зростають місцеві ремесла, засновники й самозайняті; галузеві мінімуми ШІ/цифрових інструментів із палатами",
+        "ar": "Gründungshub مركزي لمؤسسي برلين-براندنبورغ؛ KiezLabs حيث ينمو الحرف المحليون والمؤسسون والمستقلون معاً؛ معايير دنيا مع الغرف لأدوات الذكاء الاصطناعي/الرقمنة للشركات الصغيرة"
       },
       "sources": [
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
-          "section": "Jetzt einen zentralen Gründungshub aufbauen",
-          "quote": "Wir schaffen eine zentrale Anlaufstelle (Gründungshub) für Gründende aus der ganzen Metropolregion Berlin-Brandenburg.",
-          "page": 58
+          "page": 58,
+          "section": "Gründungshub",
+          "quote": "Wir schaffen eine zentrale Anlaufstelle (Gründungshub) für Gründende aus der ganzen Metropolregion Berlin-Brandenburg."
         },
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
-          "section": "Innovation",
           "page": 61,
+          "section": "KiezLabs",
           "quote": "Wir bekämpfen Leerstand, sichern Betriebsnachfolgen und schaffen mit KiezLabs neue Orte, an denen lokales Handwerk, Gründende, Selbständige und Dienstleister gemeinsam wachsen können."
         },
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
-          "section": "Innovation",
-          "page": 70,
-          "quote": "Unsere KiezLabs ergänzen die Qualifizierung um einen praktischen Erprobungsraum: In Werkstätten, Reparaturzentren und lokalen Dienstleistungsbetrieben sammeln Menschen niedrigschwellig und ohne Berufsabschluss erste Berufserfahrung, bevor sie in den regulären Arbeitsmarkt einsteigen."
-        },
-        {
-          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
-          "section": "Innovation",
           "page": 65,
-          "quote": "branchenspezifische Mindeststandards für KI- und Digitalisierungslösungen, etwa für Kassensysteme, Buchhaltung, Terminplanung, Marketing und behördliche Anträge."
+          "section": "KI",
+          "quote": "Wir definieren gemeinsam mit IHK, Handwerkskammern und Branchenverbänden branchenspezifische Mindeststandards für KI- und Digitalisierungslösungen, etwa für Kassensysteme, Buchhaltung, Terminplanung, Marketing und behördliche Anträge."
         }
       ]
     },
@@ -17245,20 +17251,38 @@
       "partyId": "tierschutz",
       "stance": "for",
       "summary": {
-        "en": "innovation only for the common good: clusters for the circular economy, plant-based food, and sustainable mobility; support open source, AI, and quantum technologies if they serve society, the climate, and animals",
-        "de": "Innovation nur für das Gemeinwohl: Cluster für Kreislaufwirtschaft, pflanzliche Ernährung und nachhaltige Mobilität; Open Source, KI und Quantentechnologien fördern, wenn sie Gesellschaft, Klima und Tieren dienen",
-        "ru": "инновации только для общего блага: кластеры по циклической экономике, растительному питанию и устойчивой мобильности; открытый код, ИИ и квантовые технологии поддерживать, если они служат обществу, климату и животным",
-        "tr": "inovasyon yalnızca kamu yararı için: döngüsel ekonomi, bitkisel gıda ve sürdürülebilir mobilite kümeleri; toplum, iklim ve hayvanlara hizmet ederse açık kaynak, yapay zekâ ve kuantum teknolojilerine destek",
-        "pl": "innowacje tylko dla dobra wspólnego: klastry gospodarki obiegu zamkniętego, żywności roślinnej i zrównoważonej mobilności; wsparcie open source, AI i technologii kwantowych, jeśli służą społeczeństwu, klimatowi i zwierzętom",
-        "uk": "інновації лише для загального блага: кластери для циркулярної економіки, рослинної їжі та стійкої мобільності; підтримувати відкриті джерела, AI та квантові технології, якщо вони служать суспільству, клімату та тваринам",
-        "ar": "والابتكار من أجل الصالح العام فقط: مجموعات من أجل الاقتصاد الدائري، والأغذية النباتية، والتنقل المستدام؛ دعم التقنيات مفتوحة المصدر والذكاء الاصطناعي والكم إذا كانت تخدم المجتمع والمناخ والحيوانات"
+        "en": "eco-social innovation for the common good: clusters for circular economy, plant-based food and sustainable mobility; promote open source; publicly fund AI and quantum technologies when they serve sustainability and the common good",
+        "de": "ökosoziale Innovation fürs Gemeinwohl: Cluster für Kreislaufwirtschaft, pflanzenbasierte Ernährung und nachhaltige Mobilität; Open Source fördern; KI und Quantentechnologien öffentlich fördern, wenn sie Nachhaltigkeit und Gemeinwohl dienen",
+        "ru": "экосоциальные инновации для общего блага: кластеры циркулярной экономики, растительного питания и устойчивой мобильности; поддерживать Open Source; госфинансирование ИИ и квантовых технологий для устойчивости и общего блага",
+        "tr": "ortak yarar için eko-sosyal inovasyon: döngüsel ekonomi, bitkisel gıda ve sürdürülebilir mobilite kümeleri; Open Source’u teşvik; sürdürülebilirlik ve ortak yarara hizmet eden KI ve kuantum teknolojilerine kamu desteği",
+        "pl": "ekospołeczne innowacje dla dobra wspólnego: klastry gospodarki obiegu zamkniętego, żywności roślinnej i zrównoważonej mobilności; wspierać Open Source; publicznie finansować AI i technologie kwantowe dla zrównoważenia i dobra wspólnego",
+        "uk": "екосоціальні інновації для спільного блага: кластери циркулярної економіки, рослинної їжі й сталої мобільності; підтримувати Open Source; державне фінансування ШІ та квантових технологій для сталості й спільного блага",
+        "ar": "ابتكار إيكو-اجتماعي للمنفعة العامة: عناقيد الاقتصاد الدائري والغذاء النباتي والتنقل المستدام؛ تشجيع Open Source؛ تمويل عام للذكاء الاصطناعي والتقنيات الكمومية لخدمة الاستدامة والمنفعة العامة"
       },
       "sources": [
         {
           "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
-          "section": "Arbeit und Wirtschaft",
           "page": 45,
+          "section": "Wirtschaft",
           "quote": "Die PARTEI MENSCH KLIMA TIERSCHUTZ (Tierschutzpartei) steht für eine ökosoziale Wirtschaft, die Gemeinwohl, Nachhaltigkeit und faire Arbeitsbedingungen in den Mittelpunkt stellt."
+        },
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "page": 48,
+          "section": "Innovation",
+          "quote": "Innovationscluster für Kreislaufwirtschaft, pflanzenbasierte Ernährung, nachhaltige Mobilität und Ressourcenschonung werden aufgebaut."
+        },
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "page": 48,
+          "section": "Innovation",
+          "quote": "Open-Source-Projekte werden wir fördern."
+        },
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "page": 48,
+          "section": "Innovation",
+          "quote": "Künstliche Intelligenz und Quantentechnologien werden durch öffentliche Förderprogramme vorangetrieben, wenn sie dem Gemeinwohl dienen und auf Nachhaltigkeit ausgerichtet sind."
         }
       ]
     },
@@ -17267,20 +17291,32 @@
       "partyId": "oedp",
       "stance": "mixed",
       "summary": {
-        "en": "innovation through a common-good economy and regional small business: tax benefits for companies with a common-good balance sheet, programs for women founders, transparency, and action against bogus self-employment; less emphasis on a conventional startup ecosystem",
-        "de": "Innovation durch Gemeinwohlökonomie und regionalen Mittelstand: Steuervergünstigungen für Unternehmen mit Gemeinwohlbilanz, Programme für Gründerinnen, Transparenz und Vorgehen gegen Scheinselbstständigkeit",
-        "ru": "инновации через экономику общего блага и региональный малый бизнес: налоговые льготы фирмам с балансом общего блага, программы для основательниц, прозрачность и против мнимой самозанятости; меньше акцента на классическую стартап-экосистему",
-        "tr": "kamu yararı ekonomisi ve bölgesel küçük işletme yoluyla inovasyon: kamu yararı bilançosu olan şirketlere vergi avantajları, kadın kurucu programları, şeffaflık ve sahte serbest çalışmaya karşı önlemler; geleneksel startup ekosistemine daha az vurgu",
-        "pl": "innowacje przez gospodarkę dobra wspólnego i regionalne małe firmy: ulgi podatkowe dla firm z bilansem dobra wspólnego, programy dla założycielek, transparentność i działania przeciw pozornemu samozatrudnieniu; mniejszy nacisk na konwencjonalny ekosystem startupów",
-        "uk": "інновації через економіку загального блага та регіональний малий бізнес: податкові пільги для компаній із балансом загального блага, програми для жінок-засновників, прозорість та заходи проти фіктивної самозайнятості; менше акценту на звичайну екосистему стартапів",
-        "ar": "والابتكار من خلال اقتصاد الصالح العام والشركات الإقليمية الصغيرة: المزايا الضريبية للشركات التي تتمتع بميزانية عامة تخدم الصالح العام، وبرامج للنساء المؤسسات، والشفافية، واتخاذ إجراءات ضد العمل الحر الزائف؛ تركيز أقل على النظام البيئي التقليدي لبدء التشغيل"
+        "en": "innovation via common-good economy and regional small business: tax benefits for firms with a GWÖ common-good balance sheet; programs for women founders; enforce rules against bogus self-employment",
+        "de": "Innovation über Gemeinwohlökonomie und regionale Kleinbetriebe: steuerliche Vorteile für Unternehmen mit GWÖ-Gemeinwohlbilanz; Förderung von Gründerinnen; Gesetze gegen Scheinselbständigkeit konsequent anwenden",
+        "ru": "инновации через экономику общего блага и региональный малый бизнес: налоговые льготы фирмам с балансом GWÖ; программы для основательниц; жёстко применять нормы против фиктивной самозанятости",
+        "tr": "ortak yarar ekonomisi ve bölgesel KOBİ ile inovasyon: GWÖ ortak yarar bilançolu firmalara vergi avantajı; kadın kurucu programları; sahte serbest çalışmaya karşı kuralları kararlı uygulamak",
+        "pl": "innowacje przez gospodarkę dobra wspólnego i regionalne małe firmy: ulgi podatkowe dla firm z bilansem GWÖ; programy dla założycielek; konsekwentnie egzekwować przepisy przeciw pozornej samozatrudnieniu",
+        "uk": "інновації через економіку спільного блага та регіональний малий бізнес: податкові пільги фірмам із балансом GWÖ; програми для засновниць; послідовно застосовувати норми проти фіктивної самозайнятості",
+        "ar": "ابتكار عبر اقتصاد المنفعة العامة والأعمال الصغيرة الإقليمية؛ مزايا ضريبية للشركات ذات ميزانية GWÖ؛ برامج للمؤسسات؛ إنفاذ صارم لقواعد ضد العمل الحر الصوري"
       },
       "sources": [
         {
           "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
-          "section": "Gemeinwohlökonomie für Berlin",
           "page": 8,
-          "quote": "Unternehmen, die zusätzlich zur herkömmlichen, ökonomischen Bilanz eine Gemeinwohlbilanz nach GWÖ-Richtlinien aufstellen und dabei Mindestergebnisse erzielen, sollen steuerliche Vorteile - wie z.B."
+          "section": "Gemeinwohl",
+          "quote": "Unternehmen, die zusätzlich zur herkömmlichen, ökonomischen Bilanz eine Gemeinwohlbilanz nach GWÖ-Richtlinien aufstellen und dabei Mindestergebnisse erzielen, sollen steuerliche Vorteile - wie z.B. einen um 50% ermäßigten Gewerbesteuer-Hebesatz - genießen."
+        },
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "page": 8,
+          "section": "Gründung",
+          "quote": "Förderung von Existenzgründungen von Frauen."
+        },
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "page": 8,
+          "section": "Arbeit",
+          "quote": "Die gültigen Gesetze zur Stärkung von sozialversicherungspflichtigen Beschäftigungsverhältnissen und Vermeidung von Scheinselbständigkeit sind verstärkt durchzusetzen."
         }
       ]
     },
@@ -18215,26 +18251,26 @@
       "partyId": "linke",
       "stance": "for",
       "summary": {
-        "en": "“Bring administrative reform to life”: make the administration more digital and efficient, but not at the expense of services; restore Berlinpass processing through Bürgerämter, mobile Bürgerämter in neighborhoods, assistants in Bürgerämter, and support for older people using digital services",
-        "de": "„Die Verwaltungsreform mit Leben füllen“: Verwaltung digitaler und effizienter machen, aber nicht zulasten der Leistungen; Berlinpass wieder über Bürgerämter ausstellen, mobile Bürgerämter in den Kiezen, Assistenzen in Bürgerämtern und Unterstützung älterer Menschen bei digitalen Diensten",
-        "ru": "«наполнить реформу управления жизнью»: администрация цифровее и эффективнее, но не за счёт услуг; вернуть оформление Berlinpass через Bürgerämter, мобильные Bürgerämter в кварталах, ассистенты в Bürgerämter и поддержка пожилых при пользовании цифровыми сервисами",
-        "tr": "„İdari reformu hayata geçirmek“: idareyi daha dijital ve verimli kılmak, ancak hizmetler pahasına değil; Berlinpass işlemlerini Bürgerämter üzerinden geri getirmek, mahallelerde mobil Bürgerämter, Bürgerämter’de yardımcı personel ve dijital hizmetleri kullanan yaşlılara destek",
-        "pl": "„Ożywić reformę administracji”: uczynić administrację bardziej cyfrową i skuteczną, ale nie kosztem usług; przywrócić obsługę Berlinpass przez Bürgerämter, mobilne Bürgerämter w dzielnicach, asystenci w Bürgerämter oraz wsparcie osób starszych w korzystaniu z usług cyfrowych",
-        "uk": "«Втілити адміністративну реформу в життя»: зробити адміністрацію більш цифровою та ефективною, але не за рахунок послуг; відновити обробку Berlinpass через Bürgerämter, мобільний Bürgerämter у районах, асистентів у Bürgerämter та підтримку літніх людей, які використовують цифрові послуги",
-        "ar": "\"إحياء الإصلاح الإداري\": جعل الإدارة أكثر رقمية وكفاءة، ولكن ليس على حساب الخدمات؛ استعادة معالجة Berlinpass من خلال Bürgerämter، وBürgerämter المحمول في الأحياء، والمساعدين في Bürgerämter، ودعم كبار السن الذين يستخدمون الخدمات الرقمية"
+        "en": "make administration more digital and efficient and bring the Verwaltungsreform to life; restore Berlinpass applications via Bürgerämter (plus a digital proof option for Berlin-Ticket S)",
+        "de": "Verwaltung digitaler und effizienter machen und die Verwaltungsreform mit Leben füllen; Beantragung des Berlinpasses über die Bürgerämter wieder einführen (plus digitale Nachweiseoption für Berlin-Ticket S)",
+        "ru": "сделать администрацию цифровее и эффективнее и оживить Verwaltungsreform; вернуть подачу Berlinpass через Bürgerämter (плюс цифровой вариант подтверждения для Berlin-Ticket S)",
+        "tr": "yönetimi daha dijital ve verimli kılıp Verwaltungsreform’u hayata geçirmek; Berlinpass başvurularını Bürgerämter üzerinden yeniden getirmek (Berlin-Ticket S için dijital kanıt seçeneğiyle)",
+        "pl": "uczynić administrację bardziej cyfrową i efektywną oraz ożywić Verwaltungsreform; przywrócić wnioski o Berlinpass przez Bürgerämter (plus cyfrowy dowód dla Berlin-Ticket S)",
+        "uk": "зробити адміністрацію цифровішою й ефективнішою та оживити Verwaltungsreform; повернути подання Berlinpass через Bürgerämter (плюс цифровий варіант підтвердження для Berlin-Ticket S)",
+        "ar": "جعل الإدارة أكثر رقمية وكفاءة وإحياء Verwaltungsreform؛ إعادة طلبات Berlinpass عبر Bürgerämter (مع خيار إثبات رقمي لـ Berlin-Ticket S)"
       },
       "sources": [
         {
           "url": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf",
           "page": 11,
-          "quote": "Verwaltungsreform mit Leben füllen.",
-          "section": "Verwaltungsreform"
+          "section": "Verwaltung",
+          "quote": "Wir müssen unsere Verwaltung digitaler und effizienter machen und die Verwaltungsreform mit Leben füllen."
         },
         {
           "url": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf",
           "page": 57,
-          "quote": "Außerdem werden wir eine digitale Option zum Nachweis der Berechtigung für das Berlin-Ticket S etablieren und das alte Verfahren für die Beantragung des Berlinpasses über die Bürgerämter wieder einführen.",
-          "section": "Berlinpass"
+          "section": "Berlinpass",
+          "quote": "Außerdem werden wir eine digitale Option zum Nachweis der Berechtigung für das Berlin-Ticket S etablieren und das alte Verfahren für die Beantragung des Berlinpasses über die Bürgerämter wieder einführen."
         }
       ]
     },
@@ -18243,26 +18279,38 @@
       "partyId": "fdp",
       "stance": "mixed",
       "summary": {
-        "en": "A law to reduce bureaucracy and systematically modernize legislation using digital tools; an AI appointment system for Bürgerämter and authorities with real-time slot optimization and a digital queue; review municipal enterprises to determine what private providers could do more efficiently",
-        "de": "Bürokratieabbaugesetz und systematische Modernisierung der Gesetzgebung mit digitalen Werkzeugen; KI-Terminvergabe in Bürgerämtern und Behörden mit Echtzeitoptimierung der Zeitfenster und digitaler Warteschlange; kommunale Unternehmen darauf prüfen, welche Aufgaben private Anbieter effizienter erfüllen können",
-        "ru": "Закон о снижении бюрократии и системная модернизация законодательства цифровыми инструментами; ИИ-система записи в Bürgerämter и ведомства с оптимизацией слотов в реальном времени и цифровой очередью; ревизия городских предприятий — что эффективнее отдать частным",
-        "tr": "Bürokrasi azaltma yasası ve dijital araçlarla yasaları sistematik modernleştirmek; Bürgerämter ve makamlar için gerçek zamanlı slot optimizasyonu ve dijital kuyruklu yapay zekâ randevu sistemi; özel sağlayıcıların daha verimli yapabileceği belediye işletmelerini gözden geçirmek",
-        "pl": "Ustawa o redukcji biurokracji i systematyczna modernizacja prawa narzędziami cyfrowymi; system AI do umawiania wizyt w Bürgerämter i urzędach z optymalizacją terminów w czasie rzeczywistym oraz cyfrowa kolejka; przegląd przedsiębiorstw komunalnych pod kątem tego, co prywatni dostawcy mogliby robić wydajniej",
-        "uk": "Закон про зменшення бюрократії та системну модернізацію законодавства за допомогою цифрових інструментів; система запису на зустріч для Bürgerämter та органів влади з оптимізацією інтервалів у реальному часі та цифровою чергою; перевірити муніципальні підприємства, щоб визначити, що приватні постачальники могли б робити більш ефективно",
-        "ar": "قانون للحد من البيروقراطية وتحديث التشريعات بشكل منهجي باستخدام الأدوات الرقمية؛ ونظام تعيين يعمل بالذكاء الاصطناعي لـBürgerämter والسلطات مع تحسين الوقت الفعلي وقائمة الانتظار الرقمية؛ مراجعة المؤسسات البلدية لتحديد ما يمكن لمقدمي الخدمات من القطاع الخاص القيام به بشكل أكثر كفاءة"
+        "en": "comprehensive bureaucracy-relief law and systematic modernization of legislation with digital tools; AI appointment system for Bürgerämter with real-time slot optimization; review which Landesunternehmen could deliver services more efficiently under other ownership",
+        "de": "umfassendes Bürokratieentlastungsgesetz und systematische Modernisierung von Gesetzgebung mit digitalen Werkzeugen; KI-Terminsystem für Bürgerämter mit Echtzeit-Optimierung; prüfen, welche Landesunternehmen Dienste in anderer Eigentümerstruktur effizienter erbringen können",
+        "ru": "закон о снижении бюрократии и системная модернизация законодательства цифровыми инструментами; ИИ-запись в Bürgerämter с оптимизацией слотов; проверить, какие Landesunternehmen эффективнее окажут услуги при иной форме собственности",
+        "tr": "kapsamlı bürokrasi azaltma yasası ve dijital araçlarla mevzuat modernizasyonu; Bürgerämter için gerçek zamanlı slot optimasyonlu KI randevu; hangi Landesunternehmen’in başka mülkiyet yapısında daha verimli olabileceğini gözden geçirmek",
+        "pl": "kompleksowa ustawa odbiurokratyzująca i systematyczna modernizacja prawa narzędziami cyfrowymi; system wizyt AI w Bürgerämter z optymalizacją slotów; przegląd, które Landesunternehmen mogłyby świadczyć usługi sprawniej w innej strukturze własności",
+        "uk": "комплексний закон про зниження бюрократії та системна модернізація законодавства цифровими інструментами; ШІ-запис у Bürgerämter з оптимізацією слотів; перевірити, які Landesunternehmen ефективніше нададуть послуги за іншої власності",
+        "ar": "قانون شامل لتخفيف البيروقراطية وتحديث منهجي للتشريع بأدوات رقمية؛ نظام مواعيد بالذكاء الاصطناعي لـ Bürgerämter مع تحسين الفترات؛ مراجعة أي Landesunternehmen يمكن أن تقدّم الخدمات بكفاءة أكبر بملكية أخرى"
       },
       "sources": [
         {
           "url": "https://www.fdp-berlin.de/sites/default/files/2026-07/Wahlprogramm_FDP%20Berlin_Abgeordnetenhauswahl%202026_FINAL.pdf",
           "page": 20,
-          "quote": "Dazu werden wir die Landesverwaltung, die Bezirksverwaltungen sowie das Abgeordnetenhaus und die Justiz dazu befähigen, Gesetzgebung und Rechtsbestand systematisch zu modernisieren, insbesondere mithilfe digitaler Werkzeuge.",
-          "section": "Bürokratieabbau"
+          "section": "Bürokratie",
+          "quote": "Wir Freie Demokraten fordern ein umfassendes Bürokratieentlastungsgesetz für Berlin."
+        },
+        {
+          "url": "https://www.fdp-berlin.de/sites/default/files/2026-07/Wahlprogramm_FDP%20Berlin_Abgeordnetenhauswahl%202026_FINAL.pdf",
+          "page": 20,
+          "section": "Gesetzgebung",
+          "quote": "Dazu werden wir die Landesverwaltung, die Bezirksverwaltungen sowie das Abgeordnetenhaus und die Justiz dazu befähigen, Gesetzgebung und Rechtsbestand systematisch zu modernisieren, insbesondere mithilfe digitaler Werkzeuge."
+        },
+        {
+          "url": "https://www.fdp-berlin.de/sites/default/files/2026-07/Wahlprogramm_FDP%20Berlin_Abgeordnetenhauswahl%202026_FINAL.pdf",
+          "page": 91,
+          "section": "KI",
+          "quote": "Für Termine beim Bürgeramt und anderen Behörden führen wir ein KI-System ein, das Terminslots in Echtzeit optimiert."
         },
         {
           "url": "https://www.fdp-berlin.de/sites/default/files/2026-07/Wahlprogramm_FDP%20Berlin_Abgeordnetenhauswahl%202026_FINAL.pdf",
           "page": 35,
-          "quote": "Wir werden definieren, welche Unternehmen mittelfristig ihre Dienstleistungen für die Berlinerinnen und Berliner effizienter in einer anderen Eigentümerstruktur erbringen können.",
-          "section": "Landesunternehmen"
+          "section": "Landesunternehmen",
+          "quote": "Wir werden definieren, welche Unternehmen mittelfristig ihre Dienstleistungen für die Berlinerinnen und Berliner effizienter in einer anderen Eigentümerstruktur erbringen können."
         }
       ]
     },
@@ -18271,38 +18319,32 @@
       "partyId": "afd",
       "stance": "mixed",
       "summary": {
-        "en": "Reduce the “bloated institution of commissioners” for equality, anti-discrimination, etc. as a source of bureaucracy and “clientelist politics”; direct election of the Governing Mayor and a Swiss-style “Volkseinwand”",
-        "de": "Direktwahl des Regierenden Bürgermeisters und ein „Volkseinwand“ nach Schweizer Vorbild; Beauftragtenwesen, abschaffen; Gleichberechtigung statt GleichstellungDie Realität der Zweigeschlechtlichkeit darf nicht auf dem Altar der Transideologie geopfert werden",
-        "ru": "Сократить «раздутый институт уполномоченных» (по равноправию, антидискриминации и т. п.) как источник бюрократии и «клиентелистской политики»; прямые выборы правящего бургомистра и «Volkseinwand» по швейцарскому образцу",
-        "tr": "Eşitlik, ayrımcılık karşıtlığı vb. için „şişirilmiş temsilciler kurumunu“ bürokrasi ve „müşteri politikası“ kaynağı olarak azaltmak; Yönetici Belediye Başkanı’nın doğrudan seçimi ve İsviçre tarzı „Volkseinwand“",
-        "pl": "Ograniczenie „rozrośniętej instytucji pełnomocników” ds. równości, antydyskryminacji itd. jako źródła biurokracji i „polityki klientelistycznej”; bezpośredni wybór burmistrza rządzącego oraz szwajcarski „Volkseinwand”",
-        "uk": "Зменшити «роздутий інститут уповноважених» з питань рівності, боротьби з дискримінацією тощо як джерело бюрократії та «клієнтської політики»; прямі вибори правлячого мера та «Volkseinwand» у швейцарському стилі",
-        "ar": "تقليص \"مؤسسة المفوضين المتضخمة\" المعنية بالمساواة ومكافحة التمييز وما إلى ذلك كمصدر للبيروقراطية و\"السياسات الزبائنية\"؛ انتخاب مباشر لرئيس البلدية و\"فولكسينواند\" على الطريقة السويسرية"
+        "en": "abolish the bloated commissioner system (e.g. equality/anti-discrimination) as costly bureaucracy and clientelism; direct election of the Governing Mayor",
+        "de": "ausuferndes Beauftragtenwesen (z. B. Gleichstellung/Antidiskriminierung) als teure Bürokratie und Klientelpolitik abschaffen; Direktwahl des Regierenden Bürgermeisters",
+        "ru": "упразднить разросшийся институт уполномоченных (равенство/антидискриминация) как дорогую бюрократию и клиентелизм; прямые выборы правящего бургомистра",
+        "tr": "şişkin temsilci sistemini (eşitlik/ayrımcılık karşıtı) maliyetli bürokrasi ve kayırmacılık olarak kaldırmak; Yönetici Belediye Başkanı’nın doğrudan seçimi",
+        "pl": "znieść rozrośnięty system pełnomocników (równość/antydyskryminacja) jako kosztowną biurokrację i klientelizm; bezpośredni wybór burmistrza rządzącego",
+        "uk": "скасувати роздутий інститут уповноважених (рівність/антидискримінація) як дорогу бюрократію і клієнтелізм; прямі вибори правлячого бургомістра",
+        "ar": "إلغاء نظام المفوضين المتضخم (المساواة/مناهضة التمييز) كبيروقراطية مكلفة ومحسوبية؛ الانتخاب المباشر لحاكم البلدية"
       },
       "sources": [
         {
           "url": "https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf",
           "page": 60,
-          "quote": "Das Beauftragtenwesen wollen wir abschaffen.",
-          "section": "Kinder, Jugend & Familie"
+          "section": "Beauftragtenwesen",
+          "quote": "Das ausufernde Beauftragtenwesen mit z. B. Gleichstellungs- und Antidiskriminierungsbeauftragten verschlingt nicht nur Unsummen an Steuermitteln, es befördert auch eine einseitige Klientelpolitik und führt zu überbordender Bürokratie."
+        },
+        {
+          "url": "https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf",
+          "page": 60,
+          "section": "Beauftragtenwesen",
+          "quote": "Das Beauftragtenwesen wollen wir abschaffen."
         },
         {
           "url": "https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf",
           "page": 76,
-          "quote": "Direktwahl des Regierenden BürgermeistersDem Wunsch vieler Bürger entsprechend setzen wir uns für die Direkt- wahl des Regierenden Bürgermeisters ein.",
-          "section": "Demokratie"
-        },
-        {
-          "url": "https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf",
-          "page": 75,
-          "quote": "Daher schlagen wir vor, dass es zu einem Volksentscheid über ein durch das Abgeordnetenhaus verabschiedetes Gesetz kommen soll, wenn in einer Frist von 100 Tagen nach Verabschiedung des Gesetzes durch das Abgeordnetenhaus die Hälfte der Zahl der Unterschriften, die für die Einleitung eines Volksentscheids im Rahmen eines Volksbegehrens erforderlich sind, für den Volkseinwand zustande kommt.",
-          "section": "Demokratie"
-        },
-        {
-          "url": "https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf",
-          "section": "Programm",
-          "page": 60,
-          "quote": "Gleichberechtigung statt GleichstellungDie Realität der Zweigeschlechtlichkeit darf nicht auf dem Altar der Transideologie geopfert werden."
+          "section": "Direktwahl",
+          "quote": "Dem Wunsch vieler Bürger entsprechend setzen wir uns für die Direktwahl des Regierenden Bürgermeisters ein."
         }
       ]
     },
@@ -18311,38 +18353,50 @@
       "partyId": "bsw",
       "stance": "mixed",
       "summary": {
-        "en": "The administration should “simply work”; reverse mistaken decisions by previous governments; use AI more widely in the civil service and make public service more attractive through full collective-agreement pay and an end to fixed-term contracts without cause",
-        "de": "Die Verwaltung soll „einfach funktionieren“; Fehlentscheidungen früherer Regierungen rückgängig machen; KI breiter im öffentlichen Dienst einsetzen und diesen durch vollständige Tarifübernahme und das Ende sachgrundloser Befristungen attraktiver machen; Zugänge zum öffentlich-rechtlichen Journalismus müssen verbreitert werden, zum Beispiel in dem man die Journalistenschule EMS (Electronic Me; Wir treiben die Digitalisierung voran, um schnellere Vorgangsbearbeitungen zu ermöglichen, Bürokratie abzubauen und kürzere Ausschreibungsverfahren zu",
-        "ru": "администрация должна «просто работать»; отменить ошибочные решения прежних правительств; шире использовать ИИ на госслужбе и сделать её привлекательнее через полную оплату по тарифу и конец срочных контрактов без причины",
-        "tr": "yönetim “basitçe çalışmalı”; önceki hükümetlerin yanlış kararlarını geri almak; kamu hizmetinde yapay zekâyı daha geniş kullanmak ve tam toplu sözleşme ücreti ile nedensiz süreli sözleşmeleri bitirerek kamu hizmetini cazip kılmak",
-        "pl": "administracja powinna „po prostu działać”; odwrócenie błędnych decyzji poprzednich rządów; szersze użycie AI w służbie cywilnej i atrakcyjniejsza służba publiczna przez pełne wynagrodzenie taryfowe oraz koniec umów terminowych bez przyczyny",
-        "uk": "адміністрація має «просто працювати»; скасувати помилкові рішення попередніх урядів; ширше використовувати ШІ на держслужбі та зробити її привабливішою через повну оплату за тарифом і кінець строкових контрактів без причини",
-        "ar": "ينبغي للإدارة أن \"تعمل ببساطة\"؛ وعكس القرارات الخاطئة التي اتخذتها الحكومات السابقة؛ استخدام الذكاء الاصطناعي على نطاق أوسع في الخدمة المدنية وجعل الخدمة العامة أكثر جاذبية من خلال الأجر الكامل بموجب الاتفاق الجماعي وإنهاء العقود محددة المدة دون سبب"
+        "en": "administration that works and reverse mistaken decisions of prior governments; use AI in places to streamline procedures; stronger staff-council co-determination and health programs in offices; full force of public-service collective agreements and end unfounded fixed-term contracts in the public sector",
+        "de": "funktionierende Verwaltung und Fehlentscheidungen früherer Landesregierungen zurücknehmen; KI an Stellen zur Straffung von Verfahren; stärkere Mitbestimmung der Personalräte und Gesundheitsprogramme in Ämtern; volle Geltung der Tarifverträge des öffentlichen Dienstes und Abschaffung sachgrundloser Befristungen",
+        "ru": "работающая администрация и откат ошибочных решений прошлых правительств; ИИ для упрощения процедур; больше соучастия советов персонала и программы здоровья в ведомствах; полная сила тарифных договоров госсектора и конец бессрочных срочных контрактов без оснований",
+        "tr": "işleyen yönetim ve önceki hükümetlerin hatalı kararlarını geri almak; prosedürleri sadeleştirmek için yer yer KI; daha güçlü personel kurulu ortak yönetimi ve dairelerde sağlık programları; kamu hizmeti toplu sözleşmelerinin tam gücü ve nedensiz süreli sözleşmeleri bitirmek",
+        "pl": "sprawna administracja i cofnięcie błędnych decyzji poprzednich rządów; AI do usprawnienia procedur; silniejszy współudział rad pracowniczych i programy zdrowotne w urzędach; pełna moc układów zbiorowych służby publicznej i koniec umów na czas określony bez powodu",
+        "uk": "працююча адміністрація й скасування помилкових рішень попередніх урядів; ШІ для спрощення процедур; сильніша співучасть рад персоналу й програми здоров’я у відомствах; повна сила тарифних договорів держслужби і кінець безпідставних строкових контрактів",
+        "ar": "إدارة تعمل والتراجع عن قرارات الحكومات السابقة الخاطئة؛ استخدام الذكاء الاصطناعي لتبسيط الإجراءات؛ مشاركة أقوى لمجالس الموظفين وبرامج صحة في المكاتب؛ القوة الكاملة لاتفاقيات الخدمة العامة وإنهاء العقود محددة المدة بلا سبب"
       },
       "sources": [
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
           "page": 3,
-          "quote": "Wir wollen ein Berlin, in dem Verkehr und Verwaltung funktionieren und die Fehlentscheidungen der letzten Landesregierungen zurückgenommen werden.",
-          "section": "Leitbild"
+          "section": "Verwaltung",
+          "quote": "Wir wollen ein Berlin, in dem Verkehr und Verwaltung funktionieren und die Fehlentscheidungen der letzten Landesregierungen zurückgenommen werden."
         },
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "page": 39,
-          "quote": "Wir treiben die Digitalisierung voran, um schnellere Vorgangsbearbeitungen zu ermöglichen, Bürokratie abzubauen und kürzere Ausschreibungsverfahren zu ermöglichen.",
-          "section": "Verwaltung"
+          "page": 62,
+          "section": "KI",
+          "quote": "Um die Verfahren zu straffen, soll an bestimmten Stellen (z.B. der bei Beschreibung des Arbeitskreises) verstärkt künstliche Intelligenz genutzt werden."
         },
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Programm",
-          "page": 30,
-          "quote": "Zugänge zum öffentlich-rechtlichen Journalismus müssen verbreitert werden, zum Beispiel in dem man die Journalistenschule EMS (Electronic Media School) stärkt."
+          "page": 62,
+          "section": "Öffentlicher Dienst",
+          "quote": "Ihnen will das BSW gesetzlich stärkere Mitbestimmungsrechte gegenüber den Dienststellen einräumen."
         },
         {
           "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
-          "section": "Programm",
+          "page": 62,
+          "section": "Öffentlicher Dienst",
+          "quote": "Wir wollen Gesundheitsprogramme in den Ämtern fördern, damit die Krankheitsausfälle reduziert werden."
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
           "page": 10,
+          "section": "Tarif",
           "quote": "Den Tarifverträgen des öffentlichen Dienstes muss endlich wieder volle Geltung verschafft werden."
+        },
+        {
+          "url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf",
+          "page": 10,
+          "section": "Befristungen",
+          "quote": "Wir werden sachgrundlose Befristungen im öffentlichen Bereich abschaffen und uns für sichere Arbeitsverhältnisse einsetzen."
         }
       ]
     },
@@ -18391,32 +18445,50 @@
       "partyId": "tierschutz",
       "stance": "mixed",
       "summary": {
-        "en": "Administrative reform as a political priority: more staff and shorter processes, an appointment at any Bürgeramt of choice within 14 days, and repeal of outdated and contradictory rules; clear allocation of tasks between the Senat and districts, greater legal force for BVV decisions; transparency through a portal with data on municipal enterprises and free access to contracts worth €100,000 or more",
-        "de": "Verwaltungsreform als politische Priorität: mehr Personal und kürzere Verfahren, innerhalb von 14 Tagen ein Termin in einem frei gewählten Bürgeramt und Abschaffung veralteter und widersprüchlicher Regeln; klare Aufgabenverteilung zwischen Senat und Bezirken, stärkere Rechtswirkung von BVV-Beschlüssen; Transparenz über ein Portal mit Daten kommunaler Unternehmen und kostenlosem Zugang zu Verträgen ab 100.000 €; Den Tierschutz in der Verwaltung stärken wir durch eine unabhängige Landestierschutzbeauftragte mit klaren Befugnissen und mehr Amtstierärzt",
-        "ru": "Реформа управления как политический приоритет: больше персонала и короче процессы, запись в любой Bürgeramt по выбору в течение 14 дней, устаревшие и противоречивые нормы отменять; чёткое распределение задач между сенатом и районами, больше правовой силы решениям BVV; прозрачность — портал с данными городских предприятий и бесплатный доступ к договорам от 100 000 €",
-        "tr": "İdari reform siyasi öncelik olarak: daha fazla personel ve daha kısa süreçler, tercih edilen herhangi bir Bürgeramt’ta 14 gün içinde randevu ve eski/çelişkili kuralların kaldırılması; Senat ile ilçeler arasında net görev dağılımı, BVV kararlarına daha fazla hukuki güç; belediye işletmeleri verilerini içeren portal ve 100.000 € ve üzeri sözleşmelere ücretsiz erişimle şeffaflık",
-        "pl": "Reforma administracji jako priorytet polityczny: więcej personelu i krótsze procesy, termin w dowolnym Bürgeramt z wyboru w ciągu 14 dni oraz uchylenie przestarzałych i sprzecznych przepisów; jasny podział zadań między Senat a dzielnice, większa moc prawna decyzji BVV; transparentność przez portal z danymi o przedsiębiorstwach komunalnych i wolny dostęp do umów o wartości 100 000 € lub więcej",
-        "uk": "Адміністративна реформа як політичний пріоритет: більше персоналу та коротші процеси, призначення в будь-якому Bürgeramt протягом 14 днів, і скасування застарілих і суперечливих правил; чіткий розподіл завдань між Сенатом і округами, більша юридична сила рішень BVV; прозорість через портал із даними про муніципальні підприємства та вільний доступ до контрактів на суму від 100 000 євро",
-        "ar": "الإصلاح الإداري كأولوية سياسية: عدد أكبر من الموظفين وعمليات أقصر، وتعيين في أي برجرامت من اختيارك في غضون 14 يومًا، وإلغاء القواعد القديمة والمتناقضة؛ توزيع واضح للمهام بين مجلس الشيوخ والمقاطعات، وقوة قانونية أكبر لقرارات BVV؛ الشفافية من خلال بوابة تحتوي على بيانات عن المؤسسات البلدية وحرية الوصول إلى العقود التي تبلغ قيمتها 100000 يورو أو أكثر"
+        "en": "appointment at any Bürgeramt within 14 days; repeal outdated/contradictory rules; clearer Senat–district task split; public portal with municipal-enterprise data and free access to contracts from €100,000; mobile Bürgeramt units",
+        "de": "Termin in jedem Bürgeramt innerhalb von 14 Tagen; veraltete/widersprüchliche Regeln abschaffen; klare Aufgabenverteilung Senat–Bezirke; Portal mit Daten landeseigener Unternehmen und gebührenfreier Einblick in Verträge ab 100.000 €; mobile Bürgeramts-Einheiten",
+        "ru": "запись в любой Bürgeramt за 14 дней; отменить устаревшие/противоречивые нормы; ясное разделение задач Сенат–округа; портал с данными госпредприятий и бесплатный доступ к договорам от 100 тыс. €; мобильные Bürgeramt",
+        "tr": "herhangi bir Bürgeramt’ta 14 gün içinde randevu; eski/çelişkili kuralları kaldırmak; Senat–ilçe görev ayrımını netleştirmek; belediye şirketleri verili portal ve 100.000 €’dan itibaren sözleşmelere ücretsiz erişim; gezici Bürgeramt birimleri",
+        "pl": "termin w dowolnym Bürgeramt w 14 dni; uchylić przestarzałe/sprzeczne przepisy; jasny podział zadań Senat–dzielnice; portal z danymi spółek miejskich i darmowy wgląd w umowy od 100 tys. €; mobilne jednostki Bürgeramt",
+        "uk": "запис у будь-який Bürgeramt за 14 днів; скасувати застарілі/суперечливі норми; чіткий розподіл завдань Сенат–округи; портал із даними міських підприємств і безкоштовний доступ до договорів від 100 тис. €; мобільні Bürgeramt",
+        "ar": "موعد في أي Bürgeramt خلال 14 يوماً؛ إلغاء القواعد القديمة/المتناقضة؛ تقسيم أوضح للمهام بين مجلس الشيوخ والأحياء؛ بوابة ببيانات شركات البلدية واطلاع مجاني على العقود من 100 ألف يورو؛ وحدات Bürgeramt متنقلة"
       },
       "sources": [
         {
           "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
-          "section": "Verwaltung und Digitalisierung",
           "page": 54,
+          "section": "Verwaltungsreform",
           "quote": "Alle Berliner:innen sollen innerhalb von 14 Tagen einen Termin in einem Bürgeramt ihrer Wahl erhalten können."
         },
         {
           "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
-          "section": "Programm",
           "page": 54,
-          "quote": "Den Tierschutz in der Verwaltung stärken wir durch eine unabhängige Landestierschutzbeauftragte mit klaren Befugnissen und mehr Amtstierärzt:innen."
+          "section": "Verwaltungsreform",
+          "quote": "Reform bedeutet dabei nicht nur, neue Gesetze zu schaffen, sondern auch veraltete, überflüssige und widersprüchliche Regelungen abzuschaffen."
         },
         {
           "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
-          "section": "Programm",
-          "page": 72,
-          "quote": "So schaffen wir Transparenz und ermöglichen eine moderne, datengestützte Baumpflege in allen Bezirken."
+          "page": 54,
+          "section": "Verwaltungsreform",
+          "quote": "Die Zusammenarbeit zwischen Senat und Bezirken werden wir durch eine klare Aufgabenverteilung und vereinfachte Verwaltungsabläufe stärken."
+        },
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "page": 54,
+          "section": "Transparenz",
+          "quote": "Über ein Portal sollen Informationen landeseigener Unternehmen öffentlich einsehbar sein."
+        },
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "page": 54,
+          "section": "Transparenz",
+          "quote": "Verträge ab 100.000 Euro zwischen öffentlich-rechtlichen Körperschaften und der Privatwirtschaft müssen dort gebührenfrei nachzulesen sein."
+        },
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "page": 55,
+          "section": "Bürgeramt",
+          "quote": "Ergänzend setzen wir auf mobile Bürgeramts-Einheiten, insbesondere für Menschen mit körperlichen Einschränkungen, wo digitale Angebote einen persönlichen Zugang nicht ersetzen können."
         }
       ]
     },
@@ -18537,26 +18609,56 @@
       "partyId": "linke",
       "stance": "for",
       "summary": {
-        "en": "Open source as the city standard: independent security audits, reuse by other authorities, and no contractor monopolies; digital sovereignty; review police and administrative databases for discrimination, provide more resources to the data protection commissioner, and impose strict rules against deepfakes",
-        "de": "Open Source als Standard der Stadt: unabhängige Sicherheitsprüfungen, Nachnutzung durch andere Behörden und keine Monopole von Auftragnehmern; Polizei- und Verwaltungsdatenbanken auf Diskriminierung prüfen, die Datenschutzbeauftragte besser ausstatten und strenge Regeln gegen Deepfakes",
-        "ru": "open source как стандарт для города: независимые проверки безопасности, повторное использование другими ведомствами и никаких монополий подрядчиков, цифровой суверенитет; полицейские и административные базы данных проверить на дискриминацию, больше средств уполномоченной по защите данных, строгие правила против дипфейков",
-        "tr": "Açık kaynak kent standardı olarak: bağımsız güvenlik denetimleri, diğer makamlarca yeniden kullanım ve yüklenici tekelleri yok; dijital egemenlik; polis ve idari veri tabanlarını ayrımcılık açısından gözden geçirmek, veri koruma temsilcisine daha fazla kaynak ve deepfake’lere karşı sıkı kurallar",
-        "pl": "Open source jako standard miasta: niezależne audyty bezpieczeństwa, ponowne wykorzystanie przez inne urzędy i brak monopolów wykonawców; cyfrowa suwerenność; przegląd baz danych policji i administracji pod kątem dyskryminacji, więcej zasobów dla pełnomocnika ds. ochrony danych oraz surowe reguły przeciw deepfake’om",
-        "uk": "Відкритий код як міський стандарт: незалежні перевірки безпеки, повторне використання іншими органами та відсутність монополії підрядників; цифровий суверенітет; перевірити поліцейські та адміністративні бази даних на наявність дискримінації, надати більше ресурсів уповноваженому із захисту даних і запровадити суворі правила проти дипфейків",
-        "ar": "المصدر المفتوح كمعيار المدينة: عمليات تدقيق أمنية مستقلة، وإعادة الاستخدام من قبل السلطات الأخرى، وعدم وجود احتكارات للمقاولين؛ السيادة الرقمية؛ مراجعة قواعد البيانات الشرطية والإدارية للتأكد من عدم التمييز، وتوفير المزيد من الموارد لمفوض حماية البيانات، وفرض قواعد صارمة ضد التزييف العميق"
+        "en": "prioritize Open Source and digital sovereignty in public procurement; strengthen the data-protection commissioner’s rights and resources and review admin database access for discrimination; strict rules against non-consensual sexualized deepfakes; stronger privacy oversight of police data holdings",
+        "de": "Open Source und digitale Souveränität in der öffentlichen Vergabe priorisieren; Rechte und Mittel der Datenschutzbeauftragten stärken und Verwaltungsdatenbank-Zugriffe diskriminierungskritisch prüfen; strikte Regeln gegen nicht-konsensuelle sexualisierte Deepfakes; stärkere Datenschutzkontrolle polizeilicher Datenhaltung",
+        "ru": "приоритет Open Source и цифрового суверенитета в госзакупках; усилить права и ресурсы уполномоченного по защите данных и проверить доступы к админбазам на дискриминацию; жёсткие правила против неконсенсуальных сексуализированных дипфейков; сильнее контролировать полицейские данные",
+        "tr": "kamu ihalelerinde Open Source ve dijital egemenliğe öncelik; veri koruma komiserinin hak/kaynaklarını güçlendirmek ve idari veri tabanı erişimini ayrımcılık açısından gözden geçirmek; rızasız cinsel deepfake’lere sıkı kurallar; polis veri tutumunda daha güçlü gizlilik denetimi",
+        "pl": "priorytet Open Source i cyfrowej suwerenności w zamówieniach publicznych; wzmocnić prawa i środki pełnomocnika ds. ochrony danych oraz sprawdzić dostęp do baz administracji pod kątem dyskryminacji; twarde reguły przeciw nieskonsensualnym seksualizowanym deepfake’om; silniejsza kontrola danych policyjnych",
+        "uk": "пріоритет Open Source і цифрового суверенітету в держзакупівлях; посилити права й ресурси уповноваженого з захисту даних і перевірити доступи до адмінбаз на дискримінацію; жорсткі правила проти неконсенсуальних сексуалізованих діпфейків; сильніший нагляд за поліцейськими даними",
+        "ar": "إعطاء أولوية لـ Open Source والسيادة الرقمية في المشتريات العامة؛ تعزيز حقوق وموارد مفوض حماية البيانات ومراجعة وصول قواعد البيانات الإدارية للتمييز؛ قواعد صارمة ضد التزييف العميق الجنسي غير التوافقي؛ رقابة أقوى على بيانات الشرطة"
       },
       "sources": [
         {
           "url": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf",
+          "page": 87,
+          "section": "Vergabe",
+          "quote": "Wir wollen die öffentliche Auftragsvergabe entbürokratisieren und weiter digitalisieren, damit sich Unternehmen einfacher bewerben können."
+        },
+        {
+          "url": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf",
           "page": 88,
-          "quote": "Open Source arbeiten und die digitale Souveränität stärken.",
-          "section": "Open Source"
+          "section": "Vergabe",
+          "quote": "Außerdem Unternehmen, die mit Open Source arbeiten und die digitale Souveränität stärken."
+        },
+        {
+          "url": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf",
+          "page": 286,
+          "section": "Datenschutz",
+          "quote": "Vor dem Hintergrund unbefugter Datenabfragen insbesondere bei der Polizei wollen wir sowohl die Speichernotwendigkeit als auch die Zugriffsberechtigungen für Verwaltungsdatenbanken diskriminierungskritisch überprüfen."
+        },
+        {
+          "url": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf",
+          "page": 286,
+          "section": "Datenschutz",
+          "quote": "Für die Beratung und Rechtsdurchsetzung soll die Beauftragte für Datenschutz und Informationsfreiheit mehr Mittel erhalten."
         },
         {
           "url": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf",
           "page": 287,
-          "quote": "Zum Schutz vor Deepfakes fordern wir strikte gesetzliche Regelungen gegen die Erstellung und Verbreitung KI-generierter sexualisierter Inhalte, die ohne Zustimmung der Betroffenen erstellt wurden.",
-          "section": "Deepfakes"
+          "section": "Datenschutz",
+          "quote": "Wir wollen die Rechte und Befugnisse der Berliner Beauftragten für Datenschutz und Informationsfreiheit stärken."
+        },
+        {
+          "url": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf",
+          "page": 287,
+          "section": "Deepfakes",
+          "quote": "Zum Schutz vor Deepfakes fordern wir strikte gesetzliche Regelungen gegen die Erstellung und Verbreitung KI-generierter sexualisierter Inhalte, die ohne Zustimmung der Betroffenen erstellt wurden."
+        },
+        {
+          "url": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf",
+          "page": 291,
+          "section": "Datenschutz",
+          "quote": "Die Datenschutzkontrolle der polizeilichen Datenhaltung wollen wir stärken, gerade mit Blick auf die bundesweite Vereinheitlichung und Verknüpfung polizeilicher Datenverarbeitung."
         }
       ]
     },
@@ -18565,32 +18667,56 @@
       "partyId": "fdp",
       "stance": "mixed",
       "summary": {
-        "en": "A separate chapter, “AI for greater freedom and a functioning city”: AI-based appointment booking in authorities, digital infrastructure, digital tools to modernize legislation, telemedicine and a care marketplace, and hospital cybersecurity",
-        "de": "Neben dem Bekenntnis zu Open Data ist auch die Berliner Verwaltung selbst zum Nutznießer eines intelligenten Datenmanagements zu machen; Dazu leistet ein Transparenzgesetz wertvolle Hilfen; Wir setzen „digitale Büroassistenten“ ein, die die Kommunikation zwischen Bürgerinnen und Bürgern und Behörden vereinfachen",
-        "ru": "отдельная глава «ИИ для большей свободы и работающего города»: запись на приём в органы через ИИ, цифровая инфраструктура, цифровые инструменты для модернизации законодательства, телемедицина и рынок ухода, кибербезопасность больниц",
-        "tr": "ayrı bölüm, “daha fazla özgürlük ve işleyen kent için yapay zekâ”: makamlarda yapay zekâ tabanlı randevu, dijital altyapı, mevzuatı modernleştiren dijital araçlar, teletıp ve bakım pazarı, hastane siber güvenliği",
-        "pl": "osobny rozdział „AI dla większej wolności i sprawnego miasta”: rezerwacja wizyt w urzędach przez AI, infrastruktura cyfrowa, narzędzia cyfrowe do modernizacji prawa, telemedycyna i rynek opieki, cyberbezpieczeństwo szpitali",
-        "uk": "окремий розділ «ШІ для більшої свободи та працюючого міста»: запис на прийом в органи через ШІ, цифрова інфраструктура, цифрові інструменти для модернізації законодавства, телемедицина та ринок догляду, кібербезпека лікарень",
-        "ar": "فصل منفصل، \"الذكاء الاصطناعي من أجل حرية أكبر ومدينة فعالة\": حجز المواعيد على أساس الذكاء الاصطناعي في السلطات، والبنية التحتية الرقمية، والأدوات الرقمية لتحديث التشريعات، والتطبيب عن بعد وسوق الرعاية، والأمن السيبراني للمستشفيات"
+        "en": "AI for a freer, working city: digital office assistants and KI translation of authority texts into plain language; AI appointment booking with real-time slots and a digital waitlist; transparent, controllable AI in administration; Berlin as a model region for digital health (telemedicine, apps) with strong hospital cybersecurity",
+        "de": "KI für eine freiere, funktionierende Stadt: digitale Büroassistenten und KI-Übersetzung von Behördentexten in Leichte Sprache; KI-Terminvergabe mit Echtzeit-Slots und digitaler Warteliste; transparente, kontrollierbare KI in der Verwaltung; Berlin als Modellregion für digitale Gesundheit (Telemedizin, Apps) mit starker Klinik-Cybersicherheit",
+        "ru": "ИИ для более свободного работающего города: цифровые офис-ассистенты и перевод текстовных текстов ИИ на простой язык; запись к ведомствам с ИИ и слотами в реальном времени; прозрачный контролируемый ИИ в администрации; Берлин как модельный регион цифрового здравоохранения с сильной кибербезопасностью клиник",
+        "tr": "daha özgür, işleyen bir kent için yapay zekâ: dijital büro asistanları ve resmi metinlerin sade dile KI çevirisi; gerçek zamanlı slotlu KI randevu ve dijital bekleme listesi; yönetimde şeffaf kontrollü KI; güçlü hastane siber güvenliğiyle dijital sağlık model bölgesi Berlin",
+        "pl": "AI dla wolniejszego, sprawnego miasta: cyfrowi asystenci biurowi i tłumaczenie tekstów urzędowych na prosty język; rezerwacja wizyt z AI i slotami w czasie rzeczywistym; przejrzysta, kontrolowalna AI w administracji; Berlin jako region modelowy cyfrowego zdrowia z silnym cyberbezpieczeństwem szpitali",
+        "uk": "ШІ для вільнішого робочого міста: цифрові офісні асистенти й переклад відомчих текстів ШІ простою мовою; запис до відомств із ШІ та слотами в реальному часі; прозорий контрольований ШІ в адміністрації; Берлін як модельний регіон цифрової охорони здоров’я з сильною кібербезпекою лікарень",
+        "ar": "ذكاء اصطناعي لمدينة أحرّ وأعمل: مساعدون مكتبيون رقميون وترجمة نصوص السلطات بلغة مبسطة؛ حجز مواعيد بالذكاء الاصطناعي وفترات فورية وقائمة انتظار رقمية؛ ذكاء اصطناعي شفاف وقابل للرقابة في الإدارة؛ برلين منطقة نموذجية للصحة الرقمية مع أمن سيبراني قوي للمستشفيات"
       },
       "sources": [
         {
           "url": "https://www.fdp-berlin.de/sites/default/files/2026-07/Wahlprogramm_FDP%20Berlin_Abgeordnetenhauswahl%202026_FINAL.pdf",
-          "page": 32,
-          "quote": "Neben dem Bekenntnis zu Open Data ist auch die Berliner Verwaltung selbst zum Nutznießer eines intelligenten Datenmanagements zu machen.",
-          "section": "Digitalisierung"
-        },
-        {
-          "url": "https://www.fdp-berlin.de/sites/default/files/2026-07/Wahlprogramm_FDP%20Berlin_Abgeordnetenhauswahl%202026_FINAL.pdf",
-          "page": 32,
-          "quote": "Dazu leistet ein Transparenzgesetz wertvolle Hilfen.",
-          "section": "Digitalisierung"
-        },
-        {
-          "url": "https://www.fdp-berlin.de/sites/default/files/2026-07/Wahlprogramm_FDP%20Berlin_Abgeordnetenhauswahl%202026_FINAL.pdf",
-          "section": "Programm",
           "page": 91,
-          "quote": "Künstliche Intelligenz für mehr Freiheit und eine funktionierende Stadt ● Wir setzen „digitale Büroassistenten“ ein, die die Kommunikation zwischen Bürgerinnen und Bürgern und Behörden vereinfachen."
+          "section": "KI",
+          "quote": "Wir setzen „digitale Büroassistenten“ ein, die die Kommunikation zwischen Bürgerinnen und Bürgern und Behörden vereinfachen."
+        },
+        {
+          "url": "https://www.fdp-berlin.de/sites/default/files/2026-07/Wahlprogramm_FDP%20Berlin_Abgeordnetenhauswahl%202026_FINAL.pdf",
+          "page": 91,
+          "section": "KI",
+          "quote": "KI-Tools sollen Behördentexte und Bescheide in Leichte Sprache übersetzen, damit bürokratische Verfahren und Bescheide für Menschen mit Lernschwierigkeiten oder geringen Deutschkenntnissen verständlich werden."
+        },
+        {
+          "url": "https://www.fdp-berlin.de/sites/default/files/2026-07/Wahlprogramm_FDP%20Berlin_Abgeordnetenhauswahl%202026_FINAL.pdf",
+          "page": 91,
+          "section": "KI",
+          "quote": "Für Termine beim Bürgeramt und anderen Behörden führen wir ein KI-System ein, das Terminslots in Echtzeit optimiert."
+        },
+        {
+          "url": "https://www.fdp-berlin.de/sites/default/files/2026-07/Wahlprogramm_FDP%20Berlin_Abgeordnetenhauswahl%202026_FINAL.pdf",
+          "page": 91,
+          "section": "KI",
+          "quote": "Stornierte Termine werden sofort erkannt und proaktiv an Bürgerinnen und Bürger auf einer digitalen Warteliste via Pushnachricht vergeben."
+        },
+        {
+          "url": "https://www.fdp-berlin.de/sites/default/files/2026-07/Wahlprogramm_FDP%20Berlin_Abgeordnetenhauswahl%202026_FINAL.pdf",
+          "page": 91,
+          "section": "KI",
+          "quote": "Der Einsatz von KI und automatisierten Verfahren in der Verwaltung muss transparent, nachvollziehbar und kontrollierbar erfolgen."
+        },
+        {
+          "url": "https://www.fdp-berlin.de/sites/default/files/2026-07/Wahlprogramm_FDP%20Berlin_Abgeordnetenhauswahl%202026_FINAL.pdf",
+          "page": 115,
+          "section": "Gesundheit",
+          "quote": "Berlin soll Modellregion für digitale und innovative Gesundheitslösungen werden (Telemedizin, Gesundheits-Apps, Forschung und Entwicklung, Start-up-Förderung)."
+        },
+        {
+          "url": "https://www.fdp-berlin.de/sites/default/files/2026-07/Wahlprogramm_FDP%20Berlin_Abgeordnetenhauswahl%202026_FINAL.pdf",
+          "page": 115,
+          "section": "Gesundheit",
+          "quote": "Wir werden dafür sorgen, dass Cybersicherheit in den Gesundheitseinrichtungen stets auf dem höchsten technischen Niveau gewährleistet werden kann."
         }
       ]
     },
@@ -18679,38 +18805,50 @@
       "partyId": "volt",
       "stance": "mixed",
       "summary": {
-        "en": "Fully digital processes: systems that “talk” to one another, a unified digital file, digital sovereignty, targeted use of innovation, and simpler digital administration; open data on transport, energy, and business as the basis for new services; AI for productivity, service quality, and participation—support for small firms adopting it, and investigative software only from European providers",
-        "de": "offene Daten zu Verkehr, Energie und Wirtschaft als Grundlage neuer Dienste; KI für Produktivität, Dienstleistungsqualität und Beteiligung – Unterstützung kleiner Unternehmen bei der Einführung, Ermittlungssoftware nur von europäischen Anbietern; Wahlprogramm Berlin 202664BERLIN SCHAFFTJetzt KI für alle attraktiv und sicher machenWir definieren gemeinsam mit IHK, Handwerkskammern und Branchenve; Daten werden nur einmal erhoben und sicher geteilt, interne Systeme sind interoperabel und Leistungen können vollständig digital abgeschlossen werden",
-        "ru": "Полностью цифровые процессы: системы, которые «разговаривают» друг с другом, единое цифровое дело, цифровой суверенитет и целевое использование инноваций, упрощение цифрового управления; открытые данные о транспорте, энергии и бизнесе как основа новых сервисов; ИИ для продуктивности, качества услуг и участия — поддержка малых фирм при внедрении, следственное ПО только у европейских поставщиков",
-        "tr": "Tamamen dijital süreçler: birbirleriyle „konuşan“ sistemler, birleşik dijital dosya, dijital egemenlik, hedefli inovasyon kullanımı ve daha basit dijital idare; yeni hizmetlerin temeli olarak ulaşım, enerji ve işte açık veri; üretkenlik, hizmet kalitesi ve katılım için yapay zekâ—benimseyen küçük firmalara destek ve soruşturma yazılımları yalnızca Avrupa sağlayıcılarından",
-        "pl": "W pełni cyfrowe procesy: systemy, które „rozmawiają” ze sobą, jednolita cyfrowa teczka, cyfrowa suwerenność, celowe wykorzystanie innowacji i prostsza cyfrowa administracja; open data o transporcie, energii i biznesie jako podstawa nowych usług; AI dla produktywności, jakości usług i partycypacji — wsparcie małych firm we wdrażaniu oraz oprogramowanie śledcze tylko od europejskich dostawców",
-        "uk": "Повністю цифрові процеси: системи, які «розмовляють» одна з одною, уніфікований цифровий файл, цифровий суверенітет, цільове використання інновацій та спрощене цифрове адміністрування; відкриті дані про транспорт, енергетику та бізнес як основу для нових послуг; AI для підвищення продуктивності, якості обслуговування та участі — підтримка для невеликих компаній, які використовують його, і програмне забезпечення для розслідувань лише від європейських постачальників",
-        "ar": "العمليات الرقمية بالكامل: الأنظمة التي \"تتحدث\" مع بعضها البعض، وملف رقمي موحد، والسيادة الرقمية، والاستخدام المستهدف للابتكار، وإدارة رقمية أكثر بساطة؛ البيانات المفتوحة عن النقل والطاقة والأعمال كأساس للخدمات الجديدة؛ الذكاء الاصطناعي من أجل الإنتاجية وجودة الخدمة والمشاركة – دعم الشركات الصغيرة التي تتبناه، وبرامج التحقيق من مقدمي الخدمات الأوروبيين فقط"
+        "en": "once-only data, interoperable systems and fully digital services; Public Money/Public Code for publicly funded software; pilot then roll out GovTech citywide; chamber-defined minimum standards so AI is usable and safe for small firms; open data as a base for new services; investigative software from European providers",
+        "de": "Once-Only-Daten, interoperable Systeme und vollständig digitale Leistungen; Public Money/Public Code für öffentlich finanzierte Software; GovTech erst pilotieren, dann berlinweit ausrollen; branchenbezogene Mindeststandards mit Kammern für sichere KI in KMU; Open Data als Basis neuer Dienste; Ermittlungssoftware von europäischen Anbietern",
+        "ru": "данные once-only, совместимые системы и полностью цифровые услуги; Public Money/Public Code для ПО на госденьги; пилоты GovTech, затем городской масштаб; отраслевые минимумы с палатами для безопасного ИИ в МСП; открытые данные как база новых сервисов; следственное ПО от европейских поставщиков",
+        "tr": "once-only veri, birlikte çalışır sistemler ve tam dijital hizmetler; kamusal yazılıma Public Money/Public Code; GovTech’i önce pilot, sonra kent çapında; KOBİ’ler için odalarla güvenli KI asgari standartları; yeni hizmetler için açık veri; Avrupa sağlayıcılardan soruşturma yazılımı",
+        "pl": "dane once-only, interoperacyjne systemy i w pełni cyfrowe usługi; Public Money/Public Code dla oprogramowania z pieniędzy publicznych; GovTech najpierw pilotaż, potem w całym mieście; branżowe minima z izbami dla bezpiecznej AI w MŚP; open data jako baza nowych usług; oprogramowanie śledcze od europejskich dostawców",
+        "uk": "дані once-only, сумісні системи й повністю цифрові послуги; Public Money/Public Code для ПЗ на держкошти; пілоти GovTech, потім міський масштаб; галузеві мінімуми з палатами для безпечного ШІ в МСП; відкриті дані як база нових сервісів; слідче ПЗ від європейських постачальників",
+        "ar": "بيانات once-only وأنظمة متوافقة وخدمات رقمية كاملة؛ Public Money/Public Code للبرمجيات الممولة عاماً؛ تجريب GovTech ثم تعميمه؛ معايير دنيا مع الغرف لذكاء اصطناعي آمن للشركات الصغيرة؛ بيانات مفتوحة كأساس لخدمات جديدة؛ برمجيات تحقيق من مزودين أوروبيين"
       },
       "sources": [
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
-          "section": "Jetzt KI für alle attraktiv und sicher machen",
-          "quote": "Wahlprogramm Berlin 202664BERLIN SCHAFFTJetzt KI für alle attraktiv und sicher machenWir definieren gemeinsam mit IHK, Handwerkskammern und Branchenverbänden branchenspezifische Mindeststandards für KI- und Digitalisierungslösungen, etwa für Kassensysteme, Buchhaltung, Terminplanung, Marketing und behördliche Anträge.",
-          "page": 65
-        },
-        {
-          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
-          "section": "Programm",
           "page": 13,
+          "section": "Digitalisierung",
           "quote": "Daten werden nur einmal erhoben und sicher geteilt, interne Systeme sind interoperabel und Leistungen können vollständig digital abgeschlossen werden."
         },
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
-          "section": "Programm",
+          "page": 14,
+          "section": "Public Money",
+          "quote": "Nach dem Prinzip „Public Money, Public Code“ machen wir Anwendungen, die mit öffentlichen Mitteln entwickelt wurden, grundsätzlich offen zugänglich."
+        },
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "page": 15,
+          "section": "GovTech",
+          "quote": "Wir erproben sie in schnellen Pilotphasen und wenn sie funktionieren, setzen wir sie berlinweit ein."
+        },
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
+          "page": 65,
+          "section": "KI",
+          "quote": "Wir definieren gemeinsam mit IHK, Handwerkskammern und Branchenverbänden branchenspezifische Mindeststandards für KI- und Digitalisierungslösungen, etwa für Kassensysteme, Buchhaltung, Terminplanung, Marketing und behördliche Anträge."
+        },
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
           "page": 66,
+          "section": "Open Data",
           "quote": "Wir machen diese Datenplattform zur Grundlage für Innovation in allen Lebensbereichen: Offene Bildungsdaten ermöglichen passgenaue Lernangebote und Apps, die Eltern in Echtzeit über freie Kita-Plätze informieren."
         },
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
-          "section": "Programm",
-          "page": 64,
-          "quote": "BERLIN SCHAFFT: PRODUKTIVITÄT, SERVICEQUALITÄT UND TEILHABE MIT KI IM ALLTAGKünstliche Intelligenz erleichtert den Arbeitsalltag von Unternehmen."
+          "page": 78,
+          "section": "Sicherheit",
+          "quote": "Wir setzen für Ermittlungssoftware auf europäische Unternehmen."
         }
       ]
     },
@@ -18719,32 +18857,74 @@
       "partyId": "tierschutz",
       "stance": "mixed",
       "summary": {
-        "en": "Digitalize quickly, but safely and with European solutions: “Public Money, Public Code” and open source by default; give ITDZ funding and authority; adapt ready-made solutions from other Länder rather than developing from scratch; own data centers with data protection and energy efficiency, feeding waste heat into the heating network; give priority to refurbished hardware; continue fiber-optic expansion and restore “Free Wifi Berlin”; AI in administration, police, and justice only under human oversight, with mandatory algorithmic transparency and no Social Scoring",
-        "de": "Schnell, aber sicher und mit europäischen Lösungen digitalisieren: „Public Money, Public Code“ und Open Source als Standard; fertige Lösungen anderer Länder anpassen statt neu entwickeln; eigene Rechenzentren mit Datenschutz und Energieeffizienz, Abwärme ins Wärmenetz; KI in Verwaltung, Polizei und Justiz nur unter menschlicher Aufsicht, mit verpflichtender Algorithmentransparenz und ohne Social Scoring; Wirksamer und tierschutzgerechter sind die Wiederherstellung intakter Lebensräume und das Greifen natürlicher Regulationsmechanismen",
-        "ru": "цифровизировать быстро, но безопасно и с европейскими решениями: «Public Money, Public Code» и Open Source по умолчанию; дать ITDZ финансирование и полномочия; адаптировать готовые решения других земель вместо разработки с нуля; собственные дата-центры с защитой данных и энергоэффективностью, отходящее тепло в теплосеть; приоритет восстановленному железу; продолжить оптоволокно и восстановить «Free Wifi Berlin»; ИИ в администрации, полиции и юстиции только под человеческим надзором, с обязательной алгоритмической прозрачностью и без Social Scoring",
-        "tr": "hızlı ama güvenli ve Avrupa çözümleriyle dijitalleştirmek: varsayılan “Public Money, Public Code” ve Open Source; ITDZ’ye fon ve yetki vermek; sıfırdan geliştirmek yerine diğer eyaletlerin hazır çözümlerini uyarlamak; veri korumalı ve enerji verimli kendi veri merkezleri, atık ısıyı ısı ağına; yenilenmiş donanıma öncelik; fiber genişlemeyi sürdürmek ve “Free Wifi Berlin”i geri getirmek; yönetim, polis ve adalette yapay zekâ yalnızca insan denetiminde, zorunlu algoritma şeffaflığı ve Social Scoring yok",
-        "pl": "cyfryzować szybko, ale bezpiecznie i z rozwiązaniami europejskimi: „Public Money, Public Code” i Open Source domyślnie; dać ITDZ finansowanie i uprawnienia; adaptować gotowe rozwiązania innych landów zamiast budować od zera; własne centra danych z ochroną danych i efektywnością energetyczną, ciepło odpadowe do sieci ciepłowniczej; priorytet dla odnowionego sprzętu; kontynuować ekspansję światłowodu i przywrócić „Free Wifi Berlin”; AI w administracji, policji i sądownictwie tylko pod nadzorem człowieka, z obowiązkową przejrzystością algorytmów i bez Social Scoring",
-        "uk": "цифровізувати швидко, але безпечно та з європейськими рішеннями: «Public Money, Public Code» і Open Source за замовчуванням; дати ITDZ фінансування та повноваження; адаптувати готові рішення інших земель замість розробки з нуля; власні дата-центри із захистом даних і енергоефективністю, відпрацьоване тепло в тепломережу; пріоритет відновленому «залізу»; продовжити оптоволокно та відновити «Free Wifi Berlin»; ШІ в адміністрації, поліції та юстиції лише під людським наглядом, з обов’язковою алгоритмічною прозорістю і без Social Scoring",
-        "ar": "التحول الرقمي بسرعة، ولكن بأمان وباستخدام الحلول الأوروبية: \"المال العام، القانون العام\" والمصدر المفتوح افتراضيًا؛ منح التمويل والسلطة لـ ITDZ؛ تكييف الحلول الجاهزة من الولايات الأخرى بدلاً من التطوير من الصفر؛ مراكز البيانات الخاصة مع حماية البيانات وكفاءة الطاقة، وتغذية الحرارة المهدرة في شبكة التدفئة؛ إعطاء الأولوية للأجهزة المجددة؛ مواصلة توسيع الألياف الضوئية واستعادة \"Free Wifi Berlin\"؛ الذكاء الاصطناعي في الإدارة والشرطة والعدالة يخضع فقط للرقابة البشرية، مع شفافية خوارزمية إلزامية وعدم وجود نقاط اجتماعية"
+        "en": "prefer Open Source, fund ITDZ, Public Money/Public Code, and reuse proven solutions from other Länder; data centers feed waste heat into the heating network; continue fiber rollout and restore Free Wifi Berlin; AI in admin/police/justice only under human oversight, algorithmic transparency, no Social Scoring",
+        "de": "Open Source bevorzugen, ITDZ ausstatten, Public Money/Public Code und bewährte Lösungen anderer Länder prüfen; Datenzentren speisen Abwärme ins Wärmenetz; Glasfaser weiter fördern und Free Wifi Berlin wiederaufnehmen; KI in Verwaltung/Polizei/Justiz nur unter menschlicher Aufsicht, Transparenzpflicht, kein Social Scoring",
+        "ru": "предпочитать Open Source, финансировать ITDZ, Public Money/Public Code и переиспользовать решения других земель; ЦОДы отдают тепло в теплосеть; продолжить оптоволокно и вернуть Free Wifi Berlin; ИИ в администрации/полиции/юстиции только под человеческим надзором, прозрачность алгоритмов, без Social Scoring",
+        "tr": "Open Source’u tercih etmek, ITDZ’yi finanse etmek, Public Money/Public Code ve diğer eyaletlerin çözümlerini kullanmak; veri merkezleri atık ısıyı ısıtma ağına verir; fiberi sürdürüp Free Wifi Berlin’i geri getirmek; yönetim/polis/adliye’de KI yalnızca insan gözetiminde, algoritma şeffaflığı, Social Scoring yok",
+        "pl": "preferować Open Source, finansować ITDZ, Public Money/Public Code i wykorzystywać sprawdzone rozwiązania innych landów; centra danych oddają ciepło do sieci ciepłowniczej; kontynuować światłowód i przywrócić Free Wifi Berlin; AI w administracji/policji/sądach tylko pod nadzorem człowieka, przejrzystość algorytmów, bez Social Scoring",
+        "uk": "надавати перевагу Open Source, фінансувати ITDZ, Public Money/Public Code і використовувати перевірені рішення інших земель; ЦОДи віддають тепло в тепломережу; продовжити оптоволокно і повернути Free Wifi Berlin; ШІ в адміністрації/поліції/юстиції лише під людським наглядом, прозорість алгоритмів, без Social Scoring",
+        "ar": "تفضيل Open Source وتمويل ITDZ وPublic Money/Public Code وإعادة استخدام حلول الولايات الأخرى؛ مراكز البيانات تغذي شبكة التدفئة بالحرارة المهدرة؛ مواصلة الألياف وإعادة Free Wifi Berlin؛ الذكاء الاصطناعي في الإدارة/الشرطة/العدالة تحت إشراف بشري فقط وشفافية خوارزمية دون Social Scoring"
       },
       "sources": [
         {
           "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
-          "section": "Verwaltung und Digitalisierung",
           "page": 55,
-          "quote": "Open Source Software werden wir bevorzugt einsetzen. Eigene oder gemeinsam betriebene Lösungen werden, wo sinnvoll, entwickelt."
+          "section": "Digitalisierung",
+          "quote": "Open Source Software werden wir bevorzugt einsetzen."
         },
         {
           "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
-          "section": "Programm",
-          "page": 83,
-          "quote": "Wirksamer und tierschutzgerechter sind die Wiederherstellung intakter Lebensräume und das Greifen natürlicher Regulationsmechanismen."
+          "page": 55,
+          "section": "Digitalisierung",
+          "quote": "Dem IT-Dienstleistungszentrum Berlin (ITDZ) werden wir die notwendigen Mittel und Kompetenzen bereitstellen."
         },
         {
           "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
-          "section": "Programm",
+          "page": 55,
+          "section": "Digitalisierung",
+          "quote": "Eigenentwicklungen werden stets nach dem Grundsatz „Public Money, Public Code“ als Open Source zur Verfügung gestellt."
+        },
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "page": 55,
+          "section": "Digitalisierung",
+          "quote": "Bewährte digitale Lösungen aus anderen Bundesländern oder Kommunen werden auf ihre Übertragbarkeit geprüft."
+        },
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "page": 55,
+          "section": "Glasfaser",
+          "quote": "Grundlage dafür ist die Weiterführung der Förderung des Glasfaserausbaus, auch in weniger dicht besiedelten Gebieten."
+        },
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "page": 55,
+          "section": "Free Wifi",
+          "quote": "Das Projekt „Free Wifi Berlin“ wird wiederaufgenommen, mit dem Ziel, kostenlose, öffentlich verfügbare WLANNetzwerke an sinnvollen Hotspots auszubauen, insbesondere in und an öffentlichen Gebäuden."
+        },
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "page": 56,
+          "section": "Datenzentren",
+          "quote": "Bestehende und neu geplante Datenzentren werden wir in den Wärmekreislauf der Stadt einbinden, um Abwärme zu nutzen."
+        },
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
           "page": 53,
+          "section": "KI",
           "quote": "Der Einsatz von KI in Verwaltung, Polizei und Justiz darf ausschließlich unter klarer menschlicher Aufsicht erfolgen."
+        },
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "page": 53,
+          "section": "KI",
+          "quote": "Für Algorithmen wird eine verbindliche Transparenzpflicht gelten."
+        },
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "page": 53,
+          "section": "KI",
+          "quote": "Automatisierte Bewertungssysteme wie Social Scoring oder Risikoprofile sowie KI-gestützte Verhaltensanalyse im öffentlichen Raum schließen wir aus."
         }
       ]
     },
@@ -18753,26 +18933,38 @@
       "partyId": "oedp",
       "stance": "mixed",
       "summary": {
-        "en": "E-Governing; also caution on mobile networks and the precautionary principle: lower the radiation limit to 100 μW per m2, create “white zones” for electrically sensitive people, provide one network for all operators as a public task, and use open source in municipal IT for independence and longer hardware life",
-        "de": "E-Government; zugleich Vorsicht bei Mobilfunknetzen und Anwendung des Vorsorgeprinzips: Strahlungsgrenzwert auf 100 μW pro m2 senken, „weiße Zonen“ für elektrosensible Menschen schaffen, ein einheitliches Netz für alle Betreiber als öffentliche Aufgabe und Open Source in der kommunalen IT für Unabhängigkeit und längere Lebensdauer der Technik; E-Governing genutzt und die Ausrüstung mit hoher Priorität gesteigert werden",
-        "ru": "E-Governing; при этом осторожность с мобильными сетями и принцип предосторожности: снижение предельного значения излучения до 100 мкВт на м2, «белые зоны» для электрочувствительных, единая сеть для всех операторов как публичная задача, open source в городской IT ради независимости и долгой жизни техники",
-        "tr": "E-Governing; ayrıca mobil ağlar ve ihtiyat ilkesi konusunda temkin: radyasyon sınırını m2 başına 100 μW’ye düşürmek, elektriksel olarak hassas kişiler için „beyaz bölgeler“ oluşturmak, tüm operatörler için tek ağı kamu görevi olarak sağlamak ve bağımsızlık ile daha uzun donanım ömrü için belediye BT’sinde açık kaynak kullanmak",
-        "pl": "E-Governing; także ostrożność wobec sieci mobilnych i zasada ostrożności: obniżyć limit promieniowania do 100 μW na m², stworzyć „białe strefy” dla osób elektrowrażliwych, zapewnić jedną sieć dla wszystkich operatorów jako zadanie publiczne oraz używać open source w IT komunalnym dla niezależności i dłuższej żywotności sprzętu",
-        "uk": "Е-управління; також обережно щодо мобільних мереж і принципу обережності: знизити межу випромінювання до 100 мкВт на м2, створити «білі зони» для чутливих до електрики людей, забезпечити одну мережу для всіх операторів як загальнодоступне завдання та використовувати відкритий код у муніципальних ІТ для незалежності та довшого терміну служби апаратного забезпечення",
-        "ar": "الحكومة الإلكترونية؛ الحذر أيضًا بشأن شبكات الهاتف المحمول والمبدأ الاحترازي: خفض حد الإشعاع إلى 100 ميكرو واط لكل متر مربع، وإنشاء \"مناطق بيضاء\" للأشخاص الحساسين للكهرباء، وتوفير شبكة واحدة لجميع المشغلين كمهمة عامة، واستخدام المصدر المفتوح في تكنولوجيا المعلومات البلدية لتحقيق الاستقلال وعمر أطول للأجهزة"
+        "en": "use E-Governing and prioritize equipment; more Open Source in municipal IT for flexibility and less vendor lock-in; lower mobile-radio limit to 100 μW/m² and designate white zones for electrosensitive people",
+        "de": "E-Governing nutzen und Ausrüstung priorisieren; mehr Open Source in der kommunalen IT für Flexibilität und weniger Herstellerabhängigkeit; Mobilfunkgrenzwert auf 100 μW/m² senken und Weiße Zonen für elektrohypersensible Menschen ausweisen",
+        "ru": "использовать E-Governing и приоритетно оснащать; больше Open Source в муниципальном ИТ для гибкости и меньшей зависимости от вендоров; снизить лимит мобильной связи до 100 μW/m² и выделить белые зоны для электрогиперчувствительных",
+        "tr": "E-Governing kullanmak ve donanıma öncelik vermek; esneklik ve daha az üretici bağımlılığı için belediye BT’de daha fazla Open Source; mobil sınırını 100 μW/m²’ye indirmek ve elektrohassaslar için beyaz bölgeler",
+        "pl": "korzystać z E-Governing i priorytetowo wyposażać; więcej Open Source w IT gminnym dla elastyczności i mniejszego uzależnienia od dostawców; obniżyć limit GSM do 100 μW/m² i wyznaczyć białe strefy dla osób elektrohypersensytywnych",
+        "uk": "використовувати E-Governing і пріоритетно оснащувати; більше Open Source у муніципальному ІТ для гнучкості й меншої залежності від вендорів; знизити ліміт мобільного зв’язку до 100 μW/m² і виділити білі зони для електрогіперчутливих",
+        "ar": "استخدام E-Governing وإعطاء أولوية للتجهيز؛ مزيد من Open Source في تقنية البلديات لمرونة وأقل اعتماداً على المورّدين؛ خفض حد الإشعاع المتنقل إلى 100 μW/m² وتعيين مناطق بيضاء لذوي فرط الحساسية الكهرومغناطيسية"
       },
       "sources": [
         {
           "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
-          "section": "Mobilfunk – gesundheits- und umweltverträglich sowie datenschutzkonform gestalten",
-          "page": 25,
-          "quote": " Absenkung des Grenzwertes für die Mobilfunkstrahlung auf 100 μW/m2 – das ist etwa das Doppelte der Immission natürlicher elektromagnetischer Strahlung in dem Frequenzbereich, der für 5G genutzt werden kann (600 MHz bis 80 GHz)."
+          "page": 10,
+          "section": "E-Governing",
+          "quote": "Hierfür müssen die Möglichkeiten von E-Governing genutzt und die Ausrüstung mit hoher Priorität gesteigert werden."
         },
         {
           "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
-          "section": "L(i)ebenswertes Berlin – sicher und bezahlbar wohnen",
-          "page": 10,
-          "quote": "E-Governing genutzt und die Ausrüstung mit hoher Priorität gesteigert werden."
+          "page": 18,
+          "section": "Open Source",
+          "quote": "Durch die verstärkte Nutzung von Open Source Software kann die Flexibilität gesteigert und Abhängigkeiten von großen IT-Herstellern und Softwarefirmen gesenkt werden."
+        },
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "page": 25,
+          "section": "Mobilfunk",
+          "quote": "Absenkung des Grenzwertes für die Mobilfunkstrahlung auf 100 μW/m2 – das ist etwa das Doppelte der Immission natürlicher elektromagnetischer Strahlung in dem Frequenzbereich, der für 5G genutzt werden kann (600 MHz bis 80 GHz)."
+        },
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "page": 25,
+          "section": "Mobilfunk",
+          "quote": "Ausweisung funkarmer Gebiete („Weiße Zonen“) für elektrohypersensible Menschen und Anerkennung der Elektrohypersensibilität als Krankheit (wie in der WHO, in Schweden und in Kalifornien); Anerkennung der klinischen Umweltmedizin als medizinische Fachrichtung; Einrichtung eines Lehrstuhls für biokonforme Elektrotechniken."
         }
       ]
     },
