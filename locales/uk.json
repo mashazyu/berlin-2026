@@ -53,8 +53,10 @@
     "whatWeDidBody": "Ми порівняли позиції 10 берлінських партій за ключовими темами: транспорт, житло, клімат і енергія, безпека, освіта, охорона здоров’я, міграція, економіка та демократія — і звели програми в одну порівняльну таблицю.",
     "beforeYouVoteTitle": "Перед голосуванням",
     "beforeYouVoteBody": "Таблицю зроблено за допомогою ШІ; пункти, що важливі саме вам, краще перевірити ще раз. Повні переклади програм основних партій — на [BerlinVote.Help](https://www.berlinvote.help/).",
-    "furtherReadingIntro": "Також може стати в пригоді таке:",
-    "furtherReadingBody": "- [Wahl-O-Mat Берлін 2026](https://www.wahl-o-mat.de/berlin2026/app/main_app.html)\n- [Вікіпедія: земельні вибори в Берліні 2026](https://en.wikipedia.org/wiki/2026_Berlin_state_election)\n- [RBB: FAQ про вибори в Берліні 2026 (англійською)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: вибори простою мовою (Leichte Sprache)](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Брошура про вибори 2026 земельного центру політичної освіти Берліна (PDF, EN)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
+    "toolsIntro": "Допомога у виборі та інші інструменти порівняння:",
+    "toolsBody": "- [Wahl-O-Mat Берлін 2026](https://www.wahl-o-mat.de/berlin2026/app/main_app.html)\n- [Kandidierendencheck](https://www.kandidierendencheck.de/auswahl)\n- [Party-Check Berlin](https://tool.party-check.org/index.php/berlin?lang=en)",
+    "backgroundIntro": "Довідка та контекст:",
+    "backgroundBody": "- [Вікіпедія: земельні вибори в Берліні 2026](https://en.wikipedia.org/wiki/2026_Berlin_state_election)\n- [RBB: FAQ про вибори в Берліні 2026 (англійською)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: вибори простою мовою (Leichte Sprache)](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Брошура про вибори 2026 земельного центру політичної освіти Берліна (PDF, EN)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
   },
   "press": {
     "title": "У ЗМІ",

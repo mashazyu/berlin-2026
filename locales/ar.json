@@ -54,8 +54,10 @@
     "whatWeDidBody": "قارنّا 10 أحزاب برلينية في نقاط رئيسية عبر النقل والسكن والمناخ والطاقة والأمن والتعليم والصحة والهجرة والاقتصاد والديمقراطية — وحوّلنا برامجها إلى جدول واحد جنباً إلى جنب.",
     "beforeYouVoteTitle": "قبل أن تصوّت",
     "beforeYouVoteBody": "أُعدّ الجدول بمساعدة الذكاء الاصطناعي؛ راجع النقاط المهمة لك. الترجمات الكاملة لبرامج الأحزاب الرئيسية متاحة على [BerlinVote.Help](https://www.berlinvote.help/).",
-    "furtherReadingIntro": "قد تجد هذه المصادر مفيدة أيضاً:",
-    "furtherReadingBody": "- [Wahl-O-Mat Berlin 2026](https://www.wahl-o-mat.de/berlin2026/app/main_app.html)\n- [ويكيبيديا: انتخابات برلين الإقليمية 2026](https://en.wikipedia.org/wiki/2026_Berlin_state_election)\n- [RBB: أسئلة شائعة عن انتخابات برلين 2026 (إنجليزي)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: الانتخابات بلغة مبسطة (Leichte Sprache)](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [مركز برلين للتربية السياسية: كتيب انتخابات 2026 (PDF)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
+    "toolsIntro": "أدوات مساعدة على التصويت وأدوات مقارنة أخرى:",
+    "toolsBody": "- [Wahl-O-Mat Berlin 2026](https://www.wahl-o-mat.de/berlin2026/app/main_app.html)\n- [Kandidierendencheck](https://www.kandidierendencheck.de/auswahl)\n- [Party-Check Berlin](https://tool.party-check.org/index.php/berlin?lang=en)",
+    "backgroundIntro": "خلفية:",
+    "backgroundBody": "- [ويكيبيديا: انتخابات برلين الإقليمية 2026](https://en.wikipedia.org/wiki/2026_Berlin_state_election)\n- [RBB: أسئلة شائعة عن انتخابات برلين 2026 (إنجليزي)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: الانتخابات بلغة مبسطة (Leichte Sprache)](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [مركز برلين للتربية السياسية: كتيب انتخابات 2026 (PDF)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
   },
   "press": {
     "title": "في الإعلام",

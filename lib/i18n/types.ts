@@ -52,8 +52,10 @@ export type Translations = {
     whatWeDidBody: string
     beforeYouVoteTitle: string
     beforeYouVoteBody: string
-    furtherReadingIntro: string
-    furtherReadingBody: string
+    toolsIntro: string
+    toolsBody: string
+    backgroundIntro: string
+    backgroundBody: string
   }
   press: {
     title: string

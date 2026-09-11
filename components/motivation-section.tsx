@@ -38,8 +38,10 @@ export function MotivationSection() {
             </h3>
             <div className="mt-3 space-y-3 text-base">
               {renderParagraphs(m.beforeYouVoteBody, "text-muted-foreground leading-relaxed", language)}
-              {renderParagraphs(m.furtherReadingIntro, "text-muted-foreground leading-relaxed", language)}
-              {renderParagraphs(m.furtherReadingBody, "text-muted-foreground leading-relaxed", language)}
+              {renderParagraphs(m.toolsIntro, "text-muted-foreground leading-relaxed", language)}
+              {renderParagraphs(m.toolsBody, "text-muted-foreground leading-relaxed", language)}
+              {renderParagraphs(m.backgroundIntro, "text-muted-foreground leading-relaxed", language)}
+              {renderParagraphs(m.backgroundBody, "text-muted-foreground leading-relaxed", language)}
             </div>
           </div>
         </div>
