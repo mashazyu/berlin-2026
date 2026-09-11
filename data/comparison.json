@@ -17529,20 +17529,32 @@
       "partyId": "cdu",
       "stance": "for",
       "summary": {
-        "en": "Support for medium-sized businesses, crafts, and the neighborhood economy: less bureaucracy, more digital services, an industrial site, “Boston on the Spree,” and the principle of abolishing more rules than are created",
-        "de": "Unterstützung von Mittelstand, Handwerk und Kiezwirtschaft: weniger Bürokratie, mehr digitale Dienste, Sicherung des Industriestandorts, „Boston an der Spree“ und der Grundsatz, mehr Regeln abzuschaffen als neu zu schaffen",
-        "ru": "поддержка среднего бизнеса, ремесла и районной экономики: меньше бюрократии, больше цифровых сервисов, промышленная площадка, «Бостон на Шпрее» и принцип отменять больше правил, чем создавать",
-        "tr": "Orta ölçekli işletmelere, zanaata ve mahalle ekonomisine destek: daha az bürokrasi, daha fazla dijital hizmet, bir sanayi sahası, „Spree’de Boston“ ve yaratılardan daha fazla kuralı kaldırma ilkesi",
-        "pl": "Wsparcie średnich firm, rzemiosła i gospodarki dzielnicowej: mniej biurokracji, więcej usług cyfrowych, ośrodek przemysłowy, „Boston on the Spree” oraz zasada znoszenia więcej przepisów, niż się tworzy",
-        "uk": "Підтримка середнього бізнесу, ремесел та економіки сусідства: менше бюрократії, більше цифрових послуг, промисловий майданчик, «Бостон на Шпрее» та принцип скасування більше правил, ніж створено",
-        "ar": "دعم الشركات المتوسطة الحجم، والحرف، واقتصاد الأحياء: بيروقراطية أقل، ومزيد من الخدمات الرقمية، وموقع صناعي، و\"بوسطن أون ذا سبري\"، ومبدأ إلغاء المزيد من القواعد التي تم إنشاؤها"
+        "en": "Support for the Mittelstand and crafts: tailored funding for the transition, succession via the Nachfolgezentrale, fully digital business registration aiming at founding within 24 hours, and less bureaucracy for SMEs",
+        "de": "Unterstützung von Mittelstand und Handwerk: passgenaue Förderprogramme für die Transformation, Nachfolge über die Nachfolgezentrale, vollständig digitale Gewerbeanmeldung mit dem Ziel der Gründung innerhalb von 24 Stunden und weniger Bürokratie für KMU",
+        "ru": "Поддержка среднего бизнеса и ремёсел: точечные программы на трансформацию, преемственность через Nachfolgezentrale, полностью цифровая регистрация бизнеса с целью основания за 24 часа и меньше бюрократии для МСП",
+        "tr": "Orta ölçekli işletmeler ve zanaat için destek: dönüşüme özel teşvikler, Nachfolgezentrale üzerinden devir, 24 saatte kuruluşa yönelik tam dijital işyeri kaydı ve KOBİ’ler için daha az bürokrasi",
+        "pl": "Wsparcie Mittelstandu i rzemiosła: dopasowane programy na transformację, sukcesja przez Nachfolgezentrale, w pełni cyfrowa rejestracja działalności z celem założenia w 24 godziny oraz mniej biurokracji dla MŚP",
+        "uk": "Підтримка середнього бізнесу й ремесел: точкові програми на трансформацію, спадкоємність через Nachfolgezentrale, повністю цифрова реєстрація бізнесу з метою заснування за 24 години і менше бюрократії для МСП",
+        "ar": "دعم الشركات المتوسطة والحرف: برامج تمويل ملائمة للتحول، وخلافة الأعمال عبر Nachfolgezentrale، وتسجيل تجاري رقمي بالكامل بهدف التأسيس خلال 24 ساعة، وبيروقراطية أقل للشركات الصغيرة"
       },
       "sources": [
         {
           "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
-          "section": "Berlin wird spitze",
           "page": 43,
+          "section": "Mittelstand",
           "quote": "Der Mittelstand ist das Rückgrat der Berliner Wirtschaft. Wir wollen die Unternehmen auch weiterhin bei der Transformation begleiten und sie mit passgenauen Förderprogrammen unterstützen."
+        },
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "page": 43,
+          "section": "Mittelstand",
+          "quote": "Ein zentrales Anliegen ist für uns die Sicherung von Unternehmensnachfolgen. In enger Kooperation mit der Nachfolgezentrale werden wir neue Vernetzungsmöglichkeiten schaffen, um den Generationswechsel in den Berliner Unternehmen erfolgreich zu gestalten."
+        },
+        {
+          "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
+          "page": 43,
+          "section": "Mittelstand",
+          "quote": "Die Gewerbeanmeldung werden wir vollständig digitalisieren und alle beteiligten Behörden automatisch einbinden. So reduzieren wir bürokratische Hürden und erleichtern Gründungen sowie unternehmerische Tätigkeit erheblich. Unser Ziel lautet: Unternehmensgründungen innerhalb von 24 Stunden."
         }
       ]
     },
@@ -17551,26 +17563,38 @@
       "partyId": "spd",
       "stance": "for",
       "summary": {
-        "en": "Support for small businesses through digital “guides” in district economic affairs offices, visibility for entrepreneurship by people with a migration history, support for startups, and test spaces for new solutions",
-        "de": "Unterstützung kleiner Unternehmen durch digitale „Lotsen“ in den bezirklichen Wirtschaftsämtern, mehr Sichtbarkeit für Unternehmertum von Menschen mit Migrationsgeschichte, Förderung von Start-ups und Erprobungsräume für neue Lösungen; erhalten, stärken, ökonomische",
-        "ru": "поддержка малого бизнеса через цифровых «лоцманов» в районных отделах экономики, видимость предпринимательства людей с миграционной историей, поддержку стартапов и тестовые пространства для новых решений",
-        "tr": "İlçe ekonomi dairelerinde dijital „rehberler,“ göç geçmişi olanların girişimciliğine görünürlük, startup desteği ve yeni çözümler için test alanları yoluyla küçük işletmelere destek",
-        "pl": "Wsparcie małych firm przez cyfrowych „przewodników” w dzielnicowych urzędach gospodarki, widoczność przedsiębiorczości osób z historią migracji, wsparcie startupów i przestrzenie testowe dla nowych rozwiązań",
-        "uk": "Підтримка малого бізнесу через цифрові «довідники» в районних управліннях економіки, видимість підприємництва для людей з міграційною історією, підтримка стартапів та тестові місця для нових рішень",
-        "ar": "دعم الشركات الصغيرة من خلال \"الأدلة\" الرقمية في مكاتب الشؤون الاقتصادية بالمنطقة، ورؤية ريادة الأعمال من قبل الأشخاص الذين لديهم تاريخ هجرة، ودعم الشركات الناشئة، ومساحات اختبار للحلول الجديدة"
+        "en": "Digital “guides” in district economic-development offices, more visibility for migrant entrepreneurship, three further municipal Gewerbehöfe, a secured Nachfolgezentrale, and stronger neighborhood retail diversity",
+        "de": "Digitale Lots*innen in den bezirklichen Wirtschaftsförderungen, mehr Sichtbarkeit für migrantisches Unternehmertum, drei weitere kommunale Gewerbehöfe, gesicherte Nachfolgezentrale und stärkere ökonomische Vielfalt im Einzelhandel der Kieze",
+        "ru": "Цифровые «лоцманы» в окружных службах экономики, больше видимости предпринимательства мигрантов, ещё три муниципальных Gewerbehöfe, сохранённая Nachfolgezentrale и сильнее разнообразие розницы в районах",
+        "tr": "İlçe ekonomi ofislerinde dijital rehberler, göçmen girişimciliğine daha fazla görünürlük, üç ek belediye Gewerbehöfe, güvence altına alınan Nachfolgezentrale ve mahalle perakendesinde daha güçlü çeşitlilik",
+        "pl": "Cyfrowe „loty” w dzielnicowych urzędach gospodarki, większa widoczność przedsiębiorczości migracyjnej, trzy kolejne miejskie Gewerbehöfe, zabezpieczona Nachfolgezentrale i silniejsza różnorodność handlu w dzielnicach",
+        "uk": "Цифрові «лоцмани» в окружних службах економіки, більша видимість підприємництва мігрантів, ще три муніципальні Gewerbehöfe, збережена Nachfolgezentrale і сильніше різноманіття торгівлі в районах",
+        "ar": "مرشدون رقميون في مكاتب التنمية الاقتصادية بالمقاطعات، ومزيد من الظهور لريادة الأعمال للمهاجرين، وثلاثة مجمعات تجارية بلدية إضافية، وNachfolgezentrale مضمونة، وتنوع أقوى لتجارة الأحياء"
       },
       "sources": [
         {
           "url": "https://spd.berlin/media/2026/08/SPD_Berlin_Wahlprogramm_20260521-v4-1.pdf",
           "page": 11,
-          "quote": "Zusätzlich etablieren wir dauerhaft Digitalisierungslots*innen in den bezirklichen Wirtschaftsförderungen. So wird Erstberatung vor Ort leichter und Digitalisierungsprojekte kommen schneller in die Umsetzung.",
-          "section": "Digitalisierung Unternehmen"
+          "section": "Digitalisierung",
+          "quote": "Zusätzlich etablieren wir dauerhaft Digitalisierungslots*innen in den bezirklichen Wirtschaftsförderungen. So wird Erstberatung vor Ort leichter und Digitalisierungsprojekte kommen schneller in die Umsetzung."
+        },
+        {
+          "url": "https://spd.berlin/media/2026/08/SPD_Berlin_Wahlprogramm_20260521-v4-1.pdf",
+          "page": 11,
+          "section": "Unternehmertum",
+          "quote": "Wir machen migrantisches Unternehmertum sichtbarer und unterstützen es. Gründungsberatungen bauen wir in ihrer Mehrsprachigkeit und mit digitalen Tools aus."
         },
         {
           "url": "https://spd.berlin/media/2026/08/SPD_Berlin_Wahlprogramm_20260521-v4-1.pdf",
           "page": 13,
-          "quote": "Wir erhalten und stärken die ökonomische Vielfalt in allen Berliner Stadtteilen. Stationärer Einzelhandel, vielfältige Gastronomie- und Kulturangebote beleben Kieze und schaffen Begegnung – zwischen Berliner*innen und Gästen aus aller Welt.",
-          "section": "Einzelhandel"
+          "section": "Gewerbehöfe",
+          "quote": "Bis zum Ende der nächsten Legislaturperiode bauen wir drei weitere kommunale Gewerbehöfe und leisten so einen spürbaren Beitrag zur Entlastung der Berliner Unternehmen."
+        },
+        {
+          "url": "https://spd.berlin/media/2026/08/SPD_Berlin_Wahlprogramm_20260521-v4-1.pdf",
+          "page": 14,
+          "section": "Nachfolge",
+          "quote": "Wir sichern die Berliner Nachfolgezentrale und stärken so die Unterstützung bei Unternehmensnachfolge."
         }
       ]
     },
@@ -17669,32 +17693,26 @@
       "partyId": "afd",
       "stance": "for",
       "summary": {
-        "en": "Reduce burdens on small and medium-sized businesses, simplify the transition to digital invoices, develop the startup ecosystem, and cooperate with private business",
-        "de": "Kleine und mittlere Unternehmen entlasten, den Umstieg auf digitale Rechnungen vereinfachen, das Start-up-Ökosystem ausbauen und mit der Privatwirtschaft kooperieren; fordern, Einführung, Meistergründungsprämie",
-        "ru": "снизить нагрузку на малый и средний бизнес, упростить переход на цифровые счета, развивать стартап-экосистему и сотрудничество с частным бизнесом",
-        "tr": "KOBİ’lerin yükünü azaltmak, dijital faturalara geçişi basitleştirmek, startup ekosistemini geliştirmek ve özel sektörle işbirliği",
-        "pl": "Zmniejszenie obciążenia MŚP, uproszczenie przejścia na faktury cyfrowe, rozwój ekosystemu startupów oraz współpraca z prywatnym biznesem",
-        "uk": "Зменшити навантаження на малий і середній бізнес, спростити перехід на цифрові рахунки, розвивати екосистему стартапів і співпрацювати з приватним бізнесом",
-        "ar": "تخفيف الأعباء عن الشركات الصغيرة والمتوسطة، وتبسيط عملية الانتقال إلى الفواتير الرقمية، وتطوير النظام البيئي للشركات الناشئة، والتعاون مع قطاع الأعمال الخاص"
+        "en": "Exempt small businesses from mandatory E-invoicing; strengthen crafts as the backbone of the Mittelstand with a Meistergründungsprämie and easier business takeovers",
+        "de": "Kleine Betriebe von der E-Rechnungspflicht befreien; Handwerk als Rückgrat des Mittelstands mit Meistergründungsprämie und einfacherer Betriebsübernahme stärken",
+        "ru": "Освободить малый бизнес от обязательных электронных счетов; укрепить ремесло как опору среднего бизнеса через Meistergründungsprämie и упрощённую передачу предприятий",
+        "tr": "Küçük işletmeleri zorunlu e-faturadan muaf tutmak; Meistergründungsprämie ve kolaylaştırılmış işletme devriyle zanaatı Mittelstand’ın omurgası olarak güçlendirmek",
+        "pl": "Zwolnić małe firmy z obowiązku e-faktur; wzmocnić rzemiosło jako trzon Mittelstandu poprzez Meistergründungsprämie i łatwiejsze przejęcia firm",
+        "uk": "Звільнити малий бізнес від обов’язкових електронних рахунків; зміцнити ремесло як опору середнього бізнесу через Meistergründungsprämie та простішу передачу підприємств",
+        "ar": "إعفاء الشركات الصغيرة من الفوترة الإلكترونية الإلزامية؛ وتعزيز الحرف كعماد للشركات المتوسطة عبر Meistergründungsprämie وتسهيل نقل الأعمال"
       },
       "sources": [
         {
           "url": "https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf",
           "page": 18,
-          "quote": "Unnötige Belastungen für kleine und mittelständische Unternehmen durch die bis 2028 erfolgende Umstellung ausschließlich auf digitale Rechnungen (E-Rechnungen) wollen wir durch eine Befreiung kleiner Betriebe von der E-Rechnungspflicht reduzieren.",
-          "section": "Digitalisierung"
+          "section": "E-Rechnung",
+          "quote": "Unnötige Belastungen für kleine und mittelständische Unternehmen durch die bis 2028 erfolgende Umstellung ausschließlich auf digitale Rechnungen (E-Rechnungen) wollen wir durch eine Befreiung kleiner Betriebe von der E-Rechnungspflicht reduzieren."
         },
         {
           "url": "https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf",
           "page": 48,
-          "quote": "Wir fordern: → Die Einführung einer Meistergründungsprämie.",
-          "section": "Wirtschaft & Soziales"
-        },
-        {
-          "url": "https://lichtenberg.afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion.pdf",
-          "page": 48,
-          "quote": "Zu diesem Zweck schlagen wir vor, einen zentralen Ort für das Berliner Start-up-Ökosystem nach dem Vorbild der Station F in Paris zu schaffen.",
-          "section": "Wirtschaft & Soziales"
+          "section": "Handwerk",
+          "quote": "Wir fordern: → Die Einführung einer Meistergründungsprämie. → Die Förderung und Vereinfachung von Betriebsübernahmen."
         }
       ]
     },
@@ -17737,48 +17755,66 @@
       "partyId": "volt",
       "stance": "for",
       "summary": {
-        "en": "Support for small businesses through AI in everyday work, loans for digitalization and AI adoption, the city as a purchaser of innovation, KiezLabs in vacant premises, help with business succession, and action against vacant commercial space",
-        "de": "Unterstützung kleiner Unternehmen durch KI im Arbeitsalltag, Kredite für Digitalisierung und KI-Einführung, die Stadt als Auftraggeberin für Innovationen, KiezLabs in leer stehenden Räumen, Hilfe bei Unternehmensnachfolgen und Maßnahmen gegen Gewerbeleerstand; Wir stärken die Nachfolgezentrale Berlin als zentrale Anlaufstelle und bauen sie zu einem echten One-Stop-Shop aus",
-        "ru": "поддержка малого бизнеса через ИИ в повседневной работе, кредиты на цифровизацию и внедрение ИИ, город как заказчик инноваций, KiezLabs в пустующих помещениях, помощь в преемственности бизнеса и меры против пустующих коммерческих площадей",
-        "tr": "günlük işte yapay zekâ, dijitalleşme ve yapay zekâ kredileri, inovasyon alıcısı olarak şehir, boş mekânlarda KiezLabs, işletme devrine yardım ve boş ticari alana karşı önlemlerle KOBİ desteği",
-        "pl": "wsparcie małych firm przez AI w codziennej pracy, kredyty na cyfryzację i wdrożenie AI, miasto jako nabywca innowacji, KiezLabs w pustostanach, pomoc w sukcesji i działania przeciw pustostanom komercyjnym",
-        "uk": "підтримка малого бізнесу через ШІ в повсякденній роботі, кредити на цифровізацію та впровадження ШІ, місто як замовник інновацій, KiezLabs у порожніх приміщеннях, допомога в наступності бізнесу та заходи проти порожніх комерційних площ",
-        "ar": "دعم الشركات الصغيرة من خلال الذكاء الاصطناعي في العمل اليومي، وقروض الرقمنة واعتماد الذكاء الاصطناعي، والمدينة كمشتري للابتكار، وKiezLabs في المباني الشاغرة، والمساعدة في تعاقب الأعمال، واتخاذ إجراءات ضد المساحات التجارية الشاغرة"
+        "en": "Strengthen the Nachfolgezentrale as a one-stop shop for succession; turn vacant buildings into KiezLabs for crafts, founders and freelancers; IBB loans with repayment grants of up to 40% for certified AI and digitalization solutions",
+        "de": "Nachfolgezentrale als One-Stop-Shop für Betriebsnachfolgen stärken; leerstehende Immobilien zu KiezLabs für Handwerk, Gründende und Selbständige machen; IBB-Kredite mit Tilgungszuschüssen bis 40 % für zertifizierte KI- und Digitalisierungslösungen",
+        "ru": "Усилить Nachfolgezentrale как единое окно по преемственности; превратить пустующие здания в KiezLabs для ремёсел, основателей и самозанятых; кредиты IBB с грантом на погашение до 40% на сертифицированные ИИ- и цифровые решения",
+        "tr": "Nachfolgezentrale’yi devir için tek durak olarak güçlendirmek; boş binaları zanaat, kurucu ve serbest çalışanlar için KiezLabs’a dönüştürmek; onaylı KI/dijital çözümler için %40’a kadar itfa hibeli IBB kredileri",
+        "pl": "Wzmocnić Nachfolgezentrale jako one-stop-shop sukcesji; zamieniać puste budynki w KiezLabs dla rzemiosła, założycieli i freelancerów; kredyty IBB z dopłatą do spłaty do 40% na certyfikowane rozwiązania AI i cyfryzacji",
+        "uk": "Посилити Nachfolgezentrale як єдине вікно з наступництва; перетворити порожні будівлі на KiezLabs для ремесел, засновників і самозайнятих; кредити IBB з грантом на погашення до 40% на сертифіковані ШІ- та цифрові рішення",
+        "ar": "تعزيز Nachfolgezentrale كنقطة شاملة لخلافة الأعمال؛ وتحويل المباني الشاغرة إلى KiezLabs للحرف والمؤسسين والمستقلين؛ وقروض IBB بمنح سداد حتى 40% لحلول الذكاء الاصطناعي والرقمنة المعتمدة"
       },
       "sources": [
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
-          "section": "Jetzt Betriebsnachfolge sichern",
-          "quote": "Wir stärken die Nachfolgezentrale Berlin als zentrale Anlaufstelle und bauen sie zu einem echten One-Stop-Shop aus.",
-          "page": 61
+          "page": 61,
+          "section": "Nachfolge",
+          "quote": "Wir stärken die Nachfolgezentrale Berlin als zentrale Anlaufstelle und bauen sie zu einem echten One-Stop-Shop aus, der Übergebende und Übernehmende durch den gesamten Prozess begleitet."
         },
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
-          "section": "Programm",
+          "page": 61,
+          "section": "KiezLabs",
+          "quote": "Wir verwandeln leerstehende Immobilien und alte Fabrikhallen in KiezLabs – lokale Innovations- und Gründerzentren in jedem Berliner Bezirk."
+        },
+        {
+          "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
           "page": 65,
-          "quote": "000 Digitalisierungsprojekte kleiner und mittlerer Unternehmen (KMU) gefördert."
+          "section": "Digitalisierung",
+          "quote": "Wir ermöglichen eine stark vergünstigte Finanzierung für zertifizierte KI- und Digitalisierungslösungen über die IBB (Investitionsbank Berlin). Betriebe erhalten dabei zinsgünstige Darlehen mit Tilgungszuschüssen von bis zu 40 %, damit sich Investitionen schneller rechnen."
         }
       ]
     },
     {
       "topicId": "small-business",
       "partyId": "tierschutz",
-      "stance": "for",
+      "stance": "mixed",
       "summary": {
-        "en": "Small business within an eco-social economy: fair working conditions, minimum wage, a four-day week, mobile work, support for open source, and innovation only for the common good",
-        "de": "Kleine Unternehmen im Rahmen einer ökosozialen Wirtschaft: faire Arbeitsbedingungen, Mindestlohn, Vier-Tage-Woche, mobiles Arbeiten, Förderung von Open Source und Innovationen ausschließlich zum Gemeinwohl",
-        "ru": "малый бизнес в логике экосоциальной экономики: честные условия труда, минимальная зарплата, четырёхдневная неделя, мобильная работа, поддержка открытого кода и инноваций только для общего блага",
-        "tr": "Eko-sosyal ekonomi içinde küçük işletme: adil çalışma koşulları, asgari ücret, dört günlük hafta, mobil çalışma, açık kaynağa destek ve inovasyon yalnızca kamu yararı için",
-        "pl": "Małe firmy w gospodarce eko-społecznej: uczciwe warunki pracy, płaca minimalna, czterodniowy tydzień pracy, praca mobilna, wsparcie open source oraz innowacje tylko dla dobra wspólnego",
-        "uk": "Малий бізнес в еко-соціальній економіці: справедливі умови праці, мінімальна зарплата, чотириденний тиждень, мобільна робота, підтримка відкритого коду та інновації лише для загального блага",
-        "ar": "الأعمال التجارية الصغيرة ضمن الاقتصاد الاجتماعي البيئي: ظروف عمل عادلة، والحد الأدنى للأجور، وأربعة أيام في الأسبوع، والعمل المتنقل، ودعم المصدر المفتوح، والابتكار فقط من أجل الصالح العام"
+        "en": "No dedicated small-business program; eco-social economy focused on the common good and fair work — higher state minimum wage, mobile work, four-day week; public innovation funding only when it serves the common good and sustainability",
+        "de": "Kein eigenes KMU-Programm; ökosoziale Wirtschaft mit Fokus auf Gemeinwohl und faire Arbeit — höherer Landesmindestlohn, mobiles Arbeiten, Vier-Tage-Woche; öffentliche Innovationsförderung nur, wenn sie Gemeinwohl und Nachhaltigkeit dient",
+        "ru": "Отдельной программы для малого бизнеса нет; экосоциальная экономика с упором на общее благо и честный труд — выше земельный минзарплата, удалёнка, четырёхдневка; госфинансирование инноваций только ради общего блага и устойчивости",
+        "tr": "Ayrı bir KOBİ programı yok; kamu yararı ve adil iş odaklı ekosoyal ekonomi — daha yüksek eyalet asgari ücreti, mobil çalışma, dört günlük hafta; kamu inovasyon desteği yalnızca kamu yararı ve sürdürülebilirliğe hizmet ederse",
+        "pl": "Brak osobnego programu dla MŚP; ekospołeczna gospodarka wokół dobra wspólnego i fair pracy — wyższa krajowa płaca minimalna, praca mobilna, czterodniowy tydzień; publiczne wsparcie innowacji tylko dla dobra wspólnego i zrównoważenia",
+        "uk": "Окремої програми для малого бізнесу немає; екосоціальна економіка з фокусом на спільне благо і чесну працю — вища земельна мінзарплата, мобільна робота, чотириденка; держпідтримка інновацій лише задля спільного блага і сталості",
+        "ar": "لا برنامج مخصص للمشاريع الصغيرة؛ اقتصاد إيكو-اجتماعي يركز على الصالح العام والعمل العادل — حد أدنى أعلى للأجور، عمل عن بُعد، أسبوع من أربعة أيام؛ تمويل الابتكار العام فقط إذا خدم الصالح العام والاستدامة"
       },
       "sources": [
         {
           "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
-          "section": "Arbeit und Wirtschaft",
           "page": 45,
+          "section": "Wirtschaft",
           "quote": "Die PARTEI MENSCH KLIMA TIERSCHUTZ (Tierschutzpartei) steht für eine ökosoziale Wirtschaft, die Gemeinwohl, Nachhaltigkeit und faire Arbeitsbedingungen in den Mittelpunkt stellt."
+        },
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "page": 45,
+          "section": "Arbeit",
+          "quote": "Wir schaffen faire Löhne, gute Arbeitsbedingungen und zukunftsfähige Arbeitsmodelle. Deshalb heben wir den Landesmindestlohn an, fördern mobiles Arbeiten und die Vier-Tage-Woche."
+        },
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "page": 48,
+          "section": "Innovation",
+          "quote": "Technologien werden durch öffentliche Förderprogramme vorangetrieben, wenn sie dem Gemeinwohl dienen und auf Nachhaltigkeit ausgerichtet sind."
         }
       ]
     },
@@ -17787,32 +17823,32 @@
       "partyId": "oedp",
       "stance": "for",
       "summary": {
-        "en": "Support for regional small businesses, programs for women founders, and companies with a common-good balance sheet; tax benefits for such companies and action against bogus self-employment",
-        "de": "Unterstützung regionaler kleiner Unternehmen, Programme für Gründerinnen und Unternehmen mit Gemeinwohlbilanz; Steuervergünstigungen für solche Unternehmen und Vorgehen gegen Scheinselbstständigkeit; Eine lebenswerte Wirtschaft heißt: nachhaltig, gesund, sozial und regional",
-        "ru": "поддержка регионального малого бизнеса, программ для основательниц и фирм с балансом общего блага; налоговые льготы для таких фирм, борьба с мнимой самозанятостью",
-        "tr": "Bölgesel küçük işletmelere, kadın kurucu programlarına ve kamu yararı bilançosu olan şirketlere destek; bu tür şirketlere vergi avantajları ve sahte serbest çalışmaya karşı önlemler",
-        "pl": "Wsparcie regionalnych małych firm, programów dla założycielek oraz firm z bilansem dobra wspólnego; ulgi podatkowe dla takich firm i działania przeciw pozornemu samozatrudnieniu",
-        "uk": "Підтримка регіонального малого бізнесу, програми для жінок-засновниць, і компаній із загальним добробутом; податкові пільги для таких компаній і дії проти фіктивної самозайнятості",
-        "ar": "دعم الشركات الصغيرة الإقليمية، وبرامج المؤسسات من النساء، والشركات ذات الميزانية العمومية للصالح العام؛ المزايا الضريبية لهذه الشركات واتخاذ إجراءات ضد العمل الحر الوهمي"
+        "en": "Promote regional and small businesses and women founders; tax advantages (e.g. 50% lower trade-tax multiplier) for firms with a common-good balance sheet; stronger enforcement against bogus self-employment",
+        "de": "Regionale und kleine Betriebe sowie Gründerinnen fördern; Steuervorteile (z. B. 50 % niedrigerer Gewerbesteuer-Hebesatz) für Unternehmen mit Gemeinwohlbilanz; Scheinselbstständigkeit konsequenter ahnden",
+        "ru": "Поддержка регионального и малого бизнеса и основательниц; налоговые льготы (напр. на 50% ниже ставка промыслового налога) для фирм с балансом общего блага; жёстче против фиктивной самозанятости",
+        "tr": "Bölgesel ve küçük işletmeler ile kadın kurucuları teşvik; ortak-fayda bilançosu olan firmalara vergi avantajı (ör. %50 düşük ticaret vergisi çarpanı); sahte serbest çalışmaya karşı daha sıkı yaptırım",
+        "pl": "Wspierać regionalne i małe firmy oraz założycielki; ulgi podatkowe (np. o 50% niższy mnożnik podatku od działalności) dla firm z bilansem dobra wspólnego; ostrzej przeciw pozornej samozatrudnieniu",
+        "uk": "Підтримка регіонального й малого бізнесу та засновниць; податкові пільги (напр. на 50% нижчий коефіцієнт промислового податку) для фірм із балансом спільного блага; жорсткіше проти фіктивної самозайнятості",
+        "ar": "تعزيز الأعمال الإقليمية والصغيرة والرائدات؛ ومزايا ضريبية (مثل تخفيض مضاعف ضريبة الحرف 50%) للشركات ذات ميزان الصالح العام؛ وإنفاذ أقوى ضد التوظيف الذاتي الوهمي"
       },
       "sources": [
         {
           "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
-          "section": "Gemeinwohlökonomie für Berlin",
-          "page": 7,
-          "quote": "Eine lebenswerte Wirtschaft heißt: nachhaltig, gesund, sozial und regional. Ewiges Wachstum gibt es nicht; wir müssen uns auf eine Postwachstumsökonomie vorbereiten."
-        },
-        {
-          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
-          "section": "Programm",
           "page": 8,
-          "quote": " Unternehmen, die zusätzlich zur herkömmlichen, ökonomischen Bilanz eine Gemeinwohlbilanz nach GWÖ-Richtlinien aufstellen und dabei Mindestergebnisse erzielen, sollen steuerliche Vorteile - wie z."
+          "section": "Gemeinwohlökonomie",
+          "quote": "Unternehmen, die zusätzlich zur herkömmlichen, ökonomischen Bilanz eine Gemeinwohlbilanz nach GWÖ-Richtlinien aufstellen und dabei Mindestergebnisse erzielen, sollen steuerliche Vorteile - wie z.B. einen um 50% ermäßigten Gewerbesteuer-Hebesatz - genießen."
         },
         {
           "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
-          "section": "Programm",
-          "page": 18,
-          "quote": " Beschaffung und Verwendung von Recyclingprodukten und wiederverwendbaren Materialien in Stadtverwaltungen, städtischen Einrichtungen, stadteigenen Unternehmen und Partnern wo immer dies möglich ist."
+          "page": 8,
+          "section": "Kleine Betriebe",
+          "quote": "Regionale und kleine Betriebe fördern: Ziel der Arbeitsmarktpolitik bleibt es, die Arbeitsplätze in Berlin dauerhaft zu sichern. Ziel ist ein möglichst hoher Anteil von unbefristeten, sozialversicherungspflichtigen Arbeitsplätzen. Forderung nach einer Ausweitung der Existenzgründerprogramme und speziell Beratungsangebote für die Förderung von Existenzgründungen von Frauen."
+        },
+        {
+          "url": "https://www.oedp-berlin.de/fileadmin/user_upload/01-instanzen/02/030-Programm/Landesprogramm-Berlin.pdf",
+          "page": 8,
+          "section": "Scheinselbständigkeit",
+          "quote": "Die gültigen Gesetze zur Stärkung von sozialversicherungspflichtigen Beschäftigungsverhältnissen und Vermeidung von Scheinselbständigkeit sind verstärkt durchzusetzen."
         }
       ]
     },
@@ -17821,26 +17857,26 @@
       "partyId": "cdu",
       "stance": "mixed",
       "summary": {
-        "en": "first-home Grunderwerbsteuer relief (partial waiver up to €300k / purchases ≤ €800k); Grundsteuer C on build-ready vacant plots — not an across-the-board increase in transfer tax",
-        "de": "Grunderwerbsteuer-Erlass/-Senkung beim Ersterwerb zur Selbstnutzung (bis 300.000 € / Käufe bis 800.000 €); Grundsteuer C auf baureife Grundstücke — keine pauschale Erhöhung der Grunderwerbsteuer",
-        "ru": "льгота по Grunderwerbsteuer при первой покупке (частично до 300 000 € / сделки ≤ 800 000 €); Grundsteuer C на готовые участки — не общее повышение налога на покупку",
-        "tr": "ilk konut Grunderwerbsteuer indirimi (kısmi, 300.000 € / ≤800.000 € alımlar); imara hazır arsalarda Grundsteuer C — genel transfer vergisi artışı değil",
-        "pl": "ulga w Grunderwerbsteuer przy pierwszym zakupie (częściowo do 300 000 € / zakupy ≤ 800 000 €); Grundsteuer C na działki budowlane — nie ogólna podwyżka podatku od nabycia",
-        "uk": "пільга з Grunderwerbsteuer при першій купівлі (частково до 300 000 € / угоди ≤ 800 000 €); Grundsteuer C на будівельні ділянки — не загальне підвищення податку на придбання",
-        "ar": "إعانة Grunderwerbsteuer للمنزل الأول (تنازل جزئي يصل إلى 300 ألف يورو / مشتريات ≥ 800 ألف يورو)؛ Grundsteuer C على قطع الأراضي الشاغرة الجاهزة للبناء - وليس زيادة شاملة في ضريبة النقل"
+        "en": "Partial Grunderwerbsteuer waiver on first owner-occupied purchase (up to €300k share / purchases ≤ €800k); introduce Grundsteuer C on build-ready vacant plots; crack down on transfer-tax avoidance — not a blanket rise in transfer tax",
+        "de": "Teilweiser Erlass der Grunderwerbsteuer beim erstmaligen Erwerb zur Selbstnutzung (bis 300.000 € Anteil / Käufe bis 800.000 €); Einführung der Grundsteuer C auf baureife brachliegende Grundstücke; Umgehungsmodelle unterbinden — keine pauschale Erhöhung der Grunderwerbsteuer",
+        "ru": "Частичный отказ от Grunderwerbsteuer при первой покупке для собственного жилья (доля до 300 тыс. € / сделки ≤ 800 тыс. €); Grundsteuer C на готовые к застройке пустые участки; борьба с обходом налога — не общее повышение налога на покупку",
+        "tr": "İlk kendi kullanım amaçlı alımda kısmi Grunderwerbsteuer muafiyeti (300.000 €’ya kadar pay / ≤ 800.000 € alımlar); imara hazır boş arsalarda Grundsteuer C; vergi kaçınma modellerine karşı önlem — genel transfer vergisi artışı değil",
+        "pl": "Częściowe zwolnienie z Grunderwerbsteuer przy pierwszym nabyciu na własne cele (do 300 tys. € udziału / transakcje ≤ 800 tys. €); Grundsteuer C na działki gotowe pod zabudowę; walka z obchodzeniem podatku — nie ogólna podwyżka podatku od nabycia",
+        "uk": "Часткова відмова від Grunderwerbsteuer при першій купівлі для власного житла (частка до 300 тис. € / угоди ≤ 800 тис. €); Grundsteuer C на готові до забудови порожні ділянки; проти обходу податку — не загальне підвищення податку на придбання",
+        "ar": "إعفاء جزئي من ضريبة نقل الملكية عند أول شراء للسكن الذاتي (حصة حتى 300 ألف يورو / مشتريات ≤ 800 ألف)؛ وGrundsteuer C على القطع الجاهزة للبناء؛ ومكافحة التهرب — وليس رفعاً شاملاً لضريبة النقل"
       },
       "sources": [
         {
           "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
-          "section": "Berlin wird größer",
           "page": 33,
-          "quote": "Wir setzen uns dafür ein, die Grunderwerbsteuer beim erstmaligen Erwerb von selbstgenutztem Wohneigentum deutlich zu reduzieren."
+          "section": "Grunderwerbsteuer",
+          "quote": "Wir setzen uns dafür ein, die Grunderwerbsteuer beim erstmaligen Erwerb von selbstgenutztem Wohneigentum deutlich zu reduzieren. Bis zu einem Kaufpreisanteil von 300.000 Euro soll sie bei Immobilienkäufen bis 800.000 Euro erlassen werden."
         },
         {
           "url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf",
-          "section": "Berlin wird größer",
           "page": 35,
-          "quote": "Grundsteuer C aus, mit der nur baureife Grundstücke besonders hoch belastet werden. Modelle zur Umgehung der Grunderwerbsteuer sowie zur Verschleierung von Gewinnen werden wir wirksam unterbinden."
+          "section": "Grundsteuer C",
+          "quote": "Um diese Anreize zukünftig noch gezielter setzen zu können, sprechen wir uns außerdem für die Einführung einer Grundsteuer C aus, mit der nur baureife Grundstücke besonders hoch belastet werden. Modelle zur Umgehung der Grunderwerbsteuer sowie zur Verschleierung von Gewinnen werden wir wirksam unterbinden."
         }
       ]
     },
@@ -17889,38 +17925,38 @@
       "partyId": "gruene",
       "stance": "mixed",
       "summary": {
-        "en": "Grundsteuer C against land speculation; raise and socially stagger Grunderwerbsteuer; Einwegverpackungssteuer; fight tax evasion as organized crime and staff Finanzämter; federal push for wealth and inheritance-tax reform",
-        "de": "Grunderwerbssteuer anheben und sozial staffeln; Einwegverpackungssteuer; Steuerhinterziehung als organisierte Kriminalität bekämpfen und Finanzämter personell stärken; bundesweit Vermögen- und Erbschaftsteuer reformieren; Wir führen eine Steuer auf Einwegverpackungen, -geschirr und -besteck ein, die den Umstieg auf Mehrweg fördert",
-        "ru": "Grundsteuer C против спекуляции землёй; повысить и социально дифференцировать Grunderwerbsteuer; налог на одноразовую упаковку; борьба с уклонением как с оргпреступностью и кадры Finanzämter; федерально — налог на богатство и наследство",
-        "tr": "arazi spekülasyonuna karşı Grundsteuer C; Grunderwerbsteuer’i yükseltip sosyal kademelendirmek; Einwegverpackungssteuer; vergi kaçakçılığını örgütlü suç olarak mücadele ve Finanzämter kadrosu; federal servet ve miras vergisi reformu",
-        "pl": "Grundsteuer C przeciw spekulacji gruntami; podnieść i społecznie zróżnicować Grunderwerbsteuer; Einwegverpackungssteuer; walka z unikaniem podatków jako przestępczością zorganizowaną i kadry Finanzämter; federalnie reforma podatku od majątku i spadków",
-        "uk": "Grundsteuer C проти спекуляції землею; підвищити й соціально диференціювати Grunderwerbsteuer; податок на одноразову упаковку; боротьба з ухиленням як з оргзлочинністю і кадри Finanzämter; федерально — податок на багатство і спадщину",
-        "ar": "Grundsteuer C ضد المضاربة على الأراضي؛ رفع وترنح Grunderwerbsteuer اجتماعيًا ؛ Einwegverpackungssteuer; مكافحة التهرب الضريبي مثل الجريمة المنظمة والموظفين Finanzämter؛ الدفع الفيدرالي لإصلاح ضريبة الثروة والميراث"
+        "en": "Raise and socially stagger Grunderwerbsteuer; disposable-packaging tax; fight tax evasion as organized crime; federal push for wealth and inheritance-tax reform",
+        "de": "Grunderwerbssteuer anheben und sozial staffeln; Steuer auf Einwegverpackungen; Steuerhinterziehung als organisierte Kriminalität bekämpfen; bundesweit Vermögen- und Erbschaftsteuer reformieren",
+        "ru": "Поднять и социально градуировать Grunderwerbssteuer; налог на одноразовую упаковку; бороться с уклонением как с оргпреступностью; на федеральном уровне — налог на богатство и наследство",
+        "tr": "Grunderwerbssteuer’i yükseltip sosyal kademelendirmek; tek kullanımlık ambalaj vergisi; vergi kaçakçılığını örgütlü suç olarak mücadele; federal servet ve miras vergisi reformu",
+        "pl": "Podnieść i społecznie stopniować Grunderwerbssteuer; podatek od opakowań jednorazowych; walka z unikaniem podatków jako przestępczością zorganizowaną; federalna reforma podatku od majątku i spadków",
+        "uk": "Підняти й соціально градуювати Grunderwerbssteuer; податок на одноразове паковання; боротися з ухиленням як з оргзлочинністю; федерально — податок на багатство і спадщину",
+        "ar": "رفع وضريبة نقل الملكية بشكل متدرج اجتماعياً؛ ضريبة على التعبئة أحادية الاستخدام؛ مكافحة التهرب كجريمة منظمة؛ ودفع اتحادي لإصلاح ضريبتي الثروة والميراث"
       },
       "sources": [
         {
           "url": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
-          "section": "1.4 Lebendige Umwelt",
           "page": 28,
+          "section": "Einwegsteuer",
           "quote": "Wir führen eine Steuer auf Einwegverpackungen, -geschirr und -besteck ein, die den Umstieg auf Mehrweg fördert."
         },
         {
           "url": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
-          "section": "3.7 Starke Finanzen",
-          "page": 124,
-          "quote": "Wir werden uns auf Bundesebene für die Wiedereinführung einer Vermögensteuer für die Superreichen und eine Reform der Erbschaftssteuer einsetzen, die bisherige Ausnahmen für die wirklich großen Vermögen abschafft."
-        },
-        {
-          "url": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
-          "section": "Finanzen",
           "page": 52,
+          "section": "Grunderwerbssteuer",
           "quote": "Außerdem wollen wir die Grunderwerbssteuer nicht nur auf das Niveau von Brandenburg anheben, sondern klar sozial staffeln: Menschen, die in den eigenen vier Wänden leben wollen, zahlen weniger. Große Unternehmen sollen dafür mehr bezahlen, insbesondere auch beim Kauf von Immobilienpaketen im Rahmen von Share Deals."
         },
         {
           "url": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
-          "section": "Programm",
           "page": 124,
-          "quote": "STEUERHINTERZIEHUNG BEKÄMPFEN UND STEUERLÜCKEN SCHLIESSENSteuerhinterziehung ist nicht nur ein individuelles Fehlverhalten, sondern vielfach Ausdruck organisierter und professionell strukturierter Kriminalität."
+          "section": "Vermögensteuer",
+          "quote": "Wir werden uns auf Bundesebene für die Wiedereinführung einer Vermögensteuer für die Superreichen und eine Reform der Erbschaftssteuer einsetzen, die bisherige Ausnahmen für die wirklich großen Vermögen abschafft."
+        },
+        {
+          "url": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf",
+          "page": 124,
+          "section": "Steuerhinterziehung",
+          "quote": "Steuerhinterziehung ist nicht nur ein individuelles Fehlverhalten, sondern vielfach Ausdruck organisierter und professionell strukturierter Kriminalität."
         }
       ]
     },
@@ -17929,38 +17965,38 @@
       "partyId": "linke",
       "stance": "mixed",
       "summary": {
-        "en": "Up to €2 billion per year for housing and Sondervermögen Bildung; a tax on luxury villas, reform and eventual abolition of the “debt brake,” and a unified authority against financial crime together with the tax investigation service",
-        "de": "Bis zu 2 Mrd. € jährlich für Wohnen und das Sondervermögen Bildung; Steuer auf Luxusvillen, Reform und perspektivische Abschaffung der „Schuldenbremse“ und eine einheitliche Behörde gegen Finanzkriminalität gemeinsam mit der Steuerfahndung; Luxusvillensteuer einführen, bei den Millionär*innen dieser Stadt werden endlich genaue Steuerprüfungen durchgeführt und Steuergeschenke für die obere; Neben der Entwicklung einer Strategie werden wir auf die Etablierung eines institutionalisierten Behördenaustausches, etwa durch einen jährlichen Behö",
-        "ru": "до €2 млрд в год на жильё и Sondervermögen Bildung (специальный фонд образования); налог на люксовые виллы, реформа и перспектива отмены «долгового тормоза» и единый орган против финансовых преступлений вместе с налоговой полицией",
-        "tr": "konut ve Sondervermögen Bildung (özel eğitim fonu) için yılda 2 milyar €’ya kadar; lüks villalara vergi, “borç freni”nin reformu ve nihai kaldırılması, vergi soruşturma servisiyle birlikte finansal suçlara karşı birleşik makam",
-        "pl": "do 2 mld € rocznie na mieszkalnictwo i Sondervermögen Bildung (specjalny fundusz edukacji); podatek od luksusowych willi, reforma i docelowe zniesienie „hamulca długu” oraz jednolity organ przeciw przestępczości finansowej wraz ze służbą śledztw podatkowych",
-        "uk": "до €2 млрд на рік на житло та Sondervermögen Bildung (спеціальний фонд освіти); податок на люксові вілли, реформа та перспектива скасування «боргового гальма» й єдиний орган проти фінансових злочинів разом із податковою поліцією",
-        "ar": "ما يصل إلى 2 مليار يورو سنويًا للإسكان وSondervermögen Bildung؛ ضريبة على الفيلات الفاخرة، وإصلاح وإلغاء \"مكابح الديون\" في نهاية المطاف، وإنشاء هيئة موحدة لمكافحة الجرائم المالية إلى جانب خدمة التحقيق الضريبي"
+        "en": "Luxury-villa tax and stricter audits of the wealthy; raise Grunderwerbsteuer to 8% (at least Brandenburg’s 6.5%) with room to differentiate; reform and abolish the debt brake; build a Kompetenzzentrum against financial crime including tax investigation",
+        "de": "Luxusvillensteuer und strengere Prüfungen bei Vermögenden; Grunderwerbsteuer auf 8 % anheben (mindestens Brandenburger 6,5 %) mit Spielraum zur Differenzierung; Schuldenbremse reformieren und abschaffen; Kompetenzzentrum gegen Finanzkriminalität inkl. Steuerfahndung",
+        "ru": "Налог на люкс-виллы и жёстче проверки богатых; поднять Grunderwerbsteuer до 8% (не ниже 6,5% Бранденбурга) с дифференциацией; реформировать и отменить долговой тормоз; Kompetenzzentrum против финпреступлений включая налоговую полицию",
+        "tr": "Lüks villa vergisi ve varlıklılara daha sıkı denetim; Grunderwerbsteuer’i %8’e (en az Brandenburg %6,5) yükseltmek ve ayrım payı; borç frenini reform/ilga; vergi soruşturması dahil mali suç Kompetenzzentrum’u",
+        "pl": "Podatek od luksusowych willi i ostrzejsze kontrole bogatych; podnieść Grunderwerbsteuer do 8% (co najmniej 6,5% Brandenburgii) z możliwością różnicowania; reformować i znieść hamulec długu; Kompetenzzentrum przeciw przestępczości finansowej w tym śledztwo podatkowe",
+        "uk": "Податок на люкс-вілли та жорсткіші перевірки заможних; підняти Grunderwerbsteuer до 8% (щонайменше 6,5% Бранденбурга) з диференціацією; реформувати й скасувати боргове гальмо; Kompetenzzentrum проти фінзлочинів включно з податковою поліцією",
+        "ar": "ضريبة على الفيلات الفاخرة وتدقيق أشد للأثرياء؛ رفع ضريبة نقل الملكية إلى 8% (على الأقل 6.5% براندنبورغ) مع هامش تمييز؛ إصلاح وإلغاء كابح الدين؛ ومركز كفاءة ضد الجرائم المالية يشمل التحقيق الضريبي"
       },
       "sources": [
         {
           "url": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf",
           "page": 11,
-          "quote": "Luxusvillensteuer einführen, bei den Millionär*innen dieser Stadt werden endlich genaue Steuerprüfungen durchgeführt und Steuergeschenke für die oberen 5 Prozent werden eingestampft.",
-          "section": "Luxusvillensteuer"
+          "section": "Luxusvillensteuer",
+          "quote": "Deswegen wollen wir eine Luxusvillensteuer einführen, bei den Millionär*innen dieser Stadt werden endlich genaue Steuerprüfungen durchgeführt und Steuergeschenke für die oberen 5 Prozent werden eingestampft."
         },
         {
           "url": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf",
-          "page": 73,
-          "quote": "Schuldenbremse bleibt ein Hindernis für öffentliche Investitionen.",
-          "section": "Schuldenbremse"
+          "page": 79,
+          "section": "Grunderwerbsteuer",
+          "quote": "Wir fordern eine Steigerung der Grunderwerbsteuer von aktuell 6,0 Prozent auf 8,0 Prozent, mindestens aber auf das Brandenburger Niveau von 6,5 Prozent."
         },
         {
           "url": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf",
-          "section": "Programm",
-          "page": 326,
-          "quote": "Neben der Entwicklung einer Strategie werden wir auf die Etablierung eines institutionalisierten Behördenaustausches, etwa durch einen jährlichen Behördentag gegen extrem rechte Strukturen und Aktivitäten, hinwirken."
+          "page": 76,
+          "section": "Schuldenbremse",
+          "quote": "Die Schuldenbremse erweist sich immer noch als Investitionsbremse. Der Bund hat angekündigt, die Schuldenbremse reformieren zu wollen; wir stehen gerne mit Rat und Tat zur Seite und gemeinsam mit Verbündeten in anderen Ländern und Kommunen kämpfen wir weiter für die vollständige Abschaffung."
         },
         {
           "url": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf",
-          "section": "Programm",
-          "page": 23,
-          "quote": "Mit dem Sicher-Wohnen-Gesetz verpflichten wir große Vermieter dazu, einen Anteil der jährlich frei werdenden Wohnungen an Menschen mit niedrigen und mittleren Einkommen zu vermieten."
+          "page": 80,
+          "section": "Finanzkriminalität",
+          "quote": "Dazu soll ein Kompetenzzentrum aufgebaut werden, das mit Personal mit fachlicher Expertise und operativer Erfahrung besetzt wird, wobei das einzusetzende Personal neben mindestens 20 Staatsanwält*innen im Rahmen einer Schwerpunktstaatsanwaltschaft aus mindestens 60 weiteren abgeordneten Ermittler*innen aus den drei Säulen Polizei, Zoll und Steuerfahndung bestehen soll."
         }
       ]
     },
@@ -18065,32 +18101,32 @@
       "partyId": "volt",
       "stance": "mixed",
       "summary": {
-        "en": "Transparent and predictable fiscal policy: invest only with complete information, tie the budget firmly to the medium-term financial plan, justify any deviations before parliament and publicly, and require counter-financing for spending increases, specifying where savings will be made; understandable budget data as a basis for trust",
-        "de": "Transparente und berechenbare Finanzpolitik: nur bei vollständiger Informationslage investieren, den Haushalt eng an die mittelfristige Finanzplanung binden, Abweichungen vor dem Parlament und öffentlich begründen und bei Ausgabensteigerungen eine Gegenfinanzierung mit Angabe der Einsparungen verlangen; verständliche Haushaltsdaten als Vertrauensgrundlage; Wahlprogramm Berlin 202619BERLIN FUNKTIONIERTJetzt mit Transparenz Vertrauen gewinnenWir veröffentlichen regelmäßig aktualisierte Haushaltszahlen, sod",
-        "ru": "Прозрачная и предсказуемая финансовая политика: инвестировать только при полной информации, бюджет жёстко привязать к среднесрочному финансовому плану, любые отклонения обосновывать перед парламентом и публично, для роста расходов обязательное контрфинансирование с указанием, где экономят; понятные бюджетные данные как основа доверия",
-        "tr": "Şeffaf ve öngörülebilir maliye politikası: yalnızca tam bilgiyle yatırım yapmak, bütçeyi orta vadeli mali plana sıkı bağlamak, sapmaları parlamentoda ve kamuya gerekçelendirmek, harcama artışları için karşı finansman ve nerede tasarruf yapılacağını belirtmek zorunluluğu; güven temeli olarak anlaşılır bütçe verileri",
-        "pl": "Przejrzysta i przewidywalna polityka fiskalna: inwestować tylko przy pełnej informacji, ściśle wiązać budżet z średnioterminowym planem finansowym, uzasadniać wszelkie odstępstwa przed parlamentem i publicznie oraz wymagać kontrfinansowania wzrostów wydatków ze wskazaniem, gdzie będą oszczędności; zrozumiałe dane budżetowe jako podstawa zaufania",
-        "uk": "Прозора та передбачувана фіскальна політика: інвестуйте лише за наявності повної інформації, чітко прив’яжіть бюджет до середньострокового фінансового плану, обґрунтовуйте будь-які відхилення перед парламентом та публічно та вимагайте зустрічного фінансування для збільшення видатків, вказуючи, де будуть зроблені заощадження; зрозумілі бюджетні дані як основа для довіри",
-        "ar": "سياسة مالية شفافة ويمكن التنبؤ بها: الاستثمار فقط بمعلومات كاملة، وربط الميزانية بقوة بالخطة المالية متوسطة الأجل، وتبرير أي انحرافات أمام البرلمان وعلنا، واشتراط التمويل المضاد لزيادة الإنفاق، مع تحديد أين سيتم تحقيق الوفورات؛ بيانات الميزانية المفهومة كأساس للثقة"
+        "en": "Tie the budget firmly to the medium-term financial plan, justify deviations publicly, require counter-financing that names the offsets for spending increases, and publish updated budget figures so tax spending is traceable",
+        "de": "Haushalt eng an die mittelfristige Finanzplanung koppeln, Abweichungen öffentlich begründen, Gegenfinanzierung mit Angabe der Einsparungen bei Ausgabensteigerungen verlangen und aktualisierte Haushaltszahlen veröffentlichen, damit Steuereinsatz nachvollziehbar ist",
+        "ru": "Жёстко связать бюджет со среднесрочным финпланом, публично обосновывать отклонения, требовать контрфинансирование с указанием сокращений при росте расходов и публиковать обновлённые цифры бюджета",
+        "tr": "Bütçeyi orta vadeli finans planına sıkı bağlamak, sapmaları kamuya açıklamak, harcama artışlarında tasarruf yerini gösteren karşı finansman istemek ve güncel bütçe rakamlarını yayımlamak",
+        "pl": "Mocno powiązać budżet z średniookresowym planem finansowym, publicznie uzasadniać odchylenia, wymagać kontrfinansowania ze wskazaniem oszczędności przy wzrostach wydatków i publikować aktualne dane budżetowe",
+        "uk": "Міцно прив’язати бюджет до середньострокового фінплану, публічно обґрунтовувати відхилення, вимагати контрфінансування з зазначенням скорочень при зростанні видатків і публікувати оновлені цифри бюджету",
+        "ar": "ربط الموازنة بإحكام بالخطة المالية متوسطة الأجل، وتبرير الانحرافات علناً، واشتراط تمويل مقابل يحدد مواطن التوفير عند زيادة الإنفاق، ونشر أرقام موازنة محدّثة لتتبع إنفاق الضرائب"
       },
       "sources": [
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
-          "section": "Jetzt mit vorausschauender Planung Sicherheit schaffen",
-          "quote": "Wir machen aus der mittelfristigen Finanzplanung ein stärkeres Lenkungsinstrument, indem wir wichtige Aspekte einer politischen Selbstbindung einführen. Wir koppeln den Haushalt an die mittelfristige Finanzplanung und geben so Bürger*innen, Unternehmen und sozialen Einrichtungen verlässliche Rahmenbedingungen für ihre eigenen Entscheidungen.",
-          "page": 19
+          "page": 19,
+          "section": "Finanzplanung",
+          "quote": "Wir koppeln den Haushalt an die mittelfristige Finanzplanung und geben so Bürger*innen, Unternehmen und sozialen Einrichtungen verlässliche Rahmenbedingungen für ihre eigenen Entscheidungen."
         },
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
-          "section": "Jetzt mit Transparenz Vertrauen gewinnen",
-          "quote": "Wahlprogramm Berlin 202619BERLIN FUNKTIONIERTJetzt mit Transparenz Vertrauen gewinnenWir veröffentlichen regelmäßig aktualisierte Haushaltszahlen, sodass nachvollziehbar ist, wo Steuergelder hinfließen.",
-          "page": 20
+          "page": 19,
+          "section": "Gegenfinanzierung",
+          "quote": "Zudem liefern wir eine Gegenfinanzierung für Ausgabenerhöhungen, die zeigt, wo das Geld an anderer Stelle eingespart wird."
         },
         {
           "url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf",
-          "section": "Programm",
-          "page": 9,
-          "quote": "Dafür braucht es klare Zuständigkeiten, messbare Ziele und eine verständliche digitale Infrastruktur."
+          "page": 20,
+          "section": "Transparenz",
+          "quote": "Wir veröffentlichen regelmäßig aktualisierte Haushaltszahlen, sodass nachvollziehbar ist, wo Steuergelder hinfließen."
         }
       ]
     },
@@ -18099,38 +18135,38 @@
       "partyId": "tierschutz",
       "stance": "mixed",
       "summary": {
-        "en": "A social, climate-friendly, and “animal-friendly” budget: priorities are housing, mobility, education, climate, animal protection, and social infrastructure, with no cuts to the districts’ share; restore Vermögensteuer through the Bundesrat, make Grundsteuer and Grunderwerbsteuer progressive, and stop passing Grundsteuer on to tenants; retain and, if necessary, increase the tourist tax; a climate budget plus a separate “budget for animals,” an independent commission against cost overruns on major projects, a public transparency platform, and a citywide participatory budget",
-        "de": "Ein sozialer, klimagerechter und „tierfreundlicher“ Haushalt: Prioritäten sind Wohnen, Mobilität, Bildung, Klima, Tierschutz und soziale Infrastruktur; Vermögensteuer über den Bundesrat wieder einführen, Grundsteuer und Grunderwerbsteuer progressiv gestalten und die Umlage der Grundsteuer auf Mieter:innen beenden; Übernachtungsteuer beibehalten und bei Bedarf erhöhen; Klimahaushalt plus eigener „Tierschutzhaushalt“, unabhängige Kommission gegen Kostensteigerungen bei Großprojekten, öffentliche Transparenzplattform und gesamtstädtischer Beteiligungshaushalt",
-        "ru": "Бюджет социальный, климатический и «дружественный к животным»: приоритеты — жильё, мобильность, образование, климат, защита животных и социальная инфраструктура, доля районов не урезается; вернуть Vermögensteuer через Бундесрат, Grundsteuer и Grunderwerbsteuer сделать прогрессивными и отменить перекладывание Grundsteuer на аренду, туристический сбор сохранить и при необходимости повысить; климатический бюджет плюс отдельный «бюджет для животных», независимая комиссия против удорожания крупных проектов, публичная платформа прозрачности и общегородской бюджет с участием жителей",
-        "tr": "Sosyal, iklim dostu ve „hayvan dostu“ bütçe: öncelikler konut, mobilite, eğitim, iklim, hayvan koruma ve sosyal altyapı, ilçelerin payında kesinti yok; Bundesrat üzerinden Vermögensteuer’i yeniden getirmek, Grundsteuer ve Grunderwerbsteuer’i artan oranlı yapmak ve Grundsteuer’in kiracılara yansıtılmasını durdurmak; turist vergisini korumak ve gerekirse artırmak; iklim bütçesi artı ayrı bir „hayvanlar için bütçe,“ büyük projelerde maliyet aşımına karşı bağımsız komisyon, kamuya açık şeffaflık platformu ve kent çapında katılımcı bütçe",
-        "pl": "Budżet społeczny, przyjazny klimatowi i „przyjazny zwierzętom”: priorytety to mieszkalnictwo, mobilność, edukacja, klimat, ochrona zwierząt i infrastruktura społeczna, bez cięć udziału dzielnic; przywrócenie Vermögensteuer przez Bundesrat, progresywna Grundsteuer i Grunderwerbsteuer oraz zaprzestanie przerzucania Grundsteuer na najemców; utrzymanie i w razie potrzeby podwyższenie podatku turystycznego; budżet klimatyczny plus osobny „budżet dla zwierząt”, niezależna komisja przeciw przekroczeniom kosztów dużych projektów, publiczna platforma transparentności oraz ogólnomiejski budżet partycypacyjny",
-        "uk": "Соціальний, кліматичний та «дружній до тварин» бюджет: пріоритети – житло, мобільність, освіта, клімат, захист тварин та соціальна інфраструктура, без скорочення частки районів; відновити Vermögensteuer через Бундесрат, зробити Grundsteuer і Grunderwerbsteuer прогресивними і припинити передавати Grundsteuer орендарям; зберегти та при необхідності збільшити туристичний збір; кліматичний бюджет плюс окремий «бюджет для тварин», незалежна комісія проти перевищення витрат на великі проекти, публічна платформа прозорості та загальноміський бюджет участі",
-        "ar": "ميزانية اجتماعية وصديقة للمناخ و\"صديقة للحيوان\": الأولويات هي الإسكان، والتنقل، والتعليم، والمناخ، وحماية الحيوان، والبنية التحتية الاجتماعية، مع عدم تخفيض حصة المناطق؛ استعادة Vermögensteuer من خلال Bundesrat، وجعل Grundsteuer وGrunderwerbsteuer تقدميين، والتوقف عن تمرير Grundsteuer إلى المستأجرين؛ الاحتفاظ بضريبة السياحة وزيادتها إذا لزم الأمر؛ ميزانية مناخية بالإضافة إلى \"ميزانية منفصلة للحيوانات\"، ولجنة مستقلة ضد تجاوز التكاليف في المشاريع الكبرى، ومنصة للشفافية العامة، وميزانية تشاركية على مستوى المدينة"
+        "en": "Restore Vermögensteuer; make Grundsteuer and Grunderwerbsteuer progressive and end passing Grundsteuer on to tenants; keep and, if needed, raise the tourist tax; independent commission against cost overruns on major projects",
+        "de": "Vermögensteuer wieder einführen; Grundsteuer und Grunderwerbsteuer progressiv gestalten und Umlage der Grundsteuer auf Mieter:innen beenden; Tourismusabgabe beibehalten und bei Bedarf erhöhen; unabhängige Kommission gegen Kostenexplosionen bei Großprojekten",
+        "ru": "Вернуть Vermögensteuer; сделать Grundsteuer и Grunderwerbsteuer прогрессивными и прекратить перекладывание Grundsteuer на арендаторов; сохранить и при необходимости повысить турсбор; независимая комиссия против перерасходов на крупных проектах",
+        "tr": "Vermögensteuer’i geri getirmek; Grundsteuer ve Grunderwerbsteuer’i ilerici yapmak ve Grundsteuer’i kiracılara yansıtmayı bitirmek; turizm vergisini tutup gerekirse artırmak; büyük projelerde maliyet patlamasına karşı bağımsız komisyon",
+        "pl": "Przywrócić Vermögensteuer; uczynić Grundsteuer i Grunderwerbsteuer progresywnymi i zakończyć przerzucanie Grundsteuer na najemców; utrzymać i w razie potrzeby podnieść opłatę turystyczną; niezależna komisja przeciw przekroczeniom kosztów dużych projektów",
+        "uk": "Повернути Vermögensteuer; зробити Grundsteuer і Grunderwerbsteuer прогресивними та припинити перекладання Grundsteuer на орендарів; зберегти й за потреби підвищити турзбір; незалежна комісія проти перевитрат на великих проєктах",
+        "ar": "إعادة ضريبة الثروة؛ وجعل ضريبتي الأرض ونقل الملكية تصاعديتين وإنهاء تحميل ضريبة الأرض على المستأجرين؛ والإبقاء على ضريبة السياحة ورفعها عند الحاجة؛ ولجنة مستقلة ضد تجاوزات تكاليف المشاريع الكبرى"
       },
       "sources": [
         {
           "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
-          "section": "Haushalt und Finanzen",
           "page": 48,
-          "quote": "Vermögensteuer einsetzen. Grundsteuer und Grunderwerbsteuer entwickeln wir progressiv weiter. 9."
+          "section": "Steuern",
+          "quote": "Damit Projekte sozial gerecht finanzierbar sind, werden wir uns für die Wiedereinführung der Vermögensteuer einsetzen. Grundsteuer und Grunderwerbsteuer entwickeln wir progressiv weiter."
         },
         {
           "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
-          "section": "Programm",
-          "page": 94,
-          "quote": "Dazu gehört das Verbot der Einzelhaltung sozialer Tierarten."
-        },
-        {
-          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
-          "section": "Programm",
           "page": 49,
-          "quote": "Tourismusabgabe beibehalten und bedarfsgerecht anpassenDie Berliner Tourismusabgabe werden wir weiterhin beibehalten und bei Bedarf behutsam erhöhen."
+          "section": "Grundsteuer",
+          "quote": "Die Umlagefähigkeit der Grundsteuer in den Nebenkosten wird gestrichen, um Mieter:innen zu entlasten."
         },
         {
           "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
-          "section": "Programm",
           "page": 49,
-          "quote": "Unabhängige Kommission gegen Kostenexplosionen bei Großprojekten einsetzenEine Expert:innenkommission wird eingesetzt, um verbindlich festzulegen, wie Kostenexplosionen bei Groß- und Infrastrukturprojekten künftig verhindert werden können."
+          "section": "Tourismusabgabe",
+          "quote": "Die Berliner Tourismusabgabe werden wir weiterhin beibehalten und bei Bedarf behutsam erhöhen."
+        },
+        {
+          "url": "https://berlin.tierschutzpartei.de/wahlprogramm-berlin-2026.pdf",
+          "page": 49,
+          "section": "Großprojekte",
+          "quote": "Eine Expert:innenkommission wird eingesetzt, um verbindlich festzulegen, wie Kostenexplosionen bei Groß- und Infrastrukturprojekten künftig verhindert werden können."
         }
       ]
     },

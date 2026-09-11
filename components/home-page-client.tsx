@@ -8,20 +8,16 @@ import { SiteFooter } from "@/components/site-footer"
 import { FeedbackFab } from "@/components/feedback-fab"
 import { SiteHeader } from "@/components/site-header"
 import type { ResolvedComparison } from "@/lib/comparison/types"
-import { useLanguage } from "@/components/language-provider"
 
 export function HomePageClient({
-  comparisonByLang,
+  comparison,
   hero,
 }: {
-  comparisonByLang: Record<string, ResolvedComparison>
+  comparison: ResolvedComparison
   hero: ReactNode
 }) {
-  const { language } = useLanguage()
-  const comparison = comparisonByLang[language] ?? comparisonByLang.en
-
   return (
-    <div className="lang-fade min-h-screen bg-background" key={language}>
+    <div className="lang-fade min-h-screen bg-background">
       <SectionScrollSnap />
       <SiteHeader />
       <main>
