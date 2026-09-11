@@ -48,7 +48,16 @@ HEADER_PATTERNS = [
     re.compile(r"\b\d+\s+WAHLPROGRAMM\s+BERLIN\s+2026\b", re.I),
     re.compile(r"\bWAHLPROGRAMM\s+BERLIN\s+2026\b", re.I),
     re.compile(r"\bPARTEI\s+MENSCH\s+KLIMA\s+TIERSCHUTZ\s*//\s*TIERSCHUTZPARTEI\b", re.I),
+    re.compile(
+        r"\b\d+\s+ÖDP\s+Berlin\s+Landespolitisches\s+Programm\s+Stand\s+[\d-]+\b",
+        re.I,
+    ),
+    re.compile(r"\b\d+\s+WIRTSCHAFT\s*&\s*SOZIALES\b", re.I),
+    re.compile(r"\bWIRTSCHAFT\s*&\s*SOZIALES\b", re.I),
+    # Page number interrupting a hyphenated line break (e.g. "Mas- 49 sen-")
+    re.compile(r"(?<=[A-Za-zÄÖÜäöüß]-)\s*\d{1,3}\s+(?=[A-Za-zÄÖÜäöüß])"),
     re.compile(r"\bRegierungsprogramm\s+2026-2030\b", re.I),
+    re.compile(r"\bRegierungsprogramm\s+2026-2031\b", re.I),
     # Lone printed page number between sentences (e.g. "des § 23 250 BauGB")
     re.compile(r"(?<=\s)\d{1,3}(?=\s+\d{2,3}\s)", re.I),
 ]
