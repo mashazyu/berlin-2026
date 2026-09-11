@@ -29,8 +29,9 @@
     "tagline": "Stanowiska partii obok siebie"
   },
   "navigation": {
-    "motivation": "Motywacja",
     "comparison": "Porównanie",
+    "media": "Media",
+    "motivation": "Motywacja",
     "privacy": "Prywatność"
   },
   "hero": {
@@ -53,9 +54,27 @@
     "whatWeDidBody": "Porównaliśmy stanowiska 10 berlińskich partii w kluczowych punktach dotyczących transportu, mieszkalnictwa, klimatu i energii, bezpieczeństwa, edukacji, zdrowia, migracji, gospodarki i demokracji — i przełożyliśmy ich programy na jedną tabelę porównawczą.",
     "beforeYouVoteTitle": "Zanim oddasz głos",
     "beforeYouVoteBody": "Tabela powstała z pomocą AI; zalecamy ponowne sprawdzenie punktów, które są dla Ciebie ważne. Pełne tłumaczenia programów głównych partii są na [BerlinVote.Help](https://www.berlinvote.help/).",
-    "furtherReadingIntro": "Przydatne mogą być też:",
-    "furtherReadingBody": "- [Wahl-O-Mat Berlin 2026](https://www.wahl-o-mat.de/berlin2026/app/main_app.html)\n- [Wikipedia: wybory landowe w Berlinie 2026](https://en.wikipedia.org/wiki/2026_Berlin_state_election)\n- [RBB: FAQ wyborów w Berlinie 2026 (po angielsku)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: wybory w łatwym języku (Leichte Sprache)](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Berlińskie Centrum Edukacji Politycznej: broszura Wybory 2026 (PDF)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
+    "toolsIntro": "Pomoce wyborcze i inne narzędzia porównawcze:",
+    "toolsBody": "- [Wahl-O-Mat Berlin 2026](https://www.wahl-o-mat.de/berlin2026/app/main_app.html)\n- [Kandidierendencheck](https://www.kandidierendencheck.de/auswahl)\n- [Party-Check Berlin](https://tool.party-check.org/index.php/berlin?lang=en)",
+    "backgroundIntro": "Tło i kontekst:",
+    "backgroundBody": "- [Wikipedia: wybory landowe w Berlinie 2026](https://en.wikipedia.org/wiki/2026_Berlin_state_election)\n- [RBB: FAQ wyborów w Berlinie 2026 (po angielsku)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: wybory w łatwym języku (Leichte Sprache)](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Berlińskie Centrum Edukacji Politycznej: broszura Wybory 2026 (PDF)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
   },
+  "press": {
+    "title": "W mediach",
+    "subtitle": "Nasz projekt pojawił się w następujących berlińskich mediach."
+  },
+  "pressMentionSummaries": [
+    {
+      "id": "bundeskanzler",
+      "channel": "Bundeskanzler",
+      "summary": "W tekście o sondażach przed wyborami w Berlinie wspomniano, że lokalne programy partii można porównać po rosyjsku na berlin-2026.de."
+    },
+    {
+      "id": "berlinwelle",
+      "channel": "Volna / Berlin",
+      "summary": "Twórczynie Water for All uruchomiły przed wrześniowymi wyborami berlin-2026.de — porównanie stanowisk dziesięciu partii z oficjalnych programów, w kilku językach, w tym angielskim i rosyjskim."
+    }
+  ],
   "footer": {
     "aiNotice": "Teksty i tabela porównawcza na tej stronie powstały z pomocą AI.",
     "aiDisclosure": "Informacja o AI",
@@ -97,7 +116,7 @@
     "title": "O projekcie",
     "body": "Berlin 2026 to niezależny projekt porównujący programy partii w różnych obszarach polityki przed wyborami landowymi w Berlinie 2026. Oficjalne programy ukazują się tylko po niemiecku — tłumaczymy je na języki używane w Berlinie.\n\nNina porównuje programy i rozwija projekt; Masha odpowiada za stronę techniczną. Równolegle pracujemy nad [Water for All / Wasser für alle](https://www.water4all.com.de) — otwartym atlasem darmowej wody pitnej w Berlinie. Projekt uwidacznia dostęp do wody i pomaga mieszkańcom zabiegać o nowe pitniki.",
     "contributeTitle": "Jak możesz pomóc",
-    "contributeBody": "Jeśli chcesz wesprzeć projekt, najlepiej przekazać go dalej: podziel się nim z osobami, którym może się przydać.\n\nA jeśli zauważysz na stronie błąd — niedokładne sformułowanie lub błąd merytoryczny — daj nam znać, żebyśmy mogli to poprawić. Zaznacz fragment na stronie, by otworzyć zgłoszenie, albo napisz przez Kontakt."
+    "contributeBody": "Jeśli chcesz wesprzeć projekt, najlepiej przekazać go dalej: podziel się nim z osobami, którym może się przydać.\n\nMożesz też wydrukować naszą ulotkę (po niemiecku, angielsku, turecku, polsku, rosyjsku, ukraińsku i arabsku) i powiesić ją tam, gdzie zobaczą ją ludzie w Berlinie — w kawiarniach, na tablicach ogłoszeń, w miejscach społecznościowych. [Pobierz PDF](/flyers/berlin-2026-flyer.pdf).\n\nA jeśli zauważysz na stronie błąd — niedokładne sformułowanie lub błąd merytoryczny — daj nam znać, żebyśmy mogli to poprawić. Zaznacz fragment na stronie, by otworzyć zgłoszenie, albo napisz przez Kontakt.\n\nMożesz też samodzielnie poprawić tłumaczenia — otwórz pull request ze zmianami albo dodaj lub edytuj pliki lokalizacji bezpośrednio w naszym [repozytorium na GitHubie](https://github.com/mashazyu/berlin-2026)."
   },
   "aiDisclosure": {
     "title": "Informacja o AI",

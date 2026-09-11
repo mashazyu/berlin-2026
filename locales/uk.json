@@ -28,8 +28,9 @@
     "tagline": "Позиції партій поруч"
   },
   "navigation": {
-    "motivation": "Мотивація",
     "comparison": "Порівняння",
+    "media": "У ЗМІ",
+    "motivation": "Мотивація",
     "privacy": "Захист даних"
   },
   "hero": {
@@ -52,9 +53,27 @@
     "whatWeDidBody": "Ми порівняли позиції 10 берлінських партій за ключовими темами: транспорт, житло, клімат і енергія, безпека, освіта, охорона здоров’я, міграція, економіка та демократія — і звели програми в одну порівняльну таблицю.",
     "beforeYouVoteTitle": "Перед голосуванням",
     "beforeYouVoteBody": "Таблицю зроблено за допомогою ШІ; пункти, що важливі саме вам, краще перевірити ще раз. Повні переклади програм основних партій — на [BerlinVote.Help](https://www.berlinvote.help/).",
-    "furtherReadingIntro": "Також може стати в пригоді таке:",
-    "furtherReadingBody": "- [Wahl-O-Mat Берлін 2026](https://www.wahl-o-mat.de/berlin2026/app/main_app.html)\n- [Вікіпедія: земельні вибори в Берліні 2026](https://en.wikipedia.org/wiki/2026_Berlin_state_election)\n- [RBB: FAQ про вибори в Берліні 2026 (англійською)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: вибори простою мовою (Leichte Sprache)](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Брошура про вибори 2026 земельного центру політичної освіти Берліна (PDF, EN)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
+    "toolsIntro": "Допомога у виборі та інші інструменти порівняння:",
+    "toolsBody": "- [Wahl-O-Mat Берлін 2026](https://www.wahl-o-mat.de/berlin2026/app/main_app.html)\n- [Kandidierendencheck](https://www.kandidierendencheck.de/auswahl)\n- [Party-Check Berlin](https://tool.party-check.org/index.php/berlin?lang=en)",
+    "backgroundIntro": "Довідка та контекст:",
+    "backgroundBody": "- [Вікіпедія: земельні вибори в Берліні 2026](https://en.wikipedia.org/wiki/2026_Berlin_state_election)\n- [RBB: FAQ про вибори в Берліні 2026 (англійською)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: вибори простою мовою (Leichte Sprache)](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Брошура про вибори 2026 земельного центру політичної освіти Берліна (PDF, EN)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
   },
+  "press": {
+    "title": "У ЗМІ",
+    "subtitle": "Про наш проєкт згадували в таких берлінських медіа."
+  },
+  "pressMentionSummaries": [
+    {
+      "id": "bundeskanzler",
+      "channel": "Bundeskanzler",
+      "summary": "У матеріалі про передвиборчі опитування в Берліні зазначають: місцеві програми партій можна порівняти російською на berlin-2026.de."
+    },
+    {
+      "id": "berlinwelle",
+      "channel": "Volna / Berlin",
+      "summary": "Створювачки проєкту Water for All запустили до вересневих виборів сайт berlin-2026.de — порівняння позицій десяти партій з офіційних програм кількома мовами, зокрема англійською та російською."
+    }
+  ],
   "footer": {
     "aiNotice": "Тексти й порівняльну таблицю на цьому сайті створено за допомогою ШІ.",
     "aiDisclosure": "Про використання ШІ",
@@ -96,7 +115,7 @@
     "title": "Про проєкт",
     "body": "Berlin 2026 — незалежний проєкт порівняння програм партій за різними напрямами політики перед земельними виборами в Берліні 2026. Офіційні програми публікують лише німецькою — ми перекладаємо їх мовами, якими говорять у Берліні.\n\nНіна порівнює програми й розвиває проєкт, Маша відповідає за технічну частину. Паралельно ми працюємо над [Water for All / Wasser für alle](https://www.water4all.com.de) — відкритим атласом безкоштовної питної води в Берліні. Проєкт робить доступ до води видимим і допомагає мешканцям добиватися нових питних фонтанчиків.",
     "contributeTitle": "Як допомогти",
-    "contributeBody": "Якщо хочете підтримати проєкт, найкорисніше — розповісти про нього іншим: поділитися з тими, кому це може стати в пригоді.\n\nА якщо помітите на сайті помилку — неточне формулювання чи фактичну неточність — напишіть нам, ми виправимо. Виділіть фрагмент на сторінці, щоб відкрити форму повідомлення, або зв’яжіться через «Контакт»."
+    "contributeBody": "Якщо хочете підтримати проєкт, найкорисніше — розповісти про нього іншим: поділитися з тими, кому це може стати в пригоді.\n\nМожна також роздрукувати наш флаєр (німецькою, англійською, турецькою, польською, російською, українською та арабською) і повісити там, де його побачать у Берліні — у кафе, на дошках оголошень, у громадських місцях. [Завантажити PDF](/flyers/berlin-2026-flyer.pdf).\n\nА якщо помітите на сайті помилку — неточне формулювання чи фактичну неточність — напишіть нам, ми виправимо. Виділіть фрагмент на сторінці, щоб відкрити форму повідомлення, або зв’яжіться через «Контакт».\n\nПереклади можна покращити й самостійно — відкрийте pull request з виправленнями або додайте й редагуйте файли локалізації прямо в нашому [репозиторії на GitHub](https://github.com/mashazyu/berlin-2026)."
   },
   "aiDisclosure": {
     "title": "Про використання ШІ",

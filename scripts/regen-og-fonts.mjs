@@ -35,9 +35,10 @@ function collectChars(arabic = false) {
 }
 
 async function loadWeight(weight, chars, family) {
+  // Arabic: Cairo — Noto Sans Arabic crashes Satori (GSUB substFormat 3).
   const familyParam =
     family === "arabic"
-      ? `Noto+Sans+Arabic:wght@${weight}`
+      ? `Cairo:wght@${weight}`
       : `Noto+Sans:wght@${weight}`
   const cssUrl = `https://fonts.googleapis.com/css2?family=${familyParam}&display=swap&text=${encodeURIComponent(chars)}`
   const css = await fetch(cssUrl, { headers: { "User-Agent": FONT_UA } }).then(
@@ -48,9 +49,7 @@ async function loadWeight(weight, chars, family) {
   if (!match) throw new Error(`No TTF for ${family} ${weight}:\n${css.slice(0, 400)}`)
   const buf = Buffer.from(await fetch(match[1]).then((r) => r.arrayBuffer()))
   const filename =
-    family === "arabic"
-      ? `NotoSansArabic-${weight}.ttf`
-      : `NotoSans-${weight}.ttf`
+    family === "arabic" ? `Cairo-${weight}.ttf` : `NotoSans-${weight}.ttf`
   const out = path.join(OUT_DIR, filename)
   fs.mkdirSync(OUT_DIR, { recursive: true })
   fs.writeFileSync(out, buf)

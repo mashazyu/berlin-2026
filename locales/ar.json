@@ -29,8 +29,9 @@
     "tagline": "مواقف الأحزاب جنباً إلى جنب"
   },
   "navigation": {
-    "motivation": "الدافع",
     "comparison": "المقارنة",
+    "media": "الإعلام",
+    "motivation": "الدافع",
     "privacy": "الخصوصية"
   },
   "hero": {
@@ -53,9 +54,27 @@
     "whatWeDidBody": "قارنّا 10 أحزاب برلينية في نقاط رئيسية عبر النقل والسكن والمناخ والطاقة والأمن والتعليم والصحة والهجرة والاقتصاد والديمقراطية — وحوّلنا برامجها إلى جدول واحد جنباً إلى جنب.",
     "beforeYouVoteTitle": "قبل أن تصوّت",
     "beforeYouVoteBody": "أُعدّ الجدول بمساعدة الذكاء الاصطناعي؛ راجع النقاط المهمة لك. الترجمات الكاملة لبرامج الأحزاب الرئيسية متاحة على [BerlinVote.Help](https://www.berlinvote.help/).",
-    "furtherReadingIntro": "قد تجد هذه المصادر مفيدة أيضاً:",
-    "furtherReadingBody": "- [Wahl-O-Mat Berlin 2026](https://www.wahl-o-mat.de/berlin2026/app/main_app.html)\n- [ويكيبيديا: انتخابات برلين الإقليمية 2026](https://en.wikipedia.org/wiki/2026_Berlin_state_election)\n- [RBB: أسئلة شائعة عن انتخابات برلين 2026 (إنجليزي)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: الانتخابات بلغة مبسطة (Leichte Sprache)](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [مركز برلين للتربية السياسية: كتيب انتخابات 2026 (PDF)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
+    "toolsIntro": "أدوات مساعدة على التصويت وأدوات مقارنة أخرى:",
+    "toolsBody": "- [Wahl-O-Mat Berlin 2026](https://www.wahl-o-mat.de/berlin2026/app/main_app.html)\n- [Kandidierendencheck](https://www.kandidierendencheck.de/auswahl)\n- [Party-Check Berlin](https://tool.party-check.org/index.php/berlin?lang=en)",
+    "backgroundIntro": "خلفية:",
+    "backgroundBody": "- [ويكيبيديا: انتخابات برلين الإقليمية 2026](https://en.wikipedia.org/wiki/2026_Berlin_state_election)\n- [RBB: أسئلة شائعة عن انتخابات برلين 2026 (إنجليزي)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: الانتخابات بلغة مبسطة (Leichte Sprache)](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [مركز برلين للتربية السياسية: كتيب انتخابات 2026 (PDF)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
   },
+  "press": {
+    "title": "في الإعلام",
+    "subtitle": "ذُكر مشروعنا في وسائل الإعلام البرلينية التالية."
+  },
+  "pressMentionSummaries": [
+    {
+      "id": "bundeskanzler",
+      "channel": "Bundeskanzler",
+      "summary": "في تغطية لاستطلاعات انتخابات برلين المقبلة، يُشار إلى إمكانية مقارنة برامج الأحزاب المحلية بالروسية على berlin-2026.de."
+    },
+    {
+      "id": "berlinwelle",
+      "channel": "Volna / Berlin",
+      "summary": "مُنشئتا مشروع Water for All أطلقتا berlin-2026.de لانتخابات سبتمبر: مقارنة لمواقف عشرة أحزاب من البرامج الرسمية بعدة لغات، منها الإنجليزية والروسية."
+    }
+  ],
   "footer": {
     "aiNotice": "نصوص جدول المقارنة في هذا الموقع أُعدّت بمساعدة الذكاء الاصطناعي.",
     "aiDisclosure": "الإفصاح عن الذكاء الاصطناعي",
@@ -97,7 +116,7 @@
     "title": "حول المشروع",
     "body": "Berlin 2026 مشروع مستقل يقارن برامج الأحزاب قبل انتخابات برلين الإقليمية 2026. تُنشر البرامج الرسمية بالألمانية فقط — نترجمها إلى لغات تُستخدم في برلين.\n\nنينا تقارن البرامج وتطوّر المشروع؛ ماشا تتولى الجانب التقني. بالتوازي نعمل على [Water for All / Wasser für alle](https://www.water4all.com.de) — أطلس مفتوح لمياه الشرب المجانية في برلين. يجعل المشروع الوصول إلى المياه مرئياً ويساعد السكان على المطالبة بنوافير شرب جديدة.",
     "contributeTitle": "كيف يمكنك المساعدة",
-    "contributeBody": "إن أردت دعم المشروع، فأفضل ما تفعله هو نشره — شاركه مع من قد يجدونه مفيداً.\n\nوإن لاحظت خطأ في الموقع — صياغة خاطئة أو خطأ واقعي — أخبرنا لنصلحه. حدّد المقطع في الصفحة لفتح بلاغ، أو راسلنا عبر اتصل بنا."
+    "contributeBody": "إن أردت دعم المشروع، فأفضل ما تفعله هو نشره — شاركه مع من قد يجدونه مفيداً.\n\nيمكنك أيضاً طباعة منشورنا (بالألمانية والإنجليزية والتركية والبولندية والروسية والأوكرانية والعربية) وتعليقه حيث يراه الناس في برلين — المقاهي ولوحات الإعلانات والأماكن المجتمعية. [تحميل ملف PDF](/flyers/berlin-2026-flyer.pdf).\n\nوإن لاحظت خطأ في الموقع — صياغة خاطئة أو خطأ واقعي — أخبرنا لنصلحه. حدّد المقطع في الصفحة لفتح بلاغ، أو راسلنا عبر اتصل بنا.\n\nيمكنك أيضاً تحسين الترجمات بنفسك — افتح طلب سحب (pull request) بالتصحيحات، أو أضف ملفات الترجمة أو عدّلها مباشرة في [مستودع GitHub](https://github.com/mashazyu/berlin-2026)."
   },
   "aiDisclosure": {
     "title": "الإفصاح عن الذكاء الاصطناعي",

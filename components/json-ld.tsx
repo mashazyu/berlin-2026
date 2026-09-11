@@ -1,5 +1,9 @@
 import { getTranslations, type Language } from "@/lib/i18n/get-translations"
-import { BASE_URL, buildAbsoluteUrl } from "@/lib/seo/constants"
+import {
+  BASE_URL,
+  SUPPORTED_LANGUAGES,
+  buildAbsoluteUrl,
+} from "@/lib/seo/constants"
 import { homeSharingMeta } from "@/lib/seo/pages"
 
 const ELECTION_START = "2026-09-20T08:00:00+02:00"
@@ -14,6 +18,7 @@ function electionCopy(language: Language) {
         "Wahl zum Abgeordnetenhaus von Berlin am 20. September 2026. Freie, geheime Wahl des Berliner Landesparlaments.",
       organizerName: "Landeswahlleitung Berlin",
       performerName: "Zur Wahl stehende Parteien und Bewerber:innen",
+      offersName: "Teilnahme an der Wahl",
     }
   }
   if (language === "ru") {
@@ -23,6 +28,7 @@ function electionCopy(language: Language) {
         "Выборы в Палату депутатов Берлина (Abgeordnetenhaus) 20 сентября 2026 года. Свободные выборы земельного парламента.",
       organizerName: "Избирательная комиссия Берлина (Landeswahlleitung)",
       performerName: "Партии и кандидаты, участвующие в выборах",
+      offersName: "Участие в голосовании",
     }
   }
   if (language === "tr") {
@@ -32,6 +38,7 @@ function electionCopy(language: Language) {
         "20 Eylül 2026’da Berlin Temsilciler Meclisi (Abgeordnetenhaus) seçimleri. Berlin eyalet parlamentosunun serbest seçimi.",
       organizerName: "Berlin Eyalet Seçim Kurulu (Landeswahlleitung)",
       performerName: "Seçime katılan partiler ve adaylar",
+      offersName: "Seçime katılım (oy hakkı olanlar)",
     }
   }
   if (language === "uk") {
@@ -41,6 +48,7 @@ function electionCopy(language: Language) {
         "Вибори до Палати депутатів Берліна (Abgeordnetenhaus) 20 вересня 2026 року. Вільні вибори земельного парламенту.",
       organizerName: "Виборча комісія Берліна (Landeswahlleitung)",
       performerName: "Партії та кандидати, які беруть участь у виборах",
+      offersName: "Участь у голосуванні (для осіб з правом голосу)",
     }
   }
   if (language === "pl") {
@@ -50,6 +58,7 @@ function electionCopy(language: Language) {
         "Wybory do Izby Deputowanych Berlina (Abgeordnetenhaus) 20 września 2026 r. Wolne wybory do parlamentu landowego Berlina.",
       organizerName: "Krajowa Komisja Wyborcza Berlina (Landeswahlleitung)",
       performerName: "Partie i kandydaci startujący w wyborach",
+      offersName: "Udział w wyborach (osoby uprawnione)",
     }
   }
   if (language === "ar") {
@@ -59,6 +68,7 @@ function electionCopy(language: Language) {
         "انتخابات مجلس نواب برلين (Abgeordnetenhaus) في 20 سبتمبر 2026. انتخابات حرة للبرلمان الإقليمي في برلين.",
       organizerName: "لجنة الانتخابات الإقليمية في برلين (Landeswahlleitung)",
       performerName: "الأحزاب والمرشحون المشاركون في الانتخابات",
+      offersName: "المشاركة في التصويت (للناخبين المؤهلين)",
     }
   }
   return {
@@ -67,6 +77,7 @@ function electionCopy(language: Language) {
       "Election to the Berlin House of Representatives (Abgeordnetenhaus) on 20 September 2026. Free election of Berlin’s state parliament.",
     organizerName: "Berlin State Returning Office (Landeswahlleitung)",
     performerName: "Parties and candidates standing in the election",
+    offersName: "Voting (eligible voters)",
   }
 }
 
@@ -85,7 +96,7 @@ export function JsonLd({ language }: { language: Language }) {
         "@id": `${BASE_URL}/#website`,
         url: BASE_URL,
         name: "Berlin 2026",
-        inLanguage: ["en", "de", "tr", "uk", "pl", "ru", "ar"],
+        inLanguage: [...SUPPORTED_LANGUAGES],
         publisher: {
           "@type": "Organization",
           name: "Berlin 2026",
@@ -136,16 +147,7 @@ export function JsonLd({ language }: { language: Language }) {
           },
           offers: {
             "@type": "Offer",
-            name:
-              language === "de"
-                ? "Teilnahme an der Wahl"
-                : language === "ru"
-                  ? "Участие в голосовании"
-                  : language === "tr"
-                    ? "Seçime katılım (oy hakkı olanlar)"
-                    : language === "pl"
-                      ? "Udział w wyborach (osoby uprawnione)"
-                      : "Voting (eligible voters)",
+            name: election.offersName,
             price: 0,
             priceCurrency: "EUR",
             availability: "https://schema.org/InStock",

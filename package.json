@@ -12,7 +12,8 @@
     "encode:comparison": "node scripts/encode-comparison.mjs",
     "regen:og-fonts": "node scripts/regen-og-fonts.mjs",
     "verify:citations": "python3 scripts/verify-citations.py --force-extract",
-    "verify:relevance": "python3 scripts/verify-relevance.py"
+    "verify:relevance": "python3 scripts/verify-relevance.py",
+    "indexnow:submit": "node scripts/submit-indexnow.mjs"
   },
   "dependencies": {
     "@marsidev/react-turnstile": "^1.6.1",

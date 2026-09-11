@@ -4,6 +4,7 @@ import {
   createContext,
   useCallback,
   useContext,
+  useEffect,
   useMemo,
   useState,
   type ReactNode,
@@ -27,6 +28,10 @@ export function LanguageProvider({
   children: ReactNode
 }) {
   const [language, setLanguageState] = useState<Language>(initialLanguage)
+
+  useEffect(() => {
+    setLanguageState(initialLanguage)
+  }, [initialLanguage])
 
   const setLanguage = useCallback((lang: Language) => {
     setLanguageState(lang)

@@ -28,8 +28,9 @@
     "tagline": "Parteipositionen nebeneinander"
   },
   "navigation": {
-    "motivation": "Motivation",
     "comparison": "Vergleich",
+    "media": "Medien",
+    "motivation": "Motivation",
     "privacy": "Datenschutz"
   },
   "hero": {
@@ -52,9 +53,27 @@
     "whatWeDidBody": "Wir haben die Positionen von 10 Berliner Parteien zu zentralen Punkten bei Verkehr, Wohnen, Klima und Energie, Sicherheit, Bildung, Gesundheit, Migration, Wirtschaft und Demokratie verglichen — und daraus eine Vergleichstabelle gemacht.",
     "beforeYouVoteTitle": "Bevor Sie wählen",
     "beforeYouVoteBody": "Die Tabelle entstand mit Hilfe von KI. Bitte prüfen Sie die Punkte, die Ihnen wichtig sind, noch einmal. Vollständige Übersetzungen der Programme großer Parteien finden Sie auf [BerlinVote.Help](https://www.berlinvote.help/).",
-    "furtherReadingIntro": "Vielleicht hilfreich:",
-    "furtherReadingBody": "- [Wahl-O-Mat Berlin 2026](https://www.wahl-o-mat.de/berlin2026/app/main_app.html)\n- [Wikipedia: Wahl zum Abgeordnetenhaus von Berlin 2026](https://de.wikipedia.org/wiki/Wahl_zum_Abgeordnetenhaus_von_Berlin_2026)\n- [RBB: FAQ zu den Berlin-Wahlen 2026 (Englisch)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: Wahlen in Leichter Sprache](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Berliner Landeszentrale für politische Bildung: Broschüre Wahlen 2026 (PDF, EN)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
+    "toolsIntro": "Wahlhilfen und weitere Vergleichstools:",
+    "toolsBody": "- [Wahl-O-Mat Berlin 2026](https://www.wahl-o-mat.de/berlin2026/app/main_app.html)\n- [Kandidierendencheck](https://www.kandidierendencheck.de/auswahl)\n- [Party-Check Berlin](https://tool.party-check.org/index.php/berlin?lang=de)",
+    "backgroundIntro": "Hintergrund:",
+    "backgroundBody": "- [Wikipedia: Wahl zum Abgeordnetenhaus von Berlin 2026](https://de.wikipedia.org/wiki/Wahl_zum_Abgeordnetenhaus_von_Berlin_2026)\n- [RBB: FAQ zu den Berlin-Wahlen 2026 (Englisch)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: Wahlen in Leichter Sprache](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Berliner Landeszentrale für politische Bildung: Broschüre Wahlen 2026 (PDF, EN)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
   },
+  "press": {
+    "title": "Pressestimmen",
+    "subtitle": "Unser Projekt wurde in folgenden Berliner Medien erwähnt."
+  },
+  "pressMentionSummaries": [
+    {
+      "id": "bundeskanzler",
+      "channel": "Bundeskanzler",
+      "summary": "Im Bericht zu den bevorstehenden Berlin-Wahlen heißt es, lokale Parteiprogramme lassen sich auf Russisch auf berlin-2026.de vergleichen."
+    },
+    {
+      "id": "berlinwelle",
+      "channel": "Volna / Berlin",
+      "summary": "Die Macherinnen von Water for All haben zur Septemberwahl berlin-2026.de gestartet: ein Vergleich der Positionen von zehn Parteien aus den offiziellen Programmen — in mehreren Sprachen, darunter Englisch und Russisch."
+    }
+  ],
   "footer": {
     "aiNotice": "Texte und Vergleichstabelle auf dieser Website entstanden mit KI-Unterstützung.",
     "aiDisclosure": "KI-Hinweis",
@@ -96,7 +115,7 @@
     "title": "Über uns",
     "body": "Berlin 2026 ist ein unabhängiges Projekt zum Vergleich von Parteiprogrammen vor der Abgeordnetenhauswahl 2026 in Berlin. Offizielle Programme erscheinen nur auf Deutsch — wir übersetzen sie in Sprachen, die in Berlin gesprochen werden.\n\nNina vergleicht die Programme und treibt das Projekt voran, Mascha sorgt für die Technik. Parallel arbeiten wir an [Wasser für alle / Water for All](https://www.water4all.com.de/de) — einem offenen Atlas freier Trinkwasserstellen in Berlin. Das Projekt macht den Zugang zu Wasser sichtbar und hilft vor Ort, sich für neue Trinkbrunnen einzusetzen.",
     "contributeTitle": "Wie Sie helfen können",
-    "contributeBody": "Wenn Sie das Projekt unterstützen möchten, hilft uns am meisten, wenn Sie es weitererzählen — an Menschen, denen es nützlich sein könnte.\n\nUnd wenn Ihnen auf der Website ein Fehler auffällt — eine ungenaue Formulierung oder ein Sachfehler — schreiben Sie uns bitte, damit wir ihn korrigieren können. Markieren Sie die Stelle auf der Seite, um eine Meldung zu öffnen, oder erreichen Sie uns über Kontakt."
+    "contributeBody": "Wenn Sie das Projekt unterstützen möchten, hilft uns am meisten, wenn Sie es weitererzählen — an Menschen, denen es nützlich sein könnte.\n\nSie können auch unseren Flyer ausdrucken (Deutsch, Englisch, Türkisch, Polnisch, Russisch, Ukrainisch, Arabisch) und dort aushängen, wo ihn Menschen in Berlin sehen — Cafés, schwarze Bretter, Nachbarschaftsorte. [PDF herunterladen](/flyers/berlin-2026-flyer.pdf).\n\nUnd wenn Ihnen auf der Website ein Fehler auffällt — eine ungenaue Formulierung oder ein Sachfehler — schreiben Sie uns bitte, damit wir ihn korrigieren können. Markieren Sie die Stelle auf der Seite, um eine Meldung zu öffnen, oder erreichen Sie uns über Kontakt.\n\nSie können Übersetzungen auch selbst verbessern — öffnen Sie einen Pull Request mit Korrekturen, oder ergänzen bzw. bearbeiten Sie die Locale-Dateien direkt in unserem [GitHub-Repository](https://github.com/mashazyu/berlin-2026)."
   },
   "aiDisclosure": {
     "title": "KI-Hinweis",

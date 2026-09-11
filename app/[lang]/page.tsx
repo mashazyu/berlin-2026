@@ -1,10 +1,7 @@
 import { Hero } from "@/components/hero"
 import { HomePageClient } from "@/components/home-page-client"
 import { getComparison } from "@/lib/comparison/get-comparison"
-import {
-  SUPPORTED_LANGUAGES,
-  type Language,
-} from "@/lib/i18n/get-translations"
+import { type Language } from "@/lib/i18n/get-translations"
 import { toSafeLanguage } from "@/lib/seo/constants"
 import { pageMetadata } from "@/lib/seo/metadata"
 import { JsonLd } from "@/components/json-ld"
@@ -18,15 +15,12 @@ export default async function HomePage({
 }) {
   const { lang } = await params
   const language = toSafeLanguage(lang) as Language
-  const comparisonByLang = Object.fromEntries(
-    SUPPORTED_LANGUAGES.map((code) => [code, getComparison(code)])
-  )
 
   return (
     <>
       <JsonLd language={language} />
       <HomePageClient
-        comparisonByLang={comparisonByLang}
+        comparison={getComparison(language)}
         hero={<Hero language={language} />}
       />
     </>

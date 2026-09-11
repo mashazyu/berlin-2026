@@ -393,96 +393,105 @@ export function ComparisonTable({
                   />
                 </button>
 
-                {open && (
-                  <ul className="divide-y divide-border border-t border-border">
-                    {groupTopicList.map((topic) => {
-                      const detailOpen = openTopicId === topic.id
-                      return (
-                        <li key={topic.id}>
-                          <button
-                            type="button"
-                            className="flex w-full flex-col gap-2.5 px-4 py-3.5 text-start"
-                            aria-expanded={detailOpen}
-                            onClick={(event) =>
-                              toggleMobileTopic(topic.id, event.currentTarget)
-                            }
-                          >
-                            <span className="flex items-start justify-between gap-3">
-                              <span className="text-sm font-semibold leading-snug text-foreground">
-                                {topic.displayLabel}
-                              </span>
-                              <ChevronDown
-                                className={cn(
-                                  "mt-0.5 h-4 w-4 shrink-0 text-muted-foreground transition-transform",
-                                  detailOpen && "rotate-180"
-                                )}
-                              />
+                {/* Always in DOM (CSS-hidden when collapsed) so crawlers see summaries. */}
+                <ul
+                  className={cn(
+                    "divide-y divide-border border-t border-border",
+                    !open && "hidden"
+                  )}
+                  aria-hidden={!open}
+                >
+                  {groupTopicList.map((topic) => {
+                    const detailOpen = openTopicId === topic.id
+                    return (
+                      <li key={topic.id}>
+                        <button
+                          type="button"
+                          className="flex w-full flex-col gap-2.5 px-4 py-3.5 text-start"
+                          aria-expanded={detailOpen}
+                          onClick={(event) =>
+                            toggleMobileTopic(topic.id, event.currentTarget)
+                          }
+                        >
+                          <span className="flex items-start justify-between gap-3">
+                            <span className="text-sm font-semibold leading-snug text-foreground">
+                              {topic.displayLabel}
                             </span>
-                            <span className="flex flex-wrap gap-1.5">
-                              {selectedParties.map((party) => (
-                                <span
-                                  key={party.id}
-                                  className="inline-flex items-center rounded-md bg-muted/60 px-1.5 py-0.5"
-                                  title={party.shortName}
-                                >
-                                  <span className="text-[10px] font-semibold tracking-wide text-muted-foreground uppercase">
+                            <ChevronDown
+                              className={cn(
+                                "mt-0.5 h-4 w-4 shrink-0 text-muted-foreground transition-transform",
+                                detailOpen && "rotate-180"
+                              )}
+                            />
+                          </span>
+                          <span className="flex flex-wrap gap-1.5">
+                            {selectedParties.map((party) => (
+                              <span
+                                key={party.id}
+                                className="inline-flex items-center rounded-md bg-muted/60 px-1.5 py-0.5"
+                                title={party.shortName}
+                              >
+                                <span className="text-[10px] font-semibold tracking-wide text-muted-foreground uppercase">
+                                  {party.shortName}
+                                </span>
+                              </span>
+                            ))}
+                          </span>
+                        </button>
+
+                        <ul
+                          className={cn(
+                            "divide-y divide-border border-t border-border bg-muted/20",
+                            !detailOpen && "hidden"
+                          )}
+                          aria-hidden={!detailOpen}
+                        >
+                          {selectedParties.map((party) => {
+                            const cell =
+                              cellsByKey[cellKey(topic.id, party.id)]
+                            const summary = cell?.summary?.trim() ?? ""
+                            return (
+                              <li key={party.id} className="px-4 py-3">
+                                <div className="mb-2 flex items-center justify-between gap-2">
+                                  <span className="text-sm font-semibold text-foreground">
                                     {party.shortName}
                                   </span>
-                                </span>
-                              ))}
-                            </span>
-                          </button>
-
-                          {detailOpen && (
-                            <ul className="divide-y divide-border border-t border-border bg-muted/20">
-                              {selectedParties.map((party) => {
-                                const cell =
-                                  cellsByKey[cellKey(topic.id, party.id)]
-                                const summary = cell?.summary?.trim() ?? ""
-                                return (
-                                  <li key={party.id} className="px-4 py-3">
-                                    <div className="mb-2 flex items-center justify-between gap-2">
-                                      <span className="text-sm font-semibold text-foreground">
-                                        {party.shortName}
-                                      </span>
-                                      {(cell?.programHref || party.programUrl) ? (
-                                        <a
-                                          href={
-                                            cell?.programHref || party.programUrl
-                                          }
-                                          target="_blank"
-                                          rel="noopener noreferrer"
-                                          className="inline-flex items-center gap-1 text-xs text-primary hover:underline"
-                                          onClick={(event) => event.stopPropagation()}
-                                        >
-                                          {t.comparison.openProgram}
-                                          <ExternalLink
-                                            className="h-3 w-3"
-                                            aria-hidden
-                                          />
-                                        </a>
-                                      ) : null}
-                                    </div>
-                                    <p className="text-sm leading-relaxed text-muted-foreground">
-                                      {summary || t.comparison.emptyCell}
-                                    </p>
-                                    {cell?.sourceQuotes?.length ? (
-                                      <SourceEvidence
-                                        quotes={cell.sourceQuotes}
-                                        quoteLabel={t.comparison.sourceQuote}
-                                        linkLabel={t.comparison.sourceQuoteLink}
+                                  {(cell?.programHref || party.programUrl) ? (
+                                    <a
+                                      href={
+                                        cell?.programHref || party.programUrl
+                                      }
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                      className="inline-flex items-center gap-1 text-xs text-primary hover:underline"
+                                      onClick={(event) => event.stopPropagation()}
+                                    >
+                                      {t.comparison.openProgram}
+                                      <ExternalLink
+                                        className="h-3 w-3"
+                                        aria-hidden
                                       />
-                                    ) : null}
-                                  </li>
-                                )
-                              })}
-                            </ul>
-                          )}
-                        </li>
-                      )
-                    })}
-                  </ul>
-                )}
+                                    </a>
+                                  ) : null}
+                                </div>
+                                <p className="text-sm leading-relaxed text-muted-foreground">
+                                  {summary || t.comparison.emptyCell}
+                                </p>
+                                {cell?.sourceQuotes?.length ? (
+                                  <SourceEvidence
+                                    quotes={cell.sourceQuotes}
+                                    quoteLabel={t.comparison.sourceQuote}
+                                    linkLabel={t.comparison.sourceQuoteLink}
+                                  />
+                                ) : null}
+                              </li>
+                            )
+                          })}
+                        </ul>
+                      </li>
+                    )
+                  })}
+                </ul>
               </div>
             )
           })}
@@ -568,50 +577,51 @@ export function ComparisonTable({
                       disableToggle={forceExpandGroups}
                       onToggle={() => toggleGroup(group)}
                     >
-                      {!collapsed &&
-                        groupTopicList.map(({ topic, rowIndex }) => (
-                            <tr
-                              key={topic.id}
-                              className={
-                                rowIndex % 2 === 0 ? "bg-white" : "bg-muted/30"
-                              }
-                            >
-                              <th
-                                scope="row"
-                                className="sticky start-0 z-10 border-e border-border px-3 py-3 align-top text-start font-medium text-foreground"
-                                style={{
-                                  backgroundColor:
-                                    rowIndex % 2 === 0
-                                      ? "#ffffff"
-                                      : "hsl(210 14% 96%)",
-                                }}
+                      {groupTopicList.map(({ topic, rowIndex }) => (
+                        <tr
+                          key={topic.id}
+                          className={cn(
+                            rowIndex % 2 === 0 ? "bg-white" : "bg-muted/30",
+                            collapsed && "hidden"
+                          )}
+                          aria-hidden={collapsed}
+                        >
+                          <th
+                            scope="row"
+                            className="sticky start-0 z-10 border-e border-border px-3 py-3 align-top text-start font-medium text-foreground"
+                            style={{
+                              backgroundColor:
+                                rowIndex % 2 === 0
+                                  ? "#ffffff"
+                                  : "hsl(210 14% 96%)",
+                            }}
+                          >
+                            {topic.displayLabel}
+                          </th>
+                          {selectedParties.map((party) => {
+                            const cell =
+                              cellsByKey[cellKey(topic.id, party.id)]
+                            const summary = cell?.summary?.trim() ?? ""
+                            return (
+                              <td
+                                key={party.id}
+                                className="border-b border-border/50 px-3 py-3 align-top text-muted-foreground"
                               >
-                                {topic.displayLabel}
-                              </th>
-                              {selectedParties.map((party) => {
-                                const cell =
-                                  cellsByKey[cellKey(topic.id, party.id)]
-                                const summary = cell?.summary?.trim() ?? ""
-                                return (
-                                  <td
-                                    key={party.id}
-                                    className="border-b border-border/50 px-3 py-3 align-top text-muted-foreground"
-                                  >
-                                    <span className="text-[13px] leading-snug">
-                                      {summary || t.comparison.emptyCell}
-                                    </span>
-                                    {cell?.sourceQuotes?.length ? (
-                                      <SourceEvidence
-                                        quotes={cell.sourceQuotes}
-                                        quoteLabel={t.comparison.sourceQuote}
-                                        linkLabel={t.comparison.sourceQuoteLink}
-                                      />
-                                    ) : null}
-                                  </td>
-                                )
-                              })}
-                            </tr>
-                          ))}
+                                <span className="text-[13px] leading-snug">
+                                  {summary || t.comparison.emptyCell}
+                                </span>
+                                {cell?.sourceQuotes?.length ? (
+                                  <SourceEvidence
+                                    quotes={cell.sourceQuotes}
+                                    quoteLabel={t.comparison.sourceQuote}
+                                    linkLabel={t.comparison.sourceQuoteLink}
+                                  />
+                                ) : null}
+                              </td>
+                            )
+                          })}
+                        </tr>
+                      ))}
                     </GroupRows>
                   )
                 })}

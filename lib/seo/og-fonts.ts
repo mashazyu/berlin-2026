@@ -1,14 +1,17 @@
-/** Subsetted Noto Sans TTFs for `next/og` (Latin + Cyrillic / Arabic as needed).
- *  Restored from 882e210 — fetches a Google `text=` subset for the exact OG copy.
- *  Falls back to local assets/fonts if the network fetch fails (e.g. offline build). */
+/** Subsetted TTFs for `next/og` (Latin + Cyrillic / Arabic as needed).
+ *  Fetches a Google `text=` subset for the exact OG copy.
+ *  Falls back to local assets/fonts if the network fetch fails (e.g. offline build).
+ *
+ *  Arabic uses Cairo (not Noto Sans Arabic): Satori crashes on Noto’s GSUB
+ *  `lookupType: 5 - substFormat: 3` during Arabic shaping. */
 
 import { readFile } from "node:fs/promises"
 import path from "node:path"
 
 const GOOGLE_CSS_NOTO_SANS =
   "https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap&text="
-const GOOGLE_CSS_NOTO_SANS_ARABIC =
-  "https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;700&display=swap&text="
+const GOOGLE_CSS_CAIRO =
+  "https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap&text="
 
 /** Old Safari UA → Google returns `truetype` instead of woff2. */
 const FONT_UA =
@@ -63,9 +66,7 @@ async function loadWeightFromLocal(
   weight: 400 | 700,
   arabic: boolean
 ): Promise<ArrayBuffer> {
-  const file = arabic
-    ? `NotoSansArabic-${weight}.ttf`
-    : `NotoSans-${weight}.ttf`
+  const file = arabic ? `Cairo-${weight}.ttf` : `NotoSans-${weight}.ttf`
   const buf = await readFile(path.join(FONT_DIR, file))
   return toArrayBuffer(buf)
 }
@@ -75,8 +76,8 @@ async function loadWeight(
   weight: 400 | 700,
   arabic: boolean
 ): Promise<ArrayBuffer> {
-  const cssBase = arabic ? GOOGLE_CSS_NOTO_SANS_ARABIC : GOOGLE_CSS_NOTO_SANS
-  const familyLabel = arabic ? "Noto Sans Arabic" : "Noto Sans"
+  const cssBase = arabic ? GOOGLE_CSS_CAIRO : GOOGLE_CSS_NOTO_SANS
+  const familyLabel = arabic ? "Cairo" : "Noto Sans"
   try {
     return await loadWeightFromGoogle(chars, weight, cssBase, familyLabel)
   } catch (err) {
@@ -91,7 +92,7 @@ async function loadWeight(
 export async function getOgFonts(text: string) {
   const chars = uniqueChars(`Berlin2026· ${text}`)
   const arabic = hasArabic(text)
-  const familyName = arabic ? "Noto Sans Arabic" : "Noto Sans"
+  const familyName = arabic ? "Cairo" : "Noto Sans"
   const [regular, bold] = await Promise.all([
     loadWeight(chars, 400, arabic),
     loadWeight(chars, 700, arabic),

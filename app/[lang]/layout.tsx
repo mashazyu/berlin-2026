@@ -3,11 +3,8 @@ import { Lora, DM_Sans, Noto_Sans_Arabic } from "next/font/google"
 import { notFound } from "next/navigation"
 import { Analytics } from "@vercel/analytics/next"
 import { LanguageProvider } from "@/components/language-provider"
-import {
-  SUPPORTED_LANGUAGES,
-  type Language,
-} from "@/lib/i18n/get-translations"
-import { CONTENT_LANGUAGE } from "@/lib/seo/constants"
+import type { Language } from "@/lib/i18n/types"
+import { CONTENT_LANGUAGE, SUPPORTED_LANGUAGES } from "@/lib/seo/constants"
 
 const lora = Lora({
   subsets: ["latin", "latin-ext", "cyrillic"],
