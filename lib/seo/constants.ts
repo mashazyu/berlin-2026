@@ -8,7 +8,19 @@ export const CONTACT_EMAIL = "feedback@berlin-2026.de"
 /** Resend “from” address using the same inbox. */
 export const CONTACT_FROM = `Berlin 2026 <${CONTACT_EMAIL}>`
 
-export const SUPPORTED_LANGUAGES = ["en", "de", "tr", "uk", "pl", "ru", "ar"] as const satisfies readonly Language[]
+/**
+ * Display / iteration order: English first, then Berlin community size
+ * (de → tr → pl → ru → uk → ar). Single source of truth for switcher, sitemap, etc.
+ */
+export const SUPPORTED_LANGUAGES = [
+  "en",
+  "de",
+  "tr",
+  "pl",
+  "ru",
+  "uk",
+  "ar",
+] as const satisfies readonly Language[]
 
 export const DEFAULT_LANGUAGE: Language = "de"
 

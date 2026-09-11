@@ -2,7 +2,8 @@
 
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { SUPPORTED_LANGUAGES, type Language } from "@/lib/i18n/get-translations"
+import type { Language } from "@/lib/i18n/types"
+import { SUPPORTED_LANGUAGES } from "@/lib/seo/constants"
 import { useLanguage } from "@/components/language-provider"
 import { cn } from "@/lib/utils"
 
@@ -10,9 +11,9 @@ const LABELS: Record<Language, string> = {
   en: "EN",
   de: "DE",
   tr: "TR",
-  uk: "UK",
   pl: "PL",
   ru: "RU",
+  uk: "UK",
   ar: "AR",
 }
 

@@ -14,8 +14,18 @@ const __dirname = dirname(fileURLToPath(import.meta.url))
 const root = join(__dirname, "..")
 
 const BASE_URL = "https://www.berlin-2026.de"
-const SUPPORTED_LANGUAGES = ["en", "de", "tr", "uk", "pl", "ru", "ar"]
 const INDEXABLE_PATHS = ["", "/about"]
+
+function resolveSupportedLanguages() {
+  const src = readFileSync(join(root, "lib/seo/constants.ts"), "utf8")
+  const match = src.match(
+    /export const SUPPORTED_LANGUAGES\s*=\s*\[([\s\S]*?)\]\s*as const/
+  )
+  if (!match) throw new Error("SUPPORTED_LANGUAGES not found in lib/seo/constants.ts")
+  const langs = [...match[1].matchAll(/"([a-z]{2})"/g)].map((m) => m[1])
+  if (langs.length === 0) throw new Error("SUPPORTED_LANGUAGES is empty")
+  return langs
+}
 
 function resolveKey() {
   if (process.env.INDEXNOW_KEY?.trim()) {
@@ -35,7 +45,7 @@ async function main() {
   const key = resolveKey()
   const keyLocation = `${BASE_URL}/${key}.txt`
   const urlList = []
-  for (const lang of SUPPORTED_LANGUAGES) {
+  for (const lang of resolveSupportedLanguages()) {
     for (const path of INDEXABLE_PATHS) {
       urlList.push(`${BASE_URL}/${lang}${path}`)
     }

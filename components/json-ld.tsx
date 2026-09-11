@@ -1,5 +1,9 @@
 import { getTranslations, type Language } from "@/lib/i18n/get-translations"
-import { BASE_URL, buildAbsoluteUrl } from "@/lib/seo/constants"
+import {
+  BASE_URL,
+  SUPPORTED_LANGUAGES,
+  buildAbsoluteUrl,
+} from "@/lib/seo/constants"
 import { homeSharingMeta } from "@/lib/seo/pages"
 
 const ELECTION_START = "2026-09-20T08:00:00+02:00"
@@ -92,7 +96,7 @@ export function JsonLd({ language }: { language: Language }) {
         "@id": `${BASE_URL}/#website`,
         url: BASE_URL,
         name: "Berlin 2026",
-        inLanguage: ["en", "de", "tr", "uk", "pl", "ru", "ar"],
+        inLanguage: [...SUPPORTED_LANGUAGES],
         publisher: {
           "@type": "Organization",
           name: "Berlin 2026",
