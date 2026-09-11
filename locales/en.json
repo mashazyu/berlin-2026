@@ -29,8 +29,9 @@
     "tagline": "Party positions side by side"
   },
   "navigation": {
-    "motivation": "Motivation",
     "comparison": "Comparison",
+    "media": "Media",
+    "motivation": "Motivation",
     "privacy": "Privacy"
   },
   "hero": {
@@ -56,6 +57,22 @@
     "furtherReadingIntro": "You might also find these useful:",
     "furtherReadingBody": "- [Wahl-O-Mat Berlin 2026](https://www.wahl-o-mat.de/berlin2026/app/main_app.html)\n- [Wikipedia: 2026 Berlin state election](https://en.wikipedia.org/wiki/2026_Berlin_state_election)\n- [RBB: Berlin Elections 2026 FAQ (English)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: Elections in easy language (Leichte Sprache)](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Berlin State Centre for Political Education: Elections 2026 brochure (PDF)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
   },
+  "press": {
+    "title": "In the Media",
+    "subtitle": "Our project was mentioned in the following Berlin media."
+  },
+  "pressMentionSummaries": [
+    {
+      "id": "bundeskanzler",
+      "channel": "Bundeskanzler",
+      "summary": "Coverage of the upcoming Berlin election notes that local party programs can be compared in Russian on berlin-2026.de."
+    },
+    {
+      "id": "berlinwelle",
+      "channel": "Volna / Berlin",
+      "summary": "The creators of Water for All launched berlin-2026.de for the September election: a side-by-side comparison of ten parties’ positions from official programs — available in several languages, including English and Russian."
+    }
+  ],
   "footer": {
     "aiNotice": "Texts and the comparison table on this site were created with AI assistance.",
     "aiDisclosure": "AI disclosure",

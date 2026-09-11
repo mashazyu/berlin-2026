@@ -3,6 +3,7 @@
 import type { ReactNode } from "react"
 import { MotivationSection } from "@/components/motivation-section"
 import { ComparisonTable } from "@/components/comparison-table"
+import { PressSection } from "@/components/press-section"
 import { SectionScrollSnap } from "@/components/section-scroll-snap"
 import { SiteFooter } from "@/components/site-footer"
 import { FeedbackFab } from "@/components/feedback-fab"
@@ -23,6 +24,7 @@ export function HomePageClient({
       <main>
         {hero}
         <ComparisonTable comparison={comparison} />
+        <PressSection />
         <MotivationSection />
       </main>
       <SiteFooter />
