@@ -1,7 +1,7 @@
 {
   "metadata": {
     "homeTitle": "Berlin 2026 — compara los programas de los 10 partidos más populares",
-    "homeDescription": "Programas oficiales para las elecciones al Abgeordnetenhaus de Berlín el 20 de septiembre de 2026: transporte, vivienda, clima, seguridad y más. Independiente: no es una recomendación de voto.",
+    "homeDescription": "Programas oficiales para las elecciones a la Cámara de Representantes de Berlín el 20 de septiembre de 2026: transporte, vivienda, clima, seguridad y más. Independiente: no es una recomendación de voto.",
     "aboutTitle": "Sobre el proyecto — Berlin 2026",
     "aboutDescription": "Quién está detrás de Berlin 2026: Nina compara los programas de los partidos y saca adelante el proyecto; Masha se ocupa de la técnica. Independiente, sin vínculo con ningún partido.",
     "privacyTitle": "Política de privacidad — Berlin 2026",
@@ -11,8 +11,8 @@
     "keywords": [
       "Berlín",
       "elecciones regionales Berlín 2026",
-      "Abgeordnetenhaus",
-      "Cámara de Representantes",
+      "Cámara de Representantes de Berlín",
+      "parlamento regional de Berlín",
       "programas electorales",
       "comparación de partidos",
       "transporte",
@@ -35,7 +35,7 @@
   },
   "hero": {
     "headline": "Elecciones regionales de Berlín 2026: compara los programas",
-    "support": "20 de septiembre de 2026 · Abgeordnetenhaus · 10 partidos · 65 temas",
+    "support": "20 de septiembre de 2026 · Cámara de Representantes · 10 partidos · 65 temas",
     "blurb": "Las posiciones de los programas oficiales, una al lado de la otra. No es una recomendación de voto.",
     "cta": "Comparar programas",
     "disclaimer": "No es material de campaña y no está vinculado a ningún partido.",
@@ -44,7 +44,7 @@
   "motivation": {
     "title": "Motivación",
     "berlinVotesTitle": "Berlín vota el 20 de septiembre de 2026",
-    "berlinVotesBody": "Cada cinco años Berlín elige un nuevo Abgeordnetenhaus: el parlamento regional que marca la política de la ciudad.",
+    "berlinVotesBody": "Cada cinco años Berlín elige una nueva Cámara de Representantes: el parlamento regional que marca la política de la ciudad.",
     "accessibilityTitle": "Idioma y acceso",
     "accessibilityBody": "Alrededor del [16 % de los ciudadanos alemanes](https://de.statista.com/statistik/daten/studie/1109703/umfrage/bevoelkerung-bezirke-nach-migrationshintergrund-berlin/) en Berlín procede de familias inmigrantes. Los programas electorales solo se publican en alemán y pueden llegar a 200 páginas. Eso es difícil incluso para quien tiene el alemán como lengua materna. El [Wahl-O-Mat](https://www.wahl-o-mat.de/berlin2026/app/main_app.html) ayuda, pero no sirve para una comparación a fondo.",
     "clarityTitle": "Claridad y sustancia",
@@ -56,7 +56,7 @@
     "toolsIntro": "Ayudas al voto y otras herramientas de comparación:",
     "toolsBody": "- [Wahl-O-Mat Berlin 2026](https://www.wahl-o-mat.de/berlin2026/app/main_app.html)\n- [Kandidierendencheck](https://www.kandidierendencheck.de/auswahl)\n- [Party-Check Berlin](https://tool.party-check.org/index.php/berlin?lang=en)",
     "backgroundIntro": "Contexto:",
-    "backgroundBody": "- [Wikipedia: elecciones regionales de Berlín 2026](https://en.wikipedia.org/wiki/2026_Berlin_state_election)\n- [RBB: FAQ elecciones Berlín 2026 (inglés)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: elecciones en lenguaje fácil (Leichte Sprache)](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Centro estatal de educación política de Berlín: folleto Elecciones 2026 (PDF)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
+    "backgroundBody": "- [Wikipedia: elecciones regionales de Berlín 2026](https://en.wikipedia.org/wiki/2026_Berlin_state_election)\n- [RBB: FAQ elecciones Berlín 2026 (inglés)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: elecciones en lenguaje fácil](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Centro estatal de educación política de Berlín: folleto Elecciones 2026 (PDF)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
   },
   "press": {
     "title": "En los medios"

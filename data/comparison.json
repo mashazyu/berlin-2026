@@ -221,7 +221,7 @@
         "pl": "Nowe linie U-Bahn / przedłużenia",
         "uk": "Нові лінії U-Bahn / продовження ліній",
         "ar": "خطوط مترو جديدة / تمديدات",
-        "es": "Nuevas líneas de U-Bahn / ampliaciones",
+        "es": "Nuevas líneas de metro (U-Bahn) / ampliaciones",
         "ku": "Xetên nû yên U-Bahn / dirêjkirin"
       },
       "sortOrder": 4
@@ -365,7 +365,7 @@
         "pl": "BSR / zbieranie odpadów i infrastruktura",
         "uk": "BSR / вивіз сміття та інфраструктура",
         "ar": "BSR / جمع النفايات والبنية التحتية",
-        "es": "BSR / recogida de residuos e infraestructura",
+        "es": "Servicio de limpieza BSR / recogida de residuos e infraestructura",
         "ku": "BSR / komkirina çopê û binesazî"
       },
       "sortOrder": 13
@@ -525,7 +525,7 @@
         "pl": "Limit czynszu (Mietendeckel)",
         "uk": "Стеля оренди (Mietendeckel)",
         "ar": "سقف الإيجار (Mietendeckel)",
-        "es": "Tope de alquileres (Mietendeckel)",
+        "es": "Tope de alquileres",
         "ku": "Sînorê kirêyê (Mietendeckel)"
       },
       "sortOrder": 23
@@ -573,7 +573,7 @@
         "pl": "Zasób komunalny, mieszkania socjalne, WBS",
         "uk": "Комунальний фонд, соцжитло, WBS",
         "ar": "السكن: المخزون البلدي، الإسكان الاجتماعي، WBS",
-        "es": "Parque municipal, vivienda social, WBS",
+        "es": "Parque municipal, vivienda social, certificado WBS",
         "ku": "Stoka şaredariyê, xaniyên civakî, WBS"
       },
       "sortOrder": 26
@@ -605,7 +605,7 @@
         "pl": "Przekształcenia na lokale własnościowe i eksmisja „na własne potrzeby”",
         "uk": "Переведення у власність і виселення «для власних потреб»",
         "ar": "السكن: الملكية، تحويل الإيجار إلى تمليك، الإخلاء «للاستخدام الشخصي»",
-        "es": "Conversión a propiedad y desahucios por uso propio (Eigenbedarf)",
+        "es": "Conversión a propiedad y desahucios por uso propio",
         "ku": "Veguherandina bo xwedîtiyê û derxistinên ji bo bikaranîna xwe (Eigenbedarf)"
       },
       "sortOrder": 28
@@ -733,7 +733,7 @@
         "pl": "Kita: dostęp i jakość",
         "uk": "Дитячі садки: доступ і якість",
         "ar": "دور الحضانة: الوصول والجودة",
-        "es": "Guarderías (Kitas): acceso y calidad",
+        "es": "Guarderías: acceso y calidad",
         "ku": "Kreş (Kitas): gihîştin û kalîte"
       },
       "sortOrder": 36
@@ -893,7 +893,7 @@
         "pl": "Opieka (Pflege) i osoby starsze",
         "uk": "Догляд (Pflege) і літні люди",
         "ar": "الرعاية (Pflege) وكبار السن",
-        "es": "Cuidados (Pflege) y personas mayores",
+        "es": "Cuidados y personas mayores",
         "ku": "Lênêrîn (Pflege) û kesên kal"
       },
       "sortOrder": 46
@@ -941,7 +941,7 @@
         "pl": "Karta płatnicza oraz dostęp do świadczeń i opieki zdrowotnej",
         "uk": "Платіжна картка і доступ до виплат та медицини",
         "ar": "بطاقة الدفع والوصول إلى المزايا والرعاية الصحية",
-        "es": "Migración: tarjeta de pago (Bezahlkarte) y acceso a prestaciones y sanidad",
+        "es": "Migración: tarjeta de pago y acceso a prestaciones y sanidad",
         "ku": "Koçberî: karta dayînê (Bezahlkarte) û gihîştina alîkariyan û tenduristiyê"
       },
       "sortOrder": 49
@@ -957,7 +957,7 @@
         "pl": "LEA, integracja, uczestnictwo",
         "uk": "LEA, інтеграція, участь",
         "ar": "الهجرة: LEA والاندماج والمشاركة",
-        "es": "Migración: LEA, integración y participación",
+        "es": "Migración: oficina de extranjería (LEA), integración y participación",
         "ku": "Koçberî: LEA, entegrasyon û beşdarî"
       },
       "sortOrder": 50
@@ -1864,7 +1864,7 @@
         "pl": "Tempo 50 jako reguła na drogach głównych; ponad 200 mln € na mosty w 2026/27; pchać A100 i budować wschodnią tangensę (TVO)",
         "uk": "Tempo 50 як правило на магістралях; понад 200 млн € на мости у 2026/27; просувати A100 і будувати східну тангенціаль (TVO)",
         "ar": "الإيقاع 50 هو القاعدة على الطرق الرئيسية؛ استثمار أكثر من 200 مليون يورو في الجسور في 2026/27؛ دفع A100 وإنشاء الطريق العرضي الشرقي (TVO)",
-        "es": "Tempo 50 como norma en las carreteras principales; invertir más de 200 millones de euros en puentes en 2026/27; impulsar la A100 y construir la tangencial este (TVO)",
+        "es": "límite de 50 km/h como norma en las carreteras principales; invertir más de 200 millones de euros en puentes en 2026/27; impulsar la A100 y construir la tangencial este (TVO)",
         "ku": "Tempo 50 wekî qaîdeya li ser rêyên sereke; di sala 2026/27-an de zêdetirî 200 mîlyon € veberhênanê li piran bikin; A100 bikişîne û riya tangî ya rojhilat (TVO) ava bike"
       },
       "sources": [
@@ -2008,7 +2008,7 @@
         "pl": "rozbudowa sieci drogowej: A100 do Storkower Straße, dokończyć TVO, nowe drogi na północnym wschodzie i południu; Tempo 50 na ważnych arteriach; centralna koordynacja budów",
         "uk": "розширити мережу доріг: A100 до Storkower Straße, завершити TVO, нові дороги на північному сході та півдні; Tempo 50 на важливих магістралях; центральна координація будівельних майданчиків",
         "ar": "توسيع شبكة الطرق: A100 إلى Storkower Straße، وإكمال TVO، وطرق جديدة في الشمال الشرقي والجنوب؛ وتيرة 50 على الطرق الشريانية الهامة؛ التنسيق المركزي لمواقع البناء",
-        "es": "Ampliar la red de carreteras: A100 hasta Storkower Straße, completar TVO, nuevas carreteras en el noreste y el sur; tempo 50 en importantes vías arteriales; coordinación central de obras de construcción",
+        "es": "Ampliar la red de carreteras: A100 hasta Storkower Straße, completar TVO, nuevas carreteras en el noreste y el sur; límite de 50 km/h en importantes vías arteriales; coordinación central de obras de construcción",
         "ku": "Tora rê berfireh bikin: A100 berbi Storkower Straße, TVO tam, rêyên nû li bakur-rojhilat û başûr; Tempo 50 li ser rêyên arterial girîng; koordînasyona navendî ya malperên avakirinê"
       },
       "sources": [
@@ -3709,7 +3709,7 @@
         "pl": "natychmiast rozpocząć zabudowę krawędziową bez nowego głosowania; możliwa specjalna strefa ekonomiczna „Frei-Kiez” na części pola",
         "uk": "негайно почати забудову краю без нового голосування; можлива спеціальна економічна зона «Frei-Kiez» на частині поля",
         "ar": "البدء في تطوير الحافة فورًا دون تصويت جديد؛ إنشاء منطقة اقتصادية خاصة محتملة \"Frei-Kiez\" على جزء من الحقل",
-        "es": "Iniciar el desarrollo del borde inmediatamente sin una nueva votación; posible zona económica especial “Frei-Kiez” en parte del campo",
+        "es": "Iniciar el desarrollo del borde inmediatamente sin una nueva votación; posible zona económica especial de «barrio libre» en parte del campo",
         "ku": "Bêyî dengek nû tavilê pêşkeftina qeraxê dest pê bikin; herêma aborî ya taybet a gengaz \"Frei-Kiez\" li beşek ji zeviyê"
       },
       "sources": [
@@ -3947,7 +3947,7 @@
         "pl": "posadzić milion dodatkowych drzew; ustawa BäumePlus; nasadzenia w upalnych punktach, na powierzchniach uszczelnionych i w gęstych dzielnicach; niezawodna pielęgnacja i wykorzystanie deszczówki",
         "uk": "висадити мільйон додаткових дерев; закон BäumePlus; посадка в спекотних точках, на запечатаних поверхнях і в щільних кварталах; надійний догляд і використання дощової води",
         "ar": "وزراعة مليون شجرة إضافية؛ قانون BäumePlus؛ الزراعة في النقاط الساخنة وعلى الأسطح المغلقة وفي الأحياء الكثيفة؛ رعاية موثوقة واستخدام مياه الأمطار",
-        "es": "Plantar un millón de árboles adicionales; Ley BäumePlus (árboles plus); plantar en puntos críticos de calor, en superficies selladas y en vecindarios densos; cuidado confiable y uso del agua de lluvia",
+        "es": "Plantar un millón de árboles adicionales; Ley programa de plantación de árboles (árboles plus); plantar en puntos críticos de calor, en superficies selladas y en vecindarios densos; cuidado confiable y uso del agua de lluvia",
         "ku": "Mîlyonek darên zêde biçînin; Qanûna BäumePlus; çandin li cihên germê, li ser rûberên girtî û li taxên gir; lênêrîna pêbawer û karanîna ava baranê"
       },
       "sources": [
@@ -3983,7 +3983,7 @@
         "pl": "drzewa uliczne do 1 mln do 2040 na podstawie BäumePlus / BaumEntscheid; finansowanie nasadzeń i pielęgnacji; miejsca parkingowe w razie braku innych terenów; wzmocnić urzędy zieleni i podlewanie",
         "uk": "вуличні дерева до 1 млн до 2040 за законом BäumePlus / BaumEntscheid; фінансування посадки й догляду; парковки за потреби; посилити зелені служби та полив",
         "ar": "يصل عدد أشجار الشوارع إلى مليون بحلول عام 2040 بموجب قانون BäumePlus / استفتاء الأشجار؛ تمويل الزراعة والرعاية؛ استخدام أماكن وقوف السيارات عند الحاجة؛ تعزيز المكاتب والمساحات الخضراء والسقي",
-        "es": "Los árboles en las calles a 1 millón para 2040 según la ley BäumePlus (árboles plus) / Referéndum sobre árboles; financiación para plantación y cuidado; utilizar espacios de estacionamiento cuando sea necesario; fortalecer espacios verdes, oficinas y riego.",
+        "es": "Los árboles en las calles a 1 millón para 2040 según la ley programa de plantación de árboles (árboles plus) / Referéndum sobre árboles; financiación para plantación y cuidado; utilizar espacios de estacionamiento cuando sea necesario; fortalecer espacios verdes, oficinas y riego.",
         "ku": "Li gorî qanûna BäumePlus / Referandûma Daran heta sala 2040-an darên kolanan 1 mîlyon; fonên ji bo çandin û lênêrînê; cîhên parkkirinê li ku hewce be bikar bînin; ofîsên qada kesk û avdanê xurt bikin"
       },
       "sources": [
@@ -5215,7 +5215,7 @@
         "pl": "rozszerzenie kaucji/obowiązku zwrotu na wszystkie typy opakowań wielokrotnego użytku i więcej pojemników jednorazowych; promocja handlu bez opakowań; inicjatywa w Bundesracie przeciw problematycznym opakowaniom (np. plastik zgrzewany z aluminium); gospodarka obiegu zamkniętego bez greenwashingu",
         "uk": "розширити заставу/обов’язок повернення на всі типи багаторазової упаковки та більше одноразових контейнерів; просувати торгівлю без упаковки; ініціатива в Бундесраті проти проблемної упаковки (напр. пластик, зварений з алюмінієм); циркулярна економіка без грінвошингу",
         "ar": "توسيع قواعد الإيداع/الاسترداد لتشمل جميع أنواع التغليف القابلة لإعادة الاستخدام والمزيد من الحاويات غير القابلة لإعادة الاستخدام؛ الترويج لتجارة التجزئة الخالية من التغليف؛ مبادرة البوندسرات لمكافحة التغليف الذي ينطوي على مشاكل (مثل البلاستيك الملحوم بالألمنيوم)؛ الاقتصاد الدائري دون الغسل الأخضر",
-        "es": "Ampliar las normas de depósito/recogida a todos los tipos de envases reutilizables y a más contenedores no reutilizables; promover el comercio minorista sin envases; iniciativa del Bundesrat (Consejo Federal) contra los envases problemáticos (por ejemplo, plástico soldado sobre aluminio); economía circular sin lavado verde",
+        "es": "Ampliar las normas de depósito/recogida a todos los tipos de envases reutilizables y a más contenedores no reutilizables; promover el comercio minorista sin envases; iniciativa del Consejo Federal (Consejo Federal) contra los envases problemáticos (por ejemplo, plástico soldado sobre aluminio); economía circular sin lavado verde",
         "ku": "Rêgezên spartinê/vegirtinê li hemî cûreyên pakkirinê yên ji nû ve bi kar anîn û bêtir konteynirên ku ji nû ve nayên bikar anîn dirêj bikin; firoştina bê pakkirinê pêşve bibin; Înîsiyatîfa Bundesrat (Encûmena Federal) li dijî pakkirina bi pirsgirêk (mînak plastîk ku bi aluminiumê ve hatî weld kirin); aboriya dorhêl bêyî şuştina kesk"
       },
       "sources": [
@@ -5527,7 +5527,7 @@
         "pl": "powiązać Berlin-Pay z programem wolontariackiego sprzątania BSR „Kehrenbürger”; osiedlowe punkty recyklingu surowców wtórnych, odpadów niebezpiecznych i gabarytów",
         "uk": "пов’язати Berlin-Pay з BSR «Програмою волонтерського очищення Kehrenbürger»; пункти переробки вторинної сировини, небезпечних і великогабаритних відходів",
         "ar": "ربط Berlin-Pay مع BSR \"برنامج التنظيف التطوعي في Kehrenbürger\"؛ نقاط إعادة التدوير في الأحياء للمواد القابلة لإعادة التدوير والنفايات الخطرة والنفايات الضخمة",
-        "es": "Vincular Berlin-Pay con el programa de limpieza voluntario de Kehrenbürger de BSR; puntos de reciclaje vecinales para materiales reciclables, residuos peligrosos y residuos voluminosos.",
+        "es": "Vincular Berlin-Pay con el programa de limpieza voluntaria Kehrenbürger de BSR; puntos de reciclaje vecinales para materiales reciclables, residuos peligrosos y residuos voluminosos.",
         "ku": "Girêdana Berlin-Pay bi BSR \"bernameya dilxwaz-paqijkirina Kehrenbürger\"; nuqteyên vezîvirandinê yên taxê yên ji bo vezîvirandinê, bermahiyên xeternak, û bermayên mezin"
       },
       "sources": [
@@ -5641,7 +5641,7 @@
         "pl": "uznawać wolontariat sprzątania kartą Ehrenamtskarte i voucherami; kontynuować i rozszerzać Kehrenbürger BSR; wcześnie utrwalać unikania odpadów/recykling; więcej sortowni BSR; dłuższe godziny i nowe Punkty BSR w mocno obciążonych dzielnicach",
         "uk": "визнавати волонтерські прибирання Ehrenamtskarte та ваучерами; продовжити й розширити Kehrenbürger BSR; рано закріпити запобігання відходам/переробку; більше сортувальних установок BSR; довші години та нові Recyclinghöfe BSR у сильно навантажених районах",
         "ar": "التعرف على أعمال التنظيف التطوعية باستخدام Ehrenamtskarte والقسائم؛ مواصلة وتوسيع عمليات تنظيف BSR Kehrenbürger؛ تعليم منع النفايات/إعادة التدوير في وقت مبكر؛ المزيد من محطات الفرز BSR؛ ساعات أطول ومراكز إعادة التدوير الجديدة BSR في المناطق المثقلة بالأعباء",
-        "es": "Reconocer el voluntariado de limpieza con Ehrenamtskarte y vales; continuar y ampliar las limpiezas de BSR Kehrenbürger; enseñar prevención/reciclaje de residuos desde temprana edad; más plantas de clasificación BSR; horarios más largos y nuevos centros de reciclaje BSR en distritos muy sobrecargados.",
+        "es": "Reconocer el voluntariado de limpieza con tarjeta del voluntariado y vales; continuar y ampliar las limpiezas del programa Kehrenbürger de BSR; enseñar prevención/reciclaje de residuos desde temprana edad; más plantas de clasificación BSR; horarios más largos y nuevos centros de reciclaje BSR en distritos muy sobrecargados.",
         "ku": "Bi Ehrenamtskarte û vouchers re dilxwaziya paqijkirinê nas bikin; paqijkirina BSR Kehrenbürger berdewam bikin û berfireh bikin; pêşîlêgirtina çopê/vezîvirandinê zû hîn bike; bêtir nebatên cûrbecûr BSR; demjimêrên dirêjtir û navendên nû yên vezîvirandina BSR li navçeyên giran"
       },
       "sources": [
@@ -6872,7 +6872,7 @@
         "pl": "utrzymać elektrownie węglowe i gazowe oraz import z różnych źródeł na szczyty i przeciw blackoutom; mix otwarty technologicznie na obciążenie podstawowe; zastąpić Klimaschutz- und Energiewendegesetz ustawą Sichere-Energie-Gesetz — sieć gazowa nieporuszona",
         "uk": "зберегти вугільні й газові електростанції та імпорт з різних джерел для піків і проти блекаутів; технологічно відкритий базовий мікс; замінити Klimaschutz- und Energiewendegesetz на Sichere-Energie-Gesetz — газорозподільна мережа не згадується",
         "ar": "الاحتفاظ بمحطات توليد الطاقة التي تعمل بالفحم والغاز بالإضافة إلى الطاقة المستوردة المتنوعة لذروة الحمل ولمنع انقطاع التيار الكهربائي؛ مزيج التحميل الأساسي المفتوح للتكنولوجيا؛ استبدل Klimaschutz- und Energiewendegesetz بشبكة Sichere-Energie-Gesetz - لم تتم معالجة شبكة توزيع الغاز",
-        "es": "Mantener las centrales eléctricas de carbón y gas, además de diversas fuentes de energía importadas, para los picos de carga y para evitar apagones; combinación de carga base de tecnología abierta; sustituir la Klimaschutz- und Energiewendegesetz (ley de clima y transición energética) por una Sichere-Energie-Gesetz (ley de energía segura); no se aborda la red de distribución de gas",
+        "es": "Mantener las centrales eléctricas de carbón y gas, además de diversas fuentes de energía importadas, para los picos de carga y para evitar apagones; combinación de carga base de tecnología abierta; sustituir la ley de clima y transición energética por una ley de energía segura; no se aborda la red de distribución de gas",
         "ku": "Santralên komir û gazê û hêza îthalata cihêreng ji bo barkirina lûtkeyê bihêlin û pêşî li reşbûnê bigirin; tevliheviya barkirina bingehîn-teknolojiya vekirî; Klimaschutz- und Energiewendegesetz bi Sichere-Energie-Gesetz-ê veguherînin - tora belavkirina gazê nehatiye navnîş kirin"
       },
       "sources": [
@@ -8657,7 +8657,7 @@
         "pl": "stanowcze „nie” wobec limitu czynszu (Mietendeckel); zamiast tego urząd kontroli czynszów i bezpłatne doradztwo energetyczne",
         "uk": "тверде «ні» стелі оренди (Mietendeckel); натомість служба перевірки орендної плати та безкоштовні енергоконсультації",
         "ar": "شركة \"لا\" لسقف الإيجار (ميتندكل)؛ وبدلاً من ذلك، مكتب لمراجعة أسعار الإيجار واستشارات مجانية في مجال الطاقة",
-        "es": "Un «no» rotundo al tope de alquileres (Mietendeckel); en su lugar, una oficina de revisión de precios del alquiler y asesoramiento energético gratuito",
+        "es": "Un «no» rotundo al tope de alquileres; en su lugar, una oficina de revisión de precios del alquiler y asesoramiento energético gratuito",
         "ku": "«Na»ya qetî ji bo sînorê kirêyê (Mietendeckel); li şûna wê ofîseke kontrola bihayê kirêyê û şîreta enerjiyê ya belaş"
       },
       "sources": [
@@ -8687,7 +8687,7 @@
         "pl": "cel: prawnie solidny limit czynszu (Mietendeckel) przez federalną klauzulę otwierającą dla landów lub art. 15 Ustawy Zasadniczej; nowy nadzór nad czynszami; aplikacja kontrola czynszu",
         "uk": "мета: юридично стійка стеля оренди (Mietendeckel) через федеральну відкриваючу оговорку для земель або статтю 15 Основного закону; новий нагляд за орендою; додаток перевірка орендної плати",
         "ar": "الهدف: وضع سقف إيجار قوي من الناحية القانونية (Mietendeckel) من خلال بند افتتاحي فدرالي للولايات أو المادة 15 من القانون الأساسي؛ الرقابة الجديدة على الإيجارات؛ تطبيق فحص سعر الإيجار",
-        "es": "Objetivo: un tope de alquileres (Mietendeckel) jurídicamente sólido mediante una cláusula de apertura federal para los Länder o el art. 15 de la Ley Fundamental; nueva supervisión de alquileres; app para comprobar el precio del alquiler",
+        "es": "Objetivo: un tope de alquileres jurídicamente sólido mediante una cláusula de apertura federal para los Länder (estados federados) o el art. 15 de la Ley Fundamental; nueva supervisión de alquileres; app para comprobar el precio del alquiler",
         "ku": "Armanc: sînorê kirêyê (Mietendeckel) yê qanûnî yê xurt bi bendeke vekirina federal ji bo Länder an madeya 15 a Qanûna Bingehîn; çavdêriya nû ya kirêyê; sepaneke kontrola bihayê kirêyê"
       },
       "sources": [
@@ -8717,7 +8717,7 @@
         "pl": "ustawa o dostępnych czynszach: właściciele z ponad 50 mieszkaniami muszą wynajmować część nowych umów co najmniej 20% poniżej średniej ceny; liczyć indeks czynszów (Mietspiegel) za 20 lat zamiast 6; limit czynszu (Mietendeckel) przez federalną klauzulę otwarcia dla landów",
         "uk": "закон про доступну оренду: власники з понад 50 квартирами мають здавати частину нових договорів щонайменше на 20% нижче середньої ціни; рахувати індекс оренди (Mietspiegel) за 20 років замість 6; стеля оренди (Mietendeckel) через федеральну клаузулу для земель",
         "ar": "قانون الإيجارات الميسرة: يجب على المالكين الذين لديهم أكثر من 50 شقة استئجار حصة من عقود الإيجار الجديدة بنسبة 20% على الأقل أقل من متوسط ​​السعر؛ حساب مؤشر الإيجار (Mietspiegel) على مدى 20 سنة بدلاً من 6؛ سقف الإيجار (Mietendeckel) من خلال بند افتتاحي فيدرالي للولايات",
-        "es": "Ley de alquileres asequibles: quien tenga más de 50 pisos debe alquilar parte de los nuevos contratos al menos un 20 % por debajo del precio medio; calcular el índice de alquileres (Mietspiegel) sobre 20 años en lugar de 6; tope de alquileres (Mietendeckel) vía cláusula de apertura federal para los Länder",
+        "es": "Ley de alquileres asequibles: quien tenga más de 50 pisos debe alquilar parte de los nuevos contratos al menos un 20 % por debajo del precio medio; calcular el índice de alquileres sobre 20 años en lugar de 6; tope de alquileres vía cláusula de apertura federal para los Länder (estados federados)",
         "ku": "Zagona kirêyên erzan: xwediyên ku zêdetirî 50 apartmanên wan hebin divê beşek ji kirêyên nû herî kêm %20 di binê bihayê navîn de bidin; indeksa kirêyê (Mietspiegel) li ser 20 salan hesab bikin (ne 6); sînorê kirêyê (Mietendeckel) bi benda vekirina federal ji bo Länder"
       },
       "sources": [
@@ -8753,7 +8753,7 @@
         "pl": "limit czynszu dla LWU w pierwszych 100 dniach: roczny stop czynszu, potem max 1% rocznie w ustawie o zaopatrzeniu w mieszkania; federalny limit czynszu przez Bundesrat; limit czynszu komercyjnego dla rzemiosła, żłobków/przedszkoli, Spätis i klubów",
         "uk": "стеля оренди для муніципальних LWU в перші 100 днів: річна заморозка, потім макс. 1% на рік у законі про забезпечення житлом; федеральна стеля оренди через Бундесрат; стеля комерційної оренди для ремесла, дитсадків, Späti та клубів",
         "ar": "سقف إيجار للإسكان البلدي (LWU) خلال أول 100 يوم: تجميد لسنة، ثم زيادة بحد أقصى 1٪ سنوياً في قانون توفير السكن؛ دفع سقف إيجار اتحادي؛ سقف إيجار تجاري لحماية الورش ودور الحضانة ومتاجر الليل والنوادي",
-        "es": "Tope de alquileres en las viviendas de las LWU (empresas municipales) en los primeros 100 días: congelación un año y luego subida máxima del 1 % anual en la ley de suministro de vivienda; impulsar un tope federal; tope también en alquileres comerciales para proteger pequeños comercios, guarderías, Spätis y clubes",
+        "es": "Tope de alquileres en las viviendas de las LWU (empresas municipales) en los primeros 100 días: congelación un año y luego subida máxima del 1 % anual en la ley de suministro de vivienda; impulsar un tope federal; tope también en alquileres comerciales para proteger pequeños comercios, guarderías, tiendas de barrio (Spätis) y clubes",
         "ku": "Sînorê kirêyê ji bo xaniyên LWU (şirketên şaredariyê) di 100 rojên pêşîn de: salê cemidandin, paşê herî zêde %1 zêdebûn di salê de; sînorê federal ê kirêyê; sînorê kirêya bazirganî jî ji bo dikanên piçûk, kreş, Spätî û kluban"
       },
       "sources": [
@@ -8801,7 +8801,7 @@
         "pl": "przeciw limitowi czynszu (Mietendeckel); przegląd ustaw „Mieten-TÜV” oraz coroczny indeks czynszów (Mietspiegel) na podstawie realnych danych bez wpływów politycznych",
         "uk": "проти стелі оренди (Mietendeckel); перевірка законів «Mieten-TÜV» і щорічний індекс оренди (Mietspiegel) на основі реальних даних без політичного впливу",
         "ar": "ضد سقف الإيجار (ميتندكل)؛ مراجعة \"Rents TÜV\" للقوانين التي ترفع تكاليف البناء والإيجارات؛ مؤشر الإيجار السنوي (Mietspiegel) بناءً على بيانات حقيقية دون تأثير سياسي",
-        "es": "En contra de un tope de alquileres (Mietendeckel); «TÜV de los alquileres»: revisar las leyes que encarecen la construcción y los alquileres; índice de alquileres anual (Mietspiegel) con datos reales y sin injerencia política",
+        "es": "En contra de un tope de alquileres; «TÜV de los alquileres»: revisar las leyes que encarecen la construcción y los alquileres; índice de alquileres anual (índice de alquileres) con datos reales y sin injerencia política",
         "ku": "Li dijî sînorê kirêyê (Mietendeckel); «TÜV ya kirêyan»: zagonên ku lêçûnên avakirinê û kirêyan zêde dikin binirxînin; indeksa salane ya kirêyê (Mietspiegel) li ser daneyên rastîn, bê bandora siyasî"
       },
       "sources": [
@@ -8831,7 +8831,7 @@
         "pl": "bez regulacji cen: „najlepszym hamulcem cen jest wystarczająca podaż mieszkań”, więc usuwać przeszkody dla prywatnego wynajmu; zamiast tego dodatki do zasiłku mieszkaniowego (zasiłek mieszkaniowy) dla posiadaczy WBS oraz pełna przejrzystość rachunków za ogrzewanie i kontraktowania ciepła",
         "uk": "без цінового регулювання: «найкраще гальмо цін — достатня пропозиція житла», тож прибрати перешкоди для приватної оренди; натомість доплати до житлової допомоги (житлова допомога) для власників WBS і повна прозорість рахунків за опалення та теплового контрактингу",
         "ar": "لا تنظيم للأسعار: \"إن أفضل مكبح للأسعار هو المعروض الكافي من المساكن\"، لذا يجب إزالة العقبات التي تحول دون الإيجار الخاص؛ بدلاً من ذلك، قم بزيادة إعانة الإسكان (إعانة الإسكان) لحاملي WBS والشفافية الكاملة لفواتير التدفئة والتعاقد الحراري",
-        "es": "Sin regulación de precios: «el mejor freno a los precios es una oferta suficiente de vivienda», así que eliminar obstáculos al alquiler privado; en su lugar, complementos de prestación de vivienda (Wohngeld) para titulares de WBS y total transparencia en facturas de calefacción y contratos de calor",
+        "es": "Sin regulación de precios: «el mejor freno a los precios es una oferta suficiente de vivienda», así que eliminar obstáculos al alquiler privado; en su lugar, complementos de prestación de vivienda para titulares del certificado WBS y total transparencia en facturas de calefacción y contratos de calor",
         "ku": "Bê rêziknameya bihayan: «baştirîn frena bihayan pêşkêşiya têra xaniyan e», ji ber vê yekê astengiyên kirêya taybet jê bikin; li şûna wê zêdekirina alîkariya xaniyê (Wohngeld) ji bo xwediyên WBS û şeffafiya tevahî ya fatûreyan û kontraktên germê"
       },
       "sources": [
@@ -8867,7 +8867,7 @@
         "pl": "kolejna próba limitu czynszu (Mietendeckel): inicjatywa w Bundesracie o wprowadzenie ogólnokrajowe na napiętych rynkach jak Berlin albo o uprawnienie landów do samodzielnego wprowadzenia; konsekwentnie egzekwować istniejące przepisy najmu",
         "uk": "ще одна спроба стелі оренди (Mietendeckel): ініціатива Бундесрату для загальнофедерального запровадження на напружених ринках, як-от Берлін, або щоб землі могли запровадити її самі; послідовно застосовувати чинні правила оренди",
         "ar": "محاولة أخرى لتحديد سقف الإيجار (ميتندكل): مبادرة البوندسرات لوضع سقف على مستوى البلاد في الأسواق الضيقة مثل برلين، أو السماح للولايات بتقديمه بنفسها؛ فرض قواعد الإيجار الحالية باستمرار",
-        "es": "Nuevo intento de tope de alquileres (Mietendeckel): iniciativa en el Bundesrat para un tope estatal en mercados tensionados como Berlín, o para que los Länder lo introduzcan ellos mismos; aplicar con rigor las normas de alquiler ya vigentes",
+        "es": "Nuevo intento de tope de alquileres: iniciativa en el Consejo Federal para un tope estatal en mercados tensionados como Berlín, o para que los Länder (estados federados) lo introduzcan ellos mismos; aplicar con rigor las normas de alquiler ya vigentes",
         "ku": "Hewldaneke din a sînorê kirêyê (Mietendeckel): înîsiyatîfa Bundesrat ji bo sînorekî federal li bazarên teng ên wekî Berlînê, an jî da ku Länder bi xwe bidin destpêkirin; rêzikên kirêyê yên heyî bi rêkûpêk bicîh bînin"
       },
       "sources": [
@@ -8903,7 +8903,7 @@
         "pl": "przeciw sztywnym limitom czynszu (Mietendeckel) i blankietowym wywłaszczeniom — dowody, że ograniczają podaż i spowalniają modernizację; zachować hamulec czynszowy (Mietpreisbremse) w dzielnicach z napiętym rynkiem, uprościć kontrolę dopuszczalnego czynszu i wprowadzić odporną na manipulacje cyfrową bazę mieszkań dla przejrzystości indeksu czynszów oraz ujawniania pustostanów i spekulacji",
         "uk": "проти жорстких стель оренди (Mietendeckel) і суцільної експропріації — дані свідчать, що вони зменшують пропозицію і гальмують модернізацію; зберегти гальмо оренди (Mietpreisbremse) у районах із напруженим ринком, спростити перевірку допустимої оренди та запровадити захищену цифрову базу житла для прозорості індексу оренди й виявлення порожнього житла та спекуляції",
         "ar": "وضد الحدود الصارمة للإيجارات (ميتندكل) والمصادرة الشاملة ــ وهو دليل على أنها تقلص المعروض وتبطئ عملية التحديث؛ إبقاء مكبح الإيجار (Mietpreisbremse) في الأحياء ذات الأسواق المحدودة، وتبسيط عمليات التحقق من الإيجار المسموح به، وإدخال قاعدة بيانات رقمية للإسكان مقاومة للتلاعب من أجل شفافية مؤشر الإيجار والكشف عن الوظائف الشاغرة والمضاربات",
-        "es": "En contra de topes rígidos (Mietendeckel) y expropiaciones generalizadas —hay evidencia de que reducen la oferta y frenan la modernización—; mantener el freno a los alquileres (Mietpreisbremse) en barrios tensionados, simplificar el control del alquiler permitido e introducir una base de datos digital de viviendas a prueba de manipulaciones para transparentar el índice de alquileres y detectar vacíos y especulación",
+        "es": "En contra de topes rígidos de alquiler y expropiaciones generalizadas —hay evidencia de que reducen la oferta y frenan la modernización—; mantener el freno a los alquileres en barrios tensionados, simplificar el control del alquiler permitido e introducir una base de datos digital de viviendas a prueba de manipulaciones para transparentar el índice de alquileres y detectar vacíos y especulación",
         "ku": "Li dijî sînorên hişk ên kirêyê (Mietendeckel) û desteserkirinên giştî — delîl hene ku pêşkêşiyê kêm dikin û nûjenkirinê hêdî dikin; frena kirêyê (Mietpreisbremse) li taxên teng biparêzin, kontrola kirêya destûrdar hêsantir bikin û bingeheke daneyên dîjîtal a xaniyan a li hemberî destkarîyê bînin bo şeffafiya indeksa kirêyê û eşkerekirina valahî û spekulasyonê"
       },
       "sources": [
@@ -8939,7 +8939,7 @@
         "pl": "przywrócić wiążący landowy limit czynszu (Mietendeckel) dla publicznego zasobu: nowe umowy co najmniej 10% poniżej lokalnego czynszu porównawczego, mieszkania WBS max 6,50 €/m², czynsz z mediami max 30% dochodu z ochroną przed wypowiedzeniem przy tymczasowych trudnościach płatniczych; landowy rejestr czynszów i licencja wynajmującego",
         "uk": "відновити обов’язкову земельну стелю оренди (Mietendeckel) для публічного житлофонду: нові договори щонайменше на 10% нижче місцевої порівняльної оренди, квартири WBS щонайбільше 6,50 €/м², «тепла» оренда не вище 30% доходу із захистом від розірвання при тимчасових платіжних труднощах; земельний реєстр оренди та ліцензія орендодавця",
         "ar": "استعادة الحد الأقصى الملزم للإيجار الحكومي (Mietendeckel) لمخزون المساكن العامة: عقود إيجار جديدة تقل بنسبة 10% على الأقل عن الإيجار المقارن المحلي، وشقق WBS بحد أقصى 6.50 يورو للمتر المربع، وإيجار دافئ بحد أقصى 30% من الدخل مع الحماية من الإنهاء أثناء ضائقة الدفع المؤقتة؛ سجل الإيجار على مستوى الولاية ورخصة المالك",
-        "es": "Restablecer un tope de alquileres (Mietendeckel) vinculante en el parque público: nuevos contratos al menos un 10 % por debajo del alquiler comparativo local; pisos WBS a máximo 6,50 €/m²; alquiler caliente limitado al 30 % de los ingresos, con protección frente a la rescisión en dificultades temporales de pago; registro estatal de alquileres y licencia para arrendadores",
+        "es": "Restablecer un tope de alquileres vinculante en el parque público: nuevos contratos al menos un 10 % por debajo del alquiler comparativo local; pisos con certificado WBS a máximo 6,50 €/m²; alquiler caliente limitado al 30 % de los ingresos, con protección frente a la rescisión en dificultades temporales de pago; registro estatal de alquileres y licencia para arrendadores",
         "ku": "Sînorê kirêyê (Mietendeckel) yê girêdayî yê herêmî ji bo stoka xaniyên giştî vegerînin: kirêyên nû herî kêm %10 di binê kirêya berawirdî ya herêmî de; apartmanên WBS herî zêde 6,50 €/m²; kirêya germ herî zêde %30 ji dahatê, bi parastina li hemberî betalikirinê di zehmetiyên demkî yên dayînê de; tomara kirêyê ya herêmî û lîsansa xwediyê xaniyê"
       },
       "sources": [
@@ -9777,7 +9777,7 @@
         "pl": "rozszerzyć zasób landowych spółek mieszkaniowych do 500 000 mieszkań z dokapitalizowaniem; cyfryzować WBS (zaświadczenie o uprawnieniu do mieszkania socjalnego) i dodatki mieszkaniowe; lokale socjalne dla potrzebujących, z kontrolą dochodów przy ponownym wynajmie",
         "uk": "розширити фонд земельних житлових компаній до 500 000 квартир із докапіталізацією; оцифрувати WBS (довідку про право на соцжитло) і житлові допомоги; соцжитло — потребуючим, із перевіркою доходів при новому здаванні",
         "ar": "وتوسيع مخزون شركات الإسكان البلدية إلى 500 ألف شقة من خلال ضخ الأسهم؛ رقمنة WBS (Wohnberechtigungsschein / شهادة الأهلية) وتطبيقات إعانات الإسكان؛ استهداف الإسكان الاجتماعي لأولئك الذين يحتاجون إليه، مع فحص الدخل عند إعادة تأجيره",
-        "es": "Ampliar el parque de las empresas municipales a 500.000 pisos con inyecciones de capital; digitalizar la WBS (Wohnberechtigungsschein) y las solicitudes de prestación de vivienda; orientar la vivienda social a quien la necesita, con control de rentas al realquilar",
+        "es": "Ampliar el parque de las empresas municipales a 500.000 pisos con inyecciones de capital; digitalizar el certificado WBS ) y las solicitudes de prestación de vivienda; orientar la vivienda social a quien la necesita, con control de rentas al realquilar",
         "ku": "Stokên şirketên xaniyan ên şaredariyê bi derziyên wekheviyê bigihîne 500,000 apartmanan; WBS (Wohnberechtigungsschein / sertîfîkaya qayilbûnê) û serîlêdanên xanî-fêdeyê dîjîtal bikin; xaniyên civakî ji bo kesên ku pêdiviya wan pê heye, bi kontrolên hatiniyê yên li ser ji nû ve îcazekirinê armanc bikin"
       },
       "sources": [
@@ -9849,7 +9849,7 @@
         "pl": "rozwijać landowe spółki mieszkaniowe jako trwale zorientowane na dobro wspólne; podnieść kwotę WBS przy przydziale; Genossenschaftspakt (pakt spółdzielczy) na odbiurokratyzowanie, finansowanie i dostęp do gruntów",
         "uk": "розвивати земельні житлові компанії як стійких суспільно орієнтованих гравців; підвищити квоту WBS при розподілі; Genossenschaftspakt («пакт кооперативів») — менше бюрократії, фінансування і доступ до землі",
         "ar": "ومواصلة تطوير شركات الإسكان البلدية باعتبارها جهات فاعلة دائمة للصالح العام؛ رفع حصة WBS (شهادة الأهلية) في المخصصات؛ Genossenschaftspakt (\"ميثاق تعاوني\") للحد من البيروقراطية والتمويل والحصول على الأراضي",
-        "es": "Seguir consolidando las empresas municipales como actores permanentes del bien común; subir la cuota WBS en las adjudicaciones; Genossenschaftspakt («pacto cooperativo») para menos burocracia, financiación y acceso a suelo",
+        "es": "Seguir consolidando las empresas municipales como actores permanentes del bien común; subir la cuota del certificado WBS en las adjudicaciones; pacto cooperativo para menos burocracia, financiación y acceso a suelo",
         "ku": "Bêtir pêşdebirina pargîdaniyên xaniyan ên şaredariyê wekî aktorên hevpar-baş ên mayînde; di veqetandinê de kotaya WBS (sertîfîkaya destûrdariyê) zêde bike; Genossenschaftspakt (\"peymana hevkariyê\") ji bo kêmkirina burokrasiyê, fînanse û gihîştina axê"
       },
       "sources": [
@@ -9885,7 +9885,7 @@
         "pl": "rozszerzać ok. 400 000 mieszkań spółek landowych (LWU), w tym Berlinovo jako siódmą, i dokupywać zasoby; wewnątrz pierścienia S-Bahn 100% zwalnianych mieszkań LWU dla gospodarstw z WBS (do WBS 220); właściciele >1000 mieszkań muszą co drugie ponowne wynajęcie oddawać po przystępnej cenie",
         "uk": "нарощувати ~400 000 квартир земельних компаній (LWU), включно з Berlinovo як сьомою, і докуповувати фонди; всередині кільця S-Bahn 100 % квартир LWU, що звільняються, — домогосподарствам із WBS (до WBS 220); власники >1000 квартир мають здавати кожну другу нову оренду за доступною ціною",
         "ar": "تنمية ما يقرب من 400000 شقة بلدية (LWU)، بما في ذلك برلينوفو باعتبارها الشركة السابعة، والاستمرار في شراء الأسهم؛ داخل حلقة S-Bahn، 100% من وحدات LWU التي تم إخلاؤها لأسر WBS (حتى WBS 220)؛ يجب على الملاك الذين لديهم أكثر من 1000 وحدة السماح بإعادة تأجير كل ثانية بتكلفة معقولة",
-        "es": "Ampliar los ~400.000 pisos municipales de las LWU, incluida Berlinovo como séptima empresa, y seguir comprando parque; dentro del anillo del S-Bahn, el 100 % de los pisos LWU que queden libres para hogares con WBS (hasta WBS 220); quien tenga más de 1.000 pisos debe alquilar uno de cada dos realquileres a precio asequible",
+        "es": "Ampliar los ~400.000 pisos municipales de las LWU, incluida Berlinovo como séptima empresa, y seguir comprando parque; dentro del anillo del S-Bahn, el 100 % de los pisos LWU que queden libres para hogares con certificado WBS (hasta el nivel WBS 220); quien tenga más de 1.000 pisos debe alquilar uno de cada dos realquileres a precio asequible",
         "ku": "~400,000 Apartmanên şaredariyê (LWU) mezin bikin, di nav de Berlinovo wekî pargîdaniya heftemîn, û kirîna stok berdewam bikin; di hundurê zengila S-Bahn de, 100% ji yekîneyên LWU yên valakirî ji malbatên WBS (belgeya mafê xaniyê) re (heta WBS 220); Xwediyên xaniyan ên bi> 1,000 yekîneyan divê her duyemîn bi erzanî ji nû ve bihêlin"
       },
       "sources": [
@@ -9927,7 +9927,7 @@
         "pl": "landowe spółki mieszkaniowe budują proste modułowe mieszkania na gruntach landu i termomodernizują zasób; długoterminowo preferencja dla dopłat podmiotowych (zasiłek mieszkaniowy) zamiast przedmiotowych; dzielnice dostają udział w wpływach ze sprzedaży gruntów",
         "uk": "земельні житлові компанії будують прості модульні квартири на землі землі й енергомодернізують фонд; довгостроково — суб’єктні субсидії (житлова допомога / житлова допомога) замість об’єктних; райони отримують частку від продажу ділянок",
         "ar": "وتقوم شركات الإسكان البلدية ببناء شقق نموذجية بسيطة على أراضي الدولة وتركز على تجديد الطاقة في مخزونها؛ على المدى الطويل، يفضلون الإعانات الموضوعية (إعانة الإسكان / إعانة الإسكان) على الإعانات الموضوعية للإسكان الاجتماعي؛ تحصل المقاطعات على حصة من عائدات مبيعات أراضي الدولة",
-        "es": "Las empresas municipales construyen pisos modulares sencillos en suelo público y priorizan la rehabilitación energética de su parque; a largo plazo, preferir ayudas a la persona (Wohngeld) frente a subvenciones al objeto en vivienda social; los distritos reciben una parte de los ingresos por venta de suelo público",
+        "es": "Las empresas municipales construyen pisos modulares sencillos en suelo público y priorizan la rehabilitación energética de su parque; a largo plazo, preferir ayudas a la persona frente a subvenciones al objeto en vivienda social; los distritos reciben una parte de los ingresos por venta de suelo público",
         "ku": "Pargîdaniyên xaniyên şaredariyê li ser axa dewletê apartmanên modular ên hêsan çêdikin û balê dikişînin ser nûkirina enerjiyê ya stoka xwe; demdirêj, yarmetiyên babetê (tezmînata xaniyan) li ser yarmetiyên objeyê yên ji bo xaniyên civakî tercîh bikin; navçeyan ji firotina erdên dewletê para xwe distînin"
       },
       "sources": [
@@ -9957,7 +9957,7 @@
         "pl": "priorytet dla długo mieszkających w Berlinie przy przydziale mieszkań landowych i dofinansowanych – system punktowy („mieszkania to nie schroniska dla azylantów”); uzupełnić dodatek mieszkaniowy o dopłaty do czynszu dla posiadaczy WBS; przywrócić opłatę za niewłaściwe zasiedlenie (Fehlbelegungsabgabe)",
         "uk": "пріоритет довго мешканцям Берліна при розподілі земельного й субсидованого житла за бальною системою («квартири — не притулки для шукачів притулку»); доповнити житлову допомогу доплатами до оренди для власників WBS; повернути збір за нецільове заселення (Fehlbelegungsabgabe)",
         "ar": "الأولوية للمقيمين لفترة طويلة في برلين عند تخصيص السكن البلدي والمدعوم، عبر نظام النقاط (\"الشقق ليست ملاجئ للاجئين\")؛ تكملة مزايا السكن مع زيادة الإيجار لحاملي WBS؛ إعادة فرض ضريبة سوء التخصيص (Fehlbelegungsabgabe) على الإسكان الاجتماعي",
-        "es": "Prioridad para residentes de larga duración en Berlín al adjudicar vivienda municipal y subvencionada, con sistema de puntos («los pisos no son centros de asilo»); complementar el Wohngeld con extras de alquiler para titulares de WBS; reintroducir la tasa por ocupación indebida (Fehlbelegungsabgabe) en vivienda social",
+        "es": "Prioridad para residentes de larga duración en Berlín al adjudicar vivienda municipal y subvencionada, con sistema de puntos («los pisos no son centros de asilo»); complementar el prestación de vivienda con extras de alquiler para titulares del certificado WBS; reintroducir la tasa por ocupación indebida (tasa por ocupación indebida) en vivienda social",
         "ku": "Pêşanî ji bo niştecîhên Berlînê yên demdirêj dema dabeşkirina xaniyên şaredarî û yarmetîdankirî, bi pergala xalan (\"apartman ne stargehên penaberiyê ne\"); ji bo xwediyên WBS (belgeya mafê xaniyê)-ê sûda xanî bi zêdekirina kirê zêde bikin; ji nû ve baca veqetandinê (Fehlbelegungsabgabe) li ser xaniyên civakî"
       },
       "sources": [
@@ -10035,7 +10035,7 @@
         "pl": "podnieść zasób dobra wspólnego do nawet 50% (spółdzielnie, spółki landowe, wielopokoleniowe/pracownicze) przez Erbbaurecht (prawo zabudowy); utrzymać kwoty socjalne przy dużych inwestycjach; opłata za niewłaściwe zasiedlenie na nowe lokale socjalne; społeczna agencja najmu podnajmuje rynkowe mieszkania osobom o niskich dochodach",
         "uk": "підняти суспільно орієнтований фонд до ~50 % (кооперативи, земельні компанії, багатопоколінне/службове житло) через Erbbaurecht (право забудови); зберегти соцквоти на великих новобудовах; збір за нецільове заселення — на нові соцквартири; соцагентство орендує на ринку й здає малозабезпеченим",
         "ar": "رفع مخزون المساكن ذات الصالح العام إلى ما يصل إلى 50% (التعاونيات والشركات البلدية والإسكان متعدد الأجيال وإسكان أصحاب العمل) من خلال حق البناء الوراثي (Erbbaurecht)؛ الحفاظ على الحصص الاجتماعية في المباني الجديدة الكبيرة؛ Fehlbelegungsabgabe (ضريبة سوء التخصيص) المخصصة للإسكان الاجتماعي الجديد؛ وكالة تأجير اجتماعية لتأجير شقق السوق للمستأجرين ذوي الدخل المنخفض",
-        "es": "Elevar el parque de vivienda de interés general hasta cerca del 50 % (cooperativas, empresas municipales, vivienda intergeneracional y de empresa) mediante derecho de superficie (Erbbaurecht); mantener cuotas sociales en grandes promociones; Fehlbelegungsabgabe destinada a nueva vivienda social; agencia de alquiler social que subarriende pisos de mercado a rentas bajas",
+        "es": "Elevar el parque de vivienda de interés general hasta cerca del 50 % (cooperativas, empresas municipales, vivienda intergeneracional y de empresa) mediante derecho de superficie; mantener cuotas sociales en grandes promociones; tasa por ocupación indebida destinada a nueva vivienda social; agencia de alquiler social que subarriende pisos de mercado a rentas bajas",
         "ku": "Bi rêya mafê avahîsaziyê (Erbbaurecht) stokên xaniyên hevpar-baş heta %50 (kooperatîf, pargîdaniyên şaredariyê, xaniyên pir-nifş û xwedîkar) bilind bikin; kotayên civakî li ser avahiyên nû yên mezin biparêzin; Fehlbelegungsabgabe (baca veqetandinê) ji bo xaniyên nû yên civakî; ajansa kirêkirina civakî da ku daîreyên sûkê ji kirêdarên kêm-dahat re bikire"
       },
       "sources": [
@@ -10077,7 +10077,7 @@
         "pl": "landowy limit czynszu dla zasobu publicznego; mieszkania WBS max 6,50 €/m²; wyraźnie podnieść obowiązkową kwotę mieszkań socjalnych w nowym budownictwie; wzmocnić fundusz ziemi/mieszkań z liniami kredytowymi i aktywnym wykupem budynków z pustostanem, ruiną lub upadłością",
         "uk": "земельна стеля оренди для публічного фонду; квартири за WBS — макс. 6,50 €/м²; різко підвищити обов’язкову квоту соцжитла в новобудовах; зміцнити земельно-житловий фонд кредитами й активним викупом будинків із порожнечею, занепадом чи банкрутством",
         "ar": "سقف إيجار الدولة للأسهم العامة؛ شقق WBS بحد أقصى 6.50 يورو للمتر المربع؛ ورفع حصة الإسكان الاجتماعي الإلزامية بشكل حاد في المباني الجديدة؛ تعزيز صندوق الأراضي/الإسكان بخطوط ائتمان وعمليات إعادة شراء نشطة للمباني المتضررة من الشغور أو الاضمحلال أو الإعسار",
-        "es": "Tope de alquiler estatal para el parque público; pisos WBS a máximo 6,50 €/m²; subir con fuerza la cuota obligatoria de vivienda social en obra nueva; reforzar un fondo de suelo/vivienda con líneas de crédito y recompras activas de edificios con vacíos, deterioro o insolvencia",
+        "es": "Tope de alquiler estatal para el parque público; pisos con certificado WBS a máximo 6,50 €/m²; subir con fuerza la cuota obligatoria de vivienda social en obra nueva; reforzar un fondo de suelo/vivienda con líneas de crédito y recompras activas de edificios con vacíos, deterioro o insolvencia",
         "ku": "Kapasîteya kirêya dewletê ji bo stokên giştî; Apartmanên WBS (belgeya mafê xaniyê) herî zêde 6,50 €/m²; di avahîyên nû de kotaya mecbûrî ya xanîyên civakî bi tundî bilind bikin; bi xetên kredî û kirîna çalak a avahiyên ku ji ber valabûn, rizandin an îflasê ketine fonek erd/xaniyê xurt bikin."
       },
       "sources": [
@@ -10149,7 +10149,7 @@
         "pl": "wzmocnić egzekwowanie zakazu niewłaściwego użytkowania (Zweckentfremdung); podatek od nieruchomości C (Grundsteuer C) na działki gotowe pod zabudowę; nakazy zabudowy (Baugebote), gdy dwa lata po pozwoleniu nie rozpoczęto budowy",
         "uk": "посилити боротьбу з нецільовим використанням житла (Zweckentfremdung); податок на майно C (Grundsteuer C) на готові до забудови порожні ділянки; приписи про забудову (Baugebote), якщо два роки після дозволу немає початку будівництва",
         "ar": "تعزيز إنفاذ القانون ضد إساءة استخدام السكن (Zweckentfremdung)؛ فرض ضريبة الأملاك C (Grundsteuer C) على قطع الأراضي الشاغرة الجاهزة للبناء؛ تطبيق أوامر البناء (Baugebote) عندما تظل التصاريح غير مستخدمة لمدة عامين",
-        "es": "Reforzar el control del uso indebido de vivienda (Zweckentfremdung); introducir la Grundsteuer C en solares vacíos listos para edificar; aplicar órdenes de construcción (Baugebote) cuando las licencias lleven dos años sin usarse",
+        "es": "Reforzar el control del uso indebido de vivienda; introducir el impuesto predial C en solares vacíos listos para edificar; aplicar órdenes de construcción cuando las licencias lleven dos años sin usarse",
         "ku": "Xurtkirina îcrayê li dijî xirab bikaranîna xaniyan (Zweckentfremdung); dana baca milk C (Grundsteuer C) li ser zeviyên vala amade-çêkirî; dema ku destûr du sal bêkar dimînin, fermanên avahiyê (Baugebote) bicîh bikin"
       },
       "sources": [
@@ -10215,7 +10215,7 @@
         "pl": "zaostrzyć zakaz niewłaściwego użytkowania (min. 50 000 € kary) i ograniczyć najem turystyczny; po sześciu miesiącach pustostanu — zarząd przymusowy, uspołecznienie jako ostateczność; podatek C i surowe nakazy zabudowy",
         "uk": "жорсткіший заборони нецільового використання (штраф від 50 000 €) і обмежити туристичну оренду; після шести місяців порожнечі — примусове управління, усуспільнення як крайній захід; податок C і суворі приписи про забудову",
         "ar": "تشديد حظر Zweckentfremdung (غرامة قدرها 50.000 يورو كحد أدنى) وتقييد المزيد من العطلات؛ وبعد ستة أشهر من الشغور - الإدارة الإلزامية، والتنشئة الاجتماعية كملاذ أخير؛ ضريبة الأملاك C وأوامر البناء الصارمة ضد المضاربة على الأراضي",
-        "es": "Endurecer la prohibición de Zweckentfremdung (multa mínima de 50.000 €) y limitar más los alquileres vacacionales; tras seis meses de vacío: administración forzosa y socialización como último recurso; Grundsteuer C y órdenes de construcción estrictas contra la especulación con suelo",
+        "es": "Endurecer la prohibición del uso indebido de vivienda (multa mínima de 50.000 €) y limitar más los alquileres vacacionales; tras seis meses de vacío: administración forzosa y socialización como último recurso; impuesto predial C y órdenes de construcción estrictas contra la especulación con suelo",
         "ku": "Qedexeya Zweckentfremdung (kêm. 50,000 € ceza) tundtir bike û betlaneyên betlaneyê hîn zêdetir bike; piştî şeş mehan valahiyê - rêveberiya mecbûrî, civakîbûn wekî çareya dawî; baca milk C û fermanên hişk ên avahiyê li dijî spekulasyona axê"
       },
       "sources": [
@@ -10251,7 +10251,7 @@
         "pl": "szeroki zakaz mieszkań turystycznych w budynkach mieszkalnych; znieść „Berliner Linie” i zastąpić ustawą o pustostanach; zajęcie lokalu pustego ≥1 rok ma dawać trwałe prawo zamieszkania, jeśli właściciel nie zobowiąże się do ponownego wynajmu po społecznie akceptowalnym czynszu",
         "uk": "повна заборона туристичних квартир у житлових будинках; скасувати «берлінську лінію» і замінити законом про порожнє житло; зайняття порожнього ≥1 рік житла — до постійного права на проживання, якщо власники не зобов’язуються знову здати за соціально прийнятною орендою",
         "ar": "فرض حظر شامل على شقق العطلات في المباني السكنية؛ إلغاء \"خط برلين\" واستبداله بقانون الشواغر؛ يجب أن يؤدي شغل المساكن الشاغرة لمدة عام على الأقل إلى حقوق سكن دائمة ما لم يلتزم المالكون بإعادة تأجيرها بإيجارات مقبولة اجتماعيًا",
-        "es": "Prohibición total de pisos turísticos en edificios residenciales; abolir la «Berliner Linie» y sustituirla por una ley sobre vacíos; ocupar una vivienda vacía al menos un año debería generar derechos de vivienda duraderos, salvo que la propiedad se comprometa a realquilar a rentas socialmente aceptables",
+        "es": "Prohibición total de pisos turísticos en edificios residenciales; abolir la «línea berlinesa» y sustituirla por una ley sobre vacíos; ocupar una vivienda vacía al menos un año debería generar derechos de vivienda duraderos, salvo que la propiedad se comprometa a realquilar a rentas socialmente aceptables",
         "ku": "Qedexeya berfireh a apartmanên betlaneyê li avahiyên niştecîh; \"Berliner Linie\" betal bike û li şûna wê qanûnek valahiyê bi cih bike; dagîrkirina xaniyên vala bi kêmî ve salekê divê bibe sedema mafên xanî yên mayînde heya ku xwedan pabend nebin ku kirêyên pejirandî yên civakî bihêlin."
       },
       "sources": [
@@ -10453,7 +10453,7 @@
         "pl": "na stałe utrzymać zakaz przekształcania najmu w własność; ograniczyć eksmisje na Eigenbedarf do najbliższej rodziny i wykluczyć „kupiony” Eigenbedarf; zakazać czynszów indeksowanych i obniżyć kapturek podwyżek do max 6% w 3 lata; nie przerzucać podatku od nieruchomości na najemców; chronić najemców już mieszkających przy przekształceniu",
         "uk": "зробити заборону перетворення оренди на власність безстроковою; обмежити виселення «для власних потреб» ядерною сім’єю і заборонити «куплений» Eigenbedarf; заборонити індексну оренду і знизити стелю зростання оренди до макс. 6% за три роки; не перекладати податок на майно на орендарів; захищати вже мешканців при перетворенні",
         "ar": "وجعل الحظر المفروض على تحويل الإيجارات إلى وحدات سكنية دائمة؛ قصر عمليات الإخلاء للاستخدام الشخصي على الأسرة النووية وحظر الاستخدام الشخصي \"المشترى\"؛ وحظر عقود الإيجار المرتبطة بالمؤشر وخفض سقف زيادة الإيجار إلى 6% كحد أقصى على مدى ثلاث سنوات؛ التوقف عن تمرير ضريبة الأملاك على المستأجرين؛ حماية المستأجرين الذين يعيشون بالفعل في شقة عند تحويلها",
-        "es": "Hacer permanente la prohibición de convertir alquileres en pisos en propiedad; limitar los desahucios por uso propio (Eigenbedarf) al núcleo familiar y prohibir el uso propio «comprado»; prohibir contratos indexados y bajar el tope de subidas al 6 % en tres años; dejar de repercutir el impuesto predial a los inquilinos; proteger a quien ya vive en el piso al convertirlo",
+        "es": "Hacer permanente la prohibición de convertir alquileres en pisos en propiedad; limitar los desahucios por uso propio al núcleo familiar y prohibir el uso propio «comprado»; prohibir contratos indexados y bajar el tope de subidas al 6 % en tres años; dejar de repercutir el impuesto predial a los inquilinos; proteger a quien ya vive en el piso al convertirlo",
         "ku": "Qedexekirina veguhertina kirêyan bo kondomîyûmê mayînde bikin; derxistina karanîna kesane ji malbata nukleer re sînordar bike û karanîna kesane ya \"kirîn\" qedexe bike; kirêkirinên bi îndeksê ve girêdayî qedexe bike û di nav sê salan de kapasîteya kirê-zêdekirina herî zêde 6% kêm bike; rawestandina derbaskirina baca milk ji kirêdaran re; kirêdarên ku berê di xaniyekê de dijîn biparêzin dema ku ew tê veguheztin"
       },
       "sources": [
@@ -10501,7 +10501,7 @@
         "pl": "zatrzymanie przekształcania najmu w własność; uczynienie zakazu przekształceń trwałym; znaczne utrudnienie eksmisji z powodu własnego zamieszkania",
         "uk": "зупинити перетворення орендного житла на власність; зробити заборону на конверсію безстроковою; суттєво ускладнити виселення через власне проживання",
         "ar": "التوقف عن تحويل الإيجارات إلى شقق سكنية؛ جعل حظر التحويل دائمًا؛ جعل عمليات إخلاء إشغال المالك أكثر صعوبة",
-        "es": "Dejar de convertir alquileres en pisos en propiedad; hacer permanente la prohibición de conversión; dificultar mucho más los desahucios por uso propio (Eigenbedarf)",
+        "es": "Dejar de convertir alquileres en pisos en propiedad; hacer permanente la prohibición de conversión; dificultar mucho más los desahucios por uso propio",
         "ku": "Rawestandina veguhertina kirêyan li kondoyan; qedexeya veguherînê daîmî bikin; derxistina xwedan-dagîrkeriyê pir dijwartir bike"
       },
       "sources": [
@@ -10615,7 +10615,7 @@
         "pl": "ograniczyć skutki uboczne Milieuschutz (hamulec inwestycji/nowego budownictwa); ułatwić przebudowy i nową zabudowę; ułatwić najemcom drogę do własności — brak stanowiska ws. Eigenbedarf",
         "uk": "обмежити побічні ефекти Milieuschutz (гальмо інвестицій/новобудов); полегшити перебудови й нове будівництво; допомогти орендарям стати власниками — немає позиції щодо Eigenbedarf",
         "ar": "الحد من الآثار الجانبية لمناطق ميليوشوتز (الاستثمار/البناء الجديد)؛ تسهيل القواعد بحيث تصبح التعديلات والبنيات الجديدة أسهل؛ مساعدة المستأجرين على أن يصبحوا مالكين - لا يوجد موقف بشأن عمليات الإخلاء للاستخدام الشخصي",
-        "es": "Limitar los efectos secundarios de las zonas Milieuschutz (freno a la inversión y a la obra nueva); facilitar reformas y nueva construcción; ayudar a los inquilinos a convertirse en propietarios — sin posición sobre desahucios por uso propio",
+        "es": "Limitar los efectos secundarios de las zonas de protección de barrio (freno a la inversión y a la obra nueva); facilitar reformas y nueva construcción; ayudar a los inquilinos a convertirse en propietarios — sin posición sobre desahucios por uso propio",
         "ku": "Bandorên alîgirên deverên Milieuschutz (veberhênanî / sarbûna nû-avakirinê) bisînor bikin; qaîdeyên hêsan bikin ji ber vê yekê guhertin û avakirina nû hêsantir in; alîkariya kirêdaran bikin ku bibin xwedan - helwestek li ser derxistina karanîna kesane tune"
       },
       "sources": [
@@ -10772,7 +10772,7 @@
         "pl": "podnieść podatek od nabycia nieruchomości o 0,5 pkt proc.; wyjątki dla zamieszkujących właścicieli; możliwa niższa stawka na własne cele po reformie Share Deal — bez ogólnego zwolnienia pierwszego nabywcy",
         "uk": "підняти податок на придбання нерухомості на 0,5 в.п.; винятки для власників-мешканців; можливий нижчий тариф для власного житла після закриття Share Deals — без загального звільнення першого покупця",
         "ar": "رفع ضريبة نقل ملكية العقارات بمقدار 0.5 نقطة مئوية بشكل عام؛ استثناءات للمالكين الشاغلين؛ احتمال انخفاض معدل الاستخدام الذاتي بعد حملة فيدرالية لصفقات المشاركة - وليس إعفاء شامل للمشتري الأول",
-        "es": "Subir el impuesto sobre la transmisión de inmuebles 0,5 puntos en total; excepciones para quien vive en su vivienda; posible tipo más bajo por uso propio tras una ofensiva federal contra los Share Deals — no una exención general al primer comprador",
+        "es": "Subir el impuesto sobre la transmisión de inmuebles 0,5 puntos en total; excepciones para quien vive en su vivienda; posible tipo más bajo por uso propio tras una ofensiva federal contra los compraventas de participaciones — no una exención general al primer comprador",
         "ku": "Baca veguheztina milkê bi giştî 0,5 pûanan zêde bikin; îstîsna ji bo kesên ku di xaniyê xwe de dijîn; piştî êrîşekî federal li dijî Share Deal-an dibe ku rêjeya bikaranîna xwe kêmtir be — ne îstîsnayeke giştî ji bo kiriyarê yekem"
       },
       "sources": [
@@ -10796,7 +10796,7 @@
         "pl": "podnieść podatek od nabycia nieruchomości co najmniej do poziomu Brandenburgii i społecznie zróżnicować: zamieszkujący właściciele płacą mniej, duże firmy i Share Deals więcej",
         "uk": "підняти податок на придбання нерухомості щонайменше до рівня Бранденбурга і соціально диференціювати: власники-мешканці платять менше, великі компанії і Share Deals — більше",
         "ar": "ارفع ضريبة نقل ملكية العقارات على الأقل إلى مستوى براندنبورغ ورتبه اجتماعيًا: يدفع المالكون أقل، والشركات الكبيرة وShare Deals تدفع أكثر",
-        "es": "Subir el impuesto sobre la transmisión de inmuebles al menos al nivel de Brandeburgo y escalonarlo socialmente: quien vive en su vivienda paga menos; grandes empresas y Share Deals pagan más",
+        "es": "Subir el impuesto sobre la transmisión de inmuebles al menos al nivel de Brandeburgo y escalonarlo socialmente: quien vive en su vivienda paga menos; grandes empresas y compraventas de participaciones pagan más",
         "ku": "Baca veguheztina milkê herî kêm heta asta Brandenburgê zêde bikin û bi awayekî civakî pile bikin: kesên ku di xaniyê xwe de dijîn kêmtir didin; şirketên mezin û Share Deal zêdetir didin"
       },
       "sources": [
@@ -10892,7 +10892,7 @@
         "pl": "brak ulgi pierwszego nabywcy w podatek od nabycia nieruchomości; inicjatywa w Bundesracie o ostrzejsze limity Share Deal, by koncerny nie omijały podatku, gdy zwykli kupujący płacą",
         "uk": "без пільги першого покупця щодо податок на придбання нерухомості; ініціатива в Бундесраті за жорсткіші ліміти Share Deal, щоб корпорації не оминали податок, поки звичайні покупці платять",
         "ar": "لا يوجد بدل ضريبة نقل ملكية العقارات للمشتري الأول؛ مبادرة البوندسرات لوضع حدود أكثر صرامة لصفقات المشاركة حتى لا تتمكن شركات الإسكان من التهرب من الضرائب بينما يدفع المشترون العاديون",
-        "es": "Sin desgravación del impuesto sobre la transmisión de inmuebles para el primer comprador; iniciativa en el Bundesrat para límites más estrictos a los Share Deals, de modo que las grandes inmobiliarias no eludan el impuesto mientras los compradores particulares lo pagan",
+        "es": "Sin desgravación del impuesto sobre la transmisión de inmuebles para el primer comprador; iniciativa en el Consejo Federal para límites más estrictos a los compraventas de participaciones, de modo que las grandes inmobiliarias no eludan el impuesto mientras los compradores particulares lo pagan",
         "ku": "Bê sivikkirina baca veguheztina milkê ji bo kiriyarê yekem; înîsiyatîfa Bundesrat ji bo sînorên hişktir ên Share Deal-an da ku şirketên xaniyan bacê nebirevin dema kiriyarên asayî didin"
       },
       "sources": [
@@ -11015,7 +11015,7 @@
         "pl": "przezwyciężyć bezdomność do 2030; utworzyć SozialWohnWerk (także przebudowa pustych biur); 2500 mieszkań w chronionym segmencie rynku według Housing First",
         "uk": "подолати бездомність до 2030; створити SozialWohnWerk (зокрема переобладнання порожніх офісів); 2500 квартир у захищеному сегменті ринку за Housing First",
         "ar": "وإنهاء التشرد بحلول عام 2030؛ إنشاء SozialWohnWerk (أعمال الإسكان الاجتماعي) بما في ذلك تحويل المكاتب الشاغرة؛ 2500 شقة في قطاع السوق المحمي ضمن الإسكان أولاً",
-        "es": "Acabar con el sinhogarismo en 2030; crear un SozialWohnWerk (obra de vivienda social), incluida la reconversión de oficinas vacías; 2.500 pisos en el segmento de mercado protegido bajo Housing First",
+        "es": "Acabar con el sinhogarismo en 2030; crear un agencia de vivienda social, incluida la reconversión de oficinas vacías; 2.500 pisos en el segmento de mercado protegido bajo Housing First",
         "ku": "Heta 2030 dawî li bêmaliyê bînin; SozialWohnWerk (xebatên xaniyên civakî) biafirînin, tevî veguheztina ofîsên vala; 2,500 apartmanên di beşa bazara parastî de di bin Xanî Yekem de"
       },
       "sources": [
@@ -11285,7 +11285,7 @@
         "pl": "rozszerzyć listę „miejsc o wysokiej przestępczości,” bezpieczeństwo w transporcie publicznym, „schlagkräftige Justiz”",
         "uk": "Розширити список «місць з високим рівнем злочинності», «охорона громадського транспорту», ​​«schlagkräftige Justiz»",
         "ar": "توسيع قائمة \"المواقع التي ترتفع فيها معدلات الجريمة\"، والأمن في وسائل النقل العام، و\"schlagkräftige Justiz\"",
-        "es": "Ampliar la lista de “lugares con alta criminalidad”, seguridad en el transporte público, “schlagkräftige Justiz”",
+        "es": "Ampliar la lista de “lugares con alta criminalidad”, seguridad en el transporte público, «justicia contundente»",
         "ku": "Navnîşa «cihên tawanên bilind» berfireh bikin, ewlehî di veguhestina giştî de, «schlagkräftige Justiz»"
       },
       "sources": [
@@ -11591,7 +11591,7 @@
         "pl": "właściwa obsada i wyposażenie policji, straży pożarnej i wymiaru sprawiedliwości, „równa pewność prawa dla wszystkich Kieze,” Kontaktbeamte i jednostki rowerowe na ulicach",
         "uk": "Належне укомплектування та обладнання для поліції, пожежної служби та судової системи, «рівна правова визначеність для всіх Kieze», Kontaktbeamte та велосипедні одиниці на вулицях",
         "ar": "التوظيف والمعدات المناسبة للشرطة وخدمات الإطفاء والسلطة القضائية، \"اليقين القانوني المتساوي لجميع Kieze\"، ووحدات الاتصال والدراجات في الشوارع",
-        "es": "Dotación de personal y equipamiento adecuados para la policía, los bomberos y el poder judicial, “igual seguridad jurídica para todos los Kieze”, Kontaktbeamte (agentes de contacto) y unidades de bicicletas en las calles",
+        "es": "Dotación de personal y equipamiento adecuados para la policía, los bomberos y el poder judicial, “igual seguridad jurídica para todos los barrios”, agentes de contacto (agentes de contacto) y unidades de bicicletas en las calles",
         "ku": "Karmend û alavên rast ji bo polîs, karûbarên agirkujiyê, û dadrêsiyê, \"pêbaweriya qanûnî ya wekhev ji bo hemî Kieze\", Kontaktbeamte û yekîneyên bisîkletê yên li kolanan"
       },
       "sources": [
@@ -11895,7 +11895,7 @@
         "pl": "ograniczyć kontrole bez podejrzenia do niezbędnego minimum; Gewaltpräventionsgesetz; wzmocnić niezależnego rzecznika ds. policji i obywateli",
         "uk": "обмежити перевірки без підозри необхідним мінімумом; Gewaltpräventionsgesetz; посилити незалежного уповноваженого з питань поліції та громадян",
         "ar": "الحد من الشيكات المشكوك فيها إلى الحد الأدنى الضروري؛ Gewaltpräventionsgesetz; تعزيز استقلالية الشرطة ومفوض المواطنين",
-        "es": "Limitar los controles sin sospechas al mínimo necesario; gewaltpräventionsgesetz; fortalecer el comisionado independiente de policía y ciudadanos.",
+        "es": "Limitar los controles sin sospechas al mínimo necesario; ley de prevención de la violencia; fortalecer el comisionado independiente de policía y ciudadanos.",
         "ku": "Kontrolên bê guman bi hindiktirîn pêdivî bi sînor bikin; Gewaltpräventionsgesetz; komîseriya polîs û welatiyan a serbixwe xurt bike"
       },
       "sources": [
@@ -12039,7 +12039,7 @@
         "pl": "więcej kontroli policyjnych bezpodstawnych w problematycznych dzielnicach oraz rozszerzone kontrole bezpodstawne w miejscach o wysokiej przestępczości; nocna godzina policyjna dla niepełnoletnich Intensivtäter, absolutny zakaz zakrywania twarzy na zgromadzeniach; ✗ strefy zakazu noży to „czysto symboliczna polityka”",
         "uk": "більше поліцейських перевірок без підозри в проблемних кварталах і розширення таких перевірок у місцях із високою злочинністю; нічна комендантська година для неповнолітніх рецидивістів (Intensivtäter)",
         "ar": "المزيد من عمليات التفتيش التي تقوم بها الشرطة دون اشتباه في الأحياء التي تعاني من مشاكل وتوسيع نطاق عمليات التفتيش دون اشتباه في المواقع التي ترتفع فيها معدلات الجريمة؛ حظر التجول الليلي للقاصرين Intensivtäter، والحظر المطلق على تغطية الوجه في التجمعات؛ ✗ مناطق حظر السكاكين هي \"سياسة رمزية بحتة\"",
-        "es": "Más controles policiales sin sospecha en barrios problemáticos y controles ampliados sin sospecha en lugares con alta criminalidad; toque de queda nocturno para menores Intensivtäter, prohibición absoluta de cubrirse la cara en las reuniones; ✗ las zonas de prohibición de cuchillos son “políticas puramente simbólicas”",
+        "es": "Más controles policiales sin sospecha en barrios problemáticos y controles ampliados sin sospecha en lugares con alta criminalidad; toque de queda nocturno para menores delincuentes reincidentes graves, prohibición absoluta de cubrirse la cara en las reuniones; ✗ las zonas de prohibición de cuchillos son “políticas puramente simbólicas”",
         "ku": "Bêtir kontrolên polîsan bêyî guman li taxên pirsgirêk û kontrolên berfireh ên bê guman li cihên ku sûcdar in; Qedexeya derketina derve ya bi şev ji bo biçûkan Intensivtäter, qedexeya tam li ser girtina rûyê li meclîsan; ✗ Herêmên qedexekirina kêran \"siyaseta bi tenê sembolîk\" e"
       },
       "sources": [
@@ -12179,7 +12179,7 @@
         "pl": "wzmocnić konfiskatę majątku przeciw OK i klanom; anonimowa linia o narkotykach/OK; IT-forensics i jednostki specjalne przeciw cyfrowej przestępczości narkotykowej (np. SkyECC); włączyć Verfassungsschutz; twardziej przeciw przestępczości podatkowej/finansowej",
         "uk": "посилити конфіскацію активів проти оргзлочинності та кланів; анонімна лінія щодо наркотиків/ОК; IT-криміналістика та спецпідрозділи проти цифрової наркозлочинності (напр. SkyECC); залучити Verfassungsschutz; жорсткіше проти податкових/фінансових злочинів",
         "ar": "تعزيز مصادرة الأصول ضد الجريمة المنظمة والعشائر؛ سطر نصيحة مجهول للمخدرات/موافق؛ تعزيز الأدلة الجنائية لتكنولوجيا المعلومات والوحدات المتخصصة لمكافحة جرائم المخدرات الرقمية (مثل SkyECC)؛ إشراك Verfassungsschutz؛ إنفاذ الضرائب/الجرائم المالية بشكل أكثر صرامة",
-        "es": "Fortalecer la incautación de activos contra el crimen organizado y los clanes; línea de denuncia anónima sobre drogas/OK; reforzar la informática forense y las unidades especializadas contra los delitos relacionados con las drogas digitales (por ejemplo, SkyECC); involucrar al Verfassungsschutz; aplicación más estricta de los delitos fiscales y financieros",
+        "es": "Fortalecer la incautación de activos contra el crimen organizado y los clanes; línea de denuncia anónima sobre drogas y crimen organizado; reforzar la informática forense y las unidades especializadas contra los delitos relacionados con las drogas digitales (por ejemplo, SkyECC); involucrar al protección de la Constitución (servicios de inteligencia interior); aplicación más estricta de los delitos fiscales y financieros",
         "ku": "Li dijî sûcên organîze û eşîran desteserkirina mal û milkan xurt bike; xeta tîpa nenas ji bo dermanan/OK; li dijî sûcên narkotîkê yên dîjîtal (mînakek SkyECC) dadwerî û yekîneyên pispor ên IT-ê xurt bikin; tevlî Verfassungsschutz; sepandina tawanên darayî/baca tundtir"
       },
       "sources": [
@@ -12681,7 +12681,7 @@
         "pl": "Obowiązkowa procedura zgłaszania i udział policji przy przemocy wobec nauczycieli, profilaktyka przemocy na lekcjach, „profilaktyka ogólna”; ambulatoryjne wsparcie rodzin przez Familienpflege, Familienrat i poradnictwo rodzinne",
         "uk": "Обов’язковий порядок повідомлення та залучення поліції до насильства над вчителями, попередження насильства на уроках у школі, «загальна профілактика»; амбулаторна підтримка сімей через Familienpflege, Familienrat та сімейні консультації",
         "ar": "إجراءات الإبلاغ الإلزامية ومشاركة الشرطة في أعمال العنف ضد المعلمين، ومنع العنف في الدروس المدرسية، \"المنع العام\"؛ دعم العيادات الخارجية للعائلات من خلال Familienpflege وFamilienrat والاستشارات العائلية",
-        "es": "Procedimiento de denuncia obligatoria y participación de la policía en actos de violencia contra docentes, prevención de la violencia en las clases escolares, “prevención general”; apoyo ambulatorio a las familias a través de Familienpflege (cuidado familiar), Familienrat (consejo familiar) y asesoramiento familiar.",
+        "es": "Procedimiento de denuncia obligatoria y participación de la policía en actos de violencia contra docentes, prevención de la violencia en las clases escolares, “prevención general”; apoyo ambulatorio a las familias a través de cuidado familiar (cuidado familiar), consejo familiar (consejo familiar) y asesoramiento familiar.",
         "ku": "Pêvajoya raporê ya mecbûrî û tevlêbûna polîsan di şîdeta li dijî mamosteyan de, pêşîlêgirtina şîdetê di dersên dibistanê de, \"pêşîlêgirtina giştî\"; bi riya Familienpflege, Familienrat, û şêwirmendiya malbatê piştgiriya derveyî nexweşan ji bo malbatan"
       },
       "sources": [
@@ -12783,7 +12783,7 @@
         "pl": "Schroniska dla kobiet według standardu Konwencji stambulskiej (2,5 miejsca na 10 000 mieszkańców — w Berlinie niespełnione), szkolenia dla policji, sądownictwa i urzędów z Hate Speech, stalkingu i femicydu, niskoprogowe poradnictwo online; rozbudowa Täter-Opfer-Ausgleich; praca socjalna szkolna w każdej szkole jako profilaktyka",
         "uk": "Жіночі притулки, що відповідають стандартам Стамбульської конвенції (2,5 місця на 10 000 мешканців — не зустрічається в Берліні), тренінги для поліцейських, судових органів і органів державної влади з питань ненависті, переслідування та феміцидів, онлайн-консультування з низьким порогом; розгорнути Täter-Opfer-Ausgleich; шкільна соціальна робота в кожній школі як профілактика",
         "ar": "ملاجئ النساء التي تستوفي معايير اتفاقية إسطنبول (2,5 مكان لكل 10000 ساكن - غير متوافرة في برلين)، وتدريب الشرطة والسلطة القضائية والسلطات العامة على خطاب الكراهية، والمطاردة، وقتل النساء، والاستشارات عبر الإنترنت ذات العتبة المنخفضة؛ قم بتوسيع Täter-Opfer-Ausgleich؛ العمل الاجتماعي المدرسي في كل مدرسة كوقاية",
-        "es": "Refugios para mujeres que cumplan la norma del Convenio de Estambul (2,5 plazas por cada 10.000 residentes; no se cumple en Berlín), formación para la policía, el poder judicial y las autoridades públicas sobre discurso de odio, acoso y feminicidio, asesoramiento en línea de bajo umbral; ampliar Täter-Opfer-Ausgleich (mediación víctima-infractor); trabajo social escolar en cada escuela como prevención",
+        "es": "Refugios para mujeres que cumplan la norma del Convenio de Estambul (2,5 plazas por cada 10.000 residentes; no se cumple en Berlín), formación para la policía, el poder judicial y las autoridades públicas sobre discurso de odio, acoso y feminicidio, asesoramiento en línea de bajo umbral; ampliar mediación entre víctima e infractor; trabajo social escolar en cada escuela como prevención",
         "ku": "Sitargehên jinan ên ku standarda Peymana Stenbolê pêk tînin (ji her 10 000 niştecîhan 2,5 cih - li Berlînê nayên civandin), perwerdekirina polîs, dadwerî û rayedarên giştî yên li ser Axaftina nefretê, şopandin û kuştina jinan, şêwirmendiya serhêl ya kêm bend; berfirehkirina Täter-Opfer-Ausgleich; xebatên civakî yên dibistanê li her dibistanê wekî pêşîlêgirtinê"
       },
       "sources": [
@@ -12861,7 +12861,7 @@
         "pl": "Kita-Chancenjahr — w praktyce powrót roku przygotowawczego, portal rodzinny z automatycznymi wnioskami",
         "uk": "Kita-Chancenjahr — фактично повернення підготовчого року, сімейний портал з автоматичними заявками",
         "ar": "Kita-Chancenjahr — عودة السنة التحضيرية فعليًا، بوابة عائلية مع تطبيقات تلقائية",
-        "es": "Kita-Chancenjahr (año de oportunidades en guardería): regreso efectivo del año preparatorio, portal familiar con solicitudes automáticas",
+        "es": "Año de oportunidades en guardería: regreso efectivo del año preparatorio, portal familiar con solicitudes automáticas",
         "ku": "Kita-Chancenjahr - bi bandor vegerandina salek amadekar, portalek malbatê bi serîlêdanên otomatîkî"
       },
       "sources": [
@@ -12987,7 +12987,7 @@
         "pl": "bezpłatna edukacja od Kita po uczelnię; nacisk na jakość Kita, kadry i ochronę dzieci; dalsze rozszerzanie bezpłatnego eFöB/Hort i bezpłatnych posiłków",
         "uk": "безкоштовна освіта від дитсадка до вишу; акцент на якості Kita, кадрах і захисті дітей; далі розширювати безкоштовний eFöB/Hort і безкоштовне харчування",
         "ar": "التعليم المجاني من كيتا إلى الجامعة؛ التركيز على جودة Kita والتوظيف وحماية الطفل؛ قم بتوسيع eFöB/Hort المجاني والوجبات المجانية إلى أعلى الدرجات",
-        "es": "Educación gratuita desde Kita hasta la universidad; centrarse en la calidad, la dotación de personal y la protección infantil de Kita; ampliar el eFöB/Hort gratuito y las comidas gratuitas a niveles superiores",
+        "es": "Educación gratuita desde Kita hasta la universidad; centrarse en la calidad, la dotación de personal y la protección infantil de Kita; ampliar el actividades extraescolares / hort gratuito y las comidas gratuitas a niveles superiores",
         "ku": "Perwerdeya bêpere ji Kita heya zanîngehê; li ser kalîteya Kita, karmend û parastina zarokan bisekinin; eFöB/Hort û xwarinên bêpere di polan de zêdetir bikin"
       },
       "sources": [
@@ -13107,7 +13107,7 @@
         "pl": "Obowiązkowy udział w Kita najpóźniej od czwartego roku życia; regularne diagnozy językowe od trzeciego roku; Stadtteilmütter i integratorzy do włączania rodziców; przywrócenie wiążącej fazy przedszkolnej dla języka, liczb i uczenia społecznego",
         "uk": "Обов’язкова участь у Kita щонайпізніше з чотирьох років; регулярна мовна діагностика з трьох років; Stadtteilmütter та інтеграційні лоцмани для залучення батьків; повернення обов’язкової дошкільної фази для мови, чисел і соціального навчання",
         "ar": "حضور إلزامي في Kita في موعد أقصاه سن الرابعة؛ تشخيص لغوي منتظم من سن الثالثة؛ Stadtteilmütter ومرشدو اندماج لإشراك الأهل؛ إعادة مرحلة روضة ملزمة للغة والأرقام والتعلم الاجتماعي",
-        "es": "Asistencia obligatoria a Kita a partir de los cuatro años como máximo; diagnósticos regulares del lenguaje desde los tres años; stadtteilmütter y guías de integración para involucrar a los padres; restaurar una fase preescolar vinculante para el lenguaje, los números y el aprendizaje social",
+        "es": "Asistencia obligatoria a Kita a partir de los cuatro años como máximo; diagnósticos regulares del lenguaje desde los tres años; madres de barrio (madres de barrio (Stadtteilmütter)) y guías de integración para involucrar a los padres; restaurar una fase preescolar vinculante para el lenguaje, los números y el aprendizaje social",
         "ku": "Tevlêbûna Kita ya mecbûrî herî dereng ji çar saliya xwe; teşhîsa zimanê birêkûpêk ji sê saliya xwe de; Stadtteilmütter û rêberên entegrasyonê ji bo tevlêbûna dêûbavan; ji bo ziman, hejmar û fêrbûna civakî qonaxeke pêşdibistanê ya girêdayî vegerînin"
       },
       "sources": [
@@ -13149,7 +13149,7 @@
         "pl": "Obowiązkowe standardy jakości: uregulowanie w ustawie proporcji 1:3 w grupach żłobkowych i 1:7,5 w Kita, rozbudowa szkoleń kadry, organizacja zmian zawodu i przyspieszenie uznawania dyplomów zagranicznych; zespoły multiprofesjonalne w Kita oraz berlińska Kita-Rat złożona z nauki, praktyki i Träger; wsparcie językowe tam, gdzie są rodziny — w Kita, nie przez osobne wizyty; obowiązkowe i wspierane przejście do szkoły",
         "uk": "Обов’язкові стандарти якості: законодавчо закріпити співвідношення 1:3 у ясельних групах та 1:7,5 у Кіта, розширити навчання кадрів, організувати кар’єрні зміни, прискорити визнання іноземних дипломів; мультипрофесійні команди в Kitas і Berlin Kita-Rat, що включають науку, практику та Träger; мовна підтримка там, де сім’ї вже є — у Кіті, а не за окремим записом; обов'язковий і підтримуваний перехід до школи",
         "ar": "معايير الجودة الإلزامية: ترسيخ نسب 1:3 في مجموعات الحضانة و1:7.5 في كيتا في القانون، وتوسيع نطاق تدريب القوى العاملة، وتنظيم التغييرات المهنية، وتسريع الاعتراف بالدبلومات الأجنبية؛ فرق متعددة التخصصات في Kitas وKita-Rat في برلين تضم العلم والممارسة وTräger؛ الدعم اللغوي في الأماكن التي تتواجد فيها العائلات بالفعل — في كيتا، وليس من خلال موعد منفصل؛ الانتقال الإلزامي والمدعوم إلى المدرسة",
-        "es": "Normas de calidad obligatorias: consagrar en la ley proporciones de 1:3 en los grupos de guardería y de 1:7,5 en Kita, ampliar la formación de la fuerza laboral, organizar cambios de carrera y acelerar el reconocimiento de títulos extranjeros; equipos multiprofesionales en Kitas y un Kita-Rat (consejo de Kitas) de Berlín formado por ciencia, práctica y Träger; apoyo lingüístico donde ya se encuentran las familias (en Kita, no mediante una cita separada); transición obligatoria y apoyada a la escuela",
+        "es": "Normas de calidad obligatorias: consagrar en la ley proporciones de 1:3 en los grupos de guardería y de 1:7,5 en Kita, ampliar la formación de la fuerza laboral, organizar cambios de carrera y acelerar el reconocimiento de títulos extranjeros; equipos multiprofesionales en Kitas y un Kita-Rat (consejo de Kitas) de Berlín formado por ciencia, práctica y entidades gestoras; apoyo lingüístico donde ya se encuentran las familias (en Kita, no mediante una cita separada); transición obligatoria y apoyada a la escuela",
         "ku": "Standardên kalîteyê yên mecbûrî: rêjeyên 1: 3 di komên zarokxaneyê de û 1: 7,5 di Kita de di qanûnê de bicîh bikin, perwerdeya hêza kar berfireh bikin, guhertinên kariyerê organîze bikin, û naskirina dîplomeyên biyanî bilezînin; tîmên pirprofesyonel li Kitas û Kita-Rat a Berlînê ku ji zanist, pratîk û Träger pêk tê; piştgiriya ziman li cihê ku malbat berê lê ne - li Kita, ne bi randevûyeke cuda; derbasbûna mecbûrî û piştgirî ya dibistanê"
       },
       "sources": [
@@ -13329,7 +13329,7 @@
         "pl": "Wsparcie języków rodzinnych: rejestrowanie języków i lekcje języka ojczystego, rozbudowa sieci Europa-Schule, osobne wsparcie dla dzieci uchodźczych",
         "uk": "Підтримка сімейних мов: запис мов і пропонування уроків першої мови, розширення мережі Europa-Schule, окрема підтримка для дітей-біженців",
         "ar": "دعم لغات العائلة: تسجيل اللغات وتقديم دروس اللغة الأولى، وتوسيع شبكة المدارس الأوروبية، ودعم منفصل للأطفال اللاجئين",
-        "es": "Apoyar las lenguas familiares: registrar lenguas y ofrecer clases de primera lengua, ampliar la red Europa-Schule, apoyo independiente a los niños refugiados",
+        "es": "Apoyar las lenguas familiares: registrar lenguas y ofrecer clases de primera lengua, ampliar la red escuelas Europa (Europa-Schule), apoyo independiente a los niños refugiados",
         "ku": "Piştgiriya zimanên malbatê bikin: zimanan tomar bikin û dersên zimanê yekem bidin, tora Europa-Schule berfireh bikin, piştgirî ji zarokên penaber re cuda bikin."
       },
       "sources": [
@@ -13497,7 +13497,7 @@
         "pl": "Obowiązkowa faza przedszkolna od piątego roku życia — ok. jedna trzecia dzieci ma deficyty językowe; testy językowe w wieku czterech lat i wsparcie wykwalifikowanych nauczycieli języka; wspólny plan wsparcia Kita i szkoły podstawowej z regularną wymianą; wzorzec: obowiązkowa francuska Vorschule od trzech lat",
         "uk": "Обов’язкова дошкільна фаза з п’яти років — близько третини дітей має мовні дефіцити; мовні тести в чотири роки та підтримка кваліфікованих мовних педагогів; спільне планування підтримки Kita і початкової школи з регулярним обміном; орієнтир — обов’язкова французька Vorschule з трьох років",
         "ar": "مرحلة روضة إلزامية من سن الخامسة — نحو ثلث الأطفال لديهم عجز لغوي؛ اختبارات لغة في سن الرابعة ودعم من معلمي لغة مؤهلين؛ تخطيط دعم مشترك بين Kita والمدرسة الابتدائية مع تبادل منتظم؛ المرجع: الـVorschule الفرنسية الإلزامية من سن الثالثة",
-        "es": "Fase preescolar obligatoria a partir de los cinco años: alrededor de un tercio de los niños tienen déficits del lenguaje; pruebas de idioma a los cuatro años con el apoyo de profesores de idiomas calificados; planificación conjunta de apoyo por parte de Kita y la escuela primaria con intercambio regular; La Vorschule obligatoria de Francia a partir de los tres años como referencia",
+        "es": "Fase preescolar obligatoria a partir de los cinco años: alrededor de un tercio de los niños tienen déficits del lenguaje; pruebas de idioma a los cuatro años con el apoyo de profesores de idiomas calificados; planificación conjunta de apoyo por parte de Kita y la escuela primaria con intercambio regular; La educación preescolar obligatoria de Francia a partir de los tres años como referencia",
         "ku": "Qonaxa pêşdibistanê ya mecbûrî ji pênc saliya xwe pê ve - li ser sê parên zarokan kêmasiyên ziman hene; îmtîhanên ziman di çar saliya xwe de bi piştgiriya mamosteyên zimanî yên jêhatî; plansaziya piştevaniya hevbeş ji hêla Kita û dibistana seretayî ve bi danûstendina birêkûpêk; Vorschule mecbûrî ya Fransa ji sê saliya xwe wekî referans"
       },
       "sources": [
@@ -13893,7 +13893,7 @@
         "pl": "Reforma systemu szkolnego: mniej wczesnej selekcji, więcej wspólnych lat szkoły podstawowej, część miejsc losowo dla mieszanki społecznej, ułatwienie zmiany typu szkoły w okresie przejściowym; remont zniszczonych budynków — nowa budowa tylko gdy modernizacja nie wystarczy; szkoły jako miejsca żywej demokracji z prawem wniosków dla uczniów",
         "uk": "Реформа шкільної системи: менше раннього сортування, більше спільних років початкової школи, частина місць за жеребом для соціальної міксації, полегшити зміну типу школи в перехідний період; ремонтувати занедбані будівлі — нове будівництво лише де модернізації мало; школи як місця живої демократії з правом подавати заяви для учнів",
         "ar": "إصلاح نظام المدارس: أقل فرز مبكر، مزيد من سنوات الابتدائية المشتركة، توزيع بعض الأماكن بالقرعة للمزج الاجتماعي، تسهيل تغيير نوع المدرسة في المرحلة الانتقالية؛ ترميم المباني المتداعية — بناء جديد فقط حيث لا تكفي التحديثات؛ مدارس كأماكن ديمقراطية معيشة مع حق تقديم طلبات للتلاميذ",
-        "es": "Reformar el sistema escolar: menos clasificación temprana, más años de Gemeinschaftsschule, asignar algunas plazas por sorteo para la mezcla social y facilitar los cambios en el tipo de escuela durante la transición; renovar edificios en ruinas: nuevas construcciones solo cuando la modernización no sea suficiente (acústica, luz, aire); Las escuelas como lugares de democracia vivida, con un Antragsrecht para los estudiantes en el ámbito escolar.",
+        "es": "Reformar el sistema escolar: menos clasificación temprana, más años de escuela comunitaria (Gemeinschaftsschule), asignar algunas plazas por sorteo para la mezcla social y facilitar los cambios en el tipo de escuela durante la transición; renovar edificios en ruinas: nuevas construcciones solo cuando la modernización no sea suficiente (acústica, luz, aire); Las escuelas como lugares de democracia vivida, con un Antragsrecht para los estudiantes en el ámbito escolar.",
         "ku": "Pergala dibistanê sererast bikin: Kêmtir dabeşkirina zû, bêtir salên Gemeinschaftsschule, hin cîh bi lotikan ji bo tevlihevkirina civakî veqetînin, û di veguheztinê de guhertinên celebê dibistanê hêsan bikin; nûjenkirina avahiyên hilweşiyayî - avahiya nû tenê li cihê ku nûjenbûn têrê nake (akustîk, ronahî, hewa); dibistan wekî cihên demokrasiya jiyankirî, bi Antragsrecht ji bo xwendekaran di bedenên dibistanê de"
       },
       "sources": [
@@ -14949,7 +14949,7 @@
         "pl": "Wzmacniać zakładowe dualne kształcenie i odrzucać składkę na miejsca nauki; podnieść BAföG mistrzowskie, premię na start mistrza, fundusz szkoleń wzorowany na holenderskim; silniejsza współpraca szkoła–izby i orientacja zawodowa",
         "uk": "Зміцнити внутрішньофірмове дуальне навчання й відхилити збір на учнівські місця; підвищити BAföG для майстрів, премію на старт майстерної справи, фонд підвищення кваліфікації за голландським зразком; сильніша співпраця школи й палат",
         "ar": "تعزيز التدريب المزدوج داخل الشركات ورفض رسم أماكن التدريب؛ رفع BAföG للحرفيين الأساتذة ومكافأة التأسيس وصندوق تدريب على النمط الهولندي؛ تعاون أقوى مدرسة–غرف وتوجيه مهني",
-        "es": "Reforzar la formación dual en las empresas y rechazar la tasa de aprendizaje; aumentar el BAföG para maestros artesanos, el bono inicial para maestros, el fondo de formación continua al estilo holandés; fortalecer la cooperación entre la escuela y las aulas y la orientación profesional.",
+        "es": "Reforzar la formación dual en las empresas y rechazar la tasa de aprendizaje; aumentar las becas BAföG para maestros artesanos, el bono inicial para maestros, el fondo de formación continua al estilo holandés; fortalecer la cooperación entre la escuela y las aulas y la orientación profesional.",
         "ku": "Perwerdeya dualî ya di nav pargîdaniyê de xurt bikin û baca şagirtiyê red bikin; BAföG master-snaetkar bilind bikin, bonûsa destpêkê ya masterê, fona hînkirina bêtir bi şêwaza Hollandî; hevkariya dibistan-ode û rêberiya kariyerê bihêztir"
       },
       "sources": [
@@ -14991,7 +14991,7 @@
         "pl": "Rozszerzyć zawodowe Schülerpraktika do trzech dwutygodniowych bloków, by młodzież lepiej poznała rzemiosło i świadomiej wybierała naukę zawodu; silniej uwzględniać praktyki na świadectwie",
         "uk": "Розширити професійні Schülerpraktika до трьох двотижневих блоків, щоб молодь краще пізнавала ремесла й свідоміше обирала учнівство; сильніше враховувати практику в атестаті",
         "ar": "توسيع Schülerpraktika الموجهة مهنيًا إلى ثلاثة تدرّبات كتلية لأسبوعين؛ ليتعرّف الشباب على الحرف ويختاروا التلمذة بوعي أكبر؛ تعزيز احتساب أداء التدريب في الشهادة",
-        "es": "Ampliar la Schülerpraktika orientada a la carrera a tres estancias en bloque de dos semanas para que los jóvenes conozcan los oficios artesanales y elijan el aprendizaje de forma más consciente; desempeño de la práctica crediticia en los informes escolares",
+        "es": "Ampliar las prácticas escolares orientadas a la carrera a tres estancias en bloque de dos semanas para que los jóvenes conozcan los oficios artesanales y elijan el aprendizaje de forma más consciente; desempeño de la práctica crediticia en los informes escolares",
         "ku": "Schülerpraktika-ya karîgerî berfereh bike li sê cîhên blokê yên du-hefteyî da ku ciwan esnafên pîşeyî bibînin û bi zanebûn şagirtan hilbijêrin; performansa pratîka krediyê li ser raporên dibistanê"
       },
       "sources": [
@@ -15267,7 +15267,7 @@
         "pl": "Uczelnie jako „latarnie doskonałości” konkurujące o najlepsze umysły; Tenure-Track jako standard; utrwalenie swobód przez Berliner Hochschulfreiheitsgesetz i Hochschulverträge",
         "uk": "Університети як «маяки досконалості» в конкуренції за найкращі уми; Tenure-Track як стандарт; закріпити свободи через Berliner Hochschulfreiheitsgesetz і Hochschulverträge",
         "ar": "الجامعات كـ«منارات تميّز» تتنافس على أفضل العقول؛ Tenure-Track معيارًا؛ ترسيخ الحريات عبر Berliner Hochschulfreiheitsgesetz وHochschulverträge",
-        "es": "Las universidades como “faros de excelencia” que compiten por las mejores mentes; tenure-Tracks de serie; asegurar las libertades a través de una Hochschulfreiheitsgesetz berlinesa y una Hochschulverträge continuada",
+        "es": "Las universidades como “faros de excelencia” que compiten por las mejores mentes; plazas tenure-track de serie; asegurar las libertades a través de una ley de autonomía universitaria berlinesa y una contratos universitarios continuada",
         "ku": "Zanîngehên ku ji bo hişên herî baş pêşbaziyê dikin wekî \"çîrûskên hêjayî\"; Tenure-Tracks wek standard; girtina azadiyan bi rêya Berliner Hochschulfreiheitsgesetz û berdewamkirina Hochschulverträge"
       },
       "sources": [
@@ -15345,7 +15345,7 @@
         "pl": "dotacje landowe w kierunku ≥2% PKB; fundusz domów studenckich; Zivilklausel; koniec umów łańcuchowych; priorytet MINT",
         "uk": "земельні субсидії до ≥2% ВВП; фонд студентського житла; Zivilklausel; кінець ланцюгових контрактів; пріоритет MINT",
         "ar": "رفع Landeszuschüsse إلى ≥2% من الناتج المحلي الإجمالي؛ صندوق Studentenwohnheim؛ زيفيلكلاوسيل؛ عقود السلسلة النهائية؛ إعطاء الأولوية للنعناع",
-        "es": "Elevar el Landeszuschüsse hacia ≥2% del PIB; fondo Studentenwohnheim; zivilklausel; contratos finales de cadena; priorizar MENTA",
+        "es": "Elevar las subvenciones regionales hacia ≥2% del PIB; fondo residencias de estudiantes; cláusula civil; contratos finales de cadena; priorizar MENTA",
         "ku": "Landeszuschüsse berbi ≥2% ji GDP-yê bilind bikin; Fona Studentenwohnheim; Zivilklausel; peymanên zincîra dawî; MINT-ê pêşîn bikin"
       },
       "sources": [
@@ -15633,7 +15633,7 @@
         "pl": "Rozbudowa kształcenia ustawicznego na uczelniach i w miejscach pracy; Weiterbildungsgesetz dla jednolitych ram Berlina; więcej ścieżek wyjścia z niskich płac zwłaszcza dla kobiet; oferty lifelong learning dostosowane do wieku",
         "uk": "Розширити підвищення кваліфікації у вишах і на робочих місцях; Weiterbildungsgesetz для єдиної рамки Берліна; більше шляхів з низької оплати особливо для жінок; вікові пропозиції lifelong learning",
         "ar": "توسيع التعليم المستمر في الجامعات وأماكن العمل؛ Weiterbildungsgesetz لإطار برليني موحّد؛ مزيد من المسارات للخروج من الأجور المنخفضة خاصة للنساء؛ عروض تعلم مدى الحياة مناسبة للعمر",
-        "es": "Ampliar la educación continua en las universidades y en los lugares de trabajo; una Weiterbildungsgesetz (ley de formación continua) para un marco unificado en Berlín; más vías para salir del trabajo mal remunerado, especialmente para las mujeres; ofertas de aprendizaje permanente adaptadas a la edad para personas mayores.",
+        "es": "Ampliar la educación continua en las universidades y en los lugares de trabajo; una ley de formación continua para un marco unificado en Berlín; más vías para salir del trabajo mal remunerado, especialmente para las mujeres; ofertas de aprendizaje permanente adaptadas a la edad para personas mayores.",
         "ku": "Perwerdeya domdar li zanîngehan û li cîhên kar berfireh bikin; Weiterbildungsgesetz ji bo çarçoveyek Berlînê ya yekbûyî; rêyên zêdetir ji karê kêm-meaşê bi taybetî ji bo jinan; ji bo mirovên pîr pêşniyarên hînbûna dirêj-temen-guncaw"
       },
       "sources": [
@@ -16638,7 +16638,7 @@
         "pl": "Berlinovo buduje własny segment Pflegewohnen; inicjatywa w Bundesracie przeciw wypowiedzeniom Eigenbedarf i eksmisjom seniorów; Stadtteilsorgezentren z ofertami dla seniorów i opiekunów, w tym tanie stołówki sąsiedzkie/kawiarnie, odpowiednia obsada i krótkie drogi",
         "uk": "Berlinovo створює власний сегмент Pflegewohnen; ініціатива в Бундесраті проти розірвань Eigenbedarf і примусових виселень літніх; Stadtteilsorgezentren з пропозиціями для літніх і родичів-доглядачів, зокрема недорогі районні їдальні/кафе, достатній персонал і короткі шляхи",
         "ar": "Berlinovo يبني قطاع Pflegewohnen خاصاً؛ ومبادرة بوندسرات ضد فسخ Eigenbedarf وإخلاء كبار السن؛ وStadtteilsorgezentren بعروض لكبار السن ومقدمي الرعاية تشمل مقاهي رخيصة وطاقماً كافياً ومسافات قصيرة",
-        "es": "Berlinovo construye su propio segmento Pflegewohnen (vivienda con cuidados); campaña del Bundesrat (Consejo Federal) para prohibir los desahucios por uso propio (Eigenbedarf) y los desalojos forzosos de personas mayores; stadtteilsorgezentren (centros de cuidados de barrio) con ofertas para personas mayores y cuidadores familiares, incluidos comedores/cafés de barrio económicos, personal adecuado y distancias cortas",
+        "es": "Berlinovo construye su propio segmento de vivienda con cuidados; campaña del Consejo Federal (Consejo Federal) para prohibir los desahucios por uso propio y los desalojos forzosos de personas mayores; stadtteilsorgezentren (centros de cuidados de barrio) con ofertas para personas mayores y cuidadores familiares, incluidos comedores/cafés de barrio económicos, personal adecuado y distancias cortas",
         "ku": "Berlinovo beşa xwe ya Pflegewohnen (xaniyên lênêrînê) ava dike; Bundesrat (Encûmena Federal) ji bo qedexekirina qedandina Eigenbedarf û derxistina bi zorê ya kalûpîran dimeşîne; Stadtteilsorgezentren bi pêşniyarên ji bo kal û pîr û lênêrên malbatê, di nav de kantîn/kahwexaneyên taxê yên erzan, karmendên têr û dûrên kurt."
       },
       "sources": [
@@ -17094,7 +17094,7 @@
         "pl": "Polityka oparta na dowodach „pomoc zamiast kary”: wyraźnie rozbudować sprawdzanie substancji (także mobilnie) z miejskim systemem wczesnego ostrzegania; nalokson przez uznaną pomoc uzależnień i pracę socjalną; rozbudować pokoje konsumpcji i zespoły pracy ulicznej; nocne kawiarnie i pokoje w Kurfürstenkiez; Housing First dla bezdomnych użytkowników",
         "uk": "Доказова політика «допомога замість покарання»: суттєво розширити перевірку речовин (також мобільно) з загальноміським раннім попередженням; налоксон через визнану наркодопомогу та соцроботу; розширити кімнати вживання та вуличні outreach-команди; нічні кафе і кімнати в Kurfürstenkiez; Housing First для бездомних споживачів",
         "ar": "سياسة قائمة على الأدلة «مساعدة بدل عقاب»: توسيع فحص المواد بقوة (أيضاً متنقلاً) مع نظام إنذار مبكر على مستوى المدينة؛ نالوكسون عبر مساعدة الإدمان المعترف بها والعمل الاجتماعي؛ توسيع غرف الاستهلاك وفرق العمل الميداني؛ مقاهي ليلية وغرف في Kurfürstenkiez؛ Housing First لمستهلكين بلا مأوى",
-        "es": "“Ayuda en lugar de castigo” basada en evidencia: ampliar significativamente los controles de drogas (también móviles) con un sistema de alerta temprana en toda la ciudad; naloxona a través de ayuda reconocida contra las adicciones y trabajo social; ampliar las salas de consumo supervisado y los equipos de extensión a la calle; cafés nocturnos y salas de consumo en Kurfürstenkiez; housing First para usuarios sin hogar",
+        "es": "“Ayuda en lugar de castigo” basada en evidencia: ampliar significativamente los controles de drogas (también móviles) con un sistema de alerta temprana en toda la ciudad; naloxona a través de ayuda reconocida contra las adicciones y trabajo social; ampliar las salas de consumo supervisado y los equipos de extensión a la calle; cafés nocturnos y salas de consumo en barrio de Kurfürstenstraße; Housing First para usuarios sin hogar",
         "ku": "Li ser bingeha delîlan \"arîkarî li şûna cezakirinê\": bi pergalek hişyariya zû ya li seranserê bajêr ve kontrolkirina narkotîkê bi girîngî (her weha mobîl) berfireh bikin; naloxone bi alîkariya naskirî ya narkotîkê û xebata civakî; odeyên vexwarinê yên çavdêrîkirî û tîmên ragihandinê yên kolanan berfireh bikin; qehwexaneyên şevê û odeyên vexwarinê yên li Kurfürstenkiez; Xanî Yekem ji bo bikarhênerên bêmal"
       },
       "sources": [
@@ -17339,7 +17339,7 @@
         "pl": "Bronić prawa do azylu i wdrażać GEAS zgodnie z prawami człowieka; domagać się od federacji landowych programów przyjęć; ścieżki integracji także dla osób bez ochrony lub z wygasającym pobytem; priorytet powrotów dla ciężkich przestępców i zagrożeń bezpieczeństwa bez prawa pobytu; wczesna pomoc powrotowa z naciskiem na dobrowolność",
         "uk": "Захищати право на притулок і впроваджувати GEAS згідно з правами людини; вимагати від федерації земельних програм прийому; шляхи інтеграції також для людей без захисту або з дозволом, що закінчується; пріоритет повернень для тяжких злочинців і загроз безпеці без права на перебування; рання допомога поверненню з акцентом на добровільність",
         "ar": "الدفاع عن حق اللجوء وتطبيق GEAS وفق حقوق الإنسان؛ الدفع على المستوى الاتحادي للسماح ببرامج قبول ولائية؛ مسارات إدماج أيضاً لمن بلا حماية أو بتصريح منتهٍ؛ أولوية الإعادة للجناة الخطيرين ومصادر التهديد بلا حق إقامة؛ مساعدة عودة مبكرة تركز على العودة الطوعية",
-        "es": "Defender el derecho de asilo e aplicar el GEAS conforme a los derechos humanos; exigir al nivel federal que permita programas de acogida de los Länder; vías de integración también para quienes no tienen estatuto de protección o tienen permisos a punto de caducar; priorizar retornos de delincuentes graves y amenazas a la seguridad sin derecho de estancia; ayuda temprana al retorno centrada en el retorno voluntario",
+        "es": "Defender el derecho de asilo e aplicar el GEAS conforme a los derechos humanos; exigir al nivel federal que permita programas de acogida de los Länder (estados federados); vías de integración también para quienes no tienen estatuto de protección o tienen permisos a punto de caducar; priorizar retornos de delincuentes graves y amenazas a la seguridad sin derecho de estancia; ayuda temprana al retorno centrada en el retorno voluntario",
         "ku": "Parastina mafê penaberiyê û pêkanîna GEAS li gorî mafên mirovan; asta federal bişopîne da ku destûrê bide bernameyên pejirandina dewletê; rêyên întegrasyonê jî ji bo kesên bê statuya parastinê yan jî bi destûra dawîn; pêşî li vegerandina sûcdarên giran û gefên ewlehiyê bê mafên mayînê; alîkariya vegera zû li ser vegera dilxwazî ye"
       },
       "sources": [
@@ -17483,7 +17483,7 @@
         "pl": "Zwiększyć deportacje osób z wykonalnym obowiązkiem wyjazdu; częściej badać podstawy Duldung; odrzucić faktyczne zimowe wstrzymanie deportacji; kontrola majątku azylantów (np. biżuteria, wkłady, gotówka ponad kwotę wolną) na koszty procedur i utrzymania",
         "uk": "Збільшити депортації осіб із викональною вимогою виїзду; частіше перевіряти підстави Duldung; відхилити фактичний зимовий стоп депортацій; перевірка майна шукачів притулку (напр. прикраси, вклади, готівка понад пільгу) на покриття витрат процедури й проживання",
         "ar": "زيادة ترحيل من عليهم التزام مغادرة قابل للتنفيذ؛ ومراجعة أسباب Duldung أكثر؛ ورفض وقف ترحيل فعلي في الشتاء؛ وفحص أصول طالبي اللجوء (مثل المجوهرات والودائع والنقد فوق الإعفاء) لتغطية تكاليف الإجراءات والمعيشة",
-        "es": "Aumentar las deportaciones de personas con obligación ejecutable de salir; revisar con más frecuencia los motivos de Duldung; rechazar una congelación de facto de deportaciones en invierno; controles patrimoniales a solicitantes de asilo (p. ej. joyas, depósitos, efectivo por encima de un mínimo) para cubrir procedimiento y manutención",
+        "es": "Aumentar las deportaciones de personas con obligación ejecutable de salir; revisar con más frecuencia los motivos de suspensión temporal de la deportación; rechazar una congelación de facto de deportaciones en invierno; controles patrimoniales a solicitantes de asilo (p. ej. joyas, depósitos, efectivo por encima de un mínimo) para cubrir procedimiento y manutención",
         "ku": "Zêdekirina dersînorkirina kesên xwedî erka îcrayê ya derketina derve; Zêdetir zevîyên Duldung binirxînin; defakto cemidandina dersînorkirina zivistanê red bike; ji bo penaxwazan kontrolên maliyetê (mînak zêr, depo, dravê li ser yarmetiyê) ji bo vegirtina prosedur û lêçûnên jiyanê"
       },
       "sources": [
@@ -17679,7 +17679,7 @@
         "pl": "Utrzymać kartę płatniczą świadczeń azylowych i uczynić ją trwałą; centralnie ewidencjonować dane pobytowe osób zobowiązanych do wyjazdu i szybko przekazywać je właściwym organom",
         "uk": "Зберегти платіжну картку для допомоги шукачам притулку і закріпити надовго; централізовано обліковувати дані про перебування осіб із обов’язком виїзду й швидко передавати їх компетентним органам",
         "ar": "الإبقاء على بطاقة الدفع لمساعدات اللجوء وجعلها دائمة؛ تسجيل بيانات إقامة الملزمين بالمغادرة مركزياً وإتاحتها بسرعة للسلطات المختصة",
-        "es": "Mantener la tarjeta de pago (Bezahlkarte) para las prestaciones de asilo y hacerla permanente; registrar de forma centralizada los datos de residencia de quienes están obligados a salir y compartirlos con rapidez con las autoridades competentes",
+        "es": "Mantener la tarjeta de pago para las prestaciones de asilo y hacerla permanente; registrar de forma centralizada los datos de residencia de quienes están obligados a salir y compartirlos con rapidez con las autoridades competentes",
         "ku": "Karta dayînê (Bezahlkarte) ji bo alîkariyên penaberiyê biparêzin û bikin daîmî; daneyên niştecihbûnê yên kesên mecbûr in derkevin bi awayekî navendî tomar bikin û bi lez bi desthilatên berpirsiyar re parve bikin"
       },
       "sources": [
@@ -17709,7 +17709,7 @@
         "pl": "odrzucić kartę płatniczą świadczeń azylowych; forsować berlińską City-ID dla dostępu do zdrowia, mieszkania, pracy i edukacji",
         "uk": "відхилити платіжну картку для допомоги шукачам притулку; просувати берлінську міську картку (City-ID) для доступу до охорони здоров’я, житла, роботи й освіти",
         "ar": "رفض بطاقة الدفع لمساعدات اللجوء؛ متابعة بطاقة مدينة برلين (City-ID) للوصول إلى الصحة والسكن والعمل والتعليم",
-        "es": "Rechazar la tarjeta de pago (Bezahlkarte) para las prestaciones de asilo; impulsar una City-ID de Berlín para acceder a sanidad, vivienda, trabajo y educación",
+        "es": "Rechazar la tarjeta de pago para las prestaciones de asilo; impulsar una City-ID de Berlín para acceder a sanidad, vivienda, trabajo y educación",
         "ku": "Karta dayînê (Bezahlkarte) ji bo alîkariyên penaberiyê red bikin; City-ID ya Berlînê ji bo gihîştina tenduristî, xanî, kar û perwerdeyê bişopînin"
       },
       "sources": [
@@ -17739,7 +17739,7 @@
         "pl": "Znieść dyskryminującą kartę płatniczą; prawo do zdrowia i zabezpieczenia społecznego także bez „właściwych” dokumentów; dostęp do edukacji, opieki zdrowotnej i pracy niezależnie od statusu; podstawowe konto bankowe dla wszystkich",
         "uk": "Скасувати дискримінаційну платіжну картку; право на здоров’я і соцзахист також без «правильних» паперів; доступ до освіти, медицини й роботи незалежно від статусу; базовий банківський рахунок для всіх",
         "ar": "إلغاء بطاقة الدفع التمييزية؛ حقوق الصحة والضمان الاجتماعي حتى بلا «الأوراق الصحيحة»؛ الوصول إلى التعليم والرعاية والعمل بغض النظر عن وضع الإقامة؛ حساب بنكي أساسي للجميع",
-        "es": "Abolir la tarjeta de pago (Bezahlkarte) discriminatoria; derechos sanitarios y de seguridad social también sin los «papeles correctos»; acceso a educación, sanidad y trabajo con independencia del estatuto de residencia; cuenta bancaria básica para todas las personas",
+        "es": "Abolir la tarjeta de pago discriminatoria; derechos sanitarios y de seguridad social también sin los «papeles correctos»; acceso a educación, sanidad y trabajo con independencia del estatuto de residencia; cuenta bancaria básica para todas las personas",
         "ku": "Karta dayînê (Bezahlkarte) ya cihêkar betal bikin; mafên tenduristî û ewlehiya civakî jî bêyî «kaxezên rast»; gihîştina perwerde, tenduristî û karê bêyî statuya rûniştinê; hesabê bankê yê bingehîn ji bo her kesî"
       },
       "sources": [
@@ -17775,7 +17775,7 @@
         "pl": "Przeciw karcie płatniczej; pełna stawka standardowa dla samotnych uchodźców w ośrodkach; pomoc społeczna dla niepracujących obywateli UE; równe świadczenia egzystencjalne oraz dostęp do pracy, edukacji i zdrowia niezależnie od statusu",
         "uk": "Проти платіжної картки; повна стандартна ставка для самотніх біженців у гуртожитках; соцдопомога непрацюючим громадянам ЄС; рівні виплати на існування та доступ до роботи, освіти й медицини незалежно від статусу",
         "ar": "ضد بطاقة الدفع؛ معدل إعانة قياسي كامل للاجئين العزاب في الإسكان الجماعي؛ مساعدة اجتماعية لمواطني الاتحاد غير العاملين؛ منافع معيشة متساوية ووصول إلى العمل والتعليم والصحة بغض النظر عن الوضع",
-        "es": "En contra de la tarjeta de pago (Bezahlkarte); cuantía completa de la prestación estándar para refugiados solos en alojamiento colectivo; asistencia social para ciudadanas y ciudadanos de la UE sin empleo; igualdad de prestaciones de subsistencia y acceso a trabajo, educación y sanidad con independencia del estatuto",
+        "es": "En contra de la tarjeta de pago; cuantía completa de la prestación estándar para refugiados solos en alojamiento colectivo; asistencia social para ciudadanas y ciudadanos de la UE sin empleo; igualdad de prestaciones de subsistencia y acceso a trabajo, educación y sanidad con independencia del estatuto",
         "ku": "Li dijî karta dayînê (Bezahlkarte); rêjeya tevahî ya alîkariya standard ji bo penaberên tenê di xaniyên kolektîf de; alîkariya civakî ji bo hemwelatiyên YE yên bêkar; wekheviya alîkariyên jiyanê û gihîştina kar, perwerde û tenduristiyê bêyî statuyê"
       },
       "sources": [
@@ -17823,7 +17823,7 @@
         "pl": "Berlin, „jako ostatni z landów,” natychmiast wprowadza kartę płatniczą — zarówno dla nowo przybyłych, jak i dla już obecnych",
         "uk": "Берлін, «як остання з земель», негайно вводить платіжну картку — як для новоприбулих, так і для тих, хто вже тут",
         "ar": "برلين، «باعتبارها آخر الولايات»، تُدخل فوراً بطاقة الدفع — للوافدين الجدد ولمن هم هنا أصلاً",
-        "es": "Berlín, «como el último de los Länder», introduce de inmediato la tarjeta de pago (Bezahlkarte), tanto para nuevas llegadas como para quienes ya están aquí",
+        "es": "Berlín, «como el último de los Länder (estados federados)», introduce de inmediato la tarjeta de pago, tanto para nuevas llegadas como para quienes ya están aquí",
         "ku": "Berlîn, «wekî Länder a dawî», yekser karta dayînê (Bezahlkarte) tîne — hem ji bo kesên nû û hem jî ji bo yên jixwe li vir in"
       },
       "sources": [
@@ -17990,7 +17990,7 @@
         "pl": "Państwowe centra integracji w każdej dzielnicy (język, doradztwo, wsparcie w jednym miejscu); „wspierać i wymagać” z aktywnym udziałem w ofertach językowych i integracyjnych; prace społeczne wg §5 AsylbLG; szybsze uznawanie zagranicznych kwalifikacji i działanie przeciw nieuczciwym pośrednikom; ściślejsza współpraca LEA, urzędów ds. uchodźców, opieki społecznej i policji przy egzekwowaniu obowiązku wyjazdu",
         "uk": "Державні інтеграційні центри в кожному окрузі (мова, консультації, підтримка в одному місці); «підтримувати і вимагати» з активною участю в мовних та інтеграційних пропозиціях; громадські роботи за §5 AsylbLG; швидше визнання іноземних кваліфікацій і протидія недобросовісним посередникам; тісніша співпраця LEA, служб у справах біженців, соцслужб і поліції для виконання обов’язку виїзду",
         "ar": "مراكز اندماج حكومية في كل مقاطعة (لغة واستشارة ودعم في مكان واحد)؛ مبدأ «الدعم والمطالبة» مع مشاركة فعّالة في عروض اللغة والاندماج؛ عمل للمنفعة العامة وفق §5 AsylbLG؛ اعتراف أسرع بالمؤهلات الأجنبية وإجراء ضد الوسطاء غير الجادين؛ وتعاون أوثق بين LEA وسلطات اللاجئين ومكاتب الشؤون الاجتماعية والشرطة لإنفاذ التزام المغادرة",
-        "es": "Centros estatales de integración en cada distrito (idioma, asesoramiento y apoyo en un solo lugar); «fomentar y exigir» (Fördern und Fordern) con participación activa obligatoria en ofertas de idioma e integración; trabajo comunitario según § 5 AsylbLG; reconocimiento más rápido de títulos extranjeros y actuación contra intermediarios sin escrúpulos; mayor cooperación entre LEA, autoridades de refugiados, oficinas sociales y policía para hacer cumplir las obligaciones de salida",
+        "es": "Centros estatales de integración en cada distrito (idioma, asesoramiento y apoyo en un solo lugar); «fomentar y exigir» con participación activa obligatoria en ofertas de idioma e integración; trabajo comunitario según § 5 de la ley de prestaciones de asilo; reconocimiento más rápido de títulos extranjeros y actuación contra intermediarios sin escrúpulos; mayor cooperación entre LEA, autoridades de refugiados, oficinas sociales y policía para hacer cumplir las obligaciones de salida",
         "ku": "Li her navçeyekê navendên entegrasyonê yên dewletê (ziman, şîret, piştgirî li cihekî); \"piştgirî û daxwaz\" bi beşdariya çalak a ziman û pêşniyarên entegrasyonê pêwîst e; xebata civakê di bin §5 AsylbLG; naskirina bilez a qayîmbûna biyanî û çalakiya li dijî navbeynkarên bêwijdan; hevkariya nêzîk a LEA (ofîsa koçberiyê ya herêmî), rayedarên penaberan, ofîsên civakî û polîsan ji bo bicihanîna erkên derketinê"
       },
       "sources": [
@@ -18044,7 +18044,7 @@
         "pl": "Profesjonalizować i trwale finansować Integrationslots*innen (także nowe grupy językowe); centralny monitoring integracji i uczestnictwa z półrocznymi wskaźnikami; Berliner karta miejska (CityID), by osoby bez dokumentów miały dostęp do zdrowia, mieszkania, pracy i edukacji",
         "uk": "Професіоналізувати й постійно фінансувати Integrationslots*innen (зокрема нові мовні групи); центральний моніторинг інтеграції та участі з піврічними показниками; Berliner міська картка (CityID), щоб люди без документів мали доступ до здоров’я, житла, роботи й освіти",
         "ar": "احتراف وتمويل دائم لبرنامج Integrationslots*innen (بما في ذلك مجموعات لغوية جديدة)؛ ورصد مركزي للاندماج والمشاركة بمؤشرات نصف سنوية؛ وBerliner بطاقة المدينة (CityID) ليتاح لغير الموثقين الوصول إلى الصحة والسكن والعمل والتعليم",
-        "es": "Profesionalizar y financiar de forma permanente a las Integrationslots*innen (mediadoras/es de integración; grupos lingüísticos ampliados); seguimiento central de integración y participación con indicadores semestrales; tarjeta ciudadana berlinesa (CityID) para que personas indocumentadas accedan a sanidad, vivienda, trabajo y educación",
+        "es": "Profesionalizar y financiar de forma permanente a las mediadoras y mediadores de integración (grupos lingüísticos ampliados); seguimiento central de integración y participación con indicadores semestrales; tarjeta ciudadana berlinesa (CityID) para que personas indocumentadas accedan a sanidad, vivienda, trabajo y educación",
         "ku": "Integrationslots*innen (komên zimanên berfirehkirî) profesyonel bikin û bi domdarî fînanse bikin; entegrasyona navendî û çavdêriya beşdariyê bi nîşaneyên nîvsalane; Karta bajarê Berlînê (CityID) da ku kesên bê belge karibin xwe bigihînin tenduristî, xanî, kar û perwerdeyê"
       },
       "sources": [
@@ -18122,7 +18122,7 @@
         "pl": "Wzmocnić LAF kadrowo i organizacyjnie; lokalne prawo wyborcze dla nieobywateli po pięciu latach; rozwijać Partizipationsgesetz z wiążącą kwotą zatrudnienia dla osób z historią migracji w służbie publicznej",
         "uk": "Посилити LAF кадрами й організаційно; місцеве виборче право для негромадян через п’ять років; розвивати Partizipationsgesetz із обов’язковою квотою найму для людей із міграційним досвідом у держслужбі",
         "ar": "تعزيز LAF من حيث الموظفين والتنظيم؛ وحق التصويت المحلي لغير المواطنين بعد خمس سنوات؛ وتطوير قانون المشاركة بحصة توظيف ملزمة لمن لهم تاريخ هجرة في الخدمة العامة",
-        "es": "Reforzar plantilla y organización de la LAF; derecho de voto local para no nacionales tras cinco años; desarrollar la Partizipationsgesetz (ley de participación) con una cuota vinculante de contratación de personas con trayectoria migratoria en el servicio público",
+        "es": "Reforzar plantilla y organización de la LAF; derecho de voto local para no nacionales tras cinco años; desarrollar la ley de participación con una cuota vinculante de contratación de personas con trayectoria migratoria en el servicio público",
         "ku": "Karmend û rêxistina LAF (ofîsa penaberan ya herêmî)-ê xurt bikin; mafê dengdana herêmî ji bo kesên ne-welatî piştî pênc salan; Pêşvebirina Partizipationsgesetz bi kotayek kirêkirinê ya mecbûrî ji bo kesên xwedî dîrokek koçberiyê di karûbarê giştî de"
       },
       "sources": [
@@ -18506,7 +18506,7 @@
         "pl": "„Mniej państwa, więcej wolności”; wydatki kluczowe na edukację, infrastrukturę i bezpieczeństwo; ustawa o redukcji biurokracji, specjalna strefa ekonomiczna „Frei-Kiez”, polityka innowacji i obowiązkowe struktury Berlin–Brandenburg, przegląd „niekontrolowanego rozrostu” spółek komunalnych",
         "uk": "«Менше держави, більше свободи»; основні витрати на освіту, інфраструктуру та безпеку; закон про скорочення бюрократії, особлива економічна зона «Frei-Kiez», інноваційна політика та обов’язкові структури Берлін–Бранденбург, перевірка «розростання» муніципальних компаній",
         "ar": "\"حكومة أقل، حرية أكبر\"؛ والإنفاق الأساسي على التعليم والبنية التحتية والأمن؛ قانون الحد من البيروقراطية، والمنطقة الاقتصادية الخاصة \"Frei-Kiez\"، وسياسة الابتكار والهياكل الإلزامية بين برلين وبراندنبورغ، ومراجعة \"الانتشار غير المنضبط\" للشركات البلدية",
-        "es": "“Menos gobierno, más libertad”; gasto básico en educación, infraestructura y seguridad; ley de reducción de la burocracia, zona económica especial “Frei-Kiez”, política de innovación y estructuras obligatorias Berlín-Brandenburgo, revisión de la “proliferación incontrolada” de empresas municipales",
+        "es": "“Menos gobierno, más libertad”; gasto básico en educación, infraestructura y seguridad; ley de reducción de la burocracia, zona económica especial «barrio libre», política de innovación y estructuras obligatorias Berlín-Brandenburgo, revisión de la “proliferación incontrolada” de empresas municipales",
         "ku": "\"Kêm hikûmet, bêtir azadî\"; lêçûnên bingehîn ên perwerdeyê, binesaziyê û ewlehiyê; qanûna kêmkirina burokrasiyê, herêma aborî ya taybet \"Frei-Kiez\", polîtîkaya nûbûnê û strukturên mecbûrî yên Berlîn-Brandenburgê, nirxandina \"belavbûna bê kontrol\" a pargîdaniyên şaredariyê."
       },
       "sources": [
@@ -18590,7 +18590,7 @@
         "pl": "Płaca minimalna 15 € za godzinę przez inicjatywę w Bundesracie; zachowanie Berlina jako ośrodka przemysłowego i ochrona miejsc pracy, krytyka wysokich cen energii i biurokracji; warunki ramowe i dostęp do venture capital dla startupów, ale krytyka przestawiania berlińskich firm i branży games na obronność; zniesienie umów na czas określony bez obiektywnych podstaw w sektorze publicznym i pełne stosowanie układów zbiorowych",
         "uk": "Мінімальна заробітна плата 15 євро за годину через ініціативу Бундесрату; зберегти Берлін як промислове місце та захистити робочі місця, критикувати високі ціни на енергоносії та бюрократію; рамкові умови та доступ до венчурного капіталу для стартапів, але критика перетворення берлінських компаній та індустрії ігор на оборону; скасувати строкові угоди без об’єктивних підстав у бюджетній сфері та забезпечити повне застосування колективних договорів",
         "ar": "الحد الأدنى للأجور 15 يورو في الساعة من خلال مبادرة البوندسرات؛ والحفاظ على برلين كموقع صناعي وحماية الوظائف، وانتقاد أسعار الطاقة المرتفعة والبيروقراطية؛ الشروط الإطارية والوصول إلى رأس المال الاستثماري للشركات الناشئة، لكن هناك انتقادات لتحويل شركات برلين وصناعة الألعاب إلى شركات دفاعية؛ إلغاء العقود محددة المدة دون أسس موضوعية في القطاع العام وضمان التطبيق الكامل للاتفاقيات الجماعية",
-        "es": "Salario mínimo de 15 € por hora a través de una iniciativa del Bundesrat (Consejo Federal); preservar Berlín como lugar industrial y proteger los empleos, críticas a los altos precios de la energía y la burocracia; condiciones marco y acceso a capital riesgo para las empresas emergentes, pero críticas a la conversión de las empresas berlinesas y la industria de los juegos en defensa; abolir los contratos de duración determinada sin motivos objetivos en el sector público y garantizar la plena aplicación de los convenios colectivos",
+        "es": "Salario mínimo de 15 € por hora a través de una iniciativa del Consejo Federal (Consejo Federal); preservar Berlín como lugar industrial y proteger los empleos, críticas a los altos precios de la energía y la burocracia; condiciones marco y acceso a capital riesgo para las empresas emergentes, pero críticas a la conversión de las empresas berlinesas y la industria de los juegos en defensa; abolir los contratos de duración determinada sin motivos objetivos en el sector público y garantizar la plena aplicación de los convenios colectivos",
         "ku": "Meaşê herî kêm 15 € serê saetekê bi înîsiyatîfa Bundesrat (Encûmena Federal); Berlînê wekî cîhek pîşesaziyê biparêze û karan biparêze, rexnekirina bihayên bilind ên enerjiyê û burokrasiyê; şert û mercên çarçoveyê û gihîştina sermayeya veberhênanê ji bo destpêkan, lê rexnekirina veguherîna pargîdaniyên Berlînê û pîşesaziya lîstikan ji bo parastinê; di sektora giştî de peymanên demdemî yên bê hincetên objektîf betal bike û bi tevahî pêkanîna peymanên kolektîf misoger bike"
       },
       "sources": [
@@ -18632,7 +18632,7 @@
         "pl": "stolica startupów: centralny Gründungshub dla metropolii Berlin-Brandenburg; KiezLabs w pustostanach jako lokalne huby innowacji; pola testowe wodoru/ładowania dwukierunkowego (Tegel) i Agri-PV na Tempelhofer Feld",
         "uk": "столиця стартапів: центральний Gründungshub для метрополії Берлін-Бранденбург; KiezLabs у порожніх будівлях як локальні інноваційні хаби; тестові поля для водню/двобічної зарядки (Tegel) і Agri-PV на Tempelhofer Feld",
         "ar": "عاصمة الشركات الناشئة: Gründungshub مركزي لمنطقة برلين-براندنبورغ؛ KiezLabs في المباني الشاغرة كمراكز ابتكار محلية؛ حقول اختبار للهيدروجين/الشحن ثنائي الاتجاه (Tegel) وAgri-PV على Tempelhofer Feld",
-        "es": "Capital inicial: Gründungshub central para la región metropolitana de Berlín-Brandenburgo; kiezLabs en edificios vacíos como centros de innovación locales; campos de pruebas para hidrógeno/carga bidireccional (Tegel) y Agri-PV en Tempelhofer Feld",
+        "es": "Capital inicial: centro de creación de empresas central para la región metropolitana de Berlín-Brandenburgo; laboratorios de barrio en edificios vacíos como centros de innovación locales; campos de pruebas para hidrógeno/carga bidireccional (Tegel) y Agri-PV en Tempelhofer Feld",
         "ku": "Paytexta destpêkê: Gründungshub navendî ji bo herêma metroya Berlîn-Brandenburg; KiezLabs li avahiyên vala wekî navendên nûjeniya herêmî; zeviyên ceribandinê yên ji bo barkirina hîdrojen / dualî (Tegel) û Agri-PV li ser Tempelhofer Feld"
       },
       "sources": [
@@ -18860,7 +18860,7 @@
         "pl": "silny ekosystem innowacji łączący naukę, biznes i przemysłową wartość dodaną; Berliner Innovationsfreiheitsgesetz dla real-labów, klauzul eksperymentalnych i szybszych procedur; innowacja przez międzynarodową różnorodność",
         "uk": "сильна інноваційна екосистема науки, бізнесу й промислової доданої вартості; Innovationsfreiheitsgesetz для реал-лаб, експериментальних застережень і швидших процедур; інновації через міжнародне розмаїття",
         "ar": "منظومة ابتكار قوية تربط العلم والأعمال والقيمة الصناعية؛ Innovationsfreiheitsgesetz لمختبرات واقعية وبنود تجريبية وإجراءات أسرع؛ ابتكار عبر التنوع الدولي",
-        "es": "Un sólido ecosistema de innovación que vincule la ciencia, los negocios y la creación de valor industrial; una Innovationsfreiheitsgesetz de Berlín para laboratorios reales, cláusulas experimentales y procedimientos más rápidos; innovación a través de la diversidad internacional",
+        "es": "Un sólido ecosistema de innovación que vincule la ciencia, los negocios y la creación de valor industrial; una ley de libertad para la innovación de Berlín para laboratorios reales, cláusulas experimentales y procedimientos más rápidos; innovación a través de la diversidad internacional",
         "ku": "Ekosîstema nûjen a bihêz ku zanist, karsazî û afirandina nirxa pîşesaziyê bi hev ve girêdide; Berlîn Innovationsfreiheitsgesetz ji bo laboratîfên rastîn, bendên ceribandinê û prosedurên bileztir; nûbûn bi cihêrengiya navneteweyî"
       },
       "sources": [
@@ -18926,7 +18926,7 @@
         "pl": "silny nacisk na innowacje i wolność gospodarczą: mniej biurokracji, specjalna strefa ekonomiczna „Frei-Kiez”, inwestycje prywatne, startupy, sztuczna inteligencja i wspólne planowanie gospodarcze z Brandenburgią",
         "uk": "сильний акцент на інноваціях і свободі бізнесу: менше бюрократії, спеціальна економічна зона «Frei-Kiez», приватні інвестиції, стартапи, ШІ і спільне економічне планування з Бранденбургом",
         "ar": "تركيز قوي على الابتكار وحرية الأعمال: بيروقراطية أقل، ومنطقة اقتصادية خاصة \"Frei-Kiez\"، والاستثمار الخاص، والشركات الناشئة، والذكاء الاصطناعي، والتخطيط الاقتصادي المشترك مع براندنبورغ",
-        "es": "Fuerte enfoque en la innovación y la libertad empresarial: menos burocracia, zona económica especial \"Frei-Kiez\", inversión privada, nuevas empresas, inteligencia artificial y planificación económica conjunta con Brandeburgo.",
+        "es": "Fuerte enfoque en la innovación y la libertad empresarial: menos burocracia, zona económica especial \"barrio libre\", inversión privada, nuevas empresas, inteligencia artificial y planificación económica conjunta con Brandeburgo.",
         "ku": "Balkişandina xurt li ser nûbûn û azadiya karsaziyê: kêm burokrasî, qada aborî ya taybetî \"Frei-Kiez\", veberhênana taybetî, destpêk, îstîxbarata sûnî, û plansaziya aborî ya hevbeş bi Brandenburg re."
       },
       "sources": [
@@ -19016,7 +19016,7 @@
         "pl": "centralny Gründungshub dla założycieli Berlin-Brandenburg; KiezLabs, gdzie razem rosną lokalne rzemiosło, założyciele i freelancerzy; branżowe minima narzędzi AI/cyfrowych z izbami",
         "uk": "центральний Gründungshub для засновників Берлін-Бранденбург; KiezLabs, де разом зростають місцеві ремесла, засновники й самозайняті; галузеві мінімуми ШІ/цифрових інструментів із палатами",
         "ar": "Gründungshub مركزي لمؤسسي برلين-براندنبورغ؛ KiezLabs حيث ينمو الحرف المحليون والمؤسسون والمستقلون معاً؛ معايير دنيا مع الغرف لأدوات الذكاء الاصطناعي/الرقمنة للشركات الصغيرة",
-        "es": "Gründungshub central para los fundadores de Berlín-Brandenburgo; kiezLabs donde crecen juntos artesanos locales, fundadores y autónomos; estándares mínimos definidos por la cámara para herramientas de IA/digitalización para PYMES.",
+        "es": "Centro de creación de empresas central para los fundadores de Berlín-Brandenburgo; laboratorios de barrio donde crecen juntos artesanos locales, fundadores y autónomos; estándares mínimos definidos por la cámara para herramientas de IA/digitalización para PYMES.",
         "ku": "Navenda Gründungshub ji bo damezrênerên Berlîn-Brandenburg; KiezLabs ku esnafên herêmî, damezrîner û serbixwe bi hev re mezin dibin; Ji bo SME-yên piçûk standardên herî kêm ên jûreyê diyarkirî ji bo amûrên AI / dîjîtalkirinê"
       },
       "sources": [
@@ -19094,7 +19094,7 @@
         "pl": "Innowacje przez ekonomię dobra wspólnego i regionalne małe firmy: ulgi podatkowe dla firm z bilansem dobra wspólnego według GWÖ; programy dla założycielek; konsekwentnie egzekwować przepisy przeciw pozornej samozatrudnieniu",
         "uk": "Інновації через економіку суспільного блага та регіональний малий бізнес: податкові пільги фірмам із звітом суспільного блага за стандартом GWÖ; програми для засновниць; послідовно застосовувати норми проти фіктивної самозайнятості",
         "ar": "ابتكار عبر اقتصاد الصالح العام والأعمال الصغيرة الإقليمية: مزايا ضريبية للشركات ذات تقرير الصالح العام وفق معايير GWÖ؛ برامج للمؤسِّسات؛ إنفاذ صارم لقواعد ضد العمل الحر الصوري",
-        "es": "Innovación a través de la Economía del Bien Común y las pequeñas empresas regionales: beneficios fiscales para las empresas con un Balance del Bien Común GWÖ; programas para mujeres fundadoras; hacer cumplir las normas contra el falso trabajo por cuenta propia",
+        "es": "Innovación a través de la Economía del Bien Común y las pequeñas empresas regionales: beneficios fiscales para las empresas con un Balance del Bien Común (GWÖ); programas para mujeres fundadoras; hacer cumplir las normas contra el falso trabajo por cuenta propia",
         "ku": "Nûbûn bi riya Aboriya ji bo Qenciya Hevbeş û karsaziya piçûk a herêmî: feydeyên bacê ji bo pargîdaniyên xwedan Bîlançoya Baş a GWÖ; bernameyên ji bo damezrînerên jin; qaîdeyên li dijî xwe-karsaziya sexte bicîh bînin"
       },
       "sources": [
@@ -19594,7 +19594,7 @@
         "pl": "Wzmocnić centrum sukcesji firm jako one-stop-shop sukcesji; zamieniać puste budynki w KiezLabs dla rzemiosła, założycieli i freelancerów; kredyty IBB z dopłatą do spłaty do 40% na certyfikowane rozwiązania AI i cyfryzacji",
         "uk": "Посилити центр передачі бізнесу як єдине вікно з наступництва; перетворити порожні будівлі на KiezLabs для ремесел, засновників і самозайнятих; кредити IBB з грантом на погашення до 40% на сертифіковані ШІ- та цифрові рішення",
         "ar": "تعزيز مركز خلافة الأعمال كنقطة شاملة لخلافة الأعمال؛ وتحويل المباني الشاغرة إلى KiezLabs للحرف والمؤسسين والمستقلين؛ وقروض IBB بمنح سداد حتى 40% لحلول الذكاء الاصطناعي والرقمنة المعتمدة",
-        "es": "Fortalecer el centro de sucesión empresarial como ventanilla única para la sucesión; convertir edificios vacíos en KiezLabs para artesanos, fundadores y autónomos; préstamos del IBB con subvenciones de reembolso de hasta el 40 % para soluciones certificadas de IA y digitalización",
+        "es": "Fortalecer el centro de sucesión empresarial como ventanilla única para la sucesión; convertir edificios vacíos en laboratorios de barrio para artesanos, fundadores y autónomos; préstamos del IBB con subvenciones de reembolso de hasta el 40 % para soluciones certificadas de IA y digitalización",
         "ku": "Bihêzkirina navenda karsazî-serkeftinê wekî dikanek yek-stop ji bo serketinê; avahiyên vala veguherînin KiezLabs ji bo pîşesaz, damezrîner û serbixwe; Deynên IBB-ê bi 40% ji bo AI-ya pejirandî û çareseriyên dîjîtalbûnê bi dravdana dravdanê"
       },
       "sources": [
@@ -19702,7 +19702,7 @@
         "pl": "Częściowe zwolnienie z podatek od nabycia nieruchomości przy pierwszym nabyciu na własne cele (do 300 tys. € udziału / transakcje ≤ 800 tys. €); Grundsteuer C na działki gotowe pod zabudowę; walka z obchodzeniem podatku — nie ogólna podwyżka podatku od nabycia",
         "uk": "Часткова відмова від податок на придбання нерухомості при першій купівлі для власного житла (частка до 300 тис. € / угоди ≤ 800 тис. €); Grundsteuer C на готові до забудови порожні ділянки; проти обходу податку — не загальне підвищення податку на придбання",
         "ar": "إعفاء جزئي من ضريبة نقل الملكية عند أول شراء للسكن الذاتي (حصة حتى 300 ألف يورو / مشتريات ≤ 800 ألف)؛ وGrundsteuer C على القطع الجاهزة للبناء؛ ومكافحة التهرب — وليس رفعاً شاملاً لضريبة النقل",
-        "es": "Exención parcial del impuesto sobre la transmisión de inmuebles en la primera compra de vivienda habitual (hasta 300.000 € del precio / compras ≤ 800.000 €); introducir la Grundsteuer C en solares vacíos listos para edificar; combatir la elusión del impuesto de transmisión — no una subida generalizada",
+        "es": "Exención parcial del impuesto sobre la transmisión de inmuebles en la primera compra de vivienda habitual (hasta 300.000 € del precio / compras ≤ 800.000 €); introducir el impuesto predial C en solares vacíos listos para edificar; combatir la elusión del impuesto de transmisión — no una subida generalizada",
         "ku": "Rakirina qismî ya baca veguheztina milkê li ser kirîna yekem a xaniyê yê jiyanê (heta 300.000 € / kirîn ≤ 800.000 €); Grundsteuer C li ser zevîyên vala yên amade-ji-bo-avakirinê; li dijî revîna bacê ya veguheztinê şer bikin — ne zêdebûneke giştî ya bacê"
       },
       "sources": [
@@ -19816,7 +19816,7 @@
         "pl": "Podatek od luksusowych willi i ostrzejsze kontrole bogatych; podnieść podatek od nabycia nieruchomości do 8% (co najmniej 6,5% Brandenburgii) z możliwością różnicowania; reformować i znieść hamulec długu; Kompetenzzentrum przeciw przestępczości finansowej w tym śledztwo podatkowe",
         "uk": "Податок на люкс-вілли та жорсткіші перевірки заможних; підняти податок на придбання нерухомості до 8% (щонайменше 6,5% Бранденбурга) з диференціацією; реформувати й скасувати боргове гальмо; Kompetenzzentrum проти фінзлочинів включно з податковою поліцією",
         "ar": "ضريبة على الفيلات الفاخرة وتدقيق أشد للأثرياء؛ رفع ضريبة نقل الملكية إلى 8% (على الأقل 6.5% براندنبورغ) مع هامش تمييز؛ إصلاح وإلغاء كابح الدين؛ ومركز كفاءة ضد الجرائم المالية يشمل التحقيق الضريبي",
-        "es": "Impuesto a villas de lujo y auditorías más estrictas a grandes fortunas; subir el impuesto sobre la transmisión de inmuebles al 8 % (al menos el 6,5 % de Brandeburgo), con margen para diferenciar; reformar y abolir el freno de la deuda; crear un Kompetenzzentrum contra la delincuencia financiera, incluida la inspección tributaria",
+        "es": "Impuesto a villas de lujo y auditorías más estrictas a grandes fortunas; subir el impuesto sobre la transmisión de inmuebles al 8 % (al menos el 6,5 % de Brandeburgo), con margen para diferenciar; reformar y abolir el freno de la deuda; crear un centro de competencia contra la delincuencia financiera, incluida la inspección tributaria",
         "ku": "Baca vîllayên luks û kontrolên hişktir li ser dewlemendan; baca veguheztina milkê bo %8 bilind bikin (herî kêm %6,5 a Brandenburgê) bi cîhê cuda kirinê; frena deynê reform bikin û betal bikin; Kompetenzzentrum-ekê li dijî sûcê darayî, di nav de lêkolîna bacê, ava bikin"
       },
       "sources": [
@@ -19924,7 +19924,7 @@
         "pl": "Emerytury do 2000 € wolne od podatku oraz niższe podatki i składki od zwykłych zarobków przez inicjatywy w Bundesracie; przeciw zwiększaniu wydatków zbrojeniowych kosztem budżetu socjalnego, edukacji, ochrony zdrowia i kultury",
         "uk": "Пенсії до 2000 євро без оподаткування та зниження податків і зборів на нормальний заробіток через ініціативи Бундесрату; проти збільшення витрат на озброєння за рахунок соціального бюджету, освіти, охорони здоров'я, культури",
         "ar": "معاشات تقاعدية تصل إلى 2000 يورو معفاة من الضرائب وضرائب ورسوم أقل على الدخل العادي من خلال مبادرات البوندسرات؛ ضد زيادة الإنفاق على الأسلحة على حساب الميزانية الاجتماعية والتعليم والرعاية الصحية والثقافة",
-        "es": "Pensiones de hasta 2.000 € libres de impuestos y menos impuestos y cotizaciones sobre rentas normales mediante iniciativas en el Bundesrat; en contra de subir el gasto en armamento a costa del presupuesto social, la educación, la sanidad y la cultura",
+        "es": "Pensiones de hasta 2.000 € libres de impuestos y menos impuestos y cotizaciones sobre rentas normales mediante iniciativas en el Consejo Federal; en contra de subir el gasto en armamento a costa del presupuesto social, la educación, la sanidad y la cultura",
         "ku": "Bi însiyatîfên Bundesrat (Encûmena Federal) re teqawîdan heta 2,000 € bê bac û bac û berdêlên kêmtir li ser dahatên normal; li dijî zêdekirina lêçûnên çekan li ser hesabê budçeya civakî, perwerde, tenduristî û çandê"
       },
       "sources": [
@@ -19996,7 +19996,7 @@
         "pl": "Przywrócić Vermögensteuer; uczynić Grundsteuer i podatek od nabycia nieruchomości progresywnymi i zakończyć przerzucanie Grundsteuer na najemców; utrzymać i w razie potrzeby podnieść opłatę turystyczną; niezależna komisja przeciw przekroczeniom kosztów dużych projektów",
         "uk": "Повернути Vermögensteuer; зробити Grundsteuer і податок на придбання нерухомості прогресивними та припинити перекладання Grundsteuer на орендарів; зберегти й за потреби підвищити турзбір; незалежна комісія проти перевитрат на великих проєктах",
         "ar": "إعادة ضريبة الثروة؛ وجعل ضريبتي الأرض ونقل الملكية تصاعديتين وإنهاء تحميل ضريبة الأرض على المستأجرين؛ والإبقاء على ضريبة السياحة ورفعها عند الحاجة؛ ولجنة مستقلة ضد تجاوزات تكاليف المشاريع الكبرى",
-        "es": "Restaurar el impuesto sobre el patrimonio (Vermögensteuer); hacer progresivos la Grundsteuer y el impuesto sobre la transmisión de inmuebles y dejar de repercutir la Grundsteuer a los inquilinos; mantener y, si hace falta, subir la tasa turística; comisión independiente contra sobrecostes en grandes proyectos",
+        "es": "Restaurar el impuesto sobre el patrimonio; hacer progresivo el impuesto predial y el impuesto sobre la transmisión de inmuebles y dejar de repercutir el impuesto predial a los inquilinos; mantener y, si hace falta, subir la tasa turística; comisión independiente contra sobrecostes en grandes proyectos",
         "ku": "Vegerandina Vermögensteuer; Grundsteuer û baca veguheztina milkê pêşkeftî bikin û Grundsteuer ji kirêdaran re derbas bikin; biparêze û, ger hewce bike, baca geştiyariyê zêde bike; komîsyona serbixwe li dijî zêdekirina lêçûnên li ser projeyên mezin"
       },
       "sources": [
@@ -20134,7 +20134,7 @@
         "pl": "Reforma administracji, by zakończyć „ping-pong urzędów”: jasny podział kompetencji między Senat a dzielnice oraz zasada łączności w konstytucji miasta",
         "uk": "Адміністративна реформа, щоб покінчити з «агентським пінг-понгом»: чіткий розподіл повноважень між Сенатом і районами та принцип зв’язності в конституції міста",
         "ar": "الإصلاح الإداري لإنهاء \"وكالة بينج بونج\": تقسيم واضح للمسؤوليات بين مجلس الشيوخ والمقاطعات، ومبدأ الاتصال في دستور المدينة",
-        "es": "Reforma administrativa para acabar con el “ping-pong de agencia”: clara división de responsabilidades entre el Senat y los distritos, y el principio de conectividad en la constitución de la ciudad",
+        "es": "Reforma administrativa para acabar con el “ping-pong de agencia”: clara división de responsabilidades entre el Senado de Berlín y los distritos, y el principio de conectividad en la constitución de la ciudad",
         "ku": "Reforma îdarî ji bo bidawîkirina \"pîng-pongê ajansê\": dabeşkirina zelal a erkan di navbera Senat û navçeyan de, û prensîba girêdanê di destûra bajêr de"
       },
       "sources": [
@@ -20158,7 +20158,7 @@
         "pl": "uczynić administrację bardziej cyfrową i efektywną oraz ożywić reforma administracji; przywrócić wnioski o Berlinpass przez Bürgerämter (plus cyfrowy dowód dla Berlin-Ticket S)",
         "uk": "зробити адміністрацію цифровішою й ефективнішою та оживити адміністративна реформа; повернути подання Berlinpass через Bürgerämter (плюс цифровий варіант підтвердження для Berlin-Ticket S)",
         "ar": "جعل الإدارة أكثر رقمية وكفاءة وإحياء إصلاح إداري؛ إعادة طلبات Berlinpass عبر Bürgerämter (مع خيار إثبات رقمي لـ Berlin-Ticket S)",
-        "es": "Hacer la administración más digital y eficiente y dar vida a la reforma administrativa; restaurar solicitudes de Berlinpass a través de Bürgerämter (más una opción de prueba digital para Berlin-Ticket S)",
+        "es": "Hacer la administración más digital y eficiente y dar vida a la reforma administrativa; restaurar solicitudes de Berlinpass a través de oficinas de atención ciudadana (más una opción de prueba digital para Berlin-Ticket S)",
         "ku": "Rêveberiya dîjîtaltir û bikêrhatîtir bike û reforma îdarî bike jiyanê; serîlêdanên Berlinpass-ê bi rêya Bürgerämter vegerînin (ji bo Berlin-Ticket S vebijarkek delîlek dîjîtal)"
       },
       "sources": [
@@ -20188,7 +20188,7 @@
         "pl": "kompleksowa ustawa odbiurokratyzująca i systematyczna modernizacja prawa narzędziami cyfrowymi; system wizyt AI w Bürgerämter z optymalizacją slotów; przegląd, które Landesunternehmen mogłyby świadczyć usługi sprawniej w innej strukturze własności",
         "uk": "комплексний закон про зниження бюрократії та системна модернізація законодавства цифровими інструментами; ШІ-запис у Bürgerämter з оптимізацією слотів; перевірити, які Landesunternehmen ефективніше нададуть послуги за іншої власності",
         "ar": "قانون شامل لتخفيف البيروقراطية وتحديث منهجي للتشريع بأدوات رقمية؛ نظام مواعيد بالذكاء الاصطناعي لـ Bürgerämter مع تحسين الفترات؛ مراجعة أي Landesunternehmen يمكن أن تقدّم الخدمات بكفاءة أكبر بملكية أخرى",
-        "es": "Ley integral de alivio de la burocracia y modernización sistemática de la legislación con herramientas digitales; sistema de citas mediante IA para Bürgerämter con optimización de franjas horarias en tiempo real; revisar qué Landesunternehmen podrían prestar servicios de manera más eficiente bajo otros propietarios",
+        "es": "Ley integral de alivio de la burocracia y modernización sistemática de la legislación con herramientas digitales; sistema de citas mediante IA para oficinas de atención ciudadana con optimización de franjas horarias en tiempo real; revisar qué Landesunternehmen podrían prestar servicios de manera más eficiente bajo otros propietarios",
         "ku": "Qanûnên burokrasî-alîkariyê yên berfireh û nûjenkirina sîstematîk a zagonan bi amûrên dîjîtal; Pergala randevûyê ya AI-ê ji bo Bürgerämter bi xweşbîniya hêlînê ya rast-ê; vekolîn ka kîjan Landesunternehmen dikare di bin xwediyên din de karûbaran bi bandortir peyda bike"
       },
       "sources": [
@@ -20362,7 +20362,7 @@
         "pl": "termin w dowolnym Bürgeramt w 14 dni; uchylić przestarzałe/sprzeczne przepisy; jasny podział zadań Senat–dzielnice; portal z danymi spółek miejskich i darmowy wgląd w umowy od 100 tys. €; mobilne jednostki Bürgeramt",
         "uk": "запис у будь-який Bürgeramt за 14 днів; скасувати застарілі/суперечливі норми; чіткий розподіл завдань Сенат–округи; портал із даними міських підприємств і безкоштовний доступ до договорів від 100 тис. €; мобільні Bürgeramt",
         "ar": "موعد في أي Bürgeramt خلال 14 يوماً؛ إلغاء القواعد القديمة/المتناقضة؛ تقسيم أوضح للمهام بين مجلس الشيوخ والأحياء؛ بوابة ببيانات شركات البلدية واطلاع مجاني على العقود من 100 ألف يورو؛ وحدات Bürgeramt متنقلة",
-        "es": "Cita en cualquier Bürgeramt dentro de los 14 días; derogar normas obsoletas o contradictorias; división de tareas más clara entre el Senado y el distrito; portal público con datos municipal-empresa y acceso gratuito a contratos a partir de 100.000€; unidades móviles de Bürgeramt",
+        "es": "Cita en cualquier oficina de atención ciudadana dentro de los 14 días; derogar normas obsoletas o contradictorias; división de tareas más clara entre el Senado y el distrito; portal público con datos municipal-empresa y acceso gratuito a contratos a partir de 100.000€; unidades móviles de oficina de atención ciudadana",
         "ku": "Randevûya li her Bürgeramt di nav 14 rojan de; betalkirina qaîdeyên kevnar/nakok; zelaltir dabeşkirina peywira Senat-navçeyê; Portala giştî ya bi daneyên şaredarî-karsaziyê û gihîştina belaş a peymanên ji 100,000 €; yekîneyên Bürgeramt mobîl"
       },
       "sources": [
@@ -20506,7 +20506,7 @@
         "pl": "Digitalgesetz; „Public Money, Public Code” — umowy tylko na open source; Open Data, Berlin-App, cyfrowe Bürgeramt z konsultacjami wideo i statusem wniosku w czasie rzeczywistym oraz cyfrowa suwerenność zamiast zależności od USA i Chin",
         "uk": "Digitalgesetz; «Public Money, Public Code» — контракти лише для відкритого коду; Відкриті дані, Berlin-App, цифровий Bürgeramt із відеоконсультаціями та статусом заявок у реальному часі, і цифровий суверенітет замість залежності від США та Китаю",
         "ar": "ديجيتالجيسيتز. \"المال العام، القانون العام\" - العقود مفتوحة المصدر فقط؛ البيانات المفتوحة، وتطبيق برلين، وBürgeramt الرقمي مع استشارات الفيديو وحالة الطلب في الوقت الفعلي، والسيادة الرقمية بدلاً من الاعتماد على الولايات المتحدة والصين",
-        "es": "Gestión digital; “Dinero público, código público”: contratos solo para código abierto; open Data, Berlin-App, un Bürgeramt digital con consultas por vídeo y estado de las solicitudes en tiempo real, y soberanía digital en lugar de dependencia de EE.UU. y China",
+        "es": "Gestión digital; “Dinero público, código público”: contratos solo para código abierto; datos abiertos, Berlin-App, un oficina de atención ciudadana digital con consultas por vídeo y estado de las solicitudes en tiempo real, y soberanía digital en lugar de dependencia de EE.UU. y China",
         "ku": "Digitalgesetz; \"Pereyê Giştî, Kodê Giştî\" - peyman tenê ji bo çavkaniya vekirî; Daneyên vekirî, Berlîn-App, Bürgeramtek dîjîtal bi şêwirmendiya vîdyoyê û rewşa serîlêdanê ya rast-dem, û serweriya dîjîtal li şûna girêdayîbûna bi DY û Chinaînê."
       },
       "sources": [
@@ -20794,7 +20794,7 @@
         "pl": "preferować Open Source, finansować ITDZ, Public Money/Public Code i wykorzystywać sprawdzone rozwiązania innych landów; centra danych oddają ciepło do sieci ciepłowniczej; kontynuować światłowód i przywrócić Free Wifi Berlin; AI w administracji/policji/sądach tylko pod nadzorem człowieka, przejrzystość algorytmów, bez Social Scoring",
         "uk": "надавати перевагу Open Source, фінансувати ITDZ, Public Money/Public Code і використовувати перевірені рішення інших земель; ЦОДи віддають тепло в тепломережу; продовжити оптоволокно і повернути Free Wifi Berlin; ШІ в адміністрації/поліції/юстиції лише під людським наглядом, прозорість алгоритмів, без Social Scoring",
         "ar": "تفضيل Open Source وتمويل ITDZ وPublic Money/Public Code وإعادة استخدام حلول الولايات الأخرى؛ مراكز البيانات تغذي شبكة التدفئة بالحرارة المهدرة؛ مواصلة الألياف وإعادة Free Wifi Berlin؛ الذكاء الاصطناعي في الإدارة/الشرطة/العدالة تحت إشراف بشري فقط وشفافية خوارزمية دون Social Scoring",
-        "es": "Preferir el código abierto, financiar ITDZ, dinero público/código público y reutilizar soluciones probadas de otros Länder; los centros de datos alimentan el calor residual a la red de calefacción; continuar con el despliegue de fibra y restaurar Free Wifi Berlin; IA en administración/policía/justicia solo bajo supervisión humana, transparencia algorítmica, sin puntuación social",
+        "es": "Preferir el código abierto, financiar ITDZ, dinero público/código público y reutilizar soluciones probadas de otros Länder (estados federados); los centros de datos alimentan el calor residual a la red de calefacción; continuar con el despliegue de fibra y restaurar Free Wifi Berlin; IA en administración/policía/justicia solo bajo supervisión humana, transparencia algorítmica, sin puntuación social",
         "ku": "Çavkaniya Vekirî tercîh bikin, ITDZ, Pereyê Giştî/Koda Giştî fînanse bikin, û çareseriyên îsbatkirî yên ji Landsên din ji nû ve bikar bînin; navendên danûstendinê germa çolê dixin tora germkirinê; danasîna fiberê bidomînin û Wifi Berlînê ya Belaş sererast bikin; AI di rêveberî / polîs / dadwerî de tenê di bin çavdêriya mirovî de, zelaliya algorîtmîkî, bê xalek civakî"
       },
       "sources": [
@@ -21250,7 +21250,7 @@
         "pl": "wynagrodzenie wychowawcze niezależne od dochodu; nie potrącać zasiłku na dziecko z Bürgergeld; brak orientacji na zysk w opiece nad dziećmi i seniorami",
         "uk": "виховна зарплата незалежно від доходу; не зараховувати дитячу допомогу до Bürgergeld; без орієнтації на прибуток у догляді за дітьми та літніми",
         "ar": "أجر تربية مستقل عن الدخل؛ عدم احتساب إعانة الطفل ضمن Bürgergeld؛ بلا توجه ربحي في رعاية الأطفال وكبار السن",
-        "es": "Salario de crianza independiente de los ingresos; no computar la prestación por hijos a cargo del Bürgergeld; sin orientación lucrativa en el cuidado de niños y ancianos.",
+        "es": "Salario de crianza independiente de los ingresos; no computar la prestación por hijos a cargo del renta ciudadana (Bürgergeld); sin orientación lucrativa en el cuidado de niños y ancianos.",
         "ku": "Meaşê dêûbavaniyê ji hatiniyê serbixwe; li hember Bürgergeld alîkariya zarokan nehesibîne; di lênêrîna zarok û kal û pîran de meyla qezencê tune"
       },
       "sources": [
@@ -21274,7 +21274,7 @@
         "pl": "osobny rozdział „Kultura i media”: Jugendclubs jako miejsca spotkań i edukacji demokratycznej z obowiązkowymi koncepcjami ochrony; obowiązkowa strategia wielkich wydarzeń kulturalnych i sportowych oraz kandydatury olimpijskiej; łuki S-Bahn dla kultury i rzemiosła; wsparcie przeciw antysemityzmowi w kulturze (OpenArtsHub); kultura pamięci (kultura pamięci) i praca memorialna",
         "uk": "окремий розділ «Культура і медіа»: Jugendclubs як місця зустрічей і демократичної освіти з обов’язковими концепціями захисту; обов’язкова стратегія великих культурних і спортивних подій та олімпійської заявки; арки S-Bahn для культури та ремесел; підтримка проти антисемітизму в культурі (OpenArtsHub); культура пам’яті (культура пам’яті) та робота меморіалів",
         "ar": "فصل منفصل، \"الثقافة والإعلام\": نوادي الشباب كأماكن اجتماع ومساحات للتعليم الديمقراطي مع مفاهيم الحماية الإلزامية؛ استراتيجية إلزامية للأحداث الثقافية والرياضية الكبرى والترشح للألعاب الأولمبية؛ أقواس S-Bahn للثقافة والحرف اليدوية؛ دعم مكافحة معاداة السامية في الثقافة (OpenArtsHub)؛ ثقافة الذاكرة والعمل التذكاري",
-        "es": "Un capítulo aparte, “Cultura y medios de comunicación”: los Jugendclubs como lugares de encuentro y espacios para la educación democrática con conceptos de salvaguardia obligatorios; una estrategia obligatoria para los principales eventos culturales y deportivos y una candidatura olímpica; Arcos del S-Bahn para la cultura y la artesanía; apoyo contra el antisemitismo en la cultura (OpenArtsHub); cultura de la memoria y trabajo memorial",
+        "es": "Un capítulo aparte, “Cultura y medios de comunicación”: los clubes juveniles como lugares de encuentro y espacios para la educación democrática con conceptos de salvaguardia obligatorios; una estrategia obligatoria para los principales eventos culturales y deportivos y una candidatura olímpica; Arcos del S-Bahn para la cultura y la artesanía; apoyo contra el antisemitismo en la cultura (OpenArtsHub); cultura de la memoria y trabajo memorial",
         "ku": "Beşek cuda, \"Çand û çapemenî\": Komên Jugend wekî cîh û warên perwerdeya demokratîk bi têgînên parastinê yên mecbûrî; stratejiyek mecbûrî ya ji bo bûyerên mezin ên çandî û werzîşî û pêşnumayek Olîmpîk; kemerên S-Bahn ji bo çand û hunerê; piştgiriya li dijî antîsemîtîzmê di çandê de (OpenArtsHub); çanda bîranîn û xebata bîranînê"
       },
       "sources": [
@@ -21412,7 +21412,7 @@
         "pl": "Osobny rozdział „W duchu czasu — wzmocnić kulturę klubową”: uwzględnić miejsca klubowe w planowaniu urbanistycznym i zabezpieczyć je długoterminowo, stosować zasadę Agent of Change, stworzyć jeden punkt kontaktowy dla sceny klubowej w dzielnicach i Senacie, uprościć i przyspieszyć pozwolenia, włączyć kluby do strategii turystycznej; nowy budynek centralnej biblioteki ZLB",
         "uk": "Окремий розділ «У ногу з часом — зміцнюйте клубну культуру»: включити клубні заклади в міське планування та закріпити їх на довгострокову перспективу, застосувати принцип агента змін, створити єдину контактну точку для клубної сцени в округах та Сенаті, спростити та прискорити погодження, включити клуби до туристичної стратегії; нове приміщення центральної бібліотеки ЗЛБ",
         "ar": "فصل منفصل، \"مواكبة العصر - تعزيز ثقافة النادي\": إدراج أماكن الأندية في التخطيط الحضري وتأمينها على المدى الطويل، وتطبيق مبدأ وكيل التغيير، وإنشاء نقطة اتصال واحدة لمشهد النادي في المقاطعات ومجلس الشيوخ، وتبسيط وتسريع الموافقات، وإدراج الأندية في استراتيجية السياحة؛ مبنى جديد للمكتبة المركزية ZLB",
-        "es": "Un capítulo aparte, “En sintonía con los tiempos, fortalecer la cultura de los clubes”: incluir las sedes de los clubes en la planificación urbana y asegurarlas a largo plazo, aplicar el principio del Agente de Cambio, crear un punto de contacto único para la escena de los clubes en los distritos y el Senat, simplificar y acelerar las aprobaciones, incluir a los clubes en la estrategia turística; un nuevo edificio para la biblioteca central del ZLB",
+        "es": "Un capítulo aparte, “En sintonía con los tiempos, fortalecer la cultura de los clubes”: incluir las sedes de los clubes en la planificación urbana y asegurarlas a largo plazo, aplicar el principio del Agente de Cambio, crear un punto de contacto único para la escena de los clubes en los distritos y el Senado de Berlín, simplificar y acelerar las aprobaciones, incluir a los clubes en la estrategia turística; un nuevo edificio para la biblioteca central del ZLB",
         "ku": "Beşek veqetandî, \"Li gorî demê - çanda klûbê xurt bikin\": cîhên klûbê di plansaziya bajarî de bixin nav xwe û wan ji bo demek dirêj ewle bikin, prensîba Agent of Change bicîh bînin, xalek têkiliyê ya yekane ji bo dîmenê klûbê li navçeyan û Senat biafirînin, pejirandinan hêsan bikin û bilezînin, klûbên stratejiya geştyariyê têxin nav xwe; avahiyek nû ji bo pirtûkxaneya navendî ya ZLB"
       },
       "sources": [
@@ -21442,7 +21442,7 @@
         "pl": "Rozdział o „Sztuce, kulturze, mediach i polityce pamięci”: zachowanie „dziedzictwa kulturowego” jako pierwsze zadanie; finansowanie muzeów i archiwów ma pierwszeństwo przed wsparciem samych twórców kultury; wsparcie „kultury wysokiej”, która nie utrzyma się na rynku; wymóg, by Kulturförderung nie finansowało projektów sprzecznych z wolnym porządkiem demokratycznym lub sprzyjających antysemityzmowi; więcej środków z federalnego Hauptstadtkulturfonds",
         "uk": "Розділ «Мистецтво, культура, ЗМІ та політика пам’яті»: збереження «культурної спадщини» є першочерговим завданням; фінансування музеїв та архівів має пріоритет над підтримкою самих діячів культури; підтримувати «високу культуру», яка не може вижити на ринку; вимагати від Kulturförderung не фінансувати проекти, що суперечать вільному демократичному порядку або сприяють антисемітизму; більше грошей із федеральних Hauptstadtkulturfonds",
         "ar": "فصل عن «سياسة الفن والثقافة والإعلام والتذكر»: الحفاظ على «التراث الثقافي» المهمة الأولى؛ إن تمويل المتاحف والمحفوظات له الأولوية على دعم الممارسين الثقافيين أنفسهم؛ ودعم \"الثقافة الرفيعة\" التي لا تستطيع البقاء في السوق؛ مطالبة Kulturförderung بعدم تمويل مشاريع تتعارض مع النظام الديمقراطي الحر أو تؤدي إلى معاداة السامية؛ المزيد من الأموال من Hauptstadtkulturfonds الفيدرالية",
-        "es": "Un capítulo sobre “Arte, cultura, medios de comunicación y política de recuerdo”: preservar el “patrimonio cultural” es la primera tarea; la financiación de museos y archivos tiene prioridad sobre el apoyo a los propios profesionales de la cultura; apoyar la “alta cultura” que no puede sobrevivir en el mercado; exigir que la Kulturförderung no financie proyectos opuestos al orden democrático libre o que conduzcan al antisemitismo; más dinero del fondo federal Hauptstadtkulturfonds",
+        "es": "Un capítulo sobre “Arte, cultura, medios de comunicación y política de recuerdo”: preservar el “patrimonio cultural” es la primera tarea; la financiación de museos y archivos tiene prioridad sobre el apoyo a los propios profesionales de la cultura; apoyar la “alta cultura” que no puede sobrevivir en el mercado; exigir que la financiación cultural no financie proyectos opuestos al orden democrático libre o que conduzcan al antisemitismo; más dinero del fondo federal Hauptstadtkulturfonds",
         "ku": "Beşek li ser \"Huner, çand, medya û polîtîkaya bîranînê\": parastina \"mîrata çandî\" karê yekem e; fînansekirina muze û arşîvan pêşî li piştgirîkirina pisporên çandî digire; piştgiriya \"çanda bilind\" a ku nikare li ser bazarê bijî; ji Kulturförderung re lazim e ku projeyên li dijî nîzama demokratîk a azad an jî li dijî antîsemîtîzmê ne fînanse bike; zêdetir pere ji Hauptstadtkulturfonds federal"
       },
       "sources": [
@@ -22090,7 +22090,7 @@
         "pl": "rozwijać platformę udziału „Mein Berlin”, prowadzić lokalne dialogi z członkami Senatu i wczesne spotkania informacyjne o inwestycjach, zachować dzielnicowe biura udziału obywateli; intersekcjonalna polityka równości jako zadanie przekrojowe we wszystkich ustawach i budżetowanie wrażliwe na płeć w budżecie landu; osobna strategia przeciw nienawiści online, w tym antysemityzmowi, rasizmowi, seksizmowi i queerofobii; medycyna wrażliwa na queer",
         "uk": "розвивати платформу участі «Mein Berlin», проводити місцеві діалоги з членами Сенату та ранні інформаційні зустрічі щодо будпроєктів, зберігати окружні офіси участі громадян; інтерсекційна політика рівності як наскрізне завдання в усіх законах і гендерно орієнтоване бюджетування в земельному бюджеті; окрема стратегія проти ненависті в мережі, включно з антисемітизмом, расизмом, сексизмом і квірофобією; квір-чутлива медицина",
         "ar": "تطوير منصة المشاركة «Mein Berlin»، وعقد حوارات محلية مع أعضاء مجلس الشيوخ واجتماعات إعلامية مبكرة حول مشاريع البناء، والحفاظ على مكاتب مشاركة المواطنين في الأحياء؛ سياسة المساواة المتعددة الجوانب كمهمة شاملة في جميع القوانين والميزنة المراعية للنوع الاجتماعي في ميزانية الولاية؛ استراتيجية مخصصة ضد الكراهية عبر الإنترنت، بما في ذلك معاداة السامية والعنصرية والتمييز الجنسي ورهاب الكوير؛ طب مراعٍ للكوير",
-        "es": "Desarrollar la plataforma de participación “Mein Berlin”, mantener diálogos locales con los miembros del Senat y reuniones informativas tempranas sobre proyectos de construcción y preservar las oficinas distritales de participación ciudadana; una política de igualdad interseccional como tarea transversal en todas las leyes y una presupuestación con perspectiva de género en el presupuesto del Land; una estrategia específica contra el odio en línea, incluido el antisemitismo, el racismo, el sexismo y la queerfobia; medicina sensible a los queer",
+        "es": "Desarrollar la plataforma de participación “Mein Berlin”, mantener diálogos locales con los miembros del Senado de Berlín y reuniones informativas tempranas sobre proyectos de construcción y preservar las oficinas distritales de participación ciudadana; una política de igualdad interseccional como tarea transversal en todas las leyes y una presupuestación con perspectiva de género en el presupuesto del Land; una estrategia específica contra el odio en línea, incluido el antisemitismo, el racismo, el sexismo y la queerfobia; medicina sensible a los queer",
         "ku": "Pêşxistina platforma beşdarbûna \"Mein Berlin\", bi endamên Senatoyê re danûstandinên herêmî û civînên agahdarkirinê yên destpêkê li ser projeyên avakirinê pêk bînin, û ofîsên beşdariya hemwelatiyên navçeyê biparêzin; Siyaseta wekheviya navberî di hemî zagonan de û di budceya Landê de budceya bersivdayinê ya zayendî wekî peywirek çaralî ye; stratejiyek taybetî ya li dijî nefreta serhêl, di nav de antîsemîtîzm, nijadperestî, zayendperestî, û queerphobia; dermanê hestiyar"
       },
       "sources": [
@@ -22318,7 +22318,7 @@
         "pl": "osadzić udział w systemie: regularne losowo wybrane rady obywatelskie odzwierciedlające różnorodność miasta, z obowiązkiem polityki i administracji publicznie odpowiadać na rekomendacje; obowiązkowe budżety partycypacyjne w dzielnicach i na poziomie landu oraz prawdziwe budżety mieszkańców z gwarancją realizacji (przykład Paryża: ok. 5 % budżetu inwestycyjnego); fakultatywne referendum: jeśli parlament zmienia ustawę przyjętą w referendum, wystarczy 2,5 % wyborców do nowego głosowania; prawo głosu dla obywateli UE i udział międzynarodowych berlińczyków bez niemieckiego paszportu w radach obywatelskich; ustawa o jawności zobowiązuje do publikacji kluczowych dokumentów (ekspertyzy, uchwały Senatu, umowy); landowa strategia bezpieczeństwa queer",
         "uk": "вбудувати участь у систему: регулярні випадково відібрані громадянські ради, що відображають різноманіття міста, з обов’язком політиків і адміністрації публічно відповідати на рекомендації; обов’язкові бюджети участі в округах і на рівні землі та справжні бюджети мешканців із гарантією реалізації (приклад Парижа: близько 5 % інвестиційного бюджету); факультативний референдум: якщо парламент змінює закон, ухвалений народним голосуванням, достатньо 2,5 % виборців для нового голосування; право голосу для громадян ЄС і участь міжнародних берлінців без німецького паспорта в громадянських радах; закон про прозорість зобов’язує публікувати ключові документи (експертизи, рішення Сенату, договори); земельна стратегія квір-безпеки",
         "ar": "تضمين المشاركة في النظام: مجالس مواطنين مختارة عشوائياً بانتظام تعكس تنوع المدينة، مع إلزام السياسيين والإدارة بالرد علناً على التوصيات؛ ميزانيات تشاركية إلزامية في الأحياء وعلى مستوى الولاية وميزانيات سكان حقيقية مع ضمان التنفيذ (مثال باريس: نحو 5٪ من ميزانية الاستثمار)؛ استفتاء اختياري: إذا غيّر البرلمان قانوناً أُقر باستفتاء، يكفي 2.5٪ من الناخبين لاستفتاء جديد؛ حق التصويت لمواطني الاتحاد الأوروبي ومشاركة سكان برلين الدوليين بلا جواز ألماني في مجالس المواطنين؛ قانون الشفافية يلزم بنشر الوثائق الأساسية كالتقارير وقرارات مجلس الشيوخ والعقود؛ استراتيجية سلامة كوير على مستوى الولاية",
-        "es": "Incorporar la participación en el sistema: asambleas ciudadanas periódicas seleccionadas al azar que reflejen la diversidad de la ciudad, en las que los políticos y la administración deben responder públicamente a sus recomendaciones; presupuestos participativos obligatorios en los distritos y a nivel de los Länder, y presupuestos genuinos de los residentes con implementación garantizada (ejemplo de París: alrededor del 5 por ciento del presupuesto de inversión); referéndum opcional: si el parlamento modifica una ley adoptada mediante referéndum, solo se necesita el 2,5 por ciento de los votantes para provocar una nueva votación popular; derecho de voto para los ciudadanos de la UE y participación de berlineses internacionales sin pasaporte alemán en asambleas ciudadanas; una Ley de Transparencia que exige la publicación de documentos clave como opiniones de expertos, decisiones del Senado y contratos; Una estrategia de seguridad queer en Land",
+        "es": "Incorporar la participación en el sistema: asambleas ciudadanas periódicas seleccionadas al azar que reflejen la diversidad de la ciudad, en las que los políticos y la administración deben responder públicamente a sus recomendaciones; presupuestos participativos obligatorios en los distritos y a nivel regional, y presupuestos genuinos de los residentes con implementación garantizada (ejemplo de París: alrededor del 5 por ciento del presupuesto de inversión); referéndum opcional: si el parlamento modifica una ley adoptada mediante referéndum, solo se necesita el 2,5 por ciento de los votantes para provocar una nueva votación popular; derecho de voto para los ciudadanos de la UE y participación de berlineses internacionales sin pasaporte alemán en asambleas ciudadanas; una Ley de Transparencia que exige la publicación de documentos clave como opiniones de expertos, decisiones del Senado y contratos; una estrategia regional de seguridad queer",
         "ku": "Tevlêbûna pergalê: Meclîsên hemwelatiyan ên bi rêkûpêk hatine hilbijartin ku cihêrengiya bajêr nîşan didin, bi siyasetmedar û rêveberî re hewce ye ku bi gelemperî bersivê bidin pêşniyarên wan; budceyên beşdariyê yên mecbûrî li navçeyan û di asta Erdê de, û budceyên niştecîhên rastîn ên bi cîbicîkirina garantîkirî (mînakek Parîsê: dora 5 ji sedî ji budceya veberhênanê); Referandûma bijarte: eger parlamento qanûnek ku bi referandomê hatî pejirandin biguherîne, tenê ji sedî 2.5 ji dengderan hewce ye ku dengdanek nû ya gel çêbibe; mafê dengdanê ji bo welatiyên Yekîtiya Ewropayê û beşdarbûna Berlîniyên navneteweyî yên bêyî pasaportên Almanî di meclîsên welatiyan de; Qanûnek Zelalbûnê ya ku hewce dike ku belgeyên sereke yên wekî nerînên pispor, biryar û peymanên Senatoyê werin weşandin; stratejiyek Land queer-ewlehiyê"
       },
       "sources": [
@@ -23125,7 +23125,7 @@
         "pl": "Nic o drugim głosie; zamiast tego reforma wyborcza oparta na parytecie oraz parytet we własnych strukturach partii, Senacie i przedsiębiorstwach komunalnych",
         "uk": "Нічого про повторне голосування; натомість паритетна виборча реформа та паритет у власних структурах партії, Сенаті та муніципальних підприємствах",
         "ar": "وبدلاً من ذلك، الإصلاح الانتخابي على أساس المساواة والتكافؤ في هياكل الحزب، ومجلس الشيوخ، والمؤسسات البلدية",
-        "es": "En cambio, una reforma electoral basada en la paridad y la paridad en las propias estructuras del partido, el Senat y las empresas municipales.",
+        "es": "En cambio, una reforma electoral basada en la paridad y la paridad en las propias estructuras del partido, el Senado de Berlín y las empresas municipales.",
         "ku": "Di şûna wê de, reforma hilbijartinê ya li ser bingeha wekhevî û wekhevî di strukturên partiyê, Senat û pargîdaniyên şaredariyê de."
       },
       "sources": [
@@ -23262,7 +23262,7 @@
         "pl": "Brak osobnego drugiego głosu; nacisk na losowo dobrane Bürgerräte, budżety partycypacyjne i opcjonalne referendum oraz prawo wyborcze obywateli UE",
         "uk": "Немає окремого другого голосування; акцент на випадково обраних Bürgerräte, бюджети участі та необов’язковий референдум, і право голосу для громадян ЄС",
         "ar": "التركيز على Bürgerräte المختارة عشوائيًا، والميزانيات التشاركية، والاستفتاء الاختياري، بالإضافة إلى حقوق التصويت لمواطني الاتحاد الأوروبي",
-        "es": "Énfasis en Bürgerräte seleccionados aleatoriamente, presupuestos participativos y un referéndum opcional, además de derechos de voto para los ciudadanos de la UE",
+        "es": "Énfasis en asambleas ciudadanas seleccionadas aleatoriamente, presupuestos participativos y un referéndum opcional, además de derechos de voto para los ciudadanos de la UE",
         "ku": "Giranî li ser Bürgerräte bi rengekî rasthatî hilbijartî, budceyên beşdar, û referandumek vebijarkî, zêdeyî mafên dengdanê ji bo hemwelatiyên YE"
       },
       "sources": [
@@ -23379,7 +23379,7 @@
         "pl": "Nic o darowiznach, ale jest cel ·kompleksowej Transparenzgesetz· dla Berlina",
         "uk": "Нічого про пожертви, але є мета «всеосяжного Transparenzgesetz» для Берліна",
         "ar": "لا شيء يتعلق بالتبرعات، ولكن هناك هدف يتمثل في تحقيق الشفافية الشاملة لبرلين",
-        "es": "Nada sobre donaciones, pero existe el objetivo de una ·Transparenzgesetz· integral para Berlín",
+        "es": "Nada sobre donaciones, pero existe el objetivo de una ley de transparencia integral para Berlín",
         "ku": "Di derbarê bexşan de tiştek tune, lê ji bo Berlînê armancek ·Transparenzgesetz-ya berfireh heye."
       },
       "sources": [
@@ -23441,7 +23441,7 @@
         "pl": "nie przyjmować darowizn partyjnych od firm; posłowie dobrowolnie ograniczają pensje i przekazują darowizny; Transparenzgesetz z konkretnymi obowiązkami publikacji, projekty społeczeństwa obywatelskiego zamiast projektu Senatu",
         "uk": "не приймати партійних пожертв від компаній; депутати добровільно обмежують зарплати й жертвують; Transparenzgesetz із конкретними обов’язками публікації, проєкти громадянського суспільства замість сенатського",
         "ar": "لا تأخذ أي تبرعات حزبية من الشركات؛ ويحدد النواب طوعا رواتبهم ويتبرعون بها؛ Transparenzgesetz مع واجبات نشر ملموسة، مفضلاً مسودات المجتمع المدني على مسودة مجلس الشيوخ",
-        "es": "No aceptar donaciones de empresas para fiestas; Los parlamentarios limitan voluntariamente los salarios y hacen donaciones; transparenzgesetz con obligaciones concretas de publicación, prefiriendo los proyectos de la sociedad civil al proyecto del Senat",
+        "es": "No aceptar donaciones de empresas para fiestas; Los parlamentarios limitan voluntariamente los salarios y hacen donaciones; ley de transparencia con obligaciones concretas de publicación, prefiriendo los proyectos de la sociedad civil al proyecto del Senado de Berlín",
         "ku": "Alikariyên partiyan ji şîrketan negirin; Parlamenter bi dilxwazî mûçeyên xwe kêm dikin û bexş dikin; Transparenzgesetz bi erkên weşanê yên berbiçav, pêşnûmeyên civaka sivîl ji pêşnûmeya Senat tercîh dike."
       },
       "sources": [
@@ -23471,7 +23471,7 @@
         "pl": "Transparenzgesetz wraz z pełną cyfryzacją usług; Open Data i sterowanie danymi — brak osobnych reguł darowizn partyjnych",
         "uk": "Transparenzgesetz разом із повною цифровізацією послуг; Open Data і управління на даних — окремих правил партійних пожертв немає",
         "ar": "Transparenzgesetz كأداة للرقمنة الكاملة للخدمات؛ البيانات المفتوحة والتوجيه المبني على البيانات - لا توجد قواعد منفصلة للتبرع للأطراف",
-        "es": "Transparenzgesetz como herramienta de total digitalización de los servicios; datos abiertos y dirección basada en datos: sin reglas separadas para la donación de partidos",
+        "es": "ley de transparencia como herramienta de total digitalización de los servicios; datos abiertos y dirección basada en datos: sin reglas separadas para la donación de partidos",
         "ku": "Transparenzgesetz wekî amûrek bi tevahî dîjîtalkirina karûbaran; Daneyên vekirî û rêberiya dane-rêvebirin - tu qaîdeyên bexşîna partiyê yên cihê ne"
       },
       "sources": [
@@ -23522,7 +23522,7 @@
         "pl": "brak reguł darowizn partyjnych; jawność dużych projektów, budżetu i (np. medialnych) decydentów; zamykać luki podatkowe lobbystów silniejszymi Finanzämter",
         "uk": "правил партійних пожертв немає; прозорість великих проєктів, бюджету та (напр. медіа-)осіб; закривати податкові лазівки лобістів посиленням Finanzämter",
         "ar": "ولا توجد قواعد للتبرع بالحفلات؛ الشفافية المطلوبة للمشاريع الكبرى والميزانيات وصناع القرار (مثل وسائل الإعلام)؛ إغلاق الثغرات الضريبية لجماعات الضغط من خلال Finanzämter أقوى",
-        "es": "Sin reglas de donación de partidos; transparencia exigida para los grandes proyectos, presupuestos y (por ejemplo, medios de comunicación) tomadores de decisiones; cerrar las lagunas fiscales de los lobbystas mediante un Finanzämter más fuerte",
+        "es": "Sin reglas de donación de partidos; transparencia exigida para los grandes proyectos, presupuestos y (por ejemplo, medios de comunicación) tomadores de decisiones; cerrar las lagunas fiscales de los lobbystas mediante un agencias tributarias más fuerte",
         "ku": "Ne qaîdeyên bexşîna partiyê; ji bo projeyên mezin, budce û (mînak medya) biryarderên şefafî tê xwestin; bi rêya Finanzämterê ya bihêztir qulên bacê yên lobîstan bigire"
       },
       "sources": [
@@ -23607,7 +23607,7 @@
         "pl": "Jedyna partia domagająca się zakazu przyjmowania przez wszystkie partie w Izbie Reprezentantów darowizn partyjnych od firm i grup interesu; sama ÖDP zrzekła się takich darowizn w statutach i wskazuje to jako gwarancję niezależności od lobbingu; plus prawdziwa Transparenzgesetz bez luk oraz pełna transparentność działań administracyjnych",
         "uk": "Єдина партія, яка вимагає заборонити всім партіям, представленим у Палаті представників, приймати партійні пожертви від компаній і груп інтересів; Сама ÖDP відмовилася від таких пожертв у своєму статуті та посилається на це як на гарантію незалежності від лобіювання; плюс справжній Transparenzgesetz без лазівок і повна прозорість адміністративних дій",
         "ar": "الحزب الوحيد الذي يطالب بمنع كافة الأحزاب الممثلة في مجلس النواب من قبول التبرعات الحزبية من الشركات ومجموعات المصالح؛ لقد تخلى حزب ÖDP نفسه عن مثل هذه التبرعات في نظامه الأساسي واستشهد بذلك كضمان للاستقلال عن ممارسة الضغط. بالإضافة إلى Transparenzgesetz حقيقي بدون ثغرات وشفافية كاملة في الإجراءات الإدارية",
-        "es": "El único partido que exige la prohibición de que todos los partidos representados en la Cámara de Representantes acepten donaciones de empresas y grupos de interés; El propio ÖDP ha renunciado a tales donaciones en sus estatutos y lo cita como garantía de independencia del lobby; además de una auténtica Transparenzgesetz sin lagunas y con total transparencia de las actuaciones administrativas",
+        "es": "El único partido que exige la prohibición de que todos los partidos representados en la Cámara de Representantes acepten donaciones de empresas y grupos de interés; El propio ÖDP ha renunciado a tales donaciones en sus estatutos y lo cita como garantía de independencia del lobby; además de una auténtica ley de transparencia sin lagunas y con total transparencia de las actuaciones administrativas",
         "ku": "Yekane partiya ku daxwaza qedexekirina hemû partiyên ku di Meclisa Nûneran de cih digirin qebûl dikin ku bexşên partiyan ji pargîdan û komên berjewendiyê werbigirin; ÖDP bi xwe jî di qanûnên xwe de dev ji bexşên bi vî rengî berdaye û vê yekê wekî garantiya serbixwebûna ji lobiyê bi nav dike; plus Transparenzgesetzek rastîn bêyî valahiyan û zelalbûna tevahî ya kiryarên îdarî"
       },
       "sources": [
