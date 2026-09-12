@@ -1,0 +1,194 @@
+{
+  "metadata": {
+    "homeTitle": "Berlin 2026 — compara los programas de los 10 partidos más populares",
+    "homeDescription": "Programas oficiales para las elecciones a la Cámara de Representantes de Berlín el 20 de septiembre de 2026: transporte, vivienda, clima, seguridad y más. Independiente: no es una recomendación de voto.",
+    "aboutTitle": "Sobre el proyecto — Berlin 2026",
+    "aboutDescription": "Quién está detrás de Berlin 2026: Nina compara los programas de los partidos y saca adelante el proyecto; Masha se ocupa de la técnica. Independiente, sin vínculo con ningún partido.",
+    "privacyTitle": "Política de privacidad — Berlin 2026",
+    "privacyDescription": "Cómo Berlin 2026 trata los datos personales según el RGPD.",
+    "aiDisclosureTitle": "Aviso sobre la IA — Berlin 2026",
+    "aiDisclosureDescription": "Cómo usamos la IA en los textos del sitio y en la comparación de programas, y por qué las personas siguen siendo responsables de las ideas, el contenido y la exactitud.",
+    "keywords": [
+      "Berlín",
+      "elecciones regionales Berlín 2026",
+      "Cámara de Representantes de Berlín",
+      "parlamento regional de Berlín",
+      "programas electorales",
+      "comparación de partidos",
+      "transporte",
+      "vivienda",
+      "clima",
+      "seguridad",
+      "educación",
+      "salud",
+      "migración"
+    ]
+  },
+  "brand": {
+    "name": "Berlin 2026",
+    "tagline": "Las posiciones de los partidos, una al lado de la otra"
+  },
+  "navigation": {
+    "comparison": "Comparación",
+    "motivation": "Motivación",
+    "privacy": "Privacidad"
+  },
+  "hero": {
+    "headline": "Elecciones regionales de Berlín 2026: compara los programas",
+    "support": "20 de septiembre de 2026 · Cámara de Representantes · 10 partidos · 65 temas",
+    "blurb": "Las posiciones de los programas oficiales, una al lado de la otra. No es una recomendación de voto.",
+    "cta": "Comparar programas",
+    "disclaimer": "No es material de campaña y no está vinculado a ningún partido.",
+    "scrollHint": "Ir a la tabla"
+  },
+  "motivation": {
+    "title": "Motivación",
+    "berlinVotesTitle": "Berlín vota el 20 de septiembre de 2026",
+    "berlinVotesBody": "Cada cinco años Berlín elige una nueva Cámara de Representantes: el parlamento regional que marca la política de la ciudad.",
+    "accessibilityTitle": "Idioma y acceso",
+    "accessibilityBody": "Alrededor del [16 % de los ciudadanos alemanes](https://de.statista.com/statistik/daten/studie/1109703/umfrage/bevoelkerung-bezirke-nach-migrationshintergrund-berlin/) en Berlín procede de familias inmigrantes. Los programas electorales solo se publican en alemán y pueden llegar a 200 páginas. Eso es difícil incluso para quien tiene el alemán como lengua materna. El [Wahl-O-Mat](https://www.wahl-o-mat.de/berlin2026/app/main_app.html) ayuda, pero no sirve para una comparación a fondo.",
+    "clarityTitle": "Claridad y sustancia",
+    "clarityBody": "Gran parte de esas 200 páginas es retórica: difícil de traducir en algo concreto. Queríamos respuestas claras: separar los compromisos con cifras de las declaraciones vagas de intenciones.",
+    "whatWeDidTitle": "Qué hicimos",
+    "whatWeDidBody": "Comparamos a 10 partidos berlineses en puntos clave de transporte, vivienda, clima y energía, seguridad, educación, salud, migración, economía y democracia, y volcamos sus programas en una sola tabla comparativa.",
+    "beforeYouVoteTitle": "Antes de votar",
+    "beforeYouVoteBody": "La tabla se elaboró con ayuda de IA; vuelve a comprobar los puntos que te importan. Las traducciones completas de los programas de los partidos principales están en [BerlinVote.Help](https://www.berlinvote.help/).",
+    "toolsIntro": "Ayudas al voto y otras herramientas de comparación:",
+    "toolsBody": "- [Wahl-O-Mat Berlin 2026](https://www.wahl-o-mat.de/berlin2026/app/main_app.html)\n- [Kandidierendencheck](https://www.kandidierendencheck.de/auswahl)\n- [Party-Check Berlin](https://tool.party-check.org/index.php/berlin?lang=en)",
+    "backgroundIntro": "Contexto:",
+    "backgroundBody": "- [Wikipedia: elecciones regionales de Berlín 2026](https://en.wikipedia.org/wiki/2026_Berlin_state_election)\n- [RBB: FAQ elecciones Berlín 2026 (inglés)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: elecciones en lenguaje fácil](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Centro estatal de educación política de Berlín: folleto Elecciones 2026 (PDF)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
+  },
+  "press": {
+    "title": "En los medios"
+  },
+  "pressMentionSummaries": [
+    {
+      "id": "bundeskanzler",
+      "source": "Bundeskanzler",
+      "headline": "Una cobertura sobre las próximas elecciones en Berlín señala que los programas locales de los partidos se pueden comparar en ruso en berlin-2026.de."
+    },
+    {
+      "id": "berlinwelle",
+      "source": "Volna / Berlin",
+      "headline": "Las creadoras de Water for All lanzaron berlin-2026.de de cara a las elecciones de septiembre: una comparación lado a lado de las posiciones de diez partidos a partir de los programas oficiales, disponible en varios idiomas, entre ellos el inglés y el ruso."
+    }
+  ],
+  "footer": {
+    "aiNotice": "Los textos y la tabla comparativa de este sitio se crearon con ayuda de IA.",
+    "aiDisclosure": "Aviso sobre la IA",
+    "relatedSite": "Traducciones completas de los programas: BerlinVote.Help",
+    "contact": "Contacto",
+    "about": "Sobre el proyecto",
+    "privacy": "Privacidad",
+    "contribute": "Colaborar"
+  },
+  "feedback": {
+    "fabLabel": "Enviar comentarios",
+    "title": "Enviar comentarios",
+    "intro": "¿Preguntas o comentarios sobre el sitio? Envíanos un mensaje breve. Deja un correo si quieres respuesta.",
+    "textReportHint": "¿Quieres avisar de una redacción incorrecta o de un error de hecho? Selecciona (o copia) el pasaje en la página: aparece un botón pequeño para abrir el formulario de corrección.",
+    "messageLabel": "Tu mensaje",
+    "messagePlaceholder": "Escribe tu comentario…",
+    "emailLabel": "Correo (para respuesta)",
+    "emailPlaceholder": "tu@ejemplo.com",
+    "submit": "Enviar",
+    "sending": "Enviando…",
+    "cancel": "Cancelar",
+    "close": "Cerrar",
+    "success": "Gracias. Revisaremos tu mensaje lo antes posible.",
+    "error": "Algo ha salido mal. Inténtalo de nuevo o escribe a {email}.",
+    "captchaRequired": "Completa la verificación de seguridad.",
+    "captchaMissing": "La verificación de seguridad no está configurada (falta la clave del sitio)."
+  },
+  "textReport": {
+    "title": "Avisar de un texto incorrecto",
+    "intro": "Revisa el texto seleccionado e indica cómo debería figurar.",
+    "selectionAction": "Avisar de este texto",
+    "incorrectLabel": "Texto incorrecto (como aparece en la página)",
+    "incorrectPlaceholder": "Pega o selecciona texto de la página…",
+    "suggestedLabel": "Tu versión",
+    "suggestedPlaceholder": "Escribe la redacción corregida o la corrección de hecho…",
+    "submit": "Enviar aviso"
+  },
+  "about": {
+    "title": "Sobre el proyecto",
+    "body": "Berlin 2026 es un proyecto independiente que compara programas de partidos de cara a las elecciones regionales de Berlín de 2026. Los programas oficiales solo se publican en alemán; los traducimos a idiomas que se hablan en Berlín.\n\nNina compara los programas y saca adelante el proyecto; Masha se ocupa de la técnica. En paralelo trabajamos en [Water for All / Wasser für alle](https://www.water4all.com.de), un atlas abierto de agua potable gratuita en Berlín. El proyecto hace visible el acceso al agua y ayuda a vecinas y vecinos a impulsar nuevas fuentes.",
+    "contributeTitle": "Cómo puedes ayudar",
+    "contributeBody": "Si quieres apoyar el proyecto, lo más útil es difundirlo: compártelo con quien pueda sacarle partido.\n\nTambién puedes imprimir nuestro folleto (alemán, inglés, turco, kurdo, polaco, ruso, ucraniano, árabe, español) y colocarlo donde lo vea gente en Berlín: cafés, tablones, espacios comunitarios. [Descargar el PDF](/flyers/berlin-2026-flyer.pdf).\n\nY si detectas un error en el sitio —una redacción incorrecta o un error de hecho— avísanos para que lo corrijamos. Selecciona el pasaje en la página para abrir un aviso, o escríbenos desde Contacto.\n\nTambién puedes mejorar las traducciones: abre un pull request con correcciones, o edita los archivos de idioma directamente en nuestro [repositorio de GitHub](https://github.com/mashazyu/berlin-2026)."
+  },
+  "aiDisclosure": {
+    "title": "Aviso sobre la IA",
+    "intro": "Esta página explica cómo usamos herramientas de IA al crear contenido para este sitio, y cómo el equipo editorial sigue siendo responsable de lo que publicamos.",
+    "howWeUseAi": "Cómo usamos la IA",
+    "howWeUseAiContent": "Usamos herramientas de IA para redactar y mejorar textos del sitio —por ejemplo, textos de página y resúmenes de programas oficiales—. La IA ayuda con la redacción, la estructura y posiciones comparables; no decide qué publicamos ni cómo debes votar.",
+    "humanResponsibility": "Ideas humanas y responsabilidad editorial",
+    "humanResponsibilityContent": "Todas las ideas, los objetivos y las decisiones de contenido de este sitio vienen de personas del proyecto Berlin 2026. Antes de publicar nada, lo revisamos por claridad y por si encaja con el propósito informativo del proyecto. La responsabilidad editorial recae en el proyecto Berlin 2026.",
+    "reviewAndAccuracy": "Revisión y exactitud",
+    "reviewAndAccuracyContent": "La tabla de comparación se elaboró en gran parte con ayuda de IA a partir de los programas oficiales. Vuelve a comprobar los puntos que te importan. Las traducciones completas de los programas de los partidos principales están en BerlinVote.Help. Revisamos el contenido, pero pueden quedar errores y perderse matices. Si detectas un fallo, avísanos.",
+    "contact": "Contacto",
+    "contactContent": "¿Preguntas sobre cómo usamos la IA o sobre el contenido de este sitio? Escribe a {email}."
+  },
+  "privacy": {
+    "title": "Política de privacidad",
+    "intro": "Esta política de privacidad explica cómo recopilamos, usamos y protegemos tu información personal cuando visitas nuestro sitio web, de acuerdo con el Reglamento General de Protección de Datos (RGPD) y la legislación alemana de protección de datos aplicable (incluido el TTDSG).",
+    "responsibleParty": "Responsable del tratamiento",
+    "responsiblePartyContent": "Proyecto Berlin 2026\nCorreo: {email}",
+    "dataProcessed": "Datos tratados",
+    "dataProcessedContent": "Cuando visitas nuestro sitio web, nuestro proveedor de alojamiento puede tratar automáticamente datos técnicos necesarios para servir la página (por ejemplo, dirección IP, información del navegador o user-agent, y marcas de tiempo en los registros del servidor). No tenemos cuentas de usuario ni registro.\n\nSi usas el formulario opcional de comentarios, tratamos tu mensaje, la URL de la página, el idioma de la interfaz y —si lo facilitas— tu correo electrónico para poder responderte.\n\nSi avisas de una redacción incorrecta o de un error de hecho (también con el botón «Avisar de este texto» tras seleccionar texto), tratamos el texto incorrecto citado, tu corrección sugerida, la URL de la página y el idioma de la interfaz.\n\nAl enviar cualquiera de los formularios, también tratamos un token de seguridad de Cloudflare Turnstile y señales técnicas relacionadas necesarias para comprobar que la solicitud no es spam automatizado.",
+    "hosting": "Alojamiento",
+    "hostingContent": "Este sitio web está alojado por Vercel Inc. La infraestructura de servidores y la entrega de contenidos pueden implicar tratamientos fuera del Espacio Económico Europeo bajo garantías adecuadas (incluidas las cláusulas contractuales tipo cuando corresponda). Consulta la [política de privacidad de Vercel](https://vercel.com/legal/privacy-policy).",
+    "processors": "Encargados del tratamiento y controles de seguridad",
+    "processorsContent": "Usamos los siguientes proveedores como encargados del tratamiento (art. 28 RGPD) para los fines descritos a continuación. Pueden producirse transferencias a Estados Unidos; nos basamos en garantías adecuadas como las cláusulas contractuales tipo y los términos de tratamiento de datos de los proveedores.\n\n• Vercel Inc. — alojamiento y entrega del sitio web.\n• Cloudflare, Inc. — protección antispam y antibots con Cloudflare Turnstile cuando se abre o envía un formulario de comentarios o de aviso de texto. Turnstile puede tratar la dirección IP y características del navegador o dispositivo para emitir un token de verificación. Detalles: [política de privacidad de Cloudflare](https://www.cloudflare.com/privacypolicy/) y documentación de Turnstile.\n• Resend, Inc. — envío por correo de los comentarios y avisos de texto. Detalles: [política de privacidad de Resend](https://resend.com/legal/privacy-policy).\n\nBase jurídica de Turnstile y medidas de seguridad relacionadas: art. 6(1)(f) RGPD (interés legítimo en proteger los formularios frente a abusos y spam). Cuando quien usa el sitio solicita el servicio del formulario, el almacenamiento o el acceso a información en el dispositivo final estrictamente necesario para ese servicio también puede estar cubierto por el § 25(2) TTDSG.",
+    "purposeOfProcessing": "Finalidad y bases jurídicas",
+    "purposeOfProcessingContent": "Tratamos datos para:\n\n• Prestar, asegurar y mantener este sitio web (art. 6(1)(f) RGPD)\n• Recibir y gestionar comentarios opcionales y avisos de texto o errores de hecho (art. 6(1)(f) RGPD)\n• Responder cuando facilitas voluntariamente un correo electrónico (art. 6(1)(a) RGPD y/o art. 6(1)(b) RGPD, según el caso)\n• Prevenir el spam y el abuso automatizado de los formularios mediante Turnstile (art. 6(1)(f) RGPD)",
+    "retention": "Conservación",
+    "retentionContent": "Los registros del servidor los conserva el proveedor de alojamiento solo el tiempo necesario para seguridad y operación, y luego se eliminan o anonimizan según sus prácticas.\n\nLos mensajes de comentarios y avisos de texto (incluido cualquier correo que facilites) se conservan solo el tiempo necesario para revisar y gestionar tu envío, y un breve periodo posterior si hace falta para el seguimiento o la documentación; después se eliminan.\n\nLos tokens de verificación de Turnstile se usan para el control de seguridad y no los almacenamos como perfil a largo plazo.",
+    "cookies": "Cookies y tecnologías similares",
+    "cookiesContent": "Este sitio web no usa cookies de analítica ni de publicidad.\n\nLa preferencia de idioma puede guardarse en una cookie pequeña o en el almacenamiento local para mostrar tu idioma en visitas posteriores.\n\nCloudflare Turnstile puede establecer o leer cookies técnicas o almacenamiento similar solo cuando abres o usas un formulario de comentarios o de aviso, para protección antispam. No usamos Turnstile para publicidad ni seguimiento entre sitios.\n\nPuedes eliminar cookies y datos del sitio en la configuración de tu navegador en cualquier momento.",
+    "yourRights": "Tus derechos según el RGPD",
+    "yourRightsIntro": "Según el RGPD, tienes los siguientes derechos respecto a tus datos personales:",
+    "yourRightsList": "• Derecho de acceso (art. 15 RGPD)\n• Derecho de rectificación (art. 16 RGPD)\n• Derecho de supresión (art. 17 RGPD)\n• Derecho a la limitación del tratamiento (art. 18 RGPD)\n• Derecho a la portabilidad de los datos (art. 20 RGPD)\n• Derecho de oposición al tratamiento basado en intereses legítimos (art. 21 RGPD)\n• Derecho a retirar el consentimiento cuando el tratamiento se base en el consentimiento (art. 7(3) RGPD)\n• Derecho a presentar una reclamación ante una autoridad de control (art. 77 RGPD)",
+    "supervisoryAuthority": "Autoridad de control",
+    "supervisoryAuthorityContent": "Puedes presentar una reclamación ante una autoridad de protección de datos. En Berlín, suele ser:\n\nBerliner Beauftragte für Datenschutz und Informationsfreiheit\nAlt-Moabit 59–61, 10555 Berlín, Alemania\n[https://www.datenschutz-berlin.de](https://www.datenschutz-berlin.de)",
+    "contactInfo": "Para ejercer tus derechos o preguntar sobre tus datos, escríbenos a {email}."
+  },
+  "comparison": {
+    "title": "Programas de partidos para las elecciones regionales de Berlín 2026",
+    "subtitle": "Posiciones de los 10 partidos más grandes sobre transporte, vivienda, clima, seguridad, educación, salud, migración y otros temas, a partir de sus programas oficiales.",
+    "topicColumn": "Tema",
+    "scrollHint": "Solo se muestran los partidos seleccionados: añade más con las etiquetas de arriba.",
+    "programLink": "Programa",
+    "emptyCell": "—",
+    "partiesLabel": "Partidos a comparar",
+    "showAll": "Todos",
+    "showFactions": "Grupos parlamentarios actuales",
+    "selectedCount": "{count} seleccionados",
+    "expandTopic": "Mostrar posiciones",
+    "collapseTopic": "Ocultar",
+    "openProgram": "Programa del partido",
+    "sourceQuote": "Citas originales",
+    "sourceQuoteLink": "Abrir la fuente en el programa",
+    "sourceNote": "No encontrado en el programa",
+    "expandGroup": "Expandir grupo",
+    "collapseGroup": "Contraer grupo",
+    "searchPlaceholder": "Buscar temas…",
+    "searchClear": "Borrar búsqueda",
+    "searchNoResults": "Ningún tema coincide con tu búsqueda.",
+    "searchResultsCount": "{count} temas",
+    "groups": {
+      "transport": "Transporte",
+      "waste": "Limpieza y residuos",
+      "climate_energy": "Clima y energía",
+      "animals": "Animales",
+      "housing": "Vivienda",
+      "security": "Seguridad",
+      "education": "Educación",
+      "health": "Salud",
+      "migration": "Migración",
+      "economy": "Economía",
+      "society": "Sociedad y cultura",
+      "democracy": "Democracia",
+      "other": "Otros"
+    }
+  }
+}

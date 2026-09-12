@@ -1,6 +1,6 @@
 /**
- * Press mention publications — language-neutral facts (URLs, date, image).
- * Channel names and summaries live in locales/*.json under pressMentionSummaries.
+ * Press mention publications — language-neutral facts (URLs, date).
+ * Source names and headlines live in locales/*.json under pressMentionSummaries.
  */
 
 import pressMentionsData from "@/data/press-mentions.json"
@@ -11,12 +11,11 @@ export type PressMentionFact = {
   /** ISO date: YYYY-MM-DD for exact day, or YYYY-MM for month only */
   date: string
   postUrl: string
-  image: string | null
 }
 
 export type PressMention = PressMentionFact & {
-  channel: string
-  summary: string
+  source: string
+  headline: string
 }
 
 type PressMentionsFile = {
@@ -31,8 +30,8 @@ export function getPressMentions(language: Language): PressMention[] {
     const localized = byId.get(mention.id)
     return {
       ...mention,
-      channel: localized?.channel ?? mention.id,
-      summary: localized?.summary ?? "",
+      source: localized?.source ?? mention.id,
+      headline: localized?.headline ?? "",
     }
   })
 }

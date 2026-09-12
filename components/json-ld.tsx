@@ -71,6 +71,26 @@ function electionCopy(language: Language) {
       offersName: "المشاركة في التصويت (للناخبين المؤهلين)",
     }
   }
+  if (language === "es") {
+    return {
+      name: "Elecciones a la Cámara de Representantes de Berlín 2026",
+      description:
+        "Elección de la Cámara de Representantes de Berlín el 20 de septiembre de 2026. Elección libre del parlamento regional de Berlín.",
+      organizerName: "Oficina electoral del Land de Berlín (Landeswahlleitung)",
+      performerName: "Partidos y candidatos que se presentan a las elecciones",
+      offersName: "Participación en la votación (personas con derecho a voto)",
+    }
+  }
+  if (language === "ku") {
+    return {
+      name: "Hilbijartina Abgeordnetenhaus a Berlînê 2026",
+      description:
+        "Hilbijartina Meclîsa Nûneran a Berlînê (Abgeordnetenhaus) di 20ê Îlonê 2026an de. Hilbijartina azad a parlamanê herêmî yê Berlînê.",
+      organizerName: "Ofîsa hilbijartinê ya Land a Berlînê (Landeswahlleitung)",
+      performerName: "Partî û berendamên ku di hilbijartinê de beşdar dibin",
+      offersName: "Beşdariya di dengdanê de (kesên xwedî mafê dengdanê)",
+    }
+  }
   return {
     name: "2026 Berlin Abgeordnetenhaus election",
     description:

@@ -30,7 +30,6 @@
   },
   "navigation": {
     "comparison": "Comparison",
-    "media": "Media",
     "motivation": "Motivation",
     "privacy": "Privacy"
   },
@@ -60,19 +59,18 @@
     "backgroundBody": "- [Wikipedia: 2026 Berlin state election](https://en.wikipedia.org/wiki/2026_Berlin_state_election)\n- [RBB: Berlin Elections 2026 FAQ (English)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: Elections in easy language (Leichte Sprache)](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Berlin State Centre for Political Education: Elections 2026 brochure (PDF)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
   },
   "press": {
-    "title": "In the Media",
-    "subtitle": "Our project was mentioned in the following Berlin media."
+    "title": "In the Media"
   },
   "pressMentionSummaries": [
     {
       "id": "bundeskanzler",
-      "channel": "Bundeskanzler",
-      "summary": "Coverage of the upcoming Berlin election notes that local party programs can be compared in Russian on berlin-2026.de."
+      "source": "Bundeskanzler",
+      "headline": "Coverage of the upcoming Berlin election notes that local party programs can be compared in Russian on berlin-2026.de."
     },
     {
       "id": "berlinwelle",
-      "channel": "Volna / Berlin",
-      "summary": "The creators of Water for All launched berlin-2026.de for the September election: a side-by-side comparison of ten parties’ positions from official programs — available in several languages, including English and Russian."
+      "source": "Volna / Berlin",
+      "headline": "The creators of Water for All launched berlin-2026.de for the September election: a side-by-side comparison of ten parties’ positions from official programs — available in several languages, including English and Russian."
     }
   ],
   "footer": {
@@ -116,7 +114,7 @@
     "title": "About",
     "body": "Berlin 2026 is an independent project comparing party programs ahead of the 2026 Berlin state election. Official programs are published only in German — we translate them into languages spoken in Berlin.\n\nNina compares the programs and develops the project; Masha handles the technical side. In parallel we work on [Water for All / Wasser für alle](https://www.water4all.com.de) — an open atlas of free drinking water in Berlin. The project makes access to water visible and helps residents push for new drinking fountains.",
     "contributeTitle": "How you can help",
-    "contributeBody": "If you’d like to support the project, the most useful thing is to spread the word — share it with people who might find it helpful.\n\nYou can also print our flyer (German, English, Turkish, Polish, Russian, Ukrainian, Arabic) and put it up where people in Berlin will see it — cafés, noticeboards, community spaces. [Download the PDF](/flyers/berlin-2026-flyer.pdf).\n\nAnd if you spot a mistake on the site — wrong wording or a factual error — please tell us so we can fix it. Select the passage on the page to open a report, or write to us via Contact.\n\nYou can also improve translations yourself — open a pull request with fixes, or add or edit locale files directly in our [GitHub repository](https://github.com/mashazyu/berlin-2026)."
+    "contributeBody": "If you’d like to support the project, the most useful thing is to spread the word — share it with people who might find it helpful.\n\nYou can also print our flyer (German, English, Turkish, Kurdish, Polish, Russian, Ukrainian, Arabic, Spanish) and put it up where people in Berlin will see it — cafés, noticeboards, community spaces. [Download the PDF](/flyers/berlin-2026-flyer.pdf).\n\nAnd if you spot a mistake on the site — wrong wording or a factual error — please tell us so we can fix it. Select the passage on the page to open a report, or write to us via Contact.\n\nYou can also improve translations yourself — open a pull request with fixes, or add or edit locale files directly in our [GitHub repository](https://github.com/mashazyu/berlin-2026)."
   },
   "aiDisclosure": {
     "title": "AI Disclosure",

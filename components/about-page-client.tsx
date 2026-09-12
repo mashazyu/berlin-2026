@@ -2,6 +2,7 @@
 
 import { SiteFooter } from "@/components/site-footer"
 import { FeedbackFab } from "@/components/feedback-fab"
+import { PressSection } from "@/components/press-section"
 import { SiteHeader } from "@/components/site-header"
 import { useLanguage } from "@/components/language-provider"
 import { renderParagraphs } from "@/lib/utils"
@@ -13,26 +14,30 @@ export function AboutPageClient() {
   return (
     <div className="min-h-screen bg-background">
       <SiteHeader />
-      <main className="mx-auto max-w-3xl px-4 py-14 sm:px-6 sm:py-20">
-        <h1 className="font-display text-3xl font-semibold tracking-[-0.01em] sm:text-4xl">
-          {a.title}
-        </h1>
-        <div className="mt-6 space-y-4">
-          {renderParagraphs(a.body, "text-muted-foreground leading-relaxed", language)}
-        </div>
-
-        <section id="contribute" className="mt-12 scroll-mt-24">
-          <h2 className="font-display text-xl font-semibold">
-            {a.contributeTitle}
-          </h2>
-          <div className="mt-3 space-y-3">
-            {renderParagraphs(
-              a.contributeBody,
-              "text-muted-foreground leading-relaxed",
-              language
-            )}
+      <main>
+        <div className="mx-auto max-w-3xl px-4 py-14 sm:px-6 sm:py-20">
+          <h1 className="font-display text-3xl font-semibold tracking-[-0.01em] sm:text-4xl">
+            {a.title}
+          </h1>
+          <div className="mt-6 space-y-4">
+            {renderParagraphs(a.body, "text-muted-foreground leading-relaxed", language)}
           </div>
-        </section>
+
+          <section id="contribute" className="mt-12 scroll-mt-24">
+            <h2 className="font-display text-xl font-semibold">
+              {a.contributeTitle}
+            </h2>
+            <div className="mt-3 space-y-3">
+              {renderParagraphs(
+                a.contributeBody,
+                "text-muted-foreground leading-relaxed",
+                language
+              )}
+            </div>
+          </section>
+
+          <PressSection />
+        </div>
       </main>
       <SiteFooter />
       <FeedbackFab />

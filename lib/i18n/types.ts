@@ -1,4 +1,4 @@
-export type Language = "en" | "de" | "tr" | "uk" | "pl" | "ru" | "ar"
+export type Language = "en" | "de" | "tr" | "uk" | "pl" | "ru" | "ar" | "es" | "ku"
 
 export type LocalizedString = {
   en: string
@@ -8,6 +8,8 @@ export type LocalizedString = {
   pl?: string | null
   ru?: string | null
   ar?: string | null
+  es?: string | null
+  ku?: string | null
 }
 
 export type Translations = {
@@ -29,7 +31,6 @@ export type Translations = {
   navigation: {
     motivation: string
     comparison: string
-    media: string
     privacy: string
   }
   hero: {
@@ -59,12 +60,11 @@ export type Translations = {
   }
   press: {
     title: string
-    subtitle: string
   }
   pressMentionSummaries: Array<{
     id: string
-    channel: string
-    summary: string
+    source: string
+    headline: string
   }>
   comparison: {
     title: string

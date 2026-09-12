@@ -22,7 +22,6 @@ export function SiteHeader() {
 
   const sectionLinks = [
     { id: "comparison", label: t.navigation.comparison },
-    { id: "media", label: t.navigation.media },
     { id: "motivation", label: t.navigation.motivation },
   ]
 

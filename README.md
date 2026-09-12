@@ -4,13 +4,13 @@ Informational comparison of Berlin party positions for the **20 September 2026**
 
 Live domain: [www.berlin-2026.de](https://www.berlin-2026.de)
 
-Languages: English, German, Turkish, Ukrainian, Polish, Russian, Arabic.
+Languages: English, German, Turkish, Kurdish (Kurmanji), Ukrainian, Polish, Russian, Arabic, Spanish.
 
 ## Stack
 
 - Next.js 15 (App Router) + TypeScript + pnpm
 - Tailwind CSS 4 + shadcn-style UI primitives
-- Locale JSON in `locales/{en,de,tr,uk,pl,ru,ar}.json`
+- Locale JSON in `locales/{en,de,tr,ku,uk,pl,ru,ar,es}.json`
 - Comparison dataset in `data/comparison.json`
 
 ## Develop
