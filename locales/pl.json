@@ -30,7 +30,6 @@
   },
   "navigation": {
     "comparison": "Porównanie",
-    "media": "Media",
     "motivation": "Motywacja",
     "privacy": "Prywatność"
   },
@@ -60,19 +59,18 @@
     "backgroundBody": "- [Wikipedia: wybory landowe w Berlinie 2026](https://en.wikipedia.org/wiki/2026_Berlin_state_election)\n- [RBB: FAQ wyborów w Berlinie 2026 (po angielsku)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: wybory w łatwym języku (Leichte Sprache)](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Berlińskie Centrum Edukacji Politycznej: broszura Wybory 2026 (PDF)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
   },
   "press": {
-    "title": "W mediach",
-    "subtitle": "Nasz projekt pojawił się w następujących berlińskich mediach."
+    "title": "W mediach"
   },
   "pressMentionSummaries": [
     {
       "id": "bundeskanzler",
-      "channel": "Bundeskanzler",
-      "summary": "W tekście o sondażach przed wyborami w Berlinie wspomniano, że lokalne programy partii można porównać po rosyjsku na berlin-2026.de."
+      "source": "Bundeskanzler",
+      "headline": "W tekście o sondażach przed wyborami w Berlinie wspomniano, że lokalne programy partii można porównać po rosyjsku na berlin-2026.de."
     },
     {
       "id": "berlinwelle",
-      "channel": "Volna / Berlin",
-      "summary": "Twórczynie Water for All uruchomiły przed wrześniowymi wyborami berlin-2026.de — porównanie stanowisk dziesięciu partii z oficjalnych programów, w kilku językach, w tym angielskim i rosyjskim."
+      "source": "Volna / Berlin",
+      "headline": "Twórczynie Water for All uruchomiły przed wrześniowymi wyborami berlin-2026.de — porównanie stanowisk dziesięciu partii z oficjalnych programów, w kilku językach, w tym angielskim i rosyjskim."
     }
   ],
   "footer": {

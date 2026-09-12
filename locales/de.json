@@ -29,7 +29,6 @@
   },
   "navigation": {
     "comparison": "Vergleich",
-    "media": "Medien",
     "motivation": "Motivation",
     "privacy": "Datenschutz"
   },
@@ -59,19 +58,18 @@
     "backgroundBody": "- [Wikipedia: Wahl zum Abgeordnetenhaus von Berlin 2026](https://de.wikipedia.org/wiki/Wahl_zum_Abgeordnetenhaus_von_Berlin_2026)\n- [RBB: FAQ zu den Berlin-Wahlen 2026 (Englisch)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: Wahlen in Leichter Sprache](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Berliner Landeszentrale für politische Bildung: Broschüre Wahlen 2026 (PDF, EN)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
   },
   "press": {
-    "title": "Pressestimmen",
-    "subtitle": "Unser Projekt wurde in folgenden Berliner Medien erwähnt."
+    "title": "Pressestimmen"
   },
   "pressMentionSummaries": [
     {
       "id": "bundeskanzler",
-      "channel": "Bundeskanzler",
-      "summary": "Im Bericht zu den bevorstehenden Berlin-Wahlen heißt es, lokale Parteiprogramme lassen sich auf Russisch auf berlin-2026.de vergleichen."
+      "source": "Bundeskanzler",
+      "headline": "Im Bericht zu den bevorstehenden Berlin-Wahlen heißt es, lokale Parteiprogramme lassen sich auf Russisch auf berlin-2026.de vergleichen."
     },
     {
       "id": "berlinwelle",
-      "channel": "Volna / Berlin",
-      "summary": "Die Macherinnen von Water for All haben zur Septemberwahl berlin-2026.de gestartet: ein Vergleich der Positionen von zehn Parteien aus den offiziellen Programmen — in mehreren Sprachen, darunter Englisch und Russisch."
+      "source": "Volna / Berlin",
+      "headline": "Die Macherinnen von Water for All haben zur Septemberwahl berlin-2026.de gestartet: ein Vergleich der Positionen von zehn Parteien aus den offiziellen Programmen — in mehreren Sprachen, darunter Englisch und Russisch."
     }
   ],
   "footer": {

@@ -1,64 +1,31 @@
 "use client"
 
-import Image from "next/image"
-import { Calendar } from "lucide-react"
 import { useLanguage } from "@/components/language-provider"
 import { getPressMentions, type PressMention } from "@/lib/press-mentions"
-import { CONTENT_LANGUAGE } from "@/lib/seo/constants"
 
-function formatMentionDate(dateString: string, language: string) {
-  const isFullDate = /^\d{4}-\d{2}-\d{2}$/.test(dateString)
-  const date = isFullDate
-    ? new Date(`${dateString}T12:00:00`)
-    : new Date(dateString)
+function formatMentionDate(dateString: string) {
+  const full = /^(\d{4})-(\d{2})-(\d{2})$/.exec(dateString)
+  if (full) return `${full[3]}.${full[2]}.${full[1]}`
 
-  return date.toLocaleDateString(
-    CONTENT_LANGUAGE[language as keyof typeof CONTENT_LANGUAGE] ?? "en-DE",
-    isFullDate
-      ? { year: "numeric", month: "long", day: "numeric" }
-      : { year: "numeric", month: "long" }
-  )
+  const month = /^(\d{4})-(\d{2})$/.exec(dateString)
+  if (month) return `${month[2]}.${month[1]}`
+
+  return dateString
 }
 
-function PressMentionTile({ mention }: { mention: PressMention }) {
-  const { language } = useLanguage()
-
+function PressMentionItem({ mention }: { mention: PressMention }) {
   return (
-    <article className="flex h-full flex-col rounded-xl border border-border bg-white p-4 sm:p-5">
-      <div className="flex items-start gap-3">
-        <div className="relative h-12 w-12 shrink-0 overflow-hidden rounded-full bg-muted/50">
-          {mention.image ? (
-            <Image
-              src={mention.image}
-              alt=""
-              fill
-              sizes="48px"
-              className="object-cover"
-            />
-          ) : null}
-        </div>
-        <div className="min-w-0 flex-1">
-          <p className="font-display text-base font-semibold tracking-[-0.01em] text-foreground">
-            {mention.channel}
-          </p>
-          <div className="mt-1 flex items-center gap-1.5 text-xs text-muted-foreground">
-            <Calendar className="h-3 w-3" aria-hidden />
-            <time dateTime={mention.date}>
-              {formatMentionDate(mention.date, language)}
-            </time>
-          </div>
-        </div>
-      </div>
-
+    <li className="text-muted-foreground leading-relaxed">
+      <p>{mention.headline}</p>
       <a
         href={mention.postUrl}
         target="_blank"
         rel="noopener noreferrer"
-        className="mt-3 flex-1 text-sm leading-relaxed text-muted-foreground transition-colors hover:text-primary"
+        className="mt-1 inline-block text-foreground underline underline-offset-2 transition-colors hover:text-primary"
       >
-        {mention.summary}
+        {mention.source} ({formatMentionDate(mention.date)})
       </a>
-    </article>
+    </li>
   )
 }
 
@@ -71,24 +38,13 @@ export function PressSection() {
   if (!mentions.length) return null
 
   return (
-    <section
-      id="media"
-      className="scroll-mt-[4.25rem] bg-section-muted px-4 py-16 sm:px-6 sm:py-20"
-    >
-      <div className="mx-auto max-w-3xl">
-        <h2 className="section-title font-display text-3xl font-semibold tracking-[-0.01em] sm:text-4xl">
-          {t.press.title}
-        </h2>
-        <p className="mt-1 text-base leading-relaxed text-muted-foreground">
-          {t.press.subtitle}
-        </p>
-      </div>
-
-      <div className="mx-auto mt-8 grid max-w-4xl gap-3 sm:grid-cols-2 sm:gap-4">
+    <section id="media" className="mt-12 scroll-mt-24">
+      <h2 className="font-display text-xl font-semibold">{t.press.title}</h2>
+      <ul className="mt-3 space-y-3">
         {mentions.map((mention) => (
-          <PressMentionTile key={mention.id} mention={mention} />
+          <PressMentionItem key={mention.id} mention={mention} />
         ))}
-      </div>
+      </ul>
     </section>
   )
 }

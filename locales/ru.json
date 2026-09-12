@@ -29,7 +29,6 @@
   },
   "navigation": {
     "comparison": "Сравнение",
-    "media": "В СМИ",
     "motivation": "Мотивация",
     "privacy": "Защита данных"
   },
@@ -59,19 +58,18 @@
     "backgroundBody": "- [Википедия: земельные выборы в Берлине 2026](https://en.wikipedia.org/wiki/2026_Berlin_state_election)\n- [RBB: FAQ о выборах в Берлине 2026 (на английском)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: выборы на простом языке (Leichte Sprache)](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Брошюра о выборах 2026 земельного центра политического образования Берлина (PDF, EN)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
   },
   "press": {
-    "title": "В СМИ",
-    "subtitle": "О нашем проекте писали в следующих берлинских медиа."
+    "title": "В СМИ"
   },
   "pressMentionSummaries": [
     {
       "id": "bundeskanzler",
-      "channel": "Бундесканцлер",
-      "summary": "В материале о предвыборных опросах в Берлине отмечают: местные программы партий можно сравнить на русском на berlin-2026.de."
+      "source": "Бундесканцлер",
+      "headline": "В материале о предвыборных опросах в Берлине отмечают: местные программы партий можно сравнить на русском на berlin-2026.de."
     },
     {
       "id": "berlinwelle",
-      "channel": "Волна / Берлин",
-      "summary": "Создательницы проекта Water for All запустили к сентябрьским выборам сайт berlin-2026.de — сравнение позиций десяти партий по транспорту, жилью, климату и другим темам из официальных программ, на нескольких языках, включая русский."
+      "source": "Волна / Берлин",
+      "headline": "Создательницы проекта Water for All запустили к сентябрьским выборам сайт berlin-2026.de — сравнение позиций десяти партий по транспорту, жилью, климату и другим темам из официальных программ, на нескольких языках, включая русский."
     }
   ],
   "footer": {

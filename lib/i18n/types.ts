@@ -29,7 +29,6 @@ export type Translations = {
   navigation: {
     motivation: string
     comparison: string
-    media: string
     privacy: string
   }
   hero: {
@@ -59,12 +58,11 @@ export type Translations = {
   }
   press: {
     title: string
-    subtitle: string
   }
   pressMentionSummaries: Array<{
     id: string
-    channel: string
-    summary: string
+    source: string
+    headline: string
   }>
   comparison: {
     title: string

@@ -30,7 +30,6 @@
   },
   "navigation": {
     "comparison": "Karşılaştırma",
-    "media": "Medya",
     "motivation": "Motivasyon",
     "privacy": "Gizlilik"
   },
@@ -60,19 +59,18 @@
     "backgroundBody": "- [Wikipedia: 2026 Berlin eyalet seçimleri](https://en.wikipedia.org/wiki/2026_Berlin_state_election)\n- [RBB: Berlin Seçimleri 2026 SSS (İngilizce)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: Kolay dilde seçimler (Leichte Sprache)](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Berlin Siyasi Eğitim Merkezi: Seçimler 2026 broşürü (PDF)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
   },
   "press": {
-    "title": "Medyada",
-    "subtitle": "Projemiz aşağıdaki Berlin medyasında yer aldı."
+    "title": "Medyada"
   },
   "pressMentionSummaries": [
     {
       "id": "bundeskanzler",
-      "channel": "Bundeskanzler",
-      "summary": "Berlin seçimleri öncesi anketleri ele alan yazıda, yerel parti programlarının Rusça olarak berlin-2026.de üzerinde karşılaştırılabileceği belirtiliyor."
+      "source": "Bundeskanzler",
+      "headline": "Berlin seçimleri öncesi anketleri ele alan yazıda, yerel parti programlarının Rusça olarak berlin-2026.de üzerinde karşılaştırılabileceği belirtiliyor."
     },
     {
       "id": "berlinwelle",
-      "channel": "Volna / Berlin",
-      "summary": "Water for All’un kurucuları, eylül seçimleri için berlin-2026.de’yi başlattı: on partinin resmi programlarındaki konumlarını yan yana karşılaştıran, İngilizce ve Rusça dahil birkaç dilde sunulan bir site."
+      "source": "Volna / Berlin",
+      "headline": "Water for All’un kurucuları, eylül seçimleri için berlin-2026.de’yi başlattı: on partinin resmi programlarındaki konumlarını yan yana karşılaştıran, İngilizce ve Rusça dahil birkaç dilde sunulan bir site."
     }
   ],
   "footer": {
