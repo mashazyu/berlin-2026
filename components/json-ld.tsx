@@ -71,6 +71,16 @@ function electionCopy(language: Language) {
       offersName: "المشاركة في التصويت (للناخبين المؤهلين)",
     }
   }
+  if (language === "es") {
+    return {
+      name: "Elecciones al Abgeordnetenhaus de Berlín 2026",
+      description:
+        "Elección de la Cámara de Representantes de Berlín (Abgeordnetenhaus) el 20 de septiembre de 2026. Elección libre del parlamento regional de Berlín.",
+      organizerName: "Oficina electoral del Land de Berlín (Landeswahlleitung)",
+      performerName: "Partidos y candidatos que se presentan a las elecciones",
+      offersName: "Participación en la votación (personas con derecho a voto)",
+    }
+  }
   return {
     name: "2026 Berlin Abgeordnetenhaus election",
     description:
