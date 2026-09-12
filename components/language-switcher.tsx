@@ -13,6 +13,7 @@ const LABELS: Record<Language, string> = {
   en: "EN",
   de: "DE",
   tr: "TR",
+  ku: "KU",
   pl: "PL",
   ru: "RU",
   uk: "UK",
