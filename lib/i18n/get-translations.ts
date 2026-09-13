@@ -8,6 +8,7 @@ import ar from "../../locales/ar.json"
 import es from "../../locales/es.json"
 import ku from "../../locales/ku.json"
 import vi from "../../locales/vi.json"
+import it from "../../locales/it.json"
 import { CONTACT_EMAIL, SUPPORTED_LANGUAGES } from "@/lib/seo/constants"
 import { deepMergeWithFallback } from "./fallback"
 import type { Language, Translations } from "./types"
@@ -60,6 +61,9 @@ export const languages: Record<Language, Translations> = {
   ),
   vi: injectContactEmail(
     deepMergeWithFallback(en as Translations, vi as Partial<Translations>)
+  ),
+  it: injectContactEmail(
+    deepMergeWithFallback(en as Translations, it as Partial<Translations>)
   ),
 }
 

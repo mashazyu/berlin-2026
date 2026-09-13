@@ -4,7 +4,7 @@ Informational comparison of Berlin party positions for the **20 September 2026**
 
 Live domain: [www.berlin-2026.de](https://www.berlin-2026.de)
 
-Languages: English, German, Turkish, Kurdish (Kurmanji), Vietnamese, Polish, Russian, Ukrainian, Arabic, Spanish.
+Languages: English, German, Turkish, Kurdish (Kurmanji), Vietnamese, Polish, Russian, Ukrainian, Arabic, Spanish, Italian.
 
 ## Stack
 

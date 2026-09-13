@@ -10,7 +10,7 @@ export const CONTACT_FROM = `Berlin 2026 <${CONTACT_EMAIL}>`
 
 /**
  * Display / iteration order: English first, then Berlin community size
- * (de → tr → ku → vi → pl → ru → uk → ar → es). Single source of truth for switcher, sitemap, etc.
+ * (de → tr → ku → vi → pl → ru → uk → ar → es → it). Single source of truth for switcher, sitemap, etc.
  */
 export const SUPPORTED_LANGUAGES = [
   "en",
@@ -23,6 +23,7 @@ export const SUPPORTED_LANGUAGES = [
   "uk",
   "ar",
   "es",
+  "it",
 ] as const satisfies readonly Language[]
 
 export const DEFAULT_LANGUAGE: Language = "de"
@@ -38,6 +39,7 @@ export const CONTENT_LANGUAGE: Record<Language, string> = {
   ru: "ru-DE",
   ar: "ar-DE",
   es: "es-DE",
+  it: "it-DE",
 }
 
 /** Open Graph / Facebook locale tags */
@@ -52,6 +54,7 @@ export const OG_LOCALES: Record<Language, string> = {
   ru: "ru_RU",
   ar: "ar_AE",
   es: "es_ES",
+  it: "it_IT",
 }
 export function toSafeLanguage(lang: string | undefined | null): Language {
   return (SUPPORTED_LANGUAGES as readonly string[]).includes(lang ?? "")

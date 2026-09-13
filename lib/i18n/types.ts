@@ -9,6 +9,7 @@ export type Language =
   | "es"
   | "ku"
   | "vi"
+  | "it"
 
 export type LocalizedString = {
   en: string
@@ -21,6 +22,7 @@ export type LocalizedString = {
   es?: string | null
   ku?: string | null
   vi?: string | null
+  it?: string | null
 }
 
 export type Translations = {

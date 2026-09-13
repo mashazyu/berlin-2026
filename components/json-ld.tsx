@@ -101,6 +101,16 @@ function electionCopy(language: Language) {
       offersName: "Tham gia bỏ phiếu (cử tri đủ điều kiện)",
     }
   }
+  if (language === "it") {
+    return {
+      name: "Elezioni della Camera dei deputati di Berlino 2026",
+      description:
+        "Elezione della Camera dei deputati di Berlino il 20 settembre 2026. Elezione libera del parlamento regionale di Berlino.",
+      organizerName: "Ufficio elettorale del Land di Berlino (Landeswahlleitung)",
+      performerName: "Partiti e candidati in lizza",
+      offersName: "Partecipazione al voto (aventi diritto)",
+    }
+  }
   return {
     name: "2026 Berlin Abgeordnetenhaus election",
     description:

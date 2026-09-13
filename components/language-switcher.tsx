@@ -20,6 +20,7 @@ const LABELS: Record<Language, string> = {
   uk: "UK",
   ar: "AR",
   es: "ES",
+  it: "IT",
 }
 
 function alternatePath(pathname: string, lang: Language): string {
