@@ -19,7 +19,7 @@ function collectChars(arabic = false) {
   const chunks = ["Berlin2026·"]
   const langs = arabic
     ? ["ar"]
-    : ["en", "de", "tr", "uk", "pl", "ru"]
+    : ["en", "de", "tr", "uk", "pl", "ru", "es", "ku", "vi"]
   for (const lang of langs) {
     const t = JSON.parse(
       fs.readFileSync(path.join(ROOT, "locales", `${lang}.json`), "utf8")

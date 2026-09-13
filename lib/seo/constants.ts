@@ -10,13 +10,14 @@ export const CONTACT_FROM = `Berlin 2026 <${CONTACT_EMAIL}>`
 
 /**
  * Display / iteration order: English first, then Berlin community size
- * (de → tr → ku → pl → ru → uk → ar → es). Single source of truth for switcher, sitemap, etc.
+ * (de → tr → ku → vi → pl → ru → uk → ar → es). Single source of truth for switcher, sitemap, etc.
  */
 export const SUPPORTED_LANGUAGES = [
   "en",
   "de",
   "tr",
   "ku",
+  "vi",
   "pl",
   "ru",
   "uk",
@@ -31,6 +32,7 @@ export const CONTENT_LANGUAGE: Record<Language, string> = {
   de: "de-DE",
   tr: "tr-DE",
   ku: "ku-DE",
+  vi: "vi-DE",
   uk: "uk-DE",
   pl: "pl-DE",
   ru: "ru-DE",
@@ -44,6 +46,7 @@ export const OG_LOCALES: Record<Language, string> = {
   de: "de_DE",
   tr: "tr_TR",
   ku: "ku_TR",
+  vi: "vi_VN",
   uk: "uk_UA",
   pl: "pl_PL",
   ru: "ru_RU",
