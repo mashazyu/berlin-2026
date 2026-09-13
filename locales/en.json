@@ -58,10 +58,16 @@
     "backgroundIntro": "Background:",
     "backgroundBody": "- [Wikipedia: 2026 Berlin state election](https://en.wikipedia.org/wiki/2026_Berlin_state_election)\n- [RBB: Berlin Elections 2026 FAQ (English)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: Elections in easy language (Leichte Sprache)](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Berlin State Centre for Political Education: Elections 2026 brochure (PDF)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
   },
-  "press": {
-    "title": "In the Media"
+  "mentions": {
+    "title": "Mentions",
+    "kindLabels": {
+      "telegram": "Telegram",
+      "newsletter": "Newsletter",
+      "substack": "Substack",
+      "article": "Article"
+    }
   },
-  "pressMentionSummaries": [
+  "mentionSummaries": [
     {
       "id": "bundeskanzler",
       "source": "Bundeskanzler",

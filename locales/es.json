@@ -58,10 +58,16 @@
     "backgroundIntro": "Contexto:",
     "backgroundBody": "- [Wikipedia: elecciones regionales de Berlín 2026](https://en.wikipedia.org/wiki/2026_Berlin_state_election)\n- [RBB: FAQ elecciones Berlín 2026 (inglés)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: elecciones en lenguaje fácil](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Centro estatal de educación política de Berlín: folleto Elecciones 2026 (PDF)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
   },
-  "press": {
-    "title": "En los medios"
+  "mentions": {
+    "title": "Menciones",
+    "kindLabels": {
+      "telegram": "Telegram",
+      "newsletter": "Boletín",
+      "substack": "Substack",
+      "article": "Artículo"
+    }
   },
-  "pressMentionSummaries": [
+  "mentionSummaries": [
     {
       "id": "bundeskanzler",
       "source": "Bundeskanzler",

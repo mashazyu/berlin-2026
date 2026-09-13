@@ -1,7 +1,7 @@
 "use client"
 
 import { useLanguage } from "@/components/language-provider"
-import { getPressMentions, type PressMention } from "@/lib/press-mentions"
+import { getMentions, type Mention } from "@/lib/mentions"
 
 function formatMentionDate(dateString: string) {
   const full = /^(\d{4})-(\d{2})-(\d{2})$/.exec(dateString)
@@ -13,7 +13,7 @@ function formatMentionDate(dateString: string) {
   return dateString
 }
 
-function PressMentionItem({ mention }: { mention: PressMention }) {
+function MentionItem({ mention }: { mention: Mention }) {
   return (
     <li className="text-muted-foreground leading-relaxed">
       <p>{mention.headline}</p>
@@ -23,26 +23,26 @@ function PressMentionItem({ mention }: { mention: PressMention }) {
         rel="noopener noreferrer"
         className="mt-1 inline-block text-foreground underline underline-offset-2 transition-colors hover:text-primary"
       >
-        {mention.source} ({formatMentionDate(mention.date)})
+        {mention.kindLabel} · {mention.source} ({formatMentionDate(mention.date)})
       </a>
     </li>
   )
 }
 
-export function PressSection() {
+export function MentionsSection() {
   const { language, translations: t } = useLanguage()
-  const mentions = [...getPressMentions(language)].sort(
+  const mentions = [...getMentions(language)].sort(
     (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
   )
 
   if (!mentions.length) return null
 
   return (
-    <section id="media" className="mt-12 scroll-mt-24">
-      <h2 className="font-display text-xl font-semibold">{t.press.title}</h2>
+    <section id="mentions" className="mt-12 scroll-mt-24">
+      <h2 className="font-display text-xl font-semibold">{t.mentions.title}</h2>
       <ul className="mt-3 space-y-3">
         {mentions.map((mention) => (
-          <PressMentionItem key={mention.id} mention={mention} />
+          <MentionItem key={mention.id} mention={mention} />
         ))}
       </ul>
     </section>

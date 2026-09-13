@@ -57,10 +57,16 @@
     "backgroundIntro": "Hintergrund:",
     "backgroundBody": "- [Wikipedia: Wahl zum Abgeordnetenhaus von Berlin 2026](https://de.wikipedia.org/wiki/Wahl_zum_Abgeordnetenhaus_von_Berlin_2026)\n- [RBB: FAQ zu den Berlin-Wahlen 2026 (Englisch)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: Wahlen in Leichter Sprache](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Berliner Landeszentrale für politische Bildung: Broschüre Wahlen 2026 (PDF, EN)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
   },
-  "press": {
-    "title": "Pressestimmen"
+  "mentions": {
+    "title": "Erwähnungen",
+    "kindLabels": {
+      "telegram": "Telegram",
+      "newsletter": "Newsletter",
+      "substack": "Substack",
+      "article": "Artikel"
+    }
   },
-  "pressMentionSummaries": [
+  "mentionSummaries": [
     {
       "id": "bundeskanzler",
       "source": "Bundeskanzler",

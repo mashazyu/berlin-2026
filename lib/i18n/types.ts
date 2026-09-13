@@ -58,10 +58,16 @@ export type Translations = {
     backgroundIntro: string
     backgroundBody: string
   }
-  press: {
+  mentions: {
     title: string
+    kindLabels: {
+      telegram: string
+      newsletter: string
+      substack: string
+      article: string
+    }
   }
-  pressMentionSummaries: Array<{
+  mentionSummaries: Array<{
     id: string
     source: string
     headline: string

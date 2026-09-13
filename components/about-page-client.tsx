@@ -2,7 +2,7 @@
 
 import { SiteFooter } from "@/components/site-footer"
 import { FeedbackFab } from "@/components/feedback-fab"
-import { PressSection } from "@/components/press-section"
+import { MentionsSection } from "@/components/mentions-section"
 import { SiteHeader } from "@/components/site-header"
 import { useLanguage } from "@/components/language-provider"
 import { renderParagraphs } from "@/lib/utils"
@@ -36,7 +36,7 @@ export function AboutPageClient() {
             </div>
           </section>
 
-          <PressSection />
+          <MentionsSection />
         </div>
       </main>
       <SiteFooter />
