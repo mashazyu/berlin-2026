@@ -57,10 +57,16 @@
     "backgroundIntro": "Hintergrund:",
     "backgroundBody": "- [Wikipedia: Wahl zum Abgeordnetenhaus von Berlin 2026](https://de.wikipedia.org/wiki/Wahl_zum_Abgeordnetenhaus_von_Berlin_2026)\n- [RBB: FAQ zu den Berlin-Wahlen 2026 (Englisch)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: Wahlen in Leichter Sprache](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Berliner Landeszentrale für politische Bildung: Broschüre Wahlen 2026 (PDF, EN)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
   },
-  "press": {
-    "title": "Pressestimmen"
+  "mentions": {
+    "title": "Erwähnungen",
+    "kindLabels": {
+      "telegram": "Telegram",
+      "newsletter": "Newsletter",
+      "substack": "Substack",
+      "article": "Artikel"
+    }
   },
-  "pressMentionSummaries": [
+  "mentionSummaries": [
     {
       "id": "bundeskanzler",
       "source": "Bundeskanzler",
@@ -113,7 +119,7 @@
     "title": "Über uns",
     "body": "Berlin 2026 ist ein unabhängiges Projekt zum Vergleich von Parteiprogrammen vor der Abgeordnetenhauswahl 2026 in Berlin. Offizielle Programme erscheinen nur auf Deutsch — wir übersetzen sie in Sprachen, die in Berlin gesprochen werden.\n\nNina vergleicht die Programme und treibt das Projekt voran, Mascha sorgt für die Technik. Parallel arbeiten wir an [Wasser für alle / Water for All](https://www.water4all.com.de/de) — einem offenen Atlas freier Trinkwasserstellen in Berlin. Das Projekt macht den Zugang zu Wasser sichtbar und hilft vor Ort, sich für neue Trinkbrunnen einzusetzen.",
     "contributeTitle": "Wie Sie helfen können",
-    "contributeBody": "Wenn Sie das Projekt unterstützen möchten, hilft uns am meisten, wenn Sie es weitererzählen — an Menschen, denen es nützlich sein könnte.\n\nSie können auch unseren Flyer ausdrucken (Deutsch, Englisch, Türkisch, Kurdisch, Polnisch, Russisch, Ukrainisch, Arabisch, Spanisch) und dort aushängen, wo ihn Menschen in Berlin sehen — Cafés, schwarze Bretter, Nachbarschaftsorte. [PDF herunterladen](/flyers/berlin-2026-flyer.pdf).\n\nUnd wenn Ihnen auf der Website ein Fehler auffällt — eine ungenaue Formulierung oder ein Sachfehler — schreiben Sie uns bitte, damit wir ihn korrigieren können. Markieren Sie die Stelle auf der Seite, um eine Meldung zu öffnen, oder erreichen Sie uns über Kontakt.\n\nSie können Übersetzungen auch selbst verbessern — öffnen Sie einen Pull Request mit Korrekturen, oder ergänzen bzw. bearbeiten Sie die Locale-Dateien direkt in unserem [GitHub-Repository](https://github.com/mashazyu/berlin-2026)."
+    "contributeBody": "Wenn Sie das Projekt unterstützen möchten, hilft uns am meisten, wenn Sie es weitererzählen — an Menschen, denen es nützlich sein könnte.\n\nSie können auch unseren Flyer ausdrucken (Deutsch, Englisch, Türkisch, Kurdisch, Polnisch, Russisch, Ukrainisch, Arabisch, Spanisch, Vietnamesisch, Italienisch) und dort aushängen, wo ihn Menschen in Berlin sehen — Cafés, schwarze Bretter, Nachbarschaftsorte. [PDF herunterladen](/flyers/berlin-2026-flyer.pdf).\n\nUnd wenn Ihnen auf der Website ein Fehler auffällt — eine ungenaue Formulierung oder ein Sachfehler — schreiben Sie uns bitte, damit wir ihn korrigieren können. Markieren Sie die Stelle auf der Seite, um eine Meldung zu öffnen, oder erreichen Sie uns über Kontakt.\n\nSie können Übersetzungen auch selbst verbessern — öffnen Sie einen Pull Request mit Korrekturen, oder ergänzen bzw. bearbeiten Sie die Locale-Dateien direkt in unserem [GitHub-Repository](https://github.com/mashazyu/berlin-2026)."
   },
   "aiDisclosure": {
     "title": "KI-Hinweis",

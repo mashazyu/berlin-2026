@@ -91,6 +91,26 @@ function electionCopy(language: Language) {
       offersName: "Beşdariya di dengdanê de (kesên xwedî mafê dengdanê)",
     }
   }
+  if (language === "vi") {
+    return {
+      name: "Bầu cử Viện Dân biểu Berlin 2026",
+      description:
+        "Bầu cử Viện Dân biểu Berlin ngày 20 tháng 9 năm 2026. Bầu cử tự do nghị viện bang Berlin.",
+      organizerName: "Văn phòng bầu cử bang Berlin (Landeswahlleitung)",
+      performerName: "Các đảng và ứng cử viên tham gia bầu cử",
+      offersName: "Tham gia bỏ phiếu (cử tri đủ điều kiện)",
+    }
+  }
+  if (language === "it") {
+    return {
+      name: "Elezioni della Camera dei deputati di Berlino 2026",
+      description:
+        "Elezione della Camera dei deputati di Berlino il 20 settembre 2026. Elezione libera del parlamento regionale di Berlino.",
+      organizerName: "Ufficio elettorale del Land di Berlino (Landeswahlleitung)",
+      performerName: "Partiti e candidati in lizza",
+      offersName: "Partecipazione al voto (aventi diritto)",
+    }
+  }
   return {
     name: "2026 Berlin Abgeordnetenhaus election",
     description:

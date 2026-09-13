@@ -1,4 +1,15 @@
-export type Language = "en" | "de" | "tr" | "uk" | "pl" | "ru" | "ar" | "es" | "ku"
+export type Language =
+  | "en"
+  | "de"
+  | "tr"
+  | "uk"
+  | "pl"
+  | "ru"
+  | "ar"
+  | "es"
+  | "ku"
+  | "vi"
+  | "it"
 
 export type LocalizedString = {
   en: string
@@ -10,6 +21,8 @@ export type LocalizedString = {
   ar?: string | null
   es?: string | null
   ku?: string | null
+  vi?: string | null
+  it?: string | null
 }
 
 export type Translations = {
@@ -58,10 +71,16 @@ export type Translations = {
     backgroundIntro: string
     backgroundBody: string
   }
-  press: {
+  mentions: {
     title: string
+    kindLabels: {
+      telegram: string
+      newsletter: string
+      substack: string
+      article: string
+    }
   }
-  pressMentionSummaries: Array<{
+  mentionSummaries: Array<{
     id: string
     source: string
     headline: string

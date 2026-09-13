@@ -14,11 +14,13 @@ const LABELS: Record<Language, string> = {
   de: "DE",
   tr: "TR",
   ku: "KU",
+  vi: "VI",
   pl: "PL",
   ru: "RU",
   uk: "UK",
   ar: "AR",
   es: "ES",
+  it: "IT",
 }
 
 function alternatePath(pathname: string, lang: Language): string {

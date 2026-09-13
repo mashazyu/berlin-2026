@@ -1,0 +1,200 @@
+{
+  "metadata": {
+    "homeTitle": "Berlin 2026 — so sánh chương trình 10 đảng phổ biến nhất",
+    "homeDescription": "Chương trình chính thức cho bầu cử Viện Dân biểu Berlin ngày 20 tháng 9 năm 2026: giao thông, nhà ở, khí hậu, an ninh và nhiều chủ đề khác. Độc lập — không phải lời khuyên bỏ phiếu.",
+    "aboutTitle": "Giới thiệu — Berlin 2026",
+    "aboutDescription": "Ai làm Berlin 2026: Nina so sánh chương trình các đảng và phát triển dự án; Masha lo phần kỹ thuật. Độc lập, không thuộc đảng nào.",
+    "privacyTitle": "Chính sách bảo vệ dữ liệu — Berlin 2026",
+    "privacyDescription": "Cách Berlin 2026 xử lý dữ liệu cá nhân theo GDPR.",
+    "aiDisclosureTitle": "Công bố về AI — Berlin 2026",
+    "aiDisclosureDescription": "Chúng tôi dùng AI thế nào cho nội dung trang và bảng so sánh — và vì sao con người vẫn chịu trách nhiệm về ý tưởng, nội dung và độ chính xác.",
+    "keywords": [
+      "Berlin",
+      "Bầu cử bang Berlin 2026",
+      "Viện Dân biểu",
+      "nghị viện bang",
+      "chương trình đảng",
+      "so sánh đảng",
+      "giao thông",
+      "nhà ở",
+      "khí hậu",
+      "an ninh",
+      "giáo dục",
+      "y tế",
+      "di cư"
+    ]
+  },
+  "brand": {
+    "name": "Berlin 2026",
+    "tagline": "So sánh lập trường các đảng"
+  },
+  "navigation": {
+    "comparison": "So sánh",
+    "motivation": "Vì sao chúng tôi làm",
+    "privacy": "Bảo vệ dữ liệu"
+  },
+  "hero": {
+    "headline": "Bầu cử bang Berlin 2026 — so sánh chương trình các đảng",
+    "support": "20 tháng 9 năm 2026 · Viện Dân biểu · 10 đảng · 65 chủ đề",
+    "blurb": "Lập trường lấy từ chương trình chính thức, đặt cạnh nhau — không phải lời khuyên bỏ phiếu.",
+    "cta": "So sánh chương trình",
+    "disclaimer": "Không phải tài liệu vận động và không thuộc đảng nào.",
+    "scrollHint": "Xem bảng so sánh"
+  },
+  "motivation": {
+    "title": "Vì sao chúng tôi làm",
+    "berlinVotesTitle": "Berlin bỏ phiếu ngày 20 tháng 9 năm 2026",
+    "berlinVotesBody": "Cứ năm năm một lần Berlin bầu Viện Dân biểu mới — nghị viện bang định hình chính sách của thành phố.",
+    "accessibilityTitle": "Ngôn ngữ và tiếp cận",
+    "accessibilityBody": "Khoảng [16% công dân Đức](https://de.statista.com/statistik/daten/studie/1109703/umfrage/bevoelkerung-bezirke-nach-migrationshintergrund-berlin/) ở Berlin có gốc nhập cư. Chương trình bầu cử chỉ có tiếng Đức và có thể dài tới 200 trang — ngay cả người bản ngữ cũng khó. [Wahl-O-Mat](https://www.wahl-o-mat.de/berlin2026/app/main_app.html) hữu ích, nhưng không phải công cụ để so sánh sâu.",
+    "clarityTitle": "Rõ ràng và thực chất",
+    "clarityBody": "Trong 200 trang đó, nhiều đoạn mang tính khẩu hiệu — khó nắm được điều cụ thể. Chúng tôi muốn câu trả lời rõ: tách cam kết có số liệu khỏi lời hứa chung chung.",
+    "whatWeDidTitle": "Chúng tôi đã làm gì",
+    "whatWeDidBody": "Chúng tôi so sánh 10 đảng ở Berlin trên các điểm then chốt về giao thông, nhà ở, khí hậu và năng lượng, an ninh, giáo dục, y tế, di cư, kinh tế và dân chủ — rồi đưa vào một bảng so sánh cạnh nhau.",
+    "beforeYouVoteTitle": "Trước khi bỏ phiếu",
+    "beforeYouVoteBody": "Bảng được làm với sự hỗ trợ của AI; hãy tự kiểm lại những điểm quan trọng với bạn. Bản dịch đầy đủ chương trình các đảng chính có trên [BerlinVote.Help](https://www.berlinvote.help/).",
+    "toolsIntro": "Công cụ hỗ trợ bỏ phiếu và so sánh khác:",
+    "toolsBody": "- [Wahl-O-Mat Berlin 2026](https://www.wahl-o-mat.de/berlin2026/app/main_app.html)\n- [Kandidierendencheck](https://www.kandidierendencheck.de/auswahl)\n- [Party-Check Berlin](https://tool.party-check.org/index.php/berlin?lang=en)",
+    "backgroundIntro": "Tham khảo thêm:",
+    "backgroundBody": "- [Wikipedia: bầu cử bang Berlin 2026](https://en.wikipedia.org/wiki/2026_Berlin_state_election)\n- [RBB: FAQ bầu cử Berlin 2026 (tiếng Anh)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: bầu cử bằng ngôn ngữ dễ (Leichte Sprache)](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Trung tâm Giáo dục Chính trị bang Berlin: tờ rơi bầu cử 2026 (PDF)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
+  },
+  "mentions": {
+    "title": "Được nhắc đến",
+    "kindLabels": {
+      "telegram": "Telegram",
+      "newsletter": "Bản tin",
+      "substack": "Substack",
+      "article": "Bài viết"
+    }
+  },
+  "mentionSummaries": [
+    {
+      "id": "bundeskanzler",
+      "source": "Bundeskanzler",
+      "headline": "Trong tin về bầu cử Berlin sắp tới: có thể so sánh chương trình các đảng địa phương bằng tiếng Nga trên berlin-2026.de."
+    },
+    {
+      "id": "berlinwelle",
+      "source": "Volna / Berlin",
+      "headline": "Những người làm Water for All đã ra mắt berlin-2026.de cho bầu cử tháng 9: so sánh lập trường mười đảng từ chương trình chính thức — nhiều ngôn ngữ, gồm tiếng Anh và tiếng Nga."
+    }
+  ],
+  "footer": {
+    "aiNotice": "Nội dung và bảng so sánh trên trang này được tạo với sự hỗ trợ của AI.",
+    "aiDisclosure": "Công bố về AI",
+    "relatedSite": "Bản dịch đầy đủ chương trình: BerlinVote.Help",
+    "contact": "Liên hệ",
+    "about": "Giới thiệu",
+    "privacy": "Bảo vệ dữ liệu",
+    "contribute": "Đóng góp"
+  },
+  "feedback": {
+    "fabLabel": "Gửi phản hồi",
+    "title": "Gửi phản hồi",
+    "intro": "Có câu hỏi hoặc góp ý về trang? Viết ngắn gửi chúng tôi. Để lại email nếu muốn nhận trả lời.",
+    "textReportHint": "Báo câu chữ sai hoặc sai sự thật? Chọn (hoặc sao chép) đoạn trên trang — sẽ hiện nút nhỏ để mở biểu mẫu sửa.",
+    "messageLabel": "Tin nhắn của bạn",
+    "messagePlaceholder": "Viết phản hồi…",
+    "emailLabel": "Email (để nhận trả lời)",
+    "emailPlaceholder": "you@example.com",
+    "submit": "Gửi",
+    "sending": "Đang gửi…",
+    "cancel": "Hủy",
+    "close": "Đóng",
+    "success": "Cảm ơn. Chúng tôi sẽ xem sớm nhất có thể.",
+    "error": "Có lỗi xảy ra. Vui lòng thử lại hoặc gửi email tới {email}.",
+    "captchaRequired": "Vui lòng hoàn tất bước kiểm tra bảo mật.",
+    "captchaMissing": "Chưa cấu hình kiểm tra bảo mật (thiếu site key)."
+  },
+  "textReport": {
+    "title": "Báo cáo văn bản sai",
+    "intro": "Kiểm tra đoạn đã chọn và viết cách nên sửa.",
+    "selectionAction": "Báo cáo đoạn này",
+    "incorrectLabel": "Văn bản sai (như trên trang)",
+    "incorrectPlaceholder": "Dán hoặc chọn văn bản từ trang…",
+    "suggestedLabel": "Cách bạn đề xuất",
+    "suggestedPlaceholder": "Viết câu chữ đã sửa hoặc chỉnh sự thật…",
+    "submit": "Gửi báo cáo"
+  },
+  "about": {
+    "title": "Giới thiệu",
+    "body": "Berlin 2026 là dự án độc lập so sánh chương trình các đảng trước bầu cử bang Berlin 2026. Chương trình chính thức chỉ có tiếng Đức — chúng tôi dịch sang các ngôn ngữ được nói ở Berlin.\n\nNina so sánh chương trình và phát triển dự án; Masha lo phần kỹ thuật. Song song chúng tôi làm [Water for All / Wasser für alle](https://www.water4all.com.de) — bản đồ mở về nước uống miễn phí ở Berlin. Dự án giúp thấy rõ tiếp cận nước và vận động thêm đài nước uống.",
+    "contributeTitle": "Bạn có thể giúp gì",
+    "contributeBody": "Nếu muốn hỗ trợ dự án, điều hữu ích nhất là lan tỏa — chia sẻ với người có thể cần.\n\nBạn cũng có thể in tờ rơi của chúng tôi (tiếng Đức, Anh, Thổ Nhĩ Kỳ, Kurd, Việt, Ba Lan, Nga, Ukraina, Ả Rập, Tây Ban Nha, Ý) và dán nơi người Berlin sẽ thấy — quán cà phê, bảng thông báo, không gian cộng đồng. [Tải PDF](/flyers/berlin-2026-flyer.pdf).\n\nNếu thấy lỗi trên trang — câu chữ sai hoặc sai sự thật — hãy báo để chúng tôi sửa. Chọn đoạn trên trang để mở báo cáo, hoặc viết qua Liên hệ.\n\nBạn cũng có thể tự cải thiện bản dịch: mở pull request, hoặc sửa tệp ngôn ngữ trong [kho GitHub](https://github.com/mashazyu/berlin-2026) của chúng tôi."
+  },
+  "aiDisclosure": {
+    "title": "Công bố về AI",
+    "intro": "Trang này giải thích cách chúng tôi dùng AI khi tạo nội dung — và vì sao biên tập viên con người vẫn chịu trách nhiệm về những gì đăng tải.",
+    "howWeUseAi": "Chúng tôi dùng AI thế nào",
+    "howWeUseAiContent": "Chúng tôi dùng AI để soạn và chỉnh văn bản trang — ví dụ nội dung trang và tóm tắt chương trình chính thức của các đảng. AI hỗ trợ diễn đạt, cấu trúc và so sánh lập trường; AI không quyết định chúng tôi đăng gì hay bạn nên bỏ phiếu thế nào.",
+    "humanResponsibility": "Ý tưởng của con người và trách nhiệm biên tập",
+    "humanResponsibilityContent": "Mọi ý tưởng, mục tiêu và quyết định nội dung đều đến từ những người trong dự án Berlin 2026. Trước khi đăng, chúng tôi kiểm tra độ rõ ràng và phù hợp với mục đích thông tin. Trách nhiệm biên tập thuộc về dự án Berlin 2026.",
+    "reviewAndAccuracy": "Rà soát và độ chính xác",
+    "reviewAndAccuracyContent": "Bảng so sánh các đảng phần lớn được xây bằng AI từ chương trình chính thức. Hãy tự kiểm lại những điểm quan trọng với bạn. Bản dịch đầy đủ chương trình các đảng chính có trên BerlinVote.Help. Chúng tôi kiểm tra độ chính xác, nhưng vẫn có thể còn lỗi hoặc bỏ sót sắc thái. Nếu thấy sai, hãy báo cho chúng tôi.",
+    "contact": "Liên hệ",
+    "contactContent": "Có câu hỏi về cách chúng tôi dùng AI hoặc về nội dung trên trang? Viết tới {email}."
+  },
+  "privacy": {
+    "title": "Chính sách bảo vệ dữ liệu",
+    "intro": "Chính sách này giải thích cách chúng tôi thu thập, sử dụng và bảo vệ thông tin cá nhân khi bạn truy cập trang, theo Quy định Bảo vệ Dữ liệu Chung (GDPR) và luật bảo vệ dữ liệu Đức áp dụng (gồm TTDSG).",
+    "responsibleParty": "Bên chịu trách nhiệm (controller)",
+    "responsiblePartyContent": "Dự án Berlin 2026\nEmail: {email}",
+    "dataProcessed": "Dữ liệu được xử lý",
+    "dataProcessedContent": "Khi bạn truy cập trang, nhà cung cấp hosting có thể tự động xử lý dữ liệu kỹ thuật cần để phục vụ trang (ví dụ địa chỉ IP, thông tin trình duyệt/user-agent, và dấu thời gian yêu cầu trong nhật ký máy chủ). Chúng tôi không vận hành tài khoản người dùng và không yêu cầu đăng ký.\n\nNếu bạn dùng biểu mẫu phản hồi tùy chọn, chúng tôi xử lý tin nhắn, URL trang, ngôn ngữ giao diện, và — nếu bạn chọn cung cấp — địa chỉ email để trả lời.\n\nNếu bạn báo cáo câu chữ sai hoặc lỗi sự thật (gồm qua nút «Báo cáo đoạn này» sau khi chọn văn bản), chúng tôi xử lý đoạn văn sai được trích, bản sửa đề xuất của bạn, URL trang và ngôn ngữ giao diện.\n\nKhi gửi một trong hai biểu mẫu, chúng tôi cũng xử lý token bảo mật Cloudflare Turnstile và tín hiệu kỹ thuật liên quan để xác minh yêu cầu không phải spam tự động.",
+    "hosting": "Hosting",
+    "hostingContent": "Trang này được lưu trữ bởi Vercel Inc. Cơ sở hạ tầng máy chủ và phân phối nội dung có thể liên quan đến xử lý ngoài Khu vực Kinh tế Châu Âu với các biện pháp bảo vệ phù hợp (gồm Điều khoản Hợp đồng Tiêu chuẩn khi áp dụng). Xem [Chính sách bảo mật của Vercel](https://vercel.com/legal/privacy-policy).",
+    "processors": "Bên xử lý và kiểm tra bảo mật",
+    "processorsContent": "Chúng tôi dùng các nhà cung cấp sau làm bên xử lý (điều 28 GDPR) cho các mục đích mô tả dưới đây. Việc chuyển tới Hoa Kỳ có thể xảy ra; chúng tôi dựa vào các biện pháp bảo vệ phù hợp như Điều khoản Hợp đồng Tiêu chuẩn và điều khoản xử lý dữ liệu của nhà cung cấp.\n\n• Vercel Inc. — hosting và phân phối trang web.\n• Cloudflare, Inc. — bảo vệ bot/spam Cloudflare Turnstile khi mở hoặc gửi biểu mẫu phản hồi hoặc báo cáo văn bản. Turnstile có thể xử lý địa chỉ IP và đặc điểm trình duyệt/thiết bị để cấp token xác minh. Chi tiết: [Chính sách bảo mật Cloudflare](https://www.cloudflare.com/privacypolicy/) và tài liệu Turnstile.\n• Resend, Inc. — gửi email giao dịch về phản hồi và báo cáo văn bản tới chúng tôi. Chi tiết: [Chính sách bảo mật Resend](https://resend.com/legal/privacy-policy).\n\nCơ sở pháp lý cho Turnstile và biện pháp bảo mật liên quan: điều 6(1)(f) GDPR (lợi ích hợp pháp trong việc bảo vệ biểu mẫu khỏi lạm dụng và spam). Khi người dùng yêu cầu dịch vụ biểu mẫu, việc lưu hoặc truy cập thông tin trên thiết bị đầu cuối cần thiết nghiêm ngặt cho dịch vụ đó cũng có thể được điều 25(2) TTDSG bao phủ.",
+    "purposeOfProcessing": "Mục đích và cơ sở pháp lý",
+    "purposeOfProcessingContent": "Chúng tôi xử lý dữ liệu để:\n\n• Cung cấp, bảo vệ và duy trì trang web này (điều 6(1)(f) GDPR)\n• Nhận và xử lý phản hồi tùy chọn cũng như báo cáo lỗi văn bản/sự thật (điều 6(1)(f) GDPR)\n• Trả lời khi bạn tự nguyện cung cấp địa chỉ email (điều 6(1)(a) GDPR và/hoặc điều 6(1)(b) GDPR, tùy yêu cầu)\n• Ngăn spam và lạm dụng tự động biểu mẫu qua Turnstile (điều 6(1)(f) GDPR)",
+    "retention": "Thời gian lưu trữ",
+    "retentionContent": "Nhật ký máy chủ được nhà cung cấp hosting giữ chỉ trong thời gian cần cho bảo mật và vận hành, rồi xóa hoặc ẩn danh theo thực hành của nhà cung cấp.\n\nTin phản hồi và báo cáo văn bản (gồm mọi email bạn cung cấp) được giữ chỉ trong thời gian cần để xem xét và xử lý, và thêm một khoảng ngắn nếu cần theo dõi hoặc lưu hồ sơ, rồi xóa.\n\nToken xác minh Turnstile dùng cho kiểm tra bảo mật và không được chúng tôi lưu thành hồ sơ dài hạn.",
+    "cookies": "Cookie và công nghệ tương tự",
+    "cookiesContent": "Trang này không dùng cookie phân tích hay quảng cáo.\n\nTùy chọn ngôn ngữ có thể được lưu trong cookie nhỏ hoặc local storage để hiện ngôn ngữ bạn chọn khi quay lại.\n\nCloudflare Turnstile có thể đặt hoặc đọc cookie kỹ thuật hoặc lưu trữ tương tự chỉ khi bạn mở hoặc dùng biểu mẫu phản hồi/báo cáo, để chống bot. Chúng tôi không dùng Turnstile cho quảng cáo hay theo dõi liên trang.\n\nBạn có thể xóa cookie và dữ liệu trang bất cứ lúc nào trong cài đặt trình duyệt.",
+    "yourRights": "Quyền của bạn theo GDPR",
+    "yourRightsIntro": "Theo GDPR, bạn có các quyền sau đối với dữ liệu cá nhân:",
+    "yourRightsList": "• Quyền truy cập (điều 15 GDPR)\n• Quyền chỉnh sửa (điều 16 GDPR)\n• Quyền xóa (điều 17 GDPR)\n• Quyền hạn chế xử lý (điều 18 GDPR)\n• Quyền chuyển dữ liệu (điều 20 GDPR)\n• Quyền phản đối xử lý dựa trên lợi ích hợp pháp (điều 21 GDPR)\n• Quyền rút đồng ý khi xử lý dựa trên đồng ý (điều 7(3) GDPR)\n• Quyền khiếu nại với cơ quan giám sát (điều 77 GDPR)",
+    "supervisoryAuthority": "Cơ quan giám sát",
+    "supervisoryAuthorityContent": "Bạn có thể khiếu nại với cơ quan giám sát bảo vệ dữ liệu. Đối với Berlin, thường là:\n\nBerliner Beauftragte für Datenschutz und Informationsfreiheit\nAlt-Moabit 59–61, 10555 Berlin, Germany\n[https://www.datenschutz-berlin.de](https://www.datenschutz-berlin.de)",
+    "contactInfo": "Để thực hiện quyền hoặc hỏi về dữ liệu của bạn, liên hệ {email}."
+  },
+  "comparison": {
+    "title": "Chương trình các đảng cho bầu cử bang Berlin 2026",
+    "subtitle": "Lập trường của 10 đảng lớn nhất về giao thông, nhà ở, khí hậu, an ninh, giáo dục, y tế, di cư và các vấn đề khác — từ chương trình chính thức.",
+    "topicColumn": "Chủ đề",
+    "scrollHint": "Đang hiện các đảng đã chọn — thêm bằng nhãn phía trên.",
+    "programLink": "Chương trình",
+    "emptyCell": "—",
+    "partiesLabel": "Đảng để so sánh",
+    "showAll": "Tất cả",
+    "showFactions": "Phe hiện tại",
+    "selectedCount": "Đã chọn {count}",
+    "expandTopic": "Hiện lập trường",
+    "collapseTopic": "Ẩn",
+    "openProgram": "Chương trình đảng",
+    "sourceQuote": "Trích dẫn gốc",
+    "sourceQuoteLink": "Mở nguồn trong chương trình",
+    "sourceNote": "Không tìm thấy trong chương trình",
+    "expandGroup": "Mở nhóm",
+    "collapseGroup": "Thu nhóm",
+    "searchPlaceholder": "Tìm chủ đề…",
+    "searchClear": "Xóa tìm kiếm",
+    "searchNoResults": "Không có chủ đề khớp tìm kiếm.",
+    "searchResultsCount": "{count} chủ đề",
+    "groups": {
+      "transport": "Giao thông",
+      "waste": "Vệ sinh & rác thải",
+      "climate_energy": "Khí hậu & năng lượng",
+      "animals": "Động vật",
+      "housing": "Nhà ở",
+      "security": "An ninh",
+      "education": "Giáo dục",
+      "health": "Y tế",
+      "migration": "Di cư",
+      "economy": "Kinh tế",
+      "society": "Xã hội & văn hóa",
+      "democracy": "Dân chủ",
+      "other": "Khác"
+    }
+  }
+}

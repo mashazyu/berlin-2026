@@ -58,10 +58,16 @@
     "backgroundIntro": "Tło i kontekst:",
     "backgroundBody": "- [Wikipedia: wybory landowe w Berlinie 2026](https://en.wikipedia.org/wiki/2026_Berlin_state_election)\n- [RBB: FAQ wyborów w Berlinie 2026 (po angielsku)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: wybory w łatwym języku (Leichte Sprache)](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Berlińskie Centrum Edukacji Politycznej: broszura Wybory 2026 (PDF)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
   },
-  "press": {
-    "title": "W mediach"
+  "mentions": {
+    "title": "Wzmianki",
+    "kindLabels": {
+      "telegram": "Telegram",
+      "newsletter": "Newsletter",
+      "substack": "Substack",
+      "article": "Artykuł"
+    }
   },
-  "pressMentionSummaries": [
+  "mentionSummaries": [
     {
       "id": "bundeskanzler",
       "source": "Bundeskanzler",
@@ -114,7 +120,7 @@
     "title": "O projekcie",
     "body": "Berlin 2026 to niezależny projekt porównujący programy partii w różnych obszarach polityki przed wyborami landowymi w Berlinie 2026. Oficjalne programy ukazują się tylko po niemiecku — tłumaczymy je na języki używane w Berlinie.\n\nNina porównuje programy i rozwija projekt; Masha odpowiada za stronę techniczną. Równolegle pracujemy nad [Water for All / Wasser für alle](https://www.water4all.com.de) — otwartym atlasem darmowej wody pitnej w Berlinie. Projekt uwidacznia dostęp do wody i pomaga mieszkańcom zabiegać o nowe pitniki.",
     "contributeTitle": "Jak możesz pomóc",
-    "contributeBody": "Jeśli chcesz wesprzeć projekt, najlepiej przekazać go dalej: podziel się nim z osobami, którym może się przydać.\n\nMożesz też wydrukować naszą ulotkę (po niemiecku, angielsku, turecku, kurdyjsku, polsku, rosyjsku, ukraińsku, arabsku i hiszpańsku) i powiesić ją tam, gdzie zobaczą ją ludzie w Berlinie — w kawiarniach, na tablicach ogłoszeń, w miejscach społecznościowych. [Pobierz PDF](/flyers/berlin-2026-flyer.pdf).\n\nA jeśli zauważysz na stronie błąd — niedokładne sformułowanie lub błąd merytoryczny — daj nam znać, żebyśmy mogli to poprawić. Zaznacz fragment na stronie, by otworzyć zgłoszenie, albo napisz przez Kontakt.\n\nMożesz też samodzielnie poprawić tłumaczenia — otwórz pull request ze zmianami albo dodaj lub edytuj pliki lokalizacji bezpośrednio w naszym [repozytorium na GitHubie](https://github.com/mashazyu/berlin-2026)."
+    "contributeBody": "Jeśli chcesz wesprzeć projekt, najlepiej przekazać go dalej: podziel się nim z osobami, którym może się przydać.\n\nMożesz też wydrukować naszą ulotkę (po niemiecku, angielsku, turecku, kurdyjsku, polsku, rosyjsku, ukraińsku, arabsku, hiszpańsku, wietnamsku i włosku) i powiesić ją tam, gdzie zobaczą ją ludzie w Berlinie — w kawiarniach, na tablicach ogłoszeń, w miejscach społecznościowych. [Pobierz PDF](/flyers/berlin-2026-flyer.pdf).\n\nA jeśli zauważysz na stronie błąd — niedokładne sformułowanie lub błąd merytoryczny — daj nam znać, żebyśmy mogli to poprawić. Zaznacz fragment na stronie, by otworzyć zgłoszenie, albo napisz przez Kontakt.\n\nMożesz też samodzielnie poprawić tłumaczenia — otwórz pull request ze zmianami albo dodaj lub edytuj pliki lokalizacji bezpośrednio w naszym [repozytorium na GitHubie](https://github.com/mashazyu/berlin-2026)."
   },
   "aiDisclosure": {
     "title": "Informacja o AI",

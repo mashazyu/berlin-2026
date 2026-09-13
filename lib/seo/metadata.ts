@@ -13,7 +13,7 @@ import {
 import { PAGES, type PageKey } from "@/lib/seo/pages"
 
 /** Bump when OG image layout/copy changes so share caches refresh. */
-const OG_IMAGE_VERSION = 12
+const OG_IMAGE_VERSION = 15
 
 function buildLanguageAlternates(path: string): Record<string, string> {
   const np = normalizePath(path)
