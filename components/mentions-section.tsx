@@ -2,6 +2,7 @@
 
 import { ExternalLink } from "lucide-react"
 import { useLanguage } from "@/components/language-provider"
+import { buttonVariants } from "@/components/ui/button"
 import { getMentions, type Mention } from "@/lib/mentions"
 
 function formatMentionDate(dateString: string) {
@@ -16,23 +17,13 @@ function formatMentionDate(dateString: string) {
 
 function MentionItem({
   mention,
-  linkLabel,
+  openPostLabel,
 }: {
   mention: Mention
-  linkLabel: string
+  openPostLabel: string
 }) {
   return (
-    <li className="flex gap-3">
-      {mention.logo ? (
-        // eslint-disable-next-line @next/next/no-img-element -- small external/local mention logos
-        <img
-          src={mention.logo}
-          alt=""
-          width={28}
-          height={28}
-          className="mt-0.5 size-7 shrink-0 rounded-sm object-cover"
-        />
-      ) : null}
+    <li className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between sm:gap-4">
       <div className="min-w-0 flex-1">
         <div className="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-0.5">
           <p className="text-sm text-muted-foreground">
@@ -40,24 +31,37 @@ function MentionItem({
           </p>
           <time
             dateTime={mention.date}
-            className="text-sm tabular-nums text-muted-foreground"
+            className="text-sm tabular-nums text-muted-foreground sm:hidden"
           >
             {formatMentionDate(mention.date)}
           </time>
         </div>
+        <ul className="mt-2 flex flex-wrap gap-1.5">
+          {mention.topics.map((topic) => (
+            <li
+              key={topic}
+              className="rounded-md border border-border/80 bg-muted/50 px-2 py-0.5 text-[12px] leading-snug text-foreground/80"
+            >
+              {topic}
+            </li>
+          ))}
+        </ul>
+      </div>
+      <div className="flex shrink-0 items-center gap-3">
+        <time
+          dateTime={mention.date}
+          className="hidden text-sm tabular-nums text-muted-foreground sm:inline"
+        >
+          {formatMentionDate(mention.date)}
+        </time>
         <a
           href={mention.postUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-1 block rounded-sm text-foreground/80 transition-colors hover:text-primary"
-          title={linkLabel}
+          className={buttonVariants({ variant: "outline", size: "sm" })}
         >
-          <span className="text-[15px] leading-snug">„{mention.headline}“</span>
-          <ExternalLink
-            className="ms-1 inline h-3.5 w-3.5 shrink-0 align-text-bottom opacity-60"
-            aria-hidden
-          />
-          <span className="sr-only">{linkLabel}</span>
+          {openPostLabel}
+          <ExternalLink className="size-3.5 opacity-70" aria-hidden />
         </a>
       </div>
     </li>
@@ -75,12 +79,12 @@ export function MentionsSection() {
   return (
     <section id="mentions" className="mt-12 scroll-mt-24">
       <h2 className="font-display text-xl font-semibold">{t.mentions.title}</h2>
-      <ul className="mt-4 space-y-4">
+      <ul className="mt-4 space-y-5">
         {mentions.map((mention) => (
           <MentionItem
             key={mention.id}
             mention={mention}
-            linkLabel={t.comparison.sourceQuoteLink}
+            openPostLabel={t.mentions.openPost}
           />
         ))}
       </ul>

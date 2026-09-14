@@ -65,33 +65,49 @@
       "newsletter": "Newsletter",
       "substack": "Substack",
       "article": "Artykuł"
-    }
+    },
+    "openPost": "Otwórz"
   },
   "mentionSummaries": [
     {
       "id": "berlinwelle",
       "source": "Volna / Berlin",
-      "headline": "Telegram post about the September election: the creators of Water for All launched berlin-2026.de — a side-by-side comparison of ten parties from official programs, in several languages including English and Russian."
+      "topics": [
+        "City news",
+        "Berlin life"
+      ]
     },
     {
       "id": "bundeskanzler",
       "source": "Bundeskanzler",
-      "headline": "Telegram coverage of Berlin election polls notes that local party programs can be compared in Russian on berlin-2026.de."
+      "topics": [
+        "Politics",
+        "Germany news"
+      ]
     },
     {
       "id": "berlinevents",
       "source": "Berlin Events Weekly",
-      "headline": "Events guide for 15–21 September — get-together at Impact Hub, Kartoffelfest, Feminist Imaginaries Festival, and more. In the partners spotlight: a site to compare 10 parties across 65 topics in several languages (submitted by Nina Harz)."
+      "topics": [
+        "Events",
+        "Weekly guide"
+      ]
     },
     {
       "id": "theberlinlife",
       "source": "The Berlin Life",
-      "headline": "Newsletter on who can vote in Berlin’s 20 September election — and who can’t. In Germany life hacks: dig into party positions via Berlin 2026 (10 programmes, 65 topics, seven languages, links to originals)."
+      "topics": [
+        "Internationals",
+        "Life in Berlin"
+      ]
     },
     {
       "id": "handpicked",
       "source": "Handpicked Berlin",
-      "headline": "Issue #211 — “who you gon’ call (vote for)?”: Berlin polls, StimmlosTrend on internationals without a vote, and election week notes. Also points to a 2026 party-program comparison by Nina and Masha."
+      "topics": [
+        "Tech & business",
+        "Berlin briefing"
+      ]
     }
   ],
   "footer": {
