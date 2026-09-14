@@ -1,5 +1,6 @@
 "use client"
 
+import { ExternalLink } from "lucide-react"
 import { useLanguage } from "@/components/language-provider"
 import { getMentions, type Mention } from "@/lib/mentions"
 
@@ -13,7 +14,13 @@ function formatMentionDate(dateString: string) {
   return dateString
 }
 
-function MentionItem({ mention }: { mention: Mention }) {
+function MentionItem({
+  mention,
+  linkLabel,
+}: {
+  mention: Mention
+  linkLabel: string
+}) {
   return (
     <li className="flex gap-3">
       {mention.logo ? (
@@ -42,9 +49,15 @@ function MentionItem({ mention }: { mention: Mention }) {
           href={mention.postUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-0.5 inline-block text-foreground underline underline-offset-2 transition-colors hover:text-primary"
+          className="mt-1 block rounded-sm text-foreground/80 transition-colors hover:text-primary"
+          title={linkLabel}
         >
-          {mention.headline}
+          <span className="text-[15px] leading-snug">„{mention.headline}“</span>
+          <ExternalLink
+            className="ms-1 inline h-3.5 w-3.5 shrink-0 align-text-bottom opacity-60"
+            aria-hidden
+          />
+          <span className="sr-only">{linkLabel}</span>
         </a>
       </div>
     </li>
@@ -64,7 +77,11 @@ export function MentionsSection() {
       <h2 className="font-display text-xl font-semibold">{t.mentions.title}</h2>
       <ul className="mt-4 space-y-4">
         {mentions.map((mention) => (
-          <MentionItem key={mention.id} mention={mention} />
+          <MentionItem
+            key={mention.id}
+            mention={mention}
+            linkLabel={t.comparison.sourceQuoteLink}
+          />
         ))}
       </ul>
     </section>
