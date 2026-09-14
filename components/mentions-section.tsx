@@ -15,16 +15,38 @@ function formatMentionDate(dateString: string) {
 
 function MentionItem({ mention }: { mention: Mention }) {
   return (
-    <li className="text-muted-foreground leading-relaxed">
-      <p>{mention.headline}</p>
-      <a
-        href={mention.postUrl}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="mt-1 inline-block text-foreground underline underline-offset-2 transition-colors hover:text-primary"
-      >
-        {mention.kindLabel} · {mention.source} ({formatMentionDate(mention.date)})
-      </a>
+    <li className="flex gap-3">
+      {mention.logo ? (
+        // eslint-disable-next-line @next/next/no-img-element -- small external/local mention logos
+        <img
+          src={mention.logo}
+          alt=""
+          width={28}
+          height={28}
+          className="mt-0.5 size-7 shrink-0 rounded-sm object-cover"
+        />
+      ) : null}
+      <div className="min-w-0 flex-1">
+        <div className="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-0.5">
+          <p className="text-sm text-muted-foreground">
+            {mention.kindLabel} · {mention.source}
+          </p>
+          <time
+            dateTime={mention.date}
+            className="text-sm tabular-nums text-muted-foreground"
+          >
+            {formatMentionDate(mention.date)}
+          </time>
+        </div>
+        <a
+          href={mention.postUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-0.5 inline-block text-foreground underline underline-offset-2 transition-colors hover:text-primary"
+        >
+          {mention.headline}
+        </a>
+      </div>
     </li>
   )
 }
@@ -40,7 +62,7 @@ export function MentionsSection() {
   return (
     <section id="mentions" className="mt-12 scroll-mt-24">
       <h2 className="font-display text-xl font-semibold">{t.mentions.title}</h2>
-      <ul className="mt-3 space-y-3">
+      <ul className="mt-4 space-y-4">
         {mentions.map((mention) => (
           <MentionItem key={mention.id} mention={mention} />
         ))}

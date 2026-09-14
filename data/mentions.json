@@ -13,6 +13,27 @@
       "postUrl": "https://t.me/bundeskanzlerRU/2386",
       "kind": "telegram",
       "languages": ["ru"]
+    },
+    {
+      "id": "berlinevents",
+      "date": "2026-09-14",
+      "postUrl": "https://open.substack.com/pub/berlinevents/p/berlin-events-guide-sep-1521-get",
+      "kind": "substack",
+      "languages": ["ru"]
+    },
+    {
+      "id": "theberlinlife",
+      "date": "2026-09-14",
+      "postUrl": "https://theberlinlife.substack.com/p/berlin-election-2026-who-can-vote",
+      "kind": "substack",
+      "languages": ["ru"]
+    },
+    {
+      "id": "handpicked",
+      "date": "2026-09-14",
+      "postUrl": "https://newsletter.handpickedberlin.com/p/211-who-you-gon-call-vote-for",
+      "kind": "newsletter",
+      "languages": ["ru"]
     }
   ]
 }

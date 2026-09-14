@@ -14,6 +14,8 @@ export type MentionFact = {
   date: string
   postUrl: string
   kind: MentionKind
+  /** Optional logo under /public (e.g. /mentions/handpicked.png) */
+  logo?: string
   /** Locales where this mention should appear on the about page */
   languages: Language[]
 }

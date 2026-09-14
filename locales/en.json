@@ -59,7 +59,7 @@
     "backgroundBody": "- [Wikipedia: 2026 Berlin state election](https://en.wikipedia.org/wiki/2026_Berlin_state_election)\n- [RBB: Berlin Elections 2026 FAQ (English)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: Elections in easy language (Leichte Sprache)](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Berlin State Centre for Political Education: Elections 2026 brochure (PDF)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
   },
   "mentions": {
-    "title": "Mentions",
+    "title": "Project was mentioned by",
     "kindLabels": {
       "telegram": "Telegram",
       "newsletter": "Newsletter",
@@ -69,14 +69,29 @@
   },
   "mentionSummaries": [
     {
-      "id": "bundeskanzler",
-      "source": "Bundeskanzler",
-      "headline": "Coverage of the upcoming Berlin election notes that local party programs can be compared in Russian on berlin-2026.de."
-    },
-    {
       "id": "berlinwelle",
       "source": "Volna / Berlin",
-      "headline": "The creators of Water for All launched berlin-2026.de for the September election: a side-by-side comparison of ten parties’ positions from official programs — available in several languages, including English and Russian."
+      "headline": "Telegram post about the September election: the creators of Water for All launched berlin-2026.de — a side-by-side comparison of ten parties from official programs, in several languages including English and Russian."
+    },
+    {
+      "id": "bundeskanzler",
+      "source": "Bundeskanzler",
+      "headline": "Telegram coverage of Berlin election polls notes that local party programs can be compared in Russian on berlin-2026.de."
+    },
+    {
+      "id": "berlinevents",
+      "source": "Berlin Events Weekly",
+      "headline": "Events guide for 15–21 September — get-together at Impact Hub, Kartoffelfest, Feminist Imaginaries Festival, and more. In the partners spotlight: a site to compare 10 parties across 65 topics in several languages (submitted by Nina Harz)."
+    },
+    {
+      "id": "theberlinlife",
+      "source": "The Berlin Life",
+      "headline": "Newsletter on who can vote in Berlin’s 20 September election — and who can’t. In Germany life hacks: dig into party positions via Berlin 2026 (10 programmes, 65 topics, seven languages, links to originals)."
+    },
+    {
+      "id": "handpicked",
+      "source": "Handpicked Berlin",
+      "headline": "Issue #211 — “who you gon’ call (vote for)?”: Berlin polls, StimmlosTrend on internationals without a vote, and election week notes. Also points to a 2026 party-program comparison by Nina and Masha."
     }
   ],
   "footer": {
