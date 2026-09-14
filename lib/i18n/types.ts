@@ -73,6 +73,7 @@ export type Translations = {
   }
   mentions: {
     title: string
+    openPost: string
     kindLabels: {
       telegram: string
       newsletter: string
@@ -83,7 +84,7 @@ export type Translations = {
   mentionSummaries: Array<{
     id: string
     source: string
-    headline: string
+    topics: string[]
   }>
   comparison: {
     title: string

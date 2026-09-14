@@ -1,6 +1,6 @@
 /**
  * Project mentions (Telegram, newsletters, Substack, articles).
- * Source names and headlines live in locales/*.json under mentionSummaries.
+ * Source names and topics live in locales/*.json under mentionSummaries.
  */
 
 import mentionsData from "@/data/mentions.json"
@@ -14,13 +14,15 @@ export type MentionFact = {
   date: string
   postUrl: string
   kind: MentionKind
+  /** Optional logo under /public (e.g. /mentions/handpicked.png) */
+  logo?: string
   /** Locales where this mention should appear on the about page */
   languages: Language[]
 }
 
 export type Mention = MentionFact & {
   source: string
-  headline: string
+  topics: string[]
   kindLabel: string
 }
 
@@ -39,7 +41,7 @@ export function getMentions(language: Language): Mention[] {
       return {
         ...mention,
         source: localized?.source ?? mention.id,
-        headline: localized?.headline ?? "",
+        topics: localized?.topics ?? [],
         kindLabel: t.mentions.kindLabels[mention.kind],
       }
     })

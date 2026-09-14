@@ -59,24 +59,55 @@
     "backgroundBody": "- [Wikipedia: hilbijartina herêmî ya Berlînê 2026](https://en.wikipedia.org/wiki/2026_Berlin_state_election)\n- [RBB: FAQ hilbijartinên Berlînê 2026 (Îngilîzî)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: hilbijartin bi zimanê hêsan (Leichte Sprache)](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Navenda perwerdeya siyasî ya Berlînê: broşûra Hilbijartin 2026 (PDF)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
   },
   "mentions": {
-    "title": "Behskirin",
+    "title": "Proje hat behskirin ji aliyê",
     "kindLabels": {
       "telegram": "Telegram",
       "newsletter": "Newsletter",
       "substack": "Substack",
       "article": "Gotar"
-    }
+    },
+    "openPost": "Veke"
   },
   "mentionSummaries": [
     {
-      "id": "bundeskanzler",
-      "source": "Bundeskanzler",
-      "headline": "Raporek li ser hilbijartinên Berlînê yên nêzîk dibêje ku bernameyên partiyên herêmî dikarin bi Rûsî li berlin-2026.de bên berawirdkirin."
-    },
-    {
       "id": "berlinwelle",
       "source": "Volna / Berlin",
-      "headline": "Afirînerên Water for All ji bo hilbijartina Îlonê berlin-2026.de vekirin: berawirdkirina helwestên deh partiyan ji bernameyên fermî — bi çend zimanan, di nav de Îngilîzî û Rûsî."
+      "topics": [
+        "City news",
+        "Berlin life"
+      ]
+    },
+    {
+      "id": "bundeskanzler",
+      "source": "Bundeskanzler",
+      "topics": [
+        "Politics",
+        "Germany news"
+      ]
+    },
+    {
+      "id": "berlinevents",
+      "source": "Berlin Events Weekly",
+      "topics": [
+        "Events",
+        "Weekly guide"
+      ]
+    },
+    {
+      "id": "theberlinlife",
+      "source": "The Berlin Life",
+      "topics": [
+        "Internationals",
+        "Life in Berlin"
+      ]
+    },
+    {
+      "id": "handpicked",
+      "source": "Handpicked Berlin",
+      "topics": [
+        "Tech & business",
+        "Berlin briefing"
+      ]
     }
   ],
   "footer": {

@@ -58,24 +58,55 @@
     "backgroundBody": "- [Wikipedia: Wahl zum Abgeordnetenhaus von Berlin 2026](https://de.wikipedia.org/wiki/Wahl_zum_Abgeordnetenhaus_von_Berlin_2026)\n- [RBB: FAQ zu den Berlin-Wahlen 2026 (Englisch)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: Wahlen in Leichter Sprache](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Berliner Landeszentrale für politische Bildung: Broschüre Wahlen 2026 (PDF, EN)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
   },
   "mentions": {
-    "title": "Erwähnungen",
+    "title": "Das Projekt wurde erwähnt von",
     "kindLabels": {
       "telegram": "Telegram",
       "newsletter": "Newsletter",
       "substack": "Substack",
       "article": "Artikel"
-    }
+    },
+    "openPost": "Öffnen"
   },
   "mentionSummaries": [
     {
-      "id": "bundeskanzler",
-      "source": "Bundeskanzler",
-      "headline": "Im Bericht zu den bevorstehenden Berlin-Wahlen heißt es, lokale Parteiprogramme lassen sich auf Russisch auf berlin-2026.de vergleichen."
-    },
-    {
       "id": "berlinwelle",
       "source": "Volna / Berlin",
-      "headline": "Die Macherinnen von Water for All haben zur Septemberwahl berlin-2026.de gestartet: ein Vergleich der Positionen von zehn Parteien aus den offiziellen Programmen — in mehreren Sprachen, darunter Englisch und Russisch."
+      "topics": [
+        "City news",
+        "Berlin life"
+      ]
+    },
+    {
+      "id": "bundeskanzler",
+      "source": "Bundeskanzler",
+      "topics": [
+        "Politics",
+        "Germany news"
+      ]
+    },
+    {
+      "id": "berlinevents",
+      "source": "Berlin Events Weekly",
+      "topics": [
+        "Events",
+        "Weekly guide"
+      ]
+    },
+    {
+      "id": "theberlinlife",
+      "source": "The Berlin Life",
+      "topics": [
+        "Internationals",
+        "Life in Berlin"
+      ]
+    },
+    {
+      "id": "handpicked",
+      "source": "Handpicked Berlin",
+      "topics": [
+        "Tech & business",
+        "Berlin briefing"
+      ]
     }
   ],
   "footer": {

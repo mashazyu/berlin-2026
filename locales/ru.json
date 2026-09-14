@@ -58,24 +58,55 @@
     "backgroundBody": "- [Википедия: земельные выборы в Берлине 2026](https://en.wikipedia.org/wiki/2026_Berlin_state_election)\n- [RBB: FAQ о выборах в Берлине 2026 (на английском)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: выборы на простом языке (Leichte Sprache)](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Брошюра о выборах 2026 земельного центра политического образования Берлина (PDF, EN)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
   },
   "mentions": {
-    "title": "Упоминания",
+    "title": "Проект упоминали",
     "kindLabels": {
       "telegram": "Telegram",
       "newsletter": "Рассылка",
       "substack": "Substack",
       "article": "Статья"
-    }
+    },
+    "openPost": "Открыть"
   },
   "mentionSummaries": [
     {
-      "id": "bundeskanzler",
-      "source": "Бундесканцлер",
-      "headline": "В материале о предвыборных опросах в Берлине отмечают: местные программы партий можно сравнить на русском на berlin-2026.de."
-    },
-    {
       "id": "berlinwelle",
       "source": "Волна / Берлин",
-      "headline": "Создательницы проекта Water for All запустили к сентябрьским выборам сайт berlin-2026.de — сравнение позиций десяти партий по транспорту, жилью, климату и другим темам из официальных программ, на нескольких языках, включая русский."
+      "topics": [
+        "Городские новости",
+        "Жизнь в Берлине"
+      ]
+    },
+    {
+      "id": "bundeskanzler",
+      "source": "Бундесканцлер",
+      "topics": [
+        "Политика",
+        "Новости Германии"
+      ]
+    },
+    {
+      "id": "berlinevents",
+      "source": "Berlin Events Weekly",
+      "topics": [
+        "События",
+        "Еженедельный гид"
+      ]
+    },
+    {
+      "id": "theberlinlife",
+      "source": "The Berlin Life",
+      "topics": [
+        "Internationals",
+        "Жизнь в Берлине"
+      ]
+    },
+    {
+      "id": "handpicked",
+      "source": "Handpicked Berlin",
+      "topics": [
+        "Технологии и бизнес",
+        "Берлинский дайджест"
+      ]
     }
   ],
   "footer": {
