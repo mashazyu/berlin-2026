@@ -22,7 +22,9 @@
       "education",
       "health",
       "migration"
-    ]
+    ],
+    "impressumTitle": "Impressum — Berlin 2026",
+    "impressumDescription": "Legal notice (Impressum) for the Berlin 2026 project: responsible party, contact, and liability."
   },
   "brand": {
     "name": "Berlin 2026",
@@ -117,7 +119,8 @@
     "contact": "Contact",
     "about": "About",
     "privacy": "Privacy",
-    "contribute": "Contribute"
+    "contribute": "Contribute",
+    "impressum": "Legal notice"
   },
   "feedback": {
     "fabLabel": "Send feedback",
@@ -171,17 +174,17 @@
     "responsibleParty": "Responsible party (controller)",
     "responsiblePartyContent": "Berlin 2026 project\nEmail: {email}",
     "dataProcessed": "Data processed",
-    "dataProcessedContent": "When you visit our website, our hosting provider may automatically process technical data required to deliver the site (for example IP address, browser/user-agent information, and request timestamps in server logs). We do not operate user accounts or require registration.\n\nIf you use the optional feedback form, we process your message, the page URL, the interface language, and — if you choose to provide it — your email address so we can reply.\n\nIf you report incorrect wording or a factual mistake (including via the “Report this text” control after selecting text), we process the quoted incorrect text, your suggested correction, the page URL, and the interface language.\n\nWhen you submit either form, we also process a Cloudflare Turnstile security token and related technical signals needed to verify that the request is not automated spam.",
+    "dataProcessedContent": "When you visit our website, our hosting provider may automatically process technical data required to deliver the site (for example IP address, browser/user-agent information, and request timestamps in server logs). We do not operate user accounts or require registration.\n\nWe use Vercel Web Analytics for aggregated pageview statistics and PostHog for product analytics (for example page path, interface language, and interactions such as selecting parties, opening topics, or following program links), together with related technical metadata. PostHog does not create lasting user profiles for this site.\n\nIf you use the optional feedback form, we process your message, the page URL, the interface language, and — if you choose to provide it — your email address so we can reply.\n\nIf you report incorrect wording or a factual mistake (including via the “Report this text” control after selecting text), we process the quoted incorrect text, your suggested correction, the page URL, and the interface language.\n\nWhen you submit either form, we also process a Cloudflare Turnstile security token and related technical signals needed to verify that the request is not automated spam.",
     "hosting": "Hosting",
     "hostingContent": "This website is hosted by Vercel Inc. Server infrastructure and content delivery may involve processing outside the European Economic Area under appropriate safeguards (including Standard Contractual Clauses where applicable). See [Vercel’s Privacy Policy](https://vercel.com/legal/privacy-policy).",
     "processors": "Processors and security checks",
-    "processorsContent": "We use the following service providers as processors (Art. 28 GDPR) for the purposes described below. Transfers to the United States may occur; we rely on appropriate safeguards such as Standard Contractual Clauses and the providers’ data processing terms.\n\n• Vercel Inc. — hosting and delivery of the website.\n• Cloudflare, Inc. — Cloudflare Turnstile bot/spam protection when a feedback or text-report form is opened or submitted. Turnstile may process IP address and browser/device characteristics to issue a verification token. Details: [Cloudflare Privacy Policy](https://www.cloudflare.com/privacypolicy/) and Turnstile documentation.\n• Resend, Inc. — transactional email delivery of submitted feedback and text reports to us. Details: [Resend Privacy Policy](https://resend.com/legal/privacy-policy).\n\nLegal basis for Turnstile and related security measures: Art. 6(1)(f) GDPR (legitimate interest in protecting the forms against abuse and spam). Where the user requests the form service, storage of or access to information on the end device that is strictly necessary for that service may also be covered by § 25(2) TTDSG.",
+    "processorsContent": "We use the following service providers as processors (Art. 28 GDPR) for the purposes described below. Transfers to the United States may occur for some providers; we rely on appropriate safeguards such as Standard Contractual Clauses and the providers’ data processing terms.\n\n• Vercel Inc. — hosting, delivery of the website, and Vercel Web Analytics (aggregated pageviews).\n• PostHog Inc. — product analytics on PostHog Cloud EU (Frankfurt). Details: [PostHog Privacy Policy](https://posthog.com/privacy) and PostHog’s data processing agreement.\n• Cloudflare, Inc. — Cloudflare Turnstile bot/spam protection when a feedback or text-report form is opened or submitted. Turnstile may process IP address and browser/device characteristics to issue a verification token. Details: [Cloudflare Privacy Policy](https://www.cloudflare.com/privacypolicy/) and Turnstile documentation.\n• Resend, Inc. — transactional email delivery of submitted feedback and text reports to us. Details: [Resend Privacy Policy](https://resend.com/legal/privacy-policy).\n\nLegal basis for Turnstile and related security measures: Art. 6(1)(f) GDPR (legitimate interest in protecting the forms against abuse and spam). Where the user requests the form service, storage of or access to information on the end device that is strictly necessary for that service may also be covered by § 25(2) TTDSG.",
     "purposeOfProcessing": "Purpose and legal bases",
-    "purposeOfProcessingContent": "We process data to:\n\n• Provide, secure, and maintain this website (Art. 6(1)(f) GDPR)\n• Receive and handle optional feedback and text/factual-error reports (Art. 6(1)(f) GDPR)\n• Reply when you voluntarily provide an email address (Art. 6(1)(a) GDPR and/or Art. 6(1)(b) GDPR, depending on the request)\n• Prevent spam and automated abuse of the forms via Turnstile (Art. 6(1)(f) GDPR)",
+    "purposeOfProcessingContent": "We process data to:\n\n• Provide, secure, and maintain this website (Art. 6(1)(f) GDPR)\n• Measure aggregated traffic with Vercel Web Analytics (Art. 6(1)(f) GDPR)\n• Understand how the comparison tool is used and improve it with PostHog cookieless product analytics (Art. 6(1)(f) GDPR)\n• Receive and handle optional feedback and text/factual-error reports (Art. 6(1)(f) GDPR)\n• Reply when you voluntarily provide an email address (Art. 6(1)(a) GDPR and/or Art. 6(1)(b) GDPR, depending on the request)\n• Prevent spam and automated abuse of the forms via Turnstile (Art. 6(1)(f) GDPR)",
     "retention": "Retention",
-    "retentionContent": "Server logs are retained by the hosting provider only as long as needed for security and operations, then deleted or anonymised according to the provider’s practices.\n\nFeedback and text-report messages (including any email you provide) are kept only as long as necessary to review and handle your submission, and for a short period thereafter if needed for follow-up or documentation, then deleted.\n\nTurnstile verification tokens are used for the security check and are not stored by us as a long-term profile.",
+    "retentionContent": "Server logs are retained by the hosting provider only as long as needed for security and operations, then deleted or anonymised according to the provider’s practices.\n\nVercel Web Analytics pageview data is retained according to Vercel’s practices for that product.\n\nPostHog analytics events are retained according to our PostHog project settings (typically up to about one year on the free tier) and then deleted or anonymised.\n\nFeedback and text-report messages (including any email you provide) are kept only as long as necessary to review and handle your submission, and for a short period thereafter if needed for follow-up or documentation, then deleted.\n\nTurnstile verification tokens are used for the security check and are not stored by us as a long-term profile.",
     "cookies": "Cookies and similar technologies",
-    "cookiesContent": "This website does not use analytics or advertising cookies.\n\nA language preference may be stored in a small cookie or in local storage so we can show your chosen language on return visits.\n\nCloudflare Turnstile may set or read technical cookies or similar storage only when you open or use a feedback/report form, for bot protection. We do not use Turnstile for advertising or cross-site tracking.\n\nYou can delete cookies and site data in your browser settings at any time.",
+    "cookiesContent": "A language preference may be stored in a small cookie or in local storage so we can show your chosen language on return visits.\n\nVercel Web Analytics measures pageviews without advertising cookies.\n\nPostHog product analytics runs in cookieless mode: it does not set analytics cookies or similar persistent storage on your device. Limited anonymous usage events (for example page path and interactions with the comparison tool) may still be processed using a privacy-preserving hash.\n\nCloudflare Turnstile may set or read technical cookies or similar storage only when you open or use a feedback/report form, for bot protection. We do not use Turnstile for advertising or cross-site tracking.\n\nWe do not use advertising cookies. You can delete cookies and site data in your browser settings at any time.",
     "yourRights": "Your rights under the GDPR",
     "yourRightsIntro": "Under the GDPR, you have the following rights regarding your personal data:",
     "yourRightsList": "• Right of access (Art. 15 GDPR)\n• Right to rectification (Art. 16 GDPR)\n• Right to erasure (Art. 17 GDPR)\n• Right to restriction of processing (Art. 18 GDPR)\n• Right to data portability (Art. 20 GDPR)\n• Right to object to processing based on legitimate interests (Art. 21 GDPR)\n• Right to withdraw consent where processing is based on consent (Art. 7(3) GDPR)\n• Right to lodge a complaint with a supervisory authority (Art. 77 GDPR)",
@@ -227,5 +230,20 @@
       "democracy": "Democracy",
       "other": "Other"
     }
+  },
+  "impressum": {
+    "title": "Impressum",
+    "responsibleParty": "Responsible party (Controller)",
+    "responsiblePartyContent": "Berlin 2026 project\n\nBerlin, Germany",
+    "contact": "Contact",
+    "contactContent": "Email: {email}",
+    "editorial": "Responsible for editorial content",
+    "editorialContent": "Nina Harz, Maria Waldenberg\n\nBerlin, Germany",
+    "disclaimer": "Disclaimer",
+    "disclaimerContent": "This website provides information about Berlin state election party programs for informational purposes only. While we strive for accuracy, we do not guarantee that all information is complete, current, or error-free. You can report factual errors or corrections using the “Report this text” feature on the site.\n\nWe are not affiliated with any political party. This is not campaign material or voting advice.",
+    "liability": "Liability",
+    "liabilityContent": "We are not responsible for the content of external links. Content is provided as-is. We exclude liability for damages arising from website use to the extent permitted by law, except for intentional misconduct or gross negligence.",
+    "languageVersions": "Language versions",
+    "languageVersionsContent": "This Impressum is available in English. The German version (Impressum auf Deutsch) is authoritative for legal purposes in Germany."
   }
 }

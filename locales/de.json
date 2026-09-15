@@ -21,7 +21,9 @@
       "Bildung",
       "Gesundheit",
       "Migration"
-    ]
+    ],
+    "impressumTitle": "Impressum — Berlin 2026",
+    "impressumDescription": "Impressum des Projekts Berlin 2026: Anbieter, Kontakt und Haftung."
   },
   "brand": {
     "name": "Berlin 2026",
@@ -116,7 +118,8 @@
     "contact": "Kontakt",
     "about": "Über uns",
     "privacy": "Datenschutz",
-    "contribute": "Mitmachen"
+    "contribute": "Mitmachen",
+    "impressum": "Impressum"
   },
   "feedback": {
     "fabLabel": "Feedback senden",
@@ -170,17 +173,17 @@
     "responsibleParty": "Verantwortliche Stelle",
     "responsiblePartyContent": "Projekt Berlin 2026\nE-Mail: {email}",
     "dataProcessed": "Verarbeitete Daten",
-    "dataProcessedContent": "Beim Besuch unserer Website kann unser Hosting-Anbieter automatisch technische Daten verarbeiten, die für die Auslieferung der Seite nötig sind (zum Beispiel IP-Adresse, Browser-/User-Agent-Informationen und Zeitstempel in Server-Logs). Wir betreiben keine Nutzerkonten und keine Registrierung.\n\nWenn Sie das optionale Feedback-Formular nutzen, verarbeiten wir Ihre Nachricht, die Seiten-URL, die Sprache der Oberfläche und — falls Sie sie angeben — Ihre E-Mail-Adresse, damit wir antworten können.\n\nWenn Sie fehlerhafte Formulierungen oder Sachfehler melden (auch über den Button „Diesen Text melden“ nach einer Textauswahl), verarbeiten wir den zitierten fehlerhaften Text, Ihre Korrekturvorschläge, die Seiten-URL und die Sprache der Oberfläche.\n\nBeim Absenden eines der Formulare verarbeiten wir außerdem ein Cloudflare-Turnstile-Sicherheitstoken sowie damit verbundene technische Signale, die nötig sind, um automatisierten Spam zu erkennen.",
+    "dataProcessedContent": "Beim Besuch unserer Website kann unser Hosting-Anbieter automatisch technische Daten verarbeiten, die für die Auslieferung der Seite nötig sind (zum Beispiel IP-Adresse, Browser-/User-Agent-Informationen und Zeitstempel in Server-Logs). Wir betreiben keine Nutzerkonten und keine Registrierung.\n\nWir nutzen Vercel Web Analytics für aggregierte Seitenaufruf-Statistiken und PostHog für Produktanalytik (zum Beispiel Seitenpfad, Sprache der Oberfläche und Interaktionen wie die Auswahl von Parteien, das Öffnen von Themen oder das Folgen von Programmlinks) sowie zugehörige technische Metadaten. PostHog legt für diese Website keine dauerhaften Nutzerprofile an.\n\nWenn Sie das optionale Feedback-Formular nutzen, verarbeiten wir Ihre Nachricht, die Seiten-URL, die Sprache der Oberfläche und — falls Sie sie angeben — Ihre E-Mail-Adresse, damit wir antworten können.\n\nWenn Sie fehlerhafte Formulierungen oder Sachfehler melden (auch über den Button „Diesen Text melden“ nach einer Textauswahl), verarbeiten wir den zitierten fehlerhaften Text, Ihre Korrekturvorschläge, die Seiten-URL und die Sprache der Oberfläche.\n\nBeim Absenden eines der Formulare verarbeiten wir außerdem ein Cloudflare-Turnstile-Sicherheitstoken sowie damit verbundene technische Signale, die nötig sind, um automatisierten Spam zu erkennen.",
     "hosting": "Hosting",
     "hostingContent": "Diese Website wird von Vercel Inc. gehostet. Serverinfrastruktur und Content Delivery können eine Verarbeitung außerhalb des Europäischen Wirtschaftsraums unter geeigneten Garantien umfassen (einschließlich Standardvertragsklauseln, soweit anwendbar). Details: [Datenschutzerklärung von Vercel](https://vercel.com/legal/privacy-policy).",
     "processors": "Auftragsverarbeiter und Sicherheitsprüfungen",
-    "processorsContent": "Wir setzen folgende Dienstleister als Auftragsverarbeiter (Art. 28 DSGVO) für die unten genannten Zwecke ein. Eine Übermittlung in die USA kann erfolgen; wir stützen uns auf geeignete Garantien wie Standardvertragsklauseln und die Auftragsverarbeitungsbedingungen der Anbieter.\n\n• Vercel Inc. — Hosting und Auslieferung der Website.\n• Cloudflare, Inc. — Cloudflare Turnstile zum Schutz vor Bots/Spam, wenn ein Feedback- oder Textmeldeformular geöffnet oder abgesendet wird. Turnstile kann IP-Adresse und Browser-/Geräte-Eigenschaften verarbeiten, um ein Prüftoken auszustellen. Details: [Datenschutzhinweise von Cloudflare](https://www.cloudflare.com/privacypolicy/) und Turnstile-Dokumentation.\n• Resend, Inc. — Versand der eingereichten Feedback- und Textmeldungen per E-Mail an uns. Details: [Datenschutzerklärung von Resend](https://resend.com/legal/privacy-policy).\n\nRechtsgrundlage für Turnstile und zugehörige Sicherheitsmaßnahmen: Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der Abwehr von Missbrauch und Spam). Soweit Nutzer:innen den Formularservice anfordern, kann der für diesen Dienst unbedingt erforderliche Zugriff auf bzw. die Speicherung von Informationen auf dem Endgerät auch unter § 25 Abs. 2 TTDSG fallen.",
+    "processorsContent": "Wir setzen folgende Dienstleister als Auftragsverarbeiter (Art. 28 DSGVO) für die unten genannten Zwecke ein. Für einzelne Anbieter kann eine Übermittlung in die USA erfolgen; wir stützen uns auf geeignete Garantien wie Standardvertragsklauseln und die Auftragsverarbeitungsbedingungen der Anbieter.\n\n• Vercel Inc. — Hosting, Auslieferung der Website und Vercel Web Analytics (aggregierte Seitenaufrufe).\n• PostHog Inc. — Produktanalytik auf PostHog Cloud EU (Frankfurt). Details: [Datenschutzerklärung von PostHog](https://posthog.com/privacy) und die Auftragsverarbeitungsvereinbarung von PostHog.\n• Cloudflare, Inc. — Cloudflare Turnstile zum Schutz vor Bots/Spam, wenn ein Feedback- oder Textmeldeformular geöffnet oder abgesendet wird. Turnstile kann IP-Adresse und Browser-/Geräte-Eigenschaften verarbeiten, um ein Prüftoken auszustellen. Details: [Datenschutzhinweise von Cloudflare](https://www.cloudflare.com/privacypolicy/) und Turnstile-Dokumentation.\n• Resend, Inc. — Versand der eingereichten Feedback- und Textmeldungen per E-Mail an uns. Details: [Datenschutzerklärung von Resend](https://resend.com/legal/privacy-policy).\n\nRechtsgrundlage für Turnstile und zugehörige Sicherheitsmaßnahmen: Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der Abwehr von Missbrauch und Spam). Soweit Nutzer:innen den Formularservice anfordern, kann der für diesen Dienst unbedingt erforderliche Zugriff auf bzw. die Speicherung von Informationen auf dem Endgerät auch unter § 25 Abs. 2 TTDSG fallen.",
     "purposeOfProcessing": "Zweck und Rechtsgrundlagen",
-    "purposeOfProcessingContent": "Wir verarbeiten Daten, um:\n\n• diese Website bereitzustellen, zu sichern und zu betreiben (Art. 6 Abs. 1 lit. f DSGVO)\n• optionales Feedback sowie Meldungen zu Text- oder Sachfehlern entgegenzunehmen und zu bearbeiten (Art. 6 Abs. 1 lit. f DSGVO)\n• zu antworten, wenn Sie freiwillig eine E-Mail-Adresse angeben (Art. 6 Abs. 1 lit. a und/oder lit. b DSGVO, je nach Anliegen)\n• Spam und automatisierten Missbrauch der Formulare mittels Turnstile zu verhindern (Art. 6 Abs. 1 lit. f DSGVO)",
+    "purposeOfProcessingContent": "Wir verarbeiten Daten, um:\n\n• diese Website bereitzustellen, zu sichern und zu betreiben (Art. 6 Abs. 1 lit. f DSGVO)\n• aggregierten Traffic mit Vercel Web Analytics zu messen (Art. 6 Abs. 1 lit. f DSGVO)\n• mit cookieloser PostHog-Produktanalytik zu verstehen, wie der Programmvergleich genutzt wird, und ihn zu verbessern (Art. 6 Abs. 1 lit. f DSGVO)\n• optionales Feedback sowie Meldungen zu Text- oder Sachfehlern entgegenzunehmen und zu bearbeiten (Art. 6 Abs. 1 lit. f DSGVO)\n• zu antworten, wenn Sie freiwillig eine E-Mail-Adresse angeben (Art. 6 Abs. 1 lit. a und/oder lit. b DSGVO, je nach Anliegen)\n• Spam und automatisierten Missbrauch der Formulare mittels Turnstile zu verhindern (Art. 6 Abs. 1 lit. f DSGVO)",
     "retention": "Speicherdauer",
-    "retentionContent": "Server-Logs werden beim Hosting-Anbieter nur so lange gespeichert, wie es für Sicherheit und Betrieb erforderlich ist, und anschließend gemäß den Praktiken des Anbieters gelöscht oder anonymisiert.\n\nFeedback- und Textmeldungen (einschließlich einer von Ihnen angegebenen E-Mail) speichern wir nur so lange, wie es zur Prüfung und Bearbeitung Ihrer Eingabe nötig ist, und ggf. kurz darüber hinaus für Rückfragen oder Dokumentation — danach löschen wir sie.\n\nTurnstile-Prüftoken dienen der Sicherheitsprüfung und werden von uns nicht als langfristiges Profil gespeichert.",
+    "retentionContent": "Server-Logs werden vom Hosting-Anbieter nur so lange aufbewahrt, wie es für Sicherheit und Betrieb nötig ist, und danach gemäß dessen Praxis gelöscht oder anonymisiert.\n\nSeitenaufrufdaten von Vercel Web Analytics werden gemäß den Praktiken von Vercel für dieses Produkt aufbewahrt.\n\nPostHog-Analytikereignisse werden gemäß unseren PostHog-Projekteinstellungen aufbewahrt (auf dem Free-Tier typischerweise bis etwa ein Jahr) und danach gelöscht oder anonymisiert.\n\nFeedback- und Textmeldungen (einschließlich einer von Ihnen angegebenen E-Mail) werden nur so lange gespeichert, wie es zur Prüfung und Bearbeitung nötig ist, und danach für eine kurze Zeit, falls Nachfragen oder Dokumentation erforderlich sind, dann gelöscht.\n\nTurnstile-Prüftoken dienen dem Sicherheitscheck und werden von uns nicht als langfristiges Profil gespeichert.",
     "cookies": "Cookies und ähnliche Technologien",
-    "cookiesContent": "Diese Website verwendet keine Analyse- oder Werbe-Cookies.\n\nDie Sprachpräferenz kann in einem kleinen Cookie oder im lokalen Speicher abgelegt werden, damit wir bei einem erneuten Besuch Ihre gewählte Sprache anzeigen können.\n\nCloudflare Turnstile kann technische Cookies oder ähnliche Speicherungen nur setzen bzw. auslesen, wenn Sie ein Feedback-/Meldeformular öffnen oder nutzen — zum Schutz vor Bots. Wir nutzen Turnstile nicht für Werbung oder Tracking über Websites hinweg.\n\nCookies und Website-Daten können Sie jederzeit in den Browsereinstellungen löschen.",
+    "cookiesContent": "Die Sprachpräferenz kann in einem kleinen Cookie oder im lokalen Speicher abgelegt werden, damit wir bei einem erneuten Besuch Ihre gewählte Sprache anzeigen können.\n\nVercel Web Analytics misst Seitenaufrufe ohne Werbe-Cookies.\n\nDie PostHog-Produktanalytik läuft cookielos: Es werden keine Analyse-Cookies oder vergleichbare dauerhafte Speicherungen auf Ihrem Gerät gesetzt. Begrenzte anonyme Nutzungsereignisse (z. B. Seitenpfad und Interaktionen mit dem Programmvergleich) können weiterhin über einen datenschutzfreundlichen Hash verarbeitet werden.\n\nCloudflare Turnstile kann technische Cookies oder ähnliche Speicherungen nur setzen bzw. auslesen, wenn Sie ein Feedback-/Meldeformular öffnen oder nutzen — zum Schutz vor Bots. Wir nutzen Turnstile nicht für Werbung oder Tracking über Websites hinweg.\n\nWir verwenden keine Werbe-Cookies. Cookies und Website-Daten können Sie jederzeit in den Browsereinstellungen löschen.",
     "yourRights": "Ihre Rechte nach der DSGVO",
     "yourRightsIntro": "Nach der DSGVO haben Sie folgende Rechte in Bezug auf Ihre personenbezogenen Daten:",
     "yourRightsList": "• Auskunftsrecht (Art. 15 DSGVO)\n• Recht auf Berichtigung (Art. 16 DSGVO)\n• Recht auf Löschung (Art. 17 DSGVO)\n• Recht auf Einschränkung der Verarbeitung (Art. 18 DSGVO)\n• Recht auf Datenübertragbarkeit (Art. 20 DSGVO)\n• Widerspruchsrecht gegen Verarbeitung auf Grundlage berechtigter Interessen (Art. 21 DSGVO)\n• Recht, eine erteilte Einwilligung zu widerrufen (Art. 7 Abs. 3 DSGVO)\n• Beschwerderecht bei einer Aufsichtsbehörde (Art. 77 DSGVO)",
@@ -226,5 +229,20 @@
       "democracy": "Demokratie",
       "other": "Sonstiges"
     }
+  },
+  "impressum": {
+    "title": "Impressum",
+    "responsibleParty": "Verantwortlich (Anbieter)",
+    "responsiblePartyContent": "Projekt Berlin 2026\n\nBerlin, Deutschland",
+    "contact": "Kontakt",
+    "contactContent": "E-Mail: {email}",
+    "editorial": "Verantwortlich für redaktionelle Inhalte",
+    "editorialContent": "Nina Harz, Maria Waldenberg\n\nBerlin, Deutschland",
+    "disclaimer": "Hinweis",
+    "disclaimerContent": "Diese Website stellt Informationen zu den Wahlprogrammen der Parteien zur Abgeordnetenhauswahl Berlin ausschließlich zu Informationszwecken bereit. Trotz sorgfältiger Prüfung übernehmen wir keine Gewähr für Vollständigkeit, Aktualität oder Fehlerfreiheit. Sachfehler und Korrekturen können Sie über die Funktion „Diesen Text melden“ auf der Website mitteilen.\n\nWir sind mit keiner politischen Partei verbunden. Dies ist kein Wahlkampfmaterial und keine Wahlempfehlung.",
+    "liability": "Haftung",
+    "liabilityContent": "Für die Inhalte externer Links übernehmen wir keine Verantwortung. Die Inhalte werden „wie besehen“ bereitgestellt. Soweit gesetzlich zulässig, schließen wir die Haftung für Schäden aus der Nutzung der Website aus — außer bei Vorsatz oder grober Fahrlässigkeit.",
+    "languageVersions": "Sprachfassungen",
+    "languageVersionsContent": "Dieses Impressum ist auf Deutsch und Englisch verfügbar. Die deutsche Fassung ist für rechtliche Zwecke in Deutschland maßgebend."
   }
 }

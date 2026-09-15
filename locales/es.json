@@ -4,8 +4,6 @@
     "homeDescription": "Programas oficiales para las elecciones a la Cámara de Representantes de Berlín el 20 de septiembre de 2026: transporte, vivienda, clima, seguridad y más. Independiente: no es una recomendación de voto.",
     "aboutTitle": "Sobre el proyecto — Berlin 2026",
     "aboutDescription": "Quién está detrás de Berlin 2026: Nina compara los programas de los partidos y saca adelante el proyecto; Masha se ocupa de la técnica. Independiente, sin vínculo con ningún partido.",
-    "privacyTitle": "Política de privacidad — Berlin 2026",
-    "privacyDescription": "Cómo Berlin 2026 trata los datos personales según el RGPD.",
     "aiDisclosureTitle": "Aviso sobre la IA — Berlin 2026",
     "aiDisclosureDescription": "Cómo usamos la IA en los textos del sitio y en la comparación de programas, y por qué las personas siguen siendo responsables de las ideas, el contenido y la exactitud.",
     "keywords": [
@@ -117,7 +115,8 @@
     "contact": "Contacto",
     "about": "Sobre el proyecto",
     "privacy": "Privacidad",
-    "contribute": "Colaborar"
+    "contribute": "Colaborar",
+    "impressum": "Aviso legal"
   },
   "feedback": {
     "fabLabel": "Enviar comentarios",
@@ -164,30 +163,6 @@
     "reviewAndAccuracyContent": "La tabla de comparación se elaboró en gran parte con ayuda de IA a partir de los programas oficiales. Vuelve a comprobar los puntos que te importan. Las traducciones completas de los programas de los partidos principales están en BerlinVote.Help. Revisamos el contenido, pero pueden quedar errores y perderse matices. Si detectas un fallo, avísanos.",
     "contact": "Contacto",
     "contactContent": "¿Preguntas sobre cómo usamos la IA o sobre el contenido de este sitio? Escribe a {email}."
-  },
-  "privacy": {
-    "title": "Política de privacidad",
-    "intro": "Esta política de privacidad explica cómo recopilamos, usamos y protegemos tu información personal cuando visitas nuestro sitio web, de acuerdo con el Reglamento General de Protección de Datos (RGPD) y la legislación alemana de protección de datos aplicable (incluido el TTDSG).",
-    "responsibleParty": "Responsable del tratamiento",
-    "responsiblePartyContent": "Proyecto Berlin 2026\nCorreo: {email}",
-    "dataProcessed": "Datos tratados",
-    "dataProcessedContent": "Cuando visitas nuestro sitio web, nuestro proveedor de alojamiento puede tratar automáticamente datos técnicos necesarios para servir la página (por ejemplo, dirección IP, información del navegador o user-agent, y marcas de tiempo en los registros del servidor). No tenemos cuentas de usuario ni registro.\n\nSi usas el formulario opcional de comentarios, tratamos tu mensaje, la URL de la página, el idioma de la interfaz y —si lo facilitas— tu correo electrónico para poder responderte.\n\nSi avisas de una redacción incorrecta o de un error de hecho (también con el botón «Avisar de este texto» tras seleccionar texto), tratamos el texto incorrecto citado, tu corrección sugerida, la URL de la página y el idioma de la interfaz.\n\nAl enviar cualquiera de los formularios, también tratamos un token de seguridad de Cloudflare Turnstile y señales técnicas relacionadas necesarias para comprobar que la solicitud no es spam automatizado.",
-    "hosting": "Alojamiento",
-    "hostingContent": "Este sitio web está alojado por Vercel Inc. La infraestructura de servidores y la entrega de contenidos pueden implicar tratamientos fuera del Espacio Económico Europeo bajo garantías adecuadas (incluidas las cláusulas contractuales tipo cuando corresponda). Consulta la [política de privacidad de Vercel](https://vercel.com/legal/privacy-policy).",
-    "processors": "Encargados del tratamiento y controles de seguridad",
-    "processorsContent": "Usamos los siguientes proveedores como encargados del tratamiento (art. 28 RGPD) para los fines descritos a continuación. Pueden producirse transferencias a Estados Unidos; nos basamos en garantías adecuadas como las cláusulas contractuales tipo y los términos de tratamiento de datos de los proveedores.\n\n• Vercel Inc. — alojamiento y entrega del sitio web.\n• Cloudflare, Inc. — protección antispam y antibots con Cloudflare Turnstile cuando se abre o envía un formulario de comentarios o de aviso de texto. Turnstile puede tratar la dirección IP y características del navegador o dispositivo para emitir un token de verificación. Detalles: [política de privacidad de Cloudflare](https://www.cloudflare.com/privacypolicy/) y documentación de Turnstile.\n• Resend, Inc. — envío por correo de los comentarios y avisos de texto. Detalles: [política de privacidad de Resend](https://resend.com/legal/privacy-policy).\n\nBase jurídica de Turnstile y medidas de seguridad relacionadas: art. 6(1)(f) RGPD (interés legítimo en proteger los formularios frente a abusos y spam). Cuando quien usa el sitio solicita el servicio del formulario, el almacenamiento o el acceso a información en el dispositivo final estrictamente necesario para ese servicio también puede estar cubierto por el § 25(2) TTDSG.",
-    "purposeOfProcessing": "Finalidad y bases jurídicas",
-    "purposeOfProcessingContent": "Tratamos datos para:\n\n• Prestar, asegurar y mantener este sitio web (art. 6(1)(f) RGPD)\n• Recibir y gestionar comentarios opcionales y avisos de texto o errores de hecho (art. 6(1)(f) RGPD)\n• Responder cuando facilitas voluntariamente un correo electrónico (art. 6(1)(a) RGPD y/o art. 6(1)(b) RGPD, según el caso)\n• Prevenir el spam y el abuso automatizado de los formularios mediante Turnstile (art. 6(1)(f) RGPD)",
-    "retention": "Conservación",
-    "retentionContent": "Los registros del servidor los conserva el proveedor de alojamiento solo el tiempo necesario para seguridad y operación, y luego se eliminan o anonimizan según sus prácticas.\n\nLos mensajes de comentarios y avisos de texto (incluido cualquier correo que facilites) se conservan solo el tiempo necesario para revisar y gestionar tu envío, y un breve periodo posterior si hace falta para el seguimiento o la documentación; después se eliminan.\n\nLos tokens de verificación de Turnstile se usan para el control de seguridad y no los almacenamos como perfil a largo plazo.",
-    "cookies": "Cookies y tecnologías similares",
-    "cookiesContent": "Este sitio web no usa cookies de analítica ni de publicidad.\n\nLa preferencia de idioma puede guardarse en una cookie pequeña o en el almacenamiento local para mostrar tu idioma en visitas posteriores.\n\nCloudflare Turnstile puede establecer o leer cookies técnicas o almacenamiento similar solo cuando abres o usas un formulario de comentarios o de aviso, para protección antispam. No usamos Turnstile para publicidad ni seguimiento entre sitios.\n\nPuedes eliminar cookies y datos del sitio en la configuración de tu navegador en cualquier momento.",
-    "yourRights": "Tus derechos según el RGPD",
-    "yourRightsIntro": "Según el RGPD, tienes los siguientes derechos respecto a tus datos personales:",
-    "yourRightsList": "• Derecho de acceso (art. 15 RGPD)\n• Derecho de rectificación (art. 16 RGPD)\n• Derecho de supresión (art. 17 RGPD)\n• Derecho a la limitación del tratamiento (art. 18 RGPD)\n• Derecho a la portabilidad de los datos (art. 20 RGPD)\n• Derecho de oposición al tratamiento basado en intereses legítimos (art. 21 RGPD)\n• Derecho a retirar el consentimiento cuando el tratamiento se base en el consentimiento (art. 7(3) RGPD)\n• Derecho a presentar una reclamación ante una autoridad de control (art. 77 RGPD)",
-    "supervisoryAuthority": "Autoridad de control",
-    "supervisoryAuthorityContent": "Puedes presentar una reclamación ante una autoridad de protección de datos. En Berlín, suele ser:\n\nBerliner Beauftragte für Datenschutz und Informationsfreiheit\nAlt-Moabit 59–61, 10555 Berlín, Alemania\n[https://www.datenschutz-berlin.de](https://www.datenschutz-berlin.de)",
-    "contactInfo": "Para ejercer tus derechos o preguntar sobre tus datos, escríbenos a {email}."
   },
   "comparison": {
     "title": "Programas de partidos para las elecciones regionales de Berlín 2026",

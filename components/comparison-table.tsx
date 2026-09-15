@@ -14,6 +14,7 @@ import { groupTopics, TOPIC_GROUP_ORDER } from "@/lib/comparison/groups"
 import { cellKey } from "@/lib/comparison/get-comparison"
 import type { ResolvedComparison, TopicGroup } from "@/lib/comparison/types"
 import { selectionChipClassName } from "@/lib/chip-styles"
+import { capture } from "@/lib/analytics"
 import { cn, renderParagraphs } from "@/lib/utils"
 
 const CURRENT_FACTION_PARTY_IDS = [
@@ -46,10 +47,14 @@ function SourceEvidence({
   quotes,
   quoteLabel,
   linkLabel,
+  partyId,
+  topicId,
 }: {
   quotes?: Array<{ quote: string; href: string }>
   quoteLabel: string
   linkLabel: string
+  partyId?: string
+  topicId?: string
 }) {
   if (!quotes?.length) return null
 
@@ -67,7 +72,14 @@ function SourceEvidence({
               rel="noopener noreferrer"
               className="block rounded-sm text-foreground/80 transition-colors hover:text-primary"
               title={linkLabel}
-              onClick={(event) => event.stopPropagation()}
+              onClick={(event) => {
+                event.stopPropagation()
+                capture("program_link", {
+                  party_id: partyId,
+                  topic_id: topicId,
+                  link_kind: "citation",
+                })
+              }}
             >
               <span className="text-[12px] leading-snug">„{item.quote}“</span>
               <ExternalLink
@@ -186,17 +198,21 @@ export function ComparisonTable({
     setSelectedIds((current) => {
       if (current.includes(id)) {
         if (current.length === 1) return current
+        capture("party_toggle", { party_id: id, selected: false })
         return current.filter((partyId) => partyId !== id)
       }
+      capture("party_toggle", { party_id: id, selected: true })
       return [...current, id]
     })
   }
 
   function selectCurrentFactions() {
+    capture("party_preset", { preset: "current_factions" })
     setSelectedIds([...CURRENT_FACTION_PARTY_IDS])
   }
 
   function selectAll() {
+    capture("party_preset", { preset: "all" })
     setSelectedIds(parties.map((party) => party.id))
   }
 
@@ -226,7 +242,17 @@ export function ComparisonTable({
 
   function toggleMobileTopic(topicId: string, el: HTMLElement) {
     captureMobileScrollAnchor(el)
-    setOpenTopicId((current) => (current === topicId ? null : topicId))
+    setOpenTopicId((current) => {
+      const opening = current !== topicId
+      if (opening) {
+        const topic = topics.find((item) => item.id === topicId)
+        capture("topic_open", {
+          topic_id: topicId,
+          group: topic?.group ?? null,
+        })
+      }
+      return opening ? topicId : null
+    })
   }
 
   function isDesktopGroupCollapsed(group: TopicGroup) {
@@ -460,7 +486,14 @@ export function ComparisonTable({
                                       target="_blank"
                                       rel="noopener noreferrer"
                                       className="inline-flex items-center gap-1 text-xs text-primary hover:underline"
-                                      onClick={(event) => event.stopPropagation()}
+                                      onClick={(event) => {
+                                        event.stopPropagation()
+                                        capture("program_link", {
+                                          party_id: party.id,
+                                          topic_id: topic.id,
+                                          link_kind: "program",
+                                        })
+                                      }}
                                     >
                                       {t.comparison.openProgram}
                                       <ExternalLink
@@ -478,6 +511,8 @@ export function ComparisonTable({
                                     quotes={cell.sourceQuotes}
                                     quoteLabel={t.comparison.sourceQuote}
                                     linkLabel={t.comparison.sourceQuoteLink}
+                                    partyId={party.id}
+                                    topicId={topic.id}
                                   />
                                 ) : null}
                               </li>
@@ -529,6 +564,12 @@ export function ComparisonTable({
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-1 text-foreground transition-colors hover:text-primary"
+                        onClick={() =>
+                          capture("program_link", {
+                            party_id: party.id,
+                            link_kind: "program_header",
+                          })
+                        }
                       >
                         {party.shortName}
                         <ExternalLink className="h-3 w-3 opacity-50" aria-hidden />
@@ -611,6 +652,8 @@ export function ComparisonTable({
                                     quotes={cell.sourceQuotes}
                                     quoteLabel={t.comparison.sourceQuote}
                                     linkLabel={t.comparison.sourceQuoteLink}
+                                    partyId={party.id}
+                                    topicId={topic.id}
                                   />
                                 ) : null}
                               </td>

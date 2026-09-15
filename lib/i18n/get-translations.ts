@@ -16,6 +16,13 @@ import type { Language, Translations } from "./types"
 export type { Language, Translations }
 export { SUPPORTED_LANGUAGES }
 
+/** Legal pages (privacy, impressum) are maintained in EN + DE only. */
+export const LEGAL_LANGUAGES = ["en", "de"] as const satisfies readonly Language[]
+
+export function legalLanguageFor(lang: Language): "en" | "de" {
+  return lang === "en" ? "en" : "de"
+}
+
 function injectContactEmail<T>(value: T): T {
   if (typeof value === "string") {
     return value.replaceAll("{email}", CONTACT_EMAIL) as T
@@ -33,42 +40,54 @@ function injectContactEmail<T>(value: T): T {
   return value
 }
 
+function withGermanLegalFallback(
+  lang: Language,
+  translations: Translations,
+  german: Translations
+): Translations {
+  if (lang === "en") return translations
+  return {
+    ...translations,
+    privacy: german.privacy,
+    impressum: german.impressum,
+    metadata: {
+      ...translations.metadata,
+      privacyTitle: german.metadata.privacyTitle,
+      privacyDescription: german.metadata.privacyDescription,
+      impressumTitle: german.metadata.impressumTitle,
+      impressumDescription: german.metadata.impressumDescription,
+    },
+  }
+}
+
+const enTranslations = injectContactEmail(en as Translations)
+const deTranslations = injectContactEmail(
+  deepMergeWithFallback(en as Translations, de as Partial<Translations>)
+)
+
+function buildLanguage(lang: Language, overlay: Partial<Translations>): Translations {
+  const merged = injectContactEmail(
+    deepMergeWithFallback(en as Translations, overlay)
+  )
+  return withGermanLegalFallback(lang, merged, deTranslations)
+}
+
 export const languages: Record<Language, Translations> = {
-  en: injectContactEmail(en as Translations),
-  de: injectContactEmail(
-    deepMergeWithFallback(en as Translations, de as Partial<Translations>)
-  ),
-  tr: injectContactEmail(
-    deepMergeWithFallback(en as Translations, tr as Partial<Translations>)
-  ),
-  uk: injectContactEmail(
-    deepMergeWithFallback(en as Translations, uk as Partial<Translations>)
-  ),
-  pl: injectContactEmail(
-    deepMergeWithFallback(en as Translations, pl as Partial<Translations>)
-  ),
-  ru: injectContactEmail(
-    deepMergeWithFallback(en as Translations, ru as Partial<Translations>)
-  ),
-  ar: injectContactEmail(
-    deepMergeWithFallback(en as Translations, ar as Partial<Translations>)
-  ),
-  es: injectContactEmail(
-    deepMergeWithFallback(en as Translations, es as Partial<Translations>)
-  ),
-  ku: injectContactEmail(
-    deepMergeWithFallback(en as Translations, ku as Partial<Translations>)
-  ),
-  vi: injectContactEmail(
-    deepMergeWithFallback(en as Translations, vi as Partial<Translations>)
-  ),
-  it: injectContactEmail(
-    deepMergeWithFallback(en as Translations, it as Partial<Translations>)
-  ),
+  en: enTranslations,
+  de: deTranslations,
+  tr: buildLanguage("tr", tr as Partial<Translations>),
+  uk: buildLanguage("uk", uk as Partial<Translations>),
+  pl: buildLanguage("pl", pl as Partial<Translations>),
+  ru: buildLanguage("ru", ru as Partial<Translations>),
+  ar: buildLanguage("ar", ar as Partial<Translations>),
+  es: buildLanguage("es", es as Partial<Translations>),
+  ku: buildLanguage("ku", ku as Partial<Translations>),
+  vi: buildLanguage("vi", vi as Partial<Translations>),
+  it: buildLanguage("it", it as Partial<Translations>),
 }
 
 export function getTranslations(lang: Language): Translations {
-  return languages[lang] ?? languages.en
+  return languages[lang] ?? languages.de
 }
 
 export function isLanguage(value: string): value is Language {

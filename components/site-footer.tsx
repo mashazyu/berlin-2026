@@ -2,10 +2,12 @@
 
 import Link from "next/link"
 import { useLanguage } from "@/components/language-provider"
+import { legalLanguageFor } from "@/lib/i18n/get-translations"
 import { CONTACT_EMAIL } from "@/lib/seo/constants"
 
 export function SiteFooter() {
   const { language, translations: t } = useLanguage()
+  const legalLang = legalLanguageFor(language)
 
   return (
     <footer className="border-t border-border bg-white">
@@ -40,7 +42,13 @@ export function SiteFooter() {
               {t.footer.aiDisclosure}
             </Link>
             <Link
-              href={`/${language}/privacy`}
+              href={`/${legalLang}/impressum`}
+              className="transition-colors hover:text-foreground"
+            >
+              {t.footer.impressum}
+            </Link>
+            <Link
+              href={`/${legalLang}/privacy`}
               className="transition-colors hover:text-foreground"
             >
               {t.footer.privacy}

@@ -4,8 +4,6 @@
     "homeDescription": "Programmi ufficiali per le elezioni alla Camera dei deputati di Berlino del 20 settembre 2026: trasporti, casa, clima, sicurezza e altro. Indipendente: non è un consiglio di voto.",
     "aboutTitle": "Il progetto — Berlin 2026",
     "aboutDescription": "Chi c’è dietro Berlin 2026: Nina confronta i programmi dei partiti e porta avanti il progetto; Masha si occupa della tecnica. Indipendente, senza legami con nessun partito.",
-    "privacyTitle": "Informativa sulla privacy — Berlin 2026",
-    "privacyDescription": "Come Berlin 2026 tratta i dati personali secondo il GDPR.",
     "aiDisclosureTitle": "Informativa sull’IA — Berlin 2026",
     "aiDisclosureDescription": "Come usiamo l’IA per i testi del sito e il confronto dei programmi — e perché restano le persone responsabili di idee, contenuti e accuratezza.",
     "keywords": [
@@ -117,7 +115,8 @@
     "contact": "Contatti",
     "about": "Il progetto",
     "privacy": "Privacy",
-    "contribute": "Contribuisci"
+    "contribute": "Contribuisci",
+    "impressum": "Note legali"
   },
   "feedback": {
     "fabLabel": "Invia feedback",
@@ -164,30 +163,6 @@
     "reviewAndAccuracyContent": "La tabella di confronto dei partiti è in gran parte costruita con l’aiuto dell’IA a partire dai programmi ufficiali. Ricontrolla i punti che ti interessano. Le traduzioni complete dei programmi principali sono su BerlinVote.Help. Controlliamo l’accuratezza, ma errori possono restare e alcune sfumature possono andare perse. Se noti un errore, segnalacelo.",
     "contact": "Contatti",
     "contactContent": "Domande su come usiamo l’IA o sui contenuti di questo sito? Scrivi a {email}."
-  },
-  "privacy": {
-    "title": "Informativa sulla privacy",
-    "intro": "Questa informativa spiega come raccogliamo, usiamo e proteggiamo i tuoi dati personali quando visiti il sito, in conformità al Regolamento generale sulla protezione dei dati (GDPR) e alla normativa tedesca applicabile (incluso il TTDSG).",
-    "responsibleParty": "Titolare del trattamento",
-    "responsiblePartyContent": "Progetto Berlin 2026\nEmail: {email}",
-    "dataProcessed": "Dati trattati",
-    "dataProcessedContent": "Quando visiti il sito, il fornitore di hosting può elaborare automaticamente dati tecnici necessari per erogarlo (ad esempio indirizzo IP, informazioni su browser/user-agent e timestamp delle richieste nei log del server). Non gestiamo account utente e non richiediamo la registrazione.\n\nSe usi il modulo di feedback opzionale, trattiamo il messaggio, l’URL della pagina, la lingua dell’interfaccia e — se lo indichi — il tuo indirizzo email per risponderti.\n\nSe segnali una formulazione sbagliata o un errore di fatto (anche tramite il controllo «Segnala questo testo» dopo aver selezionato il testo), trattiamo il testo errato citato, la tua correzione proposta, l’URL della pagina e la lingua dell’interfaccia.\n\nQuando invii uno dei due moduli, trattiamo anche un token di sicurezza Cloudflare Turnstile e segnali tecnici correlati per verificare che la richiesta non sia spam automatizzato.",
-    "hosting": "Hosting",
-    "hostingContent": "Questo sito è ospitato da Vercel Inc. L’infrastruttura server e la distribuzione dei contenuti possono comportare trattamenti fuori dallo Spazio economico europeo con garanzie adeguate (incluse le Clausole contrattuali tipo ove applicabili). Vedi [l’informativa sulla privacy di Vercel](https://vercel.com/legal/privacy-policy).",
-    "processors": "Responsabili del trattamento e controlli di sicurezza",
-    "processorsContent": "Usiamo i seguenti fornitori come responsabili del trattamento (art. 28 GDPR) per le finalità descritte sotto. Trasferimenti verso gli Stati Uniti possono verificarsi; ci basiamo su garanzie adeguate come le Clausole contrattuali tipo e le condizioni di trattamento dei fornitori.\n\n• Vercel Inc. — hosting e distribuzione del sito.\n• Cloudflare, Inc. — protezione bot/spam Cloudflare Turnstile quando si apre o si invia un modulo di feedback o segnalazione testo. Turnstile può elaborare indirizzo IP e caratteristiche di browser/dispositivo per emettere un token di verifica. Dettagli: [informativa privacy Cloudflare](https://www.cloudflare.com/privacypolicy/) e documentazione Turnstile.\n• Resend, Inc. — consegna email transazionali di feedback e segnalazioni testo a noi. Dettagli: [informativa privacy Resend](https://resend.com/legal/privacy-policy).\n\nBase giuridica per Turnstile e misure di sicurezza correlate: art. 6(1)(f) GDPR (interesse legittimo a proteggere i moduli da abusi e spam). Ove l’utente richieda il servizio del modulo, la memorizzazione o l’accesso a informazioni sul dispositivo finale strettamente necessarie a quel servizio possono anche rientrare nel § 25(2) TTDSG.",
-    "purposeOfProcessing": "Finalità e basi giuridiche",
-    "purposeOfProcessingContent": "Trattiamo i dati per:\n\n• Fornire, mettere in sicurezza e mantenere questo sito (art. 6(1)(f) GDPR)\n• Ricevere e gestire feedback opzionali e segnalazioni di errori di testo/fatto (art. 6(1)(f) GDPR)\n• Rispondere quando fornisci volontariamente un indirizzo email (art. 6(1)(a) GDPR e/o art. 6(1)(b) GDPR, a seconda della richiesta)\n• Prevenire spam e abusi automatizzati dei moduli tramite Turnstile (art. 6(1)(f) GDPR)",
-    "retention": "Conservazione",
-    "retentionContent": "I log del server sono conservati dal fornitore di hosting solo per il tempo necessario a sicurezza e operazioni, poi cancellati o anonimizzati secondo le pratiche del fornitore.\n\nMessaggi di feedback e segnalazioni testo (inclusa ogni email che indichi) sono conservati solo per il tempo necessario a esaminarli e gestirli, e per un breve periodo successivo se serve follow-up o documentazione, poi cancellati.\n\nI token di verifica Turnstile servono al controllo di sicurezza e non vengono da noi memorizzati come profilo a lungo termine.",
-    "cookies": "Cookie e tecnologie simili",
-    "cookiesContent": "Questo sito non usa cookie di analytics o pubblicitari.\n\nUna preferenza di lingua può essere memorizzata in un piccolo cookie o nel local storage così possiamo mostrare la lingua scelta al ritorno.\n\nCloudflare Turnstile può impostare o leggere cookie tecnici o storage simili solo quando apri o usi un modulo di feedback/segnalazione, per protezione da bot. Non usiamo Turnstile per pubblicità o tracciamento cross-sito.\n\nPuoi cancellare cookie e dati del sito in qualsiasi momento nelle impostazioni del browser.",
-    "yourRights": "I tuoi diritti ai sensi del GDPR",
-    "yourRightsIntro": "Ai sensi del GDPR hai i seguenti diritti sui tuoi dati personali:",
-    "yourRightsList": "• Diritto di accesso (art. 15 GDPR)\n• Diritto di rettifica (art. 16 GDPR)\n• Diritto alla cancellazione (art. 17 GDPR)\n• Diritto di limitazione del trattamento (art. 18 GDPR)\n• Diritto alla portabilità dei dati (art. 20 GDPR)\n• Diritto di opposizione al trattamento basato su interessi legittimi (art. 21 GDPR)\n• Diritto di revocare il consenso ove il trattamento si basi sul consenso (art. 7(3) GDPR)\n• Diritto di proporre reclamo a un’autorità di controllo (art. 77 GDPR)",
-    "supervisoryAuthority": "Autorità di controllo",
-    "supervisoryAuthorityContent": "Puoi proporre reclamo a un’autorità di controllo per la protezione dei dati. Per Berlino, di solito:\n\nBerliner Beauftragte für Datenschutz und Informationsfreiheit\nAlt-Moabit 59–61, 10555 Berlin, Germany\n[https://www.datenschutz-berlin.de](https://www.datenschutz-berlin.de)",
-    "contactInfo": "Per esercitare i tuoi diritti o chiedere informazioni sui tuoi dati, contattaci a {email}."
   },
   "comparison": {
     "title": "Programmi dei partiti per le elezioni regionali di Berlino 2026",

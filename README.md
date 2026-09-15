@@ -35,6 +35,22 @@ pnpm encode:comparison   # rebuild data/comparison.json from Notion scrapes (scr
 3. Every merge/push to `main` deploys automatically.
 4. Add domains `berlin-2026.de` and `www.berlin-2026.de`. Apex redirects to `www` via `next.config.ts`.
 
+## PostHog (product analytics)
+
+1. Create a project at [eu.posthog.com](https://eu.posthog.com) (EU, not US).
+2. In Project settings: copy the Project API key; enable **Cookieless server hash mode**; turn **Session replay** off; accept the DPA; set a **$0 billing limit**.
+3. Set in `.env.local` and in Vercel env (Production + Preview):
+
+```bash
+NEXT_PUBLIC_POSTHOG_KEY=phc_...
+# or: NEXT_PUBLIC_POSTHOG_PROJECT_TOKEN=phc_...
+NEXT_PUBLIC_POSTHOG_HOST=https://eu.i.posthog.com
+```
+
+4. Restart `pnpm dev` after changing env. Without the key, analytics no-ops.
+
+**Verify locally:** open the site → interact with the comparison → Live events in PostHog EU (cookieless; no cookie banner).
+
 ## Content notes
 
 - Table cells are AI-assisted summaries of official party programs. Double-check what matters; full translations: [BerlinVote.Help](https://www.berlinvote.help/).
