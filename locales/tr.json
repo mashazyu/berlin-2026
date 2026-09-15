@@ -4,8 +4,6 @@
     "homeDescription": "20 Eylül 2026 Berlin eyalet seçimleri: 10 partinin resmi programları — ulaşım, konut, iklim, güvenlik ve daha fazlası. Bağımsız, oy tavsiyesi yok.",
     "aboutTitle": "Hakkında — Berlin 2026",
     "aboutDescription": "Berlin 2026’yı kim yapıyor: Nina programları karşılaştırıyor ve projeyi geliştiriyor; Masha teknik taraftan sorumlu. Bağımsız, hiçbir partiyle bağlantılı değil.",
-    "privacyTitle": "Gizlilik Politikası — Berlin 2026",
-    "privacyDescription": "Berlin 2026’nın kişisel verileri GDPR’ye uygun olarak nasıl işlediği.",
     "aiDisclosureTitle": "Yapay Zekâ Açıklaması — Berlin 2026",
     "aiDisclosureDescription": "Site metinlerini ve parti programı karşılaştırmasını hazırlarken yapay zekâyı nasıl kullandığımız — ve fikir, içerik ile doğruluktan insanların nasıl sorumlu kaldığı.",
     "keywords": [
@@ -31,7 +29,8 @@
   "navigation": {
     "comparison": "Karşılaştırma",
     "motivation": "Motivasyon",
-    "privacy": "Gizlilik"
+    "privacy": "Gizlilik",
+    "about": "Hakkında"
   },
   "hero": {
     "headline": "Berlin 2026 eyalet seçimleri — parti programlarını karşılaştırın",
@@ -117,7 +116,8 @@
     "contact": "İletişim",
     "about": "Hakkında",
     "privacy": "Gizlilik",
-    "contribute": "Destek olun"
+    "contribute": "Destek olun",
+    "impressum": "Künye"
   },
   "feedback": {
     "fabLabel": "Geri bildirim gönder",
@@ -164,30 +164,6 @@
     "reviewAndAccuracyContent": "Parti karşılaştırma tablosu, resmi parti programlarından büyük ölçüde yapay zekâ desteğiyle derlenmiştir. Sizin için önemli noktaları yeniden kontrol etmenizi öneririz. Büyük partilerin programlarının tam çevirileri BerlinVote.Help’te yayımlanır. İçeriği doğruluk açısından kontrol ederiz; yine de hatalar olabilir ve bazı nüanslar kaçabilir. Bir hata fark ederseniz lütfen bize yazın.",
     "contact": "İletişim",
     "contactContent": "Yapay zekâ kullanımımız veya sitedeki içerik hakkında sorularınız mı var? {email} adresine yazın."
-  },
-  "privacy": {
-    "title": "Gizlilik Politikası",
-    "intro": "Bu gizlilik politikası, sitemizi ziyaret ettiğinizde kişisel bilgilerinizi Genel Veri Koruma Yönetmeliği (GDPR) ve geçerli Alman veri koruma yasalarına (TTDSG dahil) uygun olarak nasıl topladığımızı, kullandığımızı ve koruduğumuzu açıklar.",
-    "responsibleParty": "Sorumlu taraf (veri sorumlusu)",
-    "responsiblePartyContent": "Berlin 2026 projesi\nE-posta: {email}",
-    "dataProcessed": "İşlenen veriler",
-    "dataProcessedContent": "Sitemizi ziyaret ettiğinizde, barındırma sağlayıcımız siteyi sunmak için gerekli teknik verileri otomatik olarak işleyebilir (örneğin IP adresi, tarayıcı/user-agent bilgileri ve sunucu günlüklerindeki zaman damgaları). Kullanıcı hesabı işletmiyoruz ve kayıt zorunlu değil.\n\nİsteğe bağlı geri bildirim formunu kullanırsanız mesajınızı, sayfa URL’sini, arayüz dilini ve — verirseniz — yanıt için e-posta adresinizi işleriz.\n\nYanlış ifade veya bilgi hatası bildirirseniz (metin seçtikten sonra “Bu metni bildir” dahil), alıntılanan yanlış metni, önerdiğiniz düzeltmeyi, sayfa URL’sini ve arayüz dilini işleriz.\n\nHer iki formu gönderdiğinizde, isteğin otomatik spam olmadığını doğrulamak için Cloudflare Turnstile güvenlik jetonunu ve ilgili teknik sinyalleri de işleriz.",
-    "hosting": "Barındırma",
-    "hostingContent": "Bu site Vercel Inc. tarafından barındırılır. Sunucu altyapısı ve içerik dağıtımı, uygun güvenceler altında AEA dışında işlemeyi içerebilir (uygulanabilir Standart Sözleşme Maddeleri dahil). Ayrıntılar: [Vercel Gizlilik Politikası](https://vercel.com/legal/privacy-policy).",
-    "processors": "İşleyenler ve güvenlik kontrolleri",
-    "processorsContent": "Aşağıda açıklanan amaçlarla şu hizmet sağlayıcıları işleyen olarak (GDPR md. 28) kullanırız. ABD’ye aktarım olabilir; Standart Sözleşme Maddeleri ve sağlayıcıların veri işleme koşulları gibi uygun güvencelere dayanırız.\n\n• Vercel Inc. — sitenin barındırılması ve sunulması.\n• Cloudflare, Inc. — geri bildirim veya metin bildirimi formu açıldığında/gönderildiğinde bot/spam koruması için Cloudflare Turnstile. Turnstile, doğrulama jetonu için IP adresi ve tarayıcı/cihaz özelliklerini işleyebilir. Ayrıntılar: [Cloudflare gizlilik politikası](https://www.cloudflare.com/privacypolicy/).\n• Resend, Inc. — gönderilen bildirimlerin bize e-posta ile iletilmesi. Ayrıntılar: [Resend gizlilik politikası](https://resend.com/legal/privacy-policy).\n\nTurnstile ve ilgili güvenlik önlemleri için hukuki dayanak: GDPR md. 6(1)(f) (formları kötüye kullanım ve spam’e karşı koruma meşru menfaati). Kullanıcı form hizmetini talep ettiğinde, bu hizmet için kesinlikle gerekli olan uç cihazda bilgiye erişim/saklama TTDSG § 25(2) kapsamında da olabilir.",
-    "purposeOfProcessing": "Amaç ve hukuki dayanaklar",
-    "purposeOfProcessingContent": "Verileri şu amaçlarla işleriz:\n\n• Bu siteyi sağlamak, güvence altına almak ve işletmek (GDPR md. 6(1)(f))\n• İsteğe bağlı geri bildirim ile metin/bilgi hatası bildirimlerini almak ve ele almak (GDPR md. 6(1)(f))\n• Gönüllü olarak e-posta verdiğinizde yanıtlamak (GDPR md. 6(1)(a) ve/veya (b))\n• Turnstile ile formlarda spam ve otomatik kötüye kullanımı önlemek (GDPR md. 6(1)(f))",
-    "retention": "Saklama süresi",
-    "retentionContent": "Sunucu günlükleri, barındırma sağlayıcısında yalnızca güvenlik ve işletme için gerekli olduğu sürece tutulur; ardından sağlayıcının uygulamalarına göre silinir veya anonimleştirilir.\n\nGeri bildirim ve metin bildirimi mesajları (verdiğiniz e-posta dahil) yalnızca inceleme ve ele alma için gerekli olduğu sürece ve gerekirse kısa bir süre daha tutulur, sonra silinir.\n\nTurnstile jetonları güvenlik kontrolü içindir; uzun vadeli bir profil olarak saklanmaz.",
-    "cookies": "Çerezler ve benzer teknolojiler",
-    "cookiesContent": "Bu site analitik veya reklam çerezleri kullanmaz.\n\nDil tercihi, dönüş ziyaretlerinde seçtiğiniz dili gösterebilmemiz için küçük bir çerezde veya yerel depoda saklanabilir.\n\nCloudflare Turnstile, bot koruması için yalnızca bir geri bildirim/bildirim formu açtığınızda veya kullandığınızda teknik çerezler veya benzer depolama okuyabilir/yazabilir. Turnstile’ı reklam veya siteler arası izleme için kullanmayız.\n\nÇerezleri ve site verilerini tarayıcı ayarlarınızdan istediğiniz zaman silebilirsiniz.",
-    "yourRights": "GDPR kapsamındaki haklarınız",
-    "yourRightsIntro": "GDPR kapsamında kişisel verilerinizle ilgili şu haklara sahipsiniz:",
-    "yourRightsList": "• Erişim hakkı (GDPR md. 15)\n• Düzeltme hakkı (GDPR md. 16)\n• Silme hakkı (GDPR md. 17)\n• İşlemeyi kısıtlama hakkı (GDPR md. 18)\n• Veri taşınabilirliği hakkı (GDPR md. 20)\n• Meşru menfaate dayalı işlemeye itiraz hakkı (GDPR md. 21)\n• İşleme rızaya dayanıyorsa rızayı geri çekme hakkı (GDPR md. 7(3))\n• Denetim makamına şikayette bulunma hakkı (GDPR md. 77)",
-    "supervisoryAuthority": "Denetim makamı",
-    "supervisoryAuthorityContent": "Bir veri koruma denetim makamına şikayette bulunabilirsiniz. Berlin için bu genellikle:\n\nBerliner Beauftragte für Datenschutz und Informationsfreiheit\nAlt-Moabit 59–61, 10555 Berlin, Almanya\n[https://www.datenschutz-berlin.de](https://www.datenschutz-berlin.de)",
-    "contactInfo": "Haklarınızı kullanmak veya verileriniz hakkında soru sormak için {email} adresine yazın."
   },
   "comparison": {
     "title": "2026 Berlin eyalet seçimleri için parti programları",

@@ -4,8 +4,6 @@
     "homeDescription": "Bernameyên fermî yên hilbijartina Abgeordnetenhaus a Berlînê di 20ê Îlonê 2026an de: veguhestin, xanî, avhewa, ewlehî û zêdetir. Serbixwe — ne şîreta dengdanê ye.",
     "aboutTitle": "Derbarê — Berlin 2026",
     "aboutDescription": "Kî li pişt Berlin 2026 e: Nina bernameyên partiyan berawird dike û proje pêş dixe; Masha aliyê teknîkî digire ser xwe. Serbixwe, bê girêdana bi tu partiyê re.",
-    "privacyTitle": "Polîtîkaya nepenîtiyê — Berlin 2026",
-    "privacyDescription": "Berlin 2026 daneyên kesane li gorî GDPR çawa bi kar tîne.",
     "aiDisclosureTitle": "Daxuyaniya AI — Berlin 2026",
     "aiDisclosureDescription": "Em AI di nivîsên malperê û berawirdkirina bernameyan de çawa bi kar tînin — û çima mirov ji bo raman, naverok û rastiyê berpirsiyar dimînin.",
     "keywords": [
@@ -31,7 +29,8 @@
   "navigation": {
     "comparison": "Berawird",
     "motivation": "Sedem",
-    "privacy": "Nepenîtî"
+    "privacy": "Nepenîtî",
+    "about": "Derbarê"
   },
   "hero": {
     "headline": "Hilbijartina herêmî ya Berlînê 2026 — bernameyên partiyan berawird bike",
@@ -117,7 +116,8 @@
     "contact": "Têkilî",
     "about": "Derbarê",
     "privacy": "Nepenîtî",
-    "contribute": "Beşdarî"
+    "contribute": "Beşdarî",
+    "impressum": "Agahiyên yasayî"
   },
   "feedback": {
     "fabLabel": "Nêrînan bişîne",
@@ -164,30 +164,6 @@
     "reviewAndAccuracyContent": "Tabloya berawirdê ya partiyan bi piranî bi alîkariya AI ji bernameyên fermî hatiye çêkirin. Xalên ku ji te re girîng in dîsa kontrol bike. Wergerên tevahî yên bernameyên partiyên sereke li BerlinVote.Help hene. Em naverokê ji bo rastiyê kontrol dikin, lê dîsa jî dikarin xeletî hebin û nuans winda bibin. Heke xeletiyekê bibînî, ji me re bêje.",
     "contact": "Têkilî",
     "contactContent": "Pirsên li ser bikaranîna AI an naveroka vê malperê? Ji {email} re binivîse."
-  },
-  "privacy": {
-    "title": "Polîtîkaya nepenîtiyê",
-    "intro": "Ev polîtîkaya nepenîtiyê diyar dike ku em dema tu serdana malpera me dikî agahiyên te yên kesane çawa berhev dikin, bi kar tînin û diparêzin — li gorî Rêziknameya Giştî ya Parastina Daneyan (GDPR) û qanûna Almanî ya parastina daneyan (di nav de TTDSG).",
-    "responsibleParty": "Aliyê berpirsiyar",
-    "responsiblePartyContent": "Projeya Berlin 2026\nE-name: {email}",
-    "dataProcessed": "Daneyên ku têne bikaranîn",
-    "dataProcessedContent": "Dema tu serdana malpera me dikî, pêşkêşkarê mêvandariyê dibe ku otomatîk daneyên teknîkî yên ji bo pêşkêşkirina malperê pêwîst bi kar bîne (mînak navnîşana IP, agahiyên gerok/user-agent, û demjimêrên daxwazê di tomarkirinên serverê de). Em hesabên bikarhêner an tomarê nakin.\n\nHeke tu forma nêrînan a bijarte bi kar bînî, em peyama te, URL-ya rûpelê, zimanê rûyê û — heke tu bidî — e-nameya te bi kar tînin da em bersiv bidin.\n\nHeke tu gotineke şaş an xeletiyeke rastîn ragihînî (di nav de bi kontrola «Vê nivîsê ragihîne» piştî hilbijartina nivîsê), em nivîsa şaş a jêgirtî, pêşniyara te ya sererastkirinê, URL-ya rûpelê û zimanê rûyê bi kar tînin.\n\nDema tu yek ji forman dişînî, em herwiha tokenekî ewlehiyê yê Cloudflare Turnstile û nîşanên teknîkî yên têkildar bi kar tînin da piştrast bikin ku daxwaz spam-a otomatîk nîne.",
-    "hosting": "Mêvandarî",
-    "hostingContent": "Ev malper ji hêla Vercel Inc. ve tê mêvandarkirin. Binesaziya serverê û radestkirina naverokê dibe ku li derveyî Qada Aborî ya Ewropayê di bin garantiyên guncan de were bikaranîn (di nav de Bendên Peymana Standard dema ku têkildar be). Binêre [polîtîkaya nepenîtiyê ya Vercel](https://vercel.com/legal/privacy-policy).",
-    "processors": "Pêvajoker û kontrolên ewlehiyê",
-    "processorsContent": "Em van pêşkêşkaran wekî pêvajoker (madeya 28 GDPR) ji bo armancên jêrîn bi kar tînin. Dibe ku veguhestin bo Dewletên Yekbûyî çêbibin; em xwe dispêrin garantiyên guncan wekî Bendên Peymana Standard û şertên bikaranîna daneyan ên pêşkêşkaran.\n\n• Vercel Inc. — mêvandarî û radestkirina malperê.\n• Cloudflare, Inc. — parastina bot/spam a Cloudflare Turnstile dema forma nêrînan an ragihandina nivîsê tê vekirin an şandin. Turnstile dibe ku navnîşana IP û taybetmendiyên gerok/cihazê bi kar bîne da tokenekî verastkirinê derxe. Hûrgulî: [polîtîkaya nepenîtiyê ya Cloudflare](https://www.cloudflare.com/privacypolicy/) û belgeyên Turnstile.\n• Resend, Inc. — şandina e-nameyê ya nêrîn û ragihandinên nivîsê bo me. Hûrgulî: [polîtîkaya nepenîtiyê ya Resend](https://resend.com/legal/privacy-policy).\n\nBingeha qanûnî ya Turnstile û tedbîrên ewlehiyê yên têkildar: madeya 6(1)(f) GDPR (berjewendiya rewa di parastina forman de li hemberî xirabî û spamê). Dema bikarhêner xizmeta formê dixwaze, hilanîn an gihîştina agahiyê li ser cîhaza dawî ya ku bi tevahî ji bo wê xizmetê pêwîst e dibe ku jî di bin § 25(2) TTDSG de be.",
-    "purposeOfProcessing": "Armanc û bingehên qanûnî",
-    "purposeOfProcessingContent": "Em daneyan bi kar tînin da:\n\n• Vê malperê pêşkêş, ewle û xebitandinê bikin (madeya 6(1)(f) GDPR)\n• Nêrînên bijarte û ragihandinên nivîs/xeletiyên rastîn bistînin û rêvebirin (madeya 6(1)(f) GDPR)\n• Bersiv bidin dema tu bi dilxwazî e-nameyê didî (madeya 6(1)(a) û/an 6(1)(b) GDPR, li gorî daxwazê)\n• Spam û xirabiya otomatîk a forman bi riya Turnstile asteng bikin (madeya 6(1)(f) GDPR)",
-    "retention": "Demjimêra hilanînê",
-    "retentionContent": "Tomarkirinên serverê tenê ji hêla pêşkêşkarê mêvandariyê ve wekî ku ji bo ewlehî û xebitandinê pêwîst e tên hilanîn, paşê li gorî pratîkên pêşkêşkar têne jêbirin an nenasandin.\n\nPeyamên nêrîn û ragihandina nivîsê (di nav de e-nameya ku tu didî) tenê heta ku ji bo nirxandin û rêvebirina şandina te pêwîst e tên hilanîn, û heke ji bo şopandin an belgekirinê pêwîst be demeke kurt a zêde — paşê têne jêbirin.\n\nTokenên verastkirina Turnstile ji bo kontrola ewlehiyê tên bikaranîn û ji hêla me ve wekî profîlekî dirêjdem nayên hilanîn.",
-    "cookies": "Cookie û teknolojîyên wekhev",
-    "cookiesContent": "Ev malper cookieyên analîtîk an reklamê bi kar nayîne.\n\nTercîha zimanê dibe ku di cookieyeke piçûk an di hilanîna herêmî de were tomarkirin da em di serdanên paşîn de zimanê te nîşan bidin.\n\nCloudflare Turnstile dibe ku cookieyên teknîkî an hilanîna wekhev tenê dema tu formeke nêrîn/ragihandinê vedikî an bi kar tînî deyne an bixwîne — ji bo parastina li hemberî botan. Em Turnstile ji bo reklam an şopandina di navbera malperan de bi kar nayînin.\n\nTu dikarî cookie û daneyên malperê di mîhengên geroka xwe de her dem jê bibî.",
-    "yourRights": "Mafên te li gorî GDPR",
-    "yourRightsIntro": "Li gorî GDPR, li ser daneyên te yên kesane van mafan hene:",
-    "yourRightsList": "• Mafê gihîştinê (madeya 15 GDPR)\n• Mafê sererastkirinê (madeya 16 GDPR)\n• Mafê jêbirinê (madeya 17 GDPR)\n• Mafê sînorkirina bikaranînê (madeya 18 GDPR)\n• Mafê veguhastina daneyan (madeya 20 GDPR)\n• Mafê li dijî bikaranînê ya li ser bingeha berjewendiyên rewa (madeya 21 GDPR)\n• Mafê kişandina razîbûnê dema bikaranîn li ser razîbûnê be (madeya 7(3) GDPR)\n• Mafê gilîkirinê li cem desthilata çavdêriyê (madeya 77 GDPR)",
-    "supervisoryAuthority": "Desthilata çavdêriyê",
-    "supervisoryAuthorityContent": "Tu dikarî li cem desthilateke parastina daneyan gilî bikî. Ji bo Berlînê bi gelemperî ev e:\n\nBerliner Beauftragte für Datenschutz und Informationsfreiheit\nAlt-Moabit 59–61, 10555 Berlîn, Almanya\n[https://www.datenschutz-berlin.de](https://www.datenschutz-berlin.de)",
-    "contactInfo": "Ji bo bikaranîna mafên xwe an pirsên li ser daneyên xwe, ji {email} re binivîse."
   },
   "comparison": {
     "title": "Bernameyên partiyan bo hilbijartina herêmî ya Berlînê 2026",

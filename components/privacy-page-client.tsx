@@ -1,14 +1,20 @@
 "use client"
 
+import Link from "next/link"
 import { SiteFooter } from "@/components/site-footer"
 import { FeedbackFab } from "@/components/feedback-fab"
 import { SiteHeader } from "@/components/site-header"
 import { useLanguage } from "@/components/language-provider"
+import { legalLanguageFor } from "@/lib/i18n/get-translations"
 import { renderParagraphs } from "@/lib/utils"
 
 export function PrivacyPageClient() {
   const { language, translations } = useLanguage()
+  const legalLang = legalLanguageFor(language)
   const p = translations.privacy
+  const otherLang = legalLang === "en" ? "de" : "en"
+  const otherLabel =
+    legalLang === "en" ? "Datenschutzerklärung auf Deutsch" : "Privacy policy in English"
 
   const sections: Array<{ title: string; body: string }> = [
     { title: p.responsibleParty, body: p.responsiblePartyContent },
@@ -28,7 +34,7 @@ export function PrivacyPageClient() {
           {p.title}
         </h1>
         <div className="mt-4 space-y-3">
-          {renderParagraphs(p.intro, "text-muted-foreground leading-relaxed", language)}
+          {renderParagraphs(p.intro, "text-muted-foreground leading-relaxed", legalLang)}
         </div>
 
         <div className="mt-12 space-y-10">
@@ -39,7 +45,7 @@ export function PrivacyPageClient() {
                 {renderParagraphs(
                   section.body,
                   "text-muted-foreground leading-relaxed",
-                  language
+                  legalLang
                 )}
               </div>
             </section>
@@ -54,7 +60,7 @@ export function PrivacyPageClient() {
               {renderParagraphs(
                 p.yourRightsList,
                 "text-muted-foreground leading-relaxed",
-                language
+                legalLang
               )}
             </div>
             <p className="mt-4 text-muted-foreground leading-relaxed">
@@ -67,11 +73,20 @@ export function PrivacyPageClient() {
               {renderParagraphs(
                 p.supervisoryAuthorityContent,
                 "text-muted-foreground leading-relaxed",
-                language
+                legalLang
               )}
             </div>
           </section>
         </div>
+
+        <p className="mt-10 text-sm text-muted-foreground">
+          <Link
+            href={`/${otherLang}/privacy`}
+            className="underline underline-offset-2 transition-colors hover:text-foreground"
+          >
+            {otherLabel}
+          </Link>
+        </p>
       </main>
       <SiteFooter />
       <FeedbackFab />

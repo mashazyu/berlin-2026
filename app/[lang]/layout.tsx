@@ -3,6 +3,7 @@ import { Lora, DM_Sans, Noto_Sans_Arabic } from "next/font/google"
 import { notFound } from "next/navigation"
 import { Analytics } from "@vercel/analytics/next"
 import { LanguageProvider } from "@/components/language-provider"
+import { PostHogProvider } from "@/components/posthog-provider"
 import type { Language } from "@/lib/i18n/types"
 import { CONTENT_LANGUAGE, SUPPORTED_LANGUAGES } from "@/lib/seo/constants"
 
@@ -56,7 +57,9 @@ export default async function LangLayout({
             : `${lora.variable} ${dmSans.variable} font-sans antialiased`
         }
       >
-        <LanguageProvider initialLanguage={language}>{children}</LanguageProvider>
+        <LanguageProvider initialLanguage={language}>
+          <PostHogProvider>{children}</PostHogProvider>
+        </LanguageProvider>
         <Analytics />
       </body>
     </html>

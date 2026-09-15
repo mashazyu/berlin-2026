@@ -40,6 +40,21 @@ export function middleware(request: NextRequest) {
     acceptLanguage: request.headers.get("accept-language"),
   })
 
+  const segments = pathname.split("/")
+  const localeSegment = segments[1]
+  const restPath = `/${segments.slice(2).join("/")}`.replace(/\/$/, "") || ""
+  const isLegalPage = restPath === "/privacy" || restPath === "/impressum"
+
+  // Privacy + Impressum exist only in EN/DE; other locales fall back to German.
+  if (
+    isLegalPage &&
+    (SUPPORTED_LANGUAGES as readonly string[]).includes(localeSegment) &&
+    localeSegment !== "en" &&
+    localeSegment !== "de"
+  ) {
+    return temporaryRedirect(request, `/de${restPath}`)
+  }
+
   const hasLocale = SUPPORTED_LANGUAGES.some(
     (locale) => pathname === `/${locale}` || pathname.startsWith(`/${locale}/`)
   )
@@ -55,7 +70,13 @@ export function middleware(request: NextRequest) {
   }
 
   if (KNOWN_PAGE_PATHS.has(pathname)) {
-    return temporaryRedirect(request, `/${preferredLanguage}${pathname}`)
+    const legalFallback =
+      pathname === "/privacy" || pathname === "/impressum"
+        ? preferredLanguage === "en"
+          ? "en"
+          : "de"
+        : preferredLanguage
+    return temporaryRedirect(request, `/${legalFallback}${pathname}`)
   }
 
   return new NextResponse("Not Found", { status: 404 })

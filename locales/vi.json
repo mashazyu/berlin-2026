@@ -4,8 +4,6 @@
     "homeDescription": "Chương trình chính thức cho bầu cử Viện Dân biểu Berlin ngày 20 tháng 9 năm 2026: giao thông, nhà ở, khí hậu, an ninh và nhiều chủ đề khác. Độc lập — không phải lời khuyên bỏ phiếu.",
     "aboutTitle": "Giới thiệu — Berlin 2026",
     "aboutDescription": "Ai làm Berlin 2026: Nina so sánh chương trình các đảng và phát triển dự án; Masha lo phần kỹ thuật. Độc lập, không thuộc đảng nào.",
-    "privacyTitle": "Chính sách bảo vệ dữ liệu — Berlin 2026",
-    "privacyDescription": "Cách Berlin 2026 xử lý dữ liệu cá nhân theo GDPR.",
     "aiDisclosureTitle": "Công bố về AI — Berlin 2026",
     "aiDisclosureDescription": "Chúng tôi dùng AI thế nào cho nội dung trang và bảng so sánh — và vì sao con người vẫn chịu trách nhiệm về ý tưởng, nội dung và độ chính xác.",
     "keywords": [
@@ -31,7 +29,8 @@
   "navigation": {
     "comparison": "So sánh",
     "motivation": "Vì sao chúng tôi làm",
-    "privacy": "Bảo vệ dữ liệu"
+    "privacy": "Bảo vệ dữ liệu",
+    "about": "Giới thiệu"
   },
   "hero": {
     "headline": "Bầu cử bang Berlin 2026 — so sánh chương trình các đảng",
@@ -117,7 +116,8 @@
     "contact": "Liên hệ",
     "about": "Giới thiệu",
     "privacy": "Bảo vệ dữ liệu",
-    "contribute": "Đóng góp"
+    "contribute": "Đóng góp",
+    "impressum": "Thông tin pháp lý"
   },
   "feedback": {
     "fabLabel": "Gửi phản hồi",
@@ -164,30 +164,6 @@
     "reviewAndAccuracyContent": "Bảng so sánh các đảng phần lớn được xây bằng AI từ chương trình chính thức. Hãy tự kiểm lại những điểm quan trọng với bạn. Bản dịch đầy đủ chương trình các đảng chính có trên BerlinVote.Help. Chúng tôi kiểm tra độ chính xác, nhưng vẫn có thể còn lỗi hoặc bỏ sót sắc thái. Nếu thấy sai, hãy báo cho chúng tôi.",
     "contact": "Liên hệ",
     "contactContent": "Có câu hỏi về cách chúng tôi dùng AI hoặc về nội dung trên trang? Viết tới {email}."
-  },
-  "privacy": {
-    "title": "Chính sách bảo vệ dữ liệu",
-    "intro": "Chính sách này giải thích cách chúng tôi thu thập, sử dụng và bảo vệ thông tin cá nhân khi bạn truy cập trang, theo Quy định Bảo vệ Dữ liệu Chung (GDPR) và luật bảo vệ dữ liệu Đức áp dụng (gồm TTDSG).",
-    "responsibleParty": "Bên chịu trách nhiệm (controller)",
-    "responsiblePartyContent": "Dự án Berlin 2026\nEmail: {email}",
-    "dataProcessed": "Dữ liệu được xử lý",
-    "dataProcessedContent": "Khi bạn truy cập trang, nhà cung cấp hosting có thể tự động xử lý dữ liệu kỹ thuật cần để phục vụ trang (ví dụ địa chỉ IP, thông tin trình duyệt/user-agent, và dấu thời gian yêu cầu trong nhật ký máy chủ). Chúng tôi không vận hành tài khoản người dùng và không yêu cầu đăng ký.\n\nNếu bạn dùng biểu mẫu phản hồi tùy chọn, chúng tôi xử lý tin nhắn, URL trang, ngôn ngữ giao diện, và — nếu bạn chọn cung cấp — địa chỉ email để trả lời.\n\nNếu bạn báo cáo câu chữ sai hoặc lỗi sự thật (gồm qua nút «Báo cáo đoạn này» sau khi chọn văn bản), chúng tôi xử lý đoạn văn sai được trích, bản sửa đề xuất của bạn, URL trang và ngôn ngữ giao diện.\n\nKhi gửi một trong hai biểu mẫu, chúng tôi cũng xử lý token bảo mật Cloudflare Turnstile và tín hiệu kỹ thuật liên quan để xác minh yêu cầu không phải spam tự động.",
-    "hosting": "Hosting",
-    "hostingContent": "Trang này được lưu trữ bởi Vercel Inc. Cơ sở hạ tầng máy chủ và phân phối nội dung có thể liên quan đến xử lý ngoài Khu vực Kinh tế Châu Âu với các biện pháp bảo vệ phù hợp (gồm Điều khoản Hợp đồng Tiêu chuẩn khi áp dụng). Xem [Chính sách bảo mật của Vercel](https://vercel.com/legal/privacy-policy).",
-    "processors": "Bên xử lý và kiểm tra bảo mật",
-    "processorsContent": "Chúng tôi dùng các nhà cung cấp sau làm bên xử lý (điều 28 GDPR) cho các mục đích mô tả dưới đây. Việc chuyển tới Hoa Kỳ có thể xảy ra; chúng tôi dựa vào các biện pháp bảo vệ phù hợp như Điều khoản Hợp đồng Tiêu chuẩn và điều khoản xử lý dữ liệu của nhà cung cấp.\n\n• Vercel Inc. — hosting và phân phối trang web.\n• Cloudflare, Inc. — bảo vệ bot/spam Cloudflare Turnstile khi mở hoặc gửi biểu mẫu phản hồi hoặc báo cáo văn bản. Turnstile có thể xử lý địa chỉ IP và đặc điểm trình duyệt/thiết bị để cấp token xác minh. Chi tiết: [Chính sách bảo mật Cloudflare](https://www.cloudflare.com/privacypolicy/) và tài liệu Turnstile.\n• Resend, Inc. — gửi email giao dịch về phản hồi và báo cáo văn bản tới chúng tôi. Chi tiết: [Chính sách bảo mật Resend](https://resend.com/legal/privacy-policy).\n\nCơ sở pháp lý cho Turnstile và biện pháp bảo mật liên quan: điều 6(1)(f) GDPR (lợi ích hợp pháp trong việc bảo vệ biểu mẫu khỏi lạm dụng và spam). Khi người dùng yêu cầu dịch vụ biểu mẫu, việc lưu hoặc truy cập thông tin trên thiết bị đầu cuối cần thiết nghiêm ngặt cho dịch vụ đó cũng có thể được điều 25(2) TTDSG bao phủ.",
-    "purposeOfProcessing": "Mục đích và cơ sở pháp lý",
-    "purposeOfProcessingContent": "Chúng tôi xử lý dữ liệu để:\n\n• Cung cấp, bảo vệ và duy trì trang web này (điều 6(1)(f) GDPR)\n• Nhận và xử lý phản hồi tùy chọn cũng như báo cáo lỗi văn bản/sự thật (điều 6(1)(f) GDPR)\n• Trả lời khi bạn tự nguyện cung cấp địa chỉ email (điều 6(1)(a) GDPR và/hoặc điều 6(1)(b) GDPR, tùy yêu cầu)\n• Ngăn spam và lạm dụng tự động biểu mẫu qua Turnstile (điều 6(1)(f) GDPR)",
-    "retention": "Thời gian lưu trữ",
-    "retentionContent": "Nhật ký máy chủ được nhà cung cấp hosting giữ chỉ trong thời gian cần cho bảo mật và vận hành, rồi xóa hoặc ẩn danh theo thực hành của nhà cung cấp.\n\nTin phản hồi và báo cáo văn bản (gồm mọi email bạn cung cấp) được giữ chỉ trong thời gian cần để xem xét và xử lý, và thêm một khoảng ngắn nếu cần theo dõi hoặc lưu hồ sơ, rồi xóa.\n\nToken xác minh Turnstile dùng cho kiểm tra bảo mật và không được chúng tôi lưu thành hồ sơ dài hạn.",
-    "cookies": "Cookie và công nghệ tương tự",
-    "cookiesContent": "Trang này không dùng cookie phân tích hay quảng cáo.\n\nTùy chọn ngôn ngữ có thể được lưu trong cookie nhỏ hoặc local storage để hiện ngôn ngữ bạn chọn khi quay lại.\n\nCloudflare Turnstile có thể đặt hoặc đọc cookie kỹ thuật hoặc lưu trữ tương tự chỉ khi bạn mở hoặc dùng biểu mẫu phản hồi/báo cáo, để chống bot. Chúng tôi không dùng Turnstile cho quảng cáo hay theo dõi liên trang.\n\nBạn có thể xóa cookie và dữ liệu trang bất cứ lúc nào trong cài đặt trình duyệt.",
-    "yourRights": "Quyền của bạn theo GDPR",
-    "yourRightsIntro": "Theo GDPR, bạn có các quyền sau đối với dữ liệu cá nhân:",
-    "yourRightsList": "• Quyền truy cập (điều 15 GDPR)\n• Quyền chỉnh sửa (điều 16 GDPR)\n• Quyền xóa (điều 17 GDPR)\n• Quyền hạn chế xử lý (điều 18 GDPR)\n• Quyền chuyển dữ liệu (điều 20 GDPR)\n• Quyền phản đối xử lý dựa trên lợi ích hợp pháp (điều 21 GDPR)\n• Quyền rút đồng ý khi xử lý dựa trên đồng ý (điều 7(3) GDPR)\n• Quyền khiếu nại với cơ quan giám sát (điều 77 GDPR)",
-    "supervisoryAuthority": "Cơ quan giám sát",
-    "supervisoryAuthorityContent": "Bạn có thể khiếu nại với cơ quan giám sát bảo vệ dữ liệu. Đối với Berlin, thường là:\n\nBerliner Beauftragte für Datenschutz und Informationsfreiheit\nAlt-Moabit 59–61, 10555 Berlin, Germany\n[https://www.datenschutz-berlin.de](https://www.datenschutz-berlin.de)",
-    "contactInfo": "Để thực hiện quyền hoặc hỏi về dữ liệu của bạn, liên hệ {email}."
   },
   "comparison": {
     "title": "Chương trình các đảng cho bầu cử bang Berlin 2026",

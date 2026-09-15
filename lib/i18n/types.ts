@@ -33,6 +33,8 @@ export type Translations = {
     aboutDescription: string
     privacyTitle: string
     privacyDescription: string
+    impressumTitle: string
+    impressumDescription: string
     aiDisclosureTitle: string
     aiDisclosureDescription: string
     keywords: string[]
@@ -44,6 +46,7 @@ export type Translations = {
   navigation: {
     motivation: string
     comparison: string
+    about: string
     privacy: string
   }
   hero: {
@@ -133,6 +136,7 @@ export type Translations = {
     about: string
     privacy: string
     contribute: string
+    impressum: string
   }
   feedback: {
     fabLabel: string
@@ -179,6 +183,21 @@ export type Translations = {
     reviewAndAccuracyContent: string
     contact: string
     contactContent: string
+  }
+  impressum: {
+    title: string
+    responsibleParty: string
+    responsiblePartyContent: string
+    contact: string
+    contactContent: string
+    editorial: string
+    editorialContent: string
+    disclaimer: string
+    disclaimerContent: string
+    liability: string
+    liabilityContent: string
+    languageVersions: string
+    languageVersionsContent: string
   }
   privacy: {
     title: string
