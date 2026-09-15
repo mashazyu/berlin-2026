@@ -111,6 +111,14 @@
         "Tech & business",
         "Berlin briefing"
       ]
+    },
+    {
+      "id": "20percent",
+      "source": "20 Percent Berlin",
+      "topics": [
+        "Election",
+        "Berlin news"
+      ]
     }
   ],
   "footer": {

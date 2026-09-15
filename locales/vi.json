@@ -107,6 +107,14 @@
         "Tech & business",
         "Berlin briefing"
       ]
+    },
+    {
+      "id": "20percent",
+      "source": "20 Percent Berlin",
+      "topics": [
+        "Bầu cử",
+        "Tin Berlin"
+      ]
     }
   ],
   "footer": {
