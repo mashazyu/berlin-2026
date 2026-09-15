@@ -13,6 +13,7 @@ import { useLanguage } from "@/components/language-provider"
 import { groupTopics, TOPIC_GROUP_ORDER } from "@/lib/comparison/groups"
 import { cellKey } from "@/lib/comparison/get-comparison"
 import type { ResolvedComparison, TopicGroup } from "@/lib/comparison/types"
+import { selectionChipClassName } from "@/lib/chip-styles"
 import { cn, renderParagraphs } from "@/lib/utils"
 
 const CURRENT_FACTION_PARTY_IDS = [
@@ -307,12 +308,7 @@ export function ComparisonTable({
                   type="button"
                   onClick={() => toggleParty(party.id)}
                   aria-pressed={active}
-                  className={cn(
-                    "inline-flex h-9 items-center rounded-md border px-3 text-sm font-medium transition-colors",
-                    active
-                      ? "border-primary bg-primary text-primary-foreground"
-                      : "border-border bg-background text-muted-foreground hover:border-primary/40 hover:text-foreground"
-                  )}
+                  className={selectionChipClassName(active)}
                 >
                   {party.shortName}
                 </button>

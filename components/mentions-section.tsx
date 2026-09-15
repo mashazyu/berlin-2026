@@ -2,8 +2,9 @@
 
 import { ExternalLink } from "lucide-react"
 import { useLanguage } from "@/components/language-provider"
-import { buttonVariants } from "@/components/ui/button"
+import { metaTagClassName, selectionChipClassName } from "@/lib/chip-styles"
 import { getMentions, type Mention } from "@/lib/mentions"
+import { cn } from "@/lib/utils"
 
 function formatMentionDate(dateString: string) {
   const full = /^(\d{4})-(\d{2})-(\d{2})$/.exec(dateString)
@@ -36,12 +37,9 @@ function MentionItem({
             {formatMentionDate(mention.date)}
           </time>
         </div>
-        <ul className="mt-2 flex flex-wrap gap-1.5">
+        <ul className="mt-2 flex flex-wrap gap-2">
           {mention.topics.map((topic) => (
-            <li
-              key={topic}
-              className="rounded-md border border-border/80 bg-muted/50 px-2 py-0.5 text-[12px] leading-snug text-foreground/80"
-            >
+            <li key={topic} className={metaTagClassName()}>
               {topic}
             </li>
           ))}
@@ -58,7 +56,7 @@ function MentionItem({
           href={mention.postUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className={buttonVariants({ variant: "outline", size: "sm" })}
+          className={cn(selectionChipClassName(false), "gap-1.5")}
         >
           {openPostLabel}
           <ExternalLink className="size-3.5 opacity-70" aria-hidden />
