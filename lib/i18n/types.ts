@@ -46,6 +46,7 @@ export type Translations = {
   navigation: {
     motivation: string
     comparison: string
+    about: string
     privacy: string
   }
   hero: {

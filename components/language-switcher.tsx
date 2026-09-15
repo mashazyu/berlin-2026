@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useId, useRef, useState, type AriaRole } from "react"
+import { useEffect, useId, useRef, useState } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { ChevronDown } from "lucide-react"
@@ -30,49 +30,6 @@ function alternatePath(pathname: string, lang: Language): string {
     return segments.join("/") || `/${lang}`
   }
   return `/${lang}`
-}
-
-function LocaleLinks({
-  pathname,
-  language,
-  setLanguage,
-  onNavigate,
-  className,
-  linkClassName,
-  role = "group",
-}: {
-  pathname: string
-  language: Language
-  setLanguage: (lang: Language) => void
-  onNavigate?: () => void
-  className?: string
-  linkClassName?: (active: boolean) => string
-  role?: AriaRole
-}) {
-  return (
-    <div className={className} role={role} aria-label={role === "group" ? "Language" : undefined}>
-      {SUPPORTED_LANGUAGES.map((lang) => {
-        const href = alternatePath(pathname, lang)
-        const active = lang === language
-        return (
-          <Link
-            key={lang}
-            href={href}
-            hrefLang={lang}
-            role={role === "group" ? undefined : "menuitem"}
-            aria-current={active ? "page" : undefined}
-            onClick={() => {
-              if (!active) setLanguage(lang)
-              onNavigate?.()
-            }}
-            className={linkClassName?.(active)}
-          >
-            {LABELS[lang]}
-          </Link>
-        )
-      })}
-    </div>
-  )
 }
 
 export function LanguageSwitcher({ className }: { className?: string }) {
@@ -111,69 +68,61 @@ export function LanguageSwitcher({ className }: { className?: string }) {
 
   return (
     <div ref={rootRef} className={cn("relative shrink-0", className)}>
-      {/* Mobile: compact disclosure */}
-      <div className="md:hidden">
-        <button
-          type="button"
-          className="inline-flex h-9 items-center gap-1 rounded-md border border-border bg-muted/40 px-2.5 text-xs font-semibold tracking-wide text-foreground transition-colors hover:bg-muted"
-          aria-expanded={open}
-          aria-controls={menuId}
-          aria-haspopup="menu"
-          aria-label="Language"
-          onClick={() => setOpen((value) => !value)}
-        >
-          {LABELS[language]}
-          <ChevronDown
-            className={cn(
-              "h-3.5 w-3.5 text-muted-foreground transition-transform",
-              open && "rotate-180"
-            )}
-            aria-hidden
-          />
-        </button>
-        <div
-          id={menuId}
-          role="menu"
-          aria-label="Language"
+      <button
+        type="button"
+        className="inline-flex h-9 items-center gap-1 rounded-md border border-border bg-muted/40 px-2.5 text-xs font-semibold tracking-wide text-foreground transition-colors hover:bg-muted"
+        aria-expanded={open}
+        aria-controls={menuId}
+        aria-haspopup="menu"
+        aria-label="Language"
+        onClick={() => setOpen((value) => !value)}
+      >
+        {LABELS[language]}
+        <ChevronDown
           className={cn(
-            "absolute end-0 top-[calc(100%+0.35rem)] z-50 min-w-[7.5rem] rounded-md border border-border bg-white p-1 shadow-md",
-            !open && "hidden"
+            "h-3.5 w-3.5 text-muted-foreground transition-transform",
+            open && "rotate-180"
           )}
-        >
-          <LocaleLinks
-            pathname={pathname}
-            language={language}
-            setLanguage={setLanguage}
-            onNavigate={() => setOpen(false)}
-            role={undefined}
-            className="flex flex-col"
-            linkClassName={(active) =>
-              cn(
-                "flex h-9 items-center rounded-sm px-3 text-xs font-semibold tracking-wide transition-colors",
-                active
-                  ? "bg-primary text-primary-foreground"
-                  : "text-muted-foreground hover:bg-muted hover:text-foreground"
-              )
-            }
-          />
+          aria-hidden
+        />
+      </button>
+      <div
+        id={menuId}
+        role="menu"
+        aria-label="Language"
+        className={cn(
+          "absolute end-0 top-[calc(100%+0.35rem)] z-50 min-w-[7.5rem] rounded-md border border-border bg-white p-1 shadow-md",
+          !open && "hidden"
+        )}
+      >
+        <div className="flex flex-col">
+          {SUPPORTED_LANGUAGES.map((lang) => {
+            const href = alternatePath(pathname, lang)
+            const active = lang === language
+            return (
+              <Link
+                key={lang}
+                href={href}
+                hrefLang={lang}
+                role="menuitem"
+                aria-current={active ? "page" : undefined}
+                onClick={() => {
+                  if (!active) setLanguage(lang)
+                  setOpen(false)
+                }}
+                className={cn(
+                  "flex h-9 items-center rounded-sm px-3 text-xs font-semibold tracking-wide transition-colors",
+                  active
+                    ? "bg-primary text-primary-foreground"
+                    : "text-muted-foreground hover:bg-muted hover:text-foreground"
+                )}
+              >
+                {LABELS[lang]}
+              </Link>
+            )
+          })}
         </div>
       </div>
-
-      {/* Desktop: segmented control */}
-      <LocaleLinks
-        pathname={pathname}
-        language={language}
-        setLanguage={setLanguage}
-        className="hidden h-9 items-center rounded-md border border-border bg-muted/40 p-0.5 md:inline-flex"
-        linkClassName={(active) =>
-          cn(
-            "inline-flex h-8 min-w-8 items-center justify-center rounded-sm px-2 text-xs font-semibold tracking-wide transition-colors",
-            active
-              ? "bg-primary text-primary-foreground"
-              : "text-muted-foreground hover:text-foreground"
-          )
-        }
-      />
     </div>
   )
 }

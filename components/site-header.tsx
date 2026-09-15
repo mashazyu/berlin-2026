@@ -18,7 +18,9 @@ export function SiteHeader() {
   const [open, setOpen] = useState(false)
 
   const homePath = `/${language}`
+  const aboutPath = `/${language}/about`
   const onHome = pathname === homePath || pathname === `${homePath}/`
+  const onAbout = pathname === aboutPath || pathname === `${aboutPath}/`
 
   const sectionLinks = [
     { id: "comparison", label: t.navigation.comparison },
@@ -37,6 +39,11 @@ export function SiteHeader() {
     return () => window.clearTimeout(timer)
   }, [onHome])
 
+  const navLinkClass =
+    "inline-flex h-9 items-center px-3 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
+  const mobileLinkClass =
+    "flex h-11 items-center rounded-md px-3 text-sm font-medium text-foreground transition-colors hover:bg-muted"
+
   return (
     <header className="sticky top-0 z-40 border-b border-border bg-white">
       <div className="mx-auto flex h-14 max-w-7xl items-center justify-between gap-4 px-4 sm:px-6">
@@ -51,13 +58,16 @@ export function SiteHeader() {
         </Link>
 
         <div className="flex h-9 items-center gap-1 sm:gap-2">
-          <nav className="me-3 hidden h-9 items-center md:me-5 md:flex" aria-label="Primary">
+          <nav
+            className="me-3 hidden h-9 items-center md:me-5 md:flex"
+            aria-label="Primary"
+          >
             {sectionLinks.map((link) =>
               onHome ? (
                 <a
                   key={link.id}
                   href={`#${link.id}`}
-                  className="inline-flex h-9 items-center px-3 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
+                  className={navLinkClass}
                   onClick={(event) => handleSectionLinkClick(event, link.id)}
                 >
                   {link.label}
@@ -66,13 +76,21 @@ export function SiteHeader() {
                 <Link
                   key={link.id}
                   href={`${homePath}#${link.id}`}
-                  className="inline-flex h-9 items-center px-3 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
+                  className={navLinkClass}
                   onClick={closeMenu}
                 >
                   {link.label}
                 </Link>
               )
             )}
+            <Link
+              href={aboutPath}
+              className={cn(navLinkClass, onAbout && "text-foreground")}
+              aria-current={onAbout ? "page" : undefined}
+              onClick={closeMenu}
+            >
+              {t.navigation.about}
+            </Link>
           </nav>
 
           <LanguageSwitcher />
@@ -104,7 +122,7 @@ export function SiteHeader() {
               <a
                 key={link.id}
                 href={`#${link.id}`}
-                className="flex h-11 items-center rounded-md px-3 text-sm font-medium text-foreground transition-colors hover:bg-muted"
+                className={mobileLinkClass}
                 onClick={(event) =>
                   handleSectionLinkClick(event, link.id, closeMenu)
                 }
@@ -115,13 +133,21 @@ export function SiteHeader() {
               <Link
                 key={link.id}
                 href={`${homePath}#${link.id}`}
-                className="flex h-11 items-center rounded-md px-3 text-sm font-medium text-foreground transition-colors hover:bg-muted"
+                className={mobileLinkClass}
                 onClick={closeMenu}
               >
                 {link.label}
               </Link>
             )
           )}
+          <Link
+            href={aboutPath}
+            className={cn(mobileLinkClass, onAbout && "bg-muted")}
+            aria-current={onAbout ? "page" : undefined}
+            onClick={closeMenu}
+          >
+            {t.navigation.about}
+          </Link>
         </div>
       </nav>
     </header>
