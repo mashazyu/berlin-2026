@@ -16,8 +16,11 @@ export type MentionFact = {
   kind: MentionKind
   /** Optional logo under /public (e.g. /mentions/handpicked.png) */
   logo?: string
-  /** Locales where this mention should appear on the about page */
-  languages: Language[]
+  /**
+   * Locales where this mention should appear.
+   * Omit or leave empty to show in every language.
+   */
+  languages?: Language[]
 }
 
 export type Mention = MentionFact & {
@@ -30,12 +33,20 @@ type MentionsFile = {
   mentions: MentionFact[]
 }
 
+function isVisibleInLanguage(
+  mention: MentionFact,
+  language: Language
+): boolean {
+  const langs = mention.languages
+  return !langs?.length || langs.includes(language)
+}
+
 export function getMentions(language: Language): Mention[] {
   const t = getTranslations(language)
   const byId = new Map(t.mentionSummaries.map((item) => [item.id, item]))
 
   return (mentionsData as MentionsFile).mentions
-    .filter((mention) => mention.languages.includes(language))
+    .filter((mention) => isVisibleInLanguage(mention, language))
     .map((mention) => {
       const localized = byId.get(mention.id)
       return {
