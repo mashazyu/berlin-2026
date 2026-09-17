@@ -115,6 +115,22 @@
         "Hilbijartin",
         "Nûçeyên Berlînê"
       ]
+    },
+    {
+      "id": "zernaradosti",
+      "source": "Zerna Radosti",
+      "topics": [
+        "Nûçeyên bajêr",
+        "Jiyana Berlînê"
+      ]
+    },
+    {
+      "id": "russischsprachigelinke",
+      "source": "Russischsprachige Linke",
+      "topics": [
+        "Siyaset",
+        "Hilbijartin"
+      ]
     }
   ],
   "footer": {

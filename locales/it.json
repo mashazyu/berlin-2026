@@ -115,6 +115,22 @@
         "Elezioni",
         "Notizie da Berlino"
       ]
+    },
+    {
+      "id": "zernaradosti",
+      "source": "Zerna Radosti",
+      "topics": [
+        "Notizie locali",
+        "Vita a Berlino"
+      ]
+    },
+    {
+      "id": "russischsprachigelinke",
+      "source": "Russischsprachige Linke",
+      "topics": [
+        "Politica",
+        "Elezioni"
+      ]
     }
   ],
   "footer": {

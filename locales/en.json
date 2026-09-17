@@ -119,6 +119,22 @@
         "Election",
         "Berlin news"
       ]
+    },
+    {
+      "id": "zernaradosti",
+      "source": "Zerna Radosti",
+      "topics": [
+        "City news",
+        "Berlin life"
+      ]
+    },
+    {
+      "id": "russischsprachigelinke",
+      "source": "Russischsprachige Linke",
+      "topics": [
+        "Politics",
+        "Election"
+      ]
     }
   ],
   "footer": {

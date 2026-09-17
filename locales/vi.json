@@ -115,6 +115,22 @@
         "Bầu cử",
         "Tin Berlin"
       ]
+    },
+    {
+      "id": "zernaradosti",
+      "source": "Zerna Radosti",
+      "topics": [
+        "Tin thành phố",
+        "Đời sống Berlin"
+      ]
+    },
+    {
+      "id": "russischsprachigelinke",
+      "source": "Russischsprachige Linke",
+      "topics": [
+        "Chính trị",
+        "Bầu cử"
+      ]
     }
   ],
   "footer": {

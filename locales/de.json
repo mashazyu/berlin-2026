@@ -118,6 +118,22 @@
         "Wahl",
         "Berlin-News"
       ]
+    },
+    {
+      "id": "zernaradosti",
+      "source": "Zerna Radosti",
+      "topics": [
+        "Stadtnachrichten",
+        "Berliner Leben"
+      ]
+    },
+    {
+      "id": "russischsprachigelinke",
+      "source": "Russischsprachige Linke",
+      "topics": [
+        "Politik",
+        "Wahl"
+      ]
     }
   ],
   "footer": {

@@ -115,6 +115,22 @@
         "Seçim",
         "Berlin haberleri"
       ]
+    },
+    {
+      "id": "zernaradosti",
+      "source": "Zerna Radosti",
+      "topics": [
+        "Şehir haberleri",
+        "Berlin yaşamı"
+      ]
+    },
+    {
+      "id": "russischsprachigelinke",
+      "source": "Russischsprachige Linke",
+      "topics": [
+        "Siyaset",
+        "Seçim"
+      ]
     }
   ],
   "footer": {

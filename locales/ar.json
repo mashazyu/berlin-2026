@@ -115,6 +115,22 @@
         "الانتخابات",
         "أخبار برلين"
       ]
+    },
+    {
+      "id": "zernaradosti",
+      "source": "Zerna Radosti",
+      "topics": [
+        "أخبار المدينة",
+        "الحياة في برلين"
+      ]
+    },
+    {
+      "id": "russischsprachigelinke",
+      "source": "Russischsprachige Linke",
+      "topics": [
+        "سياسة",
+        "الانتخابات"
+      ]
     }
   ],
   "footer": {
