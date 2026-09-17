@@ -64,71 +64,82 @@
       "substack": "Substack",
       "article": "Стаття"
     },
-    "openPost": "Відкрити"
+    "openPost": "Відкрити",
+    "topicLabels": {
+      "city_news": "Міські новини",
+      "berlin_life": "Життя в Берліні",
+      "politics": "Політика",
+      "germany_news": "Новини Німеччини",
+      "events": "Події",
+      "weekly_guide": "Тижневий гід",
+      "internationals": "Для іноземців",
+      "tech_business": "Технології та бізнес",
+      "election": "Вибори"
+    }
   },
   "mentionSummaries": [
     {
       "id": "berlinwelle",
       "source": "Volna / Berlin",
       "topics": [
-        "City news",
-        "Berlin life"
+        "city_news",
+        "berlin_life"
       ]
     },
     {
       "id": "bundeskanzler",
       "source": "Bundeskanzler",
       "topics": [
-        "Politics",
-        "Germany news"
+        "politics",
+        "germany_news"
       ]
     },
     {
       "id": "berlinevents",
       "source": "Berlin Events Weekly",
       "topics": [
-        "Events",
-        "Weekly guide"
+        "events",
+        "weekly_guide"
       ]
     },
     {
       "id": "theberlinlife",
       "source": "The Berlin Life",
       "topics": [
-        "Internationals",
-        "Life in Berlin"
+        "internationals",
+        "berlin_life"
       ]
     },
     {
       "id": "handpicked",
       "source": "Handpicked Berlin",
       "topics": [
-        "Tech & business",
-        "Berlin briefing"
+        "tech_business",
+        "city_news"
       ]
     },
     {
       "id": "20percent",
       "source": "20 Percent Berlin",
       "topics": [
-        "Вибори",
-        "Новини Берліна"
+        "election",
+        "city_news"
       ]
     },
     {
       "id": "zernaradosti",
       "source": "Зерна радості",
       "topics": [
-        "Міські новини",
-        "Життя в Берліні"
+        "city_news",
+        "berlin_life"
       ]
     },
     {
       "id": "russischsprachigelinke",
       "source": "Російськомовні ліві",
       "topics": [
-        "Політика",
-        "Вибори"
+        "politics",
+        "election"
       ]
     }
   ],

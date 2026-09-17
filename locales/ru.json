@@ -64,71 +64,82 @@
       "substack": "Substack",
       "article": "Статья"
     },
-    "openPost": "Открыть"
+    "openPost": "Открыть",
+    "topicLabels": {
+      "city_news": "Городские новости",
+      "berlin_life": "Жизнь в Берлине",
+      "politics": "Политика",
+      "germany_news": "Новости Германии",
+      "events": "События",
+      "weekly_guide": "Еженедельный гид",
+      "internationals": "Для иностранцев",
+      "tech_business": "Технологии и бизнес",
+      "election": "Выборы"
+    }
   },
   "mentionSummaries": [
     {
       "id": "berlinwelle",
       "source": "Волна / Берлин",
       "topics": [
-        "Городские новости",
-        "Жизнь в Берлине"
+        "city_news",
+        "berlin_life"
       ]
     },
     {
       "id": "bundeskanzler",
       "source": "Бундесканцлер",
       "topics": [
-        "Политика",
-        "Новости Германии"
+        "politics",
+        "germany_news"
       ]
     },
     {
       "id": "berlinevents",
       "source": "Berlin Events Weekly",
       "topics": [
-        "События",
-        "Еженедельный гид"
+        "events",
+        "weekly_guide"
       ]
     },
     {
       "id": "theberlinlife",
       "source": "The Berlin Life",
       "topics": [
-        "Internationals",
-        "Жизнь в Берлине"
+        "internationals",
+        "berlin_life"
       ]
     },
     {
       "id": "handpicked",
       "source": "Handpicked Berlin",
       "topics": [
-        "Технологии и бизнес",
-        "Берлинский дайджест"
+        "tech_business",
+        "city_news"
       ]
     },
     {
       "id": "20percent",
       "source": "20 Percent Berlin",
       "topics": [
-        "Выборы",
-        "Новости Берлина"
+        "election",
+        "city_news"
       ]
     },
     {
       "id": "zernaradosti",
       "source": "Зерна радости",
       "topics": [
-        "Городские новости",
-        "Жизнь в Берлине"
+        "city_news",
+        "berlin_life"
       ]
     },
     {
       "id": "russischsprachigelinke",
       "source": "Русскоязычные левые",
       "topics": [
-        "Политика",
-        "Выборы"
+        "politics",
+        "election"
       ]
     }
   ],

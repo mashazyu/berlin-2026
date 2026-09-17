@@ -83,11 +83,34 @@ export type Translations = {
       substack: string
       article: string
     }
+    /** Shared media-tag labels; mentionSummaries.topics reference these keys. */
+    topicLabels: {
+      city_news: string
+      berlin_life: string
+      politics: string
+      germany_news: string
+      events: string
+      weekly_guide: string
+      internationals: string
+      tech_business: string
+      election: string
+    }
   }
   mentionSummaries: Array<{
     id: string
     source: string
-    topics: string[]
+    /** Keys of mentions.topicLabels */
+    topics: Array<
+      | "city_news"
+      | "berlin_life"
+      | "politics"
+      | "germany_news"
+      | "events"
+      | "weekly_guide"
+      | "internationals"
+      | "tech_business"
+      | "election"
+    >
   }>
   comparison: {
     title: string
