@@ -145,6 +145,14 @@
         "politics",
         "election"
       ]
+    },
+    {
+      "id": "gooseexpat",
+      "source": "Goose Expat",
+      "topics": [
+        "internationals",
+        "election"
+      ]
     }
   ],
   "footer": {

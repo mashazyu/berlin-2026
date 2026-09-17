@@ -141,6 +141,14 @@
         "politics",
         "election"
       ]
+    },
+    {
+      "id": "gooseexpat",
+      "source": "Гусь у Берліні",
+      "topics": [
+        "internationals",
+        "election"
+      ]
     }
   ],
   "footer": {
