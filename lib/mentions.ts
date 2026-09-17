@@ -1,12 +1,15 @@
 /**
  * Project mentions (Telegram, newsletters, Substack, articles).
- * Source names and topics live in locales/*.json under mentionSummaries.
+ * Source names live in locales/*.json under mentionSummaries;
+ * topic tag IDs resolve via mentions.topicLabels.
  */
 
 import mentionsData from "@/data/mentions.json"
-import { getTranslations, type Language } from "@/lib/i18n/get-translations"
+import { getTranslations, type Language, type Translations } from "@/lib/i18n/get-translations"
 
 export type MentionKind = "telegram" | "newsletter" | "substack" | "article"
+
+export type MentionTopicId = keyof Translations["mentions"]["topicLabels"]
 
 export type MentionFact = {
   id: string
@@ -25,6 +28,7 @@ export type MentionFact = {
 
 export type Mention = MentionFact & {
   source: string
+  /** Localized topic labels (max used in UI is 2). */
   topics: string[]
   kindLabel: string
 }
@@ -41,6 +45,17 @@ function isVisibleInLanguage(
   return !langs?.length || langs.includes(language)
 }
 
+function resolveTopics(
+  topicIds: string[] | undefined,
+  labels: Translations["mentions"]["topicLabels"]
+): string[] {
+  if (!topicIds?.length) return []
+  return topicIds.map((id) => {
+    if (id in labels) return labels[id as MentionTopicId]
+    return id
+  })
+}
+
 export function getMentions(language: Language): Mention[] {
   const t = getTranslations(language)
   const byId = new Map(t.mentionSummaries.map((item) => [item.id, item]))
@@ -52,7 +67,7 @@ export function getMentions(language: Language): Mention[] {
       return {
         ...mention,
         source: localized?.source ?? mention.id,
-        topics: localized?.topics ?? [],
+        topics: resolveTopics(localized?.topics, t.mentions.topicLabels),
         kindLabel: t.mentions.kindLabels[mention.kind],
       }
     })

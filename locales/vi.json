@@ -65,55 +65,82 @@
       "substack": "Substack",
       "article": "Bài viết"
     },
-    "openPost": "Mở"
+    "openPost": "Mở",
+    "topicLabels": {
+      "city_news": "Tin thành phố",
+      "berlin_life": "Đời sống Berlin",
+      "politics": "Chính trị",
+      "germany_news": "Tin Đức",
+      "events": "Sự kiện",
+      "weekly_guide": "Cẩm nang tuần",
+      "internationals": "Người nước ngoài",
+      "tech_business": "Công nghệ & kinh doanh",
+      "election": "Bầu cử"
+    }
   },
   "mentionSummaries": [
     {
       "id": "berlinwelle",
       "source": "Volna / Berlin",
       "topics": [
-        "City news",
-        "Berlin life"
+        "city_news",
+        "berlin_life"
       ]
     },
     {
       "id": "bundeskanzler",
       "source": "Bundeskanzler",
       "topics": [
-        "Politics",
-        "Germany news"
+        "politics",
+        "germany_news"
       ]
     },
     {
       "id": "berlinevents",
       "source": "Berlin Events Weekly",
       "topics": [
-        "Events",
-        "Weekly guide"
+        "events",
+        "weekly_guide"
       ]
     },
     {
       "id": "theberlinlife",
       "source": "The Berlin Life",
       "topics": [
-        "Internationals",
-        "Life in Berlin"
+        "internationals",
+        "berlin_life"
       ]
     },
     {
       "id": "handpicked",
       "source": "Handpicked Berlin",
       "topics": [
-        "Tech & business",
-        "Berlin briefing"
+        "tech_business",
+        "city_news"
       ]
     },
     {
       "id": "20percent",
       "source": "20 Percent Berlin",
       "topics": [
-        "Bầu cử",
-        "Tin Berlin"
+        "election",
+        "city_news"
+      ]
+    },
+    {
+      "id": "zernaradosti",
+      "source": "Zerna Radosti",
+      "topics": [
+        "city_news",
+        "berlin_life"
+      ]
+    },
+    {
+      "id": "russischsprachigelinke",
+      "source": "Russischsprachige Linke",
+      "topics": [
+        "politics",
+        "election"
       ]
     }
   ],

@@ -35,6 +35,18 @@
       "date": "2026-09-15",
       "postUrl": "https://www.20percent.berlin/p/528-election-fever-berliners-pro",
       "kind": "substack"
+    },
+    {
+      "id": "zernaradosti",
+      "date": "2026-09-17",
+      "postUrl": "https://t.me/zernaradosti/1413",
+      "kind": "telegram"
+    },
+    {
+      "id": "russischsprachigelinke",
+      "date": "2026-09-17",
+      "postUrl": "https://t.me/RussischsprachigeLinke/321",
+      "kind": "telegram"
     }
   ]
 }
