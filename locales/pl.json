@@ -55,7 +55,9 @@
     "toolsIntro": "Pomoce wyborcze i inne narzędzia porównawcze:",
     "toolsBody": "- [Wahl-O-Mat Berlin 2026](https://www.wahl-o-mat.de/berlin2026/app/main_app.html)\n- [Kandidierendencheck](https://www.kandidierendencheck.de/auswahl)\n- [Party-Check Berlin](https://tool.party-check.org/index.php/berlin?lang=en)",
     "backgroundIntro": "Tło i kontekst:",
-    "backgroundBody": "- [Wikipedia: wybory landowe w Berlinie 2026](https://en.wikipedia.org/wiki/2026_Berlin_state_election)\n- [RBB: FAQ wyborów w Berlinie 2026 (po angielsku)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: wybory w łatwym języku (Leichte Sprache)](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Berlińskie Centrum Edukacji Politycznej: broszura Wybory 2026 (PDF)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
+    "backgroundBody": "- [Wikipedia: wybory landowe w Berlinie 2026](https://en.wikipedia.org/wiki/2026_Berlin_state_election)\n- [RBB: FAQ wyborów w Berlinie 2026 (po angielsku)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: wybory w łatwym języku (Leichte Sprache)](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Berlińskie Centrum Edukacji Politycznej: broszura Wybory 2026 (PDF)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)",
+    "accountabilityIntro": "Po wyborach — śledzenie obietnic (poziom federalny, nie Berlin):",
+    "accountabilityBody": "- [FragDenStaat: Koalitionstracker](https://fragdenstaat.de/koalitionstracker/) — koalicja Ampel 2021–2025 (bez trackera dla rządu Merza)\n- [Regierungschecker](https://www.regierungschecker.de/de) — obietnice wyborcze i rządowe z źródłami pierwotnymi"
   },
   "mentions": {
     "title": "O projekcie wspomnieli",
@@ -140,6 +142,14 @@
       "source": "Russischsprachige Linke",
       "topics": [
         "politics",
+        "election"
+      ]
+    },
+    {
+      "id": "gooseexpat",
+      "source": "Goose Expat",
+      "topics": [
+        "internationals",
         "election"
       ]
     }

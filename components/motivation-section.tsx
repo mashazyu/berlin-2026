@@ -42,6 +42,16 @@ export function MotivationSection() {
               {renderParagraphs(m.toolsBody, "text-muted-foreground leading-relaxed", language)}
               {renderParagraphs(m.backgroundIntro, "text-muted-foreground leading-relaxed", language)}
               {renderParagraphs(m.backgroundBody, "text-muted-foreground leading-relaxed", language)}
+              {renderParagraphs(
+                m.accountabilityIntro,
+                "text-muted-foreground leading-relaxed",
+                language
+              )}
+              {renderParagraphs(
+                m.accountabilityBody,
+                "text-muted-foreground leading-relaxed",
+                language
+              )}
             </div>
           </div>
         </div>

@@ -55,7 +55,9 @@
     "toolsIntro": "Aiuti al voto e altri strumenti di confronto:",
     "toolsBody": "- [Wahl-O-Mat Berlin 2026](https://www.wahl-o-mat.de/berlin2026/app/main_app.html)\n- [Kandidierendencheck](https://www.kandidierendencheck.de/auswahl)\n- [Party-Check Berlin](https://tool.party-check.org/index.php/berlin?lang=en)",
     "backgroundIntro": "Contesto:",
-    "backgroundBody": "- [Wikipedia: elezioni regionali a Berlino 2026](https://en.wikipedia.org/wiki/2026_Berlin_state_election)\n- [RBB: FAQ elezioni Berlino 2026 (in inglese)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: elezioni in linguaggio semplice (Leichte Sprache)](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Centro regionale per l’educazione politica di Berlino: brochure elezioni 2026 (PDF)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)"
+    "backgroundBody": "- [Wikipedia: elezioni regionali a Berlino 2026](https://en.wikipedia.org/wiki/2026_Berlin_state_election)\n- [RBB: FAQ elezioni Berlino 2026 (in inglese)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: elezioni in linguaggio semplice (Leichte Sprache)](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Centro regionale per l’educazione politica di Berlino: brochure elezioni 2026 (PDF)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)",
+    "accountabilityIntro": "Dopo il voto — monitorare le promesse (livello federale, non Berlino):",
+    "accountabilityBody": "- [FragDenStaat: Koalitionstracker](https://fragdenstaat.de/koalitionstracker/) — coalizione Ampel 2021–2025 (nessun tracker per il governo Merz)\n- [Regierungschecker](https://www.regierungschecker.de/de) — promesse elettorali e di governo con fonti primarie"
   },
   "mentions": {
     "title": "Il progetto è stato citato da",
@@ -140,6 +142,14 @@
       "source": "Russischsprachige Linke",
       "topics": [
         "politics",
+        "election"
+      ]
+    },
+    {
+      "id": "gooseexpat",
+      "source": "Goose Expat",
+      "topics": [
+        "internationals",
         "election"
       ]
     }
