@@ -73,6 +73,8 @@ export type Translations = {
     toolsBody: string
     backgroundIntro: string
     backgroundBody: string
+    accountabilityIntro: string
+    accountabilityBody: string
   }
   mentions: {
     title: string
