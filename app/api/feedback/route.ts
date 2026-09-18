@@ -9,6 +9,9 @@ const MAX_MESSAGE = 4000
 const MAX_CONTEXT = 500
 const MAX_EMAIL = 200
 
+/** Hard-locked inbox — never use Resend defaults or env from/to overrides. */
+const MAILBOX = CONTACT_EMAIL
+
 type FeedbackBody = {
   kind?: "feedback" | "text-report"
   message?: string
@@ -122,10 +125,11 @@ export async function POST(request: Request) {
 
   const resend = new Resend(apiKey)
 
+  // from + to are always feedback@berlin-2026.de. User email is reply-to only.
   const { error } = await resend.emails.send({
     from: CONTACT_FROM,
-    to: [CONTACT_EMAIL],
-    replyTo: email || undefined,
+    to: [MAILBOX],
+    replyTo: email || MAILBOX,
     subject,
     text,
   })
@@ -135,7 +139,7 @@ export async function POST(request: Request) {
     return NextResponse.json(
       {
         error: error.message?.includes("domain is not verified")
-          ? `Email domain is not verified in Resend yet for ${CONTACT_EMAIL}.`
+          ? `Email domain is not verified in Resend yet for ${MAILBOX}.`
           : "Failed to send feedback",
       },
       { status: 502 }

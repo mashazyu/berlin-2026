@@ -2,10 +2,10 @@ import type { Language } from "@/lib/i18n/types"
 
 export const BASE_URL = "https://www.berlin-2026.de"
 
-/** Sole public contact / feedback inbox (reports, mailto, privacy). */
+/** Sole public contact / feedback inbox (reports, mailto, privacy, Resend from+to). */
 export const CONTACT_EMAIL = "feedback@berlin-2026.de"
 
-/** Resend “from” address using the same inbox. */
+/** Resend “from” — always the same inbox (never env override / Resend onboarding address). */
 export const CONTACT_FROM = `Berlin 2026 <${CONTACT_EMAIL}>`
 
 /**
