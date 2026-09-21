@@ -5,8 +5,9 @@ import { getOgFonts } from "@/lib/seo/og-fonts"
 
 export const size = { width: 1200, height: 630 }
 export const contentType = "image/png"
-/** Fetch Google font subsets per request — same approach as 882e210 (working TG Cyrillic). */
-export const dynamic = "force-dynamic"
+/** Build-time static OG per locale — CDN-cached (no per-request FOT). */
+export const dynamic = "force-static"
+export const alt = "Berlin 2026"
 
 export default async function OpenGraphImage({
   params,
