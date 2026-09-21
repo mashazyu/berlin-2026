@@ -1,21 +1,46 @@
-import comparisonData from "@/data/comparison.json"
-import { pickLocalized } from "@/lib/i18n/fallback"
+import baseData from "@/data/comparison/base.json"
+import arOverlay from "@/data/comparison/ar.json"
+import deOverlay from "@/data/comparison/de.json"
+import enOverlay from "@/data/comparison/en.json"
+import esOverlay from "@/data/comparison/es.json"
+import itOverlay from "@/data/comparison/it.json"
+import kuOverlay from "@/data/comparison/ku.json"
+import plOverlay from "@/data/comparison/pl.json"
+import ruOverlay from "@/data/comparison/ru.json"
+import trOverlay from "@/data/comparison/tr.json"
+import ukOverlay from "@/data/comparison/uk.json"
+import viOverlay from "@/data/comparison/vi.json"
 import type { Language } from "@/lib/i18n/types"
 import { bestProgramHref, sourceHref } from "./source-href"
+import { cellKey } from "./cell-key"
 import type {
   CellSource,
+  ComparisonBase,
   ComparisonData,
+  ComparisonLangOverlay,
   ResolvedCell,
   ResolvedComparison,
   ResolvedSourceNote,
   ResolvedSourceQuote,
 } from "./types"
 
-const data = comparisonData as ComparisonData
+const base = baseData as ComparisonBase
 
-export function cellKey(topicId: string, partyId: string): string {
-  return `${topicId}::${partyId}`
+const overlays: Record<Language, ComparisonLangOverlay> = {
+  en: enOverlay as ComparisonLangOverlay,
+  de: deOverlay as ComparisonLangOverlay,
+  tr: trOverlay as ComparisonLangOverlay,
+  ku: kuOverlay as ComparisonLangOverlay,
+  vi: viOverlay as ComparisonLangOverlay,
+  pl: plOverlay as ComparisonLangOverlay,
+  ru: ruOverlay as ComparisonLangOverlay,
+  uk: ukOverlay as ComparisonLangOverlay,
+  ar: arOverlay as ComparisonLangOverlay,
+  es: esOverlay as ComparisonLangOverlay,
+  it: itOverlay as ComparisonLangOverlay,
 }
+
+export { cellKey }
 
 function resolveSourceQuotes(
   sources: CellSource[] | undefined,
@@ -66,20 +91,22 @@ function resolveSourceNotes(
 }
 
 export function getComparison(lang: Language): ResolvedComparison {
+  const overlay = overlays[lang] ?? overlays.en
   const cellsByKey: Record<string, ResolvedCell> = {}
   const partyUrl = Object.fromEntries(
-    data.parties.map((party) => [party.id, party.programUrl]),
+    base.parties.map((party) => [party.id, party.programUrl]),
   )
 
-  for (const cell of data.cells) {
+  for (const cell of base.cells) {
+    const key = cellKey(cell.topicId, cell.partyId)
     const fallback = partyUrl[cell.partyId] ?? ""
     const sourceQuotes = resolveSourceQuotes(cell.sources, fallback)
     const sourceNotes = resolveSourceNotes(cell.sources, fallback)
-    cellsByKey[cellKey(cell.topicId, cell.partyId)] = {
+    cellsByKey[key] = {
       topicId: cell.topicId,
       partyId: cell.partyId,
       stance: cell.stance,
-      summary: pickLocalized(cell.summary, lang),
+      summary: overlay.cellSummaries[key] ?? "",
       sourceQuotes: sourceQuotes.length ? sourceQuotes : undefined,
       sourceNotes: sourceNotes.length ? sourceNotes : undefined,
       programHref:
@@ -92,20 +119,61 @@ export function getComparison(lang: Language): ResolvedComparison {
 
   return {
     lang,
-    parties: data.parties.map((party) => ({
-      ...party,
-      displayName: pickLocalized(party.name, lang) || party.shortName,
+    parties: base.parties.map((party) => ({
+      id: party.id,
+      shortName: party.shortName,
+      programUrl: party.programUrl,
+      displayName: overlay.partyNames[party.id] || party.shortName,
     })),
-    topics: [...data.topics]
+    topics: [...base.topics]
       .sort((a, b) => a.sortOrder - b.sortOrder)
       .map((topic) => ({
-        ...topic,
-        displayLabel: pickLocalized(topic.label, lang),
+        id: topic.id,
+        group: topic.group,
+        sortOrder: topic.sortOrder,
+        displayLabel: overlay.topicLabels[topic.id] ?? "",
       })),
     cellsByKey,
   }
 }
 
+/** Rebuild monolith shape for tooling that still expects ComparisonData. */
 export function getRawComparison(): ComparisonData {
-  return data
+  const langs = Object.keys(overlays) as Language[]
+  return {
+    parties: base.parties.map((party) => {
+      const name = {} as ComparisonData["parties"][number]["name"]
+      for (const lang of langs) {
+        const v = overlays[lang].partyNames[party.id]
+        if (v) name[lang] = v
+      }
+      if (!name.en) name.en = party.shortName
+      return { ...party, name }
+    }),
+    topics: base.topics.map((topic) => {
+      const label = {} as ComparisonData["topics"][number]["label"]
+      for (const lang of langs) {
+        const v = overlays[lang].topicLabels[topic.id]
+        if (v) label[lang] = v
+      }
+      if (!label.en) label.en = topic.id
+      return { ...topic, label }
+    }),
+    cells: base.cells.map((cell) => {
+      const key = cellKey(cell.topicId, cell.partyId)
+      const summary = {} as ComparisonData["cells"][number]["summary"]
+      for (const lang of langs) {
+        const v = overlays[lang].cellSummaries[key]
+        if (v) summary[lang] = v
+      }
+      if (!summary.en) summary.en = ""
+      return {
+        topicId: cell.topicId,
+        partyId: cell.partyId,
+        stance: cell.stance,
+        summary,
+        ...(cell.sources?.length ? { sources: cell.sources } : {}),
+      }
+    }),
+  }
 }

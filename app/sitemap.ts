@@ -19,7 +19,7 @@ function fileMtime(...segments: string[]): number {
 /** lastmod from content sources (not build clock). */
 function lastModifiedFor(lang: Language, path: string): Date {
   const localeMs = fileMtime("locales", `${lang}.json`)
-  const comparisonMs = fileMtime("data", "comparison.json")
+  const comparisonMs = fileMtime("data", "comparison", "base.json")
   const isHome = !path || path === "/"
   const ms = isHome
     ? Math.max(localeMs, comparisonMs)

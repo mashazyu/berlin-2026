@@ -60,6 +60,34 @@ export type ComparisonData = {
   cells: Cell[]
 }
 
+/** Language-agnostic comparison structure (data/comparison/base.json). */
+export type ComparisonBase = {
+  parties: Array<{
+    id: string
+    shortName: string
+    programUrl: string
+  }>
+  topics: Array<{
+    id: string
+    group: TopicGroup
+    sortOrder: number
+  }>
+  cells: Array<{
+    topicId: string
+    partyId: string
+    stance: Stance
+    sources?: CellSource[]
+  }>
+}
+
+/** Per-language strings (data/comparison/{lang}.json). */
+export type ComparisonLangOverlay = {
+  lang: Language
+  partyNames: Record<string, string>
+  topicLabels: Record<string, string>
+  cellSummaries: Record<string, string>
+}
+
 export type ResolvedSourceQuote = {
   /** Original program excerpt (never translated) */
   quote: string
@@ -86,9 +114,23 @@ export type ResolvedCell = {
   sourceNotes?: ResolvedSourceNote[]
 }
 
+export type ResolvedParty = {
+  id: string
+  shortName: string
+  programUrl: string
+  displayName: string
+}
+
+export type ResolvedTopic = {
+  id: string
+  group: TopicGroup
+  sortOrder: number
+  displayLabel: string
+}
+
 export type ResolvedComparison = {
-  parties: Array<Party & { displayName: string }>
-  topics: Array<Topic & { displayLabel: string }>
+  parties: ResolvedParty[]
+  topics: ResolvedTopic[]
   cellsByKey: Record<string, ResolvedCell>
   lang: Language
 }

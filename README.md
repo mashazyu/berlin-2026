@@ -10,8 +10,9 @@ Languages: English, German, Turkish, Kurdish (Kurmanji), Vietnamese, Polish, Rus
 
 - Next.js 15 (App Router) + TypeScript + pnpm
 - Tailwind CSS 4 + shadcn-style UI primitives
-- Locale JSON in `locales/{en,de,tr,ku,uk,pl,ru,ar,es}.json`
-- Comparison dataset in `data/comparison.json`
+- Locale JSON in `locales/{en,de,tr,ku,vi,pl,ru,uk,ar,es,it}.json`
+- Comparison dataset split under `data/comparison/` (`base.json` + `{lang}.json` overlays)
+- Resolved per-locale files emitted to `public/data/comparison/{lang}.json` on `dev`/`build` (keeps ISR page payloads small)
 
 ## Develop
 
@@ -25,7 +26,10 @@ Open [http://localhost:3000](http://localhost:3000) (redirects to `/de` or negot
 ```bash
 pnpm build
 pnpm type-check
-pnpm encode:comparison   # rebuild data/comparison.json from Notion scrapes (script paths)
+pnpm encode:comparison     # rebuild monolith from Notion scrapes (script paths)
+pnpm split:comparison      # monolith → data/comparison/base.json + {lang}.json
+pnpm assemble:comparison   # overlays → data/comparison.json (for Python verify scripts)
+pnpm emit:comparison       # overlays → public/data/comparison/{lang}.json
 ```
 
 ## Deploy (Vercel)

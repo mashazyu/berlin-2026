@@ -9,10 +9,15 @@
     "start": "next start",
     "lint": "eslint . --ignore-pattern .next --ignore-pattern next-env.d.ts",
     "type-check": "tsc --noEmit --incremental false",
-    "encode:comparison": "node scripts/encode-comparison.mjs",
+    "prebuild": "node scripts/emit-comparison-public.mjs",
+    "predev": "node scripts/emit-comparison-public.mjs",
+    "split:comparison": "node scripts/split-comparison.mjs",
+    "assemble:comparison": "node scripts/assemble-comparison.mjs",
+    "emit:comparison": "node scripts/emit-comparison-public.mjs",
+    "encode:comparison": "node scripts/encode-comparison.mjs && node scripts/split-comparison.mjs",
     "regen:og-fonts": "node scripts/regen-og-fonts.mjs",
-    "verify:citations": "python3 scripts/verify-citations.py --force-extract",
-    "verify:relevance": "python3 scripts/verify-relevance.py",
+    "verify:citations": "node scripts/assemble-comparison.mjs && python3 scripts/verify-citations.py --force-extract",
+    "verify:relevance": "node scripts/assemble-comparison.mjs && python3 scripts/verify-relevance.py",
     "indexnow:submit": "node scripts/submit-indexnow.mjs"
   },
   "dependencies": {
