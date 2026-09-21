@@ -1,6 +1,6 @@
-/** Subsetted TTFs for `next/og` (Latin + Cyrillic / Arabic as needed).
- *  Fetches a Google `text=` subset for the exact OG copy.
- *  Falls back to local assets/fonts if the network fetch fails (e.g. offline build).
+/** Fonts for `next/og`. Prefers local `assets/fonts` so OG routes can be
+ *  `force-static` (CDN-cached). Falls back to a Google `text=` subset if local
+ *  files are missing.
  *
  *  Arabic uses Cairo (not Noto Sans Arabic): Satori crashes on Noto’s GSUB
  *  `lookupType: 5 - substFormat: 3` during Arabic shaping. */
@@ -76,16 +76,18 @@ async function loadWeight(
   weight: 400 | 700,
   arabic: boolean
 ): Promise<ArrayBuffer> {
-  const cssBase = arabic ? GOOGLE_CSS_CAIRO : GOOGLE_CSS_NOTO_SANS
-  const familyLabel = arabic ? "Cairo" : "Noto Sans"
+  // Prefer local fonts so OG images stay statically generatable without
+  // outbound network (and without force-dynamic / per-request FOT).
   try {
-    return await loadWeightFromGoogle(chars, weight, cssBase, familyLabel)
-  } catch (err) {
+    return await loadWeightFromLocal(weight, arabic)
+  } catch (localErr) {
+    const cssBase = arabic ? GOOGLE_CSS_CAIRO : GOOGLE_CSS_NOTO_SANS
+    const familyLabel = arabic ? "Cairo" : "Noto Sans"
     console.warn(
-      `[og-fonts] Google fetch failed for ${familyLabel} ${weight}, using local fallback:`,
-      err
+      `[og-fonts] Local ${familyLabel} ${weight} missing, trying Google:`,
+      localErr
     )
-    return loadWeightFromLocal(weight, arabic)
+    return loadWeightFromGoogle(chars, weight, cssBase, familyLabel)
   }
 }
 
