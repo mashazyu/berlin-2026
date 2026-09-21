@@ -11,7 +11,7 @@ import {
 import { ChevronDown, ExternalLink, Search, X } from "lucide-react"
 import { useLanguage } from "@/components/language-provider"
 import { groupTopics, TOPIC_GROUP_ORDER } from "@/lib/comparison/groups"
-import { cellKey } from "@/lib/comparison/get-comparison"
+import { cellKey } from "@/lib/comparison/cell-key"
 import type { ResolvedComparison, TopicGroup } from "@/lib/comparison/types"
 import { selectionChipClassName } from "@/lib/chip-styles"
 import { capture } from "@/lib/analytics"
