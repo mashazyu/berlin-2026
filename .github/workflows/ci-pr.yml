@@ -86,6 +86,14 @@ jobs:
         run: pnpm assemble:comparison
       - name: Verify citations
         run: python3 scripts/verify-citations.py --force-extract
+      - name: Upload citation report
+        if: failure()
+        uses: actions/upload-artifact@v7
+        with:
+          name: citation-verify-report
+          path: .tmp-verify/verify-report.json
+          retention-days: 14
+          if-no-files-found: ignore
       - name: Verify relevance heuristics
         run: python3 scripts/verify-relevance.py
 
@@ -129,24 +137,17 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - name: Build
         run: pnpm build
-      - name: Start server
-        run: pnpm start --port 3000 &
-      - name: Wait for server
-        run: |
-          for i in $(seq 1 60); do
-            if curl -sf http://127.0.0.1:3000/de >/dev/null; then
-              echo "Server is up"
-              exit 0
-            fi
-            sleep 2
-          done
-          echo "Server failed to start"
-          exit 1
       - name: Cypress
-        run: pnpm test:e2e
+        uses: cypress-io/github-action@v6
+        with:
+          install: false
+          start: pnpm start --port 3000
+          wait-on: http://127.0.0.1:3000/de
+          wait-on-timeout: 120
+          browser: chrome
+          command: pnpm test:e2e
         env:
           CYPRESS_BASE_URL: http://127.0.0.1:3000
-          ELECTRON_RUN_AS_NODE: ""
       - name: Upload Cypress screenshots
         if: failure()
         uses: actions/upload-artifact@v7
@@ -154,3 +155,4 @@ jobs:
           name: cypress-screenshots
           path: cypress/screenshots
           retention-days: 7
+          if-no-files-found: ignore
