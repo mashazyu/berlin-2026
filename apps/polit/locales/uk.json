@@ -1,0 +1,51 @@
+{
+  "brand": "Site C",
+  "brandAccent": "Site",
+  "brandRest": "C",
+  "hero": {
+    "headline": "Позиції з першого погляду",
+    "support": "Той самий лендінг-шел, що й Site B — бірюзові CTA лише з теми цього застосунку.",
+    "blurb": "Мови: англійська, німецька та українська.",
+    "disclaimer": "Демо-сайт для перевірки спільного макету. Не живий продукт.",
+    "cta": "Читати далі",
+    "scrollHint": "Прокрутіть до змісту"
+  },
+  "navigation": {
+    "overview": "Огляд",
+    "about": "Про нас"
+  },
+  "content": {
+    "title": "Що ви отримуєте",
+    "blocks": [
+      {
+        "title": "Брендинг лише через токени",
+        "body": "Змініть --primary та --accent у theme.css; кнопки й чіпи підхоплять їх автоматично."
+      },
+      {
+        "title": "Інший набір мов",
+        "body": "Цей застосунок додає uk — без змін у @kompass/landing."
+      }
+    ]
+  },
+  "mentions": {
+    "title": "Згадки",
+    "kindLabels": {
+      "article": "Стаття",
+      "newsletter": "Розсилка",
+      "telegram": "Telegram",
+      "substack": "Substack"
+    }
+  },
+  "footer": {
+    "notice": "Демо для спільного UI в монорепо. Продакшен berlin лишається в корені репо до cutover.",
+    "about": "Про нас",
+    "contact": "Контакт"
+  },
+  "about": {
+    "title": "Про Site C",
+    "body": "Багатомовний плейсхолдер для перевірки спільних пакетів і бірюзових токенів."
+  },
+  "languageSwitcher": {
+    "label": "Мова"
+  }
+}

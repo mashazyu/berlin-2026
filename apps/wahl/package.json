@@ -1,0 +1,10 @@
+{
+  "name": "@kompass/wahl",
+  "version": "0.1.0",
+  "private": true,
+  "description": "wahl.kompass.berlin — Berlin election compass (cutover target for root berlin-2026)",
+  "scripts": {
+    "dev": "echo 'Production wahl still runs from repo root until cutover. See README.md' && exit 1",
+    "build": "echo 'apps/wahl is a cutover placeholder — see README.md' && exit 1"
+  }
+}

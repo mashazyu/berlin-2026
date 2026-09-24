@@ -1,0 +1,51 @@
+{
+  "brand": "Site B",
+  "brandAccent": "Site",
+  "brandRest": "B",
+  "hero": {
+    "headline": "Clear local politics, in your language",
+    "support": "A shared landing shell with blue CTAs — proof the monorepo theme works.",
+    "blurb": "Multilingual demo: English and German.",
+    "disclaimer": "Placeholder site for shared-layout verification. Not a live product.",
+    "cta": "See the overview",
+    "scrollHint": "Scroll to overview"
+  },
+  "navigation": {
+    "overview": "Overview",
+    "about": "About"
+  },
+  "content": {
+    "title": "Why this site",
+    "blocks": [
+      {
+        "title": "Shared layout",
+        "body": "Hero, content, and mentions come from @kompass/landing. Only tokens and copy live here."
+      },
+      {
+        "title": "Own language set",
+        "body": "This app ships en and de. Other apps can enable different locales without touching the shared package."
+      }
+    ]
+  },
+  "mentions": {
+    "title": "In the press",
+    "kindLabels": {
+      "article": "Article",
+      "newsletter": "Newsletter",
+      "telegram": "Telegram",
+      "substack": "Substack"
+    }
+  },
+  "footer": {
+    "notice": "Demo site for monorepo shared UI. Production berlin remains on the repo root until cutover.",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "about": {
+    "title": "About Site B",
+    "body": "Placeholder multilingual site used to validate shared packages and blue brand tokens."
+  },
+  "languageSwitcher": {
+    "label": "Language"
+  }
+}

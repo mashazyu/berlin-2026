@@ -1,0 +1,51 @@
+{
+  "brand": "Site C",
+  "brandAccent": "Site",
+  "brandRest": "C",
+  "hero": {
+    "headline": "Compare positions at a glance",
+    "support": "Same landing shell as Site B — teal CTAs from this app’s theme only.",
+    "blurb": "Languages: English, German, and Ukrainian.",
+    "disclaimer": "Placeholder site for shared-layout verification. Not a live product.",
+    "cta": "Read more",
+    "scrollHint": "Scroll to content"
+  },
+  "navigation": {
+    "overview": "Overview",
+    "about": "About"
+  },
+  "content": {
+    "title": "What you get",
+    "blocks": [
+      {
+        "title": "Token-only branding",
+        "body": "Change --primary and --accent in theme.css; buttons and chips follow automatically."
+      },
+      {
+        "title": "Different locale set",
+        "body": "This app includes uk in addition to en and de — without changing @kompass/landing."
+      }
+    ]
+  },
+  "mentions": {
+    "title": "Mentions",
+    "kindLabels": {
+      "article": "Article",
+      "newsletter": "Newsletter",
+      "telegram": "Telegram",
+      "substack": "Substack"
+    }
+  },
+  "footer": {
+    "notice": "Demo site for monorepo shared UI. Production berlin remains on the repo root until cutover.",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "about": {
+    "title": "About Site C",
+    "body": "Placeholder multilingual site used to validate shared packages and teal brand tokens."
+  },
+  "languageSwitcher": {
+    "label": "Language"
+  }
+}

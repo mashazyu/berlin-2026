@@ -1,0 +1,51 @@
+{
+  "brand": "Site C",
+  "brandAccent": "Site",
+  "brandRest": "C",
+  "hero": {
+    "headline": "Positionen auf einen Blick",
+    "support": "Gleiches Landing-Layout wie Site B — türkise CTAs nur aus dem Theme dieser App.",
+    "blurb": "Sprachen: Englisch, Deutsch und Ukrainisch.",
+    "disclaimer": "Platzhalter-Seite zur Prüfung des gemeinsamen Layouts. Kein Live-Produkt.",
+    "cta": "Weiterlesen",
+    "scrollHint": "Zum Inhalt scrollen"
+  },
+  "navigation": {
+    "overview": "Übersicht",
+    "about": "Über uns"
+  },
+  "content": {
+    "title": "Was Sie bekommen",
+    "blocks": [
+      {
+        "title": "Branding nur über Tokens",
+        "body": "Ändern Sie --primary und --accent in theme.css; Buttons und Chips folgen automatisch."
+      },
+      {
+        "title": "Andere Sprachauswahl",
+        "body": "Diese App enthält zusätzlich uk — ohne @kompass/landing zu ändern."
+      }
+    ]
+  },
+  "mentions": {
+    "title": "Erwähnungen",
+    "kindLabels": {
+      "article": "Artikel",
+      "newsletter": "Newsletter",
+      "telegram": "Telegram",
+      "substack": "Substack"
+    }
+  },
+  "footer": {
+    "notice": "Demo-Seite für gemeinsames UI im Monorepo. Produktion berlin bleibt bis zum Cutover im Repo-Root.",
+    "about": "Über uns",
+    "contact": "Kontakt"
+  },
+  "about": {
+    "title": "Über Site C",
+    "body": "Platzhalter-Mehrsprachseite zur Validierung der Shared Packages und türkisen Marken-Tokens."
+  },
+  "languageSwitcher": {
+    "label": "Sprache"
+  }
+}

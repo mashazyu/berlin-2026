@@ -1,0 +1,51 @@
+{
+  "brand": "Site B",
+  "brandAccent": "Site",
+  "brandRest": "B",
+  "hero": {
+    "headline": "Klare Lokalpolitik, in Ihrer Sprache",
+    "support": "Gemeinsames Landing-Layout mit blauen CTAs — Beweis, dass das Monorepo-Theme funktioniert.",
+    "blurb": "Mehrsprachige Demo: Englisch und Deutsch.",
+    "disclaimer": "Platzhalter-Seite zur Prüfung des gemeinsamen Layouts. Kein Live-Produkt.",
+    "cta": "Zur Übersicht",
+    "scrollHint": "Zur Übersicht scrollen"
+  },
+  "navigation": {
+    "overview": "Übersicht",
+    "about": "Über uns"
+  },
+  "content": {
+    "title": "Warum diese Seite",
+    "blocks": [
+      {
+        "title": "Gemeinsames Layout",
+        "body": "Hero, Inhalt und Mentions kommen aus @kompass/landing. Hier liegen nur Tokens und Texte."
+      },
+      {
+        "title": "Eigene Sprachauswahl",
+        "body": "Diese App liefert en und de. Andere Apps können andere Locales aktivieren, ohne das Shared-Package zu ändern."
+      }
+    ]
+  },
+  "mentions": {
+    "title": "In der Presse",
+    "kindLabels": {
+      "article": "Artikel",
+      "newsletter": "Newsletter",
+      "telegram": "Telegram",
+      "substack": "Substack"
+    }
+  },
+  "footer": {
+    "notice": "Demo-Seite für gemeinsames UI im Monorepo. Produktion berlin bleibt bis zum Cutover im Repo-Root.",
+    "about": "Über uns",
+    "contact": "Kontakt"
+  },
+  "about": {
+    "title": "Über Site B",
+    "body": "Platzhalter-Mehrsprachseite zur Validierung der Shared Packages und blauen Marken-Tokens."
+  },
+  "languageSwitcher": {
+    "label": "Sprache"
+  }
+}
