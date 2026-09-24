@@ -145,7 +145,7 @@ importers:
 
   apps/wahl: {}
 
-  apps/water: {}
+  apps/wasser: {}
 
   apps/www:
     dependencies:

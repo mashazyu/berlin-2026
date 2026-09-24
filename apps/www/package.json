@@ -2,7 +2,7 @@
   "name": "@kompass/www",
   "version": "0.1.0",
   "private": true,
-  "description": "kompass.berlin — about the creators",
+  "description": "kompass.berlin + www.kompass.berlin — about us",
   "scripts": {
     "dev": "next dev --turbopack --port 3001",
     "build": "next build",

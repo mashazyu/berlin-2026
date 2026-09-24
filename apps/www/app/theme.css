@@ -4,7 +4,7 @@
 @source "../../../packages/ui/src/**/*.{ts,tsx}";
 @source "../../../packages/landing/src/**/*.{ts,tsx}";
 
-/* www (kompass.berlin) — cool blue CTAs */
+/* www — about us — cool blue CTAs */
 :root {
   --background: 0 0% 100%;
   --foreground: 222 28% 12%;

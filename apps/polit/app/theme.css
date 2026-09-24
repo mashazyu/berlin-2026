@@ -4,7 +4,7 @@
 @source "../../../packages/ui/src/**/*.{ts,tsx}";
 @source "../../../packages/landing/src/**/*.{ts,tsx}";
 
-/* polit (polit.kompass.berlin) — teal CTAs */
+/* polit — communal projects — teal CTAs */
 :root {
   --background: 0 0% 100%;
   --foreground: 170 24% 12%;
