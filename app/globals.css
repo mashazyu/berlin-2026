@@ -1,5 +1,10 @@
 @import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
 
+@custom-variant dark (&:is(.dark *));
+
+/* Brand tokens (HSL channels) — berlin-2026 terracotta / cool gray */
 :root {
   --background: 0 0% 100%;
   --foreground: 210 24% 12%;
@@ -23,6 +28,19 @@
   --radius: 0.75rem;
   --section-muted: 210 14% 96%;
   --header-offset: 3.5rem;
+  --chart-1: 16 88% 48%;
+  --chart-2: 210 14% 40%;
+  --chart-3: 210 12% 55%;
+  --chart-4: 16 70% 60%;
+  --chart-5: 210 10% 70%;
+  --sidebar: 0 0% 100%;
+  --sidebar-foreground: 210 24% 12%;
+  --sidebar-primary: 16 88% 48%;
+  --sidebar-primary-foreground: 0 0% 100%;
+  --sidebar-accent: 210 12% 96%;
+  --sidebar-accent-foreground: 210 24% 12%;
+  --sidebar-border: 210 12% 88%;
+  --sidebar-ring: 16 88% 48%;
 }
 
 @theme inline {
@@ -46,12 +64,27 @@
   --color-input: hsl(var(--input));
   --color-ring: hsl(var(--ring));
   --color-section-muted: hsl(var(--section-muted));
+  --color-chart-1: hsl(var(--chart-1));
+  --color-chart-2: hsl(var(--chart-2));
+  --color-chart-3: hsl(var(--chart-3));
+  --color-chart-4: hsl(var(--chart-4));
+  --color-chart-5: hsl(var(--chart-5));
+  --color-sidebar: hsl(var(--sidebar));
+  --color-sidebar-foreground: hsl(var(--sidebar-foreground));
+  --color-sidebar-primary: hsl(var(--sidebar-primary));
+  --color-sidebar-primary-foreground: hsl(var(--sidebar-primary-foreground));
+  --color-sidebar-accent: hsl(var(--sidebar-accent));
+  --color-sidebar-accent-foreground: hsl(var(--sidebar-accent-foreground));
+  --color-sidebar-border: hsl(var(--sidebar-border));
+  --color-sidebar-ring: hsl(var(--sidebar-ring));
   --font-sans: var(--font-dm-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-heading: var(--font-lora), ui-serif, Georgia, serif;
   --font-display: var(--font-lora), ui-serif, Georgia, serif;
   --font-arabic: var(--font-noto-sans-arabic), ui-sans-serif, system-ui, sans-serif;
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
   --animate-fade-in: fade-in 0.45s ease-out both;
   --animate-rise: rise 0.55s ease-out both;
   --animate-chip: chip-in 0.4s ease-out both;
@@ -90,7 +123,7 @@
 
 @layer base {
   * {
-    @apply border-border;
+    @apply border-border outline-ring/50;
   }
 
   html {

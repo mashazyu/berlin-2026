@@ -9,7 +9,7 @@ Languages: English, German, Turkish, Kurdish (Kurmanji), Vietnamese, Polish, Rus
 ## Stack
 
 - Next.js 15 (App Router) + TypeScript + pnpm
-- Tailwind CSS 4 + shadcn-style UI primitives
+- Tailwind CSS 4 + [shadcn/ui](https://ui.shadcn.com) (`components.json`, `pnpm dlx shadcn@latest add …`)
 - Locale JSON in `locales/{en,de,tr,ku,vi,pl,ru,uk,ar,es,it}.json`
 - Comparison dataset split under `data/comparison/` (`base.json` + `{lang}.json` overlays)
 - Resolved per-locale files emitted to `public/data/comparison/{lang}.json` on `dev`/`build` (keeps ISR page payloads small)
