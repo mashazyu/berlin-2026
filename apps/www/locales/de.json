@@ -1,0 +1,74 @@
+{
+  "brand": "Kompass Kollektive",
+  "brandAccent": "Kompass",
+  "brandRest": "Kollektive",
+  "meta": {
+    "description": "Nina und Mascha bauen zivilgesellschaftliche Tools für Berlin: Wasser für alle und Berlin 2026."
+  },
+  "navigation": {
+    "about": "Über uns",
+    "projects": "Projekte",
+    "contacts": "Kontakt"
+  },
+  "intro": {
+    "title": "Über uns",
+    "paragraphs": [
+      "Kompass Kollektive versammelt Projekte von Nina und Mascha. Im vergangenen Jahr haben sie Wasser für alle gestartet — eine Karte freier Trinkwasserstellen in Berlin.",
+      "Vor der Wahl wollte Nina wissen, wem sie ihre Stimme geben soll. Sie las die Parteiprogramme, baute eine Vergleichstabelle und schrieb über Klima- und Verkehrspolitik der Parteien. Die Tabelle zeigte sie Mascha — die schlug vor, daraus eine Website zu machen, und gestaltete das gesamte UI. So entstand ein klares, praktisches Werkzeug: Berlin 2026.",
+      "Wasser für alle ist eine Graswurzel-Initiative, die Informationen über kostenlose Trinkwasserquellen in Berlin für alle zugänglich macht. Das Projekt entstand aus dem Programm Lab for Political Participation von Club Dialog e.V. und hat sich seitdem zu einer eigenständigen Initiative entwickelt.",
+      "Das Lab for Political Participation ist ein Programm von Club Dialog e.V., das russischsprachige Berliner:innen mit Migrationsgeschichte darin stärkt, sich zivilgesellschaftlich und politisch zu engagieren.",
+      "Berlin 2026 ist ein unabhängiges Projekt zum Vergleich von Parteiprogrammen vor der Abgeordnetenhauswahl 2026. Offizielle Programme erscheinen nur auf Deutsch — wir übersetzen sie in Sprachen, die in Berlin gesprochen werden. Nina vergleicht die Programme und treibt das Projekt voran; Mascha sorgt für die Technik."
+    ]
+  },
+  "projects": {
+    "title": "Projekte",
+    "items": [
+      {
+        "id": "water4all",
+        "name": "Wasser für alle",
+        "description": "Ein offener Atlas freier Trinkwasserstellen in Berlin — macht den Zugang sichtbar und hilft vor Ort, sich für neue Trinkbrunnen einzusetzen.",
+        "linkLabel": "Zu Wasser für alle"
+      },
+      {
+        "id": "berlin-2026",
+        "name": "Berlin 2026",
+        "description": "Ein mehrsprachiger Vergleich der Parteiprogramme vor der Abgeordnetenhauswahl 2026.",
+        "linkLabel": "Zu Berlin 2026"
+      },
+      {
+        "id": "polit",
+        "name": "Polit",
+        "description": "Ermöglicht Berliner:innen den Austausch mit der Berliner Verwaltung.",
+        "linkLabel": "Zu Polit"
+      }
+    ]
+  },
+  "footer": {
+    "notice": "Unabhängige zivilgesellschaftliche Projekte für Berlin."
+  },
+  "contacts": {
+    "title": "Kontakt",
+    "people": {
+      "nina": {
+        "name": "Nina",
+        "role": "Programme & Inhalt"
+      },
+      "masha": {
+        "name": "Mascha",
+        "role": "Produkt & Technik"
+      }
+    },
+    "labels": {
+      "linkedin": "LinkedIn",
+      "email": "E-Mail",
+      "substack": "Substack"
+    }
+  },
+  "about": {
+    "title": "Über Kompass Kollektive",
+    "body": "Kompass Kollektive ist die Heimat der Projekte von Nina und Mascha — Wasser für alle und Berlin 2026."
+  },
+  "languageSwitcher": {
+    "label": "Sprache"
+  }
+}

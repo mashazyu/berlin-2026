@@ -1,0 +1,10 @@
+{
+  "name": "@kompass/wasser",
+  "version": "0.1.0",
+  "private": true,
+  "description": "wasser.kompass.berlin + www.wasser.kompass.berlin — water4all copy",
+  "scripts": {
+    "dev": "echo 'apps/wasser is reserved for water4all — populate after move.' && exit 1",
+    "build": "echo 'apps/wasser is a placeholder — see README.md' && exit 1"
+  }
+}

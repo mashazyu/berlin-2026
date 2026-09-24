@@ -1,0 +1,55 @@
+"use client"
+
+import Link from "next/link"
+import { useLanguage } from "@/components/language-provider"
+import { legalLanguageFor } from "@/lib/i18n/get-translations"
+import { CONTACT_EMAIL } from "@/lib/seo/constants"
+
+export function SiteFooter() {
+  const { language, translations: t } = useLanguage()
+  const legalLang = legalLanguageFor(language)
+
+  return (
+    <footer className="border-t border-border bg-white">
+      <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6">
+        <p className="text-sm leading-relaxed text-muted-foreground">
+          {t.footer.aiNotice}
+        </p>
+
+        <div className="mt-5 flex flex-col gap-4 border-t border-border pt-5 sm:flex-row sm:items-center sm:justify-between">
+          <p className="font-display text-sm font-semibold tracking-[-0.01em]">
+            <span className="text-accent">Berlin</span>
+            <span className="mx-1 text-border">·</span>
+            <span className="text-foreground">2026</span>
+          </p>
+          <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-muted-foreground">
+            <Link
+              href={`/${language}/ai-disclosure`}
+              className="transition-colors hover:text-foreground"
+            >
+              {t.footer.aiDisclosure}
+            </Link>
+            <Link
+              href={`/${legalLang}/impressum`}
+              className="transition-colors hover:text-foreground"
+            >
+              {t.footer.impressum}
+            </Link>
+            <Link
+              href={`/${legalLang}/privacy`}
+              className="transition-colors hover:text-foreground"
+            >
+              {t.footer.privacy}
+            </Link>
+            <a
+              href={`mailto:${CONTACT_EMAIL}`}
+              className="transition-colors hover:text-foreground"
+            >
+              {t.footer.contact}
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  )
+}
