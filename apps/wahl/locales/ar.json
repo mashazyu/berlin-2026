@@ -1,0 +1,252 @@
+{
+  "metadata": {
+    "homeTitle": "Berlin 2026 — قارن برامج أكثر 10 أحزاب شعبية",
+    "homeDescription": "البرامج الرسمية لانتخابات مجلس نواب برلين في 20 سبتمبر 2026: النقل والسكن والمناخ والأمن والمزيد. مستقل — وليس نصيحة انتخابية.",
+    "aboutTitle": "حول المشروع — Berlin 2026",
+    "aboutDescription": "من يبني Berlin 2026: نينا تقارن برامج الأحزاب وتطوّر المشروع؛ ماشا تتولى الجانب التقني. مستقل وغير مرتبط بأي حزب.",
+    "aiDisclosureTitle": "الإفصاح عن الذكاء الاصطناعي — Berlin 2026",
+    "aiDisclosureDescription": "كيف نستخدم الذكاء الاصطناعي لنصوص الموقع ومقارنة البرامج — ولماذا يبقى البشر مسؤولين عن الأفكار والمحتوى والدقة.",
+    "keywords": [
+      "برلين",
+      "انتخابات برلين الإقليمية 2026",
+      "Abgeordnetenhaus",
+      "البرلمان الإقليمي",
+      "برامج الأحزاب",
+      "مقارنة الأحزاب",
+      "النقل",
+      "السكن",
+      "المناخ",
+      "الأمن",
+      "التعليم",
+      "الصحة",
+      "الهجرة"
+    ]
+  },
+  "brand": {
+    "name": "Berlin 2026",
+    "tagline": "مواقف الأحزاب جنباً إلى جنب"
+  },
+  "navigation": {
+    "comparison": "المقارنة",
+    "motivation": "الدافع",
+    "privacy": "الخصوصية",
+    "about": "حول المشروع"
+  },
+  "hero": {
+    "headline": "انتخابات برلين الإقليمية 2026 — قارن برامج الأحزاب",
+    "support": "20 سبتمبر 2026 · Abgeordnetenhaus · 10 أحزاب · 65 موضوعاً",
+    "blurb": "مواقف من البرامج الرسمية جنباً إلى جنب — وليست نصيحة انتخابية.",
+    "cta": "قارن البرامج",
+    "disclaimer": "ليست مادة انتخابية وغير مرتبطة بأي حزب.",
+    "scrollHint": "إلى الجدول"
+  },
+  "motivation": {
+    "title": "الدافع",
+    "berlinVotesTitle": "برلين تصوّت في 20 سبتمبر 2026",
+    "berlinVotesBody": "كل خمس سنوات تنتخب برلين مجلساً جديداً للنواب (Abgeordnetenhaus) — البرلمان الإقليمي الذي يشكّل سياسات المدينة.",
+    "accessibilityTitle": "اللغة وإمكانية الوصول",
+    "accessibilityBody": "نحو [16% من المواطنين الألمان](https://de.statista.com/statistik/daten/studie/1109703/umfrage/bevoelkerung-bezirke-nach-migrationshintergrund-berlin/) في برلين ينحدرون من عائلات مهاجرة. تُنشر برامج الانتخابات بالألمانية فقط وقد تصل إلى 200 صفحة. ذلك صعب حتى للمتحدثين الأصليين. [Wahl-O-Mat](https://www.wahl-o-mat.de/berlin2026/app/main_app.html) يساعد، لكنه غير مصمَّم لمقارنة معمّقة.",
+    "clarityTitle": "الوضوح والمضمون",
+    "clarityBody": "كثير من تلك الصفحات المئتين بلاغة — يصعب تحويلها إلى شيء ملموس. أردنا إجابات واضحة: فصل الالتزامات المدعومة بأرقام عن التصريحات العامة للنية.",
+    "whatWeDidTitle": "ما فعلناه",
+    "whatWeDidBody": "قارنّا 10 أحزاب برلينية في نقاط رئيسية عبر النقل والسكن والمناخ والطاقة والأمن والتعليم والصحة والهجرة والاقتصاد والديمقراطية — وحوّلنا برامجها إلى جدول واحد جنباً إلى جنب.",
+    "beforeYouVoteTitle": "قبل أن تصوّت",
+    "beforeYouVoteBody": "أُعدّ الجدول بمساعدة الذكاء الاصطناعي؛ راجع النقاط المهمة لك. الترجمات الكاملة لبرامج الأحزاب الرئيسية متاحة على [BerlinVote.Help](https://www.berlinvote.help/).",
+    "toolsIntro": "أدوات مساعدة على التصويت وأدوات مقارنة أخرى:",
+    "toolsBody": "- [Wahl-O-Mat Berlin 2026](https://www.wahl-o-mat.de/berlin2026/app/main_app.html)\n- [Kandidierendencheck](https://www.kandidierendencheck.de/auswahl)\n- [Party-Check Berlin](https://tool.party-check.org/index.php/berlin?lang=en)",
+    "backgroundIntro": "خلفية:",
+    "backgroundBody": "- [ويكيبيديا: انتخابات برلين الإقليمية 2026](https://en.wikipedia.org/wiki/2026_Berlin_state_election)\n- [RBB: أسئلة شائعة عن انتخابات برلين 2026 (إنجليزي)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: الانتخابات بلغة مبسطة (Leichte Sprache)](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [مركز برلين للتربية السياسية: كتيب انتخابات 2026 (PDF)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)",
+    "accountabilityIntro": "بعد الاقتراع — متابعة الوعود (المستوى الاتحادي، وليس برلين):",
+    "accountabilityBody": "- [FragDenStaat: Koalitionstracker](https://fragdenstaat.de/koalitionstracker/) — ائتلاف Ampel 2021–2025 (لا يُخطَّط لمتتبّع لحكومة Merz)\n- [Regierungschecker](https://www.regierungschecker.de/de) — وعود انتخابية وحكومية مع مصادر أولية"
+  },
+  "mentions": {
+    "title": "ذُكر المشروع في",
+    "kindLabels": {
+      "telegram": "Telegram",
+      "newsletter": "نشرة",
+      "substack": "Substack",
+      "article": "مقال"
+    },
+    "openPost": "فتح",
+    "topicLabels": {
+      "city_news": "أخبار المدينة",
+      "berlin_life": "الحياة في برلين",
+      "politics": "سياسة",
+      "germany_news": "أخبار ألمانيا",
+      "events": "فعاليات",
+      "weekly_guide": "دليل أسبوعي",
+      "internationals": "للوافدين",
+      "tech_business": "تقنية وأعمال",
+      "election": "الانتخابات"
+    }
+  },
+  "mentionSummaries": [
+    {
+      "id": "berlinwelle",
+      "source": "Volna / Berlin",
+      "topics": [
+        "city_news",
+        "berlin_life"
+      ]
+    },
+    {
+      "id": "bundeskanzler",
+      "source": "Bundeskanzler",
+      "topics": [
+        "politics",
+        "germany_news"
+      ]
+    },
+    {
+      "id": "berlinevents",
+      "source": "Berlin Events Weekly",
+      "topics": [
+        "events",
+        "weekly_guide"
+      ]
+    },
+    {
+      "id": "theberlinlife",
+      "source": "The Berlin Life",
+      "topics": [
+        "internationals",
+        "berlin_life"
+      ]
+    },
+    {
+      "id": "handpicked",
+      "source": "Handpicked Berlin",
+      "topics": [
+        "tech_business",
+        "city_news"
+      ]
+    },
+    {
+      "id": "20percent",
+      "source": "20 Percent Berlin",
+      "topics": [
+        "election",
+        "city_news"
+      ]
+    },
+    {
+      "id": "zernaradosti",
+      "source": "Zerna Radosti",
+      "topics": [
+        "city_news",
+        "berlin_life"
+      ]
+    },
+    {
+      "id": "russischsprachigelinke",
+      "source": "Russischsprachige Linke",
+      "topics": [
+        "politics",
+        "election"
+      ]
+    },
+    {
+      "id": "gooseexpat",
+      "source": "Goose Expat",
+      "topics": [
+        "internationals",
+        "election"
+      ]
+    }
+  ],
+  "footer": {
+    "aiNotice": "نصوص جدول المقارنة في هذا الموقع أُعدّت بمساعدة الذكاء الاصطناعي.",
+    "aiDisclosure": "الإفصاح عن الذكاء الاصطناعي",
+    "relatedSite": "ترجمات كاملة للبرامج: BerlinVote.Help",
+    "contact": "اتصل بنا",
+    "about": "حول المشروع",
+    "privacy": "الخصوصية",
+    "contribute": "ساهم",
+    "impressum": "البيانات القانونية"
+  },
+  "feedback": {
+    "fabLabel": "أرسل ملاحظات",
+    "title": "أرسل ملاحظات",
+    "intro": "أسئلة أو تعليقات حول الموقع؟ أرسل رسالة قصيرة. اترك بريداً إلكترونياً إن رغبت بردّ.",
+    "textReportHint": "تبليغ عن صياغة خاطئة أو خطأ واقعي؟ حدّد (أو انسخ) المقطع في الصفحة — يظهر زر صغير لفتح نموذج التصحيح.",
+    "messageLabel": "رسالتك",
+    "messagePlaceholder": "اكتب ملاحظاتك…",
+    "emailLabel": "البريد الإلكتروني (للرد)",
+    "emailPlaceholder": "you@example.com",
+    "submit": "إرسال",
+    "sending": "جارٍ الإرسال…",
+    "cancel": "إلغاء",
+    "close": "إغلاق",
+    "success": "شكراً لك. سنراجع بلاغك في أقرب وقت ممكن.",
+    "error": "حدث خطأ ما. حاول مجدداً أو راسل {email}.",
+    "captchaRequired": "يرجى إكمال التحقق الأمني.",
+    "captchaMissing": "التحقق الأمني غير مُعدّ (مفتاح الموقع مفقود)."
+  },
+  "textReport": {
+    "title": "الإبلاغ عن نص غير صحيح",
+    "intro": "تحقق من الصياغة المحددة وأضف كيف ينبغي أن تُقرأ.",
+    "selectionAction": "الإبلاغ عن هذا النص",
+    "incorrectLabel": "النص غير الصحيح (كما في الصفحة)",
+    "incorrectPlaceholder": "الصق أو حدّد نصاً من الصفحة…",
+    "suggestedLabel": "صياغتك",
+    "suggestedPlaceholder": "اكتب الصياغة المصححة أو التصحيح الواقعي…",
+    "submit": "إرسال البلاغ"
+  },
+  "about": {
+    "title": "حول المشروع",
+    "body": "Berlin 2026 مشروع مستقل يقارن برامج الأحزاب قبل انتخابات برلين الإقليمية 2026. تُنشر البرامج الرسمية بالألمانية فقط — نترجمها إلى لغات تُستخدم في برلين.\n\nنينا تقارن البرامج وتطوّر المشروع؛ ماشا تتولى الجانب التقني. بالتوازي نعمل على [Water for All / Wasser für alle](https://www.water4all.com.de) — أطلس مفتوح لمياه الشرب المجانية في برلين. يجعل المشروع الوصول إلى المياه مرئياً ويساعد السكان على المطالبة بنوافير شرب جديدة.",
+    "contributeTitle": "كيف يمكنك المساعدة",
+    "contributeBody": "إن أردت دعم المشروع، فأفضل ما تفعله هو نشره — شاركه مع من قد يجدونه مفيداً.\n\nيمكنك أيضاً طباعة منشورنا (بالألمانية والإنجليزية والتركية والكردية والبولندية والروسية والأوكرانية والعربية والإسبانية والفيتنامية والإيطالية) وتعليقه حيث يراه الناس في برلين — المقاهي ولوحات الإعلانات والأماكن المجتمعية. [تحميل ملف PDF](/flyers/berlin-2026-flyer.pdf).\n\nوإن لاحظت خطأ في الموقع — صياغة خاطئة أو خطأ واقعي — أخبرنا لنصلحه. حدّد المقطع في الصفحة لفتح بلاغ، أو راسلنا عبر اتصل بنا.\n\nيمكنك أيضاً تحسين الترجمات بنفسك — افتح طلب سحب (pull request) بالتصحيحات، أو أضف ملفات الترجمة أو عدّلها مباشرة في [مستودع GitHub](https://github.com/mashazyu/berlin-2026)."
+  },
+  "aiDisclosure": {
+    "title": "الإفصاح عن الذكاء الاصطناعي",
+    "intro": "توضح هذه الصفحة كيف نستخدم أدوات الذكاء الاصطناعي عند إعداد محتوى هذا الموقع — وكيف يبقى المحررون البشريون مسؤولين عما ننشره.",
+    "howWeUseAi": "كيف نستخدم الذكاء الاصطناعي",
+    "howWeUseAiContent": "نستخدم أدوات الذكاء الاصطناعي لصياغة وتحسين نصوص الموقع — مثلاً نصوص الصفحات وملخصات برامج الأحزاب الرسمية. يساعد الذكاء الاصطناعي في الصياغة والبنية والمواقف القابلة للمقارنة؛ ولا يقرّر ما ننشره أو كيف ينبغي أن تصوّت.",
+    "humanResponsibility": "الأفكار البشرية والمسؤولية التحريرية",
+    "humanResponsibilityContent": "كل الأفكار والأهداف وقرارات المحتوى وراء هذا الموقع تأتي من أشخاص في مشروع Berlin 2026. قبل أي نشر، نراجعه من حيث الوضوح وملاءمته لغرض المشروع الإعلامي. المسؤولية التحريرية تقع على مشروع Berlin 2026.",
+    "reviewAndAccuracy": "المراجعة والدقة",
+    "reviewAndAccuracyContent": "جدول مقارنة الأحزاب مبني إلى حد كبير بمساعدة الذكاء الاصطناعي من البرامج الرسمية. راجع النقاط المهمة لك. الترجمات الكاملة لبرامج الأحزاب الرئيسية على BerlinVote.Help. نراجع المحتوى للدقة، لكن الأخطاء ممكنة وقد تُفوت بعض التفاصيل. إن لاحظت خطأ، أخبرنا من فضلك.",
+    "contact": "اتصل بنا",
+    "contactContent": "أسئلة عن استخدامنا للذكاء الاصطناعي أو عن محتوى هذا الموقع؟ راسل {email}."
+  },
+  "comparison": {
+    "title": "برامج الأحزاب لانتخابات برلين الإقليمية 2026",
+    "subtitle": "مواقف أكبر 10 أحزاب بشأن النقل والسكن والمناخ والأمن والتعليم والصحة والهجرة وقضايا أخرى — من برامجها الرسمية.",
+    "topicColumn": "الموضوع",
+    "scrollHint": "يُعرض الأحزاب المحددة فقط — أضف المزيد عبر التسميات أعلاه.",
+    "programLink": "البرنامج",
+    "emptyCell": "—",
+    "partiesLabel": "الأحزاب للمقارنة",
+    "showAll": "الكل",
+    "showFactions": "الفصائل الحالية",
+    "selectedCount": "{count} محددة",
+    "expandTopic": "عرض المواقف",
+    "collapseTopic": "إخفاء",
+    "openProgram": "برنامج الحزب",
+    "sourceQuote": "اقتباسات أصلية",
+    "sourceQuoteLink": "فتح المصدر في البرنامج",
+    "sourceNote": "غير موجود في البرنامج",
+    "expandGroup": "توسيع المجموعة",
+    "collapseGroup": "طي المجموعة",
+    "searchPlaceholder": "ابحث في المواضيع…",
+    "searchClear": "مسح البحث",
+    "searchNoResults": "لا مواضيع تطابق بحثك.",
+    "searchResultsCount": "{count} مواضيع",
+    "groups": {
+      "transport": "النقل",
+      "waste": "النظافة والنفايات",
+      "climate_energy": "المناخ والطاقة",
+      "animals": "الحيوانات",
+      "housing": "السكن",
+      "security": "الأمن",
+      "education": "التعليم",
+      "health": "الصحة",
+      "migration": "الهجرة",
+      "economy": "الاقتصاد",
+      "society": "المجتمع والثقافة",
+      "democracy": "الديمقراطية",
+      "other": "أخرى"
+    }
+  }
+}

@@ -2,15 +2,17 @@
 
 **Hosts:** `wahl.kompass.berlin`, `www.wahl.kompass.berlin`
 
-Cutover target for a copy of the live Berlin election site (today: repo root / berlin-2026.de).
+Copy of the berlin-2026 election compass (same codebase as the live app still at repo root until Vercel cutover).
 
-Do **not** point these domains here until cutover.
+```bash
+pnpm --filter @kompass/wahl dev    # port 3000
+pnpm --filter @kompass/wahl build
+```
 
-## When to populate
+Copy `.env.example` → `.env.local` in this folder for local secrets.
 
-1. Copy the live root Next app into this folder.
-2. Depend on `@kompass/ui` (+ shared pieces as needed).
-3. Deploy as a **preview** only; compare with production.
-4. Cutover: set Vercel Root Directory to `apps/wahl`, attach both hosts, then remove the old root app tree.
+## Cutover
 
-Until then this directory is intentionally a placeholder.
+1. Preview this app on Vercel (Root Directory `apps/wahl`).
+2. Attach both hosts; switch traffic when ready.
+3. Remove the duplicate root app tree once production points here.

@@ -1,0 +1,58 @@
+{
+  "mentions": [
+    {
+      "id": "berlinwelle",
+      "date": "2026-09-10",
+      "postUrl": "https://t.me/berlinwelle/2782",
+      "kind": "telegram"
+    },
+    {
+      "id": "bundeskanzler",
+      "date": "2026-09-11",
+      "postUrl": "https://t.me/bundeskanzlerRU/2386",
+      "kind": "telegram"
+    },
+    {
+      "id": "berlinevents",
+      "date": "2026-09-14",
+      "postUrl": "https://open.substack.com/pub/berlinevents/p/berlin-events-guide-sep-1521-get",
+      "kind": "substack"
+    },
+    {
+      "id": "theberlinlife",
+      "date": "2026-09-14",
+      "postUrl": "https://theberlinlife.substack.com/p/berlin-election-2026-who-can-vote",
+      "kind": "substack"
+    },
+    {
+      "id": "handpicked",
+      "date": "2026-09-14",
+      "postUrl": "https://newsletter.handpickedberlin.com/p/211-who-you-gon-call-vote-for",
+      "kind": "newsletter"
+    },
+    {
+      "id": "20percent",
+      "date": "2026-09-15",
+      "postUrl": "https://www.20percent.berlin/p/528-election-fever-berliners-pro",
+      "kind": "substack"
+    },
+    {
+      "id": "zernaradosti",
+      "date": "2026-09-17",
+      "postUrl": "https://t.me/zernaradosti/1413",
+      "kind": "telegram"
+    },
+    {
+      "id": "russischsprachigelinke",
+      "date": "2026-09-17",
+      "postUrl": "https://t.me/RussischsprachigeLinke/321",
+      "kind": "telegram"
+    },
+    {
+      "id": "gooseexpat",
+      "date": "2026-09-17",
+      "postUrl": "https://t.me/goose_expat/2098",
+      "kind": "telegram"
+    }
+  ]
+}
