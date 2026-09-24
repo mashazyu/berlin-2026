@@ -6,7 +6,7 @@ Step-by-step for changing comparison data, locales, or mentions. Full map: [SITE
 
 1. Edit [`data/comparison/base.json`](../data/comparison/base.json) for stance/sources (language-agnostic).
 2. Edit [`data/comparison/{lang}.json`](../data/comparison/) overlays for translated summaries/labels (`cellSummaries`, `topicLabels`, `partyNames`).
-3. Assemble and verify:
+3. Assemble and verify (PDFs are read from [`scripts/fixtures/pdfs/`](../scripts/fixtures/pdfs/) — not downloaded):
 
 ```bash
 pnpm assemble:comparison
