@@ -135,16 +135,18 @@ jobs:
           cache: pnpm
           cache-dependency-path: pnpm-lock.yaml
       - run: pnpm install --frozen-lockfile
+      - name: Install Cypress binary
+        run: pnpm exec cypress install
       - name: Build
         run: pnpm build
       - name: Cypress
         uses: cypress-io/github-action@v6
         with:
+          # deps + binary already installed (pnpm); action only starts server + runs tests
           install: false
           start: pnpm start --port 3000
           wait-on: http://127.0.0.1:3000/de
           wait-on-timeout: 120
-          browser: chrome
           command: pnpm test:e2e
         env:
           CYPRESS_BASE_URL: http://127.0.0.1:3000
