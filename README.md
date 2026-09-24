@@ -9,7 +9,7 @@ Languages: English, German, Turkish, Kurdish (Kurmanji), Vietnamese, Polish, Rus
 ## Stack
 
 - Next.js 15 (App Router) + TypeScript + pnpm
-- Tailwind CSS 4 + shadcn-style UI primitives
+- Tailwind CSS 4 + [shadcn/ui](https://ui.shadcn.com) (`components.json`, `pnpm dlx shadcn@latest add …`)
 - Locale JSON in `locales/{en,de,tr,ku,vi,pl,ru,uk,ar,es,it}.json`
 - Comparison dataset split under `data/comparison/` (`base.json` + `{lang}.json` overlays)
 - Resolved per-locale files emitted to `public/data/comparison/{lang}.json` on `dev`/`build` (keeps ISR page payloads small)
@@ -26,11 +26,42 @@ Open [http://localhost:3000](http://localhost:3000) (redirects to `/de` or negot
 ```bash
 pnpm build
 pnpm type-check
+pnpm check:translation-completeness
+pnpm check:translation-links
 pnpm encode:comparison     # rebuild monolith from Notion scrapes (script paths)
 pnpm split:comparison      # monolith → data/comparison/base.json + {lang}.json
 pnpm assemble:comparison   # overlays → data/comparison.json (for Python verify scripts)
 pnpm emit:comparison       # overlays → public/data/comparison/{lang}.json
+pnpm verify:citations
+pnpm verify:relevance
 ```
+
+### Cypress smoke
+
+With the app running (`pnpm build && pnpm start` or `pnpm dev`):
+
+```bash
+CYPRESS_BASE_URL=http://127.0.0.1:3000 pnpm test:e2e      # headless
+CYPRESS_BASE_URL=http://127.0.0.1:3000 pnpm test:e2e:open # interactive UI
+```
+
+(Scripts clear `ELECTRON_RUN_AS_NODE` so Cypress can start if that env var is set in the shell.)
+## Maintaining content
+
+- [docs/SITE-OVERVIEW.md](docs/SITE-OVERVIEW.md) — where to edit what
+- [docs/content-update-runbook.md](docs/content-update-runbook.md) — comparison / locale / mentions checklist
+- Election date constant: `lib/seo/election.ts`
+
+## CI
+
+PRs to `main` run [`.github/workflows/ci-pr.yml`](.github/workflows/ci-pr.yml):
+
+- Lint, type-check, i18n (completeness + links)
+- Content verify (assemble + citation/relevance Python checks)
+- Security (gitleaks + `pnpm audit`)
+- Cypress e2e against `next build` + `next start`
+
+Dependabot updates npm and GitHub Actions weekly. Push to `main` can notify IndexNow via [`.github/workflows/indexnow.yml`](.github/workflows/indexnow.yml).
 
 ## Deploy (Vercel)
 

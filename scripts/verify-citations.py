@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Layer-1 mechanical citation verifier for data/comparison.json.
 
-Caches party program PDFs under .tmp-verify/, extracts per-page text, and checks:
+Reads party program PDFs from scripts/fixtures/pdfs/ (no network).
+Caches extracted per-page text under .tmp-verify/ and checks:
 - schema completeness (party×topic cells, locales)
 - quote URL matches party programUrl
 - quote literally appears in PDF (normalized)
@@ -17,16 +18,14 @@ from __future__ import annotations
 
 import json
 import re
-import ssl
 import sys
-import urllib.request
 from collections import Counter, defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data" / "comparison.json"
 CACHE = ROOT / ".tmp-verify"
-PDF_DIR = CACHE / "pdfs"
+FIXTURE_PDF_DIR = ROOT / "scripts" / "fixtures" / "pdfs"
 TEXT_DIR = CACHE / "pages"
 REPORT_PATH = CACHE / "verify-report.json"
 
@@ -49,11 +48,19 @@ HEADER_PATTERNS = [
     re.compile(r"\bWAHLPROGRAMM\s+BERLIN\s+2026\b", re.I),
     re.compile(r"\bPARTEI\s+MENSCH\s+KLIMA\s+TIERSCHUTZ\s*//\s*TIERSCHUTZPARTEI\b", re.I),
     re.compile(
+        r"\bPARTEI\s+MENSCH\s+(?:KLIMA|UMWELT)\s+TIERSCHUTZ\s+Tierschutzpartei\b",
+        re.I,
+    ),
+    re.compile(r"\bMENSCH\s+PARTEI\s+MENSCH\s+UMWELT\s+TIERSCHUTZ\s+Tierschutzpartei\b", re.I),
+    re.compile(r"\bMENSCH\b(?=\s+(?:pro|UMWELT|PARTEI)\b)", re.I),
+    re.compile(
         r"\b\d+\s+ÖDP\s+Berlin\s+Landespolitisches\s+Programm\s+Stand\s+[\d-]+\b",
         re.I,
     ),
     re.compile(r"\b\d+\s+WIRTSCHAFT\s*&\s*SOZIALES\b", re.I),
     re.compile(r"\bWIRTSCHAFT\s*&\s*SOZIALES\b", re.I),
+    re.compile(r"\b\d+\s*BAUEN\s*&\s*WOHNEN\b", re.I),
+    re.compile(r"\b\d+\s+BERLIN\s+LEBT\b", re.I),
     # Page number interrupting a hyphenated line break (e.g. "Mas- 49 sen-")
     re.compile(r"(?<=[A-Za-zÄÖÜäöüß]-)\s*\d{1,3}\s+(?=[A-Za-zÄÖÜäöüß])"),
     re.compile(r"\bRegierungsprogramm\s+2026-2030\b", re.I),
@@ -92,17 +99,16 @@ def match_key(s: str, *, strip_chrome: bool = False) -> str:
     return re.sub(r"[-\s]", "", normalize_text(s, strip_chrome=strip_chrome))
 
 
-def download_pdf(url: str, dest: Path) -> None:
-    dest.parent.mkdir(parents=True, exist_ok=True)
-    if dest.exists() and dest.stat().st_size > 1000:
-        return
-    ctx = ssl.create_default_context()
-    req = urllib.request.Request(
-        url,
-        headers={"User-Agent": "berlin-2026-verify-citations/1.0"},
-    )
-    with urllib.request.urlopen(req, context=ctx, timeout=120) as resp:
-        dest.write_bytes(resp.read())
+def resolve_fixture_pdf(party_id: str) -> Path:
+    """Return path to committed fixture PDF; raises FileNotFoundError if missing."""
+    path = FIXTURE_PDF_DIR / f"{party_id}.pdf"
+    if not path.is_file() or path.stat().st_size < 1000:
+        raise FileNotFoundError(
+            f"Missing fixture PDF {path.relative_to(ROOT)} — "
+            f"add the party program under scripts/fixtures/pdfs/ "
+            f"(verifier does not download remote files)."
+        )
+    return path
 
 
 def extract_pages(pdf_path: Path, party_id: str, *, force: bool = False) -> list[str]:
@@ -466,31 +472,29 @@ def main() -> int:
     schema_fails = check_schema(data)
 
     page_map: dict[str, list[str]] = {}
-    download_errors: list[dict] = []
+    load_errors: list[dict] = []
 
     for party in parties:
         pid = party["id"]
-        url = party["programUrl"]
-        pdf_path = PDF_DIR / f"{pid}.pdf"
         print(f"  PDF {pid}…", end=" ", flush=True)
         try:
-            download_pdf(url, pdf_path)
+            pdf_path = resolve_fixture_pdf(pid)
             pages = extract_pages(pdf_path, pid, force=args.force_extract)
             page_map[pid] = pages
             print(f"ok ({len(pages) - 1} pages)")
         except Exception as exc:  # noqa: BLE001
             print(f"FAIL {exc}")
-            download_errors.append(
+            load_errors.append(
                 {
-                    "code": "pdf_download_or_extract",
+                    "code": "pdf_fixture_missing_or_extract",
                     "partyId": pid,
                     "message": str(exc),
-                    "url": url,
+                    "fixture": str(FIXTURE_PDF_DIR / f"{pid}.pdf"),
                 }
             )
 
     citation_fails = check_citations(data, page_map)
-    all_fails = download_errors + schema_fails + citation_fails
+    all_fails = load_errors + schema_fails + citation_fails
 
     hard = [f for f in all_fails if f.get("severity") != "soft"]
     soft = [f for f in all_fails if f.get("severity") == "soft"]
