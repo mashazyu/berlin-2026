@@ -1,57 +1,43 @@
 "use client"
 
 import {
-  ContentSection,
   Hero,
   HeroCta,
   HeroScrollHint,
   LandingShell,
-  MentionsSection,
   SiteFooter,
   SiteHeader,
 } from "@kompass/landing"
 import { LanguageSwitcher } from "@/components/language-switcher"
 import { useLanguage } from "@/components/language-provider"
-import { getMentions } from "@/lib/mentions"
+import { guideHref, KOMPASS_HOME } from "@/lib/links"
 
 export function HomePageClient() {
   const { language, translations: t } = useLanguage()
   const homeHref = `/${language}`
-  const aboutHref = `/${language}/about`
+  const guideUrl = guideHref(language)
 
   return (
     <LandingShell
       header={
         <SiteHeader
-          brand={
-            <>
-              <span className="text-accent">{t.brandAccent}</span>
-              <span className="mx-1 text-border">·</span>
-              <span className="text-foreground">{t.brandRest}</span>
-            </>
-          }
+          brand={<span className="text-foreground">{t.brand}</span>}
           homeHref={homeHref}
           links={[
-            { type: "section", id: "content", label: t.navigation.overview },
-            { type: "page", href: aboutHref, label: t.navigation.about },
+            { type: "section", id: "guides", label: t.navigation.guides },
+            {
+              type: "external",
+              href: KOMPASS_HOME,
+              label: t.navigation.about,
+            },
           ]}
           trailing={<LanguageSwitcher />}
         />
       }
       footer={
         <SiteFooter
-          brand={
-            <>
-              <span className="text-accent">{t.brandAccent}</span>
-              <span className="mx-1 text-border">·</span>
-              <span className="text-foreground">{t.brandRest}</span>
-            </>
-          }
+          brand={<span className="text-foreground">{t.brand}</span>}
           notice={t.footer.notice}
-          links={[
-            { href: aboutHref, label: t.footer.about },
-            { href: "mailto:hello@example.com", label: t.footer.contact },
-          ]}
         />
       }
     >
@@ -63,30 +49,44 @@ export function HomePageClient() {
         cta={
           <HeroCta
             label={t.hero.cta}
-            href="#content"
-            sectionId="content"
+            href="#guides"
+            sectionId="guides"
           />
         }
         scrollHint={
           <HeroScrollHint
             label={t.hero.scrollHint}
-            href="#content"
-            sectionId="content"
+            href="#guides"
+            sectionId="guides"
           />
         }
       />
-      <ContentSection
-        id="content"
-        title={t.content.title}
-        blocks={t.content.blocks.map((block) => ({
-          title: block.title,
-          body: <p>{block.body}</p>,
-        }))}
-      />
-      <MentionsSection
-        title={t.mentions.title}
-        mentions={getMentions(language)}
-      />
+
+      <section
+        id="guides"
+        className="scroll-mt-[4.25rem] bg-white px-4 py-16 sm:px-6 sm:py-20"
+      >
+        <div className="mx-auto max-w-3xl animate-[rise_0.55s_ease-out_both]">
+          <h2 className="font-display text-3xl font-semibold tracking-[-0.01em] sm:text-4xl">
+            {t.guides.title}
+          </h2>
+          <div className="mt-8 space-y-5 text-base leading-relaxed text-muted-foreground sm:text-lg">
+            <p>{t.guides.intro}</p>
+            <p>{t.guides.body}</p>
+            <p>{t.guides.note}</p>
+          </div>
+          <p className="mt-8">
+            <a
+              href={guideUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center text-base font-medium text-primary underline-offset-4 hover:underline"
+            >
+              {t.guides.linkLabel}
+            </a>
+          </p>
+        </div>
+      </section>
     </LandingShell>
   )
 }

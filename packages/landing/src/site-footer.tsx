@@ -10,10 +10,10 @@ export type FooterLink = {
 export type SiteFooterProps = {
   brand: ReactNode
   notice?: string
-  links: FooterLink[]
+  links?: FooterLink[]
 }
 
-export function SiteFooter({ brand, notice, links }: SiteFooterProps) {
+export function SiteFooter({ brand, notice, links = [] }: SiteFooterProps) {
   return (
     <footer className="border-t border-border bg-white">
       <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6">
@@ -33,27 +33,29 @@ export function SiteFooter({ brand, notice, links }: SiteFooterProps) {
           <p className="font-display text-sm font-semibold tracking-[-0.01em]">
             {brand}
           </p>
-          <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-muted-foreground">
-            {links.map((link) =>
-              link.external || link.href.startsWith("mailto:") ? (
-                <a
-                  key={link.href}
-                  href={link.href}
-                  className="transition-colors hover:text-foreground"
-                >
-                  {link.label}
-                </a>
-              ) : (
-                <Link
-                  key={link.href}
-                  href={link.href}
-                  className="transition-colors hover:text-foreground"
-                >
-                  {link.label}
-                </Link>
-              )
-            )}
-          </div>
+          {links.length > 0 ? (
+            <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-muted-foreground">
+              {links.map((link) =>
+                link.external || link.href.startsWith("mailto:") ? (
+                  <a
+                    key={link.href}
+                    href={link.href}
+                    className="transition-colors hover:text-foreground"
+                  >
+                    {link.label}
+                  </a>
+                ) : (
+                  <Link
+                    key={link.href}
+                    href={link.href}
+                    className="transition-colors hover:text-foreground"
+                  >
+                    {link.label}
+                  </Link>
+                )
+              )}
+            </div>
+          ) : null}
         </div>
       </div>
     </footer>

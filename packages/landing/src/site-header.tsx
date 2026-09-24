@@ -10,6 +10,7 @@ import { handleSectionLinkClick, scrollToSection } from "./scroll-to-section"
 export type NavLink =
   | { type: "section"; id: string; label: string }
   | { type: "page"; href: string; label: string; matchPath?: string }
+  | { type: "external"; href: string; label: string }
 
 export type SiteHeaderProps = {
   brand: ReactNode
@@ -80,6 +81,21 @@ export function SiteHeader({
         >
           {link.label}
         </Link>
+      )
+    }
+
+    if (link.type === "external") {
+      return (
+        <a
+          key={link.href}
+          href={link.href}
+          className={className}
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={closeMenu}
+        >
+          {link.label}
+        </a>
       )
     }
 

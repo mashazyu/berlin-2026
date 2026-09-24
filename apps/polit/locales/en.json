@@ -1,49 +1,28 @@
 {
-  "brand": "Site C",
-  "brandAccent": "Site",
-  "brandRest": "C",
+  "brand": "Polit",
+  "brandAccent": "Polit",
+  "brandRest": "",
   "hero": {
-    "headline": "Compare positions at a glance",
-    "support": "Same landing shell as Site B — teal CTAs from this app’s theme only.",
-    "blurb": "Languages: English, German, and Ukrainian.",
-    "disclaimer": "Placeholder site for shared-layout verification. Not a live product.",
-    "cta": "Read more",
-    "scrollHint": "Scroll to content"
+    "headline": "Talk to Berlin’s administration",
+    "support": "Tools and guides so Berliners can reach local authorities about communal issues.",
+    "blurb": "Dummy hero — real product copy coming soon.",
+    "disclaimer": "Polit is a Kompass Kollektive project in progress.",
+    "cta": "How to report a problem",
+    "scrollHint": "Scroll to guides"
   },
   "navigation": {
-    "overview": "Overview",
+    "guides": "Guides",
     "about": "About"
   },
-  "content": {
-    "title": "What you get",
-    "blocks": [
-      {
-        "title": "Token-only branding",
-        "body": "Change --primary and --accent in theme.css; buttons and chips follow automatically."
-      },
-      {
-        "title": "Different locale set",
-        "body": "This app includes uk in addition to en and de — without changing @kompass/landing."
-      }
-    ]
-  },
-  "mentions": {
-    "title": "Mentions",
-    "kindLabels": {
-      "article": "Article",
-      "newsletter": "Newsletter",
-      "telegram": "Telegram",
-      "substack": "Substack"
-    }
+  "guides": {
+    "title": "How to report a problem to local authorities",
+    "intro": "When something is missing or broken in your neighbourhood — a drinking fountain, a street issue, or another communal need — you can contact district assemblies and city agencies. Water for All has published a practical guide based on real experience with Berlin authorities.",
+    "body": "The guide covers requests to Berliner Wasserbetriebe, Einwohneranfragen to the district assembly (BVV), parliamentary questions (Kleine Anfrage), how to check status, and how to share outcomes so others can learn from them.",
+    "linkLabel": "Open the Water for All guide",
+    "note": "It does not guarantee immediate results, but it gives you a clear set of tools to draw attention to infrastructure gaps."
   },
   "footer": {
-    "notice": "Demo site for monorepo shared UI. Production berlin remains on the repo root until cutover.",
-    "about": "About",
-    "contact": "Contact"
-  },
-  "about": {
-    "title": "About Site C",
-    "body": "Placeholder multilingual site used to validate shared packages and teal brand tokens."
+    "notice": "Polit — a Kompass Kollektive project."
   },
   "languageSwitcher": {
     "label": "Language"

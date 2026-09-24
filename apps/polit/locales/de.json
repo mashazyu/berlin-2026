@@ -1,49 +1,28 @@
 {
-  "brand": "Site C",
-  "brandAccent": "Site",
-  "brandRest": "C",
+  "brand": "Polit",
+  "brandAccent": "Polit",
+  "brandRest": "",
   "hero": {
-    "headline": "Positionen auf einen Blick",
-    "support": "Gleiches Landing-Layout wie Site B — türkise CTAs nur aus dem Theme dieser App.",
-    "blurb": "Sprachen: Englisch, Deutsch und Ukrainisch.",
-    "disclaimer": "Platzhalter-Seite zur Prüfung des gemeinsamen Layouts. Kein Live-Produkt.",
-    "cta": "Weiterlesen",
-    "scrollHint": "Zum Inhalt scrollen"
+    "headline": "Mit der Berliner Verwaltung sprechen",
+    "support": "Hilfen und Anleitungen, damit Berliner:innen lokale Behörden zu kommunalen Themen erreichen können.",
+    "blurb": "Platzhalter-Hero — echte Produkttexte folgen.",
+    "disclaimer": "Polit ist ein Projekt von Kompass Kollektive — noch im Aufbau.",
+    "cta": "So melden Sie ein Problem",
+    "scrollHint": "Zu den Anleitungen scrollen"
   },
   "navigation": {
-    "overview": "Übersicht",
+    "guides": "Anleitungen",
     "about": "Über uns"
   },
-  "content": {
-    "title": "Was Sie bekommen",
-    "blocks": [
-      {
-        "title": "Branding nur über Tokens",
-        "body": "Ändern Sie --primary und --accent in theme.css; Buttons und Chips folgen automatisch."
-      },
-      {
-        "title": "Andere Sprachauswahl",
-        "body": "Diese App enthält zusätzlich uk — ohne @kompass/landing zu ändern."
-      }
-    ]
-  },
-  "mentions": {
-    "title": "Erwähnungen",
-    "kindLabels": {
-      "article": "Artikel",
-      "newsletter": "Newsletter",
-      "telegram": "Telegram",
-      "substack": "Substack"
-    }
+  "guides": {
+    "title": "So melden Sie ein Problem bei lokalen Behörden",
+    "intro": "Wenn in Ihrem Kiez etwas fehlt oder kaputt ist — ein Trinkbrunnen, ein Straßenproblem oder ein anderer kommunaler Bedarf — können Sie Bezirksverordnetenversammlungen und städtische Stellen kontaktieren. Water for All hat eine praktische Anleitung aus der Erfahrung mit Berliner Behörden veröffentlicht.",
+    "body": "Die Anleitung behandelt Anfragen an die Berliner Wasserbetriebe, Einwohneranfragen an die BVV, parlamentarische Anfragen (Kleine Anfrage), Statusprüfung und das Teilen von Ergebnissen.",
+    "linkLabel": "Zur Anleitung von Water for All",
+    "note": "Sie garantiert keine sofortigen Ergebnisse, gibt Ihnen aber klare Werkzeuge, um auf Infrastruktur-Lücken aufmerksam zu machen."
   },
   "footer": {
-    "notice": "Demo-Seite für gemeinsames UI im Monorepo. Produktion berlin bleibt bis zum Cutover im Repo-Root.",
-    "about": "Über uns",
-    "contact": "Kontakt"
-  },
-  "about": {
-    "title": "Über Site C",
-    "body": "Platzhalter-Mehrsprachseite zur Validierung der Shared Packages und türkisen Marken-Tokens."
+    "notice": "Polit — ein Projekt von Kompass Kollektive."
   },
   "languageSwitcher": {
     "label": "Sprache"
