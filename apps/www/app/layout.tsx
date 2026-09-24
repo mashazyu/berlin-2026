@@ -1,27 +1,28 @@
-import { DM_Sans, Lora } from "next/font/google"
+import { Lora, Source_Sans_3 } from "next/font/google"
 import type { Metadata } from "next"
 import "./theme.css"
 
-const dmSans = DM_Sans({
-  subsets: ["latin"],
+const sourceSans = Source_Sans_3({
+  subsets: ["latin", "latin-ext", "cyrillic"],
   variable: "--font-dm-sans",
 })
 
 const lora = Lora({
-  subsets: ["latin"],
+  subsets: ["latin", "latin-ext", "cyrillic"],
   variable: "--font-lora",
 })
 
 export const metadata: Metadata = {
-  title: "Site B",
-  description: "Monorepo demo site with blue CTAs",
+  title: "Kompass Kollektive",
+  description:
+    "Nina and Masha build civic tools for Berlin: Water for All and Berlin 2026.",
 }
 
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={`${dmSans.variable} ${lora.variable}`}>
+    <html lang="de" className={`${sourceSans.variable} ${lora.variable}`}>
       <body>{children}</body>
     </html>
   )

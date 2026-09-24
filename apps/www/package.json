@@ -2,7 +2,7 @@
   "name": "@kompass/www",
   "version": "0.1.0",
   "private": true,
-  "description": "kompass.berlin + www.kompass.berlin — about us",
+  "description": "kompass.berlin + www.kompass.berlin — Kompass Kollektive",
   "scripts": {
     "dev": "next dev --turbopack --port 3001",
     "build": "next build",
@@ -13,6 +13,7 @@
   "dependencies": {
     "@kompass/landing": "workspace:*",
     "@kompass/ui": "workspace:*",
+    "lucide-react": "^1.40.0",
     "next": "15.5.25",
     "react": "19.1.0",
     "react-dom": "19.1.0"

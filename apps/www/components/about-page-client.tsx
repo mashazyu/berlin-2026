@@ -12,42 +12,25 @@ import { useLanguage } from "@/components/language-provider"
 export function AboutPageClient() {
   const { language, translations: t } = useLanguage()
   const homeHref = `/${language}`
-  const aboutHref = `/${language}/about`
 
   return (
     <LandingShell
       enableScrollSnap={false}
       header={
         <SiteHeader
-          brand={
-            <>
-              <span className="text-accent">{t.brandAccent}</span>
-              <span className="mx-1 text-border">·</span>
-              <span className="text-foreground">{t.brandRest}</span>
-            </>
-          }
+          brand={<span className="text-foreground">{t.brand}</span>}
           homeHref={homeHref}
           links={[
-            { type: "section", id: "content", label: t.navigation.overview },
-            { type: "page", href: aboutHref, label: t.navigation.about },
+            { type: "section", id: "projects", label: t.navigation.projects },
+            { type: "section", id: "contacts", label: t.navigation.contacts },
           ]}
           trailing={<LanguageSwitcher />}
         />
       }
       footer={
         <SiteFooter
-          brand={
-            <>
-              <span className="text-accent">{t.brandAccent}</span>
-              <span className="mx-1 text-border">·</span>
-              <span className="text-foreground">{t.brandRest}</span>
-            </>
-          }
+          brand={<span className="text-foreground">{t.brand}</span>}
           notice={t.footer.notice}
-          links={[
-            { href: aboutHref, label: t.footer.about },
-            { href: "mailto:hello@example.com", label: t.footer.contact },
-          ]}
         />
       }
     >

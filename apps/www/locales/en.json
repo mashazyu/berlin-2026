@@ -1,49 +1,72 @@
 {
-  "brand": "Site B",
-  "brandAccent": "Site",
-  "brandRest": "B",
-  "hero": {
-    "headline": "Clear local politics, in your language",
-    "support": "A shared landing shell with blue CTAs — proof the monorepo theme works.",
-    "blurb": "Multilingual demo: English and German.",
-    "disclaimer": "Placeholder site for shared-layout verification. Not a live product.",
-    "cta": "See the overview",
-    "scrollHint": "Scroll to overview"
+  "brand": "Kompass Kollektive",
+  "brandAccent": "Kompass",
+  "brandRest": "Kollektive",
+  "meta": {
+    "description": "Nina and Masha build civic tools for Berlin: Water for All and Berlin 2026."
   },
   "navigation": {
-    "overview": "Overview",
-    "about": "About"
+    "about": "About",
+    "projects": "Projects",
+    "contacts": "Contacts"
   },
-  "content": {
-    "title": "Why this site",
-    "blocks": [
+  "intro": {
+    "title": "About us",
+    "paragraphs": [
+      "Kompass Kollektive brings together projects by Nina and Masha. Last year they launched Water for All — a map of free drinking water sources in Berlin.",
+      "Ahead of the election, Nina started figuring out who to vote for. She read the party programs, built a comparison table, and wrote about climate and transport policy across parties. She showed the table to Masha, who suggested turning it into a website and designed the whole UI. That is how a clear, practical tool came to life — Berlin 2026.",
+      "Water for All is a grassroots initiative dedicated to making information about free drinking water sources in Berlin accessible to everyone. The project was born out of the Lab for Political Participation program by Club Dialog e.V. and has since evolved into an independent initiative.",
+      "The Lab for Political Participation is a Club Dialog e.V. program designed to empower Russian-speaking Berliners with migration backgrounds to strengthen their civic and political engagement.",
+      "Berlin 2026 is an independent project comparing party programs ahead of the 2026 Berlin state election. Official programs are published only in German — we translate them into languages spoken in Berlin. Nina compares the programs and develops the project; Masha handles the technical side."
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "items": [
       {
-        "title": "Shared layout",
-        "body": "Hero, content, and mentions come from @kompass/landing. Only tokens and copy live here."
+        "id": "water4all",
+        "name": "Water for All",
+        "description": "An open atlas of free drinking water in Berlin — making access visible and helping residents push for new drinking fountains.",
+        "linkLabel": "Visit Water for All"
       },
       {
-        "title": "Own language set",
-        "body": "This app ships en and de. Other apps can enable different locales without touching the shared package."
+        "id": "berlin-2026",
+        "name": "Berlin 2026",
+        "description": "A multilingual comparison of party programs ahead of the 2026 Berlin state election.",
+        "linkLabel": "Visit Berlin 2026"
+      },
+      {
+        "id": "polit",
+        "name": "Polit",
+        "description": "Helps Berlin citizens communicate with Berlin bureaucracy.",
+        "linkLabel": "Visit Polit"
       }
     ]
   },
-  "mentions": {
-    "title": "In the press",
-    "kindLabels": {
-      "article": "Article",
-      "newsletter": "Newsletter",
-      "telegram": "Telegram",
+  "footer": {
+    "notice": "Independent civic projects for Berlin."
+  },
+  "contacts": {
+    "title": "Contacts",
+    "people": {
+      "nina": {
+        "name": "Nina",
+        "role": "Programs & content"
+      },
+      "masha": {
+        "name": "Masha",
+        "role": "Product & engineering"
+      }
+    },
+    "labels": {
+      "linkedin": "LinkedIn",
+      "email": "Email",
       "substack": "Substack"
     }
   },
-  "footer": {
-    "notice": "Demo site for monorepo shared UI. Production berlin remains on the repo root until cutover.",
-    "about": "About",
-    "contact": "Contact"
-  },
   "about": {
-    "title": "About Site B",
-    "body": "Placeholder multilingual site used to validate shared packages and blue brand tokens."
+    "title": "About Kompass Kollektive",
+    "body": "Kompass Kollektive is the home of projects by Nina and Masha — Water for All and Berlin 2026."
   },
   "languageSwitcher": {
     "label": "Language"

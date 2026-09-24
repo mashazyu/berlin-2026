@@ -7,8 +7,9 @@ import { useLanguage } from "@/components/language-provider"
 import { selectionChipClassName } from "@kompass/ui/lib/chip-styles"
 
 const LABELS: Record<Language, string> = {
-  en: "EN",
   de: "DE",
+  en: "EN",
+  ru: "RU",
 }
 
 export function LanguageSwitcher() {

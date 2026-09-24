@@ -244,6 +244,9 @@ importers:
       '@kompass/ui':
         specifier: workspace:*
         version: link:../../packages/ui
+      lucide-react:
+        specifier: ^1.40.0
+        version: 1.40.0(react@19.1.0)
       next:
         specifier: 15.5.25
         version: 15.5.25(@babel/core@7.29.7)(@types/node@20.19.43)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)

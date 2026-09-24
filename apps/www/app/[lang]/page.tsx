@@ -11,7 +11,7 @@ export async function generateMetadata({
   const t = getTranslations(toSafeLanguage(lang))
   return {
     title: t.brand,
-    description: t.hero.support,
+    description: t.meta.description,
   }
 }
 
