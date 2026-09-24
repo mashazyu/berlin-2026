@@ -9,13 +9,30 @@
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
-
+.tmp*
 # testing
 /coverage
+/cypress/videos
+/cypress/screenshots
+/cypress/downloads
+.cypress-cache/
 
 # next.js
 /.next/
 /out/
+
+# Generated per-locale comparison payloads (built by emit:comparison)
+/public/data/comparison/
+
+# Assembled monolith for Python verify scripts (pnpm assemble:comparison)
+/data/comparison.json
+
+# Citation verify caches
+/.tmp-verify/
+
+# Python
+**/__pycache__/
+*.py[cod]
 
 # production
 /build

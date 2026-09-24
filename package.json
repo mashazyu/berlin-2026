@@ -18,6 +18,10 @@
     "regen:og-fonts": "node scripts/regen-og-fonts.mjs",
     "verify:citations": "node scripts/assemble-comparison.mjs && python3 scripts/verify-citations.py --force-extract",
     "verify:relevance": "node scripts/assemble-comparison.mjs && python3 scripts/verify-relevance.py",
+    "check:translation-completeness": "node scripts/check-translation-completeness.mjs",
+    "check:translation-links": "node scripts/check-translation-links.mjs",
+    "test:e2e": "ELECTRON_RUN_AS_NODE= cypress run",
+    "test:e2e:open": "ELECTRON_RUN_AS_NODE= cypress open",
     "indexnow:submit": "node scripts/submit-indexnow.mjs"
   },
   "dependencies": {
@@ -49,6 +53,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.5.25",
+    "cypress": "^14.5.4",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
