@@ -4,10 +4,10 @@ Four Kompass sites share UI packages. Each site is served on **both** the apex h
 
 | Hosts | App | Purpose | Status |
 | --- | --- | --- | --- |
-| `kompass.berlin`, `www.kompass.berlin` | `apps/www` | Kompass Kollektive (about us) | ready |
-| `polit.kompass.berlin`, `www.polit.kompass.berlin` | `apps/polit` | Communal projects / guides | ready |
+| `kompass.berlin`, `www.kompass.berlin` | `apps/www` | **Kompass Kollektive** (about us) | ready |
+| `polit.kompass.berlin`, `www.polit.kompass.berlin` | `apps/polit` | **Polit Kompass** (communal guides) | ready |
 | `wasser.kompass.berlin`, `www.wasser.kompass.berlin` | `apps/wasser` | water4all copy | placeholder (move later) |
-| `wahl.kompass.berlin`, `www.wahl.kompass.berlin` | `apps/wahl` | berlin-2026 election compass | ready in monorepo |
+| `wahl.kompass.berlin`, `www.wahl.kompass.berlin` | `apps/wahl` | **Wahl Kompass - Berlin 2026** | ready in monorepo |
 | `berlin-2026.de` (live today) | repo root `/` | same product as wahl | production until cutover |
 
 ```

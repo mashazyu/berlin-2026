@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "homeTitle": "Berlin 2026 — so sánh chương trình 10 đảng phổ biến nhất",
+    "homeTitle": "Wahl Kompass - Berlin 2026 — so sánh chương trình 10 đảng phổ biến nhất",
     "homeDescription": "Chương trình chính thức cho bầu cử Viện Dân biểu Berlin ngày 20 tháng 9 năm 2026: giao thông, nhà ở, khí hậu, an ninh và nhiều chủ đề khác. Độc lập — không phải lời khuyên bỏ phiếu.",
-    "aboutTitle": "Giới thiệu — Berlin 2026",
-    "aboutDescription": "Ai làm Berlin 2026: Nina so sánh chương trình các đảng và phát triển dự án; Masha lo phần kỹ thuật. Độc lập, không thuộc đảng nào.",
-    "aiDisclosureTitle": "Công bố về AI — Berlin 2026",
+    "aboutTitle": "Giới thiệu — Wahl Kompass - Berlin 2026",
+    "aboutDescription": "Ai làm Wahl Kompass - Berlin 2026: Nina so sánh chương trình các đảng và phát triển dự án; Masha lo phần kỹ thuật. Độc lập, không thuộc đảng nào.",
+    "aiDisclosureTitle": "Công bố về AI — Wahl Kompass - Berlin 2026",
     "aiDisclosureDescription": "Chúng tôi dùng AI thế nào cho nội dung trang và bảng so sánh — và vì sao con người vẫn chịu trách nhiệm về ý tưởng, nội dung và độ chính xác.",
     "keywords": [
       "Berlin",
@@ -23,7 +23,7 @@
     ]
   },
   "brand": {
-    "name": "Berlin 2026",
+    "name": "Wahl Kompass - Berlin 2026",
     "tagline": "So sánh lập trường các đảng"
   },
   "navigation": {
@@ -248,5 +248,6 @@
       "democracy": "Dân chủ",
       "other": "Khác"
     }
-  }
+  },
+  "meta": {}
 }

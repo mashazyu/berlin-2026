@@ -52,9 +52,9 @@ export function SiteHeader() {
           className="flex h-9 shrink-0 items-center font-display text-base font-semibold tracking-[-0.01em] text-foreground"
           onClick={closeMenu}
         >
-          <span className="text-accent">Berlin</span>
-          <span className="mx-1 text-border">·</span>
-          <span className="text-foreground">2026</span>
+          <span className="text-accent">Wahl Kompass</span>
+          <span className="mx-1.5 text-border">-</span>
+          <span className="text-foreground">Berlin 2026</span>
         </Link>
 
         <div className="flex h-9 items-center gap-1 sm:gap-2">

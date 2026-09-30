@@ -13,7 +13,7 @@ const lora = Lora({
 })
 
 export const metadata: Metadata = {
-  title: "Polit",
+  title: "Polit Kompass",
   description:
     "Tools for Berliners to communicate with local authorities about communal issues.",
 }

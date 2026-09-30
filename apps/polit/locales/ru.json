@@ -1,12 +1,12 @@
 {
-  "brand": "Polit",
+  "brand": "Polit Kompass",
   "brandAccent": "Polit",
-  "brandRest": "",
+  "brandRest": "Kompass",
   "hero": {
     "headline": "Общайтесь с берлинской администрацией",
     "support": "Инструменты и гиды, чтобы жители Берлина могли обращаться к местным властям по коммунальным вопросам.",
     "blurb": "Временный hero — настоящие тексты появятся позже.",
-    "disclaimer": "Polit — проект Kompass Kollektive в разработке.",
+    "disclaimer": "Polit Kompass — проект Kompass Kollektive в разработке.",
     "cta": "Как сообщить о проблеме",
     "scrollHint": "К гидам"
   },
@@ -22,7 +22,7 @@
     "note": "Он не гарантирует мгновенного результата, но даёт понятный набор инструментов, чтобы привлечь внимание к пробелам в инфраструктуре."
   },
   "footer": {
-    "notice": "Polit — проект Kompass Kollektive."
+    "notice": "Polit Kompass — проект Kompass Kollektive."
   },
   "languageSwitcher": {
     "label": "Язык"

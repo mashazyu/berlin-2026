@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "homeTitle": "Berlin 2026 — compare the 10 most popular parties’ programs",
+    "homeTitle": "Wahl Kompass - Berlin 2026 — compare the 10 most popular parties’ programs",
     "homeDescription": "Official programs for Berlin’s Abgeordnetenhaus election on 20 September 2026: transport, housing, climate, security and more. Independent — not voting advice.",
-    "aboutTitle": "About — Berlin 2026",
-    "aboutDescription": "Who builds Berlin 2026: Nina compares party programs and develops the project; Masha handles the technical side. Independent, not affiliated with any party.",
-    "privacyTitle": "Privacy Policy — Berlin 2026",
-    "privacyDescription": "How Berlin 2026 handles personal data under the GDPR.",
-    "aiDisclosureTitle": "AI Disclosure — Berlin 2026",
+    "aboutTitle": "About — Wahl Kompass - Berlin 2026",
+    "aboutDescription": "Who builds Wahl Kompass - Berlin 2026: Nina compares party programs and develops the project; Masha handles the technical side. Independent, not affiliated with any party.",
+    "privacyTitle": "Privacy Policy — Wahl Kompass - Berlin 2026",
+    "privacyDescription": "How Wahl Kompass - Berlin 2026 handles personal data under the GDPR.",
+    "aiDisclosureTitle": "AI Disclosure — Wahl Kompass - Berlin 2026",
     "aiDisclosureDescription": "How we use AI for site text and the program comparison — and why people stay responsible for ideas, content, and accuracy.",
     "keywords": [
       "Berlin",
@@ -23,11 +23,11 @@
       "health",
       "migration"
     ],
-    "impressumTitle": "Impressum — Berlin 2026",
-    "impressumDescription": "Legal notice (Impressum) for the Berlin 2026 project: responsible party, contact, and liability."
+    "impressumTitle": "Impressum — Wahl Kompass - Berlin 2026",
+    "impressumDescription": "Legal notice (Impressum) for the Wahl Kompass - Berlin 2026 project: responsible party, contact, and liability."
   },
   "brand": {
-    "name": "Berlin 2026",
+    "name": "Wahl Kompass - Berlin 2026",
     "tagline": "Party positions side by side"
   },
   "navigation": {
@@ -291,5 +291,6 @@
     "liabilityContent": "We are not responsible for the content of external links. Content is provided as-is. We exclude liability for damages arising from website use to the extent permitted by law, except for intentional misconduct or gross negligence.",
     "languageVersions": "Language versions",
     "languageVersionsContent": "This Impressum is available in English. The German version (Impressum auf Deutsch) is authoritative for legal purposes in Germany."
-  }
+  },
+  "meta": {}
 }
