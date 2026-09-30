@@ -1,6 +1,8 @@
 "use client"
 
+import { Compass } from "lucide-react"
 import {
+  BrandMark,
   Hero,
   HeroCta,
   HeroScrollHint,
@@ -16,12 +18,17 @@ export function HomePageClient() {
   const { language, translations: t } = useLanguage()
   const homeHref = `/${language}`
   const guideUrl = guideHref(language)
+  const brand = (
+    <BrandMark icon={Compass}>
+      <span className="text-foreground">{t.brand}</span>
+    </BrandMark>
+  )
 
   return (
     <LandingShell
       header={
         <SiteHeader
-          brand={<span className="text-foreground">{t.brand}</span>}
+          brand={brand}
           homeHref={homeHref}
           links={[
             { type: "section", id: "guides", label: t.navigation.guides },
@@ -34,12 +41,7 @@ export function HomePageClient() {
           trailing={<LanguageSwitcher />}
         />
       }
-      footer={
-        <SiteFooter
-          brand={<span className="text-foreground">{t.brand}</span>}
-          notice={t.footer.notice}
-        />
-      }
+      footer={<SiteFooter brand={brand} notice={t.footer.notice} />}
     >
       <Hero
         headline={t.hero.headline}

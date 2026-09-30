@@ -30,9 +30,9 @@ export function SiteFooter({ brand, notice, links = [] }: SiteFooterProps) {
               : "flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between"
           }
         >
-          <p className="font-display text-sm font-semibold tracking-[-0.01em]">
+          <div className="font-display text-sm font-semibold tracking-[-0.01em]">
             {brand}
-          </p>
+          </div>
           {links.length > 0 ? (
             <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-muted-foreground">
               {links.map((link) =>

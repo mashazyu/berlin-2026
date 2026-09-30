@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { Menu, X } from "lucide-react"
+import { Compass, Menu, X } from "lucide-react"
 import { useLanguage } from "@/components/language-provider"
 import { LanguageSwitcher } from "@/components/language-switcher"
 import {
@@ -49,12 +49,19 @@ export function SiteHeader() {
       <div className="mx-auto flex h-14 max-w-7xl items-center justify-between gap-4 px-4 sm:px-6">
         <Link
           href={homePath}
-          className="flex h-9 shrink-0 items-center font-display text-base font-semibold tracking-[-0.01em] text-foreground"
+          className="flex h-9 shrink-0 items-center gap-2 font-display text-base font-semibold tracking-[-0.01em] text-foreground"
           onClick={closeMenu}
         >
-          <span className="text-accent">Wahl Kompass</span>
-          <span className="mx-1.5 text-border">-</span>
-          <span className="text-foreground">Berlin 2026</span>
+          <Compass
+            className="h-5 w-5 shrink-0 text-accent"
+            strokeWidth={1.75}
+            aria-hidden
+          />
+          <span className="inline-flex items-center">
+            <span className="text-accent">Wahl Kompass</span>
+            <span className="mx-1.5 text-border">-</span>
+            <span className="text-foreground">Berlin 2026</span>
+          </span>
         </Link>
 
         <div className="flex h-9 items-center gap-1 sm:gap-2">
