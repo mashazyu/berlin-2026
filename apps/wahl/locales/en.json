@@ -1,0 +1,295 @@
+{
+  "metadata": {
+    "homeTitle": "Berlin 2026 — compare the 10 most popular parties’ programs",
+    "homeDescription": "Official programs for Berlin’s Abgeordnetenhaus election on 20 September 2026: transport, housing, climate, security and more. Independent — not voting advice.",
+    "aboutTitle": "About — Berlin 2026",
+    "aboutDescription": "Who builds Berlin 2026: Nina compares party programs and develops the project; Masha handles the technical side. Independent, not affiliated with any party.",
+    "privacyTitle": "Privacy Policy — Berlin 2026",
+    "privacyDescription": "How Berlin 2026 handles personal data under the GDPR.",
+    "aiDisclosureTitle": "AI Disclosure — Berlin 2026",
+    "aiDisclosureDescription": "How we use AI for site text and the program comparison — and why people stay responsible for ideas, content, and accuracy.",
+    "keywords": [
+      "Berlin",
+      "Berlin state election 2026",
+      "Abgeordnetenhaus",
+      "state parliament",
+      "party programs",
+      "party comparison",
+      "transport",
+      "housing",
+      "climate",
+      "security",
+      "education",
+      "health",
+      "migration"
+    ],
+    "impressumTitle": "Impressum — Berlin 2026",
+    "impressumDescription": "Legal notice (Impressum) for the Berlin 2026 project: responsible party, contact, and liability."
+  },
+  "brand": {
+    "name": "Berlin 2026",
+    "tagline": "Party positions side by side"
+  },
+  "navigation": {
+    "comparison": "Comparison",
+    "motivation": "Motivation",
+    "privacy": "Privacy",
+    "about": "About"
+  },
+  "hero": {
+    "headline": "Berlin state election 2026 — compare party programs",
+    "support": "20 September 2026 · Abgeordnetenhaus · 10 parties · 65 topics",
+    "blurb": "Positions from official programs side by side — not voting advice.",
+    "cta": "Compare programs",
+    "disclaimer": "Not campaign material and not affiliated with any party.",
+    "scrollHint": "To the table"
+  },
+  "motivation": {
+    "title": "Motivation",
+    "berlinVotesTitle": "Berlin votes on 20 September 2026",
+    "berlinVotesBody": "Every five years Berlin elects a new Abgeordnetenhaus — the state parliament that shapes the city’s policies.",
+    "accessibilityTitle": "Language and access",
+    "accessibilityBody": "About [16% of German citizens](https://de.statista.com/statistik/daten/studie/1109703/umfrage/bevoelkerung-bezirke-nach-migrationshintergrund-berlin/) in Berlin come from immigrant families. Election programs are only published in German and can run to 200 pages. That’s hard even for native speakers. [Wahl-O-Mat](https://www.wahl-o-mat.de/berlin2026/app/main_app.html) helps, but it isn’t built for a deep comparison.",
+    "clarityTitle": "Clarity and substance",
+    "clarityBody": "Much of those 200 pages is rhetoric — hard to turn into anything concrete. We wanted clear answers: separate number-backed commitments from vague statements of intent.",
+    "whatWeDidTitle": "What we did",
+    "whatWeDidBody": "We compared 10 Berlin parties on key points across transport, housing, climate and energy, security, education, health, migration, the economy, and democracy — and turned their programs into one side-by-side table.",
+    "beforeYouVoteTitle": "Before you vote",
+    "beforeYouVoteBody": "The table was made with AI help; double-check the points that matter to you. Full translations of the main parties’ programs are on [BerlinVote.Help](https://www.berlinvote.help/).",
+    "toolsIntro": "Voting aids and other comparison tools:",
+    "toolsBody": "- [Wahl-O-Mat Berlin 2026](https://www.wahl-o-mat.de/berlin2026/app/main_app.html)\n- [Kandidierendencheck](https://www.kandidierendencheck.de/auswahl)\n- [Party-Check Berlin](https://tool.party-check.org/index.php/berlin?lang=en)",
+    "backgroundIntro": "Background:",
+    "backgroundBody": "- [Wikipedia: 2026 Berlin state election](https://en.wikipedia.org/wiki/2026_Berlin_state_election)\n- [RBB: Berlin Elections 2026 FAQ (English)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: Elections in easy language (Leichte Sprache)](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Berlin State Centre for Political Education: Elections 2026 brochure (PDF)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)",
+    "accountabilityIntro": "After the vote — tracking promises (federal level, not Berlin):",
+    "accountabilityBody": "- [FragDenStaat: Koalitionstracker](https://fragdenstaat.de/koalitionstracker/) — Ampel coalition 2021–2025 (no Merz-government tracker planned)\n- [Regierungschecker](https://www.regierungschecker.de/de) — election and government promises with primary sources"
+  },
+  "mentions": {
+    "title": "Project was mentioned by",
+    "kindLabels": {
+      "telegram": "Telegram",
+      "newsletter": "Newsletter",
+      "substack": "Substack",
+      "article": "Article"
+    },
+    "openPost": "Open",
+    "topicLabels": {
+      "city_news": "City news",
+      "berlin_life": "Berlin life",
+      "politics": "Politics",
+      "germany_news": "Germany news",
+      "events": "Events",
+      "weekly_guide": "Weekly guide",
+      "internationals": "Internationals",
+      "tech_business": "Tech & business",
+      "election": "Election"
+    }
+  },
+  "mentionSummaries": [
+    {
+      "id": "berlinwelle",
+      "source": "Volna / Berlin",
+      "topics": [
+        "city_news",
+        "berlin_life"
+      ]
+    },
+    {
+      "id": "bundeskanzler",
+      "source": "Bundeskanzler",
+      "topics": [
+        "politics",
+        "germany_news"
+      ]
+    },
+    {
+      "id": "berlinevents",
+      "source": "Berlin Events Weekly",
+      "topics": [
+        "events",
+        "weekly_guide"
+      ]
+    },
+    {
+      "id": "theberlinlife",
+      "source": "The Berlin Life",
+      "topics": [
+        "internationals",
+        "berlin_life"
+      ]
+    },
+    {
+      "id": "handpicked",
+      "source": "Handpicked Berlin",
+      "topics": [
+        "tech_business",
+        "city_news"
+      ]
+    },
+    {
+      "id": "20percent",
+      "source": "20 Percent Berlin",
+      "topics": [
+        "election",
+        "city_news"
+      ]
+    },
+    {
+      "id": "zernaradosti",
+      "source": "Zerna Radosti",
+      "topics": [
+        "city_news",
+        "berlin_life"
+      ]
+    },
+    {
+      "id": "russischsprachigelinke",
+      "source": "Russischsprachige Linke",
+      "topics": [
+        "politics",
+        "election"
+      ]
+    },
+    {
+      "id": "gooseexpat",
+      "source": "Goose Expat",
+      "topics": [
+        "internationals",
+        "election"
+      ]
+    }
+  ],
+  "footer": {
+    "aiNotice": "Texts and the comparison table on this site were created with AI assistance.",
+    "aiDisclosure": "AI disclosure",
+    "relatedSite": "Full program translations: BerlinVote.Help",
+    "contact": "Contact",
+    "about": "About",
+    "privacy": "Privacy",
+    "contribute": "Contribute",
+    "impressum": "Legal notice"
+  },
+  "feedback": {
+    "fabLabel": "Send feedback",
+    "title": "Send feedback",
+    "intro": "Questions or comments about the site? Send a short message. Leave an email if you’d like a reply.",
+    "textReportHint": "Reporting wrong wording or a factual error? Select (or copy) the passage on the page — a small button appears so you can open the correction form.",
+    "messageLabel": "Your message",
+    "messagePlaceholder": "Write your feedback…",
+    "emailLabel": "Email (for a reply)",
+    "emailPlaceholder": "you@example.com",
+    "submit": "Send",
+    "sending": "Sending…",
+    "cancel": "Cancel",
+    "close": "Close",
+    "success": "Thank you. We’ll look at your report as soon as we can.",
+    "error": "Something went wrong. Please try again or email {email}.",
+    "captchaRequired": "Please complete the security check.",
+    "captchaMissing": "Security check is not configured (missing site key)."
+  },
+  "textReport": {
+    "title": "Report incorrect text",
+    "intro": "Check the selected wording and add how it should read.",
+    "selectionAction": "Report this text",
+    "incorrectLabel": "Incorrect text (as on the page)",
+    "incorrectPlaceholder": "Paste or select text from the page…",
+    "suggestedLabel": "Your version",
+    "suggestedPlaceholder": "Write the corrected wording or factual fix…",
+    "submit": "Send report"
+  },
+  "about": {
+    "title": "About",
+    "body": "Berlin 2026 is an independent project comparing party programs ahead of the 2026 Berlin state election. Official programs are published only in German — we translate them into languages spoken in Berlin.\n\nNina compares the programs and develops the project; Masha handles the technical side. In parallel we work on [Water for All / Wasser für alle](https://www.water4all.com.de) — an open atlas of free drinking water in Berlin. The project makes access to water visible and helps residents push for new drinking fountains.",
+    "contributeTitle": "How you can help",
+    "contributeBody": "If you’d like to support the project, the most useful thing is to spread the word — share it with people who might find it helpful.\n\nYou can also print our flyer (German, English, Turkish, Kurdish, Polish, Russian, Ukrainian, Arabic, Spanish, Vietnamese, Italian) and put it up where people in Berlin will see it — cafés, noticeboards, community spaces. [Download the PDF](/flyers/berlin-2026-flyer.pdf).\n\nAnd if you spot a mistake on the site — wrong wording or a factual error — please tell us so we can fix it. Select the passage on the page to open a report, or write to us via Contact.\n\nYou can also improve translations yourself — open a pull request with fixes, or add or edit locale files directly in our [GitHub repository](https://github.com/mashazyu/berlin-2026)."
+  },
+  "aiDisclosure": {
+    "title": "AI Disclosure",
+    "intro": "This page explains how we use AI tools when creating content for this site — and how human editors stay responsible for what we publish.",
+    "howWeUseAi": "How we use AI",
+    "howWeUseAiContent": "We use AI tools to draft and improve website text — for example page copy and summaries of official party programs. AI helps with wording, structure, and comparable positions; it does not decide what we publish or how you should vote.",
+    "humanResponsibility": "Human ideas and editorial responsibility",
+    "humanResponsibilityContent": "All ideas, goals, and content decisions behind this site come from people on the Berlin 2026 project. Before anything is published, we check it for clarity and fit with the project’s information purpose. Editorial responsibility lies with the Berlin 2026 project.",
+    "reviewAndAccuracy": "Review and accuracy",
+    "reviewAndAccuracyContent": "The party comparison table is largely built with AI help from official party programs. Double-check the points that matter to you. Full translations of the main parties’ programs are on BerlinVote.Help. We check content for accuracy, but errors can still happen and some nuance may be missed. If you spot a mistake, please let us know.",
+    "contact": "Contact",
+    "contactContent": "Questions about how we use AI or about content on this site? Write to {email}."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "intro": "This privacy policy explains how we collect, use, and protect your personal information when you visit our website, in line with the General Data Protection Regulation (GDPR) and applicable German data protection law (including the TTDSG).",
+    "responsibleParty": "Responsible party (controller)",
+    "responsiblePartyContent": "Berlin 2026 project\nEmail: {email}",
+    "dataProcessed": "Data processed",
+    "dataProcessedContent": "When you visit our website, our hosting provider may automatically process technical data required to deliver the site (for example IP address, browser/user-agent information, and request timestamps in server logs). We do not operate user accounts or require registration.\n\nWe use Vercel Web Analytics for aggregated pageview statistics and PostHog for product analytics (for example page path, interface language, and interactions such as selecting parties, opening topics, or following program links), together with related technical metadata. PostHog does not create lasting user profiles for this site.\n\nIf you use the optional feedback form, we process your message, the page URL, the interface language, and — if you choose to provide it — your email address so we can reply.\n\nIf you report incorrect wording or a factual mistake (including via the “Report this text” control after selecting text), we process the quoted incorrect text, your suggested correction, the page URL, and the interface language.\n\nWhen you submit either form, we also process a Cloudflare Turnstile security token and related technical signals needed to verify that the request is not automated spam.",
+    "hosting": "Hosting",
+    "hostingContent": "This website is hosted by Vercel Inc. Server infrastructure and content delivery may involve processing outside the European Economic Area under appropriate safeguards (including Standard Contractual Clauses where applicable). See [Vercel’s Privacy Policy](https://vercel.com/legal/privacy-policy).",
+    "processors": "Processors and security checks",
+    "processorsContent": "We use the following service providers as processors (Art. 28 GDPR) for the purposes described below. Transfers to the United States may occur for some providers; we rely on appropriate safeguards such as Standard Contractual Clauses and the providers’ data processing terms.\n\n• Vercel Inc. — hosting, delivery of the website, and Vercel Web Analytics (aggregated pageviews).\n• PostHog Inc. — product analytics on PostHog Cloud EU (Frankfurt). Details: [PostHog Privacy Policy](https://posthog.com/privacy) and PostHog’s data processing agreement.\n• Cloudflare, Inc. — Cloudflare Turnstile bot/spam protection when a feedback or text-report form is opened or submitted. Turnstile may process IP address and browser/device characteristics to issue a verification token. Details: [Cloudflare Privacy Policy](https://www.cloudflare.com/privacypolicy/) and Turnstile documentation.\n• Resend, Inc. — transactional email delivery of submitted feedback and text reports to us. Details: [Resend Privacy Policy](https://resend.com/legal/privacy-policy).\n\nLegal basis for Turnstile and related security measures: Art. 6(1)(f) GDPR (legitimate interest in protecting the forms against abuse and spam). Where the user requests the form service, storage of or access to information on the end device that is strictly necessary for that service may also be covered by § 25(2) TTDSG.",
+    "purposeOfProcessing": "Purpose and legal bases",
+    "purposeOfProcessingContent": "We process data to:\n\n• Provide, secure, and maintain this website (Art. 6(1)(f) GDPR)\n• Measure aggregated traffic with Vercel Web Analytics (Art. 6(1)(f) GDPR)\n• Understand how the comparison tool is used and improve it with PostHog cookieless product analytics (Art. 6(1)(f) GDPR)\n• Receive and handle optional feedback and text/factual-error reports (Art. 6(1)(f) GDPR)\n• Reply when you voluntarily provide an email address (Art. 6(1)(a) GDPR and/or Art. 6(1)(b) GDPR, depending on the request)\n• Prevent spam and automated abuse of the forms via Turnstile (Art. 6(1)(f) GDPR)",
+    "retention": "Retention",
+    "retentionContent": "Server logs are retained by the hosting provider only as long as needed for security and operations, then deleted or anonymised according to the provider’s practices.\n\nVercel Web Analytics pageview data is retained according to Vercel’s practices for that product.\n\nPostHog analytics events are retained according to our PostHog project settings (typically up to about one year on the free tier) and then deleted or anonymised.\n\nFeedback and text-report messages (including any email you provide) are kept only as long as necessary to review and handle your submission, and for a short period thereafter if needed for follow-up or documentation, then deleted.\n\nTurnstile verification tokens are used for the security check and are not stored by us as a long-term profile.",
+    "cookies": "Cookies and similar technologies",
+    "cookiesContent": "A language preference may be stored in a small cookie or in local storage so we can show your chosen language on return visits.\n\nVercel Web Analytics measures pageviews without advertising cookies.\n\nPostHog product analytics runs in cookieless mode: it does not set analytics cookies or similar persistent storage on your device. Limited anonymous usage events (for example page path and interactions with the comparison tool) may still be processed using a privacy-preserving hash.\n\nCloudflare Turnstile may set or read technical cookies or similar storage only when you open or use a feedback/report form, for bot protection. We do not use Turnstile for advertising or cross-site tracking.\n\nWe do not use advertising cookies. You can delete cookies and site data in your browser settings at any time.",
+    "yourRights": "Your rights under the GDPR",
+    "yourRightsIntro": "Under the GDPR, you have the following rights regarding your personal data:",
+    "yourRightsList": "• Right of access (Art. 15 GDPR)\n• Right to rectification (Art. 16 GDPR)\n• Right to erasure (Art. 17 GDPR)\n• Right to restriction of processing (Art. 18 GDPR)\n• Right to data portability (Art. 20 GDPR)\n• Right to object to processing based on legitimate interests (Art. 21 GDPR)\n• Right to withdraw consent where processing is based on consent (Art. 7(3) GDPR)\n• Right to lodge a complaint with a supervisory authority (Art. 77 GDPR)",
+    "supervisoryAuthority": "Supervisory authority",
+    "supervisoryAuthorityContent": "You may lodge a complaint with a data protection supervisory authority. For Berlin, this is typically:\n\nBerliner Beauftragte für Datenschutz und Informationsfreiheit\nAlt-Moabit 59–61, 10555 Berlin, Germany\n[https://www.datenschutz-berlin.de](https://www.datenschutz-berlin.de)",
+    "contactInfo": "To exercise your rights or ask questions about your data, contact us at {email}."
+  },
+  "comparison": {
+    "title": "Party programs for the 2026 Berlin state election",
+    "subtitle": "Positions of the 10 largest parties on transport, housing, climate, security, education, health, migration, and other issues — from their official programs.",
+    "topicColumn": "Topic",
+    "scrollHint": "Showing selected parties only — add more with the labels above.",
+    "programLink": "Program",
+    "emptyCell": "—",
+    "partiesLabel": "Parties to compare",
+    "showAll": "All",
+    "showFactions": "Current factions",
+    "selectedCount": "{count} selected",
+    "expandTopic": "Show positions",
+    "collapseTopic": "Hide",
+    "openProgram": "Party program",
+    "sourceQuote": "Original quotes",
+    "sourceQuoteLink": "Open source in program",
+    "sourceNote": "Not found in program",
+    "expandGroup": "Expand group",
+    "collapseGroup": "Collapse group",
+    "searchPlaceholder": "Search topics…",
+    "searchClear": "Clear search",
+    "searchNoResults": "No topics match your search.",
+    "searchResultsCount": "{count} topics",
+    "groups": {
+      "transport": "Transport",
+      "waste": "Cleanliness & waste",
+      "climate_energy": "Climate & energy",
+      "animals": "Animals",
+      "housing": "Housing",
+      "security": "Security",
+      "education": "Education",
+      "health": "Health",
+      "migration": "Migration",
+      "economy": "Economy",
+      "society": "Society & culture",
+      "democracy": "Democracy",
+      "other": "Other"
+    }
+  },
+  "impressum": {
+    "title": "Impressum",
+    "responsibleParty": "Responsible party (Controller)",
+    "responsiblePartyContent": "Berlin 2026 project\n\nBerlin, Germany",
+    "contact": "Contact",
+    "contactContent": "Email: {email}",
+    "editorial": "Responsible for editorial content",
+    "editorialContent": "Nina Harz, Maria Waldenberg\n\nBerlin, Germany",
+    "disclaimer": "Disclaimer",
+    "disclaimerContent": "This website provides information about Berlin state election party programs for informational purposes only. While we strive for accuracy, we do not guarantee that all information is complete, current, or error-free. You can report factual errors or corrections using the “Report this text” feature on the site.\n\nWe are not affiliated with any political party. This is not campaign material or voting advice.",
+    "liability": "Liability",
+    "liabilityContent": "We are not responsible for the content of external links. Content is provided as-is. We exclude liability for damages arising from website use to the extent permitted by law, except for intentional misconduct or gross negligence.",
+    "languageVersions": "Language versions",
+    "languageVersionsContent": "This Impressum is available in English. The German version (Impressum auf Deutsch) is authoritative for legal purposes in Germany."
+  }
+}

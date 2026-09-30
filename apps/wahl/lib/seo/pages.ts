@@ -1,0 +1,72 @@
+import type { Translations } from "@/lib/i18n/types"
+import type { MetadataRoute } from "next"
+import { metaDescription } from "@/lib/seo/meta-helpers"
+
+export type PageKey = "home" | "about" | "privacy" | "impressum" | "aiDisclosure"
+
+type ChangeFrequency = NonNullable<MetadataRoute.Sitemap[number]["changeFrequency"]>
+
+export interface PageMetaStrings {
+  title: string
+  description: string
+  keywords?: string[]
+}
+
+export interface PageConfig {
+  path: string
+  getMetadata: (t: Translations) => PageMetaStrings
+  priority?: number
+  changeFrequency?: ChangeFrequency
+  indexable?: boolean
+}
+
+/** Dedicated sharing copy from locale metadata (not hero — avoids title/desc overlap). */
+export function homeSharingMeta(t: Translations): PageMetaStrings {
+  return {
+    title: t.metadata.homeTitle,
+    description: metaDescription(t.metadata.homeDescription),
+    keywords: t.metadata.keywords,
+  }
+}
+
+export const PAGES: Record<PageKey, PageConfig> = {
+  home: {
+    path: "",
+    priority: 1,
+    changeFrequency: "weekly",
+    getMetadata: homeSharingMeta,
+  },
+  about: {
+    path: "/about",
+    priority: 0.6,
+    changeFrequency: "monthly",
+    getMetadata: (t) => ({
+      title: t.metadata.aboutTitle,
+      description: metaDescription(t.metadata.aboutDescription),
+    }),
+  },
+  privacy: {
+    path: "/privacy",
+    indexable: false,
+    getMetadata: (t) => ({
+      title: t.metadata.privacyTitle,
+      description: metaDescription(t.metadata.privacyDescription),
+    }),
+  },
+  impressum: {
+    path: "/impressum",
+    indexable: false,
+    getMetadata: (t) => ({
+      title: t.metadata.impressumTitle,
+      description: metaDescription(t.metadata.impressumDescription),
+    }),
+  },
+  aiDisclosure: {
+    path: "/ai-disclosure",
+    indexable: false,
+    getMetadata: (t) => ({
+      title: t.metadata.aiDisclosureTitle,
+      description: metaDescription(t.metadata.aiDisclosureDescription),
+    }),
+  },
+}

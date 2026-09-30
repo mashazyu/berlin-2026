@@ -1,0 +1,252 @@
+{
+  "metadata": {
+    "homeTitle": "Berlin 2026 — confronta i programmi dei 10 partiti più popolari",
+    "homeDescription": "Programmi ufficiali per le elezioni alla Camera dei deputati di Berlino del 20 settembre 2026: trasporti, casa, clima, sicurezza e altro. Indipendente: non è un consiglio di voto.",
+    "aboutTitle": "Il progetto — Berlin 2026",
+    "aboutDescription": "Chi c’è dietro Berlin 2026: Nina confronta i programmi dei partiti e porta avanti il progetto; Masha si occupa della tecnica. Indipendente, senza legami con nessun partito.",
+    "aiDisclosureTitle": "Informativa sull’IA — Berlin 2026",
+    "aiDisclosureDescription": "Come usiamo l’IA per i testi del sito e il confronto dei programmi — e perché restano le persone responsabili di idee, contenuti e accuratezza.",
+    "keywords": [
+      "Berlino",
+      "elezioni regionali Berlino 2026",
+      "Camera dei deputati di Berlino",
+      "parlamento regionale",
+      "programmi elettorali",
+      "confronto partiti",
+      "trasporti",
+      "casa",
+      "clima",
+      "sicurezza",
+      "istruzione",
+      "salute",
+      "migrazione"
+    ]
+  },
+  "brand": {
+    "name": "Berlin 2026",
+    "tagline": "Le posizioni dei partiti, una accanto all’altra"
+  },
+  "navigation": {
+    "comparison": "Confronto",
+    "motivation": "Perché lo facciamo",
+    "privacy": "Privacy",
+    "about": "Il progetto"
+  },
+  "hero": {
+    "headline": "Elezioni regionali a Berlino 2026 — confronta i programmi",
+    "support": "20 settembre 2026 · Camera dei deputati · 10 partiti · 65 temi",
+    "blurb": "Le posizioni dai programmi ufficiali, una accanto all’altra. Non è un consiglio di voto.",
+    "cta": "Confronta i programmi",
+    "disclaimer": "Non è materiale elettorale e non è legato a nessun partito.",
+    "scrollHint": "Vai alla tabella"
+  },
+  "motivation": {
+    "title": "Perché lo facciamo",
+    "berlinVotesTitle": "Berlino vota il 20 settembre 2026",
+    "berlinVotesBody": "Ogni cinque anni Berlino elegge una nuova Camera dei deputati: il parlamento regionale che dà forma alle politiche della città.",
+    "accessibilityTitle": "Lingua e accesso",
+    "accessibilityBody": "Circa [il 16% dei cittadini tedeschi](https://de.statista.com/statistik/daten/studie/1109703/umfrage/bevoelkerung-bezirke-nach-migrationshintergrund-berlin/) a Berlino proviene da famiglie immigrate. I programmi elettorali escono solo in tedesco e possono arrivare a 200 pagine. È difficile anche per chi è madrelingua. Il [Wahl-O-Mat](https://www.wahl-o-mat.de/berlin2026/app/main_app.html) aiuta, ma non è pensato per un confronto approfondito.",
+    "clarityTitle": "Chiarezza e sostanza",
+    "clarityBody": "Gran parte di quelle 200 pagine è retorica: difficile da trasformare in qualcosa di concreto. Volevamo risposte chiare: separare gli impegni con numeri dalle intenzioni vaghe.",
+    "whatWeDidTitle": "Cosa abbiamo fatto",
+    "whatWeDidBody": "Abbiamo confrontato 10 partiti berlinesi su punti chiave di trasporti, casa, clima ed energia, sicurezza, istruzione, salute, migrazione, economia e democrazia, e ne abbiamo fatto una tabella affiancata.",
+    "beforeYouVoteTitle": "Prima di votare",
+    "beforeYouVoteBody": "La tabella è stata realizzata con l’aiuto dell’IA; ricontrolla i punti che ti interessano. Le traduzioni complete dei programmi dei partiti principali sono su [BerlinVote.Help](https://www.berlinvote.help/).",
+    "toolsIntro": "Aiuti al voto e altri strumenti di confronto:",
+    "toolsBody": "- [Wahl-O-Mat Berlin 2026](https://www.wahl-o-mat.de/berlin2026/app/main_app.html)\n- [Kandidierendencheck](https://www.kandidierendencheck.de/auswahl)\n- [Party-Check Berlin](https://tool.party-check.org/index.php/berlin?lang=en)",
+    "backgroundIntro": "Contesto:",
+    "backgroundBody": "- [Wikipedia: elezioni regionali a Berlino 2026](https://en.wikipedia.org/wiki/2026_Berlin_state_election)\n- [RBB: FAQ elezioni Berlino 2026 (in inglese)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: elezioni in linguaggio semplice (Leichte Sprache)](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Centro regionale per l’educazione politica di Berlino: brochure elezioni 2026 (PDF)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)",
+    "accountabilityIntro": "Dopo il voto — monitorare le promesse (livello federale, non Berlino):",
+    "accountabilityBody": "- [FragDenStaat: Koalitionstracker](https://fragdenstaat.de/koalitionstracker/) — coalizione Ampel 2021–2025 (nessun tracker per il governo Merz)\n- [Regierungschecker](https://www.regierungschecker.de/de) — promesse elettorali e di governo con fonti primarie"
+  },
+  "mentions": {
+    "title": "Il progetto è stato citato da",
+    "kindLabels": {
+      "telegram": "Telegram",
+      "newsletter": "Newsletter",
+      "substack": "Substack",
+      "article": "Articolo"
+    },
+    "openPost": "Apri",
+    "topicLabels": {
+      "city_news": "Notizie locali",
+      "berlin_life": "Vita a Berlino",
+      "politics": "Politica",
+      "germany_news": "Notizie dalla Germania",
+      "events": "Eventi",
+      "weekly_guide": "Guida settimanale",
+      "internationals": "Internazionali",
+      "tech_business": "Tech e business",
+      "election": "Elezioni"
+    }
+  },
+  "mentionSummaries": [
+    {
+      "id": "berlinwelle",
+      "source": "Volna / Berlin",
+      "topics": [
+        "city_news",
+        "berlin_life"
+      ]
+    },
+    {
+      "id": "bundeskanzler",
+      "source": "Bundeskanzler",
+      "topics": [
+        "politics",
+        "germany_news"
+      ]
+    },
+    {
+      "id": "berlinevents",
+      "source": "Berlin Events Weekly",
+      "topics": [
+        "events",
+        "weekly_guide"
+      ]
+    },
+    {
+      "id": "theberlinlife",
+      "source": "The Berlin Life",
+      "topics": [
+        "internationals",
+        "berlin_life"
+      ]
+    },
+    {
+      "id": "handpicked",
+      "source": "Handpicked Berlin",
+      "topics": [
+        "tech_business",
+        "city_news"
+      ]
+    },
+    {
+      "id": "20percent",
+      "source": "20 Percent Berlin",
+      "topics": [
+        "election",
+        "city_news"
+      ]
+    },
+    {
+      "id": "zernaradosti",
+      "source": "Zerna Radosti",
+      "topics": [
+        "city_news",
+        "berlin_life"
+      ]
+    },
+    {
+      "id": "russischsprachigelinke",
+      "source": "Russischsprachige Linke",
+      "topics": [
+        "politics",
+        "election"
+      ]
+    },
+    {
+      "id": "gooseexpat",
+      "source": "Goose Expat",
+      "topics": [
+        "internationals",
+        "election"
+      ]
+    }
+  ],
+  "footer": {
+    "aiNotice": "I testi e la tabella di confronto di questo sito sono stati creati con l’aiuto dell’IA.",
+    "aiDisclosure": "Informativa sull’IA",
+    "relatedSite": "Traduzioni complete dei programmi: BerlinVote.Help",
+    "contact": "Contatti",
+    "about": "Il progetto",
+    "privacy": "Privacy",
+    "contribute": "Contribuisci",
+    "impressum": "Note legali"
+  },
+  "feedback": {
+    "fabLabel": "Invia feedback",
+    "title": "Invia feedback",
+    "intro": "Domande o commenti sul sito? Scrivi un messaggio breve. Lascia un’email se vuoi una risposta.",
+    "textReportHint": "Vuoi segnalare una formulazione sbagliata o un errore di fatto? Seleziona (o copia) il passaggio sulla pagina: compare un piccolo pulsante per aprire il modulo di correzione.",
+    "messageLabel": "Il tuo messaggio",
+    "messagePlaceholder": "Scrivi il tuo feedback…",
+    "emailLabel": "Email (per una risposta)",
+    "emailPlaceholder": "tu@esempio.com",
+    "submit": "Invia",
+    "sending": "Invio…",
+    "cancel": "Annulla",
+    "close": "Chiudi",
+    "success": "Grazie. Esamineremo la tua segnalazione al più presto.",
+    "error": "Qualcosa è andato storto. Riprova o scrivi a {email}.",
+    "captchaRequired": "Completa il controllo di sicurezza.",
+    "captchaMissing": "Il controllo di sicurezza non è configurato (manca la site key)."
+  },
+  "textReport": {
+    "title": "Segnala un testo non corretto",
+    "intro": "Controlla la formulazione selezionata e indica come dovrebbe suonare.",
+    "selectionAction": "Segnala questo testo",
+    "incorrectLabel": "Testo non corretto (come sulla pagina)",
+    "incorrectPlaceholder": "Incolla o seleziona il testo dalla pagina…",
+    "suggestedLabel": "La tua versione",
+    "suggestedPlaceholder": "Scrivi la formulazione corretta o la correzione di fatto…",
+    "submit": "Invia segnalazione"
+  },
+  "about": {
+    "title": "Il progetto",
+    "body": "Berlin 2026 è un progetto indipendente che confronta i programmi dei partiti in vista delle elezioni regionali di Berlino 2026. I programmi ufficiali escono solo in tedesco: li traduciamo nelle lingue parlate a Berlino.\n\nNina confronta i programmi e porta avanti il progetto; Masha si occupa della tecnica. In parallelo lavoriamo a [Water for All / Wasser für alle](https://www.water4all.com.de) — un atlante aperto dell’acqua potabile gratuita a Berlino. Il progetto rende visibile l’accesso all’acqua e aiuta i residenti a chiedere nuove fontanelle.",
+    "contributeTitle": "Come puoi aiutare",
+    "contributeBody": "Se vuoi sostenere il progetto, la cosa più utile è farlo circolare: condividilo con chi potrebbe trovarlo utile.\n\nPuoi anche stampare il nostro volantino (tedesco, inglese, turco, curdo, vietnamita, polacco, russo, ucraino, arabo, spagnolo, italiano) e appenderlo dove a Berlino la gente lo veda — caffè, bacheche, spazi di comunità. [Scarica il PDF](/flyers/berlin-2026-flyer.pdf).\n\nE se noti un errore sul sito — formulazione sbagliata o errore di fatto — segnalacelo così possiamo correggerlo. Seleziona il passaggio sulla pagina per aprire una segnalazione, oppure scrivici da Contatti.\n\nPuoi anche migliorare le traduzioni: apri una pull request con le correzioni, oppure modifica i file di lingua direttamente nel nostro [repository GitHub](https://github.com/mashazyu/berlin-2026)."
+  },
+  "aiDisclosure": {
+    "title": "Informativa sull’IA",
+    "intro": "Questa pagina spiega come usiamo strumenti di IA per creare contenuti — e come le redazioni umane restano responsabili di ciò che pubblichiamo.",
+    "howWeUseAi": "Come usiamo l’IA",
+    "howWeUseAiContent": "Usiamo strumenti di IA per redigere e migliorare i testi del sito — ad esempio i testi delle pagine e i riassunti dei programmi ufficiali dei partiti. L’IA aiuta con formulazioni, struttura e posizioni confrontabili; non decide cosa pubblichiamo né come dovresti votare.",
+    "humanResponsibility": "Idee umane e responsabilità editoriale",
+    "humanResponsibilityContent": "Tutte le idee, gli obiettivi e le decisioni sui contenuti dietro a questo sito vengono dalle persone del progetto Berlin 2026. Prima della pubblicazione controlliamo chiarezza e aderenza allo scopo informativo. La responsabilità editoriale è del progetto Berlin 2026.",
+    "reviewAndAccuracy": "Revisione e accuratezza",
+    "reviewAndAccuracyContent": "La tabella di confronto dei partiti è in gran parte costruita con l’aiuto dell’IA a partire dai programmi ufficiali. Ricontrolla i punti che ti interessano. Le traduzioni complete dei programmi principali sono su BerlinVote.Help. Controlliamo l’accuratezza, ma errori possono restare e alcune sfumature possono andare perse. Se noti un errore, segnalacelo.",
+    "contact": "Contatti",
+    "contactContent": "Domande su come usiamo l’IA o sui contenuti di questo sito? Scrivi a {email}."
+  },
+  "comparison": {
+    "title": "Programmi dei partiti per le elezioni regionali di Berlino 2026",
+    "subtitle": "Posizioni dei 10 partiti più grandi su trasporti, casa, clima, sicurezza, istruzione, salute, migrazione e altri temi — dai loro programmi ufficiali.",
+    "topicColumn": "Tema",
+    "scrollHint": "Solo i partiti selezionati — aggiungine altri con le etichette sopra.",
+    "programLink": "Programma",
+    "emptyCell": "—",
+    "partiesLabel": "Partiti da confrontare",
+    "showAll": "Tutti",
+    "showFactions": "Gruppi parlamentari attuali",
+    "selectedCount": "{count} selezionati",
+    "expandTopic": "Mostra posizioni",
+    "collapseTopic": "Nascondi",
+    "openProgram": "Programma del partito",
+    "sourceQuote": "Citazioni originali",
+    "sourceQuoteLink": "Apri la fonte nel programma",
+    "sourceNote": "Non trovato nel programma",
+    "expandGroup": "Espandi gruppo",
+    "collapseGroup": "Comprimi gruppo",
+    "searchPlaceholder": "Cerca temi…",
+    "searchClear": "Cancella ricerca",
+    "searchNoResults": "Nessun tema corrisponde alla ricerca.",
+    "searchResultsCount": "{count} temi",
+    "groups": {
+      "transport": "Trasporti",
+      "waste": "Pulizia e rifiuti",
+      "climate_energy": "Clima ed energia",
+      "animals": "Animali",
+      "housing": "Casa",
+      "security": "Sicurezza",
+      "education": "Istruzione",
+      "health": "Salute",
+      "migration": "Migrazione",
+      "economy": "Economia",
+      "society": "Società e cultura",
+      "democracy": "Democrazia",
+      "other": "Altro"
+    }
+  }
+}

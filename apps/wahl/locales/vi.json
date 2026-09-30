@@ -1,0 +1,252 @@
+{
+  "metadata": {
+    "homeTitle": "Berlin 2026 — so sánh chương trình 10 đảng phổ biến nhất",
+    "homeDescription": "Chương trình chính thức cho bầu cử Viện Dân biểu Berlin ngày 20 tháng 9 năm 2026: giao thông, nhà ở, khí hậu, an ninh và nhiều chủ đề khác. Độc lập — không phải lời khuyên bỏ phiếu.",
+    "aboutTitle": "Giới thiệu — Berlin 2026",
+    "aboutDescription": "Ai làm Berlin 2026: Nina so sánh chương trình các đảng và phát triển dự án; Masha lo phần kỹ thuật. Độc lập, không thuộc đảng nào.",
+    "aiDisclosureTitle": "Công bố về AI — Berlin 2026",
+    "aiDisclosureDescription": "Chúng tôi dùng AI thế nào cho nội dung trang và bảng so sánh — và vì sao con người vẫn chịu trách nhiệm về ý tưởng, nội dung và độ chính xác.",
+    "keywords": [
+      "Berlin",
+      "Bầu cử bang Berlin 2026",
+      "Viện Dân biểu",
+      "nghị viện bang",
+      "chương trình đảng",
+      "so sánh đảng",
+      "giao thông",
+      "nhà ở",
+      "khí hậu",
+      "an ninh",
+      "giáo dục",
+      "y tế",
+      "di cư"
+    ]
+  },
+  "brand": {
+    "name": "Berlin 2026",
+    "tagline": "So sánh lập trường các đảng"
+  },
+  "navigation": {
+    "comparison": "So sánh",
+    "motivation": "Vì sao chúng tôi làm",
+    "privacy": "Bảo vệ dữ liệu",
+    "about": "Giới thiệu"
+  },
+  "hero": {
+    "headline": "Bầu cử bang Berlin 2026 — so sánh chương trình các đảng",
+    "support": "20 tháng 9 năm 2026 · Viện Dân biểu · 10 đảng · 65 chủ đề",
+    "blurb": "Lập trường lấy từ chương trình chính thức, đặt cạnh nhau — không phải lời khuyên bỏ phiếu.",
+    "cta": "So sánh chương trình",
+    "disclaimer": "Không phải tài liệu vận động và không thuộc đảng nào.",
+    "scrollHint": "Xem bảng so sánh"
+  },
+  "motivation": {
+    "title": "Vì sao chúng tôi làm",
+    "berlinVotesTitle": "Berlin bỏ phiếu ngày 20 tháng 9 năm 2026",
+    "berlinVotesBody": "Cứ năm năm một lần Berlin bầu Viện Dân biểu mới — nghị viện bang định hình chính sách của thành phố.",
+    "accessibilityTitle": "Ngôn ngữ và tiếp cận",
+    "accessibilityBody": "Khoảng [16% công dân Đức](https://de.statista.com/statistik/daten/studie/1109703/umfrage/bevoelkerung-bezirke-nach-migrationshintergrund-berlin/) ở Berlin có gốc nhập cư. Chương trình bầu cử chỉ có tiếng Đức và có thể dài tới 200 trang — ngay cả người bản ngữ cũng khó. [Wahl-O-Mat](https://www.wahl-o-mat.de/berlin2026/app/main_app.html) hữu ích, nhưng không phải công cụ để so sánh sâu.",
+    "clarityTitle": "Rõ ràng và thực chất",
+    "clarityBody": "Trong 200 trang đó, nhiều đoạn mang tính khẩu hiệu — khó nắm được điều cụ thể. Chúng tôi muốn câu trả lời rõ: tách cam kết có số liệu khỏi lời hứa chung chung.",
+    "whatWeDidTitle": "Chúng tôi đã làm gì",
+    "whatWeDidBody": "Chúng tôi so sánh 10 đảng ở Berlin trên các điểm then chốt về giao thông, nhà ở, khí hậu và năng lượng, an ninh, giáo dục, y tế, di cư, kinh tế và dân chủ — rồi đưa vào một bảng so sánh cạnh nhau.",
+    "beforeYouVoteTitle": "Trước khi bỏ phiếu",
+    "beforeYouVoteBody": "Bảng được làm với sự hỗ trợ của AI; hãy tự kiểm lại những điểm quan trọng với bạn. Bản dịch đầy đủ chương trình các đảng chính có trên [BerlinVote.Help](https://www.berlinvote.help/).",
+    "toolsIntro": "Công cụ hỗ trợ bỏ phiếu và so sánh khác:",
+    "toolsBody": "- [Wahl-O-Mat Berlin 2026](https://www.wahl-o-mat.de/berlin2026/app/main_app.html)\n- [Kandidierendencheck](https://www.kandidierendencheck.de/auswahl)\n- [Party-Check Berlin](https://tool.party-check.org/index.php/berlin?lang=en)",
+    "backgroundIntro": "Tham khảo thêm:",
+    "backgroundBody": "- [Wikipedia: bầu cử bang Berlin 2026](https://en.wikipedia.org/wiki/2026_Berlin_state_election)\n- [RBB: FAQ bầu cử Berlin 2026 (tiếng Anh)](https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/faq-englisch-berlin-elections-state-parliament-district-councils.html)\n- [RBB: bầu cử bằng ngôn ngữ dễ (Leichte Sprache)](https://www.rbb24.de/politik/berlin-wahl-2026/leichte-sprache/index-abgeordnetenhaus-bvv.html)\n- [Trung tâm Giáo dục Chính trị bang Berlin: tờ rơi bầu cử 2026 (PDF)](https://www.berlin.de/politische-bildung/publikationen/broschueren/v1_bf_broschuere_wahlen-2026_lzpbb_en.pdf)",
+    "accountabilityIntro": "Sau bầu cử — theo dõi cam kết (cấp liên bang, không phải Berlin):",
+    "accountabilityBody": "- [FragDenStaat: Koalitionstracker](https://fragdenstaat.de/koalitionstracker/) — liên minh Ampel 2021–2025 (không có tracker cho chính phủ Merz)\n- [Regierungschecker](https://www.regierungschecker.de/de) — cam kết bầu cử và chính phủ kèm nguồn gốc"
+  },
+  "mentions": {
+    "title": "Dự án được nhắc đến bởi",
+    "kindLabels": {
+      "telegram": "Telegram",
+      "newsletter": "Bản tin",
+      "substack": "Substack",
+      "article": "Bài viết"
+    },
+    "openPost": "Mở",
+    "topicLabels": {
+      "city_news": "Tin thành phố",
+      "berlin_life": "Đời sống Berlin",
+      "politics": "Chính trị",
+      "germany_news": "Tin Đức",
+      "events": "Sự kiện",
+      "weekly_guide": "Cẩm nang tuần",
+      "internationals": "Người nước ngoài",
+      "tech_business": "Công nghệ & kinh doanh",
+      "election": "Bầu cử"
+    }
+  },
+  "mentionSummaries": [
+    {
+      "id": "berlinwelle",
+      "source": "Volna / Berlin",
+      "topics": [
+        "city_news",
+        "berlin_life"
+      ]
+    },
+    {
+      "id": "bundeskanzler",
+      "source": "Bundeskanzler",
+      "topics": [
+        "politics",
+        "germany_news"
+      ]
+    },
+    {
+      "id": "berlinevents",
+      "source": "Berlin Events Weekly",
+      "topics": [
+        "events",
+        "weekly_guide"
+      ]
+    },
+    {
+      "id": "theberlinlife",
+      "source": "The Berlin Life",
+      "topics": [
+        "internationals",
+        "berlin_life"
+      ]
+    },
+    {
+      "id": "handpicked",
+      "source": "Handpicked Berlin",
+      "topics": [
+        "tech_business",
+        "city_news"
+      ]
+    },
+    {
+      "id": "20percent",
+      "source": "20 Percent Berlin",
+      "topics": [
+        "election",
+        "city_news"
+      ]
+    },
+    {
+      "id": "zernaradosti",
+      "source": "Zerna Radosti",
+      "topics": [
+        "city_news",
+        "berlin_life"
+      ]
+    },
+    {
+      "id": "russischsprachigelinke",
+      "source": "Russischsprachige Linke",
+      "topics": [
+        "politics",
+        "election"
+      ]
+    },
+    {
+      "id": "gooseexpat",
+      "source": "Goose Expat",
+      "topics": [
+        "internationals",
+        "election"
+      ]
+    }
+  ],
+  "footer": {
+    "aiNotice": "Nội dung và bảng so sánh trên trang này được tạo với sự hỗ trợ của AI.",
+    "aiDisclosure": "Công bố về AI",
+    "relatedSite": "Bản dịch đầy đủ chương trình: BerlinVote.Help",
+    "contact": "Liên hệ",
+    "about": "Giới thiệu",
+    "privacy": "Bảo vệ dữ liệu",
+    "contribute": "Đóng góp",
+    "impressum": "Thông tin pháp lý"
+  },
+  "feedback": {
+    "fabLabel": "Gửi phản hồi",
+    "title": "Gửi phản hồi",
+    "intro": "Có câu hỏi hoặc góp ý về trang? Viết ngắn gửi chúng tôi. Để lại email nếu muốn nhận trả lời.",
+    "textReportHint": "Báo câu chữ sai hoặc sai sự thật? Chọn (hoặc sao chép) đoạn trên trang — sẽ hiện nút nhỏ để mở biểu mẫu sửa.",
+    "messageLabel": "Tin nhắn của bạn",
+    "messagePlaceholder": "Viết phản hồi…",
+    "emailLabel": "Email (để nhận trả lời)",
+    "emailPlaceholder": "you@example.com",
+    "submit": "Gửi",
+    "sending": "Đang gửi…",
+    "cancel": "Hủy",
+    "close": "Đóng",
+    "success": "Cảm ơn. Chúng tôi sẽ xem sớm nhất có thể.",
+    "error": "Có lỗi xảy ra. Vui lòng thử lại hoặc gửi email tới {email}.",
+    "captchaRequired": "Vui lòng hoàn tất bước kiểm tra bảo mật.",
+    "captchaMissing": "Chưa cấu hình kiểm tra bảo mật (thiếu site key)."
+  },
+  "textReport": {
+    "title": "Báo cáo văn bản sai",
+    "intro": "Kiểm tra đoạn đã chọn và viết cách nên sửa.",
+    "selectionAction": "Báo cáo đoạn này",
+    "incorrectLabel": "Văn bản sai (như trên trang)",
+    "incorrectPlaceholder": "Dán hoặc chọn văn bản từ trang…",
+    "suggestedLabel": "Cách bạn đề xuất",
+    "suggestedPlaceholder": "Viết câu chữ đã sửa hoặc chỉnh sự thật…",
+    "submit": "Gửi báo cáo"
+  },
+  "about": {
+    "title": "Giới thiệu",
+    "body": "Berlin 2026 là dự án độc lập so sánh chương trình các đảng trước bầu cử bang Berlin 2026. Chương trình chính thức chỉ có tiếng Đức — chúng tôi dịch sang các ngôn ngữ được nói ở Berlin.\n\nNina so sánh chương trình và phát triển dự án; Masha lo phần kỹ thuật. Song song chúng tôi làm [Water for All / Wasser für alle](https://www.water4all.com.de) — bản đồ mở về nước uống miễn phí ở Berlin. Dự án giúp thấy rõ tiếp cận nước và vận động thêm đài nước uống.",
+    "contributeTitle": "Bạn có thể giúp gì",
+    "contributeBody": "Nếu muốn hỗ trợ dự án, điều hữu ích nhất là lan tỏa — chia sẻ với người có thể cần.\n\nBạn cũng có thể in tờ rơi của chúng tôi (tiếng Đức, Anh, Thổ Nhĩ Kỳ, Kurd, Việt, Ba Lan, Nga, Ukraina, Ả Rập, Tây Ban Nha, Ý) và dán nơi người Berlin sẽ thấy — quán cà phê, bảng thông báo, không gian cộng đồng. [Tải PDF](/flyers/berlin-2026-flyer.pdf).\n\nNếu thấy lỗi trên trang — câu chữ sai hoặc sai sự thật — hãy báo để chúng tôi sửa. Chọn đoạn trên trang để mở báo cáo, hoặc viết qua Liên hệ.\n\nBạn cũng có thể tự cải thiện bản dịch: mở pull request, hoặc sửa tệp ngôn ngữ trong [kho GitHub](https://github.com/mashazyu/berlin-2026) của chúng tôi."
+  },
+  "aiDisclosure": {
+    "title": "Công bố về AI",
+    "intro": "Trang này giải thích cách chúng tôi dùng AI khi tạo nội dung — và vì sao biên tập viên con người vẫn chịu trách nhiệm về những gì đăng tải.",
+    "howWeUseAi": "Chúng tôi dùng AI thế nào",
+    "howWeUseAiContent": "Chúng tôi dùng AI để soạn và chỉnh văn bản trang — ví dụ nội dung trang và tóm tắt chương trình chính thức của các đảng. AI hỗ trợ diễn đạt, cấu trúc và so sánh lập trường; AI không quyết định chúng tôi đăng gì hay bạn nên bỏ phiếu thế nào.",
+    "humanResponsibility": "Ý tưởng của con người và trách nhiệm biên tập",
+    "humanResponsibilityContent": "Mọi ý tưởng, mục tiêu và quyết định nội dung đều đến từ những người trong dự án Berlin 2026. Trước khi đăng, chúng tôi kiểm tra độ rõ ràng và phù hợp với mục đích thông tin. Trách nhiệm biên tập thuộc về dự án Berlin 2026.",
+    "reviewAndAccuracy": "Rà soát và độ chính xác",
+    "reviewAndAccuracyContent": "Bảng so sánh các đảng phần lớn được xây bằng AI từ chương trình chính thức. Hãy tự kiểm lại những điểm quan trọng với bạn. Bản dịch đầy đủ chương trình các đảng chính có trên BerlinVote.Help. Chúng tôi kiểm tra độ chính xác, nhưng vẫn có thể còn lỗi hoặc bỏ sót sắc thái. Nếu thấy sai, hãy báo cho chúng tôi.",
+    "contact": "Liên hệ",
+    "contactContent": "Có câu hỏi về cách chúng tôi dùng AI hoặc về nội dung trên trang? Viết tới {email}."
+  },
+  "comparison": {
+    "title": "Chương trình các đảng cho bầu cử bang Berlin 2026",
+    "subtitle": "Lập trường của 10 đảng lớn nhất về giao thông, nhà ở, khí hậu, an ninh, giáo dục, y tế, di cư và các vấn đề khác — từ chương trình chính thức.",
+    "topicColumn": "Chủ đề",
+    "scrollHint": "Đang hiện các đảng đã chọn — thêm bằng nhãn phía trên.",
+    "programLink": "Chương trình",
+    "emptyCell": "—",
+    "partiesLabel": "Đảng để so sánh",
+    "showAll": "Tất cả",
+    "showFactions": "Phe hiện tại",
+    "selectedCount": "Đã chọn {count}",
+    "expandTopic": "Hiện lập trường",
+    "collapseTopic": "Ẩn",
+    "openProgram": "Chương trình đảng",
+    "sourceQuote": "Trích dẫn gốc",
+    "sourceQuoteLink": "Mở nguồn trong chương trình",
+    "sourceNote": "Không tìm thấy trong chương trình",
+    "expandGroup": "Mở nhóm",
+    "collapseGroup": "Thu nhóm",
+    "searchPlaceholder": "Tìm chủ đề…",
+    "searchClear": "Xóa tìm kiếm",
+    "searchNoResults": "Không có chủ đề khớp tìm kiếm.",
+    "searchResultsCount": "{count} chủ đề",
+    "groups": {
+      "transport": "Giao thông",
+      "waste": "Vệ sinh & rác thải",
+      "climate_energy": "Khí hậu & năng lượng",
+      "animals": "Động vật",
+      "housing": "Nhà ở",
+      "security": "An ninh",
+      "education": "Giáo dục",
+      "health": "Y tế",
+      "migration": "Di cư",
+      "economy": "Kinh tế",
+      "society": "Xã hội & văn hóa",
+      "democracy": "Dân chủ",
+      "other": "Khác"
+    }
+  }
+}

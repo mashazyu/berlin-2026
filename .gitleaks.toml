@@ -1,0 +1,10 @@
+# IndexNow keys are published at /{key}.txt by design (Bing/Yandex verification).
+# They are not confidential credentials — see https://www.indexnow.org/documentation
+
+[allowlist]
+paths = [
+  '''(^|/)lib/seo/indexnow\.ts$''',
+  '''(^|/)apps/.+/lib/seo/indexnow\.ts$''',
+  '''(^|/)public/[a-f0-9]{32}\.txt$''',
+  '''(^|/)apps/.+/public/[a-f0-9]{32}\.txt$''',
+]
