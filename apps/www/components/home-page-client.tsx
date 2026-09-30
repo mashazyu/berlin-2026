@@ -1,6 +1,6 @@
 "use client"
 
-import { Droplets, Landmark, Mail, Vote } from "lucide-react"
+import { Compass, Droplet, Mail, Map } from "lucide-react"
 import {
   LandingShell,
   SiteFooter,
@@ -12,9 +12,9 @@ import { PEOPLE } from "@/lib/contacts"
 import { projectHref, type ProjectId } from "@/lib/projects"
 
 const PROJECT_ICONS = {
-  water4all: Droplets,
-  "berlin-2026": Vote,
-  polit: Landmark,
+  water4all: Droplet,
+  "berlin-2026": Compass,
+  polit: Map,
 } as const
 
 type IconProps = { className?: string }
