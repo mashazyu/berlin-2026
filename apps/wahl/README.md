@@ -2,17 +2,17 @@
 
 **Hosts:** `wahl.kompass.berlin`, `www.wahl.kompass.berlin`
 
-Copy of the berlin-2026 election compass (same codebase as the live app still at repo root until Vercel cutover).
+Full copy of the berlin-2026 election compass. Live production still deploys from the **repo root** until cutover (see [MONOREPO.md](../../MONOREPO.md)).
 
 ```bash
 pnpm --filter @kompass/wahl dev    # port 3000
 pnpm --filter @kompass/wahl build
 ```
 
-Copy `.env.example` → `.env.local` in this folder for local secrets.
+Copy env from the live berlin Vercel project into the wahl project (Turnstile, Resend, PostHog, etc.).
 
-## Cutover
+Vercel: Root Directory `apps/wahl`, Ignored Build Step:
 
-1. Preview this app on Vercel (Root Directory `apps/wahl`).
-2. Attach both hosts; switch traffic when ready.
-3. Remove the duplicate root app tree once production points here.
+```bash
+bash scripts/vercel-should-build.sh apps/wahl
+```
