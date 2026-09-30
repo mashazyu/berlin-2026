@@ -69,7 +69,7 @@ export function pageMetadata(key: PageKey) {
         alternateLocale: alternateLocales(safeLang),
         url: fullUrl,
         type: "website",
-        siteName: "Berlin 2026",
+        siteName: "Wahl Kompass - Berlin 2026",
         images: [
           {
             url: image,

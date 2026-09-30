@@ -15,7 +15,7 @@ export function middleware(request: NextRequest) {
   const segment = pathname.split("/")[1]
   if (!segment || !isLanguage(segment)) {
     const url = request.nextUrl.clone()
-    url.pathname = `/en${pathname === "/" ? "" : pathname}`
+    url.pathname = `/de${pathname === "/" ? "" : pathname}`
     return NextResponse.redirect(url)
   }
 

@@ -6,7 +6,7 @@ export const BASE_URL = "https://www.berlin-2026.de"
 export const CONTACT_EMAIL = "feedback@berlin-2026.de"
 
 /** Resend “from” — always the same inbox (never env override / Resend onboarding address). */
-export const CONTACT_FROM = `Berlin 2026 <${CONTACT_EMAIL}>`
+export const CONTACT_FROM = `Wahl Kompass - Berlin 2026 <${CONTACT_EMAIL}>`
 
 /**
  * Display / iteration order: English first, then Berlin community size

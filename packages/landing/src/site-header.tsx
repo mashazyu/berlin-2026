@@ -126,7 +126,7 @@ export function SiteHeader({
       <div className="mx-auto flex h-14 max-w-7xl items-center justify-between gap-4 px-4 sm:px-6">
         <Link
           href={homeHref}
-          className="flex h-9 shrink-0 items-center font-display text-base font-semibold tracking-[-0.01em] text-foreground"
+          className="flex h-9 shrink-0 items-center gap-2 font-display text-base font-semibold tracking-[-0.01em] text-foreground"
           onClick={closeMenu}
         >
           {brand}

@@ -1,7 +1,8 @@
 "use client"
 
-import { Droplets, Landmark, Mail, Vote } from "lucide-react"
+import { Compass, Droplet, Mail } from "lucide-react"
 import {
+  BrandMark,
   LandingShell,
   SiteFooter,
   SiteHeader,
@@ -12,9 +13,9 @@ import { PEOPLE } from "@/lib/contacts"
 import { projectHref, type ProjectId } from "@/lib/projects"
 
 const PROJECT_ICONS = {
-  water4all: Droplets,
-  "berlin-2026": Vote,
-  polit: Landmark,
+  water4all: { Icon: Droplet, className: "text-[#0B8FBF]" },
+  "berlin-2026": { Icon: Compass, className: "text-[#F55A1F]" },
+  polit: { Icon: Compass, className: "text-[#129176]" },
 } as const
 
 type IconProps = { className?: string }
@@ -48,13 +49,18 @@ function LinkedInIcon({ className }: IconProps) {
 export function HomePageClient() {
   const { language, translations: t } = useLanguage()
   const homeHref = `/${language}`
+  const brand = (
+    <BrandMark icon={Compass}>
+      <span className="text-foreground">{t.brand}</span>
+    </BrandMark>
+  )
 
   return (
     <LandingShell
       enableScrollSnap={false}
       header={
         <SiteHeader
-          brand={<span className="text-foreground">{t.brand}</span>}
+          brand={brand}
           homeHref={homeHref}
           links={[
             { type: "section", id: "projects", label: t.navigation.projects },
@@ -63,12 +69,7 @@ export function HomePageClient() {
           trailing={<LanguageSwitcher />}
         />
       }
-      footer={
-        <SiteFooter
-          brand={<span className="text-foreground">{t.brand}</span>}
-          notice={t.footer.notice}
-        />
-      }
+      footer={<SiteFooter brand={brand} notice={t.footer.notice} />}
     >
       <section
         id="about"
@@ -95,7 +96,8 @@ export function HomePageClient() {
           <ul className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {t.projects.items.map((project) => {
               const href = projectHref(project.id as ProjectId, language)
-              const Icon = PROJECT_ICONS[project.id as ProjectId]
+              const { Icon, className: iconClass } =
+                PROJECT_ICONS[project.id as ProjectId]
               return (
                 <li key={project.id}>
                   <a
@@ -105,7 +107,7 @@ export function HomePageClient() {
                     className="flex h-full flex-col border border-border bg-background p-6 transition-colors hover:border-primary hover:bg-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
                   >
                     <Icon
-                      className="h-8 w-8 text-primary"
+                      className={`h-8 w-8 ${iconClass}`}
                       aria-hidden
                       strokeWidth={1.5}
                     />

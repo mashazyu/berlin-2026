@@ -118,6 +118,9 @@ importers:
         specifier: 19.1.0
         version: 19.1.0(react@19.1.0)
     devDependencies:
+      '@eslint/eslintrc':
+        specifier: ^3
+        version: 3.3.7
       '@tailwindcss/postcss':
         specifier: ^4
         version: 4.3.3
@@ -257,6 +260,9 @@ importers:
         specifier: 19.1.0
         version: 19.1.0(react@19.1.0)
     devDependencies:
+      '@eslint/eslintrc':
+        specifier: ^3
+        version: 3.3.7
       '@tailwindcss/postcss':
         specifier: ^4
         version: 4.3.3

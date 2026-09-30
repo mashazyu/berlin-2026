@@ -135,11 +135,11 @@ export function JsonLd({ language }: { language: Language }) {
         "@type": "WebSite",
         "@id": `${BASE_URL}/#website`,
         url: BASE_URL,
-        name: "Berlin 2026",
+        name: "Wahl Kompass - Berlin 2026",
         inLanguage: [...SUPPORTED_LANGUAGES],
         publisher: {
           "@type": "Organization",
-          name: "Berlin 2026",
+          name: "Wahl Kompass - Berlin 2026",
           url: BASE_URL,
         },
       },

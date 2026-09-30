@@ -23,6 +23,9 @@ export type { SiteHeaderProps, NavLink } from "./site-header"
 export { SiteFooter } from "./site-footer"
 export type { SiteFooterProps, FooterLink } from "./site-footer"
 
+export { BrandMark } from "./brand-mark"
+export type { BrandMarkProps } from "./brand-mark"
+
 export { SectionScrollSnap } from "./section-scroll-snap"
 
 export {

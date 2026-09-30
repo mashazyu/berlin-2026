@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "homeTitle": "Berlin 2026 — Wahlprogramme der 10 populärsten Parteien im Vergleich",
+    "homeTitle": "Wahl Kompass - Berlin 2026 — Wahlprogramme der 10 populärsten Parteien im Vergleich",
     "homeDescription": "Offizielle Programme zur Abgeordnetenhauswahl am 20. September 2026: Verkehr, Wohnen, Klima, Sicherheit u. a. Unabhängig, keine Wahlempfehlung.",
-    "aboutTitle": "Über uns — Berlin 2026",
-    "aboutDescription": "Wer hinter Berlin 2026 steckt: Nina vergleicht die Programme und treibt das Projekt voran; Mascha macht die Technik. Unabhängig, ohne Parteibindung.",
-    "privacyTitle": "Datenschutzerklärung — Berlin 2026",
-    "privacyDescription": "Wie Berlin 2026 personenbezogene Daten nach der DSGVO verarbeitet.",
-    "aiDisclosureTitle": "KI-Hinweis — Berlin 2026",
+    "aboutTitle": "Über uns — Wahl Kompass - Berlin 2026",
+    "aboutDescription": "Wer hinter Wahl Kompass - Berlin 2026 steckt: Nina vergleicht die Programme und treibt das Projekt voran; Mascha macht die Technik. Unabhängig, ohne Parteibindung.",
+    "privacyTitle": "Datenschutzerklärung — Wahl Kompass - Berlin 2026",
+    "privacyDescription": "Wie Wahl Kompass - Berlin 2026 personenbezogene Daten nach der DSGVO verarbeitet.",
+    "aiDisclosureTitle": "KI-Hinweis — Wahl Kompass - Berlin 2026",
     "aiDisclosureDescription": "Wie wir KI für Website-Texte und den Programmvergleich nutzen — und warum Menschen für Ideen, Inhalt und Richtigkeit verantwortlich bleiben.",
     "keywords": [
       "Berlin",
@@ -22,11 +22,11 @@
       "Gesundheit",
       "Migration"
     ],
-    "impressumTitle": "Impressum — Berlin 2026",
-    "impressumDescription": "Impressum des Projekts Berlin 2026: Anbieter, Kontakt und Haftung."
+    "impressumTitle": "Impressum — Wahl Kompass - Berlin 2026",
+    "impressumDescription": "Impressum des Projekts Wahl Kompass - Berlin 2026: Anbieter, Kontakt und Haftung."
   },
   "brand": {
-    "name": "Berlin 2026",
+    "name": "Wahl Kompass - Berlin 2026",
     "tagline": "Parteipositionen nebeneinander"
   },
   "navigation": {

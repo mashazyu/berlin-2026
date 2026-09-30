@@ -4,7 +4,7 @@ import "./globals.css"
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.berlin-2026.de"),
   title: {
-    default: "Berlin 2026",
+    default: "Wahl Kompass - Berlin 2026",
     template: "%s",
   },
   verification: {
