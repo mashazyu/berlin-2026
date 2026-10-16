@@ -74,6 +74,40 @@ Visitors are per path (not mutually exclusive across languages):
 
 Source: `stats/posthog/export-2026-10-14-082324.csv`. Cutoff: 20 Sep 2026 18:00 Europe/Berlin.
 
+### Time on site and time with topics (highlight)
+
+Derived from PostHog `$session_id` (or `$device_id` fallback) and `topic_open` timestamps in the instrumented window.
+
+Session length is right-skewed (idle tabs pull a raw average up). We therefore report **median** (typical visit) and a **5%/5% trimmed mean** (average of the middle 90% after dropping the shortest and longest 5%). Long real reading sessions are kept; only a **4 hour** sanity bound removes impossible spans (none in this export).
+
+**Method**
+
+| Metric | Definition |
+|--------|------------|
+| **Time on site** | Last − first event in a session with at least one product event (`topic_open` / `party_*` / `program_link`); duration **> 0** and **≤ 4 hours** |
+| **Topic reading time** | Gap from one `topic_open` to the **next** `topic_open` (**excludes** last topic in a session); dwell **> 0** and **≤ 30 minutes** |
+| **How we report** | **Median** + IQR; **trimmed mean 5%/5%**; share of sessions longer than 2 / 5 / 15 minutes |
+
+These remain **proxies** (no dedicated dwell timer was shipped).
+
+#### Time on site (product-engaged sessions)
+
+| Window | n | **Median** | IQR (p25–p75) | **Trimmed mean 5%/5%** | Share > 2 min | Share > 5 min | Share > 15 min |
+|--------|---|------------|---------------|------------------------|---------------|---------------|----------------|
+| All instrumented | 1,168 | **3m 58s** | 1m 17s – 10m 56s | **7m 10s** | **67%** | 44% | 20% |
+| Pre-close | 935 | **4m 18s** | 1m 22s – 12m 28s | **7m 41s** | **69%** | 46% | 22% |
+| Post-close | 233 | **2m 56s** | 1m 05s – 7m 19s | **5m 17s** | **59%** | 37% | 13% |
+
+#### Time reading a topic (topic→next topic, excl. last-in-session)
+
+| Window | n | **Median** | IQR | **Trimmed mean 5%/5%** |
+|--------|---|------------|-----|------------------------|
+| All instrumented | 6,699 | **0m 28s** | 0m 13s – 0m 56s | **0m 37s** |
+| Pre-close | 5,186 | **0m 32s** | 0m 16s – 1m 02s | **0m 41s** |
+| Post-close | 1,513 | **0m 17s** | 0m 09s – 0m 34s | **0m 24s** |
+
+Headline takeaway: among people who used the comparison, a **typical** pre-close visit lasted about **4 minutes** (median), with a robust average around **7–8 minutes** (trimmed mean); **~70%** stayed over **2 minutes**, and a typical topic dwell was about **half a minute**.
+
 ### Event counts
 
 | Event | Pre-close | Post-close | All instrumented |

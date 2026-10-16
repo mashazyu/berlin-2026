@@ -79,6 +79,22 @@ Organic acquisition: Google first; **Substack second**; DuckDuckGo, Bing, Ecosia
 
 Local Telegram channels, Substack, and newsletters (10–17 Sep): Volna/Berlin, Bundeskanzler, Berlin Events, The Berlin Life, Handpicked, 20 Percent Berlin, Zerna Radosti, Russischsprachige Linke, Goose Expat. Full table in the metrics summary.
 
+### Time on site (proud metric)
+
+People stayed long enough to actually compare programs. We lead with **median** and a **5%/5% trimmed mean** (middle 90%), so idle-tab outliers do not dominate while long real reading stays in the data.
+
+| | Before close | After close | All instrumented |
+|--|--------------|-------------|------------------|
+| **Median time on site** | **4m 18s** | **2m 56s** | **3m 58s** |
+| **Trimmed mean 5%/5%** | **7m 41s** | **5m 17s** | **7m 10s** |
+| Share **> 2 minutes** | **69%** | **59%** | **67%** |
+| Share **> 5 minutes** | 46% | 37% | 44% |
+| Share **> 15 minutes** | 22% | 13% | 20% |
+| **Median time reading a topic** | **0m 32s** | **0m 17s** | **0m 28s** |
+| **Trimmed mean topic time** | **0m 41s** | **0m 24s** | **0m 37s** |
+
+Among visitors who used the comparison table: **typical** pre-close visit ~**4 minutes**, robust average ~**7–8 minutes**, **~70%** over two minutes, **~½ minute** per topic. Method: [`_metrics-summary.md`](./_metrics-summary.md).
+
 ### Decision-period vs after polls (PostHog, split at 20 Sep 18:00)
 
 | | Before close | After close |
@@ -133,4 +149,4 @@ Interest continued longer than expected; freeze/update policy still follows the 
 
 ## Snapshot for a CV / portfolio blurb
 
-Built and shipped a privacy-respecting, 11-language election comparison used by **thousands of visitors** (majority mobile), with strong **RU/EN/DE** usage, organic **Substack/Telegram** distribution, **~5.9k topic opens** before poll close — and surprising continued use afterward.
+Built and shipped a privacy-respecting, 11-language election comparison used by **thousands of visitors** (majority mobile), with strong **RU/EN/DE** usage, organic **Substack/Telegram** distribution, **~4 min median** / **~7–8 min trimmed-mean** time on site among comparison users before poll close (**~70%** stayed over 2 min), **~½ min per topic**, **~5.9k topic opens** before poll close — and surprising continued use afterward.
