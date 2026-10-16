@@ -41,6 +41,23 @@ Source: `stats/vercel/*` (14 Jul – 14 Oct 2026).
 
 Visitors are per path (not mutually exclusive across languages):
 
+```mermaid
+---
+config:
+  xyChart:
+    width: 680
+    height: 340
+  themeVariables:
+    xyChart:
+      plotColorPalette: "#1f4e79"
+---
+xychart-beta
+  title "Vercel visitors by language home path"
+  x-axis ["vi", "ku", "tr", "pl", "it", "uk", "es", "ar", "de", "ru", "en"]
+  y-axis "Visitors" 0 --> 1900
+  bar [16, 17, 32, 44, 50, 53, 82, 119, 958, 1575, 1766]
+```
+
 | Path | Visitors | Pageviews |
 |------|----------|-----------|
 | `/en` | 1,766 | 2,256 |
@@ -56,6 +73,25 @@ Visitors are per path (not mutually exclusive across languages):
 | `/vi` | 16 | 27 |
 
 ### Top referrers (Vercel)
+
+```mermaid
+---
+config:
+  xyChart:
+    width: 680
+    height: 320
+  themeVariables:
+    xyChart:
+      plotColorPalette: "#1f4e79"
+---
+xychart-beta
+  title "Top referrers (Vercel visitors)"
+  x-axis ["20pct", "ChatGPT", "Telegram", "Ecosia", "Bing", "DDG", "Substack", "Google"]
+  y-axis "Visitors" 0 --> 400
+  bar [12, 23, 38, 79, 106, 120, 306, 361]
+```
+
+Telegram = app + web combined (19+19).
 
 | Referrer | Visitors |
 |----------|----------|
@@ -92,6 +128,28 @@ These remain **proxies** (no dedicated dwell timer was shipped).
 
 #### Time on site (product-engaged sessions)
 
+Minutes (median vs trimmed mean 5%/5%). No raw mean.
+
+```mermaid
+---
+config:
+  xyChart:
+    width: 560
+    height: 300
+  themeVariables:
+    xyChart:
+      plotColorPalette: "#1f4e79, #6b8f71"
+---
+xychart-beta
+  title "Time on site (minutes)"
+  x-axis ["Pre-close", "Post-close"]
+  y-axis "Minutes" 0 --> 9
+  bar [4.3, 2.9]
+  bar [7.7, 5.3]
+```
+
+First series = median (4.3 / 2.9 min); second = trimmed mean 5%/5% (7.7 / 5.3 min).
+
 | Window | n | **Median** | IQR (p25–p75) | **Trimmed mean 5%/5%** | Share > 2 min | Share > 5 min | Share > 15 min |
 |--------|---|------------|---------------|------------------------|---------------|---------------|----------------|
 | All instrumented | 1,168 | **3m 58s** | 1m 17s – 10m 56s | **7m 10s** | **67%** | 44% | 20% |
@@ -127,6 +185,25 @@ Approx. **topic opens per pageview**: Pre-close **~3.0**; Post-close **~2.3**.
 
 Source: `stats/posthog/web-analytics-GRAPHS.csv` (calendar days; Sep 20 is a full calendar day, not split at 18:00).
 
+```mermaid
+---
+config:
+  xyChart:
+    width: 720
+    height: 320
+  themeVariables:
+    xyChart:
+      plotColorPalette: "#1f4e79"
+---
+xychart-beta
+  title "Daily unique visitors (PostHog)"
+  x-axis ["15", "16", "17", "18", "19", "20*", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13"]
+  y-axis "Uniques" 0 --> 650
+  line [10, 174, 612, 203, 277, 486, 193, 66, 46, 31, 14, 21, 11, 17, 12, 12, 3, 11, 5, 11, 14, 4, 9, 20, 3, 2, 3, 5, 6]
+```
+
+`20*` = election day (20 Sep). Publications concentrated 10–17 Sep (peak uniques on **17 Sep**). Axis labels: Sep 15–30 then Oct 1–13.
+
 | Period | Unique visitors (sum of daily uniques; not distinct across days) |
 |--------|------------------------------------------------------------------|
 | 15–19 Sep | 1,276 |
@@ -155,6 +232,25 @@ Peak instrumented days: **17 Sep (612)**, **20 Sep (486)**, **19 Sep (277)**.
 Pre-close mix is dominated by **ru / en / de**; post-close **de** rises relative to en/ru.
 
 ### Topic groups (`topic_open`)
+
+Pre-close opens by group:
+
+```mermaid
+---
+config:
+  xyChart:
+    width: 680
+    height: 360
+  themeVariables:
+    xyChart:
+      plotColorPalette: "#1f4e79"
+---
+xychart-beta
+  title "Topic opens by group (pre-close)"
+  x-axis ["animals", "health", "waste", "society", "economy", "security", "democracy", "education", "migration", "climate", "housing", "transport"]
+  y-axis "Opens" 0 --> 1400
+  bar [117, 266, 274, 291, 316, 357, 390, 433, 511, 679, 951, 1313]
+```
 
 | Group | Pre-close | Post-close |
 |-------|-----------|------------|
