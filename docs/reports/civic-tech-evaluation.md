@@ -103,7 +103,25 @@ Summing daily uniques (not cross-day distinct): **1,276** (15–19 Sep), **486**
 
 Split at **20 Sep 2026 18:00** Europe/Berlin (PostHog only).
 
-### 5.1 Intensity
+### 5.1 Time on site (highlight)
+
+A strong signal of genuine engagement — reported as **median** (typical visit) and **5%/5% trimmed mean** (robust average of the middle 90%), so idle-tab outliers do not dominate while long real reading sessions remain in the data.
+
+| | Pre-close | Post-close | All instrumented |
+|--|-----------|------------|------------------|
+| **Median time on site** | **4m 18s** | **2m 56s** | **3m 58s** |
+| **Trimmed mean 5%/5%** | **7m 41s** | **5m 17s** | **7m 10s** |
+| Share of sessions **> 2 min** | **69%** | **59%** | **67%** |
+| Share **> 5 min** | 46% | 37% | 44% |
+| Share **> 15 min** | 22% | 13% | 20% |
+| **Median time reading a topic** | **0m 32s** | **0m 17s** | **0m 28s** |
+| **Trimmed mean topic time** | **0m 41s** | **0m 24s** | **0m 37s** |
+
+Population: sessions that used the comparison (topic/party/program events). Topic time: gap to the *next* topic open (last topic in a session excluded). Full method in [`_metrics-summary.md`](./_metrics-summary.md).
+
+A **typical** pre-close visit is about **4 minutes**, with a robust average around **7–8 minutes**; roughly **half a minute** per topic — consistent with reading several comparison rows, not a bounce.
+
+### 5.2 Intensity
 
 | | Pre-close | Post-close |
 |--|-----------|------------|
@@ -117,13 +135,13 @@ Pre-close users opened roughly **three topics per pageview** on average. Post-cl
 
 That topic- and party-level picture exists because product events were added when capacity allowed; without that later instrumentation, post-election “still coming” would have been visible only as raw pageviews.
 
-### 5.2 What people compared
+### 5.3 What people compared
 
 **Transport** and **housing** dominate topic opens; **migration** and **climate/energy** follow. Top individual topics include A100 construction, migration admission/deportations, U-Bahn extensions, rent regulation (Mietendeckel), and Tempelhofer Feld — aligning with salient Berlin campaign issues.
 
 Party filtering touches all ten parties; presets favour “show all” over “current factions,” suggesting demand for **wide** comparison, including parties outside the prior parliament.
 
-### 5.3 Language of use
+### 5.4 Language of use
 
 Instrumented pageviews pre-close: **ru > en > de**. Post-close, **de** rises relative to en/ru. Combined with Vercel path data, the multilingual thesis holds: a large share of use is **not** German-UI-only.
 
@@ -132,12 +150,13 @@ Instrumented pageviews pre-close: **ru > en > de**. Post-close, **de** rises rel
 ## 6. Limitations
 
 1. **Coverage of rich events** — Topic/party/language product events cover ~15 Sep onward (when that layer was added). Earlier visits are reflected in Vercel reach, not in topic-level detail.  
-2. **Cookieless / blocking** — Counts understate true use; `$device_id` is a proxy, not a census of persons.  
-3. **No outcome measures** — No knowledge tests, vote reports, or trust surveys.  
-4. **Non-splittable aggregates** — Vercel/SEO cannot separate pre- and post-18:00 in this export set; election-day PostHog *daily* uniques also mix morning and evening.  
-5. **Publication ≠ causation** — Timeline alignment with spikes is suggestive, not a controlled media effect estimate.  
-6. **AI summarisation risk** — Disclosed and mitigated with sources/feedback paths; residual error risk remains (see site AI disclosure).  
-7. **Feedback volume** — Not included in this metrics package.
+2. **Time metrics are proxies** — Session length is last−first event among product-engaged sessions; topic “reading time” is the gap between successive `topic_open` events (last-in-session excluded), not a dedicated dwell timer. We report median and a 5%/5% trimmed mean because of right skew.  
+3. **Cookieless / blocking** — Counts understate true use; `$device_id` is a proxy, not a census of persons.  
+4. **No outcome measures** — No knowledge tests, vote reports, or trust surveys.  
+5. **Non-splittable aggregates** — Vercel/SEO cannot separate pre- and post-18:00 in this export set; election-day PostHog *daily* uniques also mix morning and evening.  
+6. **Publication ≠ causation** — Timeline alignment with spikes is suggestive, not a controlled media effect estimate.  
+7. **AI summarisation risk** — Disclosed and mitigated with sources/feedback paths; residual error risk remains (see site AI disclosure).  
+8. **Feedback volume** — Not included in this metrics package.
 
 ---
 
@@ -146,8 +165,9 @@ Instrumented pageviews pre-close: **ru > en > de**. Post-close, **de** rises rel
 For election-information civic tech aimed at **linguistic access** and **program substance**:
 
 - A **comparison table + citations** can attract substantial mobile-first, multilingual use in a short campaign window, amplified by **local Telegram/Substack/newsletter** ecosystems rather than paid acquisition.  
+- **Dwell time** matters as much as visit counts: among comparison users, **median ~4 minutes** on site before poll close (**~70%** stayed over 2 minutes; trimmed mean ~**7–8 minutes**) and **~½ minute per topic** point to careful reading, not drive-by traffic.  
 - Demand is strongest before polls close — but **post-election use continued** at a meaningful level, contrary to the expectation that the site would go quiet overnight. That suggests program comparison retains value for reflection, discussion, or catching up after voting day.  
-- Adding topic-interest analytics when capacity appeared turned out to be a **bonus**: it made both the campaign peak and the surprising afterlife readable in civic terms (which topics, which languages), not only as traffic charts.  
-- Privacy-preserving analytics can still support meaningful evaluation of *exploratory* behaviour (topics, parties, languages), provided limits are stated clearly.
+- Adding topic-interest analytics when capacity appeared turned out to be a **bonus**: it made both the campaign peak and the surprising afterlife readable in civic terms (which topics, which languages, how long people stayed), not only as traffic charts.  
+- Privacy-preserving analytics can still support meaningful evaluation of *exploratory* behaviour (topics, parties, languages, time), provided limits are stated clearly.
 
 Berlin 2026 should be read as a **successful access-and-comparison intervention under privacy constraints**, not as proof of electoral impact.
