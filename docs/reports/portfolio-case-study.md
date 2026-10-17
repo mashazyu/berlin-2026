@@ -3,7 +3,7 @@
 **Berlin 2026** is an independent, multilingual party-program comparison for the Berlin state election (Abgeordnetenhaus) on **20 September 2026**.  
 Live: [www.berlin-2026.de](https://www.berlin-2026.de)
 
-Numbers cited here are locked in [`_metrics-summary.md`](./_metrics-summary.md). Companion evaluation write-up: [`civic-tech-evaluation.md`](./civic-tech-evaluation.md).
+Numbers cited here are locked in [`_metrics-summary.md`](./_metrics-summary.md). Companion evaluation write-up: [`civic-tech-evaluation.md`](./civic-tech-evaluation.md). Non-technical public story: [`public-project-story.md`](./public-project-story.md) ([PDF](./public-project-story.pdf)).
 
 ---
 
@@ -83,7 +83,7 @@ Local Telegram channels, Substack, and newsletters (10–17 Sep): Volna/Berlin, 
 
 People stayed long enough to actually compare programs. We lead with **median** and a **5%/5% trimmed mean** (middle 90%), so idle-tab outliers do not dominate while long real reading stays in the data.
 
-| | Before close | After close | All instrumented |
+| | Before end of elections | After end of elections | All instrumented |
 |--|--------------|-------------|------------------|
 | **Median time on site** | **4m 18s** | **2m 56s** | **3m 58s** |
 | **Trimmed mean 5%/5%** | **7m 41s** | **5m 17s** | **7m 10s** |
@@ -93,11 +93,11 @@ People stayed long enough to actually compare programs. We lead with **median** 
 | **Median time reading a topic** | **0m 32s** | **0m 17s** | **0m 28s** |
 | **Trimmed mean topic time** | **0m 41s** | **0m 24s** | **0m 37s** |
 
-Among visitors who used the comparison table: **typical** pre-close visit ~**4 minutes**, robust average ~**7–8 minutes**, **~70%** over two minutes, **~½ minute** per topic. Method: [`_metrics-summary.md`](./_metrics-summary.md).
+Among visitors who used the comparison table: a **typical** visit before end of elections ~**4 minutes**, robust average ~**7–8 minutes**, **~70%** over two minutes, **~½ minute** per topic. Method: [`_metrics-summary.md`](./_metrics-summary.md).
 
-### Decision-period vs after polls (PostHog, split at 20 Sep 18:00)
+### Before vs after end of elections (PostHog, split at 20 Sep 18:00)
 
-| | Before close | After close |
+| | Before end of elections | After end of elections |
 |--|--------------|-------------|
 | Pageviews | 1,985 | 739 |
 | Topics opened | 5,898 | 1,680 |

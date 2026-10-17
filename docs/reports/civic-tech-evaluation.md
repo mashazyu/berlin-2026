@@ -3,7 +3,7 @@
 Independent multilingual comparison of party programs for the Berlin Abgeordnetenhaus election of **20 September 2026**.  
 Live site: [www.berlin-2026.de](https://www.berlin-2026.de).
 
-This document evaluates the project as a **civic information intervention**: problem, design, measurement approach, observed reach and use, and limits. Shared quantitative detail lives in [`_metrics-summary.md`](./_metrics-summary.md).
+This document evaluates the project as a **civic information intervention**: problem, design, measurement approach, observed reach and use, and limits. Shared quantitative detail lives in [`_metrics-summary.md`](./_metrics-summary.md). For a non-technical public version, see [`public-project-story.md`](./public-project-story.md) ([PDF](./public-project-story.pdf)).
 
 ---
 
@@ -54,16 +54,16 @@ We **do not** claim effects on vote choice, turnout, or knowledge gains. There w
 
 The project was scoped first around shipping the comparison itself. Detailed “what topics do people open?” analytics was a later benefit when there was room to instrument it.
 
-### 3.3 Primary contrast: pre- vs post-close
+### 3.3 Primary contrast: before vs after end of elections
 
-**Poll close:** 20 Sep 2026, **18:00 Europe/Berlin**.
+**End of elections:** 20 Sep 2026, **18:00 Europe/Berlin**.
 
 | Window | Civic interpretation |
 |--------|----------------------|
-| **Pre-close** (rich events from ~15 Sep) | Decision-period exploration |
-| **Post-close** | Continued visits after voting — **unexpected** relative to the assumption that demand would stop at poll close |
+| **Before end of elections** (rich events from ~15 Sep) | Decision-period exploration |
+| **After end of elections** | Continued visits after voting — **unexpected** relative to the assumption that demand would stop at poll close |
 
-The team expected the site’s role to end with the election. Post-close traffic and topic opens show that people still returned to compare programs afterward.
+The team expected the site’s role to end with the election. Traffic and topic opens **after end of elections** show that people still returned to compare programs afterward.
 
 Vercel and SEO exports in this snapshot are **all-period** and cannot be split at 18:00; they contextualise lifetime reach and search discovery only.
 
@@ -107,7 +107,7 @@ Split at **20 Sep 2026 18:00** Europe/Berlin (PostHog only).
 
 A strong signal of genuine engagement — reported as **median** (typical visit) and **5%/5% trimmed mean** (robust average of the middle 90%), so idle-tab outliers do not dominate while long real reading sessions remain in the data.
 
-| | Pre-close | Post-close | All instrumented |
+| | Before end of elections | After end of elections | All instrumented |
 |--|-----------|------------|------------------|
 | **Median time on site** | **4m 18s** | **2m 56s** | **3m 58s** |
 | **Trimmed mean 5%/5%** | **7m 41s** | **5m 17s** | **7m 10s** |
@@ -119,11 +119,11 @@ A strong signal of genuine engagement — reported as **median** (typical visit)
 
 Population: sessions that used the comparison (topic/party/program events). Topic time: gap to the *next* topic open (last topic in a session excluded). Full method in [`_metrics-summary.md`](./_metrics-summary.md).
 
-A **typical** pre-close visit is about **4 minutes**, with a robust average around **7–8 minutes**; roughly **half a minute** per topic — consistent with reading several comparison rows, not a bounce.
+A **typical** before end of elections visit is about **4 minutes**, with a robust average around **7–8 minutes**; roughly **half a minute** per topic — consistent with reading several comparison rows, not a bounce.
 
 ### 5.2 Intensity
 
-| | Pre-close | Post-close |
+| | Before end of elections | After end of elections |
 |--|-----------|------------|
 | `$pageview` | 1,985 | 739 |
 | `topic_open` | 5,898 | 1,680 |
@@ -131,7 +131,7 @@ A **typical** pre-close visit is about **4 minutes**, with a robust average arou
 | `program_link` | 164 | 38 |
 | Distinct devices with pageview | 1,628 | 657 |
 
-Pre-close users opened roughly **three topics per pageview** on average. Post-close intensity is lower, but use remains clearly exploratory (1,680 topic opens after 18:00 on election day through mid-October) — not a dead site. Citation/program link-outs (**164** pre-close) show a minority but meaningful path back to primary sources.
+Before end of elections users opened roughly **three topics per pageview** on average. After end of elections intensity is lower, but use remains clearly exploratory (1,680 topic opens after 18:00 on election day through mid-October) — not a dead site. Citation/program link-outs (**164** before end of elections) show a minority but meaningful path back to primary sources.
 
 That topic- and party-level picture exists because product events were added when capacity allowed; without that later instrumentation, post-election “still coming” would have been visible only as raw pageviews.
 
@@ -143,7 +143,7 @@ Party filtering touches all ten parties; presets favour “show all” over “c
 
 ### 5.4 Language of use
 
-Instrumented pageviews pre-close: **ru > en > de**. Post-close, **de** rises relative to en/ru. Combined with Vercel path data, the multilingual thesis holds: a large share of use is **not** German-UI-only.
+Instrumented pageviews before end of elections: **ru > en > de**. After end of elections, **de** rises relative to en/ru. Combined with Vercel path data, the multilingual thesis holds: a large share of use is **not** German-UI-only.
 
 ---
 

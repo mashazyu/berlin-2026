@@ -1,7 +1,9 @@
 # Berlin 2026 — locked metrics summary
 
-Shared numbers for [`civic-tech-evaluation.md`](./civic-tech-evaluation.md) and [`portfolio-case-study.md`](./portfolio-case-study.md).  
-Exports analysed: [`stats/`](../../stats/) (snapshot dated 14 Oct 2026). Election poll close: **20 Sep 2026, 18:00 Europe/Berlin**.
+Shared numbers for [`civic-tech-evaluation.md`](./civic-tech-evaluation.md), [`portfolio-case-study.md`](./portfolio-case-study.md), and the public story [`public-project-story.md`](./public-project-story.md).  
+Exports analysed: [`stats/`](../../stats/) (snapshot dated 14 Oct 2026). **End of elections:** **20 Sep 2026, 18:00 Europe/Berlin**.
+
+Charts: regenerate with `python3 scripts/generate-report-charts.py` → [`charts/`](./charts/).
 
 ## Instrumentation timeline
 
@@ -17,11 +19,11 @@ PostHog’s first product events are **not** site launch — visits already exis
 
 | Window | Definition | What can be split |
 |--------|------------|-------------------|
-| **Pre-close** | Activity ≤ **2026-09-20 18:00** Europe/Berlin | PostHog events only (instrumented from ~15 Sep) |
-| **Post-close** | After poll close → end of exports (~13–14 Oct) | PostHog events (continued use was unexpected; team had assumed demand would stop at election end) |
+| **Before end of elections** | Activity ≤ **2026-09-20 18:00** Europe/Berlin | PostHog events only (instrumented from ~15 Sep) |
+| **After end of elections** | After poll close → end of exports (~13–14 Oct) | PostHog events (continued use was unexpected; team had assumed demand would stop at election end) |
 | **All-period** | Full Vercel / SEO export ranges | Vercel + Search Console / Bing aggregates (not 18:00-splitable in current CSVs) |
 
-Label PostHog Pre-close as **instrumented pre-close**, not “full campaign engagement.”
+Label the PostHog “before” window as **instrumented before end of elections**, not “full campaign engagement.”
 
 ---
 
@@ -37,26 +39,11 @@ Source: `stats/vercel/*` (14 Jul – 14 Oct 2026).
 | Top country | **DE** 3,624 visitors (US 139, NL 44, GB 42, …) |
 | Top browsers | Mobile Safari 1,373; Chrome 991; Chrome Mobile 785 |
 
-### Language (Vercel top home paths)
+### Language paths (Vercel, all-period)
 
-Visitors are per path (not mutually exclusive across languages):
+Visitors are per path (not mutually exclusive across languages). **Not** split by election end — use the PostHog language section below for before/after.
 
-```mermaid
----
-config:
-  xyChart:
-    width: 680
-    height: 340
-  themeVariables:
-    xyChart:
-      plotColorPalette: "#1f4e79"
----
-xychart-beta
-  title "Vercel visitors by language home path"
-  x-axis ["vi", "ku", "tr", "pl", "it", "uk", "es", "ar", "de", "ru", "en"]
-  y-axis "Visitors" 0 --> 1900
-  bar [16, 17, 32, 44, 50, 53, 82, 119, 958, 1575, 1766]
-```
+![Vercel visitors by language home path](./charts/languages-vercel-lifetime.svg)
 
 | Path | Visitors | Pageviews |
 |------|----------|-----------|
@@ -72,43 +59,45 @@ xychart-beta
 | `/ku` | 17 | 28 |
 | `/vi` | 16 | 27 |
 
-### Top referrers (Vercel)
+### Traffic sources (Vercel)
 
-```mermaid
----
-config:
-  xyChart:
-    width: 680
-    height: 320
-  themeVariables:
-    xyChart:
-      plotColorPalette: "#1f4e79"
----
-xychart-beta
-  title "Top referrers (Vercel visitors)"
-  x-axis ["20pct", "ChatGPT", "Telegram", "Ecosia", "Bing", "DDG", "Substack", "Google"]
-  y-axis "Visitors" 0 --> 400
-  bar [12, 23, 38, 79, 106, 120, 306, 361]
-```
+Merged app/web hosts (e.g. `com.google.android.gm` → Google; Telegram app + `web.telegram.org` → Telegram). **Direct** = `/[lang]` visitors minus attributed referrers.
 
-Telegram = app + web combined (19+19).
+![Traffic sources](./charts/referrers.svg)
 
-| Referrer | Visitors |
-|----------|----------|
-| google.com | 361 |
-| substack.com | 306 |
-| duckduckgo.com | 120 |
-| bing.com | 106 |
-| ecosia.org | 79 |
-| org.telegram.messenger / web.telegram.org | 19 + 19 |
-| chatgpt.com | 23 |
-| 20percent.berlin | 12 |
+| Source | Visitors | Share of `/[lang]` |
+|--------|----------|--------------------|
+| Direct | 3,027 | 71% |
+| Google | 394 | 9% |
+| Substack | 329 | 8% |
+| DuckDuckGo | 123 | 3% |
+| bing.com | 106 | 2% |
+| ecosia.org | 79 | 2% |
+| Telegram | 44 | 1% |
+| Other (incl. Facebook, ChatGPT, …) | 153 | 4% |
 
 ---
 
 ## Instrumented engagement (PostHog)
 
-Source: `stats/posthog/export-2026-10-14-082324.csv`. Cutoff: 20 Sep 2026 18:00 Europe/Berlin.
+Source: `stats/posthog/export-2026-10-14-082324.csv`. Cutoff: **end of elections** 20 Sep 2026 18:00 Europe/Berlin.
+
+### Weekly visits (Vercel)
+
+Source: [`stats/vercel/visits-by-week.json`](../../stats/vercel/visits-by-week.json) (Web Analytics API, `by=week`). Weeks with zero traffic before September omitted from the chart.
+
+![Weekly visits (Vercel)](./charts/weekly-visits.svg)
+
+| Week (Mon–Sun) | Visitors | Pageviews |
+|----------------|----------|-----------|
+| 7.9–13.9 | 959 | 1,558 |
+| 14.9–20.9 (contains end of elections) | **2,688** | **3,953** |
+| 21.9–27.9 | 466 | 594 |
+| 28.9–4.10 | 102 | 121 |
+| 5.10–11.10 | 87 | 95 |
+| 12.10–18.10 | 53 | 66 |
+
+Visitor counts are **per week** (not additive unique users across weeks). Peak week is **14.9–20.9**, spanning election day / end of voting.
 
 ### Time on site and time with topics (highlight)
 
@@ -128,48 +117,28 @@ These remain **proxies** (no dedicated dwell timer was shipped).
 
 #### Time on site (product-engaged sessions)
 
-Minutes (median vs trimmed mean 5%/5%). No raw mean.
-
-```mermaid
----
-config:
-  xyChart:
-    width: 560
-    height: 300
-  themeVariables:
-    xyChart:
-      plotColorPalette: "#1f4e79, #6b8f71"
----
-xychart-beta
-  title "Time on site (minutes)"
-  x-axis ["Pre-close", "Post-close"]
-  y-axis "Minutes" 0 --> 9
-  bar [4.3, 2.9]
-  bar [7.7, 5.3]
-```
-
-First series = median (4.3 / 2.9 min); second = trimmed mean 5%/5% (7.7 / 5.3 min).
+![Time on site before vs after end of elections](./charts/time-on-site.svg)
 
 | Window | n | **Median** | IQR (p25–p75) | **Trimmed mean 5%/5%** | Share > 2 min | Share > 5 min | Share > 15 min |
 |--------|---|------------|---------------|------------------------|---------------|---------------|----------------|
 | All instrumented | 1,168 | **3m 58s** | 1m 17s – 10m 56s | **7m 10s** | **67%** | 44% | 20% |
-| Pre-close | 935 | **4m 18s** | 1m 22s – 12m 28s | **7m 41s** | **69%** | 46% | 22% |
-| Post-close | 233 | **2m 56s** | 1m 05s – 7m 19s | **5m 17s** | **59%** | 37% | 13% |
+| Before end of elections | 935 | **4m 18s** | 1m 22s – 12m 28s | **7m 41s** | **69%** | 46% | 22% |
+| After end of elections | 233 | **2m 56s** | 1m 05s – 7m 19s | **5m 17s** | **59%** | 37% | 13% |
 
 #### Time reading a topic (topic→next topic, excl. last-in-session)
 
 | Window | n | **Median** | IQR | **Trimmed mean 5%/5%** |
 |--------|---|------------|-----|------------------------|
 | All instrumented | 6,699 | **0m 28s** | 0m 13s – 0m 56s | **0m 37s** |
-| Pre-close | 5,186 | **0m 32s** | 0m 16s – 1m 02s | **0m 41s** |
-| Post-close | 1,513 | **0m 17s** | 0m 09s – 0m 34s | **0m 24s** |
+| Before end of elections | 5,186 | **0m 32s** | 0m 16s – 1m 02s | **0m 41s** |
+| After end of elections | 1,513 | **0m 17s** | 0m 09s – 0m 34s | **0m 24s** |
 
-Headline takeaway: among people who used the comparison, a **typical** pre-close visit lasted about **4 minutes** (median), with a robust average around **7–8 minutes** (trimmed mean); **~70%** stayed over **2 minutes**, and a typical topic dwell was about **half a minute**.
+Headline takeaway: among people who used the comparison, a **typical** visit before end of elections lasted about **4 minutes** (median), with a robust average around **7–8 minutes** (trimmed mean); **~70%** stayed over **2 minutes**, and a typical topic dwell was about **half a minute**.
 
 ### Event counts
 
-| Event | Pre-close | Post-close | All instrumented |
-|-------|-----------|------------|------------------|
+| Event | Before end of elections | After end of elections | All instrumented |
+|-------|-------------------------|------------------------|------------------|
 | `$pageview` | 1,985 | 739 | 2,724 |
 | `topic_open` | 5,898 | 1,680 | 7,578 |
 | `party_toggle` | 2,304 | 631 | 2,935 |
@@ -178,31 +147,14 @@ Headline takeaway: among people who used the comparison, a **typical** pre-close
 | Distinct `$device_id` (any product-related events) | 1,829 | 814 | — |
 | Distinct `$device_id` with `$pageview` | 1,628 | 657 | — |
 
-Approx. **topic opens per pageview**: Pre-close **~3.0**; Post-close **~2.3**.  
-**Program / citation link-outs**: Pre-close **164** (100 citation, 33 program_header, 31 program); Post-close **38**.
+Approx. **topic opens per pageview**: before **~3.0**; after **~2.3**.  
+**Program / citation link-outs**: before **164** (100 citation, 33 program_header, 31 program); after **38**.
 
-### Daily unique visitors (PostHog web analytics chart)
+### Daily unique visitors
 
-Source: `stats/posthog/web-analytics-GRAPHS.csv` (calendar days; Sep 20 is a full calendar day, not split at 18:00).
+Source: `stats/posthog/web-analytics-GRAPHS.csv` (calendar days; 20 Sep is a full calendar day, not split at 18:00).
 
-```mermaid
----
-config:
-  xyChart:
-    width: 720
-    height: 320
-  themeVariables:
-    xyChart:
-      plotColorPalette: "#1f4e79"
----
-xychart-beta
-  title "Daily unique visitors (PostHog)"
-  x-axis ["15", "16", "17", "18", "19", "20*", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13"]
-  y-axis "Uniques" 0 --> 650
-  line [10, 174, 612, 203, 277, 486, 193, 66, 46, 31, 14, 21, 11, 17, 12, 12, 3, 11, 5, 11, 14, 4, 9, 20, 3, 2, 3, 5, 6]
-```
-
-`20*` = election day (20 Sep). Publications concentrated 10–17 Sep (peak uniques on **17 Sep**). Axis labels: Sep 15–30 then Oct 1–13.
+![Daily unique visitors](./charts/daily-uniques.svg)
 
 | Period | Unique visitors (sum of daily uniques; not distinct across days) |
 |--------|------------------------------------------------------------------|
@@ -213,47 +165,38 @@ xychart-beta
 
 Peak instrumented days: **17 Sep (612)**, **20 Sep (486)**, **19 Sep (277)**.
 
-### Pageview language (`ui_language`)
+### Visitors by language — before vs after end of elections
 
-| Lang | Pre-close | Post-close |
-|------|-----------|------------|
-| ru | 813 | 219 |
-| en | 649 | 213 |
-| de | 391 | 251 |
-| es | 45 | 12 |
-| it | 34 | 14 |
-| ar | 20 | 6 |
-| uk | 17 | 3 |
-| tr | 11 | 6 |
+PostHog distinct `$device_id` on `$pageview` by `ui_language` (split at 20 Sep 18:00). Vercel paths above remain lifetime only.
+
+![Visitors by language before vs after end of elections](./charts/languages-before-after.svg)
+
+Chart shows the **top 5** languages plus other; full counts below.
+
+| Lang | Before end of elections | After end of elections |
+|------|-------------------------|------------------------|
+| ru | 709 | 191 |
+| en | 534 | 187 |
+| de | 322 | 235 |
+| es | 36 | 11 |
+| it | 24 | 11 |
+| ar | 19 | 6 |
+| uk | 15 | 3 |
+| tr | 10 | 6 |
 | pl | 2 | 9 |
-| vi | 3 | 4 |
+| vi | 2 | 3 |
 | ku | — | 2 |
 
-Pre-close mix is dominated by **ru / en / de**; post-close **de** rises relative to en/ru.
+Before end of elections: **ru / en / de** dominate. After end of elections: **de** rises relative to en/ru.
 
 ### Topic groups (`topic_open`)
 
-Pre-close opens by group:
+![Topics by group before vs after end of elections](./charts/topic-groups.svg)
 
-```mermaid
----
-config:
-  xyChart:
-    width: 680
-    height: 360
-  themeVariables:
-    xyChart:
-      plotColorPalette: "#1f4e79"
----
-xychart-beta
-  title "Topic opens by group (pre-close)"
-  x-axis ["animals", "health", "waste", "society", "economy", "security", "democracy", "education", "migration", "climate", "housing", "transport"]
-  y-axis "Opens" 0 --> 1400
-  bar [117, 266, 274, 291, 316, 357, 390, 433, 511, 679, 951, 1313]
-```
+Chart shows the **top 5** groups; full counts below.
 
-| Group | Pre-close | Post-close |
-|-------|-----------|------------|
+| Group | Before end of elections | After end of elections |
+|-------|-------------------------|------------------------|
 | transport | 1,313 | 293 |
 | housing | 951 | 326 |
 | climate_energy | 679 | 164 |
@@ -267,7 +210,7 @@ xychart-beta
 | health | 266 | 65 |
 | animals | 117 | 32 |
 
-### Top topics (pre-close)
+### Top topics (before end of elections)
 
 1. a100-construction (465)  
 2. migration-admission-and-deportations (250)  
@@ -277,22 +220,22 @@ xychart-beta
 6. housing-rent-regulation-mietendeckel (197)  
 7. tempelhofer-feld-development-edge-development (170)  
 
-Post-close top topics stay similar (A100, migration, rent, U-Bahn, Tempelhofer Feld) with housing topics slightly more prominent.
+After end of elections, top topics stay similar (A100, migration, rent, U-Bahn, Tempelhofer Feld) with housing slightly more prominent.
 
-### Party toggles (pre-close top)
+### Party toggles (before end of elections, top)
 
 afd 319, fdp 317, cdu 281, volt 261, linke 249, spd 233, gruene 210, bsw 204, tierschutz 123, oedp 107  
 
-(Post-close: linke/cdu/afd/gruene/spd lead; smaller parties drop more.)
+(After end of elections: linke/cdu/afd/gruene/spd lead; smaller parties drop more.)
 
 ### Presets
 
-Pre-close: `all` 119, `current_factions` 64. Post-close: `all` 23, `current_factions` 14.
+Before end of elections: `all` 119, `current_factions` 64. After end of elections: `all` 23, `current_factions` 14.
 
 ### Device (PostHog `$pageview`)
 
-Pre-close: Mobile 1,347 / Desktop 629 / Tablet 9.  
-Post-close: Mobile 439 / Desktop 298 / Tablet 2.
+Before end of elections: Mobile 1,347 / Desktop 629 / Tablet 9.  
+After end of elections: Mobile 439 / Desktop 298 / Tablet 2.
 
 ---
 
@@ -328,7 +271,7 @@ Google AI performance overview (`AIPerformanceOverviewStats`): citations reporte
 
 ## Publications / outreach
 
-Canonical list: [`data/mentions.json`](../../data/mentions.json) + locale `mentionSummaries`. All dated **before poll close**.
+Canonical list: [`data/mentions.json`](../../data/mentions.json) + locale `mentionSummaries`. All dated **before end of elections**.
 
 | Date | Source | Kind | URL |
 |------|--------|------|-----|
@@ -364,7 +307,7 @@ Aligns with Vercel referrers (substack.com #2; Telegram app/web present; 20perce
 ## Gaps / caveats
 
 - No feedback / text-report volume in exports.  
-- Vercel and SEO CSVs are **not** split at 18:00.  
+- Vercel and SEO CSVs are **not** split at end of elections (18:00).  
 - PostHog daily uniques are **calendar days**; election-day 486 includes both before and after 18:00.  
 - Cookieless mode and blocked analytics understate true use; topic-level events cover ~15 Sep onward (added when capacity allowed).  
 - Distinct `$device_id` is a privacy-preserving proxy, not a person count.
