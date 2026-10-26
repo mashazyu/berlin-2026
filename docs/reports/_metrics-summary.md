@@ -43,8 +43,6 @@ Source: `stats/vercel/*` (14 Jul – 14 Oct 2026).
 
 Visitors are per path (not mutually exclusive across languages). **Not** split by election end — use the PostHog language section below for before/after.
 
-![Vercel visitors by language home path](./charts/languages-vercel-lifetime.svg)
-
 | Path | Visitors | Pageviews |
 |------|----------|-----------|
 | `/en` | 1,766 | 2,256 |
@@ -62,8 +60,6 @@ Visitors are per path (not mutually exclusive across languages). **Not** split b
 ### Traffic sources (Vercel)
 
 Merged app/web hosts (e.g. `com.google.android.gm` → Google; Telegram app + `web.telegram.org` → Telegram). **Direct** = `/[lang]` visitors minus attributed referrers.
-
-![Traffic sources](./charts/referrers.svg)
 
 | Source | Visitors | Share of `/[lang]` |
 |--------|----------|--------------------|
@@ -84,9 +80,7 @@ Source: `stats/posthog/export-2026-10-14-082324.csv`. Cutoff: **end of elections
 
 ### Weekly visits (Vercel)
 
-Source: [`stats/vercel/visits-by-week.json`](../../stats/vercel/visits-by-week.json) (Web Analytics API, `by=week`). Weeks with zero traffic before September omitted from the chart.
-
-![Weekly visits (Vercel)](./charts/weekly-visits.svg)
+Source: local `stats/vercel/visits-by-week.json` (Web Analytics API, `by=week`). Weeks with zero traffic before September omitted.
 
 | Week (Mon–Sun) | Visitors | Pageviews |
 |----------------|----------|-----------|

@@ -4,10 +4,9 @@
 from __future__ import annotations
 
 import csv
-import json
 import statistics
 from collections import Counter, defaultdict
-from datetime import datetime, timedelta
+from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -194,50 +193,6 @@ def chart_before_after_bars(
     save(fig, outfile)
 
 
-def chart_weekly_visits_vercel():
-    path = ROOT / "stats/vercel/visits-by-week.json"
-    payload = json.loads(path.read_text(encoding="utf-8"))
-    rows = []
-    for row in payload.get("data", []):
-        ts = datetime.fromisoformat(row["timestamp"].replace("Z", "+00:00")).astimezone(BERLIN)
-        monday = ts.date()
-        visitors = int(row.get("visitors") or 0)
-        pageviews = int(row.get("pageviews") or 0)
-        if visitors == 0 and pageviews == 0 and not rows:
-            continue
-        rows.append((monday, visitors, pageviews))
-
-    labels = []
-    visitors = []
-    pageviews = []
-    colors_v = []
-    for monday, v, p in rows:
-        sunday = monday + timedelta(days=6)
-        labels.append(f"{fmt_day_month(monday)}–{fmt_day_month(sunday)}")
-        visitors.append(v)
-        pageviews.append(p)
-        colors_v.append(ACCENT2 if monday > CUTOFF.date() else ACCENT)
-
-    fig, ax = plt.subplots(figsize=(9.0, 4.0))
-    style_ax(ax)
-    x = range(len(labels))
-    w = 0.38
-    ax.bar([i - w / 2 for i in x], visitors, width=w, color=colors_v, label="Visitors")
-    ax.bar([i + w / 2 for i in x], pageviews, width=w, color=ACCENT2, label="Pageviews")
-    ax.set_xticks(list(x))
-    ax.set_xticklabels(labels, rotation=25, ha="right")
-    ax.set_ylabel("Count", color=MUTED)
-    set_title(ax, "Weekly visits")
-    ax.legend(frameon=False, fontsize=8, loc="upper right")
-    ymax = max(max(visitors), max(pageviews), 1)
-    for i, (v, p) in enumerate(zip(visitors, pageviews)):
-        if v:
-            ax.text(i - w / 2, v + ymax * 0.015, f"{v:,}", ha="center", va="bottom", fontsize=7, color=MUTED)
-        if p:
-            ax.text(i + w / 2, p + ymax * 0.015, f"{p:,}", ha="center", va="bottom", fontsize=7, color=MUTED)
-    save(fig, "weekly-visits.svg")
-
-
 def chart_daily_uniques():
     path = ROOT / "stats/posthog/web-analytics-GRAPHS.csv"
     dates, uniques = [], []
@@ -364,145 +319,6 @@ def chart_topic_groups(groups: dict[str, Counter]):
     )
 
 
-def _normalize_referrer(host: str) -> str:
-    h = host.lower().strip()
-    if (
-        h
-        in {
-            "google.com",
-            "google.de",
-            "com.google.android.gm",
-            "com.google.android.googlequicksearchbox",
-            "mail.google.com",
-        }
-        or h.endswith(".google.com")
-    ):
-        return "Google"
-    if (
-        h
-        in {
-            "org.telegram.messenger",
-            "web.telegram.org",
-            "org.telegram.messenger.web",
-            "t.me",
-        }
-        or "telegram" in h
-    ):
-        return "Telegram"
-    if "substack" in h or h == "link.sbstck.com":
-        return "Substack"
-    if "facebook" in h or h in {"l.facebook.com", "lm.facebook.com", "m.facebook.com"}:
-        return "Facebook"
-    if "duckduckgo" in h:
-        return "DuckDuckGo"
-    if "yahoo" in h:
-        return "Yahoo"
-    return host
-
-
-def chart_referrers():
-    refs = list((ROOT / "stats/vercel").glob("Top Referrers*.csv"))[0]
-    routes = list((ROOT / "stats/vercel").glob("Top Routes*.csv"))[0]
-    merged: Counter = Counter()
-    with refs.open(newline="", encoding="utf-8") as f:
-        for row in csv.DictReader(f):
-            merged[_normalize_referrer(row["Page"])] += int(row["Visitors"])
-
-    total_visitors = 0
-    with routes.open(newline="", encoding="utf-8") as f:
-        for row in csv.DictReader(f):
-            if row["Page"] == "/[lang]":
-                total_visitors = int(row["Visitors"])
-                break
-    attributed = sum(merged.values())
-    merged["Direct"] = max(0, total_visitors - attributed)
-
-    top_n = 7
-    ranked = merged.most_common()
-    primary = [("Direct", merged["Direct"])]
-    others_sum = 0
-    for name, n in ranked:
-        if name == "Direct":
-            continue
-        if len(primary) < top_n:
-            primary.append((name, n))
-        else:
-            others_sum += n
-    if others_sum:
-        primary.append(("Other", others_sum))
-
-    sizes = [n for _, n in primary]
-    total = sum(sizes) or 1
-    colors = []
-    for i, (name, _) in enumerate(primary):
-        if name == "Direct":
-            colors.append(ACCENT2)
-        elif name in {"Google", "Substack", "Telegram"}:
-            colors.append(ACCENT)
-        else:
-            colors.append(ACCENT2 if i % 2 else ACCENT)
-
-    fig, ax = plt.subplots(figsize=(7.2, 4.8))
-    ax.set_facecolor("white")
-    for spine in ax.spines.values():
-        spine.set_visible(False)
-
-    def autopct(pct: float) -> str:
-        return f"{pct:.0f}%" if pct >= 3 else ""
-
-    wedges, _texts, autotexts = ax.pie(
-        sizes,
-        colors=colors,
-        startangle=90,
-        counterclock=False,
-        autopct=autopct,
-        pctdistance=0.72,
-        wedgeprops={"linewidth": 1.5, "edgecolor": "white"},
-    )
-    for t in autotexts:
-        t.set_color(INK)
-        t.set_fontsize(8)
-        t.set_fontfamily(FONT_SANS)
-
-    legend_labels = [f"{n}  {v:,}  ({100 * v / total:.0f}%)" for n, v in primary]
-    ax.legend(
-        wedges,
-        legend_labels,
-        loc="center left",
-        bbox_to_anchor=(1.02, 0.5),
-        frameon=False,
-        fontsize=8,
-        prop={"family": FONT_SANS},
-    )
-    set_title(ax, "Traffic sources")
-    ax.set_aspect("equal")
-    save(fig, "referrers.svg")
-
-
-def chart_vercel_languages_lifetime():
-    pages = list((ROOT / "stats/vercel").glob("Top Pages*.csv"))[0]
-    rows = []
-    with pages.open(newline="", encoding="utf-8") as f:
-        for row in csv.DictReader(f):
-            p = row["Page"]
-            if p.count("/") == 1:
-                rows.append((p, int(row["Visitors"])))
-    rows.sort(key=lambda r: r[1])
-
-    fig, ax = plt.subplots(figsize=(6.5, 4.2))
-    style_ax(ax)
-    ys = range(len(rows))
-    ax.barh(list(ys), [v for _, v in rows], color=ACCENT, height=0.7)
-    ax.set_yticks(list(ys))
-    ax.set_yticklabels([p for p, _ in rows])
-    ax.set_xlabel("Visitors", color=MUTED)
-    set_title(ax, "Visitors by language path")
-    for i, (_, v) in enumerate(rows):
-        ax.text(v + 20, i, str(v), va="center", fontsize=8, color=MUTED)
-    ax.set_xlim(0, max(v for _, v in rows) * 1.18)
-    save(fig, "languages-vercel-lifetime.svg")
-
-
 def main():
     stats = ROOT / "stats"
     if not stats.is_dir():
@@ -511,13 +327,10 @@ def main():
             "(stats/ is gitignored — see docs/reports/README.md)."
         )
     pre, post, groups, lang_visitors = load_posthog()
-    chart_weekly_visits_vercel()
     chart_daily_uniques()
     chart_time_on_site(pre, post)
     chart_languages(lang_visitors)
-    chart_vercel_languages_lifetime()
     chart_topic_groups(groups)
-    chart_referrers()
     print("done")
 
 
