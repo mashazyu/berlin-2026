@@ -2,7 +2,7 @@
 
 <div class="locale-de">
 
-<p class="brand-line"><span class="brand-name"><span class="accent">Wahlkompass</span><span class="sep">·</span>Berlin 2026</span><span class="doc-date">15.10.2026</span></p>
+<p class="brand-line"><span class="brand-name"><span class="accent">Wahl Kompass</span><span class="sep">·</span>Berlin 2026</span><span class="doc-date">15.10.2026</span></p>
 
 # Damit Berliner:innen fundierter wählen können
 
@@ -17,7 +17,7 @@ Offizielle Wahlprogramme erscheinen **nur auf Deutsch** und sind oft rund **200 
 
 Es gibt schon Hilfen wie den Wahl-O-Mat. Wir wollten etwas anderes: **Positionen nebeneinander**, nach Thema, mit dem Weg zurück zu den Originalprogrammen — in Sprachen, die in Berlin gesprochen werden.
 
-**Wahlkompass - Berlin 2026** ist kein Wahl-O-Mat und kein Wahlkampfmaterial. Es ist ein unabhängiges Informationsprojekt: **10 Parteien × 65 Themen × 11 Sprachen**. Zusammenfassungen entstanden mit KI-Hilfe; die redaktionelle Verantwortung liegt beim Projekt ([KI-Hinweis](https://www.berlin-2026.de/de/ai-disclosure)).
+**Wahl Kompass** ist kein Wahl-O-Mat und kein Wahlkampfmaterial. Es ist ein unabhängiges Informationsprojekt: **10 Parteien × 65 Themen × 11 Sprachen**. Zusammenfassungen entstanden mit KI-Hilfe; die redaktionelle Verantwortung liegt beim Projekt ([KI-Hinweis](https://www.berlin-2026.de/de/ai-disclosure)).
 
 ## Was wir angeboten haben
 
@@ -30,8 +30,8 @@ Eine kostenlose Vergleichstabelle, in der man:
 
 </div>
 <figure class="product-shot">
-  <img src="./images/comparison-table.png" alt="Wahlkompass - Berlin 2026 auf dem Handy" />
-  <figcaption>berlin-2026.de — Parteien wählen, Themen suchen, Positionen vergleichen.</figcaption>
+  <img src="./images/comparison-table.png" alt="Wahl Kompass auf dem Handy" />
+  <figcaption>berlin-2026.de (bald wahl.kompass.berlin) — Parteien wählen, Themen suchen, Positionen vergleichen.</figcaption>
 </figure>
 </div>
 
@@ -106,7 +106,7 @@ Neun Community-Publikationen haben das Projekt in den zehn Tagen vor der Wahl ge
 - <img class="channel-icon" src="./images/icon-substack.svg" alt="" /> [The Berlin Life](https://theberlinlife.substack.com/p/berlin-election-2026-who-can-vote) (Substack)
 - <img class="channel-icon" src="./images/icon-telegram.svg" alt="" /> [Goose Expat](https://t.me/goose_expat/2098) (Telegram)
 
-Wir haben außerdem NGOs und Organisationen angesprochen, die in den von uns abgedeckten Sprachen mit lokalen Communities arbeiten. Ob das Besuche gebracht hat, können wir nicht sagen — diese Kontakte waren nicht so gemessen, dass wir Traffic zuordnen könnten.
+Englisch- und russischsprachige Communities haben wir besonders über lokale Newsletter, Influencer:innen und Micro-Media erreicht. Dazu kamen **E-Mail-Outreach**, das Teilen des Projekts in unseren eigenen Netzwerken sowie Kontakte zu NGOs und Migrantenorganisationen in den von uns abgedeckten Sprachen. Ob dieser direkte Outreach Besuche gebracht hat, können wir nicht sagen — diese Kontakte waren nicht so gemessen, dass wir Traffic zuordnen könnten.
 
 <!-- Keep Werbebudget with this pair on the charts page -->
 Wir hatten **kein Werbebudget**. Wachstum kam über Weiterempfehlungen und Suche — vor allem Direktbesuche, Google sowie Substack/Telegram.
@@ -132,7 +132,7 @@ Wir sind stolz auf das, was mit fast keinem Geld entstanden ist. Gleichzeitig ke
 Fragen zum Projekt, Korrekturen, Partnerschaften oder Übersetzungen? Schreiben Sie uns gern.
 
 **E-Mail:** [feedback@berlin-2026.de](mailto:feedback@berlin-2026.de)  
-**Website:** [www.berlin-2026.de](https://www.berlin-2026.de)  
+**Website:** [www.berlin-2026.de](https://www.berlin-2026.de) (Rebranding zu [wahl.kompass.berlin](https://wahl.kompass.berlin))  
 **Über uns & KI-Hinweis:** [Über uns](https://www.berlin-2026.de/de/about) · [KI-Hinweis](https://www.berlin-2026.de/de/ai-disclosure)
 
 Schwesterprojekt: [Wasser für alle](https://www.water4all.com.de/de) — offener Atlas freier Trinkwasserstellen in Berlin.

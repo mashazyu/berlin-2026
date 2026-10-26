@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="./public-project-story.css" />
 
-<p class="brand-line"><span class="brand-name"><span class="accent">Wahlkompass</span><span class="sep">·</span>Berlin 2026</span><span class="doc-date">15.10.2026</span></p>
+<p class="brand-line"><span class="brand-name"><span class="accent">Wahl Kompass</span><span class="sep">·</span>Berlin 2026</span><span class="doc-date">15.10.2026</span></p>
 
 # Helping Berliners make a more informed choice
 
@@ -15,7 +15,7 @@ Official party programs are published **only in German**, often ~**200 pages** �
 
 Existing tools help with preference quizzes. We wanted something different: **positions side by side**, by topic, with a path back to the original programs — in languages people in Berlin actually use.
 
-**Wahlkompass - Berlin 2026** is not a Wahl-O-Mat. It is not campaign material. It is an independent information project: **10 parties × 65 topics × 11 languages**. Summaries were drafted with AI help; people on the project stay editorially responsible ([AI disclosure](https://www.berlin-2026.de/en/ai-disclosure)).
+**Wahl Kompass** is not a Wahl-O-Mat. It is not campaign material. It is an independent information project: **10 parties × 65 topics × 11 languages**. Summaries were drafted with AI help; people on the project stay editorially responsible ([AI disclosure](https://www.berlin-2026.de/en/ai-disclosure)).
 
 ## What we offered
 
@@ -28,8 +28,8 @@ A free comparison table where you can:
 
 </div>
 <figure class="product-shot">
-  <img src="./images/comparison-table-en.png" alt="Wahlkompass - Berlin 2026 comparison on mobile" />
-  <figcaption>The comparison on berlin-2026.de — pick parties, search topics, read positions side by side.</figcaption>
+  <img src="./images/comparison-table-en.png" alt="Wahl Kompass comparison on mobile" />
+  <figcaption>The comparison on berlin-2026.de (soon wahl.kompass.berlin) — pick parties, search topics, read positions side by side.</figcaption>
 </figure>
 </div>
 
@@ -104,7 +104,7 @@ Nine community publications shared the project in the ten days before the electi
 - <img class="channel-icon" src="./images/icon-substack.svg" alt="" /> [The Berlin Life](https://theberlinlife.substack.com/p/berlin-election-2026-who-can-vote) (Substack)
 - <img class="channel-icon" src="./images/icon-telegram.svg" alt="" /> [Goose Expat](https://t.me/goose_expat/2098) (Telegram)
 
-We also reached out to NGOs and organisations that work with local communities in the languages we covered. We cannot tell whether that outreach brought visits — those contacts were not measured in a way that lets us attribute traffic.
+English- and Russian-speaking communities were reached especially through local newsletters, influencers, and micro-media. We also did **email outreach**, shared the project in our own networks, and contacted NGOs and *Migrantenorganisationen* working in the languages we covered. We cannot tell how much of that direct outreach brought visits — those contacts were not measured in a way that lets us attribute traffic.
 
 </div>
 </div>
@@ -129,7 +129,7 @@ We are proud of what shipped on almost no money. We are also clear about the lim
 Questions about the project, corrections, partnerships, or translations? We would love to hear from you.
 
 **Email:** [feedback@berlin-2026.de](mailto:feedback@berlin-2026.de)  
-**Site:** [www.berlin-2026.de](https://www.berlin-2026.de)  
+**Site:** [www.berlin-2026.de](https://www.berlin-2026.de) (rebranding to [wahl.kompass.berlin](https://wahl.kompass.berlin))  
 **About & AI disclosure:** [About](https://www.berlin-2026.de/en/about) · [AI disclosure](https://www.berlin-2026.de/en/ai-disclosure)
 
 Sister civic work: [Water for All](https://www.water4all.com.de) — an open atlas of free drinking water in Berlin.
