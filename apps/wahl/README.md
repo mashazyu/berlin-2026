@@ -11,6 +11,8 @@ pnpm --filter @kompass/wahl build
 
 Copy env from the live berlin Vercel project into the wahl project (Turnstile, Resend, PostHog, etc.).
 
+Metrics / public story PDFs: [`docs/reports/`](docs/reports/) (regen: see that README).
+
 Vercel: Root Directory `apps/wahl`, Ignored Build Step:
 
 ```bash

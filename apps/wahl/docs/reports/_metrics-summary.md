@@ -3,7 +3,7 @@
 Shared numbers for [`portfolio-case-study.md`](./portfolio-case-study.md) and the public story [`public-project-story.md`](./public-project-story.md).  
 Exports analysed: local `stats/` snapshot (14 Oct 2026; not committed — see [README](./README.md)). **End of elections:** **20 Sep 2026, 18:00 Europe/Berlin**.
 
-Charts: regenerate with `python3 scripts/generate-report-charts.py` → [`charts/`](./charts/).
+Charts: from `apps/wahl`, run `python3 scripts/generate-report-charts.py` → [`charts/`](./charts/).
 
 ## Instrumentation timeline
 

@@ -60,4 +60,4 @@ yarn-error.log*
 next-env.d.ts
 
 # Local analytics exports (regenerate charts from a local copy)
-stats/
+apps/wahl/stats/

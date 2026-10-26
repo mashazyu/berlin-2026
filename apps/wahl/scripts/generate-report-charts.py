@@ -323,8 +323,8 @@ def main():
     stats = ROOT / "stats"
     if not stats.is_dir():
         raise SystemExit(
-            "Missing local stats/ directory. Export analytics there, then re-run "
-            "(stats/ is gitignored — see docs/reports/README.md)."
+            "Missing local apps/wahl/stats/ directory. Export analytics there, then re-run "
+            "(gitignored — see docs/reports/README.md)."
         )
     pre, post, groups, lang_visitors = load_posthog()
     chart_daily_uniques()
