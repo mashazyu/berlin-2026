@@ -140,7 +140,7 @@ jobs:
       - name: Build
         run: pnpm build
       - name: Cypress
-        uses: cypress-io/github-action@v6
+        uses: cypress-io/github-action@v7
         with:
           # deps + binary already installed (pnpm); action only starts server + runs tests
           install: false
