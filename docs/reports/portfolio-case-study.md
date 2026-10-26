@@ -3,13 +3,13 @@
 **Berlin 2026** is an independent, multilingual party-program comparison for the Berlin state election (Abgeordnetenhaus) on **20 September 2026**.  
 Live: [www.berlin-2026.de](https://www.berlin-2026.de)
 
-Numbers cited here are locked in [`_metrics-summary.md`](./_metrics-summary.md). Companion evaluation write-up: [`civic-tech-evaluation.md`](./civic-tech-evaluation.md). Non-technical public story: [`public-project-story.md`](./public-project-story.md) ([PDF](./public-project-story.pdf)).
+Numbers cited here are locked in [`_metrics-summary.md`](./_metrics-summary.md). Non-technical public story: [`public-project-story.md`](./public-project-story.md) ([PDF](./public-project-story.pdf)).
 
 ---
 
 ## 1. One-liner and role
 
-> Side-by-side positions from official programs — **10 parties × 66 topics × 11 languages** — so Berliners (including internationals) can compare substance before voting. Not a Wahl-O-Mat. Not campaign material.
+> Side-by-side positions from official programs — **10 parties × 65 topics × 11 languages** — so Berliners (including internationals) can compare substance before voting. Not a Wahl-O-Mat. Not campaign material.
 
 | Role | Person |
 |------|--------|

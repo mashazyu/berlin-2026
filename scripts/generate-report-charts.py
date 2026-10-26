@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate SVG charts for docs/reports/_metrics-summary.md from stats/ exports."""
+"""Generate SVG charts for docs/reports from a local stats/ tree (not committed)."""
 
 from __future__ import annotations
 
@@ -26,23 +26,16 @@ CUTOFF = datetime(2026, 9, 20, 18, 0, 0, tzinfo=BERLIN)
 PRODUCT = {"topic_open", "party_toggle", "party_preset", "program_link"}
 SESSION_SANITY_MAX = 4 * 3600
 
-# Chart palette: light orange + light grey (soft brand terracotta / cool gray)
 INK = "#171f26"
 MUTED = "#5a6672"
 GRID = "#dde0e4"
-LIGHT_ORANGE = "#e8916a"  # soft terracotta
-LIGHT_GREY = "#c5cbd1"  # soft cool gray
-ACCENT = LIGHT_ORANGE  # primary series
-ACCENT2 = LIGHT_GREY  # secondary / after / pageviews
-LINE = LIGHT_ORANGE
-PUB = LIGHT_ORANGE
+ACCENT = "#e8916a"  # soft terracotta
+ACCENT2 = "#c5cbd1"  # soft cool gray
 
-# Site body font = DM Sans (app globals / next/font). Used for all chart text.
-for _name in ("DMSans-Regular.ttf", "DMSans-Medium.ttf", "DMSans-SemiBold.ttf"):
+for _name in ("DMSans-Regular.ttf", "DMSans-SemiBold.ttf"):
     font_manager.fontManager.addfont(str(FONTS / _name))
 FONT_SANS = "DM Sans"
 FONT_TITLE = font_manager.FontProperties(fname=str(FONTS / "DMSans-SemiBold.ttf"), size=12)
-FONT_FOOTER = font_manager.FontProperties(fname=str(FONTS / "DMSans-Regular.ttf"), size=8)
 plt.rcParams.update(
     {
         "font.family": FONT_SANS,
@@ -53,9 +46,7 @@ plt.rcParams.update(
         "legend.fontsize": 8,
     }
 )
-# Match title↔plot gap to plot↔footer caption gap
 TITLE_PAD = 28
-FOOTER_Y = -0.28
 
 
 def style_ax(ax):
@@ -70,19 +61,14 @@ def style_ax(ax):
     ax.set_axisbelow(True)
 
 
-def set_title(ax, text: str):
-    if not text:
+def set_title(ax, text: str = ""):
+    if text:
+        ax.set_title(text, color=INK, pad=TITLE_PAD, fontproperties=FONT_TITLE)
+    else:
         ax.set_title("")
-        return
-    ax.set_title(text, color=INK, pad=TITLE_PAD, fontproperties=FONT_TITLE)
-
-
-def footer(ax, text: str, y: float = FOOTER_Y):
-    ax.text(0.0, y, text, transform=ax.transAxes, color=MUTED, fontproperties=FONT_FOOTER)
 
 
 def fmt_day_month(d) -> str:
-    """Numeric day.month (e.g. 20.9)."""
     return f"{d.day}.{d.month}"
 
 
@@ -110,12 +96,10 @@ def trimmed_mean_5_5(xs: list[float]) -> float:
 def load_posthog():
     path = ROOT / "stats/posthog/export-2026-10-14-082324.csv"
     session_events: dict[str, list[tuple[datetime, str]]] = defaultdict(list)
-    lang_pv = {"before": Counter(), "after": Counter()}
     lang_devices: dict[str, dict[str, set[str]]] = {
         "before": defaultdict(set),
         "after": defaultdict(set),
     }
-    weekly = Counter()
     groups = {"before": Counter(), "after": Counter()}
 
     with path.open(newline="", encoding="utf-8") as f:
@@ -131,11 +115,8 @@ def load_posthog():
 
             if ev == "$pageview":
                 ui = row.get("*.properties.ui_language") or "?"
-                lang_pv[window][ui] += 1
                 if did:
                     lang_devices[window][ui].add(did)
-                monday = ts.date() - timedelta(days=ts.weekday())
-                weekly[monday] += 1
             if ev == "topic_open":
                 groups[window][row.get("*.properties.group") or "unknown"] += 1
 
@@ -160,11 +141,60 @@ def load_posthog():
 
     pre = session_durs(lambda t: t <= CUTOFF)
     post = session_durs(lambda t: t > CUTOFF)
-    return pre, post, groups, lang_visitors, lang_pv, weekly
+    return pre, post, groups, lang_visitors
+
+
+def chart_before_after_bars(
+    labels: list[str],
+    before: list[int],
+    after: list[int],
+    outfile: str,
+    *,
+    figsize: tuple[float, float] = (8.2, 3.8),
+    value_fontsize: int = 8,
+):
+    fig, ax = plt.subplots(figsize=figsize)
+    style_ax(ax)
+    y = range(len(labels))
+    h = 0.38
+    bars_b = ax.barh(
+        [i + h / 2 for i in y], before, height=h, color=ACCENT, label="Before election day"
+    )
+    bars_a = ax.barh(
+        [i - h / 2 for i in y], after, height=h, color=ACCENT2, label="After election day"
+    )
+    ax.set_yticks(list(y))
+    ax.set_yticklabels(labels)
+    ax.invert_yaxis()
+    ax.set_xlabel("")
+    set_title(ax)
+    ax.legend(frameon=False, fontsize=8, loc="lower right")
+    xmax = max(max(before, default=0), max(after, default=0), 1)
+    ax.set_xlim(0, xmax * 1.18)
+    for bar, val in zip(bars_b, before):
+        if val:
+            ax.text(
+                val + xmax * 0.012,
+                bar.get_y() + bar.get_height() / 2,
+                f"{val:,}",
+                va="center",
+                fontsize=value_fontsize,
+                color=MUTED,
+            )
+    for bar, val in zip(bars_a, after):
+        if val:
+            ax.text(
+                val + xmax * 0.012,
+                bar.get_y() + bar.get_height() / 2,
+                f"{val:,}",
+                va="center",
+                fontsize=value_fontsize,
+                color=MUTED,
+            )
+    save(fig, outfile)
 
 
 def chart_weekly_visits_vercel():
-    """Weekly visitors + pageviews from Vercel Web Analytics API export."""
     path = ROOT / "stats/vercel/visits-by-week.json"
     payload = json.loads(path.read_text(encoding="utf-8"))
     rows = []
@@ -173,13 +203,9 @@ def chart_weekly_visits_vercel():
         monday = ts.date()
         visitors = int(row.get("visitors") or 0)
         pageviews = int(row.get("pageviews") or 0)
-        # skip leading all-zero weeks for a readable chart
         if visitors == 0 and pageviews == 0 and not rows:
             continue
         rows.append((monday, visitors, pageviews))
-    # drop trailing zeros only if after we've seen data? keep all after first non-zero
-    while rows and rows[0][1] == 0 and rows[0][2] == 0:
-        rows.pop(0)
 
     labels = []
     visitors = []
@@ -190,11 +216,7 @@ def chart_weekly_visits_vercel():
         labels.append(f"{fmt_day_month(monday)}–{fmt_day_month(sunday)}")
         visitors.append(v)
         pageviews.append(p)
-        # Light orange through end-of-elections week; light grey after
-        if monday > CUTOFF.date():
-            colors_v.append(ACCENT2)
-        else:
-            colors_v.append(ACCENT)
+        colors_v.append(ACCENT2 if monday > CUTOFF.date() else ACCENT)
 
     fig, ax = plt.subplots(figsize=(9.0, 4.0))
     style_ax(ax)
@@ -229,16 +251,15 @@ def chart_daily_uniques():
     ax.plot(
         dates,
         uniques,
-        color=LINE,
+        color=ACCENT,
         linewidth=2.2,
         marker="o",
         markersize=4,
         markerfacecolor="white",
         markeredgewidth=1.6,
-        markeredgecolor=LINE,
+        markeredgecolor=ACCENT,
         label="Unique visitors",
     )
-    # Publication cluster markers (key outreach days)
     for pd, lab in (
         (datetime(2026, 9, 10), "10.9"),
         (datetime(2026, 9, 14), "14.9"),
@@ -258,7 +279,7 @@ def chart_daily_uniques():
     ax.axvline(election, color=MUTED, linewidth=1.2, linestyle="--", label="Election day (20.9)")
     ax.set_ylim(0, max(uniques) * 1.18)
     ax.set_ylabel("")
-    set_title(ax, "")
+    set_title(ax)
     ax.xaxis.set_major_formatter(
         plt.FuncFormatter(lambda x, _pos: fmt_day_month(mdates.num2date(x)))
     )
@@ -282,7 +303,7 @@ def chart_time_on_site(pre: list[float], post: list[float]):
     ax.set_xticks(list(x))
     ax.set_xticklabels(labels)
     ax.set_ylabel("Minutes", color=MUTED)
-    set_title(ax, "")
+    set_title(ax)
     ax.legend(frameon=False, fontsize=8)
     for bars in (bars1, bars2):
         for b in bars:
@@ -300,7 +321,6 @@ def chart_time_on_site(pre: list[float], post: list[float]):
 
 
 def chart_languages(lang: dict[str, Counter]):
-    """Visitors (distinct devices) by UI language — top 5 + Other, before vs after."""
     ranked = sorted(
         (set(lang["before"]) | set(lang["after"])) - {"?"},
         key=lambda L: -(lang["before"][L] + lang["after"][L]),
@@ -314,51 +334,11 @@ def chart_languages(lang: dict[str, Counter]):
         labels_list.append("other")
         before.append(sum(lang["before"][L] for L in rest))
         after.append(sum(lang["after"][L] for L in rest))
-
-    fig, ax = plt.subplots(figsize=(8.2, 3.8))
-    style_ax(ax)
-    y = range(len(labels_list))
-    h = 0.38
-    bars_b = ax.barh(
-        [i + h / 2 for i in y], before, height=h, color=ACCENT, label="Before election day"
-    )
-    bars_a = ax.barh(
-        [i - h / 2 for i in y], after, height=h, color=ACCENT2, label="After election day"
-    )
-    ax.set_yticks(list(y))
-    ax.set_yticklabels(labels_list)
-    ax.invert_yaxis()
-    ax.set_xlabel("")
-    set_title(ax, "")
-    ax.legend(frameon=False, fontsize=8, loc="lower right")
-    xmax = max(max(before, default=0), max(after, default=0), 1)
-    ax.set_xlim(0, xmax * 1.18)
-    for bar, val in zip(bars_b, before):
-        if val:
-            ax.text(
-                val + xmax * 0.012,
-                bar.get_y() + bar.get_height() / 2,
-                f"{val:,}",
-                va="center",
-                fontsize=8,
-                color=MUTED,
-            )
-    for bar, val in zip(bars_a, after):
-        if val:
-            ax.text(
-                val + xmax * 0.012,
-                bar.get_y() + bar.get_height() / 2,
-                f"{val:,}",
-                va="center",
-                fontsize=8,
-                color=MUTED,
-            )
-    save(fig, "languages-before-after.svg")
+    chart_before_after_bars(labels_list, before, after, "languages-before-after.svg")
 
 
 def chart_topic_groups(groups: dict[str, Counter]):
-    """Topic opens by group — before vs after end of elections."""
-    labels = {
+    labels_map = {
         "transport": "Transport",
         "housing": "Housing",
         "climate_energy": "Climate & energy",
@@ -378,53 +358,17 @@ def chart_topic_groups(groups: dict[str, Counter]):
     )[:5]
     before = [groups["before"][k] for k in keys]
     after = [groups["after"][k] for k in keys]
-    names = [labels.get(k, k) for k in keys]
-
-    fig, ax = plt.subplots(figsize=(7.2, 3.6))
-    style_ax(ax)
-    y = range(len(keys))
-    h = 0.38
-    bars_b = ax.barh(
-        [i + h / 2 for i in y], before, height=h, color=ACCENT, label="Before election day"
+    names = [labels_map.get(k, k) for k in keys]
+    chart_before_after_bars(
+        names, before, after, "topic-groups.svg", figsize=(7.2, 3.6), value_fontsize=7
     )
-    bars_a = ax.barh(
-        [i - h / 2 for i in y], after, height=h, color=ACCENT2, label="After election day"
-    )
-    ax.set_yticks(list(y))
-    ax.set_yticklabels(names)
-    ax.invert_yaxis()
-    ax.set_xlabel("")
-    set_title(ax, "")
-    ax.legend(frameon=False, fontsize=8, loc="lower right")
-    xmax = max(max(before, default=0), max(after, default=0), 1)
-    ax.set_xlim(0, xmax * 1.18)
-    for bar, val in zip(bars_b, before):
-        if val:
-            ax.text(
-                val + xmax * 0.012,
-                bar.get_y() + bar.get_height() / 2,
-                f"{val:,}",
-                va="center",
-                fontsize=7,
-                color=MUTED,
-            )
-    for bar, val in zip(bars_a, after):
-        if val:
-            ax.text(
-                val + xmax * 0.012,
-                bar.get_y() + bar.get_height() / 2,
-                f"{val:,}",
-                va="center",
-                fontsize=7,
-                color=MUTED,
-            )
-    save(fig, "topic-groups.svg")
 
 
 def _normalize_referrer(host: str) -> str:
     h = host.lower().strip()
     if (
-        h in {
+        h
+        in {
             "google.com",
             "google.de",
             "com.google.android.gm",
@@ -435,7 +379,8 @@ def _normalize_referrer(host: str) -> str:
     ):
         return "Google"
     if (
-        h in {
+        h
+        in {
             "org.telegram.messenger",
             "web.telegram.org",
             "org.telegram.messenger.web",
@@ -456,7 +401,6 @@ def _normalize_referrer(host: str) -> str:
 
 
 def chart_referrers():
-    """Pie of traffic sources: merge Google/Telegram apps, include Direct."""
     refs = list((ROOT / "stats/vercel").glob("Top Referrers*.csv"))[0]
     routes = list((ROOT / "stats/vercel").glob("Top Routes*.csv"))[0]
     merged: Counter = Counter()
@@ -464,7 +408,6 @@ def chart_referrers():
         for row in csv.DictReader(f):
             merged[_normalize_referrer(row["Page"])] += int(row["Visitors"])
 
-    # Site-level visitors from main route as denominator for Direct
     total_visitors = 0
     with routes.open(newline="", encoding="utf-8") as f:
         for row in csv.DictReader(f):
@@ -472,13 +415,10 @@ def chart_referrers():
                 total_visitors = int(row["Visitors"])
                 break
     attributed = sum(merged.values())
-    direct = max(0, total_visitors - attributed)
-    merged["Direct"] = direct
+    merged["Direct"] = max(0, total_visitors - attributed)
 
-    # Top slices + Other
     top_n = 7
     ranked = merged.most_common()
-    # Keep Direct + largest named sources
     primary = [("Direct", merged["Direct"])]
     others_sum = 0
     for name, n in ranked:
@@ -491,11 +431,8 @@ def chart_referrers():
     if others_sum:
         primary.append(("Other", others_sum))
 
-    labels = [n for n, _ in primary]
     sizes = [n for _, n in primary]
     total = sum(sizes) or 1
-    colors = [ACCENT if i % 2 == 0 else ACCENT2 for i in range(len(sizes))]
-    # Direct always grey; largest orange accents alternate
     colors = []
     for i, (name, _) in enumerate(primary):
         if name == "Direct":
@@ -513,7 +450,7 @@ def chart_referrers():
     def autopct(pct: float) -> str:
         return f"{pct:.0f}%" if pct >= 3 else ""
 
-    wedges, texts, autotexts = ax.pie(
+    wedges, _texts, autotexts = ax.pie(
         sizes,
         colors=colors,
         startangle=90,
@@ -567,7 +504,13 @@ def chart_vercel_languages_lifetime():
 
 
 def main():
-    pre, post, groups, lang_visitors, _lang_pv, _weekly_posthog = load_posthog()
+    stats = ROOT / "stats"
+    if not stats.is_dir():
+        raise SystemExit(
+            "Missing local stats/ directory. Export analytics there, then re-run "
+            "(stats/ is gitignored — see docs/reports/README.md)."
+        )
+    pre, post, groups, lang_visitors = load_posthog()
     chart_weekly_visits_vercel()
     chart_daily_uniques()
     chart_time_on_site(pre, post)

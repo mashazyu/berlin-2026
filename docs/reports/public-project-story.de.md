@@ -1,9 +1,6 @@
 <link rel="stylesheet" href="./public-project-story.css" />
-<style>
-  /* Slightly denser chart page so the Werbebudget line stays with the pairs */
-  .pair { margin: 0.45rem 0 0.55rem; }
-  figure.chart img { max-height: 132px; }
-</style>
+
+<div class="locale-de">
 
 <p class="brand-line"><span class="brand-name"><span class="accent">Wahlkompass</span><span class="sep">·</span>Berlin 2026</span><span class="doc-date">15.10.2026</span></p>
 
@@ -103,12 +100,15 @@ Am stärksten genutzt wurden Englisch, Russisch und Deutsch (Lebenszeit-Homes gr
 
 Neun Community-Publikationen haben das Projekt in den zehn Tagen vor der Wahl geteilt. Die Besuchsspitzen lagen bei diesen Erwähnungen (besonders Mitte September) und am Wahltag. Darunter:
 
-- [Volna / Berlin](https://t.me/berlinwelle/2782) (Telegram)
-- [Handpicked Berlin](https://newsletter.handpickedberlin.com/p/211-who-you-gon-call-vote-for)
-- [20 Percent Berlin](https://www.20percent.berlin/p/528-election-fever-berliners-pro)
-- [The Berlin Life](https://theberlinlife.substack.com/p/berlin-election-2026-who-can-vote)
-- [Goose Expat](https://t.me/goose_expat/2098) (Telegram)
+- <img class="channel-icon" src="./images/icon-telegram.svg" alt="" /> [Volna / Berlin](https://t.me/berlinwelle/2782) (Telegram)
+- <img class="channel-icon" src="./images/icon-newsletter.svg" alt="" /> [Handpicked Berlin](https://newsletter.handpickedberlin.com/p/211-who-you-gon-call-vote-for) (Newsletter)
+- <img class="channel-icon" src="./images/icon-substack.svg" alt="" /> [20 Percent Berlin](https://www.20percent.berlin/p/528-election-fever-berliners-pro) (Substack)
+- <img class="channel-icon" src="./images/icon-substack.svg" alt="" /> [The Berlin Life](https://theberlinlife.substack.com/p/berlin-election-2026-who-can-vote) (Substack)
+- <img class="channel-icon" src="./images/icon-telegram.svg" alt="" /> [Goose Expat](https://t.me/goose_expat/2098) (Telegram)
 
+Wir haben außerdem NGOs und Organisationen angesprochen, die in den von uns abgedeckten Sprachen mit lokalen Communities arbeiten. Ob das Besuche gebracht hat, können wir nicht sagen — diese Kontakte waren nicht so gemessen, dass wir Traffic zuordnen könnten.
+
+<!-- Keep Werbebudget with this pair on the charts page -->
 Wir hatten **kein Werbebudget**. Wachstum kam über Weiterempfehlungen und Suche — vor allem Direktbesuche, Google sowie Substack/Telegram.
 
 </div>
@@ -138,3 +138,5 @@ Fragen zum Projekt, Korrekturen, Partnerschaften oder Übersetzungen? Schreiben 
 Schwesterprojekt: [Wasser für alle](https://www.water4all.com.de/de) — offener Atlas freier Trinkwasserstellen in Berlin.
 
 <p class="footnote"><em>Zu den Zahlen:</em> Die Reichweite stammt aus datenschutzfreundlicher Website-Analyse vom Eintreffen der ersten Besuchenden (Anfang September) bis Mitte Oktober 2026. Angaben zur Nutzungstiefe beziehen sich auf den Zeitraum ab Mitte September, in dem detailliert gemessen wurde. Themenöffnungen sind unvollständig (die Messung begann spät). Zahlen sind zur Lesbarkeit gerundet.</p>
+
+</div>

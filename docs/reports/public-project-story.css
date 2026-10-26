@@ -9,13 +9,6 @@
 
 @font-face {
   font-family: "DM Sans";
-  src: url("./charts/fonts/DMSans-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "DM Sans";
   src: url("./charts/fonts/DMSans-SemiBold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
@@ -27,7 +20,6 @@
   --border: hsl(210, 12%, 88%);
   --section: hsl(210, 14%, 96%);
   --accent: hsl(16, 88%, 48%);
-  --accent-soft: #e8916a;
 }
 
 @page {
@@ -57,7 +49,7 @@ h3 {
 
 h1 {
   font-size: 1.65rem;
-  margin: 1.95rem 0 0.35rem; /* 3× body paragraph spacing on top */
+  margin: 1.95rem 0 0.35rem;
 }
 
 h1 + p {
@@ -66,7 +58,7 @@ h1 + p {
 
 h2 {
   font-size: 1.12rem;
-  margin: 1.15rem 0 0.9rem; /* double previous after-margin */
+  margin: 1.15rem 0 0.9rem;
   padding-bottom: 0;
   border-bottom: none;
   text-decoration: underline;
@@ -129,7 +121,15 @@ img {
   margin: 0.85rem 0 0.35rem;
 }
 
-/* Why + What we offered beside screenshot — grid gap (float margin/padding ignored by PDF engine) */
+img.channel-icon {
+  display: inline-block;
+  width: 0.95em;
+  height: 0.95em;
+  margin: 0 0.35em 0 0;
+  vertical-align: -0.12em;
+}
+
+/* Why + What we offered beside screenshot */
 .intro-with-shot {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 200px;
@@ -158,11 +158,19 @@ img {
   border-radius: 0.75rem;
 }
 
-/* Chart floated right; text sits beside and wraps under */
 .pair {
   clear: both;
   display: flow-root;
   margin: 0.65rem 0 0.85rem;
+}
+
+/* DE: denser chart page so Werbebudget stays with the last pair */
+.locale-de .pair {
+  margin: 0.45rem 0 0.55rem;
+}
+
+.locale-de figure.chart img {
+  max-height: 132px;
 }
 
 .page-start {
@@ -206,7 +214,6 @@ figure.chart img {
 }
 
 figure.chart figcaption,
-.caption,
 figure.product-shot figcaption {
   display: block;
   font-size: 0.85rem;
@@ -219,10 +226,6 @@ figure.product-shot figcaption {
 figure.product-shot {
   margin: 0;
   padding: 0;
-}
-
-.clear {
-  clear: both;
 }
 
 .brand-line {

@@ -98,11 +98,13 @@ English, Russian, and German were strongest (lifetime homes roughly **1.8k / 1.6
 
 Nine community publications shared the project in the ten days before the election. Peaks lined up with those shares (especially mid-September) and election day. Among them:
 
-- [Volna / Berlin](https://t.me/berlinwelle/2782) (Telegram)
-- [Handpicked Berlin](https://newsletter.handpickedberlin.com/p/211-who-you-gon-call-vote-for)
-- [20 Percent Berlin](https://www.20percent.berlin/p/528-election-fever-berliners-pro)
-- [The Berlin Life](https://theberlinlife.substack.com/p/berlin-election-2026-who-can-vote)
-- [Goose Expat](https://t.me/goose_expat/2098) (Telegram)
+- <img class="channel-icon" src="./images/icon-telegram.svg" alt="" /> [Volna / Berlin](https://t.me/berlinwelle/2782) (Telegram)
+- <img class="channel-icon" src="./images/icon-newsletter.svg" alt="" /> [Handpicked Berlin](https://newsletter.handpickedberlin.com/p/211-who-you-gon-call-vote-for) (Newsletter)
+- <img class="channel-icon" src="./images/icon-substack.svg" alt="" /> [20 Percent Berlin](https://www.20percent.berlin/p/528-election-fever-berliners-pro) (Substack)
+- <img class="channel-icon" src="./images/icon-substack.svg" alt="" /> [The Berlin Life](https://theberlinlife.substack.com/p/berlin-election-2026-who-can-vote) (Substack)
+- <img class="channel-icon" src="./images/icon-telegram.svg" alt="" /> [Goose Expat](https://t.me/goose_expat/2098) (Telegram)
+
+We also reached out to NGOs and organisations that work with local communities in the languages we covered. We cannot tell whether that outreach brought visits — those contacts were not measured in a way that lets us attribute traffic.
 
 </div>
 </div>

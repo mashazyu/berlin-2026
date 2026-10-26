@@ -1,7 +1,7 @@
 # Berlin 2026 — locked metrics summary
 
-Shared numbers for [`civic-tech-evaluation.md`](./civic-tech-evaluation.md), [`portfolio-case-study.md`](./portfolio-case-study.md), and the public story [`public-project-story.md`](./public-project-story.md).  
-Exports analysed: [`stats/`](../../stats/) (snapshot dated 14 Oct 2026). **End of elections:** **20 Sep 2026, 18:00 Europe/Berlin**.
+Shared numbers for [`portfolio-case-study.md`](./portfolio-case-study.md) and the public story [`public-project-story.md`](./public-project-story.md).  
+Exports analysed: local `stats/` snapshot (14 Oct 2026; not committed — see [README](./README.md)). **End of elections:** **20 Sep 2026, 18:00 Europe/Berlin**.
 
 Charts: regenerate with `python3 scripts/generate-report-charts.py` → [`charts/`](./charts/).
 
