@@ -1,0 +1,338 @@
+#!/usr/bin/env python3
+"""Generate SVG charts for docs/reports from a local stats/ tree (not committed)."""
+
+from __future__ import annotations
+
+import csv
+import statistics
+from collections import Counter, defaultdict
+from datetime import datetime
+from pathlib import Path
+from zoneinfo import ZoneInfo
+
+import matplotlib
+
+matplotlib.use("Agg")
+import matplotlib.dates as mdates
+import matplotlib.pyplot as plt
+from matplotlib import font_manager
+
+ROOT = Path(__file__).resolve().parents[1]
+OUT = ROOT / "docs" / "reports" / "charts"
+FONTS = OUT / "fonts"
+BERLIN = ZoneInfo("Europe/Berlin")
+CUTOFF = datetime(2026, 9, 20, 18, 0, 0, tzinfo=BERLIN)
+PRODUCT = {"topic_open", "party_toggle", "party_preset", "program_link"}
+SESSION_SANITY_MAX = 4 * 3600
+
+INK = "#171f26"
+MUTED = "#5a6672"
+GRID = "#dde0e4"
+ACCENT = "#e8916a"  # soft terracotta
+ACCENT2 = "#c5cbd1"  # soft cool gray
+
+for _name in ("DMSans-Regular.ttf", "DMSans-SemiBold.ttf"):
+    font_manager.fontManager.addfont(str(FONTS / _name))
+FONT_SANS = "DM Sans"
+FONT_TITLE = font_manager.FontProperties(fname=str(FONTS / "DMSans-SemiBold.ttf"), size=12)
+plt.rcParams.update(
+    {
+        "font.family": FONT_SANS,
+        "axes.titlesize": 12,
+        "axes.labelsize": 9,
+        "xtick.labelsize": 9,
+        "ytick.labelsize": 9,
+        "legend.fontsize": 8,
+    }
+)
+TITLE_PAD = 28
+
+
+def style_ax(ax):
+    ax.set_facecolor("white")
+    ax.spines["top"].set_visible(False)
+    ax.spines["right"].set_visible(False)
+    ax.spines["left"].set_color(GRID)
+    ax.spines["bottom"].set_color(GRID)
+    ax.tick_params(colors=MUTED, labelsize=9)
+    ax.yaxis.grid(False)
+    ax.xaxis.grid(False)
+    ax.set_axisbelow(True)
+
+
+def set_title(ax, text: str = ""):
+    if text:
+        ax.set_title(text, color=INK, pad=TITLE_PAD, fontproperties=FONT_TITLE)
+    else:
+        ax.set_title("")
+
+
+def fmt_day_month(d) -> str:
+    return f"{d.day}.{d.month}"
+
+
+def save(fig, name: str):
+    OUT.mkdir(parents=True, exist_ok=True)
+    path = OUT / name
+    fig.patch.set_facecolor("white")
+    fig.savefig(path, format="svg", bbox_inches="tight", facecolor="white", edgecolor="none")
+    plt.close(fig)
+    print("wrote", path.relative_to(ROOT))
+
+
+def parse_ts(s: str) -> datetime:
+    return datetime.fromisoformat(s.strip()).astimezone(BERLIN)
+
+
+def trimmed_mean_5_5(xs: list[float]) -> float:
+    s = sorted(xs)
+    n = len(s)
+    k = int(n * 0.05)
+    mid = s[k : n - k] if 2 * k < n else s
+    return statistics.mean(mid)
+
+
+def load_posthog():
+    path = ROOT / "stats/posthog/export-2026-10-14-082324.csv"
+    session_events: dict[str, list[tuple[datetime, str]]] = defaultdict(list)
+    lang_devices: dict[str, dict[str, set[str]]] = {
+        "before": defaultdict(set),
+        "after": defaultdict(set),
+    }
+    groups = {"before": Counter(), "after": Counter()}
+
+    with path.open(newline="", encoding="utf-8") as f:
+        for row in csv.DictReader(f):
+            ev = row.get("event") or ""
+            ts = parse_ts(row["timestamp"])
+            window = "before" if ts <= CUTOFF else "after"
+            sid = row.get("*.properties.$session_id") or ""
+            did = row.get("*.properties.$device_id") or ""
+            key = sid or (f"dev:{did}" if did else "")
+            if key:
+                session_events[key].append((ts, ev))
+
+            if ev == "$pageview":
+                ui = row.get("*.properties.ui_language") or "?"
+                if did:
+                    lang_devices[window][ui].add(did)
+            if ev == "topic_open":
+                groups[window][row.get("*.properties.group") or "unknown"] += 1
+
+    lang_visitors = {
+        "before": Counter({k: len(v) for k, v in lang_devices["before"].items()}),
+        "after": Counter({k: len(v) for k, v in lang_devices["after"].items()}),
+    }
+
+    def session_durs(pred):
+        xs = []
+        for evs in session_events.values():
+            evs = sorted(evs)
+            start = evs[0][0]
+            if pred and not pred(start):
+                continue
+            if not ({e for _, e in evs} & PRODUCT):
+                continue
+            dur = (evs[-1][0] - start).total_seconds()
+            if 0 < dur <= SESSION_SANITY_MAX:
+                xs.append(dur)
+        return xs
+
+    pre = session_durs(lambda t: t <= CUTOFF)
+    post = session_durs(lambda t: t > CUTOFF)
+    return pre, post, groups, lang_visitors
+
+
+def chart_before_after_bars(
+    labels: list[str],
+    before: list[int],
+    after: list[int],
+    outfile: str,
+    *,
+    figsize: tuple[float, float] = (8.2, 3.8),
+    value_fontsize: int = 8,
+):
+    fig, ax = plt.subplots(figsize=figsize)
+    style_ax(ax)
+    y = range(len(labels))
+    h = 0.38
+    bars_b = ax.barh(
+        [i + h / 2 for i in y], before, height=h, color=ACCENT, label="Before election day"
+    )
+    bars_a = ax.barh(
+        [i - h / 2 for i in y], after, height=h, color=ACCENT2, label="After election day"
+    )
+    ax.set_yticks(list(y))
+    ax.set_yticklabels(labels)
+    ax.invert_yaxis()
+    ax.set_xlabel("")
+    set_title(ax)
+    ax.legend(frameon=False, fontsize=8, loc="lower right")
+    xmax = max(max(before, default=0), max(after, default=0), 1)
+    ax.set_xlim(0, xmax * 1.18)
+    for bar, val in zip(bars_b, before):
+        if val:
+            ax.text(
+                val + xmax * 0.012,
+                bar.get_y() + bar.get_height() / 2,
+                f"{val:,}",
+                va="center",
+                fontsize=value_fontsize,
+                color=MUTED,
+            )
+    for bar, val in zip(bars_a, after):
+        if val:
+            ax.text(
+                val + xmax * 0.012,
+                bar.get_y() + bar.get_height() / 2,
+                f"{val:,}",
+                va="center",
+                fontsize=value_fontsize,
+                color=MUTED,
+            )
+    save(fig, outfile)
+
+
+def chart_daily_uniques():
+    path = ROOT / "stats/posthog/web-analytics-GRAPHS.csv"
+    dates, uniques = [], []
+    with path.open(newline="", encoding="utf-8") as f:
+        for row in csv.DictReader(f):
+            dates.append(datetime.strptime(row["Date"], "%d-%b-%Y"))
+            uniques.append(int(row["Unique visitors (current)"] or 0))
+
+    fig, ax = plt.subplots(figsize=(9.5, 3.8))
+    style_ax(ax)
+    ax.plot(
+        dates,
+        uniques,
+        color=ACCENT,
+        linewidth=2.2,
+        marker="o",
+        markersize=4,
+        markerfacecolor="white",
+        markeredgewidth=1.6,
+        markeredgecolor=ACCENT,
+        label="Unique visitors",
+    )
+    for pd, lab in (
+        (datetime(2026, 9, 10), "10.9"),
+        (datetime(2026, 9, 14), "14.9"),
+        (datetime(2026, 9, 17), "17.9"),
+    ):
+        ax.axvline(pd, color=ACCENT, linewidth=1.0, linestyle=":", alpha=0.85)
+        ax.text(
+            pd,
+            max(uniques) * 1.02,
+            lab,
+            ha="center",
+            va="bottom",
+            fontsize=7,
+            color=ACCENT,
+        )
+    election = datetime(2026, 9, 20)
+    ax.axvline(election, color=MUTED, linewidth=1.2, linestyle="--", label="Election day (20.9)")
+    ax.set_ylim(0, max(uniques) * 1.18)
+    ax.set_ylabel("")
+    set_title(ax)
+    ax.xaxis.set_major_formatter(
+        plt.FuncFormatter(lambda x, _pos: fmt_day_month(mdates.num2date(x)))
+    )
+    ax.xaxis.set_major_locator(mdates.DayLocator(interval=3))
+    fig.autofmt_xdate(rotation=30, ha="right")
+    ax.legend(frameon=False, fontsize=8, loc="upper right")
+    save(fig, "daily-uniques.svg")
+
+
+def chart_time_on_site(pre: list[float], post: list[float]):
+    labels = ["Before\nelection day", "After\nelection day"]
+    medians = [statistics.median(pre) / 60, statistics.median(post) / 60]
+    trims = [trimmed_mean_5_5(pre) / 60, trimmed_mean_5_5(post) / 60]
+
+    fig, ax = plt.subplots(figsize=(6.5, 3.8))
+    style_ax(ax)
+    x = range(len(labels))
+    w = 0.36
+    bars1 = ax.bar([i - w / 2 for i in x], medians, width=w, color=ACCENT, label="Typical (median)")
+    bars2 = ax.bar([i + w / 2 for i in x], trims, width=w, color=ACCENT2, label="Robust average")
+    ax.set_xticks(list(x))
+    ax.set_xticklabels(labels)
+    ax.set_ylabel("Minutes", color=MUTED)
+    set_title(ax)
+    ax.legend(frameon=False, fontsize=8)
+    for bars in (bars1, bars2):
+        for b in bars:
+            h = b.get_height()
+            ax.text(
+                b.get_x() + b.get_width() / 2,
+                h + 0.15,
+                f"{h:.1f}m",
+                ha="center",
+                va="bottom",
+                fontsize=8,
+                color=MUTED,
+            )
+    save(fig, "time-on-site.svg")
+
+
+def chart_languages(lang: dict[str, Counter]):
+    ranked = sorted(
+        (set(lang["before"]) | set(lang["after"])) - {"?"},
+        key=lambda L: -(lang["before"][L] + lang["after"][L]),
+    )
+    top = ranked[:5]
+    rest = ranked[5:]
+    labels_list = list(top)
+    before = [lang["before"][L] for L in top]
+    after = [lang["after"][L] for L in top]
+    if rest:
+        labels_list.append("other")
+        before.append(sum(lang["before"][L] for L in rest))
+        after.append(sum(lang["after"][L] for L in rest))
+    chart_before_after_bars(labels_list, before, after, "languages-before-after.svg")
+
+
+def chart_topic_groups(groups: dict[str, Counter]):
+    labels_map = {
+        "transport": "Transport",
+        "housing": "Housing",
+        "climate_energy": "Climate & energy",
+        "migration": "Migration",
+        "education": "Education",
+        "democracy": "Democracy",
+        "security": "Security",
+        "economy": "Economy",
+        "society": "Society",
+        "waste": "Waste",
+        "health": "Health",
+        "animals": "Animals",
+    }
+    keys = sorted(
+        (set(groups["before"]) | set(groups["after"])) - {"unknown"},
+        key=lambda k: -(groups["before"][k] + groups["after"][k]),
+    )[:5]
+    before = [groups["before"][k] for k in keys]
+    after = [groups["after"][k] for k in keys]
+    names = [labels_map.get(k, k) for k in keys]
+    chart_before_after_bars(
+        names, before, after, "topic-groups.svg", figsize=(7.2, 3.6), value_fontsize=7
+    )
+
+
+def main():
+    stats = ROOT / "stats"
+    if not stats.is_dir():
+        raise SystemExit(
+            "Missing local apps/wahl/stats/ directory. Export analytics there, then re-run "
+            "(gitignored — see docs/reports/README.md)."
+        )
+    pre, post, groups, lang_visitors = load_posthog()
+    chart_daily_uniques()
+    chart_time_on_site(pre, post)
+    chart_languages(lang_visitors)
+    chart_topic_groups(groups)
+    print("done")
+
+
+if __name__ == "__main__":
+    main()

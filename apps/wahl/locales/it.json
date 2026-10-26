@@ -195,6 +195,8 @@
   "about": {
     "title": "Il progetto",
     "body": "Berlin 2026 è un progetto indipendente che confronta i programmi dei partiti in vista delle elezioni regionali di Berlino 2026. I programmi ufficiali escono solo in tedesco: li traduciamo nelle lingue parlate a Berlino.\n\nNina confronta i programmi e porta avanti il progetto; Masha si occupa della tecnica. In parallelo lavoriamo a [Water for All / Wasser für alle](https://www.water4all.com.de) — un atlante aperto dell’acqua potabile gratuita a Berlino. Il progetto rende visibile l’accesso all’acqua e aiuta i residenti a chiedere nuove fontanelle.",
+    "reportTitle": "Report del progetto",
+    "reportBody": "Una breve sintesi pubblica (15.10.2026) di chi abbiamo raggiunto e cosa abbiamo imparato — prima e dopo il giorno delle elezioni. [Scarica il PDF](/reports/public-project-story.pdf).",
     "contributeTitle": "Come puoi aiutare",
     "contributeBody": "Se vuoi sostenere il progetto, la cosa più utile è farlo circolare: condividilo con chi potrebbe trovarlo utile.\n\nPuoi anche stampare il nostro volantino (tedesco, inglese, turco, curdo, vietnamita, polacco, russo, ucraino, arabo, spagnolo, italiano) e appenderlo dove a Berlino la gente lo veda — caffè, bacheche, spazi di comunità. [Scarica il PDF](/flyers/berlin-2026-flyer.pdf).\n\nE se noti un errore sul sito — formulazione sbagliata o errore di fatto — segnalacelo così possiamo correggerlo. Seleziona il passaggio sulla pagina per aprire una segnalazione, oppure scrivici da Contatti.\n\nPuoi anche migliorare le traduzioni: apri una pull request con le correzioni, oppure modifica i file di lingua direttamente nel nostro [repository GitHub](https://github.com/mashazyu/berlin-2026)."
   },

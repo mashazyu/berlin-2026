@@ -58,3 +58,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Local analytics exports (regenerate charts from a local copy)
+apps/wahl/stats/

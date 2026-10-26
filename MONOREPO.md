@@ -17,6 +17,9 @@ Four Kompass sites share UI packages. Each site is served on **both** the apex h
     www/                 # Kompass Kollektive — port 3001
     polit/               # communal guides — port 3002
     wahl/                # election compass — port 3000
+      docs/reports/      # metrics + public story PDFs (wahl only)
+      scripts/           # comparison verify + report chart/PDF regen
+      stats/             # local analytics exports (gitignored)
     wasser/              # water4all (later)
   packages/
     ui/                  # @kompass/ui
