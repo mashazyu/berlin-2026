@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Regenerate public-project-story PDFs (EN + DE) via md-to-pdf.
+# Regenerate public-project-story PDFs into public/reports/ (served by the site).
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
@@ -7,6 +7,8 @@ cd "$ROOT"
 
 PDF_OPTS='{"format":"A4","margin":{"top":"16mm","bottom":"18mm","left":"14mm","right":"14mm"},"printBackground":true}'
 CSS="docs/reports/public-project-story.css"
+OUT_DIR="public/reports"
+mkdir -p "$OUT_DIR"
 
 if [[ -z "${PUPPETEER_EXECUTABLE_PATH:-}" ]]; then
   for candidate in \
@@ -28,5 +30,9 @@ fi
 # Prefer a local Chrome binary via PUPPETEER_EXECUTABLE_PATH (sandbox/CI may block bundled Chromium).
 npx --yes md-to-pdf docs/reports/public-project-story.md --stylesheet "$CSS" --pdf-options "$PDF_OPTS"
 npx --yes md-to-pdf docs/reports/public-project-story.de.md --stylesheet "$CSS" --pdf-options "$PDF_OPTS"
-echo "wrote docs/reports/public-project-story.pdf"
-echo "wrote docs/reports/public-project-story.de.pdf"
+
+mv -f docs/reports/public-project-story.pdf "$OUT_DIR/public-project-story.pdf"
+mv -f docs/reports/public-project-story.de.pdf "$OUT_DIR/public-project-story.de.pdf"
+
+echo "wrote $OUT_DIR/public-project-story.pdf"
+echo "wrote $OUT_DIR/public-project-story.de.pdf"

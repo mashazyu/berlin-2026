@@ -3,7 +3,7 @@
 **Berlin 2026** is an independent, multilingual party-program comparison for the Berlin state election (Abgeordnetenhaus) on **20 September 2026**.  
 Live: [www.berlin-2026.de](https://www.berlin-2026.de)
 
-Numbers cited here are locked in [`_metrics-summary.md`](./_metrics-summary.md). Non-technical public story: [`public-project-story.md`](./public-project-story.md) ([PDF](./public-project-story.pdf)).
+Numbers cited here are locked in [`_metrics-summary.md`](./_metrics-summary.md). Non-technical public story: [`public-project-story.md`](./public-project-story.md) ([PDF](../../public/reports/public-project-story.pdf)).
 
 ---
 

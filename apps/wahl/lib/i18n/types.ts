@@ -194,6 +194,8 @@ export type Translations = {
   about: {
     title: string
     body: string
+    reportTitle: string
+    reportBody: string
     contributeTitle: string
     contributeBody: string
   }

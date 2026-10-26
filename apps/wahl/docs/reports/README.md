@@ -26,4 +26,4 @@ From `apps/wahl`:
 ./scripts/generate-report-pdfs.sh
 ```
 
-Uses `npx md-to-pdf` and Chromium (`PUPPETEER_EXECUTABLE_PATH` or Playwright cache). Styled with [`public-project-story.css`](public-project-story.css).
+Writes to [`public/reports/`](../../public/reports/) (served at `/reports/…`). Sources stay in this folder; styled with [`public-project-story.css`](public-project-story.css). Uses `npx md-to-pdf` and Chromium (`PUPPETEER_EXECUTABLE_PATH` or Playwright cache).

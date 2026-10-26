@@ -23,6 +23,19 @@ export function AboutPageClient() {
             {renderParagraphs(a.body, "text-muted-foreground leading-relaxed", language)}
           </div>
 
+          <section id="report" className="mt-12 scroll-mt-24">
+            <h2 className="font-display text-xl font-semibold">
+              {a.reportTitle}
+            </h2>
+            <div className="mt-3 space-y-3">
+              {renderParagraphs(
+                a.reportBody,
+                "text-muted-foreground leading-relaxed",
+                language
+              )}
+            </div>
+          </section>
+
           <section id="contribute" className="mt-12 scroll-mt-24">
             <h2 className="font-display text-xl font-semibold">
               {a.contributeTitle}
