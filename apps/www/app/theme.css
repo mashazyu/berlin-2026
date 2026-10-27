@@ -4,41 +4,41 @@
 @source "../../../packages/ui/src/**/*.{ts,tsx}";
 @source "../../../packages/landing/src/**/*.{ts,tsx}";
 
-/* www — about us — cool blue CTAs */
+/* www — forest green CTAs from mockup, light gray page / white cards */
 :root {
-  --background: 0 0% 100%;
-  --foreground: 222 28% 12%;
+  --background: 150 12% 97%;
+  --foreground: 160 18% 12%;
   --card: 0 0% 100%;
-  --card-foreground: 222 28% 12%;
+  --card-foreground: 160 18% 12%;
   --popover: 0 0% 100%;
-  --popover-foreground: 222 28% 12%;
-  --primary: 220 90% 45%;
+  --popover-foreground: 160 18% 12%;
+  --primary: 162 48% 20%;
   --primary-foreground: 0 0% 100%;
-  --secondary: 220 16% 94%;
-  --secondary-foreground: 222 28% 20%;
-  --muted: 220 14% 96%;
-  --muted-foreground: 220 12% 40%;
-  --accent: 220 92% 52%;
+  --secondary: 150 14% 93%;
+  --secondary-foreground: 160 18% 18%;
+  --muted: 150 12% 95%;
+  --muted-foreground: 160 8% 40%;
+  --accent: 162 42% 28%;
   --accent-foreground: 0 0% 100%;
   --destructive: 0 78% 52%;
   --destructive-foreground: 0 0% 100%;
-  --border: 220 14% 88%;
-  --input: 220 14% 88%;
-  --ring: 220 90% 45%;
+  --border: 150 10% 86%;
+  --input: 150 10% 86%;
+  --ring: 162 48% 20%;
   --radius: 0.75rem;
-  --section-muted: 220 18% 96%;
+  --section-muted: 150 16% 94%;
   --header-offset: 3.5rem;
-  --chart-1: 220 90% 45%;
-  --chart-2: 220 14% 40%;
-  --chart-3: 220 12% 55%;
-  --chart-4: 220 70% 60%;
-  --chart-5: 220 10% 70%;
+  --chart-1: 162 48% 20%;
+  --chart-2: 160 14% 40%;
+  --chart-3: 150 12% 55%;
+  --chart-4: 162 35% 45%;
+  --chart-5: 150 10% 70%;
   --sidebar: 0 0% 100%;
-  --sidebar-foreground: 222 28% 12%;
-  --sidebar-primary: 220 90% 45%;
+  --sidebar-foreground: 160 18% 12%;
+  --sidebar-primary: 162 48% 20%;
   --sidebar-primary-foreground: 0 0% 100%;
-  --sidebar-accent: 220 14% 96%;
-  --sidebar-accent-foreground: 222 28% 12%;
-  --sidebar-border: 220 14% 88%;
-  --sidebar-ring: 220 90% 45%;
+  --sidebar-accent: 150 12% 95%;
+  --sidebar-accent-foreground: 160 18% 12%;
+  --sidebar-border: 150 10% 86%;
+  --sidebar-ring: 162 48% 20%;
 }

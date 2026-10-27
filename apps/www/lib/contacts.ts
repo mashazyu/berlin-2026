@@ -6,6 +6,9 @@ export type PersonContact = {
   substack: string
 }
 
+/** Shared inbox for the collective contact CTA. */
+export const COLLECTIVE_EMAIL = "feedback@berlin-2026.de"
+
 export const PEOPLE: PersonContact[] = [
   {
     id: "nina",

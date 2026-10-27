@@ -1,21 +1,24 @@
 "use client"
 
-import { Compass, Droplet, Mail } from "lucide-react"
+import { Building2, Compass, Droplet, Mail, Vote } from "lucide-react"
 import {
   BrandMark,
   LandingShell,
   SiteFooter,
   SiteHeader,
 } from "@kompass/landing"
+import { Button } from "@kompass/ui/button"
+import { metaTagClassName } from "@kompass/ui/lib/chip-styles"
+import { HeroCompass } from "@/components/hero-compass"
 import { LanguageSwitcher } from "@/components/language-switcher"
 import { useLanguage } from "@/components/language-provider"
-import { PEOPLE } from "@/lib/contacts"
+import { COLLECTIVE_EMAIL, PEOPLE } from "@/lib/contacts"
 import { projectHref, type ProjectId } from "@/lib/projects"
 
 const PROJECT_ICONS = {
   water4all: { Icon: Droplet, className: "text-[#0B8FBF]" },
-  "berlin-2026": { Icon: Compass, className: "text-[#F55A1F]" },
-  polit: { Icon: Compass, className: "text-[#129176]" },
+  "berlin-2026": { Icon: Vote, className: "text-[#F55A1F]" },
+  polit: { Icon: Building2, className: "text-[#129176]" },
 } as const
 
 type IconProps = { className?: string }
@@ -46,6 +49,11 @@ function LinkedInIcon({ className }: IconProps) {
   )
 }
 
+/** Full viewport below sticky header; content can grow past one screen. */
+const sectionShell =
+  "flex min-h-[calc(100svh-var(--header-offset))] scroll-mt-[var(--header-offset)] flex-col justify-center px-4 py-14 sm:px-6 sm:py-20"
+const contentWide = "mx-auto w-full max-w-6xl xl:max-w-7xl"
+
 export function HomePageClient() {
   const { language, translations: t } = useLanguage()
   const homeHref = `/${language}`
@@ -55,41 +63,65 @@ export function HomePageClient() {
     </BrandMark>
   )
 
+  const projectNames = Object.fromEntries(
+    t.projects.items.map((item) => [item.id, item.name])
+  ) as Record<ProjectId, string>
+
   return (
     <LandingShell
-      enableScrollSnap={false}
+      enableScrollSnap
       header={
         <SiteHeader
           brand={brand}
           homeHref={homeHref}
           links={[
             { type: "section", id: "projects", label: t.navigation.projects },
-            { type: "section", id: "contacts", label: t.navigation.contacts },
+            { type: "section", id: "about", label: t.navigation.about },
+            {
+              type: "section",
+              id: "supporters",
+              label: t.navigation.supporters,
+            },
+            { type: "section", id: "contact", label: t.navigation.contact },
           ]}
           trailing={<LanguageSwitcher />}
         />
       }
       footer={<SiteFooter brand={brand} notice={t.footer.notice} />}
     >
+      {/* Hero */}
       <section
-        id="about"
-        className="scroll-mt-[4.25rem] px-4 py-16 sm:px-6 sm:py-20"
+        id="hero"
+        className={`${sectionShell} animate-[rise_0.55s_ease-out_both]`}
       >
-        <div className="mx-auto max-w-3xl animate-[rise_0.55s_ease-out_both]">
-          <h1 className="sr-only">{t.brand}</h1>
-          <div className="space-y-5 text-base leading-relaxed text-muted-foreground sm:text-lg">
-            {t.intro.paragraphs.map((paragraph, index) => (
-              <p key={index}>{paragraph}</p>
-            ))}
+        <div
+          className={`${contentWide} grid items-center gap-10 lg:grid-cols-2 lg:gap-14`}
+        >
+          <div className="max-w-xl">
+            <h1 className="font-display text-4xl font-semibold tracking-[-0.02em] text-foreground sm:text-5xl lg:text-[3.25rem]">
+              {t.brand}
+            </h1>
+            <p className="mt-4 text-lg font-medium text-foreground sm:text-xl">
+              {t.hero.tagline}
+            </p>
+            <p className="mt-4 text-base leading-relaxed text-muted-foreground sm:text-lg">
+              {t.hero.blurb}
+            </p>
+          </div>
+
+          <div className="mx-auto w-full max-w-md justify-self-center lg:justify-self-end">
+            <HeroCompass
+              language={language}
+              label={t.hero.diagramLabel}
+              projectNames={projectNames}
+            />
           </div>
         </div>
       </section>
 
-      <section
-        id="projects"
-        className="scroll-mt-[4.25rem] bg-[hsl(var(--section-muted))] px-4 py-16 sm:px-6 sm:py-20"
-      >
-        <div className="mx-auto max-w-6xl animate-[rise_0.55s_ease-out_both]">
+      {/* Projects */}
+      <section id="projects" className={`${sectionShell} bg-section-muted`}>
+        <div className={`${contentWide} animate-[rise_0.55s_ease-out_both]`}>
           <h2 className="font-display text-3xl font-semibold tracking-[-0.01em] sm:text-4xl">
             {t.projects.title}
           </h2>
@@ -99,11 +131,12 @@ export function HomePageClient() {
               const { Icon, className: iconClass } =
                 PROJECT_ICONS[project.id as ProjectId]
               return (
-                <li key={project.id}>
+                <li key={project.id} className="min-w-0">
                   <a
                     href={href}
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label={project.linkLabel}
                     className="flex h-full flex-col border border-border bg-background p-6 transition-colors hover:border-primary hover:bg-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
                   >
                     <Icon
@@ -114,33 +147,63 @@ export function HomePageClient() {
                     <h3 className="mt-5 font-display text-xl font-semibold tracking-[-0.01em] text-foreground">
                       {project.name}
                     </h3>
-                    <p className="mt-3 text-base leading-relaxed text-muted-foreground">
+                    <p className="mt-3 flex-1 text-base leading-relaxed text-muted-foreground">
                       {project.description}
                     </p>
+                    {project.results.length > 0 ? (
+                      <ul className="mt-6 grid gap-3 border-t border-border pt-5 sm:grid-cols-2">
+                        {project.results.map((result) => (
+                          <li key={result.label}>
+                            <p className="font-display text-2xl font-semibold tracking-[-0.02em] text-foreground">
+                              <span className="text-muted-foreground" aria-hidden>
+                                [
+                              </span>
+                              <span className="sr-only">{result.label}: </span>
+                              {result.value}
+                              <span className="text-muted-foreground" aria-hidden>
+                                ]
+                              </span>
+                            </p>
+                            <p className="mt-1 text-sm text-muted-foreground" aria-hidden>
+                              {result.label}
+                            </p>
+                          </li>
+                        ))}
+                      </ul>
+                    ) : null}
+                    {project.program ? (
+                      <p className="mt-5 text-sm text-muted-foreground">
+                        {project.program}
+                      </p>
+                    ) : null}
                   </a>
                 </li>
               )
             })}
           </ul>
+          <p className="mt-6 text-xs text-muted-foreground">
+            {t.projects.resultsAsOf}
+          </p>
         </div>
       </section>
 
-      <section
-        id="contacts"
-        className="scroll-mt-[4.25rem] px-4 py-16 sm:px-6 sm:py-20"
-      >
-        <div className="mx-auto max-w-6xl animate-[rise_0.55s_ease-out_both]">
+      {/* About / team */}
+      <section id="about" className={sectionShell}>
+        <div className={`${contentWide} animate-[rise_0.55s_ease-out_both]`}>
           <h2 className="font-display text-3xl font-semibold tracking-[-0.01em] sm:text-4xl">
-            {t.contacts.title}
+            {t.about.title}
           </h2>
-          <ul className="mt-10 grid gap-4 sm:grid-cols-2">
+          <p className="mt-4 max-w-3xl text-base leading-relaxed text-muted-foreground sm:text-lg">
+            {t.about.intro}
+          </p>
+          <ul className="mt-10 grid gap-4 md:grid-cols-2">
             {PEOPLE.map((person) => {
-              const copy = t.contacts.people[person.id]
+              const copy = t.team.people[person.id]
               const links = [
                 person.linkedin
                   ? {
                       href: person.linkedin,
-                      label: t.contacts.labels.linkedin,
+                      label: t.team.labels.linkedin,
                       icon: LinkedInIcon,
                       external: true,
                     }
@@ -148,7 +211,7 @@ export function HomePageClient() {
                 person.email
                   ? {
                       href: `mailto:${person.email}`,
-                      label: t.contacts.labels.email,
+                      label: t.team.labels.email,
                       icon: Mail,
                       external: false,
                     }
@@ -156,7 +219,7 @@ export function HomePageClient() {
                 person.substack
                   ? {
                       href: person.substack,
-                      label: t.contacts.labels.substack,
+                      label: t.team.labels.substack,
                       icon: SubstackIcon,
                       external: true,
                     }
@@ -173,21 +236,32 @@ export function HomePageClient() {
                   key={person.id}
                   className="border border-border bg-background p-6 sm:p-8"
                 >
-                  <h3 className="font-display text-2xl font-semibold tracking-[-0.01em] text-foreground">
-                    {copy.name}
-                  </h3>
-                  <p className="mt-2 text-sm text-muted-foreground">
-                    {copy.role}
+                  <div className="flex items-start gap-4">
+                    <div
+                      className="flex size-16 shrink-0 items-center justify-center bg-section-muted font-display text-xl font-semibold text-primary sm:size-20 sm:text-2xl"
+                      aria-hidden
+                    >
+                      {copy.initials}
+                    </div>
+                    <div className="min-w-0 flex-1">
+                      <h3 className="font-display text-2xl font-semibold tracking-[-0.01em] text-foreground">
+                        {copy.name}
+                      </h3>
+                      <span className={`mt-2 ${metaTagClassName()}`}>
+                        {copy.role}
+                      </span>
+                    </div>
+                  </div>
+                  <p className="mt-5 text-base leading-relaxed text-muted-foreground">
+                    {copy.bio}
                   </p>
-                  <div className="mt-6 flex flex-wrap gap-3">
-                    {links.map((link) => {
-                      const Icon = link.icon
-                      return (
+                  {links.length > 0 ? (
+                    <div className="mt-6 flex flex-wrap gap-x-4 gap-y-2 text-sm">
+                      {links.map((link) => (
                         <a
                           key={link.label}
                           href={link.href}
-                          className="inline-flex h-11 w-11 items-center justify-center border border-border text-foreground transition-colors hover:border-primary hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
-                          aria-label={`${copy.name} — ${link.label}`}
+                          className="font-medium text-primary underline-offset-4 transition-colors hover:underline"
                           {...(link.external
                             ? {
                                 target: "_blank",
@@ -195,15 +269,71 @@ export function HomePageClient() {
                               }
                             : {})}
                         >
-                          <Icon className="h-5 w-5" aria-hidden />
+                          {link.label}
                         </a>
-                      )
-                    })}
-                  </div>
+                      ))}
+                    </div>
+                  ) : null}
                 </li>
               )
             })}
           </ul>
+        </div>
+      </section>
+
+      {/* Supporters */}
+      <section id="supporters" className={sectionShell}>
+        <div className={`${contentWide} animate-[rise_0.55s_ease-out_both]`}>
+          <h2 className="font-display text-3xl font-semibold tracking-[-0.01em] sm:text-4xl">
+            {t.supporters.title}
+          </h2>
+          <ul className="mt-10 grid gap-4 md:grid-cols-2">
+            {t.supporters.items.map((item) => (
+              <li
+                key={item.id}
+                className="flex items-center gap-4 border border-border bg-background p-5 sm:gap-5 sm:p-6"
+              >
+                <div
+                  className="flex size-14 shrink-0 items-center justify-center bg-section-muted font-display text-lg font-semibold text-primary"
+                  aria-hidden
+                >
+                  {item.name.charAt(0)}
+                </div>
+                <div className="min-w-0">
+                  <p className="font-display text-lg font-semibold tracking-[-0.01em] text-foreground">
+                    {item.name}
+                  </p>
+                  <p className="mt-1 text-sm text-muted-foreground">
+                    {item.detail}
+                  </p>
+                </div>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      {/* Contact */}
+      <section id="contact" className={sectionShell}>
+        <div
+          className={`${contentWide} animate-[rise_0.55s_ease-out_both] border border-border bg-background p-6 sm:p-8 lg:p-10`}
+        >
+          <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between lg:gap-10">
+            <div className="max-w-xl">
+              <h2 className="font-display text-2xl font-semibold tracking-[-0.01em] sm:text-3xl">
+                {t.contact.title}
+              </h2>
+              <p className="mt-3 text-base text-muted-foreground">
+                {t.contact.blurb}
+              </p>
+            </div>
+            <Button asChild size="lg" className="w-full shrink-0 lg:w-auto">
+              <a href={`mailto:${COLLECTIVE_EMAIL}`}>
+                <Mail className="size-4" aria-hidden />
+                {t.contact.emailLabel}
+              </a>
+            </Button>
+          </div>
         </div>
       </section>
     </LandingShell>

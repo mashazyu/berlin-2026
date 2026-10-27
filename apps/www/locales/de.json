@@ -3,59 +3,84 @@
   "brandAccent": "Kompass",
   "brandRest": "Kollektive",
   "meta": {
-    "description": "Nina und Mascha bauen zivilgesellschaftliche Tools für Berlin: Wasser für alle und Berlin 2026."
+    "description": "Unabhängige zivilgesellschaftliche Projekte für Berlin — Wasser für alle, Wahl Kompass und Polit Kompass."
   },
   "navigation": {
-    "about": "Über uns",
     "projects": "Projekte",
-    "contacts": "Kontakt"
+    "about": "Wer wir sind",
+    "supporters": "Unterstützer",
+    "contact": "Kontakt"
   },
-  "intro": {
-    "title": "Über uns",
-    "paragraphs": [
-      "Kompass Kollektive versammelt Projekte von Nina und Mascha. Im vergangenen Jahr haben sie Wasser für alle gestartet — eine Karte freier Trinkwasserstellen in Berlin.",
-      "Vor der Wahl wollte Nina wissen, wem sie ihre Stimme geben soll. Sie las die Parteiprogramme, baute eine Vergleichstabelle und schrieb über Klima- und Verkehrspolitik der Parteien. Die Tabelle zeigte sie Mascha — die schlug vor, daraus eine Website zu machen, und gestaltete das gesamte UI. So entstand ein klares, praktisches Werkzeug: Wahl Kompass - Berlin 2026.",
-      "Wasser für alle ist eine Graswurzel-Initiative, die Informationen über kostenlose Trinkwasserquellen in Berlin für alle zugänglich macht. Das Projekt entstand aus dem Programm Lab for Political Participation von Club Dialog e.V. und hat sich seitdem zu einer eigenständigen Initiative entwickelt.",
-      "Das Lab for Political Participation ist ein Programm von Club Dialog e.V., das russischsprachige Berliner:innen mit Migrationsgeschichte darin stärkt, sich zivilgesellschaftlich und politisch zu engagieren.",
-      "Wahl Kompass - Berlin 2026 ist ein unabhängiges Projekt zum Vergleich von Parteiprogrammen vor der Abgeordnetenhauswahl 2026. Offizielle Programme erscheinen nur auf Deutsch — wir übersetzen sie in Sprachen, die in Berlin gesprochen werden. Nina vergleicht die Programme und treibt das Projekt voran; Mascha sorgt für die Technik."
-    ]
+  "hero": {
+    "tagline": "Unabhängige zivilgesellschaftliche Projekte für Berlin.",
+    "blurb": "Wir entwickeln mehrsprachige, quellenbasierte Informationen für Berlin — faktenbasiert, neutral und so, dass Politik und Verwaltung zugänglicher werden.",
+    "ctaProjects": "Unsere Projekte",
+    "ctaAbout": "Wer wir sind",
+    "diagramLabel": "Unsere drei Projekte"
   },
   "projects": {
-    "title": "Projekte",
+    "title": "Unsere Projekte",
+    "resultsAsOf": "Stand September 2026",
     "items": [
       {
         "id": "water4all",
         "name": "Wasser für alle",
         "description": "Ein offener Atlas freier Trinkwasserstellen in Berlin — macht den Zugang sichtbar und hilft vor Ort, sich für neue Trinkbrunnen einzusetzen.",
-        "linkLabel": "Zu Wasser für alle"
+        "program": "Programm INA (2025)",
+        "linkLabel": "Zu Wasser für alle",
+        "results": [
+          {
+            "value": "100.000+",
+            "label": "Kartenaufrufe, in drei Sprachen"
+          }
+        ]
       },
       {
         "id": "berlin-2026",
-        "name": "Wahl Kompass - Berlin 2026",
+        "name": "Wahl Kompass – Berlin 2026",
         "description": "Ein mehrsprachiger Vergleich der Parteiprogramme vor der Abgeordnetenhauswahl 2026.",
-        "linkLabel": "Zu Wahl Kompass - Berlin 2026"
+        "program": "Programm Kommunal Aktiv (2026)",
+        "linkLabel": "Zu Wahl Kompass – Berlin 2026",
+        "results": [
+          {
+            "value": "~4.300",
+            "label": "Nutzer:innen"
+          },
+          {
+            "value": "11",
+            "label": "Sprachen"
+          }
+        ]
       },
       {
         "id": "polit",
         "name": "Polit Kompass",
         "description": "Ermöglicht Berliner:innen den Austausch mit der Berliner Verwaltung.",
-        "linkLabel": "Zu Polit Kompass"
+        "program": "",
+        "linkLabel": "Zu Polit Kompass",
+        "results": []
       }
     ]
   },
-  "footer": {
-    "notice": "Unabhängige zivilgesellschaftliche Projekte für Berlin."
+  "about": {
+    "title": "Wer wir sind",
+    "intro": "Wir bauen praktische Tools, die politische und administrative Informationen in Berlin verständlicher und mehrsprachig zugänglich machen — unabhängig und quellenbasiert.",
+    "pageTitle": "Über Kompass Kollektive",
+    "body": "Kompass Kollektive ist die Heimat der Projekte von Nina und Mascha — Wasser für alle, Wahl Kompass und Polit Kompass."
   },
-  "contacts": {
-    "title": "Kontakt",
+  "team": {
     "people": {
       "nina": {
         "name": "Nina",
-        "role": "Programme & Inhalt"
+        "role": "Programme & Inhalt",
+        "bio": "Vergleicht Parteiprogramme, treibt die inhaltliche Arbeit voran und verbindet die Projekte mit Förderprogrammen und Partnern vor Ort.",
+        "initials": "N"
       },
       "masha": {
         "name": "Mascha",
-        "role": "Produkt & Technik"
+        "role": "Produkt & Technik",
+        "bio": "Gestaltet und baut die Oberflächen, hält die Technik zusammen und sorgt dafür, dass die Tools klar, zugänglich und mehrsprachig bleiben.",
+        "initials": "M"
       }
     },
     "labels": {
@@ -64,9 +89,28 @@
       "substack": "Substack"
     }
   },
-  "about": {
-    "title": "Über Kompass Kollektive",
-    "body": "Kompass Kollektive ist die Heimat der Projekte von Nina und Mascha — Wasser für alle, Wahl Kompass und Polit Kompass."
+  "supporters": {
+    "title": "Unsere Unterstützer",
+    "items": [
+      {
+        "id": "ina",
+        "name": "Programm INA (2025)",
+        "detail": "unterstützt Wasser für alle"
+      },
+      {
+        "id": "kommunal-aktiv",
+        "name": "Programm Kommunal Aktiv (2026)",
+        "detail": "unterstützt Wahl Kompass – Berlin 2026"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Fragen, Presse, Partnerschaften, Übersetzungen?",
+    "blurb": "Schreiben Sie uns — wir antworten auf Deutsch, Englisch oder Русский.",
+    "emailLabel": "feedback@berlin-2026.de"
+  },
+  "footer": {
+    "notice": "Unabhängige zivilgesellschaftliche Projekte für Berlin — Kompass Kollektive"
   },
   "languageSwitcher": {
     "label": "Sprache"
