@@ -21,29 +21,39 @@
   "projects": {
     "title": "Unsere Projekte",
     "resultsAsOf": "Stand September 2026",
+    "status": {
+      "running": "Laufend",
+      "research": "Recherchephase"
+    },
     "items": [
       {
         "id": "water4all",
         "name": "Wasser für alle",
+        "status": "running",
         "description": "Ein offener Atlas freier Trinkwasserstellen in Berlin — macht den Zugang sichtbar und hilft vor Ort, sich für neue Trinkbrunnen einzusetzen.",
         "program": "Programm INA (2025)",
         "linkLabel": "Zu Wasser für alle",
         "results": [
           {
             "value": "100.000+",
-            "label": "Kartenaufrufe, in drei Sprachen"
+            "label": "Kartenaufrufe"
+          },
+          {
+            "value": "3",
+            "label": "Sprachen"
           }
         ]
       },
       {
         "id": "berlin-2026",
         "name": "Wahl Kompass – Berlin 2026",
+        "status": "running",
         "description": "Ein mehrsprachiger Vergleich der Parteiprogramme vor der Abgeordnetenhauswahl 2026.",
         "program": "Programm Kommunal Aktiv (2026)",
         "linkLabel": "Zu Wahl Kompass – Berlin 2026",
         "results": [
           {
-            "value": "~4.300",
+            "value": "4.300+",
             "label": "Nutzer:innen"
           },
           {
@@ -55,6 +65,7 @@
       {
         "id": "polit",
         "name": "Polit Kompass",
+        "status": "research",
         "description": "Ermöglicht Berliner:innen den Austausch mit der Berliner Verwaltung.",
         "program": "",
         "linkLabel": "Zu Polit Kompass",
@@ -73,13 +84,13 @@
       "nina": {
         "name": "Nina",
         "role": "Programme & Inhalt",
-        "bio": "Vergleicht Parteiprogramme, treibt die inhaltliche Arbeit voran und verbindet die Projekte mit Förderprogrammen und Partnern vor Ort.",
+        "bio": "Nina bringt über zehn Jahre Erfahrung in Kommunikation, Content-Erstellung und Projektkoordination bei internationalen Tech-Startups mit. Heute schreibt sie bei Cee Cee Berlin über Umwelt- und Stadtpolitik und setzt sich für politische Teilhabe in Berlin ein.",
         "initials": "N"
       },
       "masha": {
         "name": "Mascha",
         "role": "Produkt & Technik",
-        "bio": "Gestaltet und baut die Oberflächen, hält die Technik zusammen und sorgt dafür, dass die Tools klar, zugänglich und mehrsprachig bleiben.",
+        "bio": "Mascha bringt langjährige Erfahrung in Projektmanagement sowie im Bau von Web- und Mobile-Tools für Citizen Science und Umweltdaten mit. Heute gestaltet sie die Technik hinter Kompass Kollektive und setzt sich für zugängliche digitale Teilhabe in Berlin ein.",
         "initials": "M"
       }
     },
@@ -95,12 +106,14 @@
       {
         "id": "ina",
         "name": "Programm INA (2025)",
-        "detail": "unterstützt Wasser für alle"
+        "detail": "unterstützt Wasser für alle",
+        "href": "https://www.club-dialog.de/ina/"
       },
       {
         "id": "kommunal-aktiv",
         "name": "Programm Kommunal Aktiv (2026)",
-        "detail": "unterstützt Wahl Kompass – Berlin 2026"
+        "detail": "unterstützt Wahl Kompass – Berlin 2026",
+        "href": "https://www.bvre.de/projekte-des-bvre/kommunal-activ.html"
       }
     ]
   },

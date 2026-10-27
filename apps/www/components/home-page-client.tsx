@@ -13,7 +13,7 @@ import { HeroCompass } from "@/components/hero-compass"
 import { LanguageSwitcher } from "@/components/language-switcher"
 import { useLanguage } from "@/components/language-provider"
 import { COLLECTIVE_EMAIL, PEOPLE } from "@/lib/contacts"
-import { projectHref, type ProjectId } from "@/lib/projects"
+import { programHref, projectHref, type ProjectId } from "@/lib/projects"
 
 const PROJECT_ICONS = {
   water4all: { Icon: Droplet, className: "text-[#0B8FBF]" },
@@ -127,63 +127,87 @@ export function HomePageClient() {
           </h2>
           <ul className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {t.projects.items.map((project) => {
-              const href = projectHref(project.id as ProjectId, language)
-              const { Icon, className: iconClass } =
-                PROJECT_ICONS[project.id as ProjectId]
+              const id = project.id as ProjectId
+              const href = projectHref(id, language)
+              const supportHref = programHref(id)
+              const { Icon, className: iconClass } = PROJECT_ICONS[id]
               return (
-                <li key={project.id} className="min-w-0">
-                  <a
-                    href={href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label={project.linkLabel}
-                    className="flex h-full flex-col border border-border bg-background p-6 transition-colors hover:border-primary hover:bg-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
-                  >
-                    <Icon
-                      className={`h-8 w-8 ${iconClass}`}
-                      aria-hidden
-                      strokeWidth={1.5}
-                    />
-                    <h3 className="mt-5 font-display text-xl font-semibold tracking-[-0.01em] text-foreground">
-                      {project.name}
-                    </h3>
-                    <p className="mt-3 flex-1 text-base leading-relaxed text-muted-foreground">
-                      {project.description}
+                <li
+                  key={project.id}
+                  className="flex min-w-0 flex-col border border-border bg-background p-6"
+                >
+                  <div className="flex items-start justify-between gap-3">
+                    <div className="flex min-w-0 items-start gap-3">
+                      <Icon
+                        className={`mt-0.5 h-7 w-7 shrink-0 ${iconClass}`}
+                        aria-hidden
+                        strokeWidth={1.5}
+                      />
+                      <h3 className="font-display text-xl font-semibold tracking-[-0.01em]">
+                        <a
+                          href={href}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-foreground underline-offset-4 transition-colors hover:text-primary hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+                        >
+                          {project.name}
+                        </a>
+                      </h3>
+                    </div>
+                    <span className={`shrink-0 ${metaTagClassName()}`}>
+                      {
+                        t.projects.status[
+                          project.status as keyof typeof t.projects.status
+                        ]
+                      }
+                    </span>
+                  </div>
+                  {project.results.length > 0 ? (
+                    <ul className="mt-5 grid gap-3 sm:grid-cols-2">
+                      {project.results.map((result) => (
+                        <li key={result.label}>
+                          <p className="font-display text-2xl font-semibold tabular-nums tracking-[-0.02em] text-foreground">
+                            <span className="sr-only">{result.label}: </span>
+                            {result.value}
+                          </p>
+                          <p
+                            className="mt-1 text-sm text-muted-foreground"
+                            aria-hidden
+                          >
+                            {result.label}
+                          </p>
+                        </li>
+                      ))}
+                    </ul>
+                  ) : null}
+                  <p className="mt-4 flex-1 text-base leading-relaxed text-muted-foreground">
+                    {project.description}
+                  </p>
+                  {project.program ? (
+                    <p className="mt-5 text-sm">
+                      {supportHref ? (
+                        <a
+                          href={supportHref}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="font-medium text-primary underline-offset-4 transition-colors hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+                        >
+                          {project.program}
+                        </a>
+                      ) : (
+                        <span className="text-muted-foreground">
+                          {project.program}
+                        </span>
+                      )}
                     </p>
-                    {project.results.length > 0 ? (
-                      <ul className="mt-6 grid gap-3 border-t border-border pt-5 sm:grid-cols-2">
-                        {project.results.map((result) => (
-                          <li key={result.label}>
-                            <p className="font-display text-2xl font-semibold tracking-[-0.02em] text-foreground">
-                              <span className="text-muted-foreground" aria-hidden>
-                                [
-                              </span>
-                              <span className="sr-only">{result.label}: </span>
-                              {result.value}
-                              <span className="text-muted-foreground" aria-hidden>
-                                ]
-                              </span>
-                            </p>
-                            <p className="mt-1 text-sm text-muted-foreground" aria-hidden>
-                              {result.label}
-                            </p>
-                          </li>
-                        ))}
-                      </ul>
-                    ) : null}
-                    {project.program ? (
-                      <p className="mt-5 text-sm text-muted-foreground">
-                        {project.program}
-                      </p>
-                    ) : null}
-                  </a>
+                  ) : null}
+                  <p className="mt-4 text-right text-xs text-muted-foreground">
+                    {t.projects.resultsAsOf}
+                  </p>
                 </li>
               )
             })}
           </ul>
-          <p className="mt-6 text-xs text-muted-foreground">
-            {t.projects.resultsAsOf}
-          </p>
         </div>
       </section>
 
@@ -237,12 +261,23 @@ export function HomePageClient() {
                   className="border border-border bg-background p-6 sm:p-8"
                 >
                   <div className="flex items-start gap-4">
-                    <div
-                      className="flex size-16 shrink-0 items-center justify-center bg-section-muted font-display text-xl font-semibold text-primary sm:size-20 sm:text-2xl"
-                      aria-hidden
-                    >
-                      {copy.initials}
-                    </div>
+                    {person.photo ? (
+                      // eslint-disable-next-line @next/next/no-img-element -- static team photo from /public
+                      <img
+                        src={person.photo}
+                        alt={copy.name}
+                        width={80}
+                        height={80}
+                        className="size-16 shrink-0 object-cover sm:size-20"
+                      />
+                    ) : (
+                      <div
+                        className="flex size-16 shrink-0 items-center justify-center bg-section-muted font-display text-xl font-semibold text-primary sm:size-20 sm:text-2xl"
+                        aria-hidden
+                      >
+                        {copy.initials}
+                      </div>
+                    )}
                     <div className="min-w-0 flex-1">
                       <h3 className="font-display text-2xl font-semibold tracking-[-0.01em] text-foreground">
                         {copy.name}
@@ -256,22 +291,26 @@ export function HomePageClient() {
                     {copy.bio}
                   </p>
                   {links.length > 0 ? (
-                    <div className="mt-6 flex flex-wrap gap-x-4 gap-y-2 text-sm">
-                      {links.map((link) => (
-                        <a
-                          key={link.label}
-                          href={link.href}
-                          className="font-medium text-primary underline-offset-4 transition-colors hover:underline"
-                          {...(link.external
-                            ? {
-                                target: "_blank",
-                                rel: "noopener noreferrer",
-                              }
-                            : {})}
-                        >
-                          {link.label}
-                        </a>
-                      ))}
+                    <div className="mt-6 flex flex-wrap gap-3">
+                      {links.map((link) => {
+                        const LinkIcon = link.icon
+                        return (
+                          <a
+                            key={link.label}
+                            href={link.href}
+                            className="inline-flex items-center gap-2 text-sm font-medium text-primary underline-offset-4 transition-colors hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+                            {...(link.external
+                              ? {
+                                  target: "_blank",
+                                  rel: "noopener noreferrer",
+                                }
+                              : {})}
+                          >
+                            <LinkIcon className="size-4" aria-hidden />
+                            {link.label}
+                          </a>
+                        )
+                      })}
                     </div>
                   ) : null}
                 </li>
@@ -300,8 +339,15 @@ export function HomePageClient() {
                   {item.name.charAt(0)}
                 </div>
                 <div className="min-w-0">
-                  <p className="font-display text-lg font-semibold tracking-[-0.01em] text-foreground">
-                    {item.name}
+                  <p className="font-display text-lg font-semibold tracking-[-0.01em]">
+                    <a
+                      href={item.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-foreground underline-offset-4 transition-colors hover:text-primary hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+                    >
+                      {item.name}
+                    </a>
                   </p>
                   <p className="mt-1 text-sm text-muted-foreground">
                     {item.detail}
