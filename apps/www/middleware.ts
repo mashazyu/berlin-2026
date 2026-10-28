@@ -12,7 +12,18 @@ export function middleware(request: NextRequest) {
     return NextResponse.next()
   }
 
-  const segment = pathname.split("/")[1]
+  const segments = pathname.split("/")
+  const segment = segments[1]
+  const restPath = `/${segments.slice(2).join("/")}`.replace(/\/$/, "") || ""
+  const isLegalPage = restPath === "/privacy" || restPath === "/impressum"
+
+  // Privacy + Impressum exist only in EN/DE; other locales fall back to German.
+  if (isLegalPage && isLanguage(segment) && segment !== "en" && segment !== "de") {
+    const url = request.nextUrl.clone()
+    url.pathname = `/de${restPath}`
+    return NextResponse.redirect(url)
+  }
+
   if (!segment || !isLanguage(segment)) {
     const url = request.nextUrl.clone()
     url.pathname = `/de${pathname === "/" ? "" : pathname}`

@@ -129,7 +129,62 @@
     "emailLabel": "feedback@berlin-2026.de"
   },
   "footer": {
-    "notice": "Unabhängige zivilgesellschaftliche Projekte für Berlin — Kompass Kollektive"
+    "notice": "Unabhängige zivilgesellschaftliche Projekte für Berlin — Kompass Kollektive",
+    "aiNotice": "Texte auf dieser Website entstanden mit KI-Unterstützung.",
+    "aiDisclosure": "KI-Hinweis",
+    "impressum": "Impressum",
+    "privacy": "Datenschutz"
+  },
+  "aiDisclosure": {
+    "title": "KI-Hinweis",
+    "intro": "Hier erklären wir, wie wir KI-Tools beim Erstellen von Inhalten nutzen — und warum Menschen für das Veröffentlichte verantwortlich bleiben.",
+    "howWeUseAi": "Wie wir KI nutzen",
+    "howWeUseAiContent": "Wir nutzen KI-Tools, um Website-Texte zu entwerfen und zu verbessern — etwa Seitentexte und Projektbeschreibungen. KI hilft bei Formulierung und Struktur; sie entscheidet nicht, was wir veröffentlichen.",
+    "humanResponsibility": "Menschliche Ideen und redaktionelle Verantwortung",
+    "humanResponsibilityContent": "Alle Ideen, Ziele und inhaltlichen Entscheidungen hinter dieser Website stammen von Menschen im Kompass Kollektive. Vor der Veröffentlichung prüfen wir den Inhalt auf Klarheit und darauf, ob er zu unseren Projekten passt. Die redaktionelle Verantwortung liegt beim Kompass Kollektive.",
+    "reviewAndAccuracy": "Prüfung und Richtigkeit",
+    "reviewAndAccuracyContent": "Wir prüfen Inhalte auf Richtigkeit — Fehler können trotzdem vorkommen, und Nuancen können untergehen. Wenn Ihnen etwas auffällt, schreiben Sie uns bitte.",
+    "contact": "Kontakt",
+    "contactContent": "Fragen zur KI-Nutzung oder zu Inhalten auf dieser Website? Schreiben Sie an {email}."
+  },
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "intro": "Diese Datenschutzerklärung erklärt, wie wir personenbezogene Daten erheben, nutzen und schützen, wenn Sie unsere Website besuchen — nach der Datenschutz-Grundverordnung (DSGVO) und dem geltenden deutschen Datenschutzrecht (einschließlich TTDSG).",
+    "responsibleParty": "Verantwortliche Stelle",
+    "responsiblePartyContent": "Kompass Kollektive\nE-Mail: {email}",
+    "dataProcessed": "Verarbeitete Daten",
+    "dataProcessedContent": "Beim Besuch unserer Website kann unser Hosting-Anbieter automatisch technische Daten verarbeiten, die für die Auslieferung der Seite nötig sind (zum Beispiel IP-Adresse, Browser-/User-Agent-Informationen und Zeitstempel in Server-Logs). Wir betreiben keine Nutzerkonten und keine Registrierung.\n\nWir setzen keine Tracking- oder Werbeanalytik ein. Wenn Sie uns per E-Mail kontaktieren, verarbeiten wir Ihre E-Mail-Adresse und den Inhalt Ihrer Nachricht, damit wir antworten können.",
+    "hosting": "Hosting",
+    "hostingContent": "Diese Website wird von Vercel Inc. gehostet. Serverinfrastruktur und Content Delivery können eine Verarbeitung außerhalb des Europäischen Wirtschaftsraums unter geeigneten Garantien umfassen (einschließlich Standardvertragsklauseln, soweit anwendbar). Details: [Datenschutzerklärung von Vercel](https://vercel.com/legal/privacy-policy).",
+    "processors": "Auftragsverarbeiter",
+    "processorsContent": "Wir setzen folgende Dienstleister als Auftragsverarbeiter (Art. 28 DSGVO) ein. Für einzelne Anbieter kann eine Übermittlung in die USA erfolgen; wir stützen uns auf geeignete Garantien wie Standardvertragsklauseln und die Auftragsverarbeitungsbedingungen der Anbieter.\n\n• Vercel Inc. — Hosting und Auslieferung der Website.",
+    "purposeOfProcessing": "Zweck und Rechtsgrundlagen",
+    "purposeOfProcessingContent": "Wir verarbeiten Daten, um:\n\n• diese Website bereitzustellen, zu sichern und zu betreiben (Art. 6 Abs. 1 lit. f DSGVO)\n• auf E-Mail-Anfragen zu antworten, die Sie an uns richten (Art. 6 Abs. 1 lit. a und/oder lit. b DSGVO, je nach Anliegen)",
+    "retention": "Speicherdauer",
+    "retentionContent": "Server-Logs werden vom Hosting-Anbieter nur so lange aufbewahrt, wie es für Sicherheit und Betrieb nötig ist, und danach gemäß dessen Praxis gelöscht oder anonymisiert.\n\nE-Mail-Korrespondenz speichern wir nur so lange, wie es zur Bearbeitung Ihres Anliegens nötig ist, und danach für eine kurze Zeit, falls Nachfragen oder Dokumentation erforderlich sind, dann gelöscht.",
+    "cookies": "Cookies und ähnliche Technologien",
+    "cookiesContent": "Die Sprache wird über die URL gewählt. Wir setzen keine Sprach-Cookies und keine Werbe-Cookies. Cookies und Website-Daten können Sie jederzeit in den Browsereinstellungen löschen.",
+    "yourRights": "Ihre Rechte nach der DSGVO",
+    "yourRightsIntro": "Nach der DSGVO haben Sie folgende Rechte in Bezug auf Ihre personenbezogenen Daten:",
+    "yourRightsList": "• Auskunftsrecht (Art. 15 DSGVO)\n• Recht auf Berichtigung (Art. 16 DSGVO)\n• Recht auf Löschung (Art. 17 DSGVO)\n• Recht auf Einschränkung der Verarbeitung (Art. 18 DSGVO)\n• Recht auf Datenübertragbarkeit (Art. 20 DSGVO)\n• Widerspruchsrecht gegen Verarbeitung auf Grundlage berechtigter Interessen (Art. 21 DSGVO)\n• Recht, eine erteilte Einwilligung zu widerrufen (Art. 7 Abs. 3 DSGVO)\n• Beschwerderecht bei einer Aufsichtsbehörde (Art. 77 DSGVO)",
+    "supervisoryAuthority": "Aufsichtsbehörde",
+    "supervisoryAuthorityContent": "Sie können sich bei einer Datenschutzaufsichtsbehörde beschweren. Für Berlin ist dies in der Regel:\n\nBerliner Beauftragte für Datenschutz und Informationsfreiheit\nAlt-Moabit 59–61, 10555 Berlin\n[https://www.datenschutz-berlin.de](https://www.datenschutz-berlin.de)",
+    "contactInfo": "Zur Ausübung Ihrer Rechte oder bei Fragen zu Ihren Daten schreiben Sie an {email}."
+  },
+  "impressum": {
+    "title": "Impressum",
+    "responsibleParty": "Verantwortlich (Anbieter)",
+    "responsiblePartyContent": "Kompass Kollektive\n\nBerlin, Deutschland",
+    "contact": "Kontakt",
+    "contactContent": "E-Mail: {email}",
+    "editorial": "Verantwortlich für redaktionelle Inhalte",
+    "editorialContent": "Nina Harz, Maria Waldenberg\n\nBerlin, Deutschland",
+    "disclaimer": "Hinweis",
+    "disclaimerContent": "Diese Website stellt Informationen zu unabhängigen zivilgesellschaftlichen Projekten ausschließlich zu Informationszwecken bereit. Trotz sorgfältiger Prüfung übernehmen wir keine Gewähr für Vollständigkeit, Aktualität oder Fehlerfreiheit.\n\nWir sind mit keiner politischen Partei verbunden.",
+    "liability": "Haftung",
+    "liabilityContent": "Für die Inhalte externer Links übernehmen wir keine Verantwortung. Die Inhalte werden „wie besehen“ bereitgestellt. Soweit gesetzlich zulässig, schließen wir die Haftung für Schäden aus der Nutzung der Website aus — außer bei Vorsatz oder grober Fahrlässigkeit.",
+    "languageVersions": "Sprachfassungen",
+    "languageVersionsContent": "Dieses Impressum ist auf Deutsch und Englisch verfügbar. Die deutsche Fassung ist für rechtliche Zwecke in Deutschland maßgebend."
   },
   "languageSwitcher": {
     "label": "Sprache"

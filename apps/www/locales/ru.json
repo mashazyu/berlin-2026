@@ -129,7 +129,62 @@
     "emailLabel": "feedback@berlin-2026.de"
   },
   "footer": {
-    "notice": "Независимые гражданские проекты для Берлина — Kompass Kollektive"
+    "notice": "Независимые гражданские проекты для Берлина — Kompass Kollektive",
+    "aiNotice": "Тексты на этом сайте созданы с поддержкой ИИ.",
+    "aiDisclosure": "Об использовании ИИ",
+    "impressum": "Выходные данные",
+    "privacy": "Защита данных"
+  },
+  "aiDisclosure": {
+    "title": "Об использовании ИИ",
+    "intro": "На этой странице мы объясняем, как используем инструменты ИИ при создании контента — и почему за опубликованное отвечают люди.",
+    "howWeUseAi": "Как мы используем ИИ",
+    "howWeUseAiContent": "Мы используем ИИ, чтобы набрасывать и улучшать тексты сайта — например, описания страниц и проектов. ИИ помогает с формулировками и структурой; он не решает, что мы публикуем.",
+    "humanResponsibility": "Человеческие идеи и редакционная ответственность",
+    "humanResponsibilityContent": "Все идеи, цели и содержательные решения за этим сайтом принадлежат людям из Kompass Kollektive. Перед публикацией мы проверяем ясность и соответствие нашим проектам. Редакционная ответственность лежит на Kompass Kollektive.",
+    "reviewAndAccuracy": "Проверка и точность",
+    "reviewAndAccuracyContent": "Мы проверяем содержание на точность — ошибки всё же возможны, а нюансы могут теряться. Если что-то заметите, пожалуйста, напишите нам.",
+    "contact": "Контакт",
+    "contactContent": "Вопросы об использовании ИИ или о содержании сайта? Пишите на {email}."
+  },
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "intro": "placeholder",
+    "responsibleParty": "placeholder",
+    "responsiblePartyContent": "placeholder",
+    "dataProcessed": "placeholder",
+    "dataProcessedContent": "placeholder",
+    "hosting": "placeholder",
+    "hostingContent": "placeholder",
+    "processors": "placeholder",
+    "processorsContent": "placeholder",
+    "purposeOfProcessing": "placeholder",
+    "purposeOfProcessingContent": "placeholder",
+    "retention": "placeholder",
+    "retentionContent": "placeholder",
+    "cookies": "placeholder",
+    "cookiesContent": "placeholder",
+    "yourRights": "placeholder",
+    "yourRightsIntro": "placeholder",
+    "yourRightsList": "placeholder",
+    "supervisoryAuthority": "placeholder",
+    "supervisoryAuthorityContent": "placeholder",
+    "contactInfo": "placeholder"
+  },
+  "impressum": {
+    "title": "Impressum",
+    "responsibleParty": "placeholder",
+    "responsiblePartyContent": "placeholder",
+    "contact": "placeholder",
+    "contactContent": "placeholder",
+    "editorial": "placeholder",
+    "editorialContent": "placeholder",
+    "disclaimer": "placeholder",
+    "disclaimerContent": "placeholder",
+    "liability": "placeholder",
+    "liabilityContent": "placeholder",
+    "languageVersions": "placeholder",
+    "languageVersionsContent": "placeholder"
   },
   "languageSwitcher": {
     "label": "Язык"

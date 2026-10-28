@@ -1,16 +1,10 @@
 "use client"
 
-import { Building2, Compass, Droplet, Mail, Vote } from "lucide-react"
-import {
-  BrandMark,
-  LandingShell,
-  SiteFooter,
-  SiteHeader,
-} from "@kompass/landing"
+import { Building2, Droplet, Mail, Vote } from "lucide-react"
 import { Button } from "@kompass/ui/button"
 import { metaTagClassName } from "@kompass/ui/lib/chip-styles"
 import { HeroCompass } from "@/components/hero-compass"
-import { LanguageSwitcher } from "@/components/language-switcher"
+import { SiteChrome } from "@/components/site-chrome"
 import { useLanguage } from "@/components/language-provider"
 import { COLLECTIVE_EMAIL, PEOPLE } from "@/lib/contacts"
 import { programHref, projectHref, type ProjectId } from "@/lib/projects"
@@ -56,39 +50,13 @@ const contentWide = "mx-auto w-full max-w-6xl xl:max-w-7xl"
 
 export function HomePageClient() {
   const { language, translations: t } = useLanguage()
-  const homeHref = `/${language}`
-  const brand = (
-    <BrandMark icon={Compass}>
-      <span className="text-foreground">{t.brand}</span>
-    </BrandMark>
-  )
 
   const projectNames = Object.fromEntries(
     t.projects.items.map((item) => [item.id, item.name])
   ) as Record<ProjectId, string>
 
   return (
-    <LandingShell
-      enableScrollSnap
-      header={
-        <SiteHeader
-          brand={brand}
-          homeHref={homeHref}
-          links={[
-            { type: "section", id: "projects", label: t.navigation.projects },
-            { type: "section", id: "about", label: t.navigation.about },
-            {
-              type: "section",
-              id: "supporters",
-              label: t.navigation.supporters,
-            },
-            { type: "section", id: "contact", label: t.navigation.contact },
-          ]}
-          trailing={<LanguageSwitcher />}
-        />
-      }
-      footer={<SiteFooter brand={brand} notice={t.footer.notice} />}
-    >
+    <SiteChrome enableScrollSnap>
       {/* Hero */}
       <section
         id="hero"
@@ -391,6 +359,6 @@ export function HomePageClient() {
           </div>
         </div>
       </section>
-    </LandingShell>
+    </SiteChrome>
   )
 }
