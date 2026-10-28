@@ -3,7 +3,7 @@
   "brandAccent": "Kompass",
   "brandRest": "Kollektive",
   "meta": {
-    "description": "Unabhängige zivilgesellschaftliche Projekte für Berlin — Wasser für alle, Wahl Kompass und Polit Kompass."
+    "description": "Unabhängige zivilgesellschaftliche Projekte für Berlin — Wasser für alle, Wahl Kompass und Kommunal Kompass."
   },
   "navigation": {
     "projects": "Projekte",
@@ -64,11 +64,11 @@
       },
       {
         "id": "polit",
-        "name": "Polit Kompass",
+        "name": "Kommunal Kompass",
         "status": "research",
-        "description": "Polit Kompass will Berliner:innen helfen, lokale Behörden zu kommunalen Themen zu erreichen. Das Projekt ist noch in der Recherche — Leitfäden und Werkzeuge sind im Aufbau.",
+        "description": "Kommunal Kompass will Berliner:innen helfen, lokale Behörden zu kommunalen Themen zu erreichen. Das Projekt ist noch in der Recherche — Leitfäden und Werkzeuge sind im Aufbau.",
         "program": "",
-        "linkLabel": "Zu Polit Kompass",
+        "linkLabel": "Zu Kommunal Kompass",
         "results": []
       }
     ]
@@ -77,7 +77,7 @@
     "title": "Wer wir sind",
     "intro": "Wir bauen praktische Tools, die politische und administrative Informationen in Berlin verständlicher und mehrsprachig zugänglich machen — unabhängig und quellenbasiert.",
     "pageTitle": "Über Kompass Kollektive",
-    "body": "Kompass Kollektive ist die Heimat der Projekte von Nina und Mascha — Wasser für alle, Wahl Kompass und Polit Kompass."
+    "body": "Kompass Kollektive ist die Heimat der Projekte von Nina und Mascha — Wasser für alle, Wahl Kompass und Kommunal Kompass."
   },
   "team": {
     "people": {

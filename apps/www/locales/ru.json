@@ -3,7 +3,7 @@
   "brandAccent": "Kompass",
   "brandRest": "Kollektive",
   "meta": {
-    "description": "Независимые гражданские проекты для Берлина — Water for All, Wahl Kompass и Polit Kompass."
+    "description": "Независимые гражданские проекты для Берлина — Water for All, Wahl Kompass и Kommunal Kompass."
   },
   "navigation": {
     "projects": "Проекты",
@@ -64,11 +64,11 @@
       },
       {
         "id": "polit",
-        "name": "Polit Kompass",
+        "name": "Kommunal Kompass",
         "status": "research",
-        "description": "Polit Kompass хочет помочь жителям Берлина обращаться в местные органы по городским вопросам. Проект ещё на стадии исследования — инструкции и инструменты в разработке.",
+        "description": "Kommunal Kompass хочет помочь жителям Берлина обращаться в местные органы по городским вопросам. Проект ещё на стадии исследования — инструкции и инструменты в разработке.",
         "program": "",
-        "linkLabel": "Открыть Polit Kompass",
+        "linkLabel": "Открыть Kommunal Kompass",
         "results": []
       }
     ]
@@ -77,7 +77,7 @@
     "title": "Кто мы",
     "intro": "Мы делаем практичные инструменты, которые делают политическую и административную информацию в Берлине понятнее и многоязычной — независимо и на основе источников.",
     "pageTitle": "О Kompass Kollektive",
-    "body": "Kompass Kollektive — дом проектов Нины и Маши: Water for All, Wahl Kompass и Polit Kompass."
+    "body": "Kompass Kollektive — дом проектов Нины и Маши: Water for All, Wahl Kompass и Kommunal Kompass."
   },
   "team": {
     "people": {
