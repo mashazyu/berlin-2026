@@ -8,7 +8,7 @@
   "navigation": {
     "projects": "Projekte",
     "about": "Wer wir sind",
-    "supporters": "Unterstützer",
+    "supporters": "Ermöglicht durch",
     "contact": "Kontakt"
   },
   "hero": {
@@ -30,8 +30,8 @@
         "id": "water4all",
         "name": "Wasser für alle",
         "status": "running",
-        "description": "Ein offener Atlas freier Trinkwasserstellen in Berlin — macht den Zugang sichtbar und hilft vor Ort, sich für neue Trinkbrunnen einzusetzen.",
-        "program": "Programm INA (2025)",
+        "description": "Wasser für alle macht kostenloses Trinkwasser in Berlin sichtbar: Die Karte bündelt hunderte öffentliche Stellen — Brunnen, Refill und Spender. Parallel hilft das Projekt Bürger:innen, sich für neue Trinkbrunnen einzusetzen.",
+        "program": "Programm INA",
         "linkLabel": "Zu Wasser für alle",
         "results": [
           {
@@ -48,8 +48,8 @@
         "id": "berlin-2026",
         "name": "Wahl Kompass – Berlin 2026",
         "status": "running",
-        "description": "Ein mehrsprachiger Vergleich der Parteiprogramme vor der Abgeordnetenhauswahl 2026.",
-        "program": "Programm Kommunal Aktiv (2026)",
+        "description": "Wahl Kompass stellt die Positionen aus den offiziellen Wahlprogrammen nebeneinander — ohne Empfehlung und ohne Parteibindung. Offizielle Texte erscheinen nur auf Deutsch; wir machen sie in Sprachen zugänglich, die in Berlin gesprochen werden.",
+        "program": "Programm Kommunal Aktiv",
         "linkLabel": "Zu Wahl Kompass – Berlin 2026",
         "results": [
           {
@@ -66,7 +66,7 @@
         "id": "polit",
         "name": "Polit Kompass",
         "status": "research",
-        "description": "Ermöglicht Berliner:innen den Austausch mit der Berliner Verwaltung.",
+        "description": "Polit Kompass will Berliner:innen helfen, lokale Behörden zu kommunalen Themen zu erreichen. Das Projekt ist noch in der Recherche — Leitfäden und Werkzeuge sind im Aufbau.",
         "program": "",
         "linkLabel": "Zu Polit Kompass",
         "results": []
@@ -101,19 +101,25 @@
     }
   },
   "supporters": {
-    "title": "Unsere Unterstützer",
+    "title": "Ermöglicht durch",
     "items": [
       {
         "id": "ina",
-        "name": "Programm INA (2025)",
-        "detail": "unterstützt Wasser für alle",
-        "href": "https://www.club-dialog.de/ina/"
+        "name": "Programm INA",
+        "org": "Club Dialog e.V.",
+        "period": "2024 – 2025",
+        "bio": "INA — Information. Nachdenken. Aktivierung. — ist ein Programm von Club Dialog e.V. für politische Bildung russischsprachiger Berliner:innen. Es begleitet Teilnehmende dabei, eigene zivilgesellschaftliche Initiativen zu entwickeln und umzusetzen.",
+        "href": "https://www.club-dialog.de/ina/",
+        "logo": "/supporters/club-dialog.png"
       },
       {
         "id": "kommunal-aktiv",
-        "name": "Programm Kommunal Aktiv (2026)",
-        "detail": "unterstützt Wahl Kompass – Berlin 2026",
-        "href": "https://www.bvre.de/projekte-des-bvre/kommunal-activ.html"
+        "name": "Programm Kommunal Aktiv",
+        "org": "BVRE",
+        "period": "2026 – heute",
+        "bio": "Kommunal Aktiv ist ein Pilotprogramm des BVRE für demokratische Teilhabe von Menschen mit Migrationsgeschichte. Es macht kommunale Strukturen verständlicher und begleitet Engagierte bundesweit bei eigenen Praxisvorhaben vor Ort.",
+        "href": "https://www.bvre.de/projekte-des-bvre/kommunal-activ.html",
+        "logo": "/supporters/bvre.png"
       }
     ]
   },

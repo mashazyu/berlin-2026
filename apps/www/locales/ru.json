@@ -8,7 +8,7 @@
   "navigation": {
     "projects": "Проекты",
     "about": "Кто мы",
-    "supporters": "Партнёры",
+    "supporters": "При поддержке",
     "contact": "Контакт"
   },
   "hero": {
@@ -30,8 +30,8 @@
         "id": "water4all",
         "name": "Water for All",
         "status": "running",
-        "description": "Открытый атлас бесплатной питьевой воды в Берлине — делает доступ к воде видимым и помогает добиваться новых фонтанчиков.",
-        "program": "Программа INA (2025)",
+        "description": "Water for All делает бесплатную питьевую воду в Берлине видимой: карта собирает сотни общественных точек — фонтанчики, Refill и кулеры. Параллельно проект помогает жителям добиваться новых питьевых фонтанчиков.",
+        "program": "Программа INA",
         "linkLabel": "Открыть Water for All",
         "results": [
           {
@@ -48,8 +48,8 @@
         "id": "berlin-2026",
         "name": "Wahl Kompass – Berlin 2026",
         "status": "running",
-        "description": "Многоязычное сравнение программ партий перед земельными выборами в Берлине 2026.",
-        "program": "Программа Kommunal Aktiv (2026)",
+        "description": "Wahl Kompass ставит позиции из официальных партийных программ рядом — без рекомендаций и без партийной привязки. Официальные тексты выходят только на немецком; мы делаем их доступными на языках, на которых говорят в Берлине.",
+        "program": "Программа Kommunal Aktiv",
         "linkLabel": "Открыть Wahl Kompass – Berlin 2026",
         "results": [
           {
@@ -66,7 +66,7 @@
         "id": "polit",
         "name": "Polit Kompass",
         "status": "research",
-        "description": "Помогает жителям Берлина общаться с городской администрацией.",
+        "description": "Polit Kompass хочет помочь жителям Берлина обращаться в местные органы по городским вопросам. Проект ещё на стадии исследования — инструкции и инструменты в разработке.",
         "program": "",
         "linkLabel": "Открыть Polit Kompass",
         "results": []
@@ -101,19 +101,25 @@
     }
   },
   "supporters": {
-    "title": "Наши партнёры",
+    "title": "При поддержке",
     "items": [
       {
         "id": "ina",
-        "name": "Программа INA (2025)",
-        "detail": "поддерживает Water for All",
-        "href": "https://www.club-dialog.de/ina/"
+        "name": "Программа INA",
+        "org": "Club Dialog e.V.",
+        "period": "2024 – 2025",
+        "bio": "INA — Information. Nachdenken. Aktivierung. — программа Club Dialog e.V. по политическому образованию русскоязычных берлинцев. Она помогает участникам развивать и реализовывать собственные гражданские инициативы.",
+        "href": "https://www.club-dialog.de/ina/",
+        "logo": "/supporters/club-dialog.png"
       },
       {
         "id": "kommunal-aktiv",
-        "name": "Программа Kommunal Aktiv (2026)",
-        "detail": "поддерживает Wahl Kompass – Berlin 2026",
-        "href": "https://www.bvre.de/projekte-des-bvre/kommunal-activ.html"
+        "name": "Программа Kommunal Aktiv",
+        "org": "BVRE",
+        "period": "2026 – сейчас",
+        "bio": "Kommunal Aktiv — пилотная программа BVRE для демократического участия людей с миграционным опытом. Она делает муниципальные структуры понятнее и сопровождает активистов по всей стране в реализации локальных проектов.",
+        "href": "https://www.bvre.de/projekte-des-bvre/kommunal-activ.html",
+        "logo": "/supporters/bvre.png"
       }
     ]
   },

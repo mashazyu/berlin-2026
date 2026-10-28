@@ -321,38 +321,47 @@ export function HomePageClient() {
       </section>
 
       {/* Supporters */}
-      <section id="supporters" className={sectionShell}>
+      <section id="supporters" className={`${sectionShell} bg-section-muted`}>
         <div className={`${contentWide} animate-[rise_0.55s_ease-out_both]`}>
           <h2 className="font-display text-3xl font-semibold tracking-[-0.01em] sm:text-4xl">
             {t.supporters.title}
           </h2>
           <ul className="mt-10 grid gap-4 md:grid-cols-2">
             {t.supporters.items.map((item) => (
-              <li
-                key={item.id}
-                className="flex items-center gap-4 border border-border bg-background p-5 sm:gap-5 sm:p-6"
-              >
-                <div
-                  className="flex size-14 shrink-0 items-center justify-center bg-section-muted font-display text-lg font-semibold text-primary"
-                  aria-hidden
+              <li key={item.id} className="min-w-0">
+                <a
+                  href={item.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex h-full flex-col gap-4 border border-border bg-background p-5 transition-colors hover:border-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring sm:p-6"
                 >
-                  {item.name.charAt(0)}
-                </div>
-                <div className="min-w-0">
-                  <p className="font-display text-lg font-semibold tracking-[-0.01em]">
-                    <a
-                      href={item.href}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-foreground underline-offset-4 transition-colors hover:text-primary hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
-                    >
-                      {item.name}
-                    </a>
-                  </p>
-                  <p className="mt-1 text-sm text-muted-foreground">
-                    {item.detail}
-                  </p>
-                </div>
+                  <span className="flex items-start gap-4">
+                    <span className="flex h-14 w-20 shrink-0 items-center justify-center border border-border bg-white p-2 sm:h-16 sm:w-24">
+                      {/* eslint-disable-next-line @next/next/no-img-element -- static logos from /public */}
+                      <img
+                        src={item.logo}
+                        alt=""
+                        width={96}
+                        height={64}
+                        className="max-h-full max-w-full object-contain"
+                      />
+                    </span>
+                    <span className="min-w-0 flex-1">
+                      <span className="flex flex-wrap items-center gap-2">
+                        <span className="font-display text-lg font-semibold tracking-[-0.01em] text-foreground">
+                          {item.name}
+                        </span>
+                        <span className={metaTagClassName()}>{item.period}</span>
+                      </span>
+                      <span className="mt-1 block text-sm text-muted-foreground">
+                        {item.org}
+                      </span>
+                    </span>
+                  </span>
+                  <span className="text-base leading-relaxed text-muted-foreground">
+                    {item.bio}
+                  </span>
+                </a>
               </li>
             ))}
           </ul>
@@ -362,7 +371,7 @@ export function HomePageClient() {
       {/* Contact */}
       <section id="contact" className={sectionShell}>
         <div
-          className={`${contentWide} animate-[rise_0.55s_ease-out_both] border border-border bg-background p-6 sm:p-8 lg:p-10`}
+          className={`${contentWide} animate-[rise_0.55s_ease-out_both] border border-border bg-card p-6 sm:p-8 lg:p-10`}
         >
           <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between lg:gap-10">
             <div className="max-w-xl">
