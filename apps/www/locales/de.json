@@ -3,59 +3,100 @@
   "brandAccent": "Kompass",
   "brandRest": "Kollektive",
   "meta": {
-    "description": "Nina und Mascha bauen zivilgesellschaftliche Tools für Berlin: Wasser für alle und Berlin 2026."
+    "description": "Unabhängige zivilgesellschaftliche Projekte für Berlin — Wasser für alle, Wahl Kompass und Kommunal Kompass."
   },
   "navigation": {
-    "about": "Über uns",
     "projects": "Projekte",
-    "contacts": "Kontakt"
+    "about": "Wer wir sind",
+    "supporters": "Ermöglicht durch",
+    "contact": "Kontakt"
   },
-  "intro": {
-    "title": "Über uns",
-    "paragraphs": [
-      "Kompass Kollektive versammelt Projekte von Nina und Mascha. Im vergangenen Jahr haben sie Wasser für alle gestartet — eine Karte freier Trinkwasserstellen in Berlin.",
-      "Vor der Wahl wollte Nina wissen, wem sie ihre Stimme geben soll. Sie las die Parteiprogramme, baute eine Vergleichstabelle und schrieb über Klima- und Verkehrspolitik der Parteien. Die Tabelle zeigte sie Mascha — die schlug vor, daraus eine Website zu machen, und gestaltete das gesamte UI. So entstand ein klares, praktisches Werkzeug: Wahl Kompass - Berlin 2026.",
-      "Wasser für alle ist eine Graswurzel-Initiative, die Informationen über kostenlose Trinkwasserquellen in Berlin für alle zugänglich macht. Das Projekt entstand aus dem Programm Lab for Political Participation von Club Dialog e.V. und hat sich seitdem zu einer eigenständigen Initiative entwickelt.",
-      "Das Lab for Political Participation ist ein Programm von Club Dialog e.V., das russischsprachige Berliner:innen mit Migrationsgeschichte darin stärkt, sich zivilgesellschaftlich und politisch zu engagieren.",
-      "Wahl Kompass - Berlin 2026 ist ein unabhängiges Projekt zum Vergleich von Parteiprogrammen vor der Abgeordnetenhauswahl 2026. Offizielle Programme erscheinen nur auf Deutsch — wir übersetzen sie in Sprachen, die in Berlin gesprochen werden. Nina vergleicht die Programme und treibt das Projekt voran; Mascha sorgt für die Technik."
-    ]
+  "hero": {
+    "tagline": "Unabhängige zivilgesellschaftliche Projekte für Berlin.",
+    "blurb": "Wir entwickeln mehrsprachige, quellenbasierte Informationen für Berlin — faktenbasiert, neutral und so, dass Politik und Verwaltung zugänglicher werden.",
+    "ctaProjects": "Unsere Projekte",
+    "ctaAbout": "Wer wir sind",
+    "diagramLabel": "Unsere drei Projekte",
+    "diagramProjects": {
+      "water4all": "Wasser Kompass",
+      "berlin-2026": "Wahl Kompass",
+      "polit": "Kommunal Kompass"
+    }
   },
   "projects": {
-    "title": "Projekte",
+    "title": "Unsere Projekte",
+    "resultsAsOf": "Stand September 2026",
+    "status": {
+      "running": "Laufend",
+      "research": "Recherchephase"
+    },
     "items": [
       {
         "id": "water4all",
         "name": "Wasser für alle",
-        "description": "Ein offener Atlas freier Trinkwasserstellen in Berlin — macht den Zugang sichtbar und hilft vor Ort, sich für neue Trinkbrunnen einzusetzen.",
-        "linkLabel": "Zu Wasser für alle"
+        "status": "running",
+        "description": "Wasser für alle macht kostenloses Trinkwasser in Berlin sichtbar: Die Karte bündelt hunderte öffentliche Stellen — Brunnen, Refill und Spender. Parallel hilft das Projekt Bürger:innen, sich für neue Trinkbrunnen einzusetzen.",
+        "program": "Programm INA",
+        "linkLabel": "Zu Wasser für alle",
+        "results": [
+          {
+            "value": "100.000+",
+            "label": "Kartenaufrufe"
+          },
+          {
+            "value": "3",
+            "label": "Sprachen"
+          }
+        ]
       },
       {
         "id": "berlin-2026",
-        "name": "Wahl Kompass - Berlin 2026",
-        "description": "Ein mehrsprachiger Vergleich der Parteiprogramme vor der Abgeordnetenhauswahl 2026.",
-        "linkLabel": "Zu Wahl Kompass - Berlin 2026"
+        "name": "Wahl Kompass – Berlin 2026",
+        "status": "running",
+        "description": "Wahl Kompass stellt die Positionen aus den offiziellen Wahlprogrammen nebeneinander — ohne Empfehlung und ohne Parteibindung. Offizielle Texte erscheinen nur auf Deutsch; wir machen sie in Sprachen zugänglich, die in Berlin gesprochen werden.",
+        "program": "Programm Kommunal Aktiv",
+        "linkLabel": "Zu Wahl Kompass – Berlin 2026",
+        "results": [
+          {
+            "value": "4.300+",
+            "label": "Nutzer:innen"
+          },
+          {
+            "value": "11",
+            "label": "Sprachen"
+          }
+        ]
       },
       {
         "id": "polit",
-        "name": "Polit Kompass",
-        "description": "Ermöglicht Berliner:innen den Austausch mit der Berliner Verwaltung.",
-        "linkLabel": "Zu Polit Kompass"
+        "name": "Kommunal Kompass",
+        "status": "research",
+        "description": "Kommunal Kompass will Berliner:innen helfen, lokale Behörden zu kommunalen Themen zu erreichen. Das Projekt ist noch in der Recherche — Leitfäden und Werkzeuge sind im Aufbau.",
+        "program": "",
+        "linkLabel": "Zu Kommunal Kompass",
+        "results": []
       }
     ]
   },
-  "footer": {
-    "notice": "Unabhängige zivilgesellschaftliche Projekte für Berlin."
+  "about": {
+    "title": "Wer wir sind",
+    "intro": "Wir bauen praktische Tools, die politische und administrative Informationen in Berlin verständlicher und mehrsprachig zugänglich machen — unabhängig und quellenbasiert.",
+    "pageTitle": "Über Kompass Kollektive",
+    "body": "Kompass Kollektive ist die Heimat der Projekte von Nina und Mascha — Wasser für alle, Wahl Kompass und Kommunal Kompass."
   },
-  "contacts": {
-    "title": "Kontakt",
+  "team": {
     "people": {
       "nina": {
         "name": "Nina",
-        "role": "Programme & Inhalt"
+        "role": "Programme & Inhalt",
+        "bio": "Nina bringt über zehn Jahre Erfahrung in Kommunikation, Content-Erstellung und Projektkoordination bei internationalen Tech-Startups mit. Heute schreibt sie bei Cee Cee Berlin über Umwelt- und Stadtpolitik und setzt sich für politische Teilhabe in Berlin ein.",
+        "initials": "N"
       },
       "masha": {
         "name": "Mascha",
-        "role": "Produkt & Technik"
+        "role": "Produkt & Technik",
+        "bio": "Mascha bringt langjährige Erfahrung in Projektmanagement sowie im Bau von Web- und Mobile-Tools für Citizen Science und Umweltdaten mit. Heute gestaltet sie die Technik hinter Kompass Kollektive und setzt sich für zugängliche digitale Teilhabe in Berlin ein.",
+        "initials": "M"
       }
     },
     "labels": {
@@ -64,9 +105,91 @@
       "substack": "Substack"
     }
   },
-  "about": {
-    "title": "Über Kompass Kollektive",
-    "body": "Kompass Kollektive ist die Heimat der Projekte von Nina und Mascha — Wasser für alle, Wahl Kompass und Polit Kompass."
+  "supporters": {
+    "title": "Ermöglicht durch",
+    "items": [
+      {
+        "id": "ina",
+        "name": "Programm INA",
+        "org": "Club Dialog e.V.",
+        "period": "2024 – 2025",
+        "bio": "INA — Information. Nachdenken. Aktivierung. — ist ein Programm von Club Dialog e.V. für politische Bildung russischsprachiger Berliner:innen. Es begleitet Teilnehmende dabei, eigene zivilgesellschaftliche Initiativen zu entwickeln und umzusetzen.",
+        "href": "https://www.club-dialog.de/ina/",
+        "logo": "/supporters/club-dialog.png"
+      },
+      {
+        "id": "kommunal-aktiv",
+        "name": "Programm Kommunal Aktiv",
+        "org": "BVRE",
+        "period": "2026 – heute",
+        "bio": "Kommunal Aktiv ist ein Pilotprogramm des BVRE für demokratische Teilhabe von Menschen mit Migrationsgeschichte. Es macht kommunale Strukturen verständlicher und begleitet Engagierte bundesweit bei eigenen Praxisvorhaben vor Ort.",
+        "href": "https://www.bvre.de/projekte-des-bvre/kommunal-activ.html",
+        "logo": "/supporters/bvre.png"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Fragen, Presse, Partnerschaften, Übersetzungen?",
+    "blurb": "Schreiben Sie uns — wir antworten auf Deutsch, Englisch oder Русский.",
+    "emailLabel": "kontakt@kompass.berlin"
+  },
+  "footer": {
+    "notice": "Unabhängige zivilgesellschaftliche Projekte für Berlin — Kompass Kollektive",
+    "aiNotice": "Texte auf dieser Website entstanden mit KI-Unterstützung.",
+    "aiDisclosure": "KI-Hinweis",
+    "impressum": "Impressum",
+    "privacy": "Datenschutz"
+  },
+  "aiDisclosure": {
+    "title": "KI-Hinweis",
+    "intro": "Hier erklären wir, wie wir KI-Tools beim Erstellen von Inhalten nutzen — und warum Menschen für das Veröffentlichte verantwortlich bleiben.",
+    "howWeUseAi": "Wie wir KI nutzen",
+    "howWeUseAiContent": "Wir nutzen KI-Tools, um Website-Texte zu entwerfen und zu verbessern — etwa Seitentexte und Projektbeschreibungen. KI hilft bei Formulierung und Struktur; sie entscheidet nicht, was wir veröffentlichen.",
+    "humanResponsibility": "Menschliche Ideen und redaktionelle Verantwortung",
+    "humanResponsibilityContent": "Alle Ideen, Ziele und inhaltlichen Entscheidungen hinter dieser Website stammen von Menschen im Kompass Kollektive. Vor der Veröffentlichung prüfen wir den Inhalt auf Klarheit und darauf, ob er zu unseren Projekten passt. Die redaktionelle Verantwortung liegt beim Kompass Kollektive.",
+    "reviewAndAccuracy": "Prüfung und Richtigkeit",
+    "reviewAndAccuracyContent": "Wir prüfen Inhalte auf Richtigkeit — Fehler können trotzdem vorkommen, und Nuancen können untergehen. Wenn Ihnen etwas auffällt, schreiben Sie uns bitte.",
+    "contact": "Kontakt",
+    "contactContent": "Fragen zur KI-Nutzung oder zu Inhalten auf dieser Website? Schreiben Sie an {email}."
+  },
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "intro": "Diese Datenschutzerklärung erklärt, wie wir personenbezogene Daten erheben, nutzen und schützen, wenn Sie unsere Website besuchen — nach der Datenschutz-Grundverordnung (DSGVO) und dem geltenden deutschen Datenschutzrecht (einschließlich TTDSG).",
+    "responsibleParty": "Verantwortliche Stelle",
+    "responsiblePartyContent": "Kompass Kollektive\nE-Mail: {email}",
+    "dataProcessed": "Verarbeitete Daten",
+    "dataProcessedContent": "Beim Besuch unserer Website kann unser Hosting-Anbieter automatisch technische Daten verarbeiten, die für die Auslieferung der Seite nötig sind (zum Beispiel IP-Adresse, Browser-/User-Agent-Informationen und Zeitstempel in Server-Logs). Wir betreiben keine Nutzerkonten und keine Registrierung.\n\nWir setzen keine Tracking- oder Werbeanalytik ein. Wenn Sie uns per E-Mail kontaktieren, verarbeiten wir Ihre E-Mail-Adresse und den Inhalt Ihrer Nachricht, damit wir antworten können.",
+    "hosting": "Hosting",
+    "hostingContent": "Diese Website wird von Vercel Inc. gehostet. Serverinfrastruktur und Content Delivery können eine Verarbeitung außerhalb des Europäischen Wirtschaftsraums unter geeigneten Garantien umfassen (einschließlich Standardvertragsklauseln, soweit anwendbar). Details: [Datenschutzerklärung von Vercel](https://vercel.com/legal/privacy-policy).",
+    "processors": "Auftragsverarbeiter",
+    "processorsContent": "Wir setzen folgende Dienstleister als Auftragsverarbeiter (Art. 28 DSGVO) ein. Für einzelne Anbieter kann eine Übermittlung in die USA erfolgen; wir stützen uns auf geeignete Garantien wie Standardvertragsklauseln und die Auftragsverarbeitungsbedingungen der Anbieter.\n\n• Vercel Inc. — Hosting und Auslieferung der Website.",
+    "purposeOfProcessing": "Zweck und Rechtsgrundlagen",
+    "purposeOfProcessingContent": "Wir verarbeiten Daten, um:\n\n• diese Website bereitzustellen, zu sichern und zu betreiben (Art. 6 Abs. 1 lit. f DSGVO)\n• auf E-Mail-Anfragen zu antworten, die Sie an uns richten (Art. 6 Abs. 1 lit. a und/oder lit. b DSGVO, je nach Anliegen)",
+    "retention": "Speicherdauer",
+    "retentionContent": "Server-Logs werden vom Hosting-Anbieter nur so lange aufbewahrt, wie es für Sicherheit und Betrieb nötig ist, und danach gemäß dessen Praxis gelöscht oder anonymisiert.\n\nE-Mail-Korrespondenz speichern wir nur so lange, wie es zur Bearbeitung Ihres Anliegens nötig ist, und danach für eine kurze Zeit, falls Nachfragen oder Dokumentation erforderlich sind, dann gelöscht.",
+    "cookies": "Cookies und ähnliche Technologien",
+    "cookiesContent": "Die Sprache wird über die URL gewählt. Wir setzen keine Sprach-Cookies und keine Werbe-Cookies. Cookies und Website-Daten können Sie jederzeit in den Browsereinstellungen löschen.",
+    "yourRights": "Ihre Rechte nach der DSGVO",
+    "yourRightsIntro": "Nach der DSGVO haben Sie folgende Rechte in Bezug auf Ihre personenbezogenen Daten:",
+    "yourRightsList": "• Auskunftsrecht (Art. 15 DSGVO)\n• Recht auf Berichtigung (Art. 16 DSGVO)\n• Recht auf Löschung (Art. 17 DSGVO)\n• Recht auf Einschränkung der Verarbeitung (Art. 18 DSGVO)\n• Recht auf Datenübertragbarkeit (Art. 20 DSGVO)\n• Widerspruchsrecht gegen Verarbeitung auf Grundlage berechtigter Interessen (Art. 21 DSGVO)\n• Recht, eine erteilte Einwilligung zu widerrufen (Art. 7 Abs. 3 DSGVO)\n• Beschwerderecht bei einer Aufsichtsbehörde (Art. 77 DSGVO)",
+    "supervisoryAuthority": "Aufsichtsbehörde",
+    "supervisoryAuthorityContent": "Sie können sich bei einer Datenschutzaufsichtsbehörde beschweren. Für Berlin ist dies in der Regel:\n\nBerliner Beauftragte für Datenschutz und Informationsfreiheit\nAlt-Moabit 59–61, 10555 Berlin\n[https://www.datenschutz-berlin.de](https://www.datenschutz-berlin.de)",
+    "contactInfo": "Zur Ausübung Ihrer Rechte oder bei Fragen zu Ihren Daten schreiben Sie an {email}."
+  },
+  "impressum": {
+    "title": "Impressum",
+    "responsibleParty": "Verantwortlich (Anbieter)",
+    "responsiblePartyContent": "Kompass Kollektive\n\nBerlin, Deutschland",
+    "contact": "Kontakt",
+    "contactContent": "E-Mail: {email}",
+    "editorial": "Verantwortlich für redaktionelle Inhalte",
+    "editorialContent": "Nina Harz, Maria Waldenberg\n\nBerlin, Deutschland",
+    "disclaimer": "Hinweis",
+    "disclaimerContent": "Diese Website stellt Informationen zu unabhängigen zivilgesellschaftlichen Projekten ausschließlich zu Informationszwecken bereit. Trotz sorgfältiger Prüfung übernehmen wir keine Gewähr für Vollständigkeit, Aktualität oder Fehlerfreiheit.\n\nWir sind mit keiner politischen Partei verbunden.",
+    "liability": "Haftung",
+    "liabilityContent": "Für die Inhalte externer Links übernehmen wir keine Verantwortung. Die Inhalte werden „wie besehen“ bereitgestellt. Soweit gesetzlich zulässig, schließen wir die Haftung für Schäden aus der Nutzung der Website aus — außer bei Vorsatz oder grober Fahrlässigkeit.",
+    "languageVersions": "Sprachfassungen",
+    "languageVersionsContent": "Dieses Impressum ist auf Deutsch und Englisch verfügbar. Die deutsche Fassung ist für rechtliche Zwecke in Deutschland maßgebend."
   },
   "languageSwitcher": {
     "label": "Sprache"

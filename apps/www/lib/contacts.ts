@@ -4,19 +4,26 @@ export type PersonContact = {
   email: string
   linkedin: string
   substack: string
+  /** Public path under /public, e.g. /team/masha.png */
+  photo?: string
 }
+
+/** Shared inbox for the collective contact CTA. */
+export const COLLECTIVE_EMAIL = "kontakt@kompass.berlin"
 
 export const PEOPLE: PersonContact[] = [
   {
     id: "nina",
-    email: "feedback@berlin-2026.de",
+    email: "",
     linkedin: "",
-    substack: "",
+    substack: "https://substack.com/@ninaharz",
+    photo: "/team/nina.png",
   },
   {
     id: "masha",
-    email: "feedback@berlin-2026.de",
-    linkedin: "",
+    email: "",
+    linkedin: "https://www.linkedin.com/in/maria-w-722667/",
     substack: "",
+    photo: "/team/masha.png",
   },
 ]

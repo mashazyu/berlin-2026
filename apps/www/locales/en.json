@@ -3,59 +3,100 @@
   "brandAccent": "Kompass",
   "brandRest": "Kollektive",
   "meta": {
-    "description": "Nina and Masha build civic tools for Berlin: Water for All and Berlin 2026."
+    "description": "Independent civic projects for Berlin — Water for All, Wahl Kompass and Kommunal Kompass."
   },
   "navigation": {
-    "about": "About",
     "projects": "Projects",
-    "contacts": "Contacts"
+    "about": "Who we are",
+    "supporters": "Made possible by",
+    "contact": "Contact"
   },
-  "intro": {
-    "title": "About us",
-    "paragraphs": [
-      "Kompass Kollektive brings together projects by Nina and Masha. Last year they launched Water for All — a map of free drinking water sources in Berlin.",
-      "Ahead of the election, Nina started figuring out who to vote for. She read the party programs, built a comparison table, and wrote about climate and transport policy across parties. She showed the table to Masha, who suggested turning it into a website and designed the whole UI. That is how a clear, practical tool came to life — Wahl Kompass - Berlin 2026.",
-      "Water for All is a grassroots initiative dedicated to making information about free drinking water sources in Berlin accessible to everyone. The project was born out of the Lab for Political Participation program by Club Dialog e.V. and has since evolved into an independent initiative.",
-      "The Lab for Political Participation is a Club Dialog e.V. program designed to empower Russian-speaking Berliners with migration backgrounds to strengthen their civic and political engagement.",
-      "Wahl Kompass - Berlin 2026 is an independent project comparing party programs ahead of the 2026 Berlin state election. Official programs are published only in German — we translate them into languages spoken in Berlin. Nina compares the programs and develops the project; Masha handles the technical side."
-    ]
+  "hero": {
+    "tagline": "Independent civic projects for Berlin.",
+    "blurb": "We build multilingual, source-based information for Berlin — factual, neutral, and designed to make politics and administration easier to navigate.",
+    "ctaProjects": "Our projects",
+    "ctaAbout": "Who we are",
+    "diagramLabel": "Our three projects",
+    "diagramProjects": {
+      "water4all": "Water Compass",
+      "berlin-2026": "Wahl Kompass",
+      "polit": "Kommunal Kompass"
+    }
   },
   "projects": {
-    "title": "Projects",
+    "title": "Our projects",
+    "resultsAsOf": "As of September 2026",
+    "status": {
+      "running": "Running",
+      "research": "Research phase"
+    },
     "items": [
       {
         "id": "water4all",
         "name": "Water for All",
-        "description": "An open atlas of free drinking water in Berlin — making access visible and helping residents push for new drinking fountains.",
-        "linkLabel": "Visit Water for All"
+        "status": "running",
+        "description": "Water for All makes free drinking water in Berlin visible: the map brings together hundreds of public spots — fountains, Refill points and dispensers. In parallel, the project helps residents push for new drinking fountains.",
+        "program": "INA programme",
+        "linkLabel": "Visit Water for All",
+        "results": [
+          {
+            "value": "100,000+",
+            "label": "Map views"
+          },
+          {
+            "value": "3",
+            "label": "Languages"
+          }
+        ]
       },
       {
         "id": "berlin-2026",
-        "name": "Wahl Kompass - Berlin 2026",
-        "description": "A multilingual comparison of party programs ahead of the 2026 Berlin state election.",
-        "linkLabel": "Visit Wahl Kompass - Berlin 2026"
+        "name": "Wahl Kompass – Berlin 2026",
+        "status": "running",
+        "description": "Wahl Kompass places positions from the official party programs side by side — with no endorsement and no party affiliation. Official texts appear only in German; we make them available in languages spoken in Berlin.",
+        "program": "Kommunal Aktiv programme",
+        "linkLabel": "Visit Wahl Kompass – Berlin 2026",
+        "results": [
+          {
+            "value": "4,300+",
+            "label": "Users"
+          },
+          {
+            "value": "11",
+            "label": "Languages"
+          }
+        ]
       },
       {
         "id": "polit",
-        "name": "Polit Kompass",
-        "description": "Helps Berlin citizens communicate with Berlin bureaucracy.",
-        "linkLabel": "Visit Polit Kompass"
+        "name": "Kommunal Kompass",
+        "status": "research",
+        "description": "Kommunal Kompass aims to help Berliners reach local authorities on municipal issues. The project is still in research — guides and tools are taking shape.",
+        "program": "",
+        "linkLabel": "Visit Kommunal Kompass",
+        "results": []
       }
     ]
   },
-  "footer": {
-    "notice": "Independent civic projects for Berlin."
+  "about": {
+    "title": "Who we are",
+    "intro": "We build practical tools that make political and administrative information in Berlin clearer and multilingual — independent and source-based.",
+    "pageTitle": "About Kompass Kollektive",
+    "body": "Kompass Kollektive is the home of projects by Nina and Masha — Water for All, Wahl Kompass and Kommunal Kompass."
   },
-  "contacts": {
-    "title": "Contacts",
+  "team": {
     "people": {
       "nina": {
         "name": "Nina",
-        "role": "Programs & content"
+        "role": "Programs & content",
+        "bio": "Nina brings over ten years of experience in communication, content creation, and project coordination at international tech startups. Today she writes at Cee Cee Berlin about environmental and urban policy and advocates for political participation in Berlin.",
+        "initials": "N"
       },
       "masha": {
         "name": "Masha",
-        "role": "Product & engineering"
+        "role": "Product & engineering",
+        "bio": "Masha brings many years of experience in project management and in building web and mobile tools for citizen science and environmental data. Today she designs the tech behind Kompass Kollektive and works for accessible digital participation in Berlin.",
+        "initials": "M"
       }
     },
     "labels": {
@@ -64,9 +105,91 @@
       "substack": "Substack"
     }
   },
-  "about": {
-    "title": "About Kompass Kollektive",
-    "body": "Kompass Kollektive is the home of projects by Nina and Masha — Water for All, Wahl Kompass and Polit Kompass."
+  "supporters": {
+    "title": "Made possible by",
+    "items": [
+      {
+        "id": "ina",
+        "name": "INA programme",
+        "org": "Club Dialog e.V.",
+        "period": "2024 – 2025",
+        "bio": "INA — Information. Nachdenken. Aktivierung. — is a Club Dialog e.V. programme for political education of Russian-speaking Berliners. It supports participants in developing and carrying out their own civic initiatives.",
+        "href": "https://www.club-dialog.de/ina/",
+        "logo": "/supporters/club-dialog.png"
+      },
+      {
+        "id": "kommunal-aktiv",
+        "name": "Kommunal Aktiv programme",
+        "org": "BVRE",
+        "period": "2026 – now",
+        "bio": "Kommunal Aktiv is a BVRE pilot programme for democratic participation of people with a migration background. It makes municipal structures easier to understand and accompanies engaged people nationwide as they turn local ideas into practice.",
+        "href": "https://www.bvre.de/projekte-des-bvre/kommunal-activ.html",
+        "logo": "/supporters/bvre.png"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Questions, press, partnerships, translations?",
+    "blurb": "Write to us — we reply in German, English, or Русский.",
+    "emailLabel": "kontakt@kompass.berlin"
+  },
+  "footer": {
+    "notice": "Independent civic projects for Berlin — Kompass Kollektive",
+    "aiNotice": "Texts on this site were created with AI assistance.",
+    "aiDisclosure": "AI disclosure",
+    "impressum": "Legal notice",
+    "privacy": "Privacy"
+  },
+  "aiDisclosure": {
+    "title": "AI Disclosure",
+    "intro": "This page explains how we use AI tools when creating content for this site — and how human editors stay responsible for what we publish.",
+    "howWeUseAi": "How we use AI",
+    "howWeUseAiContent": "We use AI tools to draft and improve website text — for example page copy and project descriptions. AI helps with wording and structure; it does not decide what we publish.",
+    "humanResponsibility": "Human ideas and editorial responsibility",
+    "humanResponsibilityContent": "All ideas, goals, and content decisions behind this site come from people in the Kompass Kollektive. Before anything is published, we check it for clarity and fit with our projects. Editorial responsibility lies with the Kompass Kollektive.",
+    "reviewAndAccuracy": "Review and accuracy",
+    "reviewAndAccuracyContent": "We check content for accuracy, but errors can still happen and some nuance may be missed. If you spot a mistake, please let us know.",
+    "contact": "Contact",
+    "contactContent": "Questions about how we use AI or about content on this site? Write to {email}."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "intro": "This privacy policy explains how we collect, use, and protect your personal information when you visit our website, in line with the General Data Protection Regulation (GDPR) and applicable German data protection law (including the TTDSG).",
+    "responsibleParty": "Responsible party (controller)",
+    "responsiblePartyContent": "Kompass Kollektive\nEmail: {email}",
+    "dataProcessed": "Data processed",
+    "dataProcessedContent": "When you visit our website, our hosting provider may automatically process technical data required to deliver the site (for example IP address, browser/user-agent information, and request timestamps in server logs). We do not operate user accounts or require registration.\n\nWe do not use tracking or advertising analytics. If you contact us by email, we process your email address and the content of your message so we can reply.",
+    "hosting": "Hosting",
+    "hostingContent": "This website is hosted by Vercel Inc. Server infrastructure and content delivery may involve processing outside the European Economic Area under appropriate safeguards (including Standard Contractual Clauses where applicable). See [Vercel’s Privacy Policy](https://vercel.com/legal/privacy-policy).",
+    "processors": "Processors",
+    "processorsContent": "We use the following service providers as processors (Art. 28 GDPR). Transfers to the United States may occur for some providers; we rely on appropriate safeguards such as Standard Contractual Clauses and the providers’ data processing terms.\n\n• Vercel Inc. — hosting and delivery of the website.",
+    "purposeOfProcessing": "Purpose and legal bases",
+    "purposeOfProcessingContent": "We process data to:\n\n• Provide, secure, and maintain this website (Art. 6(1)(f) GDPR)\n• Reply to email requests you send us (Art. 6(1)(a) GDPR and/or Art. 6(1)(b) GDPR, depending on the request)",
+    "retention": "Retention",
+    "retentionContent": "Server logs are retained by the hosting provider only as long as needed for security and operations, then deleted or anonymised according to the provider’s practices.\n\nEmail correspondence is kept only as long as necessary to handle your request, and for a short period thereafter if needed for follow-up or documentation, then deleted.",
+    "cookies": "Cookies and similar technologies",
+    "cookiesContent": "Language is chosen via the URL. We do not set language cookies or advertising cookies. You can delete cookies and site data in your browser settings at any time.",
+    "yourRights": "Your rights under the GDPR",
+    "yourRightsIntro": "Under the GDPR, you have the following rights regarding your personal data:",
+    "yourRightsList": "• Right of access (Art. 15 GDPR)\n• Right to rectification (Art. 16 GDPR)\n• Right to erasure (Art. 17 GDPR)\n• Right to restriction of processing (Art. 18 GDPR)\n• Right to data portability (Art. 20 GDPR)\n• Right to object to processing based on legitimate interests (Art. 21 GDPR)\n• Right to withdraw consent where processing is based on consent (Art. 7(3) GDPR)\n• Right to lodge a complaint with a supervisory authority (Art. 77 GDPR)",
+    "supervisoryAuthority": "Supervisory authority",
+    "supervisoryAuthorityContent": "You may lodge a complaint with a data protection supervisory authority. For Berlin, this is typically:\n\nBerliner Beauftragte für Datenschutz und Informationsfreiheit\nAlt-Moabit 59–61, 10555 Berlin, Germany\n[https://www.datenschutz-berlin.de](https://www.datenschutz-berlin.de)",
+    "contactInfo": "To exercise your rights or ask questions about your data, contact us at {email}."
+  },
+  "impressum": {
+    "title": "Impressum",
+    "responsibleParty": "Responsible party (Controller)",
+    "responsiblePartyContent": "Kompass Kollektive\n\nBerlin, Germany",
+    "contact": "Contact",
+    "contactContent": "Email: {email}",
+    "editorial": "Responsible for editorial content",
+    "editorialContent": "Nina Harz, Maria Waldenberg\n\nBerlin, Germany",
+    "disclaimer": "Disclaimer",
+    "disclaimerContent": "This website provides information about independent civic projects for informational purposes only. While we strive for accuracy, we do not guarantee that all information is complete, current, or error-free.\n\nWe are not affiliated with any political party.",
+    "liability": "Liability",
+    "liabilityContent": "We are not responsible for the content of external links. Content is provided as-is. We exclude liability for damages arising from website use to the extent permitted by law, except for intentional misconduct or gross negligence.",
+    "languageVersions": "Language versions",
+    "languageVersionsContent": "This Impressum is available in English. The German version (Impressum auf Deutsch) is authoritative for legal purposes in Germany."
   },
   "languageSwitcher": {
     "label": "Language"

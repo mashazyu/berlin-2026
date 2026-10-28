@@ -6,6 +6,12 @@ const WATER_BASE = "https://www.water4all.com.de"
 const WAHL_BASE = "https://www.berlin-2026.de"
 const POLIT_BASE = "https://polit.kompass.berlin"
 
+const PROGRAM_HREF: Partial<Record<ProjectId, string>> = {
+  water4all: "https://www.club-dialog.de/ina/",
+  "berlin-2026":
+    "https://www.bvre.de/projekte-des-bvre/kommunal-activ.html",
+}
+
 export function projectHref(id: ProjectId, language: Language): string {
   if (id === "water4all") {
     if (language === "de") return `${WATER_BASE}/de`
@@ -18,4 +24,9 @@ export function projectHref(id: ProjectId, language: Language): string {
   }
 
   return `${WAHL_BASE}/${language}`
+}
+
+/** Supporting programme page, if the project has one. */
+export function programHref(id: ProjectId): string | undefined {
+  return PROGRAM_HREF[id]
 }

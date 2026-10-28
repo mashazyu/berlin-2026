@@ -3,59 +3,100 @@
   "brandAccent": "Kompass",
   "brandRest": "Kollektive",
   "meta": {
-    "description": "Нина и Маша делают гражданские проекты для Берлина: Water for All и Berlin 2026."
+    "description": "Независимые гражданские проекты для Берлина — Water for All, Wahl Kompass и Kommunal Kompass."
   },
   "navigation": {
-    "about": "О нас",
     "projects": "Проекты",
-    "contacts": "Контакты"
+    "about": "Кто мы",
+    "supporters": "При поддержке",
+    "contact": "Контакт"
   },
-  "intro": {
-    "title": "О нас",
-    "paragraphs": [
-      "Проекты создали Нина и Маша, которые в прошлом году запустили Water for All — карту источников питьевой воды Берлина.",
-      "Накануне выборов Нина стала разбираться, за кого голосовать. Прочитала программы партий, собрала сравнительную таблицу и написала пост о климатической и транспортной политике разных партий. Показала таблицу Маше, а та предложила создать сайт и сделала весь UI. Так и получился удобный и наглядный инструмент — Wahl Kompass - Berlin 2026.",
-      "Water for All — низовая инициатива, которая делает информацию о бесплатных источниках питьевой воды в Берлине доступной для всех. Проект родился в программе Lab for Political Participation от Club Dialog e.V. и с тех пор вырос в самостоятельную инициативу.",
-      "Lab for Political Participation — программа Club Dialog e.V., которая помогает русскоязычным берлинцам с миграционным опытом усиливать гражданское и политическое участие.",
-      "Wahl Kompass - Berlin 2026 — независимый проект сравнения программ партий перед земельными выборами в Берлине 2026. Официальные программы публикуют только на немецком — мы переводим их на языки, на которых говорят в Берлине. Нина сравнивает программы и развивает проект; Маша отвечает за техническую сторону."
-    ]
+  "hero": {
+    "tagline": "Независимые гражданские проекты для Берлина.",
+    "blurb": "Мы делаем многоязычную, основанную на источниках информацию для Берлина — фактологично, нейтрально и так, чтобы политика и администрация становились понятнее.",
+    "ctaProjects": "Наши проекты",
+    "ctaAbout": "Кто мы",
+    "diagramLabel": "Наши три проекта",
+    "diagramProjects": {
+      "water4all": "Wasser Kompass",
+      "berlin-2026": "Wahl Kompass",
+      "polit": "Kommunal Kompass"
+    }
   },
   "projects": {
-    "title": "Проекты",
+    "title": "Наши проекты",
+    "resultsAsOf": "По состоянию на сентябрь 2026",
+    "status": {
+      "running": "Активен",
+      "research": "Исследование"
+    },
     "items": [
       {
         "id": "water4all",
         "name": "Water for All",
-        "description": "Открытый атлас бесплатной питьевой воды в Берлине — делает доступ к воде видимым и помогает добиваться новых фонтанчиков.",
-        "linkLabel": "Открыть Water for All"
+        "status": "running",
+        "description": "Water for All делает бесплатную питьевую воду в Берлине видимой: карта собирает сотни общественных точек — фонтанчики, Refill и кулеры. Параллельно проект помогает жителям добиваться новых питьевых фонтанчиков.",
+        "program": "Программа INA",
+        "linkLabel": "Открыть Water for All",
+        "results": [
+          {
+            "value": "100.000+",
+            "label": "Просмотры карты"
+          },
+          {
+            "value": "3",
+            "label": "Языков"
+          }
+        ]
       },
       {
         "id": "berlin-2026",
-        "name": "Wahl Kompass - Berlin 2026",
-        "description": "Многоязычное сравнение программ партий перед земельными выборами в Берлине 2026.",
-        "linkLabel": "Открыть Wahl Kompass - Berlin 2026"
+        "name": "Wahl Kompass – Berlin 2026",
+        "status": "running",
+        "description": "Wahl Kompass ставит позиции из официальных партийных программ рядом — без рекомендаций и без партийной привязки. Официальные тексты выходят только на немецком; мы делаем их доступными на языках, на которых говорят в Берлине.",
+        "program": "Программа Kommunal Aktiv",
+        "linkLabel": "Открыть Wahl Kompass – Berlin 2026",
+        "results": [
+          {
+            "value": "4.300+",
+            "label": "Пользователи"
+          },
+          {
+            "value": "11",
+            "label": "Языков"
+          }
+        ]
       },
       {
         "id": "polit",
-        "name": "Polit Kompass",
-        "description": "Помогает жителям Берлина общаться с городской бюрократией.",
-        "linkLabel": "Открыть Polit Kompass"
+        "name": "Kommunal Kompass",
+        "status": "research",
+        "description": "Kommunal Kompass хочет помочь жителям Берлина обращаться в местные органы по городским вопросам. Проект ещё на стадии исследования — инструкции и инструменты в разработке.",
+        "program": "",
+        "linkLabel": "Открыть Kommunal Kompass",
+        "results": []
       }
     ]
   },
-  "footer": {
-    "notice": "Независимые гражданские проекты для Берлина."
+  "about": {
+    "title": "Кто мы",
+    "intro": "Мы делаем практичные инструменты, которые делают политическую и административную информацию в Берлине понятнее и многоязычной — независимо и на основе источников.",
+    "pageTitle": "О Kompass Kollektive",
+    "body": "Kompass Kollektive — дом проектов Нины и Маши: Water for All, Wahl Kompass и Kommunal Kompass."
   },
-  "contacts": {
-    "title": "Контакты",
+  "team": {
     "people": {
       "nina": {
         "name": "Нина",
-        "role": "Программы и контент"
+        "role": "Программы и контент",
+        "bio": "У Нины более десяти лет опыта в коммуникации, создании контента и координации проектов в международных tech-стартапах. Сегодня она пишет для Cee Cee Berlin об экологии и городской политике и выступает за политическое участие в Берлине.",
+        "initials": "Н"
       },
       "masha": {
         "name": "Маша",
-        "role": "Продукт и разработка"
+        "role": "Продукт и разработка",
+        "bio": "У Маши многолетний опыт в проектном менеджменте и в создании веб- и мобильных инструментов для citizen science и экологических данных. Сегодня она отвечает за технику Kompass Kollektive и за доступное цифровое участие в Берлине.",
+        "initials": "М"
       }
     },
     "labels": {
@@ -64,9 +105,91 @@
       "substack": "Substack"
     }
   },
-  "about": {
-    "title": "О Kompass Kollektive",
-    "body": "Kompass Kollektive — дом проектов Нины и Маши: Water for All, Wahl Kompass и Polit Kompass."
+  "supporters": {
+    "title": "При поддержке",
+    "items": [
+      {
+        "id": "ina",
+        "name": "Программа INA",
+        "org": "Club Dialog e.V.",
+        "period": "2024 – 2025",
+        "bio": "INA — Information. Nachdenken. Aktivierung. — программа Club Dialog e.V. по политическому образованию русскоязычных берлинцев. Она помогает участникам развивать и реализовывать собственные гражданские инициативы.",
+        "href": "https://www.club-dialog.de/ina/",
+        "logo": "/supporters/club-dialog.png"
+      },
+      {
+        "id": "kommunal-aktiv",
+        "name": "Программа Kommunal Aktiv",
+        "org": "BVRE",
+        "period": "2026 – сейчас",
+        "bio": "Kommunal Aktiv — пилотная программа BVRE для демократического участия людей с миграционным опытом. Она делает муниципальные структуры понятнее и сопровождает активистов по всей стране в реализации локальных проектов.",
+        "href": "https://www.bvre.de/projekte-des-bvre/kommunal-activ.html",
+        "logo": "/supporters/bvre.png"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Вопросы, пресса, партнёрства, переводы?",
+    "blurb": "Напишите нам — отвечаем на немецком, английском или русском.",
+    "emailLabel": "kontakt@kompass.berlin"
+  },
+  "footer": {
+    "notice": "Независимые гражданские проекты для Берлина — Kompass Kollektive",
+    "aiNotice": "Тексты на этом сайте созданы с поддержкой ИИ.",
+    "aiDisclosure": "Об использовании ИИ",
+    "impressum": "Выходные данные",
+    "privacy": "Защита данных"
+  },
+  "aiDisclosure": {
+    "title": "Об использовании ИИ",
+    "intro": "На этой странице мы объясняем, как используем инструменты ИИ при создании контента — и почему за опубликованное отвечают люди.",
+    "howWeUseAi": "Как мы используем ИИ",
+    "howWeUseAiContent": "Мы используем ИИ, чтобы набрасывать и улучшать тексты сайта — например, описания страниц и проектов. ИИ помогает с формулировками и структурой; он не решает, что мы публикуем.",
+    "humanResponsibility": "Человеческие идеи и редакционная ответственность",
+    "humanResponsibilityContent": "Все идеи, цели и содержательные решения за этим сайтом принадлежат людям из Kompass Kollektive. Перед публикацией мы проверяем ясность и соответствие нашим проектам. Редакционная ответственность лежит на Kompass Kollektive.",
+    "reviewAndAccuracy": "Проверка и точность",
+    "reviewAndAccuracyContent": "Мы проверяем содержание на точность — ошибки всё же возможны, а нюансы могут теряться. Если что-то заметите, пожалуйста, напишите нам.",
+    "contact": "Контакт",
+    "contactContent": "Вопросы об использовании ИИ или о содержании сайта? Пишите на {email}."
+  },
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "intro": "placeholder",
+    "responsibleParty": "placeholder",
+    "responsiblePartyContent": "placeholder",
+    "dataProcessed": "placeholder",
+    "dataProcessedContent": "placeholder",
+    "hosting": "placeholder",
+    "hostingContent": "placeholder",
+    "processors": "placeholder",
+    "processorsContent": "placeholder",
+    "purposeOfProcessing": "placeholder",
+    "purposeOfProcessingContent": "placeholder",
+    "retention": "placeholder",
+    "retentionContent": "placeholder",
+    "cookies": "placeholder",
+    "cookiesContent": "placeholder",
+    "yourRights": "placeholder",
+    "yourRightsIntro": "placeholder",
+    "yourRightsList": "placeholder",
+    "supervisoryAuthority": "placeholder",
+    "supervisoryAuthorityContent": "placeholder",
+    "contactInfo": "placeholder"
+  },
+  "impressum": {
+    "title": "Impressum",
+    "responsibleParty": "placeholder",
+    "responsiblePartyContent": "placeholder",
+    "contact": "placeholder",
+    "contactContent": "placeholder",
+    "editorial": "placeholder",
+    "editorialContent": "placeholder",
+    "disclaimer": "placeholder",
+    "disclaimerContent": "placeholder",
+    "liability": "placeholder",
+    "liabilityContent": "placeholder",
+    "languageVersions": "placeholder",
+    "languageVersionsContent": "placeholder"
   },
   "languageSwitcher": {
     "label": "Язык"

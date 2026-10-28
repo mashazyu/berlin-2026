@@ -17,5 +17,21 @@ export function toSafeLanguage(value: string | undefined): Language {
 }
 
 export function getTranslations(language: Language): Translations {
-  return catalogs[language]
+  const base = catalogs[language]
+  // Impressum / privacy are authored in DE + EN only; other locales use DE copy.
+  if (language === "en" || language === "de") return base
+  return {
+    ...base,
+    privacy: catalogs.de.privacy,
+    impressum: catalogs.de.impressum,
+  }
+}
+
+/** Impressum / privacy are maintained in DE + EN; RU falls back to DE. */
+export function legalLanguageFor(lang: Language): "de" | "en" {
+  return lang === "en" ? "en" : "de"
+}
+
+export function withContactEmail(text: string, email: string): string {
+  return text.replaceAll("{email}", email)
 }
