@@ -16,7 +16,12 @@
     "blurb": "Мы делаем многоязычную, основанную на источниках информацию для Берлина — фактологично, нейтрально и так, чтобы политика и администрация становились понятнее.",
     "ctaProjects": "Наши проекты",
     "ctaAbout": "Кто мы",
-    "diagramLabel": "Наши три проекта"
+    "diagramLabel": "Наши три проекта",
+    "diagramProjects": {
+      "water4all": "Wasser Kompass",
+      "berlin-2026": "Wahl Kompass",
+      "polit": "Kommunal Kompass"
+    }
   },
   "projects": {
     "title": "Наши проекты",

@@ -1,6 +1,7 @@
 "use client"
 
 import { Building2, Droplet, Mail, Vote } from "lucide-react"
+import { handleSectionLinkClick } from "@kompass/landing"
 import { Button } from "@kompass/ui/button"
 import { metaTagClassName } from "@kompass/ui/lib/chip-styles"
 import { HeroCompass } from "@/components/hero-compass"
@@ -51,37 +52,55 @@ const contentWide = "mx-auto w-full max-w-6xl xl:max-w-7xl"
 export function HomePageClient() {
   const { language, translations: t } = useLanguage()
 
-  const projectNames = Object.fromEntries(
-    t.projects.items.map((item) => [item.id, item.name])
-  ) as Record<ProjectId, string>
+  const diagramNames = t.hero.diagramProjects as Record<ProjectId, string>
 
   return (
     <SiteChrome enableScrollSnap>
-      {/* Hero */}
+      {/* Hero — top-weighted so it doesn’t float in empty viewport space */}
       <section
         id="hero"
-        className={`${sectionShell} animate-[rise_0.55s_ease-out_both]`}
+        className="flex min-h-[calc(100svh-var(--header-offset))] scroll-mt-[var(--header-offset)] flex-col justify-start px-4 pb-16 pt-12 sm:px-6 sm:pb-20 sm:pt-16 lg:pt-20 animate-[rise_0.55s_ease-out_both]"
       >
         <div
-          className={`${contentWide} grid items-center gap-10 lg:grid-cols-2 lg:gap-14`}
+          className={`${contentWide} grid flex-1 items-center gap-10 lg:grid-cols-2 lg:gap-14`}
         >
           <div className="max-w-xl">
-            <h1 className="font-display text-4xl font-semibold tracking-[-0.02em] text-foreground sm:text-5xl lg:text-[3.25rem]">
+            <h1 className="font-display text-4xl font-semibold tracking-[-0.02em] text-foreground sm:text-5xl lg:text-[3.35rem]">
               {t.brand}
             </h1>
-            <p className="mt-4 text-lg font-medium text-foreground sm:text-xl">
+            <p className="mt-3 text-base leading-snug text-muted-foreground sm:text-lg">
               {t.hero.tagline}
             </p>
-            <p className="mt-4 text-base leading-relaxed text-muted-foreground sm:text-lg">
+            <p className="mt-5 text-base leading-relaxed text-muted-foreground/90 sm:text-lg">
               {t.hero.blurb}
             </p>
+            <div className="mt-8 flex flex-wrap items-center gap-3">
+              <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
+                <a
+                  href="#projects"
+                  onClick={(event) =>
+                    handleSectionLinkClick(event, "projects")
+                  }
+                >
+                  {t.hero.ctaProjects}
+                </a>
+              </Button>
+              <Button asChild size="lg" variant="outline" className="bg-background">
+                <a
+                  href="#about"
+                  onClick={(event) => handleSectionLinkClick(event, "about")}
+                >
+                  {t.hero.ctaAbout}
+                </a>
+              </Button>
+            </div>
           </div>
 
           <div className="mx-auto w-full max-w-md justify-self-center lg:justify-self-end">
             <HeroCompass
               language={language}
               label={t.hero.diagramLabel}
-              projectNames={projectNames}
+              projectNames={diagramNames}
             />
           </div>
         </div>

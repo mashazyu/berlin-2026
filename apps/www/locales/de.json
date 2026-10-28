@@ -16,7 +16,12 @@
     "blurb": "Wir entwickeln mehrsprachige, quellenbasierte Informationen für Berlin — faktenbasiert, neutral und so, dass Politik und Verwaltung zugänglicher werden.",
     "ctaProjects": "Unsere Projekte",
     "ctaAbout": "Wer wir sind",
-    "diagramLabel": "Unsere drei Projekte"
+    "diagramLabel": "Unsere drei Projekte",
+    "diagramProjects": {
+      "water4all": "Wasser Kompass",
+      "berlin-2026": "Wahl Kompass",
+      "polit": "Kommunal Kompass"
+    }
   },
   "projects": {
     "title": "Unsere Projekte",
