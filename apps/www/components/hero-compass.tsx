@@ -93,7 +93,7 @@ export function HeroCompass({
                 aria-hidden
               />
             </span>
-            <span className="absolute left-1/2 top-[calc(100%+0.45rem)] w-[6.75rem] -translate-x-1/2 text-center text-[0.7rem] font-medium leading-snug text-foreground/85 sm:w-28 sm:text-xs">
+            <span className="absolute left-1/2 top-[calc(100%+0.45rem)] hidden w-[6.75rem] -translate-x-1/2 text-center text-[0.7rem] font-medium leading-snug text-foreground/85 sm:block sm:w-28 sm:text-xs">
               {projectNames[node.id]}
             </span>
           </a>

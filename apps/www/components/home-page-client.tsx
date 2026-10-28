@@ -44,9 +44,9 @@ function LinkedInIcon({ className }: IconProps) {
   )
 }
 
-/** Full viewport below sticky header; content can grow past one screen. */
+/** Full viewport on md+; on mobile grow with content so CTAs stay reachable. */
 const sectionShell =
-  "flex min-h-[calc(100svh-var(--header-offset))] scroll-mt-[var(--header-offset)] flex-col justify-center px-4 py-14 sm:px-6 sm:py-20"
+  "flex scroll-mt-[var(--header-offset)] flex-col justify-start px-4 py-14 sm:px-6 sm:py-20 md:min-h-[calc(100svh-var(--header-offset))] md:justify-center"
 const contentWide = "mx-auto w-full max-w-6xl xl:max-w-7xl"
 
 export function HomePageClient() {
@@ -56,13 +56,13 @@ export function HomePageClient() {
 
   return (
     <SiteChrome enableScrollSnap>
-      {/* Hero — top-weighted so it doesn’t float in empty viewport space */}
+      {/* Hero — top-weighted; shorter on mobile so CTAs stay in view */}
       <section
         id="hero"
-        className="flex min-h-[calc(100svh-var(--header-offset))] scroll-mt-[var(--header-offset)] flex-col justify-start px-4 pb-16 pt-12 sm:px-6 sm:pb-20 sm:pt-16 lg:pt-20 animate-[rise_0.55s_ease-out_both]"
+        className="flex scroll-mt-[var(--header-offset)] flex-col justify-start px-4 pb-12 pt-10 animate-[rise_0.55s_ease-out_both] sm:px-6 sm:pb-16 sm:pt-14 md:min-h-[calc(100svh-var(--header-offset))] md:pb-20 lg:pt-16"
       >
         <div
-          className={`${contentWide} grid flex-1 items-center gap-10 lg:grid-cols-2 lg:gap-14`}
+          className={`${contentWide} grid items-center gap-8 sm:gap-10 lg:grid-cols-2 lg:gap-14`}
         >
           <div className="max-w-xl">
             <h1 className="font-display text-4xl font-semibold tracking-[-0.02em] text-foreground sm:text-5xl lg:text-[3.35rem]">
@@ -96,7 +96,7 @@ export function HomePageClient() {
             </div>
           </div>
 
-          <div className="mx-auto w-full max-w-md justify-self-center lg:justify-self-end">
+          <div className="mx-auto w-full max-w-[15.5rem] justify-self-center sm:max-w-sm lg:max-w-md lg:justify-self-end">
             <HeroCompass
               language={language}
               label={t.hero.diagramLabel}
@@ -358,7 +358,7 @@ export function HomePageClient() {
       {/* Contact */}
       <section id="contact" className={sectionShell}>
         <div
-          className={`${contentWide} animate-[rise_0.55s_ease-out_both] border border-border bg-card p-6 sm:p-8 lg:p-10`}
+          className={`${contentWide} animate-[rise_0.55s_ease-out_both] rounded-2xl bg-section-muted px-6 py-8 sm:px-8 sm:py-10 lg:px-10`}
         >
           <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between lg:gap-10">
             <div className="max-w-xl">
@@ -369,7 +369,11 @@ export function HomePageClient() {
                 {t.contact.blurb}
               </p>
             </div>
-            <Button asChild size="lg" className="w-full shrink-0 lg:w-auto">
+            <Button
+              asChild
+              size="lg"
+              className="w-full shrink-0 bg-primary text-primary-foreground hover:bg-primary/90 lg:w-auto"
+            >
               <a href={`mailto:${COLLECTIVE_EMAIL}`}>
                 <Mail className="size-4" aria-hidden />
                 {t.contact.emailLabel}

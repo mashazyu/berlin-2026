@@ -9,7 +9,7 @@ export type PersonContact = {
 }
 
 /** Shared inbox for the collective contact CTA. */
-export const COLLECTIVE_EMAIL = "feedback@berlin-2026.de"
+export const COLLECTIVE_EMAIL = "kontakt@kompass.berlin"
 
 export const PEOPLE: PersonContact[] = [
   {
