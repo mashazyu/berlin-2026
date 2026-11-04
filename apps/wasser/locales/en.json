@@ -14,8 +14,7 @@
   "navigation": {
     "map": "Map",
     "faq": "FAQ",
-    "about": "About",
-    "news": "News"
+    "about": "About"
   },
   "footer": {
     "notice": "Wasser-Kompass — a project of Kompass Kollektive."
@@ -24,12 +23,25 @@
     "label": "Language"
   },
   "map": {
-    "heroTitle": "Berlin Drinking Fountain Map — Free Water Near You",
-    "infoSection": "Looking for a drinking fountain, public water tap, or free water near you in Berlin? Our potable water map / Refill Berlin map collects nearly 1,000 water points in one place. Berlin has lots of free drinking water spots, but they're not always easy to find — especially on Google Maps, where fewer than 50 fountains are listed. We combined data from [Berliner Wasserbetriebe](https://www.bwb.de/de/trinkbrunnen.php), [Refill](https://refill-deutschland.de/), and [other public sources](/en/faq#faq13): drinking fountains, Refill spots, public buildings, and dm stores with water dispensers or customer restrooms.\n\nOpen the map and find free water near you!",
+    "heroTitle": "Free drinking water in Berlin",
+    "lead": "Google Maps shows fewer than 50 public fountains. Our map brings nearly 1,000 free water spots into one layer you can save on your phone.",
+    "includesHeading": "What’s on the map",
+    "includes": [
+      "Public drinking fountains ([Berliner Wasserbetriebe](https://www.bwb.de/de/trinkbrunnen.php))",
+      "[Refill spots](https://refill-deutschland.de/) (cafés and shops that refill your bottle)",
+      "Public buildings and selected dm stores with a water dispenser or customer toilet"
+    ],
+    "howToHeading": "How to use it",
+    "howTo": [
+      "Use the map here on the website.",
+      "Or save the places below in your Google Maps app so you always have them with you."
+    ],
+    "saveHint": "Save in the Google Maps app:",
+    "sources": "Data from Berliner Wasserbetriebe, [Refill](https://refill-deutschland.de/), and [other public sources](/en/faq#faq13).",
     "loadingMap": "Loading map...",
-    "addEnglishMap": "Add English map",
-    "addGermanMap": "Add German map",
-    "addRussianMap": "Add Russian map"
+    "addEnglishMap": "Add to Google Maps (EN)",
+    "addGermanMap": "Add to Google Maps (DE)",
+    "addRussianMap": "Add to Google Maps (RU)"
   },
   "faq": {
     "title": "Frequently Asked Questions",
@@ -144,8 +156,7 @@
     ]
   },
   "newsSection": {
-    "title": "Latest news",
-    "viewAll": "All news"
+    "title": "Latest news"
   },
   "mentions": {
     "title": "In the media",
@@ -160,11 +171,6 @@
   "newsTags": {
     "map": "Map",
     "fountains": "Fountains"
-  },
-  "newsPage": {
-    "title": "Berlin Drinking Water News",
-    "intro": "Project updates on Berlin’s drinking fountain map, BVV requests, partnerships, and media coverage from Wasser-Kompass.",
-    "loadMore": "Load More News"
   },
   "news": [
     {

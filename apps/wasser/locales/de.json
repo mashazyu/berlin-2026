@@ -14,8 +14,7 @@
   "navigation": {
     "map": "Karte",
     "faq": "FAQ",
-    "about": "Über uns",
-    "news": "Nachrichten"
+    "about": "Über uns"
   },
   "footer": {
     "notice": "Wasser-Kompass — ein Projekt von Kompass Kollektive."
@@ -24,12 +23,25 @@
     "label": "Sprache"
   },
   "map": {
-    "heroTitle": "Wasserkarte Berlin — Trinkbrunnen & Wasserspender",
-    "infoSection": "Trinkwasser öffentlich und Wasserspender in der Nähe finden: Unsere Wasserkarte Berlin zeigt öffentliche Wasserstellen, Trinkbrunnen und Refill-Punkte. Berlin hat viele kostenlose Trinkwasserquellen, aber auf Google Maps sind weniger als 50 Trinkbrunnen eingetragen. Wir haben Daten der [Berliner Wasserbetriebe](https://www.bwb.de/de/trinkbrunnen.php), von [Refill](https://refill-deutschland.de/) und [anderen öffentlichen Quellen](/de/faq#faq13) gebündelt — fast 1.000 Standorte inkl. dm-Filialen mit Wasserspender oder Kunden-WC.\n\nÖffnen Sie die Karte und finden Sie Trinkwasserquellen in Ihrer Nähe!",
+    "heroTitle": "Kostenloses Trinkwasser in Berlin",
+    "lead": "Auf Google Maps sind kaum 50 öffentliche Trinkbrunnen. Unsere Karte bündelt fast 1.000 kostenlose Wasserstellen — speichern Sie die Ebene in Google Maps und finden Sie Wasser in Ihrer Nähe.",
+    "includesHeading": "Was ist auf der Karte?",
+    "includes": [
+      "Öffentliche Trinkbrunnen ([Berliner Wasserbetriebe](https://www.bwb.de/de/trinkbrunnen.php))",
+      "[Refill-Stellen](https://refill-deutschland.de/) (Cafés und Läden, die Ihre Flasche auffüllen)",
+      "Öffentliche Gebäude und ausgewählte dm-Filialen mit Wasserspender oder Kunden-WC"
+    ],
+    "howToHeading": "So nutzen Sie die Karte",
+    "howTo": [
+      "Nutzen Sie die Karte direkt hier auf der Website.",
+      "Oder speichern Sie die Orte unten in Ihrer Google-Maps-App — dann haben Sie sie immer dabei."
+    ],
+    "saveHint": "In der Google-Maps-App speichern:",
+    "sources": "Daten von Berliner Wasserbetriebe, [Refill](https://refill-deutschland.de/) und [weiteren öffentlichen Quellen](/de/faq#faq13).",
     "loadingMap": "Karte wird geladen...",
-    "addEnglishMap": "Englische Karte hinzufügen",
-    "addGermanMap": "Deutsche Karte hinzufügen",
-    "addRussianMap": "Russische Karte hinzufügen"
+    "addEnglishMap": "In Google Maps (EN)",
+    "addGermanMap": "In Google Maps (DE)",
+    "addRussianMap": "In Google Maps (RU)"
   },
   "faq": {
     "title": "Häufig gestellte Fragen",
@@ -144,8 +156,7 @@
     ]
   },
   "newsSection": {
-    "title": "Aktuelle Meldungen",
-    "viewAll": "Alle Nachrichten"
+    "title": "Aktuelle Meldungen"
   },
   "mentions": {
     "title": "Pressestimmen",
@@ -160,11 +171,6 @@
   "newsTags": {
     "map": "Karte",
     "fountains": "Trinkbrunnen"
-  },
-  "newsPage": {
-    "title": "Aktuelles zu Trinkwasser in Berlin",
-    "intro": "Neuigkeiten zur Berliner Trinkbrunnen-Karte, BVV-Anfragen, Partnerschaften und Medienberichten von Wasser-Kompass.",
-    "loadMore": "Weitere Nachrichten laden"
   },
   "news": [
     {

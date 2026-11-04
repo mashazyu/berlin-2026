@@ -37,12 +37,6 @@ export function SiteChrome({
           links={[
             {
               type: "page",
-              href: `/${language}/news`,
-              label: t.navigation.news,
-              matchPath: "/news",
-            },
-            {
-              type: "page",
               href: `/${language}/faq`,
               label: t.navigation.faq,
               matchPath: "/faq",

@@ -1,6 +1,5 @@
 "use client"
 
-import Link from "next/link"
 import { PageSection } from "@kompass/landing"
 import { metaTagClassName } from "@kompass/ui/lib/chip-styles"
 import { Carousel, CarouselSlide } from "@/components/carousel"
@@ -65,15 +64,11 @@ export function NewsSection({
   id = "news",
   titleAs = "h2",
   muted = false,
-  limit,
-  showViewAll = false,
-  layout = "grid",
+  layout = "carousel",
 }: {
   id?: string
   titleAs?: "h1" | "h2"
   muted?: boolean
-  limit?: number
-  showViewAll?: boolean
   layout?: "grid" | "carousel"
 }) {
   const { language, translations: t } = useLanguage()
@@ -84,9 +79,8 @@ export function NewsSection({
     if (byDate !== 0) return byDate
     return b.id - a.id
   })
-  const items = limit ? news.slice(0, limit) : news
   const tags = t.newsTags as { map: string; fountains: string }
-  const title = limit || layout === "carousel" ? t.newsSection.title : t.newsPage.title
+  const title = t.newsSection.title
 
   return (
     <PageSection
@@ -96,12 +90,6 @@ export function NewsSection({
       muted={muted}
       width="wide"
     >
-      {layout === "grid" && !limit && t.newsPage.intro ? (
-        <p className="mt-4 max-w-3xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-          {t.newsPage.intro}
-        </p>
-      ) : null}
-
       {layout === "carousel" ? (
         <div className="mt-10">
           <Carousel
@@ -109,7 +97,7 @@ export function NewsSection({
             previousLabel={t.carousel.previous}
             nextLabel={t.carousel.next}
           >
-            {items.map((item) => (
+            {news.map((item) => (
               <CarouselSlide key={item.id}>
                 <div className="h-full border-b border-border pb-6">
                   <NewsCard item={item} language={language} tags={tags} />
@@ -120,24 +108,13 @@ export function NewsSection({
         </div>
       ) : (
         <ul className="mt-10 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-x-10 lg:gap-y-8">
-          {items.map((item) => (
+          {news.map((item) => (
             <li key={item.id} className="border-b border-border pb-8">
               <NewsCard item={item} language={language} tags={tags} />
             </li>
           ))}
         </ul>
       )}
-
-      {showViewAll && news.length > (limit ?? 0) ? (
-        <p className="mt-10">
-          <Link
-            href={`/${language}/news`}
-            className="text-primary underline-offset-4 hover:underline"
-          >
-            {t.newsSection.viewAll}
-          </Link>
-        </p>
-      ) : null}
     </PageSection>
   )
 }
