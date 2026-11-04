@@ -39,9 +39,9 @@
     "saveHint": "Save in the Google Maps app:",
     "sources": "Data from Berliner Wasserbetriebe, [Refill](https://refill-deutschland.de/), and [other public sources](/en/faq#faq13).",
     "loadingMap": "Loading map...",
-    "addEnglishMap": "Add to Google Maps (EN)",
-    "addGermanMap": "Add to Google Maps (DE)",
-    "addRussianMap": "Add to Google Maps (RU)"
+    "addEnglishMap": "Add English",
+    "addGermanMap": "Add German",
+    "addRussianMap": "Add Russian"
   },
   "faq": {
     "title": "Frequently Asked Questions",
