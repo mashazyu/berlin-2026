@@ -1,0 +1,44 @@
+@import "@kompass/ui/styles/base.css";
+
+@source "../**/*.{ts,tsx}";
+@source "../../../packages/ui/src/**/*.{ts,tsx}";
+@source "../../../packages/landing/src/**/*.{ts,tsx}";
+
+/* wasser — drinking water — blue CTAs (#0B8FBF family) */
+:root {
+  --background: 195 20% 98%;
+  --foreground: 200 28% 12%;
+  --card: 0 0% 100%;
+  --card-foreground: 200 28% 12%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 200 28% 12%;
+  --primary: 196 89% 37%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 196 18% 94%;
+  --secondary-foreground: 200 28% 20%;
+  --muted: 196 16% 95%;
+  --muted-foreground: 200 12% 38%;
+  --accent: 196 78% 40%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 0 78% 52%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 196 14% 88%;
+  --input: 196 14% 88%;
+  --ring: 196 89% 37%;
+  --radius: 0.75rem;
+  --section-muted: 196 18% 94%;
+  --header-offset: 3.5rem;
+  --chart-1: 196 89% 37%;
+  --chart-2: 196 14% 40%;
+  --chart-3: 196 12% 55%;
+  --chart-4: 196 60% 45%;
+  --chart-5: 196 10% 70%;
+  --sidebar: 0 0% 100%;
+  --sidebar-foreground: 200 28% 12%;
+  --sidebar-primary: 196 89% 37%;
+  --sidebar-primary-foreground: 0 0% 100%;
+  --sidebar-accent: 196 16% 95%;
+  --sidebar-accent-foreground: 200 28% 12%;
+  --sidebar-border: 196 14% 88%;
+  --sidebar-ring: 196 89% 37%;
+}

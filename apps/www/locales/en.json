@@ -3,7 +3,7 @@
   "brandAccent": "Kompass",
   "brandRest": "Kollektive",
   "meta": {
-    "description": "Independent civic projects for Berlin — Wasser Kompass, Wahl Kompass and Kommunal Kompass."
+    "description": "Independent civic projects for Berlin — Wasser-Kompass, Wahl-Kompass and Kommunal-Kompass."
   },
   "navigation": {
     "projects": "Projects",
@@ -18,9 +18,9 @@
     "ctaAbout": "Who we are",
     "diagramLabel": "Our three projects",
     "diagramProjects": {
-      "water4all": "Wasser Kompass",
-      "berlin-2026": "Wahl Kompass",
-      "polit": "Kommunal Kompass"
+      "water4all": "Wasser-Kompass",
+      "berlin-2026": "Wahl-Kompass",
+      "polit": "Kommunal-Kompass"
     }
   },
   "projects": {
@@ -33,11 +33,11 @@
     "items": [
       {
         "id": "water4all",
-        "name": "Wasser Kompass (formerly Water for All)",
+        "name": "Wasser-Kompass (formerly Water for All)",
         "status": "running",
-        "description": "Wasser Kompass makes free drinking water in Berlin visible: the map brings together hundreds of public spots — fountains, Refill points and dispensers. In parallel, the project helps residents push for new drinking fountains.",
+        "description": "Wasser-Kompass makes free drinking water in Berlin visible: the map brings together hundreds of public spots — fountains, Refill points and dispensers. In parallel, the project helps residents push for new drinking fountains.",
         "program": "INA programme",
-        "linkLabel": "Visit Wasser Kompass",
+        "linkLabel": "Visit Wasser-Kompass",
         "results": [
           {
             "value": "100,000+",
@@ -51,11 +51,11 @@
       },
       {
         "id": "berlin-2026",
-        "name": "Wahl Kompass – Berlin 2026",
+        "name": "Wahl-Kompass – Berlin 2026",
         "status": "running",
-        "description": "Wahl Kompass places positions from the official party programs side by side — with no endorsement and no party affiliation. Official texts appear only in German; we make them available in languages spoken in Berlin.",
+        "description": "Wahl-Kompass places positions from the official party programs side by side — with no endorsement and no party affiliation. Official texts appear only in German; we make them available in languages spoken in Berlin.",
         "program": "Kommunal Aktiv programme",
-        "linkLabel": "Visit Wahl Kompass – Berlin 2026",
+        "linkLabel": "Visit Wahl-Kompass – Berlin 2026",
         "results": [
           {
             "value": "4,300+",
@@ -69,11 +69,11 @@
       },
       {
         "id": "polit",
-        "name": "Kommunal Kompass",
+        "name": "Kommunal-Kompass",
         "status": "research",
-        "description": "Kommunal Kompass aims to help Berliners reach local authorities on municipal issues. The project is still in research — guides and tools are taking shape.",
+        "description": "Kommunal-Kompass aims to help Berliners reach local authorities on municipal issues. The project is still in research — guides and tools are taking shape.",
         "program": "",
-        "linkLabel": "Visit Kommunal Kompass",
+        "linkLabel": "Visit Kommunal-Kompass",
         "results": []
       }
     ]
@@ -82,7 +82,7 @@
     "title": "Who we are",
     "intro": "We build practical tools that make political and administrative information in Berlin clearer and multilingual — independent and source-based.",
     "pageTitle": "About Kompass Kollektive",
-    "body": "Kompass Kollektive is the home of projects by Nina and Masha — Wasser Kompass, Wahl Kompass and Kommunal Kompass."
+    "body": "Kompass Kollektive is the home of projects by Nina and Masha — Wasser-Kompass, Wahl-Kompass and Kommunal-Kompass."
   },
   "team": {
     "people": {
@@ -93,7 +93,7 @@
         "initials": "N"
       },
       "masha": {
-        "name": "Masha",
+        "name": "Masha Waldenberg",
         "role": "Product & engineering",
         "bio": "Masha brings many years of experience in project management and in building web and mobile tools for citizen science and environmental data. Today she designs the tech behind Kompass Kollektive and works for accessible digital participation in Berlin.",
         "initials": "M"

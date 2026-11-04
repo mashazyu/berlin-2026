@@ -3,8 +3,8 @@
 import { Compass } from "lucide-react"
 import {
   BrandMark,
+  Footer,
   LandingShell,
-  SiteFooter,
   SiteHeader,
 } from "@kompass/landing"
 import { LanguageSwitcher } from "@/components/language-switcher"
@@ -39,7 +39,7 @@ export function AboutPageClient() {
           trailing={<LanguageSwitcher />}
         />
       }
-      footer={<SiteFooter brand={brand} notice={t.footer.notice} />}
+      footer={<Footer icon={Compass} name={t.brand} language={language} />}
     >
       <section className="mx-auto max-w-3xl px-4 py-16 sm:px-6">
         <h1 className="font-display text-3xl font-semibold tracking-[-0.01em]">

@@ -2,7 +2,7 @@
 
 <div class="locale-de">
 
-<p class="brand-line"><span class="brand-name"><span class="accent">Wahl Kompass</span><span class="sep">·</span>Berlin 2026</span><span class="doc-date">15.10.2026</span></p>
+<p class="brand-line"><span class="brand-name"><span class="accent">Wahl-Kompass</span><span class="sep">·</span>Berlin 2026</span><span class="doc-date">15.10.2026</span></p>
 
 # Damit Berliner:innen fundierter wählen können
 
@@ -17,7 +17,7 @@ Offizielle Wahlprogramme erscheinen **nur auf Deutsch** und sind oft rund **200 
 
 Es gibt schon Hilfen wie den Wahl-O-Mat. Wir wollten etwas anderes: **Positionen nebeneinander**, nach Thema, mit dem Weg zurück zu den Originalprogrammen — in Sprachen, die in Berlin gesprochen werden.
 
-**Wahl Kompass** ist kein Wahl-O-Mat und kein Wahlkampfmaterial. Es ist ein unabhängiges Informationsprojekt: **10 Parteien × 65 Themen × 11 Sprachen**. Zusammenfassungen entstanden mit KI-Hilfe; die redaktionelle Verantwortung liegt beim Projekt ([KI-Hinweis](https://www.berlin-2026.de/de/ai-disclosure)).
+**Wahl-Kompass** ist kein Wahl-O-Mat und kein Wahlkampfmaterial. Es ist ein unabhängiges Informationsprojekt: **10 Parteien × 65 Themen × 11 Sprachen**. Zusammenfassungen entstanden mit KI-Hilfe; die redaktionelle Verantwortung liegt beim Projekt ([KI-Hinweis](https://www.berlin-2026.de/de/ai-disclosure)).
 
 ## Was wir angeboten haben
 
@@ -30,7 +30,7 @@ Eine kostenlose Vergleichstabelle, in der man:
 
 </div>
 <figure class="product-shot">
-  <img src="./images/comparison-table.png" alt="Wahl Kompass auf dem Handy" />
+  <img src="./images/comparison-table.png" alt="Wahl-Kompass auf dem Handy" />
   <figcaption>berlin-2026.de (bald wahl.kompass.berlin) — Parteien wählen, Themen suchen, Positionen vergleichen.</figcaption>
 </figure>
 </div>

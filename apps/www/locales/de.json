@@ -3,7 +3,7 @@
   "brandAccent": "Kompass",
   "brandRest": "Kollektive",
   "meta": {
-    "description": "Unabhängige zivilgesellschaftliche Projekte für Berlin — Wasser Kompass, Wahl Kompass und Kommunal Kompass."
+    "description": "Unabhängige zivilgesellschaftliche Projekte für Berlin — Wasser-Kompass, Wahl-Kompass und Kommunal-Kompass."
   },
   "navigation": {
     "projects": "Projekte",
@@ -18,9 +18,9 @@
     "ctaAbout": "Wer wir sind",
     "diagramLabel": "Unsere drei Projekte",
     "diagramProjects": {
-      "water4all": "Wasser Kompass",
-      "berlin-2026": "Wahl Kompass",
-      "polit": "Kommunal Kompass"
+      "water4all": "Wasser-Kompass",
+      "berlin-2026": "Wahl-Kompass",
+      "polit": "Kommunal-Kompass"
     }
   },
   "projects": {
@@ -33,11 +33,11 @@
     "items": [
       {
         "id": "water4all",
-        "name": "Wasser Kompass (ehemals Wasser für alle)",
+        "name": "Wasser-Kompass (ehemals Wasser für alle)",
         "status": "running",
-        "description": "Wasser Kompass macht kostenloses Trinkwasser in Berlin sichtbar: Die Karte bündelt hunderte öffentliche Stellen — Brunnen, Refill und Spender. Parallel hilft das Projekt Bürger:innen, sich für neue Trinkbrunnen einzusetzen.",
+        "description": "Wasser-Kompass macht kostenloses Trinkwasser in Berlin sichtbar: Die Karte bündelt hunderte öffentliche Stellen — Brunnen, Refill und Spender. Parallel hilft das Projekt Bürger:innen, sich für neue Trinkbrunnen einzusetzen.",
         "program": "Programm INA",
-        "linkLabel": "Zu Wasser Kompass",
+        "linkLabel": "Zu Wasser-Kompass",
         "results": [
           {
             "value": "100.000+",
@@ -51,11 +51,11 @@
       },
       {
         "id": "berlin-2026",
-        "name": "Wahl Kompass – Berlin 2026",
+        "name": "Wahl-Kompass – Berlin 2026",
         "status": "running",
-        "description": "Wahl Kompass stellt die Positionen aus den offiziellen Wahlprogrammen nebeneinander — ohne Empfehlung und ohne Parteibindung. Offizielle Texte erscheinen nur auf Deutsch; wir machen sie in Sprachen zugänglich, die in Berlin gesprochen werden.",
+        "description": "Wahl-Kompass stellt die Positionen aus den offiziellen Wahlprogrammen nebeneinander — ohne Empfehlung und ohne Parteibindung. Offizielle Texte erscheinen nur auf Deutsch; wir machen sie in Sprachen zugänglich, die in Berlin gesprochen werden.",
         "program": "Programm Kommunal Aktiv",
-        "linkLabel": "Zu Wahl Kompass – Berlin 2026",
+        "linkLabel": "Zu Wahl-Kompass – Berlin 2026",
         "results": [
           {
             "value": "4.300+",
@@ -69,11 +69,11 @@
       },
       {
         "id": "polit",
-        "name": "Kommunal Kompass",
+        "name": "Kommunal-Kompass",
         "status": "research",
-        "description": "Kommunal Kompass will Berliner:innen helfen, lokale Behörden zu kommunalen Themen zu erreichen. Das Projekt ist noch in der Recherche — Leitfäden und Werkzeuge sind im Aufbau.",
+        "description": "Kommunal-Kompass will Berliner:innen helfen, lokale Behörden zu kommunalen Themen zu erreichen. Das Projekt ist noch in der Recherche — Leitfäden und Werkzeuge sind im Aufbau.",
         "program": "",
-        "linkLabel": "Zu Kommunal Kompass",
+        "linkLabel": "Zu Kommunal-Kompass",
         "results": []
       }
     ]
@@ -82,7 +82,7 @@
     "title": "Wer wir sind",
     "intro": "Wir bauen praktische Tools, die politische und administrative Informationen in Berlin verständlicher und mehrsprachig zugänglich machen — unabhängig und quellenbasiert.",
     "pageTitle": "Über Kompass Kollektive",
-    "body": "Kompass Kollektive ist die Heimat der Projekte von Nina und Mascha — Wasser Kompass, Wahl Kompass und Kommunal Kompass."
+    "body": "Kompass Kollektive ist die Heimat der Projekte von Nina und Mascha — Wasser-Kompass, Wahl-Kompass und Kommunal-Kompass."
   },
   "team": {
     "people": {
@@ -93,7 +93,7 @@
         "initials": "N"
       },
       "masha": {
-        "name": "Mascha",
+        "name": "Mascha Waldenberg",
         "role": "Produkt & Technik",
         "bio": "Mascha bringt langjährige Erfahrung in Projektmanagement sowie im Bau von Web- und Mobile-Tools für Citizen Science und Umweltdaten mit. Heute gestaltet sie die Technik hinter Kompass Kollektive und setzt sich für zugängliche digitale Teilhabe in Berlin ein.",
         "initials": "M"

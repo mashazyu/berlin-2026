@@ -1,12 +1,12 @@
 {
-  "brand": "Polit Kompass",
-  "brandAccent": "Polit",
-  "brandRest": "Kompass",
+  "brand": "Kommunal-Kompass",
+  "brandAccent": "Kommunal",
+  "brandRest": "-Kompass",
   "hero": {
     "headline": "Mit der Berliner Verwaltung sprechen",
     "support": "Hilfen und Anleitungen, damit Berliner:innen lokale Behörden zu kommunalen Themen erreichen können.",
     "blurb": "Platzhalter-Hero — echte Produkttexte folgen.",
-    "disclaimer": "Polit Kompass ist ein Projekt von Kompass Kollektive — noch im Aufbau.",
+    "disclaimer": "Kommunal-Kompass ist ein Projekt von Kompass Kollektive — noch im Aufbau.",
     "cta": "So melden Sie ein Problem",
     "scrollHint": "Zu den Anleitungen scrollen"
   },
@@ -22,7 +22,7 @@
     "note": "Sie garantiert keine sofortigen Ergebnisse, gibt Ihnen aber klare Werkzeuge, um auf Infrastruktur-Lücken aufmerksam zu machen."
   },
   "footer": {
-    "notice": "Polit Kompass — ein Projekt von Kompass Kollektive."
+    "notice": "Kommunal-Kompass — ein Projekt von Kompass Kollektive."
   },
   "languageSwitcher": {
     "label": "Sprache"

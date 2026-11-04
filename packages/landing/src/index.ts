@@ -10,6 +10,9 @@ export type { HeroCtaProps, HeroScrollHintProps } from "./hero-actions"
 export { ContentSection } from "./content-section"
 export type { ContentSectionProps, ContentBlock } from "./content-section"
 
+export { PageSection } from "./page-section"
+export type { PageSectionProps } from "./page-section"
+
 export { MentionsSection } from "./mentions-section"
 export type {
   MentionsSectionProps,
@@ -22,6 +25,9 @@ export type { SiteHeaderProps, NavLink } from "./site-header"
 
 export { SiteFooter } from "./site-footer"
 export type { SiteFooterProps, FooterLink } from "./site-footer"
+
+export { Footer } from "./footer"
+export type { FooterProps } from "./footer"
 
 export { BrandMark } from "./brand-mark"
 export type { BrandMarkProps } from "./brand-mark"

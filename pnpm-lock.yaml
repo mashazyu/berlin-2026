@@ -14,6 +14,12 @@ importers:
 
   .:
     dependencies:
+      '@kompass/fonts':
+        specifier: workspace:*
+        version: link:packages/fonts
+      '@kompass/landing':
+        specifier: workspace:*
+        version: link:packages/landing
       '@marsidev/react-turnstile':
         specifier: ^1.6.1
         version: 1.6.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -105,6 +111,9 @@ importers:
 
   apps/polit:
     dependencies:
+      '@kompass/fonts':
+        specifier: workspace:*
+        version: link:../../packages/fonts
       '@kompass/landing':
         specifier: workspace:*
         version: link:../../packages/landing
@@ -151,6 +160,12 @@ importers:
 
   apps/wahl:
     dependencies:
+      '@kompass/fonts':
+        specifier: workspace:*
+        version: link:../../packages/fonts
+      '@kompass/landing':
+        specifier: workspace:*
+        version: link:../../packages/landing
       '@marsidev/react-turnstile':
         specifier: ^1.6.1
         version: 1.6.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -240,10 +255,11 @@ importers:
         specifier: ^5
         version: 5.9.3
 
-  apps/wasser: {}
-
-  apps/www:
+  apps/wasser:
     dependencies:
+      '@kompass/fonts':
+        specifier: workspace:*
+        version: link:../../packages/fonts
       '@kompass/landing':
         specifier: workspace:*
         version: link:../../packages/landing
@@ -287,6 +303,67 @@ importers:
       tailwindcss:
         specifier: ^4
         version: 4.3.3
+      typescript:
+        specifier: ^5
+        version: 5.9.3
+
+  apps/www:
+    dependencies:
+      '@kompass/fonts':
+        specifier: workspace:*
+        version: link:../../packages/fonts
+      '@kompass/landing':
+        specifier: workspace:*
+        version: link:../../packages/landing
+      '@kompass/ui':
+        specifier: workspace:*
+        version: link:../../packages/ui
+      lucide-react:
+        specifier: ^1.40.0
+        version: 1.40.0(react@19.1.0)
+      next:
+        specifier: 15.5.28
+        version: 15.5.28(@babel/core@7.29.7)(@types/node@20.19.43)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      react:
+        specifier: 19.1.0
+        version: 19.1.0
+      react-dom:
+        specifier: 19.1.0
+        version: 19.1.0(react@19.1.0)
+    devDependencies:
+      '@eslint/eslintrc':
+        specifier: ^3
+        version: 3.3.7
+      '@tailwindcss/postcss':
+        specifier: ^4
+        version: 4.3.3
+      '@types/node':
+        specifier: ^20.19.43
+        version: 20.19.43
+      '@types/react':
+        specifier: ^19
+        version: 19.2.18
+      '@types/react-dom':
+        specifier: ^19
+        version: 19.2.7(@types/react@19.2.18)
+      eslint:
+        specifier: ^9
+        version: 9.39.5(jiti@2.7.0)
+      eslint-config-next:
+        specifier: 15.5.28
+        version: 15.5.28(eslint@9.39.5(jiti@2.7.0))(typescript@5.9.3)
+      tailwindcss:
+        specifier: ^4
+        version: 4.3.3
+      typescript:
+        specifier: ^5
+        version: 5.9.3
+
+  packages/fonts:
+    devDependencies:
+      next:
+        specifier: 15.5.28
+        version: 15.5.28(@babel/core@7.29.7)(@types/node@20.19.43)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       typescript:
         specifier: ^5
         version: 5.9.3

@@ -143,7 +143,7 @@ Google ~**275** clicks / **7.3k** impressions in the export window (peak electio
 
 **After the election**
 
-Interest continued longer than expected; freeze/update policy still follows the content runbook. Sister projects (Polit Kompass, Water for All, Kompass hub) carry the broader civic-tech practice forward.
+Interest continued longer than expected; freeze/update policy still follows the content runbook. Sister projects (Kommunal-Kompass, Water for All, Kompass hub) carry the broader civic-tech practice forward.
 
 ---
 

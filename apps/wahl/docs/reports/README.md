@@ -1,6 +1,6 @@
 # Reports
 
-Wahl Kompass reporting lives under **`apps/wahl`** (not the live root berlin-2026 app).
+Wahl-Kompass reporting lives under **`apps/wahl`** (not the live root berlin-2026 app).
 
 Locked metrics: [`_metrics-summary.md`](_metrics-summary.md). Portfolio: [`portfolio-case-study.md`](portfolio-case-study.md). Public story (EN/DE + PDFs): [`public-project-story.md`](public-project-story.md).
 

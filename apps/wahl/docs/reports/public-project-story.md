@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="./public-project-story.css" />
 
-<p class="brand-line"><span class="brand-name"><span class="accent">Wahl Kompass</span><span class="sep">·</span>Berlin 2026</span><span class="doc-date">15.10.2026</span></p>
+<p class="brand-line"><span class="brand-name"><span class="accent">Wahl-Kompass</span><span class="sep">·</span>Berlin 2026</span><span class="doc-date">15.10.2026</span></p>
 
 # Helping Berliners make a more informed choice
 
@@ -15,7 +15,7 @@ Official party programs are published **only in German**, often ~**200 pages** �
 
 Existing tools help with preference quizzes. We wanted something different: **positions side by side**, by topic, with a path back to the original programs — in languages people in Berlin actually use.
 
-**Wahl Kompass** is not a Wahl-O-Mat. It is not campaign material. It is an independent information project: **10 parties × 65 topics × 11 languages**. Summaries were drafted with AI help; people on the project stay editorially responsible ([AI disclosure](https://www.berlin-2026.de/en/ai-disclosure)).
+**Wahl-Kompass** is not a Wahl-O-Mat. It is not campaign material. It is an independent information project: **10 parties × 65 topics × 11 languages**. Summaries were drafted with AI help; people on the project stay editorially responsible ([AI disclosure](https://www.berlin-2026.de/en/ai-disclosure)).
 
 ## What we offered
 
@@ -28,7 +28,7 @@ A free comparison table where you can:
 
 </div>
 <figure class="product-shot">
-  <img src="./images/comparison-table-en.png" alt="Wahl Kompass comparison on mobile" />
+  <img src="./images/comparison-table-en.png" alt="Wahl-Kompass comparison on mobile" />
   <figcaption>The comparison on berlin-2026.de (soon wahl.kompass.berlin) — pick parties, search topics, read positions side by side.</figcaption>
 </figure>
 </div>

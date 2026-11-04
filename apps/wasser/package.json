@@ -2,9 +2,32 @@
   "name": "@kompass/wasser",
   "version": "0.1.0",
   "private": true,
-  "description": "wasser.kompass.berlin + www.wasser.kompass.berlin — water4all copy",
+  "description": "wasser.kompass.berlin + www.wasser.kompass.berlin — Wasser-Kompass",
   "scripts": {
-    "dev": "echo 'apps/wasser is reserved for water4all — populate after move.' && exit 1",
-    "build": "echo 'apps/wasser is a placeholder — see README.md' && exit 1"
+    "dev": "next dev --turbopack --port 3003",
+    "build": "next build",
+    "start": "next start --port 3003",
+    "lint": "eslint . --ignore-pattern .next --ignore-pattern next-env.d.ts",
+    "type-check": "tsc --noEmit --incremental false"
+  },
+  "dependencies": {
+    "@kompass/fonts": "workspace:*",
+    "@kompass/landing": "workspace:*",
+    "@kompass/ui": "workspace:*",
+    "lucide-react": "^1.40.0",
+    "next": "15.5.28",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20.19.43",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.28",
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }

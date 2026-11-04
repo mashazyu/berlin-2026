@@ -22,7 +22,7 @@ export function projectHref(
     return WATER_BASE
   }
 
-  // Kommunal Kompass site is not ready yet.
+  // Kommunal-Kompass site is not ready yet.
   if (id === "polit") return null
 
   return `${WAHL_BASE}/${language}`

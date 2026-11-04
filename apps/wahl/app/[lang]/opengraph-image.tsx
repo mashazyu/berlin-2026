@@ -7,7 +7,7 @@ export const size = { width: 1200, height: 630 }
 export const contentType = "image/png"
 /** Build-time static OG per locale — CDN-cached (no per-request FOT). */
 export const dynamic = "force-static"
-export const alt = "Wahl Kompass - Berlin 2026"
+export const alt = "Wahl-Kompass - Berlin 2026"
 
 export default async function OpenGraphImage({
   params,
@@ -47,7 +47,7 @@ export default async function OpenGraphImage({
               fontFamily: `"${fontFamily}"`,
             }}
           >
-            Wahl Kompass
+            Wahl-Kompass
           </span>
           <span style={{ fontSize: 40, color: "#C5CCD3" }}>-</span>
           <span
