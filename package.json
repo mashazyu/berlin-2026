@@ -2,7 +2,7 @@
   "name": "berlin-2026",
   "version": "0.1.0",
   "private": true,
-  "packageManager": "pnpm@9",
+  "packageManager": "pnpm@9.8.0",
   "scripts": {
     "dev": "next dev --turbopack",
     "dev:wahl": "pnpm --filter @kompass/wahl dev",
