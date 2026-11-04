@@ -192,9 +192,11 @@ export function HomePageClient() {
                       )}
                     </p>
                   ) : null}
-                  <p className="mt-4 text-right text-xs text-muted-foreground">
-                    {t.projects.resultsAsOf}
-                  </p>
+                  {project.results.length > 0 ? (
+                    <p className="mt-4 text-right text-xs text-muted-foreground">
+                      {t.projects.resultsAsOf}
+                    </p>
+                  ) : null}
                 </li>
               )
             })}
