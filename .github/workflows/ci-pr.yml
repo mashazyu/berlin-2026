@@ -46,8 +46,7 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - run: pnpm type-check
 
-  # Catches next/font Google loader crashes (vercel/next.js#99114) before e2e.
-  # Uses mocked extensionless /l/font?kit= CSS so the failure mode is deterministic.
+  # Offline next/font/local — no Google Fonts fetch (avoids vercel/next.js#99114).
   build:
     name: Build
     runs-on: ubuntu-latest
@@ -62,8 +61,7 @@ jobs:
           cache: pnpm
           cache-dependency-path: pnpm-lock.yaml
       - run: pnpm install --frozen-lockfile
-      - name: Production build (extensionless Google Fonts mock)
-        run: pnpm check:next-font
+      - run: pnpm build
 
   i18n:
     name: i18n
@@ -194,5 +192,4 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - run: pnpm lint:apps
       - run: pnpm type-check:apps
-      - name: Production build (extensionless Google Fonts mock)
-        run: pnpm check:next-font:apps
+      - run: pnpm build:apps

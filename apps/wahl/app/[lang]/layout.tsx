@@ -1,30 +1,11 @@
 import type React from "react"
-import { Lora, DM_Sans, Noto_Sans_Arabic } from "next/font/google"
 import { notFound } from "next/navigation"
 import { Analytics } from "@vercel/analytics/next"
 import { LanguageProvider } from "@/components/language-provider"
 import { PostHogProvider } from "@/components/posthog-provider"
+import { dmSans, lora, notoSansArabic } from "@/lib/fonts"
 import type { Language } from "@/lib/i18n/types"
 import { CONTENT_LANGUAGE, SUPPORTED_LANGUAGES } from "@/lib/seo/constants"
-
-const lora = Lora({
-  subsets: ["latin", "latin-ext", "cyrillic"],
-  variable: "--font-lora",
-  display: "swap",
-})
-
-const dmSans = DM_Sans({
-  subsets: ["latin", "latin-ext"],
-  variable: "--font-dm-sans",
-  display: "swap",
-})
-
-const notoSansArabic = Noto_Sans_Arabic({
-  subsets: ["arabic"],
-  variable: "--font-noto-sans-arabic",
-  display: "swap",
-  weight: ["400", "500", "600", "700"],
-})
 
 export function generateStaticParams() {
   return SUPPORTED_LANGUAGES.map((lang) => ({ lang }))

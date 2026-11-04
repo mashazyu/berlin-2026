@@ -29,9 +29,7 @@
     "verify:relevance": "node scripts/assemble-comparison.mjs && python3 scripts/verify-relevance.py",
     "check:translation-completeness": "node scripts/check-translation-completeness.mjs",
     "check:translation-links": "node scripts/check-translation-links.mjs",
-    "check:next-font": "NEXT_FONT_GOOGLE_MOCKED_RESPONSES=$PWD/scripts/mocked-google-fonts-extensionless.cjs next build",
-    "check:next-font:apps": "NEXT_FONT_GOOGLE_MOCKED_RESPONSES=$PWD/scripts/mocked-google-fonts-extensionless.cjs pnpm --filter @kompass/www --filter @kompass/polit build",
-
+    "download:app-fonts": "node scripts/download-app-fonts.mjs",
     "test:e2e": "ELECTRON_RUN_AS_NODE= cypress run",
     "test:e2e:open": "ELECTRON_RUN_AS_NODE= cypress open",
     "indexnow:submit": "node scripts/submit-indexnow.mjs"
@@ -75,9 +73,6 @@
       "postcss": "8.5.23",
       "sharp": "0.35.5",
       "source-map-js": "1.2.2"
-    },
-    "patchedDependencies": {
-      "next@15.5.28": "patches/next@15.5.28.patch"
     }
   }
 }
