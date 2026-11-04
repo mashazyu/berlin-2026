@@ -58,7 +58,7 @@ export function SiteHeader() {
             aria-hidden
           />
           <span className="inline-flex items-center">
-            <span className="text-accent">Wahl Kompass</span>
+            <span className="text-accent">Wahl-Kompass</span>
             <span className="mx-1.5 text-border">-</span>
             <span className="text-foreground">Berlin 2026</span>
           </span>

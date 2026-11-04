@@ -1,12 +1,12 @@
 {
-  "brand": "Polit Kompass",
-  "brandAccent": "Polit",
-  "brandRest": "Kompass",
+  "brand": "Kommunal-Kompass",
+  "brandAccent": "Kommunal",
+  "brandRest": "-Kompass",
   "hero": {
     "headline": "Talk to Berlin’s administration",
     "support": "Tools and guides so Berliners can reach local authorities about communal issues.",
     "blurb": "Dummy hero — real product copy coming soon.",
-    "disclaimer": "Polit Kompass is a Kompass Kollektive project in progress.",
+    "disclaimer": "Kommunal-Kompass is a Kompass Kollektive project in progress.",
     "cta": "How to report a problem",
     "scrollHint": "Scroll to guides"
   },
@@ -22,7 +22,7 @@
     "note": "It does not guarantee immediate results, but it gives you a clear set of tools to draw attention to infrastructure gaps."
   },
   "footer": {
-    "notice": "Polit Kompass — a Kompass Kollektive project."
+    "notice": "Kommunal-Kompass — a Kompass Kollektive project."
   },
   "languageSwitcher": {
     "label": "Language"

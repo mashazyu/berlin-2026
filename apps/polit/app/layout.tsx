@@ -31,7 +31,7 @@ const lora = localFont({
 })
 
 export const metadata: Metadata = {
-  title: "Polit Kompass",
+  title: "Kommunal-Kompass",
   description:
     "Tools for Berliners to communicate with local authorities about communal issues.",
 }
