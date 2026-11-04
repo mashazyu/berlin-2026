@@ -4,7 +4,6 @@ export type ProjectId = "water4all" | "berlin-2026" | "polit"
 
 const WATER_BASE = "https://www.water4all.com.de"
 const WAHL_BASE = "https://www.berlin-2026.de"
-const POLIT_BASE = "https://polit.kompass.berlin"
 
 const PROGRAM_HREF: Partial<Record<ProjectId, string>> = {
   water4all: "https://www.club-dialog.de/ina/",
@@ -12,16 +11,19 @@ const PROGRAM_HREF: Partial<Record<ProjectId, string>> = {
     "https://www.bvre.de/projekte-des-bvre/kommunal-activ.html",
 }
 
-export function projectHref(id: ProjectId, language: Language): string {
+/** Live project URL, or null when the site is not ready to link yet. */
+export function projectHref(
+  id: ProjectId,
+  language: Language
+): string | null {
   if (id === "water4all") {
     if (language === "de") return `${WATER_BASE}/de`
     if (language === "ru") return `${WATER_BASE}/ru`
     return WATER_BASE
   }
 
-  if (id === "polit") {
-    return `${POLIT_BASE}/${language}`
-  }
+  // Kommunal Kompass site is not ready yet.
+  if (id === "polit") return null
 
   return `${WAHL_BASE}/${language}`
 }

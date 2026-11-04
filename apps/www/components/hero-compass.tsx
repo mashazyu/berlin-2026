@@ -70,20 +70,16 @@ export function HeroCompass({
 
       {NODES.map((node) => {
         const Icon = node.Icon
-        return (
-          <a
-            key={node.id}
-            href={projectHref(node.id, language)}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="absolute -translate-x-1/2 -translate-y-1/2 rounded-full focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
-            style={{ left: `${node.x}%`, top: `${node.y}%` }}
-            aria-label={projectNames[node.id]}
-          >
+        const href = projectHref(node.id, language)
+        const nodeClass =
+          "absolute -translate-x-1/2 -translate-y-1/2 rounded-full"
+        const bubble = (
+          <>
             <span
               className={cn(
-                "flex size-12 items-center justify-center rounded-full border border-border/70 bg-background/95 shadow-sm transition-transform sm:size-14",
-                "hover:scale-105 hover:border-primary/40"
+                "flex size-12 items-center justify-center rounded-full border border-border/70 bg-background/95 shadow-sm sm:size-14",
+                href &&
+                  "transition-transform hover:scale-105 hover:border-primary/40"
               )}
             >
               <Icon
@@ -96,6 +92,36 @@ export function HeroCompass({
             <span className="absolute left-1/2 top-[calc(100%+0.45rem)] hidden w-[6.75rem] -translate-x-1/2 text-center text-[0.7rem] font-medium leading-snug text-foreground/85 sm:block sm:w-28 sm:text-xs">
               {projectNames[node.id]}
             </span>
+          </>
+        )
+
+        if (!href) {
+          return (
+            <div
+              key={node.id}
+              className={nodeClass}
+              style={{ left: `${node.x}%`, top: `${node.y}%` }}
+              aria-label={projectNames[node.id]}
+            >
+              {bubble}
+            </div>
+          )
+        }
+
+        return (
+          <a
+            key={node.id}
+            href={href}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={cn(
+              nodeClass,
+              "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+            )}
+            style={{ left: `${node.x}%`, top: `${node.y}%` }}
+            aria-label={projectNames[node.id]}
+          >
+            {bubble}
           </a>
         )
       })}

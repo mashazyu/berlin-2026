@@ -3,7 +3,7 @@
   "brandAccent": "Kompass",
   "brandRest": "Kollektive",
   "meta": {
-    "description": "Independent civic projects for Berlin — Water for All, Wahl Kompass and Kommunal Kompass."
+    "description": "Independent civic projects for Berlin — Wasser Kompass, Wahl Kompass and Kommunal Kompass."
   },
   "navigation": {
     "projects": "Projects",
@@ -18,14 +18,14 @@
     "ctaAbout": "Who we are",
     "diagramLabel": "Our three projects",
     "diagramProjects": {
-      "water4all": "Water Compass",
+      "water4all": "Wasser Kompass",
       "berlin-2026": "Wahl Kompass",
       "polit": "Kommunal Kompass"
     }
   },
   "projects": {
     "title": "Our projects",
-    "resultsAsOf": "As of September 2026",
+    "resultsAsOf": "Figures as of September 2026",
     "status": {
       "running": "Running",
       "research": "Research phase"
@@ -33,11 +33,11 @@
     "items": [
       {
         "id": "water4all",
-        "name": "Water for All",
+        "name": "Wasser Kompass (formerly Water for All)",
         "status": "running",
-        "description": "Water for All makes free drinking water in Berlin visible: the map brings together hundreds of public spots — fountains, Refill points and dispensers. In parallel, the project helps residents push for new drinking fountains.",
+        "description": "Wasser Kompass makes free drinking water in Berlin visible: the map brings together hundreds of public spots — fountains, Refill points and dispensers. In parallel, the project helps residents push for new drinking fountains.",
         "program": "INA programme",
-        "linkLabel": "Visit Water for All",
+        "linkLabel": "Visit Wasser Kompass",
         "results": [
           {
             "value": "100,000+",
@@ -82,14 +82,14 @@
     "title": "Who we are",
     "intro": "We build practical tools that make political and administrative information in Berlin clearer and multilingual — independent and source-based.",
     "pageTitle": "About Kompass Kollektive",
-    "body": "Kompass Kollektive is the home of projects by Nina and Masha — Water for All, Wahl Kompass and Kommunal Kompass."
+    "body": "Kompass Kollektive is the home of projects by Nina and Masha — Wasser Kompass, Wahl Kompass and Kommunal Kompass."
   },
   "team": {
     "people": {
       "nina": {
-        "name": "Nina",
-        "role": "Programs & content",
-        "bio": "Nina brings over ten years of experience in communication, content creation, and project coordination at international tech startups. Today she writes at Cee Cee Berlin about environmental and urban policy and advocates for political participation in Berlin.",
+        "name": "Nina Harz",
+        "role": "Communications, editorial & research",
+        "bio": "Nina brings over ten years of experience in communication, content creation, and project coordination at international tech startups. Today she writes at Eco Berlin about environmental and urban policy and advocates for political participation in Berlin.",
         "initials": "N"
       },
       "masha": {
@@ -135,7 +135,7 @@
   },
   "footer": {
     "notice": "Independent civic projects for Berlin — Kompass Kollektive",
-    "aiNotice": "Texts on this site were created with AI assistance.",
+    "aiNotice": "Content on this site was created with AI assistance.",
     "aiDisclosure": "AI disclosure",
     "impressum": "Legal notice",
     "privacy": "Privacy"
@@ -144,7 +144,7 @@
     "title": "AI Disclosure",
     "intro": "This page explains how we use AI tools when creating content for this site — and how human editors stay responsible for what we publish.",
     "howWeUseAi": "How we use AI",
-    "howWeUseAiContent": "We use AI tools to draft and improve website text — for example page copy and project descriptions. AI helps with wording and structure; it does not decide what we publish.",
+    "howWeUseAiContent": "We use AI tools to draft and improve website content — for example page content and project descriptions. AI helps with wording and structure; it does not decide what we publish.",
     "humanResponsibility": "Human ideas and editorial responsibility",
     "humanResponsibilityContent": "All ideas, goals, and content decisions behind this site come from people in the Kompass Kollektive. Before anything is published, we check it for clarity and fit with our projects. Editorial responsibility lies with the Kompass Kollektive.",
     "reviewAndAccuracy": "Review and accuracy",
