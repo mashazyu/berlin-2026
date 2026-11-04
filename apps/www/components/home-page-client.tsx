@@ -130,15 +130,19 @@ export function HomePageClient() {
                         aria-hidden
                         strokeWidth={1.5}
                       />
-                      <h3 className="font-display text-xl font-semibold tracking-[-0.01em]">
-                        <a
-                          href={href}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-foreground underline-offset-4 transition-colors hover:text-primary hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
-                        >
-                          {project.name}
-                        </a>
+                      <h3 className="font-display text-xl font-semibold tracking-[-0.01em] text-foreground">
+                        {href ? (
+                          <a
+                            href={href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="underline-offset-4 transition-colors hover:text-primary hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+                          >
+                            {project.name}
+                          </a>
+                        ) : (
+                          project.name
+                        )}
                       </h3>
                     </div>
                     <span className={`shrink-0 ${metaTagClassName()}`}>
