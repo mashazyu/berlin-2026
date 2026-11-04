@@ -3,7 +3,7 @@
   "brandAccent": "Kompass",
   "brandRest": "Kollektive",
   "meta": {
-    "description": "Unabhängige zivilgesellschaftliche Projekte für Berlin — Wasser für alle, Wahl Kompass und Kommunal Kompass."
+    "description": "Unabhängige zivilgesellschaftliche Projekte für Berlin — Wasser Kompass, Wahl Kompass und Kommunal Kompass."
   },
   "navigation": {
     "projects": "Projekte",
@@ -33,11 +33,11 @@
     "items": [
       {
         "id": "water4all",
-        "name": "Wasser für alle",
+        "name": "Wasser Kompass (ehemals Wasser für alle)",
         "status": "running",
-        "description": "Wasser für alle macht kostenloses Trinkwasser in Berlin sichtbar: Die Karte bündelt hunderte öffentliche Stellen — Brunnen, Refill und Spender. Parallel hilft das Projekt Bürger:innen, sich für neue Trinkbrunnen einzusetzen.",
+        "description": "Wasser Kompass macht kostenloses Trinkwasser in Berlin sichtbar: Die Karte bündelt hunderte öffentliche Stellen — Brunnen, Refill und Spender. Parallel hilft das Projekt Bürger:innen, sich für neue Trinkbrunnen einzusetzen.",
         "program": "Programm INA",
-        "linkLabel": "Zu Wasser für alle",
+        "linkLabel": "Zu Wasser Kompass",
         "results": [
           {
             "value": "100.000+",
@@ -82,7 +82,7 @@
     "title": "Wer wir sind",
     "intro": "Wir bauen praktische Tools, die politische und administrative Informationen in Berlin verständlicher und mehrsprachig zugänglich machen — unabhängig und quellenbasiert.",
     "pageTitle": "Über Kompass Kollektive",
-    "body": "Kompass Kollektive ist die Heimat der Projekte von Nina und Mascha — Wasser für alle, Wahl Kompass und Kommunal Kompass."
+    "body": "Kompass Kollektive ist die Heimat der Projekte von Nina und Mascha — Wasser Kompass, Wahl Kompass und Kommunal Kompass."
   },
   "team": {
     "people": {

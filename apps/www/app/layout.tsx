@@ -15,7 +15,7 @@ const lora = Lora({
 export const metadata: Metadata = {
   title: "Kompass Kollektive",
   description:
-    "Nina and Masha build civic tools for Berlin: Water for All and Berlin 2026.",
+    "Nina and Masha build civic tools for Berlin: Wasser Kompass and Berlin 2026.",
 }
 
 export default function RootLayout({

@@ -3,7 +3,7 @@
   "brandAccent": "Kompass",
   "brandRest": "Kollektive",
   "meta": {
-    "description": "Независимые гражданские проекты для Берлина — Water for All, Wahl Kompass и Kommunal Kompass."
+    "description": "Независимые гражданские проекты для Берлина — Wasser Kompass, Wahl Kompass и Kommunal Kompass."
   },
   "navigation": {
     "projects": "Проекты",
@@ -33,11 +33,11 @@
     "items": [
       {
         "id": "water4all",
-        "name": "Water for All",
+        "name": "Wasser Kompass (ранее Water for All)",
         "status": "running",
-        "description": "Water for All делает бесплатную питьевую воду в Берлине видимой: карта собирает сотни общественных точек — фонтанчики, Refill и кулеры. Параллельно проект помогает жителям добиваться новых питьевых фонтанчиков.",
+        "description": "Wasser Kompass делает бесплатную питьевую воду в Берлине видимой: карта собирает сотни общественных точек — фонтанчики, Refill и кулеры. Параллельно проект помогает жителям добиваться новых питьевых фонтанчиков.",
         "program": "Программа INA",
-        "linkLabel": "Открыть Water for All",
+        "linkLabel": "Открыть Wasser Kompass",
         "results": [
           {
             "value": "100.000+",
@@ -82,7 +82,7 @@
     "title": "Кто мы",
     "intro": "Мы делаем практичные инструменты, которые делают политическую и административную информацию в Берлине понятнее и многоязычной — независимо и на основе источников.",
     "pageTitle": "О Kompass Kollektive",
-    "body": "Kompass Kollektive — дом проектов Нины и Маши: Water for All, Wahl Kompass и Kommunal Kompass."
+    "body": "Kompass Kollektive — дом проектов Нины и Маши: Wasser Kompass, Wahl Kompass и Kommunal Kompass."
   },
   "team": {
     "people": {
