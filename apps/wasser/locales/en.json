@@ -14,7 +14,8 @@
   "navigation": {
     "map": "Map",
     "faq": "FAQ",
-    "about": "About"
+    "about": "About",
+    "news": "News"
   },
   "footer": {
     "notice": "Wasser-Kompass — a project of Kompass Kollektive."
@@ -141,5 +142,261 @@
         "category": "map"
       }
     ]
+  },
+  "newsSection": {
+    "title": "Latest news",
+    "viewAll": "All news"
+  },
+  "mentions": {
+    "title": "In the media",
+    "subtitle": "Media outlets and communities covering our project",
+    "kindLabels": {
+      "telegram": "Telegram",
+      "newsletter": "Newsletter",
+      "substack": "Substack",
+      "article": "Article"
+    }
+  },
+  "newsTags": {
+    "map": "Map",
+    "fountains": "Fountains"
+  },
+  "newsPage": {
+    "title": "Berlin Drinking Water News",
+    "intro": "Project updates on Berlin’s drinking fountain map, BVV requests, partnerships, and media coverage from Wasser-Kompass.",
+    "loadMore": "Load More News"
+  },
+  "news": [
+    {
+      "id": 1,
+      "title": "Project Start",
+      "content": "The initiative was officially kickstarted as the part of the citizen activation program of the Club Dialog e.V. ",
+      "date": "2025-05",
+      "project": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Engagement with Berliner Wasserbetriebe",
+      "content": "Our suggestion for a fountain location in Pankow has been accepted for consideration and is now on the list for future possible locations. BWB drinking fountations map integration.",
+      "date": "2025-07",
+      "project": [
+        2
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Engagement with Refill",
+      "content": "Exchanged experience and insights about the water sources mapping. Refill spots map integration.",
+      "date": "2025-07",
+      "project": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Engagement with the Pankow District Council",
+      "content": "The Left Faction agreed to submit a citizen petition to the Pankow District Council for future discussion.",
+      "date": "2025-07",
+      "project": [
+        2
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Water Map Beta Launch",
+      "content": "We released a beta version of our map showing all known public water points in Berlin, and shared it for feedback with other organizations.",
+      "date": "2025-07",
+      "project": [
+        1
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Website Launch",
+      "content": "We launched a website where you can find information about our project and share your thoughts.",
+      "date": "2025-08",
+      "project": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Info Campaign Launch",
+      "content": "We're excited to announce the launch of our info campaign! Our goal is to share more about our initiative with the public across different districts. To support this, we've also created a new map in English—especially for this campaign.",
+      "date": "2025-08",
+      "project": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 8,
+      "title": "4,500 Berliners use our map",
+      "content": "An important milestone: Over 4,500 people in Berlin have already opened our map to find free drinking water points.",
+      "date": "2025-09",
+      "project": [
+        1
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Multilingual Map - NEW: Now also in Russian",
+      "content": "Our map is now available in Russian! This helps more Berliners find drinking fountains and refill points and save the map to Google Maps.",
+      "date": "2025-09",
+      "project": [
+        1
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Information on planned drinking fountains in Pankow",
+      "content": "Thanks to a small inquiry to the BVV Pankow and with the help of the Linksfraktion in the BVV Pankow, we received official information about planned drinking fountains in the district.",
+      "date": "2025-09",
+      "project": [
+        2
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Exchange with the Senate Administration (SenMVKU)",
+      "content": "The Senate confirmed: There is no budget in 2025 for new drinking fountains.",
+      "date": "2025-10",
+      "project": [
+        2
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Contact with Lichtenberg civic engagement office",
+      "content": "We are talking with the Lichtenberg civic engagement office to explore what funding or participation opportunities exist at the district level for drinking fountain installations.",
+      "date": "2025-10",
+      "project": [
+        2
+      ]
+    },
+    {
+      "id": 13,
+      "title": "New inquiries to district authorities in other districts",
+      "content": "We are collecting information on planned drinking fountains and submitted new small inquiries to various districts to get a more complete picture for Berlin.",
+      "date": "2025-10",
+      "project": [
+        2
+      ]
+    },
+    {
+      "id": 14,
+      "title": "10,000+ Map Views",
+      "content": "We're excited to share that our water maps were viewed over 10,000 times! We'll continue working on water fountain installation this year and keep you updated.",
+      "date": "2026-01",
+      "project": [
+        1
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Thank You to Carla Assmann for the Parliamentary Inquiry",
+      "content": "Thank you to [Carla Assmann](https://www.linksfraktion-neukoelln.de/ueber-uns/bezirksverordnete/carla-assmann/) (Die Linke Neukölln) for submitting a small parliamentary inquiry on our behalf. The data we received regarding planned fountain locations will be available on our website shortly.",
+      "date": "2026-01",
+      "project": [
+        2
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Thank You to Dennis Egginger-Gonzalez for the Parliamentary Inquiry",
+      "content": "We would like to sincerely thank [Dennis Egginger-Gonzalez](https://linksfraktion-sz.de/verordnete/dennis-egginger-gonzalez/) (Die Linke Steglitz) for submitting a small parliamentary inquiry ([Kleine Anfrage](https://bvv-steglitz-zehlendorf.berlin.de/pi-r/ka020_r.asp?KALFDNR=2074)) on our behalf. The data we received regarding planned fountain locations will be available on our website shortly.",
+      "date": "2025-12",
+      "project": [
+        2
+      ]
+    },
+    {
+      "id": 15,
+      "title": "District Data for Fountain Installation Requests is Online",
+      "content": "The list of locations with requests for fountain installations is now online. Data for the districts of Charlottenburg-Wilmersdorf, Pankow, and Steglitz-Zehlendorf is now [available on our website](https://www.water4all.com.de/{lang}/fountains/locations).",
+      "date": "2026-04",
+      "project": [
+        2
+      ]
+    },
+    {
+      "id": 18,
+      "title": "All BVV fountain requests are now online",
+      "content": "We have added all the details for fountain locations requested through Berlin’s district councils (BVV). You can now find the full list of proposed sites for every district on our website.",
+      "date": "2026-04",
+      "project": [
+        2
+      ]
+    },
+    {
+      "id": 19,
+      "title": "New Guide: How to request a drinking fountain",
+      "content": "Our new [guide on our website](https://www.water4all.com.de/{lang}/fountains/guide) for requesting drinking fountains is now live. We have put together a step-by-step walkthrough on how to propose a fountain installation in your local area.",
+      "date": "2026-04",
+      "project": [
+        2
+      ]
+    },
+    {
+      "id": 20,
+      "title": "60,000 Map Views",
+      "content": "Our maps have been viewed 60,000 times as of July 1, 2026. We are happy to help you find free drinking water sources across Berlin.",
+      "date": "2026-07",
+      "project": [
+        1
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Discussions with Local Politicians During Election Season",
+      "content": "We are taking advantage of the election season to continue our discussions with local politicians about the importance of access to drinking water.",
+      "date": "2026-06",
+      "project": [
+        2
+      ]
+    },
+    {
+      "id": 21,
+      "title": "dm Stores with Water Dispensers and Restrooms",
+      "content": "Based on user feedback, we have added a list of dm stores that offer water dispensers and/or customer restrooms.",
+      "date": "2026-06",
+      "project": [
+        1
+      ]
+    },
+    {
+      "id": 23,
+      "title": "100,000+ Map Views",
+      "content": "Our maps have been viewed more than 100,000 times as of August 2026. Thank you for using them to find free drinking water across Berlin — we will keep improving the map.",
+      "date": "2026-08",
+      "project": [
+        1
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Featured by the Federal Association of Russian-Speaking Parents",
+      "content": "The [Bundesverband russischsprachiger Eltern e.V. (BVRE)](https://www.instagram.com/bvre_e.v/p/DcRAnBPMt2U/) presented our initiative as part of the “Kommunal Aktiv” project — highlighting the water map, the open fountain database, and the guide for citizen requests.",
+      "date": "2026-08-20",
+      "project": [
+        1,
+        2
+      ]
+    }
+  ],
+  "mentionSummaries": {
+    "1": "Featured our project in a deep dive into how to make Berlin's urban environment more accessible and comfortable.",
+    "2": "Shared our mission with the local eco-community, highlighting why public fountains are key to a more sustainable city.",
+    "3": "Highlighted our work while discussing water accessibility, showing residents how to easily find free water sources across Berlin.",
+    "4": "Video interview and walk-and-talk with our co-founder Masha, showcasing different water sources in Berlin."
+  },
+  "carousel": {
+    "previous": "Previous",
+    "next": "Next"
   }
 }
