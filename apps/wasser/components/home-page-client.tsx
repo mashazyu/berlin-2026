@@ -2,14 +2,14 @@
 
 import { SiteChrome } from "@/components/site-chrome"
 import { MapSection } from "@/components/map-section"
-import { QuickHelpLinks } from "@/components/quick-help-links"
+import { FaqSection } from "@/components/faq-section"
 
-/** Map is the product home — same content as the former /map route. */
+/** Map is the product home — FAQ follows in place of the old quick-help strip. */
 export function HomePageClient() {
   return (
     <SiteChrome>
       <MapSection titleAs="h1" muted={false} />
-      <QuickHelpLinks />
+      <FaqSection titleAs="h2" muted width="wide" columns={2} />
     </SiteChrome>
   )
 }
