@@ -4,14 +4,12 @@ import type { ReactNode } from "react"
 import { Compass } from "lucide-react"
 import {
   BrandMark,
+  Footer,
   LandingShell,
-  SiteFooter,
   SiteHeader,
-  type FooterLink,
 } from "@kompass/landing"
 import { LanguageSwitcher } from "@/components/language-switcher"
 import { useLanguage } from "@/components/language-provider"
-import { legalLanguageFor } from "@/lib/i18n"
 
 const NAV_SECTIONS = [
   "projects",
@@ -23,27 +21,11 @@ const NAV_SECTIONS = [
 export function useSiteChrome() {
   const { language, translations: t } = useLanguage()
   const homeHref = `/${language}`
-  const legalLang = legalLanguageFor(language)
   const brand = (
     <BrandMark icon={Compass}>
       <span className="text-foreground">{t.brand}</span>
     </BrandMark>
   )
-
-  const footerLinks: FooterLink[] = [
-    {
-      href: `/${language}/ai-disclosure`,
-      label: t.footer.aiDisclosure,
-    },
-    {
-      href: `/${legalLang}/impressum`,
-      label: t.footer.impressum,
-    },
-    {
-      href: `/${legalLang}/privacy`,
-      label: t.footer.privacy,
-    },
-  ]
 
   return {
     language,
@@ -62,13 +44,7 @@ export function useSiteChrome() {
         trailing={<LanguageSwitcher />}
       />
     ),
-    footer: (
-      <SiteFooter
-        brand={brand}
-        notice={t.footer.aiNotice}
-        links={footerLinks}
-      />
-    ),
+    footer: <Footer language={language} origin="" />,
   }
 }
 

@@ -4,8 +4,8 @@ import type { ReactNode } from "react"
 import { Droplet } from "lucide-react"
 import {
   BrandMark,
+  Footer,
   LandingShell,
-  SiteFooter,
   SiteHeader,
 } from "@kompass/landing"
 import { LanguageSwitcher } from "@/components/language-switcher"
@@ -37,12 +37,6 @@ export function SiteChrome({
           links={[
             {
               type: "page",
-              href: `/${language}/map`,
-              label: t.navigation.map,
-              matchPath: "/map",
-            },
-            {
-              type: "page",
               href: `/${language}/faq`,
               label: t.navigation.faq,
               matchPath: "/faq",
@@ -56,7 +50,7 @@ export function SiteChrome({
           trailing={<LanguageSwitcher />}
         />
       }
-      footer={<SiteFooter brand={brand} notice={t.footer.notice} />}
+      footer={<Footer language={language} />}
     >
       {children}
     </LandingShell>

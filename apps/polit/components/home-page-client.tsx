@@ -6,8 +6,8 @@ import {
   Hero,
   HeroCta,
   HeroScrollHint,
+  Footer,
   LandingShell,
-  SiteFooter,
   SiteHeader,
 } from "@kompass/landing"
 import { LanguageSwitcher } from "@/components/language-switcher"
@@ -41,7 +41,7 @@ export function HomePageClient() {
           trailing={<LanguageSwitcher />}
         />
       }
-      footer={<SiteFooter brand={brand} notice={t.footer.notice} />}
+      footer={<Footer language={language} />}
     >
       <Hero
         headline={t.hero.headline}

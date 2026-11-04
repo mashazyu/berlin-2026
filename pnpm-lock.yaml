@@ -17,6 +17,9 @@ importers:
       '@kompass/fonts':
         specifier: workspace:*
         version: link:packages/fonts
+      '@kompass/landing':
+        specifier: workspace:*
+        version: link:packages/landing
       '@marsidev/react-turnstile':
         specifier: ^1.6.1
         version: 1.6.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -160,6 +163,9 @@ importers:
       '@kompass/fonts':
         specifier: workspace:*
         version: link:../../packages/fonts
+      '@kompass/landing':
+        specifier: workspace:*
+        version: link:../../packages/landing
       '@marsidev/react-turnstile':
         specifier: ^1.6.1
         version: 1.6.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0)

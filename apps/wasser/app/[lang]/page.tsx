@@ -10,7 +10,7 @@ export async function generateMetadata({
   const { lang } = await params
   const t = getTranslations(toSafeLanguage(lang))
   return {
-    title: t.brand,
+    title: `${t.map.heroTitle} — ${t.brand}`,
     description: t.hero.support,
   }
 }

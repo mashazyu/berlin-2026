@@ -1,20 +1,12 @@
-import { MapPageClient } from "@/components/map-page-client"
-import { getTranslations, toSafeLanguage } from "@/lib/i18n"
-import type { Metadata } from "next"
+import { redirect } from "next/navigation"
+import { toSafeLanguage } from "@/lib/i18n"
 
-export async function generateMetadata({
+/** Former map URL — map is now the home page. */
+export default async function MapPage({
   params,
 }: {
   params: Promise<{ lang: string }>
-}): Promise<Metadata> {
+}) {
   const { lang } = await params
-  const t = getTranslations(toSafeLanguage(lang))
-  return {
-    title: `${t.map.heroTitle} — ${t.brand}`,
-    description: t.hero.support,
-  }
-}
-
-export default function MapPage() {
-  return <MapPageClient />
+  redirect(`/${toSafeLanguage(lang)}`)
 }
