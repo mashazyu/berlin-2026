@@ -6,7 +6,7 @@ Four Kompass sites share UI packages. Each site is served on **both** the apex h
 | --- | --- | --- | --- |
 | `kompass.berlin`, `www.kompass.berlin` | `apps/www` | **Kompass Kollektive** (about us) | ready |
 | `polit.kompass.berlin`, `www.polit.kompass.berlin` | `apps/polit` | **Kommunal-Kompass** (communal guides) | ready |
-| `wasser.kompass.berlin`, `www.wasser.kompass.berlin` | `apps/wasser` | water4all copy | placeholder (move later) |
+| `wasser.kompass.berlin`, `www.wasser.kompass.berlin` | `apps/wasser` | **Wasser-Kompass** (map + FAQ) | map/FAQ ported; about on www |
 | `wahl.kompass.berlin`, `www.wahl.kompass.berlin` | `apps/wahl` | **Wahl-Kompass - Berlin 2026** | ready in monorepo |
 | `berlin-2026.de` (live today) | repo root `/` | same product as wahl | production until cutover |
 
@@ -20,7 +20,7 @@ Four Kompass sites share UI packages. Each site is served on **both** the apex h
       docs/reports/      # metrics + public story PDFs (wahl only)
       scripts/           # comparison verify + report chart/PDF regen
       stats/             # local analytics exports (gitignored)
-    wasser/              # water4all (later)
+    wasser/              # Wasser-Kompass — map + FAQ
   packages/
     ui/                  # @kompass/ui
     landing/             # @kompass/landing
@@ -70,5 +70,5 @@ pnpm build:apps           # www + polit production builds
 
 ## Still later
 
-- Move water4all → `apps/wasser`  
+- Finish water4all cutover → `apps/wasser` (fountains/news still on water4all.com.de)  
 - Optionally stop maintaining the root Next app once wahl owns production
