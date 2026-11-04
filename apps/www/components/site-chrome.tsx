@@ -44,7 +44,14 @@ export function useSiteChrome() {
         trailing={<LanguageSwitcher />}
       />
     ),
-    footer: <Footer language={language} origin="" />,
+    footer: (
+      <Footer
+        icon={Compass}
+        name={t.brand}
+        language={language}
+        origin=""
+      />
+    ),
   }
 }
 

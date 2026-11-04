@@ -1,13 +1,12 @@
 "use client"
 
-import { Compass } from "lucide-react"
+import type { LucideIcon } from "lucide-react"
 import { BrandMark } from "./brand-mark"
 import { SiteFooter } from "./site-footer"
 
 const DEFAULT_ORIGIN = "https://kompass.berlin"
 
 type FooterCopy = {
-  brand: string
   aiNotice: string
   aiDisclosure: string
   impressum: string
@@ -16,21 +15,18 @@ type FooterCopy = {
 
 const COPY: Record<"de" | "en" | "ru", FooterCopy> = {
   en: {
-    brand: "Kompass Kollektive",
     aiNotice: "Content on this site was created with AI assistance.",
     aiDisclosure: "AI disclosure",
     impressum: "Legal notice",
     privacy: "Privacy",
   },
   de: {
-    brand: "Kompass Kollektive",
     aiNotice: "Inhalte auf dieser Website entstanden mit KI-Unterstützung.",
     aiDisclosure: "KI-Hinweis",
     impressum: "Impressum",
     privacy: "Datenschutz",
   },
   ru: {
-    brand: "Kompass Kollektive",
     aiNotice: "Контент на этом сайте создан с помощью ИИ.",
     aiDisclosure: "Об использовании ИИ",
     impressum: "Выходные данные",
@@ -48,6 +44,10 @@ function legalLanguageFor(language: string): "de" | "en" {
 }
 
 export type FooterProps = {
+  /** Site / product icon (from the calling app). */
+  icon: LucideIcon
+  /** Site / product name (from the calling app). */
+  name: string
   /** UI language of the current app (de/en/ru/…). */
   language: string
   /**
@@ -59,9 +59,11 @@ export type FooterProps = {
 
 /**
  * Shared footer for every site in the monorepo.
- * Brand + AI notice + legal links match the collective www site.
+ * Icon + name come from the app; AI notice + legal links are shared.
  */
 export function Footer({
+  icon,
+  name,
   language,
   origin = DEFAULT_ORIGIN,
 }: FooterProps) {
@@ -73,8 +75,8 @@ export function Footer({
   const external = Boolean(base)
 
   const brand = (
-    <BrandMark icon={Compass} iconClassName="h-4 w-4">
-      <span className="text-foreground">{copy.brand}</span>
+    <BrandMark icon={icon} iconClassName="h-4 w-4">
+      <span className="text-foreground">{name}</span>
     </BrandMark>
   )
 

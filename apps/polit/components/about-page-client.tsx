@@ -39,7 +39,7 @@ export function AboutPageClient() {
           trailing={<LanguageSwitcher />}
         />
       }
-      footer={<Footer language={language} />}
+      footer={<Footer icon={Compass} name={t.brand} language={language} />}
     >
       <section className="mx-auto max-w-3xl px-4 py-16 sm:px-6">
         <h1 className="font-display text-3xl font-semibold tracking-[-0.01em]">

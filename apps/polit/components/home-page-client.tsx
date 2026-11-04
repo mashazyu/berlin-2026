@@ -41,7 +41,7 @@ export function HomePageClient() {
           trailing={<LanguageSwitcher />}
         />
       }
-      footer={<Footer language={language} />}
+      footer={<Footer icon={Compass} name={t.brand} language={language} />}
     >
       <Hero
         headline={t.hero.headline}

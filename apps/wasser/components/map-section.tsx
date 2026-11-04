@@ -25,19 +25,19 @@ export function MapSection({
       lang: "en" as const,
       label: t.map.addEnglishMap,
       href: MAP_URLS.ENGLISH_MAP,
-      flag: "EN",
+      flag: "🇬🇧",
     },
     {
       lang: "de" as const,
       label: t.map.addGermanMap,
       href: MAP_URLS.GERMAN_MAP,
-      flag: "DE",
+      flag: "🇩🇪",
     },
     {
       lang: "ru" as const,
       label: t.map.addRussianMap,
       href: MAP_URLS.RUSSIAN_MAP,
-      flag: "RU",
+      flag: "🇷🇺",
     },
   ]
 
@@ -70,7 +70,9 @@ export function MapSection({
                 }
               >
                 <a href={btn.href} target="_blank" rel="noopener noreferrer">
-                  <span className="mr-2 font-medium tabular-nums">{btn.flag}</span>
+                  <span className="mr-2 text-base leading-none" aria-hidden>
+                    {btn.flag}
+                  </span>
                   {btn.label}
                 </a>
               </Button>

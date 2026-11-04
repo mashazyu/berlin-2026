@@ -50,7 +50,9 @@ export function SiteChrome({
           trailing={<LanguageSwitcher />}
         />
       }
-      footer={<Footer language={language} />}
+      footer={
+        <Footer icon={Droplet} name={t.brand} language={language} />
+      }
     >
       {children}
     </LandingShell>
