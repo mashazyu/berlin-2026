@@ -135,7 +135,7 @@
   },
   "footer": {
     "notice": "Independent civic projects for Berlin — Kompass Kollektive",
-    "aiNotice": "Texts on this site were created with AI assistance.",
+    "aiNotice": "Content on this site was created with AI assistance.",
     "aiDisclosure": "AI disclosure",
     "impressum": "Legal notice",
     "privacy": "Privacy"
@@ -144,7 +144,7 @@
     "title": "AI Disclosure",
     "intro": "This page explains how we use AI tools when creating content for this site — and how human editors stay responsible for what we publish.",
     "howWeUseAi": "How we use AI",
-    "howWeUseAiContent": "We use AI tools to draft and improve website text — for example page copy and project descriptions. AI helps with wording and structure; it does not decide what we publish.",
+    "howWeUseAiContent": "We use AI tools to draft and improve website content — for example page content and project descriptions. AI helps with wording and structure; it does not decide what we publish.",
     "humanResponsibility": "Human ideas and editorial responsibility",
     "humanResponsibilityContent": "All ideas, goals, and content decisions behind this site come from people in the Kompass Kollektive. Before anything is published, we check it for clarity and fit with our projects. Editorial responsibility lies with the Kompass Kollektive.",
     "reviewAndAccuracy": "Review and accuracy",
