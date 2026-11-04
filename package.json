@@ -37,6 +37,7 @@
     "indexnow:submit": "node scripts/submit-indexnow.mjs"
   },
   "dependencies": {
+    "@kompass/fonts": "workspace:*",
     "@marsidev/react-turnstile": "^1.6.1",
     "@radix-ui/react-scroll-area": "^1.2.18",
     "@radix-ui/react-separator": "^1.1.15",

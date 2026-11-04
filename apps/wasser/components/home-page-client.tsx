@@ -39,7 +39,7 @@ export function HomePageClient() {
       />
 
       <MapSection muted />
-      <FaqSection />
+      <FaqSection titleAs="h2" />
     </SiteChrome>
   )
 }

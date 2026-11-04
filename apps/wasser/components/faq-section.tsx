@@ -2,12 +2,10 @@
 
 import { useEffect, useState } from "react"
 import { ChevronDown } from "lucide-react"
+import { PageSection } from "@kompass/landing"
+import { Separator } from "@kompass/ui/separator"
 import { RichText } from "@/components/rich-text"
 import { useLanguage } from "@/components/language-provider"
-
-const sectionShell =
-  "flex scroll-mt-[var(--header-offset)] flex-col justify-start px-4 py-14 sm:px-6 sm:py-20"
-const contentWide = "mx-auto w-full max-w-3xl"
 
 type FaqItem = {
   id: number | string
@@ -32,7 +30,7 @@ function FaqDetails({
   return (
     <details
       id={id}
-      className="group border-b border-border"
+      className="group"
       open={open}
       onToggle={(event) => {
         const nextOpen = (event.currentTarget as HTMLDetailsElement).open
@@ -55,7 +53,7 @@ function FaqDetails({
 }
 
 export function FaqSection({
-  titleAs: TitleTag = "h2",
+  titleAs = "h1",
   id = "faq",
 }: {
   titleAs?: "h1" | "h2"
@@ -99,14 +97,16 @@ export function FaqSection({
           {items.map((faq, index) => {
             const itemId = `faq${indexOffset + index + 1}`
             return (
-              <FaqDetails
-                key={`${faq.category}-${faq.id}`}
-                id={itemId}
-                question={faq.question}
-                answer={faq.answer}
-                open={openId === itemId}
-                onOpenChange={(next) => setOpenId(next ? itemId : undefined)}
-              />
+              <div key={`${faq.category}-${faq.id}`}>
+                <FaqDetails
+                  id={itemId}
+                  question={faq.question}
+                  answer={faq.answer}
+                  open={openId === itemId}
+                  onOpenChange={(next) => setOpenId(next ? itemId : undefined)}
+                />
+                <Separator />
+              </div>
             )
           })}
         </div>
@@ -115,29 +115,30 @@ export function FaqSection({
   }
 
   return (
-    <section id={id} className={sectionShell}>
-      <div className={`${contentWide} animate-[rise_0.55s_ease-out_both]`}>
-        <TitleTag className="font-display text-3xl font-semibold tracking-[-0.01em] sm:text-4xl">
-          {t.faq.title}
-        </TitleTag>
-        {t.faq.description ? (
-          <p className="mt-4 text-base leading-relaxed text-muted-foreground sm:text-lg">
-            {t.faq.description}
-          </p>
-        ) : null}
-        {renderGroup(
-          t.faq.projectFaqsHeading,
-          t.faq.projectFaqsTitle,
-          projectFaqs,
-          0
-        )}
-        {renderGroup(
-          t.faq.mapFaqsHeading,
-          t.faq.mapFaqsTitle,
-          mapFaqs,
-          projectFaqs.length
-        )}
-      </div>
-    </section>
+    <PageSection
+      id={id}
+      title={t.faq.title}
+      titleAs={titleAs}
+      width="narrow"
+      fillViewport={false}
+    >
+      {t.faq.description ? (
+        <p className="mt-4 text-base leading-relaxed text-muted-foreground sm:text-lg">
+          {t.faq.description}
+        </p>
+      ) : null}
+      {renderGroup(
+        t.faq.projectFaqsHeading,
+        t.faq.projectFaqsTitle,
+        projectFaqs,
+        0
+      )}
+      {renderGroup(
+        t.faq.mapFaqsHeading,
+        t.faq.mapFaqsTitle,
+        mapFaqs,
+        projectFaqs.length
+      )}
+    </PageSection>
   )
 }

@@ -24,6 +24,7 @@ Four Kompass sites share UI packages. Each site is served on **both** the apex h
   packages/
     ui/                  # @kompass/ui
     landing/             # @kompass/landing
+    fonts/               # @kompass/fonts — shared next/font/local woff2s
   scripts/vercel-should-build.sh
   pnpm-workspace.yaml
 ```
@@ -44,10 +45,10 @@ pnpm build:apps           # www + polit production builds
 | Project | Root Directory | Domains | Ignored Build Step |
 | --- | --- | --- | --- |
 | berlin (live) | `/` (empty) | `berlin-2026.de`, `www.berlin-2026.de` | `bash scripts/vercel-should-build.sh app components lib locales data public scripts middleware.ts next.config.ts package.json` |
-| www | `apps/www` | `kompass.berlin`, `www.kompass.berlin` | `bash scripts/vercel-should-build.sh apps/www packages/ui packages/landing` |
-| polit | `apps/polit` | `polit.kompass.berlin`, `www.polit.kompass.berlin` | `bash scripts/vercel-should-build.sh apps/polit packages/ui packages/landing` |
-| wahl | `apps/wahl` | `wahl.kompass.berlin`, `www.wahl.kompass.berlin` | `bash scripts/vercel-should-build.sh apps/wahl` |
-| wasser | `apps/wasser` | `wasser.*` | after water4all move |
+| www | `apps/www` | `kompass.berlin`, `www.kompass.berlin` | `bash scripts/vercel-should-build.sh apps/www packages/ui packages/landing packages/fonts` |
+| polit | `apps/polit` | `polit.kompass.berlin`, `www.polit.kompass.berlin` | `bash scripts/vercel-should-build.sh apps/polit packages/ui packages/landing packages/fonts` |
+| wahl | `apps/wahl` | `wahl.kompass.berlin`, `www.wahl.kompass.berlin` | `bash scripts/vercel-should-build.sh apps/wahl packages/fonts` |
+| wasser | `apps/wasser` | `wasser.*` | `bash scripts/vercel-should-build.sh apps/wasser packages/ui packages/landing packages/fonts` |
 
 **Settings for each app project**
 

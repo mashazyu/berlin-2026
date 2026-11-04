@@ -10,6 +10,9 @@ export type { HeroCtaProps, HeroScrollHintProps } from "./hero-actions"
 export { ContentSection } from "./content-section"
 export type { ContentSectionProps, ContentBlock } from "./content-section"
 
+export { PageSection } from "./page-section"
+export type { PageSectionProps } from "./page-section"
+
 export { MentionsSection } from "./mentions-section"
 export type {
   MentionsSectionProps,

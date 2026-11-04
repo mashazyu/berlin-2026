@@ -1,11 +1,8 @@
 "use client"
 
 import Link from "next/link"
+import { PageSection } from "@kompass/landing"
 import { useLanguage } from "@/components/language-provider"
-
-const sectionShell =
-  "flex scroll-mt-[var(--header-offset)] flex-col justify-start bg-section-muted px-4 py-14 sm:px-6 sm:py-20"
-const contentWide = "mx-auto w-full max-w-6xl xl:max-w-7xl"
 
 /** Matches water4all QuickHelpSection: label by source id, hash by display index. */
 const QUICK_LINKS = [
@@ -26,24 +23,19 @@ export function QuickHelpLinks() {
   }
 
   return (
-    <section className={sectionShell}>
-      <div className={`${contentWide} animate-[rise_0.55s_ease-out_both]`}>
-        <h2 className="font-display text-2xl font-semibold tracking-[-0.01em] sm:text-3xl">
-          {t.map.quickHelpTitle}
-        </h2>
-        <ul className="mt-8 grid gap-3 sm:grid-cols-2">
-          {QUICK_LINKS.map(({ sourceId, hash }) => (
-            <li key={sourceId}>
-              <Link
-                href={`/${language}/faq#${hash}`}
-                className="text-primary underline-offset-4 hover:underline"
-              >
-                {labelFor(sourceId)}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </div>
-    </section>
+    <PageSection id="quick-help" title={t.map.quickHelpTitle} muted width="wide">
+      <ul className="mt-8 grid gap-3 sm:grid-cols-2">
+        {QUICK_LINKS.map(({ sourceId, hash }) => (
+          <li key={sourceId}>
+            <Link
+              href={`/${language}/faq#${hash}`}
+              className="text-primary underline-offset-4 hover:underline"
+            >
+              {labelFor(sourceId)}
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </PageSection>
   )
 }

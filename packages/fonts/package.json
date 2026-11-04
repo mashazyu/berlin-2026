@@ -1,0 +1,16 @@
+{
+  "name": "@kompass/fonts",
+  "version": "0.0.0",
+  "private": true,
+  "sideEffects": false,
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "peerDependencies": {
+    "next": "^15.0.0"
+  },
+  "devDependencies": {
+    "next": "15.5.28",
+    "typescript": "^5"
+  }
+}
