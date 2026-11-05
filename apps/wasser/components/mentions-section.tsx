@@ -1,6 +1,6 @@
 "use client"
 
-import { ExternalLink, FileText, Mail, Send } from "lucide-react"
+import { ExternalLink, Mail, Send } from "lucide-react"
 import type { LucideIcon } from "lucide-react"
 import { PageSection } from "@kompass/landing"
 import type { MentionItem, MentionKind } from "@kompass/landing"
@@ -8,11 +8,34 @@ import { Carousel, CarouselSlide } from "@/components/carousel"
 import { useLanguage } from "@/components/language-provider"
 import { getMentions } from "@/lib/mentions"
 
-const KIND_ICONS: Record<MentionKind, LucideIcon> = {
+function NewspaperIcon({ className }: { className?: string }) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.75"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden
+      className={className}
+    >
+      <rect x="3" y="4" width="18" height="16" rx="1.5" />
+      <path d="M12 4v16" />
+      <path d="M6 8h3.5M6 11h3.5M6 14h3.5" />
+      <path d="M14.5 8H18M14.5 11H18M14.5 14H18M14.5 17H18" />
+    </svg>
+  )
+}
+
+const KIND_ICONS: Record<
+  MentionKind,
+  LucideIcon | typeof NewspaperIcon
+> = {
   telegram: Send,
   newsletter: Mail,
-  substack: FileText,
-  article: FileText,
+  substack: Mail,
+  article: NewspaperIcon,
 }
 
 function formatMentionDate(dateString: string) {

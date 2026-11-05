@@ -151,6 +151,14 @@
         "internationals",
         "election"
       ]
+    },
+    {
+      "id": "wahlheymat",
+      "source": "Wahlheymat",
+      "topics": [
+        "internationals",
+        "election"
+      ]
     }
   ],
   "footer": {

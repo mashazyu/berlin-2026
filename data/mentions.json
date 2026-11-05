@@ -53,6 +53,12 @@
       "date": "2026-09-17",
       "postUrl": "https://t.me/goose_expat/2098",
       "kind": "telegram"
+    },
+    {
+      "id": "wahlheymat",
+      "date": "2026-11-05",
+      "postUrl": "https://wahlheymat.de/wahl-kompass-understanding-berlin-politics-takes-more-than-speaking-german/",
+      "kind": "article"
     }
   ]
 }
