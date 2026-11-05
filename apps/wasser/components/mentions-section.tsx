@@ -104,6 +104,7 @@ export function MentionsSection({
       id="mentions"
       title={t.mentions.title}
       muted={muted}
+      fillViewport
       width="wide"
     >
       {t.mentions.subtitle ? (

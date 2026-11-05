@@ -88,6 +88,7 @@ export function NewsSection({
       title={title}
       titleAs={titleAs}
       muted={muted}
+      fillViewport
       width="wide"
     >
       {layout === "carousel" ? (

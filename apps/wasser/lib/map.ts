@@ -14,15 +14,22 @@ export const MAP_URLS = {
     "https://www.google.com/maps/d/embed?mid=1FJ8sStgRRpony1CRlLuiDRMttrjOhUg&ehbc=2E312F",
 } as const
 
+/** Berlin center + city zoom for embed (higher z = closer). */
+const EMBED_VIEW = "ll=52.520008,13.404954&z=12"
+
+function withEmbedView(baseUrl: string): string {
+  return `${baseUrl}&${EMBED_VIEW}`
+}
+
 export function getMapEmbedUrl(language: string): string {
   switch (language) {
     case "de":
-      return MAP_URLS.GERMAN_MAP_EMBED
+      return withEmbedView(MAP_URLS.GERMAN_MAP_EMBED)
     case "ru":
-      return MAP_URLS.RUSSIAN_MAP_EMBED
+      return withEmbedView(MAP_URLS.RUSSIAN_MAP_EMBED)
     case "en":
     default:
-      return MAP_URLS.ENGLISH_MAP_EMBED
+      return withEmbedView(MAP_URLS.ENGLISH_MAP_EMBED)
   }
 }
 

@@ -102,7 +102,7 @@ export function FaqSection({
       titleAs={titleAs}
       muted={muted}
       width={width}
-      fillViewport={false}
+      fillViewport
     >
       {t.faq.description ? (
         <p className="mt-4 text-base leading-relaxed text-muted-foreground sm:text-lg">

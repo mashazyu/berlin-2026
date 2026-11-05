@@ -24,24 +24,47 @@
   },
   "map": {
     "heroTitle": "Free drinking water in Berlin",
-    "lead": "Looking for free water in Berlin near you? Berlin has 238 public drinking fountains — but fewer than 40 show up on Google Maps. Our potable water map brings together nearly 1,000 free water points.",
+    "lead": "Berlin has 238 public drinking fountains — but fewer than 40 show up on Google Maps. Our map brings together nearly 1,000 free water points: fountains, Refill spots, public taps, dm stores, and more.",
     "includesHeading": "What’s on the map",
     "includes": [
-      "Public drinking fountains",
-      "Refill spots (cafés and shops that refill your bottle)",
-      "Public buildings and selected dm stores with a water dispenser or customer toilet"
+      {
+        "label": "Drinking fountains",
+        "detail": "Berliner Wasserbetriebe (~238)"
+      },
+      {
+        "label": "Refill",
+        "detail": "Cafés and shops that refill your bottle"
+      },
+      {
+        "label": "Public buildings",
+        "detail": "Libraries, adult education centres, and more"
+      },
+      {
+        "label": "dm stores",
+        "detail": "with a water dispenser or customer toilet"
+      }
     ],
     "sources": "Sources: [Berliner Wasserbetriebe](https://www.bwb.de/de/trinkbrunnen.php) · [Refill](https://refill-deutschland.de/) · [dm](https://www.dm.de/store)",
     "howToHeading": "How to use it",
     "howTo": [
-      "Use the map here on the website.",
-      "Or save the places below in your Google Maps app so you always have them with you."
+      {
+        "label": "Use the map here",
+        "detail": "right above on this page"
+      },
+      {
+        "label": "Save in Google Maps",
+        "detail": "places always with you"
+      },
+      {
+        "label": "Tap a pin",
+        "detail": "opens in Google Maps"
+      }
     ],
     "saveHint": "Save in the Google Maps app:",
     "loadingMap": "Loading map...",
-    "addEnglishMap": "Add English",
-    "addGermanMap": "Add German",
-    "addRussianMap": "Add Russian"
+    "addEnglishMap": "Save English map",
+    "addGermanMap": "Save German map",
+    "addRussianMap": "Save Russian map"
   },
   "faq": {
     "title": "Frequently Asked Questions",

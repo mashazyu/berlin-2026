@@ -41,7 +41,7 @@ export function PageSection({
         "flex scroll-mt-[var(--header-offset)] flex-col justify-start px-4 py-14 sm:px-6 sm:py-20",
         fillViewport &&
           "md:min-h-[calc(100svh-var(--header-offset))] md:justify-center",
-        muted && "bg-section-muted",
+        muted ? "bg-section-muted" : "bg-background",
         className
       )}
     >
