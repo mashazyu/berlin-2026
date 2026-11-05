@@ -3,7 +3,7 @@ import type { Language } from "@/lib/i18n"
 export type ProjectId = "water4all" | "berlin-2026" | "polit"
 
 const WATER_BASE = "https://www.water4all.com.de"
-const WAHL_BASE = "https://www.berlin-2026.de"
+const WAHL_BASE = "https://wahl.kompass.berlin"
 
 const PROGRAM_HREF: Partial<Record<ProjectId, string>> = {
   water4all: "https://www.club-dialog.de/ina/",
