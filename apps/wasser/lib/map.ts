@@ -7,15 +7,15 @@ export const MAP_URLS = {
   RUSSIAN_MAP:
     "https://www.google.com/maps/d/edit?mid=1FJ8sStgRRpony1CRlLuiDRMttrjOhUg&usp=sharing",
   ENGLISH_MAP_EMBED:
-    "https://www.google.com/maps/d/embed?mid=1Vu1ecwzIo0W7WEs8MIbz49hOJZSgoZY&ehbc=2E312F",
+    "https://www.google.com/maps/d/embed?mid=1Vu1ecwzIo0W7WEs8MIbz49hOJZSgoZY",
   GERMAN_MAP_EMBED:
-    "https://www.google.com/maps/d/embed?mid=1v5s3GJCaaJwk2WRFqHz3XiBXYEIuw1Y&ehbc=2E312F",
+    "https://www.google.com/maps/d/embed?mid=1v5s3GJCaaJwk2WRFqHz3XiBXYEIuw1Y",
   RUSSIAN_MAP_EMBED:
-    "https://www.google.com/maps/d/embed?mid=1FJ8sStgRRpony1CRlLuiDRMttrjOhUg&ehbc=2E312F",
+    "https://www.google.com/maps/d/embed?mid=1FJ8sStgRRpony1CRlLuiDRMttrjOhUg",
 } as const
 
-/** Berlin center + city zoom for embed (higher z = closer). */
-const EMBED_VIEW = "ll=52.520008,13.404954&z=12"
+/** Berlin center + zoom; ehbc tints the My Maps header to brand blue. */
+const EMBED_VIEW = "ll=52.520008,13.404954&z=12&ehbc=0B8FBF"
 
 function withEmbedView(baseUrl: string): string {
   return `${baseUrl}&${EMBED_VIEW}`

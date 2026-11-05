@@ -60,7 +60,11 @@
         "detail": "opens in Google Maps"
       }
     ],
-    "saveHint": "Save in the Google Maps app:",
+    "saveHint": "Save in the Google Maps app",
+    "otherLanguages": "Other languages:",
+    "langEnglish": "English",
+    "langGerman": "German",
+    "langRussian": "Russian",
     "loadingMap": "Loading map...",
     "addEnglishMap": "Save English map",
     "addGermanMap": "Save German map",

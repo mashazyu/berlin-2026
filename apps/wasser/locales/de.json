@@ -60,7 +60,11 @@
         "detail": "öffnet sich in Google Maps"
       }
     ],
-    "saveHint": "In der Google-Maps-App speichern:",
+    "saveHint": "In der Google-Maps-App speichern",
+    "otherLanguages": "Weitere Sprachen:",
+    "langEnglish": "Englisch",
+    "langGerman": "Deutsch",
+    "langRussian": "Russisch",
     "loadingMap": "Karte wird geladen...",
     "addEnglishMap": "Englische Karte speichern",
     "addGermanMap": "Deutsche Karte speichern",
