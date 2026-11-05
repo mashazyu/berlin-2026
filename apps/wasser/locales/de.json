@@ -24,20 +24,20 @@
   },
   "map": {
     "heroTitle": "Kostenloses Trinkwasser in Berlin",
-    "lead": "Auf Google Maps sind kaum 50 öffentliche Trinkbrunnen. Unsere Karte bündelt fast 1.000 kostenlose Wasserstellen — speichern Sie die Ebene in Google Maps und finden Sie Wasser in Ihrer Nähe.",
+    "lead": "Auf der Suche nach kostenlosem Trinkwasser in Ihrer Nähe? In Berlin gibt es 238 öffentliche Trinkbrunnen — aber weniger als 40 sind auf Google Maps. Unsere Wasserkarte bündelt fast 1.000 kostenlose Wasserstellen.",
     "includesHeading": "Was ist auf der Karte?",
     "includes": [
-      "Öffentliche Trinkbrunnen ([Berliner Wasserbetriebe](https://www.bwb.de/de/trinkbrunnen.php))",
-      "[Refill-Stellen](https://refill-deutschland.de/) (Cafés und Läden, die Ihre Flasche auffüllen)",
+      "Öffentliche Trinkbrunnen",
+      "Refill-Stellen (Cafés und Läden, die Ihre Flasche auffüllen)",
       "Öffentliche Gebäude und ausgewählte dm-Filialen mit Wasserspender oder Kunden-WC"
     ],
+    "sources": "Quellen: [Berliner Wasserbetriebe](https://www.bwb.de/de/trinkbrunnen.php) · [Refill](https://refill-deutschland.de/) · [dm](https://www.dm.de/store)",
     "howToHeading": "So nutzen Sie die Karte",
     "howTo": [
       "Nutzen Sie die Karte direkt hier auf der Website.",
       "Oder speichern Sie die Orte unten in Ihrer Google-Maps-App — dann haben Sie sie immer dabei."
     ],
     "saveHint": "In der Google-Maps-App speichern:",
-    "sources": "Daten von Berliner Wasserbetriebe, [Refill](https://refill-deutschland.de/) und [weiteren öffentlichen Quellen](/de/faq#faq13).",
     "loadingMap": "Karte wird geladen...",
     "addEnglishMap": "Englisch hinzufügen",
     "addGermanMap": "Deutsch hinzufügen",

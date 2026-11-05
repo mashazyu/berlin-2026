@@ -62,11 +62,13 @@ export function MapSection({
             </h3>
             <ul className="mt-3 list-disc space-y-2 ps-5">
               {includes.map((item) => (
-                <li key={item}>
-                  <RichText text={item} />
-                </li>
+                <li key={item}>{item}</li>
               ))}
             </ul>
+            <RichText
+              text={t.map.sources}
+              className="mt-3 text-sm text-muted-foreground/80"
+            />
           </div>
 
           <div>
@@ -79,11 +81,6 @@ export function MapSection({
               ))}
             </ol>
           </div>
-
-          <RichText
-            text={t.map.sources}
-            className="text-sm leading-relaxed text-muted-foreground sm:text-base"
-          />
         </div>
 
         <div className="relative h-80 w-full overflow-hidden border border-border bg-muted/40 sm:h-[28rem]">
@@ -104,9 +101,11 @@ export function MapSection({
         </div>
       </div>
 
-      <div className="mt-10 w-full space-y-3">
-        <p className="text-sm font-medium text-foreground">{t.map.saveHint}</p>
-        <div className="grid w-full grid-cols-1 gap-3 sm:grid-cols-3">
+      <div className="mt-10 w-full">
+        <p className="font-display text-base font-semibold tracking-[-0.01em] text-foreground sm:text-lg">
+          {t.map.saveHint}
+        </p>
+        <div className="mt-3 grid w-full grid-cols-1 gap-3 sm:grid-cols-3">
           {buttons.map((btn) => (
             <Button
               key={btn.lang}

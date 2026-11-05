@@ -24,20 +24,20 @@
   },
   "map": {
     "heroTitle": "Free drinking water in Berlin",
-    "lead": "Google Maps shows fewer than 50 public fountains. Our map brings nearly 1,000 free water spots into one layer you can save on your phone.",
+    "lead": "Looking for free water in Berlin near you? Berlin has 238 public drinking fountains — but fewer than 40 show up on Google Maps. Our potable water map brings together nearly 1,000 free water points.",
     "includesHeading": "What’s on the map",
     "includes": [
-      "Public drinking fountains ([Berliner Wasserbetriebe](https://www.bwb.de/de/trinkbrunnen.php))",
-      "[Refill spots](https://refill-deutschland.de/) (cafés and shops that refill your bottle)",
+      "Public drinking fountains",
+      "Refill spots (cafés and shops that refill your bottle)",
       "Public buildings and selected dm stores with a water dispenser or customer toilet"
     ],
+    "sources": "Sources: [Berliner Wasserbetriebe](https://www.bwb.de/de/trinkbrunnen.php) · [Refill](https://refill-deutschland.de/) · [dm](https://www.dm.de/store)",
     "howToHeading": "How to use it",
     "howTo": [
       "Use the map here on the website.",
       "Or save the places below in your Google Maps app so you always have them with you."
     ],
     "saveHint": "Save in the Google Maps app:",
-    "sources": "Data from Berliner Wasserbetriebe, [Refill](https://refill-deutschland.de/), and [other public sources](/en/faq#faq13).",
     "loadingMap": "Loading map...",
     "addEnglishMap": "Add English",
     "addGermanMap": "Add German",
