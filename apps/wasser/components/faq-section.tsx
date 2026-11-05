@@ -68,16 +68,22 @@ export function FaqSection({
 }) {
   const { translations: t } = useLanguage()
   const [openId, setOpenId] = useState<string | undefined>()
-  const faqs = t.faq.questions as FaqItem[]
-  const projectFaqs = faqs.filter((faq) => faq.category === "project")
-  const mapFaqs = faqs.filter((faq) => faq.category === "map")
+  const faqs = (t.faq.questions as FaqItem[]).filter(
+    (faq) => faq.category === "map"
+  )
+  const listClass =
+    columns === 2
+      ? "mt-6 grid grid-cols-1 gap-x-10 lg:grid-cols-2"
+      : "mt-6"
 
   useEffect(() => {
     const hash = window.location.hash.replace(/^#/, "")
     if (!hash) return
     const match =
       faqs.find((faq) => String(faq.id) === hash) ??
-      (hash.startsWith("faq") ? faqs.find((_, i) => `faq${i + 1}` === hash) : undefined)
+      (hash.startsWith("faq")
+        ? faqs.find((_, i) => `faq${i + 1}` === hash)
+        : undefined)
     if (!match) return
     const nextId = String(match.id)
     setOpenId(nextId)
@@ -88,42 +94,6 @@ export function FaqSection({
       })
     })
   }, [faqs])
-
-  function renderGroup(heading: string, subtitle: string, items: FaqItem[]) {
-    const listClass =
-      columns === 2
-        ? "mt-6 grid grid-cols-1 gap-x-10 lg:grid-cols-2"
-        : "mt-6"
-
-    return (
-      <div className="mt-14 first:mt-10">
-        <h3 className="font-display text-xl font-semibold tracking-[-0.01em] sm:text-2xl">
-          {heading}
-        </h3>
-        <p className="mt-2 text-sm text-muted-foreground sm:text-base">{subtitle}</p>
-        <div className={listClass}>
-          {items.map((faq) => {
-            const itemId = String(faq.id)
-            return (
-              <div
-                key={`${faq.category}-${faq.id}`}
-                className={columns === 2 ? "border-b border-border" : undefined}
-              >
-                <FaqDetails
-                  id={itemId}
-                  question={faq.question}
-                  answer={faq.answer}
-                  open={openId === itemId}
-                  onOpenChange={(next) => setOpenId(next ? itemId : undefined)}
-                />
-                {columns === 1 ? <Separator /> : null}
-              </div>
-            )
-          })}
-        </div>
-      </div>
-    )
-  }
 
   return (
     <PageSection
@@ -139,12 +109,26 @@ export function FaqSection({
           {t.faq.description}
         </p>
       ) : null}
-      {renderGroup(
-        t.faq.projectFaqsHeading,
-        t.faq.projectFaqsTitle,
-        projectFaqs
-      )}
-      {renderGroup(t.faq.mapFaqsHeading, t.faq.mapFaqsTitle, mapFaqs)}
+      <div className={listClass}>
+        {faqs.map((faq) => {
+          const itemId = String(faq.id)
+          return (
+            <div
+              key={itemId}
+              className={columns === 2 ? "border-b border-border" : undefined}
+            >
+              <FaqDetails
+                id={itemId}
+                question={faq.question}
+                answer={faq.answer}
+                open={openId === itemId}
+                onOpenChange={(next) => setOpenId(next ? itemId : undefined)}
+              />
+              {columns === 1 ? <Separator /> : null}
+            </div>
+          )
+        })}
+      </div>
     </PageSection>
   )
 }
