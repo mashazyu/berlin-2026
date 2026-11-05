@@ -66,7 +66,7 @@ export function FaqSection({
   /** 2 columns from lg up; 1 column on tablet and phone. */
   columns?: 1 | 2
 }) {
-  const { translations: t } = useLanguage()
+  const { language, translations: t } = useLanguage()
   const [openId, setOpenId] = useState<string | undefined>()
   const faqs = (t.faq.questions as FaqItem[]).filter(
     (faq) => faq.category === "map"
@@ -120,7 +120,7 @@ export function FaqSection({
               <FaqDetails
                 id={itemId}
                 question={faq.question}
-                answer={faq.answer}
+                answer={faq.answer.replaceAll("{lang}", language)}
                 open={openId === itemId}
                 onOpenChange={(next) => setOpenId(next ? itemId : undefined)}
               />

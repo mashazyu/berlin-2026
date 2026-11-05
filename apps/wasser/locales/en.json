@@ -103,6 +103,12 @@
         "category": "map"
       },
       {
+        "id": "faq17",
+        "question": "Know a cool place where a drinking fountain would really help?",
+        "answer": "Suggest it. We walk you through how to request a drinking fountain installation — on our [request a drinking fountain](https://www.water4all.com.de/{lang}/fountains) page.",
+        "category": "map"
+      },
+      {
         "id": "faq8",
         "question": "What areas are you focusing on first?",
         "answer": "We are starting with underserved districts outside the busy city center, beginning in Pankow and Lichtenberg.",

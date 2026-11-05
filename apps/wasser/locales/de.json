@@ -103,6 +103,12 @@
         "category": "map"
       },
       {
+        "id": "faq17",
+        "question": "Kennen Sie einen Ort, an dem ein Trinkbrunnen gut tun würde?",
+        "answer": "Dann schlagen Sie ihn vor. Wir erklären Schritt für Schritt, wie Sie die Installation eines Trinkbrunnens anfragen können — auf unserer Seite [Trinkbrunnen beantragen](https://www.water4all.com.de/{lang}/fountains).",
+        "category": "map"
+      },
+      {
         "id": "faq8",
         "question": "Auf welche Bezirke konzentriert ihr euch zuerst?",
         "answer": "Wir starten mit unterversorgten Bezirken außerhalb des belebten Stadtzentrums, zunächst in Pankow und Lichtenberg.",
