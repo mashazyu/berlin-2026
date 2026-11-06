@@ -416,23 +416,14 @@
       "project": [
         1
       ]
-    },
-    {
-      "id": 24,
-      "title": "Featured by the Federal Association of Russian-Speaking Parents",
-      "content": "The [Bundesverband russischsprachiger Eltern e.V. (BVRE)](https://www.instagram.com/bvre_e.v/p/DcRAnBPMt2U/) presented our initiative as part of the “Kommunal Aktiv” project — highlighting the water map, the open fountain database, and the guide for citizen requests.",
-      "date": "2026-08-20",
-      "project": [
-        1,
-        2
-      ]
     }
   ],
   "mentionSummaries": {
     "1": "Featured our project in a deep dive into how to make Berlin's urban environment more accessible and comfortable.",
     "2": "Shared our mission with the local eco-community, highlighting why public fountains are key to a more sustainable city.",
     "3": "Highlighted our work while discussing water accessibility, showing residents how to easily find free water sources across Berlin.",
-    "4": "Video interview and walk-and-talk with our co-founder Masha, showcasing different water sources in Berlin."
+    "4": "Video interview and walk-and-talk with our co-founder Masha, showcasing different water sources in Berlin.",
+    "5": "Presented our initiative as part of the “Kommunal Aktiv” project — highlighting the water map, the open fountain database, and the guide for citizen requests."
   },
   "carousel": {
     "previous": "Previous",
