@@ -1,12 +1,11 @@
 # Monorepo layout
 
-Four Kompass sites share UI packages. Each site is served on **both** the apex host and its `www` host (same Vercel project, both domains attached).
+Three Kompass sites share UI packages. Each site is served on **both** the apex host and its `www` host (same Vercel project, both domains attached).
 
 | Hosts | App | Purpose | Status |
 | --- | --- | --- | --- |
 | `kompass.berlin`, `www.kompass.berlin` | `apps/www` | **Kompass Kollektive** (about us) | ready |
 | `polit.kompass.berlin`, `www.polit.kompass.berlin` | `apps/polit` | **Kommunal-Kompass** (communal guides) | ready |
-| `wasser.kompass.berlin`, `www.wasser.kompass.berlin` | `apps/wasser` | **Wasser-Kompass** (map + FAQ) | map/FAQ ported; about on www |
 | `wahl.kompass.berlin`, `www.wahl.kompass.berlin` | `apps/wahl` | **Wahl-Kompass - Berlin 2026** | ready in monorepo |
 | `berlin-2026.de` (live today) | repo root `/` | same product as wahl | production until cutover |
 
@@ -20,7 +19,6 @@ Four Kompass sites share UI packages. Each site is served on **both** the apex h
       docs/reports/      # metrics + public story PDFs (wahl only)
       scripts/           # comparison verify + report chart/PDF regen
       stats/             # local analytics exports (gitignored)
-    wasser/              # Wasser-Kompass — map + FAQ
   packages/
     ui/                  # @kompass/ui
     landing/             # @kompass/landing
@@ -48,7 +46,6 @@ pnpm build:apps           # www + polit production builds
 | www | `apps/www` | `kompass.berlin`, `www.kompass.berlin` | `bash scripts/vercel-should-build.sh apps/www packages/ui packages/landing packages/fonts` |
 | polit | `apps/polit` | `polit.kompass.berlin`, `www.polit.kompass.berlin` | `bash scripts/vercel-should-build.sh apps/polit packages/ui packages/landing packages/fonts` |
 | wahl | `apps/wahl` | `wahl.kompass.berlin`, `www.wahl.kompass.berlin` | `bash scripts/vercel-should-build.sh apps/wahl packages/fonts` |
-| wasser | `apps/wasser` | `wasser.*` | `bash scripts/vercel-should-build.sh apps/wasser packages/ui packages/landing packages/fonts` |
 
 **Settings for each app project**
 
@@ -71,5 +68,4 @@ pnpm build:apps           # www + polit production builds
 
 ## Still later
 
-- Finish water4all cutover → `apps/wasser` (fountains/news still on water4all.com.de)  
 - Optionally stop maintaining the root Next app once wahl owns production

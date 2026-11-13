@@ -22,7 +22,7 @@ const widthClass = {
 } as const
 
 /**
- * Shared page band used across Kompass apps — matches www/polit/wasser section shells.
+ * Shared page band used across Kompass apps — matches www/polit/wahl section shells.
  */
 export function PageSection({
   id,

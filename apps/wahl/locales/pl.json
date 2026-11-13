@@ -30,7 +30,8 @@
     "comparison": "Porównanie",
     "motivation": "Motywacja",
     "privacy": "Prywatność",
-    "about": "O projekcie"
+    "about": "O projekcie",
+    "media": "Media"
   },
   "hero": {
     "headline": "Wybory landowe w Berlinie 2026 — porównaj programy partii",
@@ -148,6 +149,14 @@
     {
       "id": "gooseexpat",
       "source": "Goose Expat",
+      "topics": [
+        "internationals",
+        "election"
+      ]
+    },
+    {
+      "id": "wahlheymat",
+      "source": "Wahlheymat",
       "topics": [
         "internationals",
         "election"

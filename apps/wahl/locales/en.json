@@ -4,6 +4,8 @@
     "homeDescription": "Official programs for Berlin’s Abgeordnetenhaus election on 20 September 2026: transport, housing, climate, security and more. Independent — not voting advice.",
     "aboutTitle": "About — Wahl-Kompass - Berlin 2026",
     "aboutDescription": "Who builds Wahl-Kompass - Berlin 2026: Nina compares party programs and develops the project; Masha handles the technical side. Independent, not affiliated with any party.",
+    "medienTitle": "Media coverage — Wahl-Kompass - Berlin 2026",
+    "medienDescription": "Berlin and national coverage of parties in the Abgeordnetenhaus and Bund politics — from left, centre and right-leaning outlets.",
     "privacyTitle": "Privacy Policy — Wahl-Kompass - Berlin 2026",
     "privacyDescription": "How Wahl-Kompass - Berlin 2026 handles personal data under the GDPR.",
     "aiDisclosureTitle": "AI Disclosure — Wahl-Kompass - Berlin 2026",
@@ -34,7 +36,41 @@
     "comparison": "Comparison",
     "motivation": "Motivation",
     "privacy": "Privacy",
-    "about": "About"
+    "about": "About",
+    "media": "Media"
+  },
+  "media": {
+    "kicker": "Press overview",
+    "title": "Media coverage",
+    "subtitle": "Articles about parties with seats in the Abgeordnetenhaus and Bund-level politics — from left, centre and right-leaning outlets, plus Berlin papers. No ranking, no endorsement: sources and filters only.",
+    "timeHeading": "Period",
+    "partyHeading": "Party",
+    "topicHeading": "Topic",
+    "scopeHeading": "Level",
+    "leanHeading": "Outlet lean",
+    "filterAll": "All",
+    "filterBerlin": "Berlin",
+    "filterBund": "Bund",
+    "filterAllLean": "All",
+    "filterAllParties": "All parties",
+    "leanLeft": "Left",
+    "leanCenter": "Centre",
+    "leanRight": "Right",
+    "timeAll": "All",
+    "time24h": "24 hours",
+    "time7d": "7 days",
+    "time30d": "30 days",
+    "timeSinceElection": "Since AGH election",
+    "statTotal": "Matched",
+    "statSources": "Outlets",
+    "showing": "Showing {count} of {total}",
+    "updated": "Updated {date}",
+    "empty": "No matching articles right now. Try another filter.",
+    "openSource": "Source",
+    "disclaimer": "No assessment, no analysis: only headlines from public RSS feeds, filtered for parties and institutions. Each item links to the original outlet.",
+    "partialErrors": "Some feeds could not be loaded ({sources}).",
+    "inactiveTitle": "Opens after election day",
+    "inactiveBody": "Press coverage of the new Abgeordnetenhaus starts once polls close on 20 September 2026 — left, centre and right outlets, plus Berlin papers, in one place."
   },
   "hero": {
     "headline": "Berlin state election 2026 — compare party programs",
@@ -152,6 +188,14 @@
     {
       "id": "gooseexpat",
       "source": "Goose Expat",
+      "topics": [
+        "internationals",
+        "election"
+      ]
+    },
+    {
+      "id": "wahlheymat",
+      "source": "Wahlheymat",
       "topics": [
         "internationals",
         "election"

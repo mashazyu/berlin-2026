@@ -29,7 +29,8 @@
     "comparison": "Порівняння",
     "motivation": "Мотивація",
     "privacy": "Захист даних",
-    "about": "Про проєкт"
+    "about": "Про проєкт",
+    "media": "ЗМІ"
   },
   "hero": {
     "headline": "Земельні вибори в Берліні 2026 — порівняйте програми партій",
@@ -147,6 +148,14 @@
     {
       "id": "gooseexpat",
       "source": "Гусь у Берліні",
+      "topics": [
+        "internationals",
+        "election"
+      ]
+    },
+    {
+      "id": "wahlheymat",
+      "source": "Wahlheymat",
       "topics": [
         "internationals",
         "election"

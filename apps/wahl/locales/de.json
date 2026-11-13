@@ -4,6 +4,8 @@
     "homeDescription": "Offizielle Programme zur Abgeordnetenhauswahl am 20. September 2026: Verkehr, Wohnen, Klima, Sicherheit u. a. Unabhängig, keine Wahlempfehlung.",
     "aboutTitle": "Über uns — Wahl-Kompass - Berlin 2026",
     "aboutDescription": "Wer hinter Wahl-Kompass - Berlin 2026 steckt: Nina vergleicht die Programme und treibt das Projekt voran; Mascha macht die Technik. Unabhängig, ohne Parteibindung.",
+    "medienTitle": "Medienbericht — Wahl-Kompass - Berlin 2026",
+    "medienDescription": "Berliner und bundesweite Berichte über Parteien im Abgeordnetenhaus und auf Bundesebene — aus linken, mittleren und rechten Medien.",
     "privacyTitle": "Datenschutzerklärung — Wahl-Kompass - Berlin 2026",
     "privacyDescription": "Wie Wahl-Kompass - Berlin 2026 personenbezogene Daten nach der DSGVO verarbeitet.",
     "aiDisclosureTitle": "KI-Hinweis — Wahl-Kompass - Berlin 2026",
@@ -33,7 +35,41 @@
     "comparison": "Vergleich",
     "motivation": "Motivation",
     "privacy": "Datenschutz",
-    "about": "Über uns"
+    "about": "Über uns",
+    "media": "Medien"
+  },
+  "media": {
+    "kicker": "Presseüberblick",
+    "title": "Medienbericht",
+    "subtitle": "Artikel zu Parteien mit Sitzen im Abgeordnetenhaus und zur Bundespolitik — aus linken, mittleren und rechten Medien sowie Berliner Zeitungen. Keine Bewertung, keine Empfehlung: nur Quellen und Filter.",
+    "timeHeading": "Zeitraum",
+    "partyHeading": "Partei",
+    "topicHeading": "Thema",
+    "scopeHeading": "Ebene",
+    "leanHeading": "Ausrichtung",
+    "filterAll": "Alle",
+    "filterBerlin": "Berlin",
+    "filterBund": "Bund",
+    "filterAllLean": "Alle",
+    "filterAllParties": "Alle Parteien",
+    "leanLeft": "Links",
+    "leanCenter": "Mitte",
+    "leanRight": "Rechts",
+    "timeAll": "Alle",
+    "time24h": "24 Stunden",
+    "time7d": "7 Tage",
+    "time30d": "30 Tage",
+    "timeSinceElection": "Seit AGH-Wahl",
+    "statTotal": "Treffer",
+    "statSources": "Medien",
+    "showing": "{count} von {total}",
+    "updated": "Stand {date}",
+    "empty": "Keine passenden Artikel. Anderen Filter wählen.",
+    "openSource": "Quelle",
+    "disclaimer": "Keine Bewertung, keine Analyse: nur Schlagzeilen aus öffentlichen RSS-Feeds, gefiltert nach Parteien und Institutionen. Jeder Eintrag verlinkt auf das Original.",
+    "partialErrors": "Einige Feeds konnten nicht geladen werden ({sources}).",
+    "inactiveTitle": "Startet nach dem Wahltag",
+    "inactiveBody": "Die Presseübersicht zum neuen Abgeordnetenhaus beginnt, sobald die Wahllokale am 20. September 2026 schließen — linke, mittlere und rechte Medien sowie Berliner Zeitungen an einem Ort."
   },
   "hero": {
     "headline": "Abgeordnetenhauswahl 2026 — Programme im Vergleich",
@@ -151,6 +187,14 @@
     {
       "id": "gooseexpat",
       "source": "Goose Expat",
+      "topics": [
+        "internationals",
+        "election"
+      ]
+    },
+    {
+      "id": "wahlheymat",
+      "source": "Wahlheymat",
       "topics": [
         "internationals",
         "election"

@@ -30,7 +30,8 @@
     "comparison": "Comparación",
     "motivation": "Motivación",
     "privacy": "Privacidad",
-    "about": "Sobre el proyecto"
+    "about": "Sobre el proyecto",
+    "media": "Medios"
   },
   "hero": {
     "headline": "Elecciones regionales de Berlín 2026: compara los programas",
@@ -148,6 +149,14 @@
     {
       "id": "gooseexpat",
       "source": "Goose Expat",
+      "topics": [
+        "internationals",
+        "election"
+      ]
+    },
+    {
+      "id": "wahlheymat",
+      "source": "Wahlheymat",
       "topics": [
         "internationals",
         "election"

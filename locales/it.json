@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "homeTitle": "Berlin 2026 — confronta i programmi dei 10 partiti più popolari",
+    "homeTitle": "Wahl-Kompass - Berlin 2026 — confronta i programmi dei 10 partiti più popolari",
     "homeDescription": "Programmi ufficiali per le elezioni alla Camera dei deputati di Berlino del 20 settembre 2026: trasporti, casa, clima, sicurezza e altro. Indipendente: non è un consiglio di voto.",
-    "aboutTitle": "Il progetto — Berlin 2026",
-    "aboutDescription": "Chi c’è dietro Berlin 2026: Nina confronta i programmi dei partiti e porta avanti il progetto; Masha si occupa della tecnica. Indipendente, senza legami con nessun partito.",
-    "aiDisclosureTitle": "Informativa sull’IA — Berlin 2026",
+    "aboutTitle": "Il progetto — Wahl-Kompass - Berlin 2026",
+    "aboutDescription": "Chi c’è dietro Wahl-Kompass - Berlin 2026: Nina confronta i programmi dei partiti e porta avanti il progetto; Masha si occupa della tecnica. Indipendente, senza legami con nessun partito.",
+    "aiDisclosureTitle": "Informativa sull’IA — Wahl-Kompass - Berlin 2026",
     "aiDisclosureDescription": "Come usiamo l’IA per i testi del sito e il confronto dei programmi — e perché restano le persone responsabili di idee, contenuti e accuratezza.",
     "keywords": [
       "Berlino",
@@ -23,14 +23,15 @@
     ]
   },
   "brand": {
-    "name": "Berlin 2026",
+    "name": "Wahl-Kompass - Berlin 2026",
     "tagline": "Le posizioni dei partiti, una accanto all’altra"
   },
   "navigation": {
     "comparison": "Confronto",
     "motivation": "Perché lo facciamo",
     "privacy": "Privacy",
-    "about": "Il progetto"
+    "about": "Il progetto",
+    "media": "Media"
   },
   "hero": {
     "headline": "Elezioni regionali a Berlino 2026 — confronta i programmi",
@@ -152,6 +153,14 @@
         "internationals",
         "election"
       ]
+    },
+    {
+      "id": "wahlheymat",
+      "source": "Wahlheymat",
+      "topics": [
+        "internationals",
+        "election"
+      ]
     }
   ],
   "footer": {
@@ -195,6 +204,8 @@
   "about": {
     "title": "Il progetto",
     "body": "Berlin 2026 è un progetto indipendente che confronta i programmi dei partiti in vista delle elezioni regionali di Berlino 2026. I programmi ufficiali escono solo in tedesco: li traduciamo nelle lingue parlate a Berlino.\n\nNina confronta i programmi e porta avanti il progetto; Masha si occupa della tecnica. In parallelo lavoriamo a [Water for All / Wasser für alle](https://www.water4all.com.de) — un atlante aperto dell’acqua potabile gratuita a Berlino. Il progetto rende visibile l’accesso all’acqua e aiuta i residenti a chiedere nuove fontanelle.",
+    "reportTitle": "Report del progetto",
+    "reportBody": "Una breve sintesi pubblica (15.10.2026) di chi abbiamo raggiunto e cosa abbiamo imparato — prima e dopo il giorno delle elezioni. [Scarica il PDF](/reports/public-project-story.pdf).",
     "contributeTitle": "Come puoi aiutare",
     "contributeBody": "Se vuoi sostenere il progetto, la cosa più utile è farlo circolare: condividilo con chi potrebbe trovarlo utile.\n\nPuoi anche stampare il nostro volantino (tedesco, inglese, turco, curdo, vietnamita, polacco, russo, ucraino, arabo, spagnolo, italiano) e appenderlo dove a Berlino la gente lo veda — caffè, bacheche, spazi di comunità. [Scarica il PDF](/flyers/berlin-2026-flyer.pdf).\n\nE se noti un errore sul sito — formulazione sbagliata o errore di fatto — segnalacelo così possiamo correggerlo. Seleziona il passaggio sulla pagina per aprire una segnalazione, oppure scrivici da Contatti.\n\nPuoi anche migliorare le traduzioni: apri una pull request con le correzioni, oppure modifica i file di lingua direttamente nel nostro [repository GitHub](https://github.com/mashazyu/berlin-2026)."
   },

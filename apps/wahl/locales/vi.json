@@ -30,7 +30,8 @@
     "comparison": "So sánh",
     "motivation": "Vì sao chúng tôi làm",
     "privacy": "Bảo vệ dữ liệu",
-    "about": "Giới thiệu"
+    "about": "Giới thiệu",
+    "media": "Truyền thông"
   },
   "hero": {
     "headline": "Bầu cử bang Berlin 2026 — so sánh chương trình các đảng",
@@ -148,6 +149,14 @@
     {
       "id": "gooseexpat",
       "source": "Goose Expat",
+      "topics": [
+        "internationals",
+        "election"
+      ]
+    },
+    {
+      "id": "wahlheymat",
+      "source": "Wahlheymat",
       "topics": [
         "internationals",
         "election"

@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { Menu, X } from "lucide-react"
+import { Compass, Menu, X } from "lucide-react"
 import { useLanguage } from "@/components/language-provider"
 import { LanguageSwitcher } from "@/components/language-switcher"
 import {
@@ -19,8 +19,10 @@ export function SiteHeader() {
 
   const homePath = `/${language}`
   const aboutPath = `/${language}/about`
+  const mediaPath = `/${language}/medien`
   const onHome = pathname === homePath || pathname === `${homePath}/`
   const onAbout = pathname === aboutPath || pathname === `${aboutPath}/`
+  const onMedia = pathname === mediaPath || pathname === `${mediaPath}/`
 
   const sectionLinks = [
     { id: "comparison", label: t.navigation.comparison },
@@ -49,12 +51,19 @@ export function SiteHeader() {
       <div className="mx-auto flex h-14 max-w-7xl items-center justify-between gap-4 px-4 sm:px-6">
         <Link
           href={homePath}
-          className="flex h-9 shrink-0 items-center font-display text-base font-semibold tracking-[-0.01em] text-foreground"
+          className="flex h-9 shrink-0 items-center gap-2 font-display text-base font-semibold tracking-[-0.01em] text-foreground"
           onClick={closeMenu}
         >
-          <span className="text-accent">Berlin</span>
-          <span className="mx-1 text-border">·</span>
-          <span className="text-foreground">2026</span>
+          <Compass
+            className="h-5 w-5 shrink-0 text-accent"
+            strokeWidth={1.75}
+            aria-hidden
+          />
+          <span className="inline-flex items-center">
+            <span className="text-accent">Wahl-Kompass</span>
+            <span className="mx-1.5 text-border">-</span>
+            <span className="text-foreground">Berlin 2026</span>
+          </span>
         </Link>
 
         <div className="flex h-9 items-center gap-1 sm:gap-2">
@@ -83,6 +92,14 @@ export function SiteHeader() {
                 </Link>
               )
             )}
+            <Link
+              href={mediaPath}
+              className={cn(navLinkClass, onMedia && "text-foreground")}
+              aria-current={onMedia ? "page" : undefined}
+              onClick={closeMenu}
+            >
+              {t.navigation.media}
+            </Link>
             <Link
               href={aboutPath}
               className={cn(navLinkClass, onAbout && "text-foreground")}
@@ -140,6 +157,14 @@ export function SiteHeader() {
               </Link>
             )
           )}
+          <Link
+            href={mediaPath}
+            className={cn(mobileLinkClass, onMedia && "bg-muted")}
+            aria-current={onMedia ? "page" : undefined}
+            onClick={closeMenu}
+          >
+            {t.navigation.media}
+          </Link>
           <Link
             href={aboutPath}
             className={cn(mobileLinkClass, onAbout && "bg-muted")}

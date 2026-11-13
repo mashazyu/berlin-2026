@@ -30,7 +30,8 @@
     "comparison": "المقارنة",
     "motivation": "الدافع",
     "privacy": "الخصوصية",
-    "about": "حول المشروع"
+    "about": "حول المشروع",
+    "media": "الإعلام"
   },
   "hero": {
     "headline": "انتخابات برلين الإقليمية 2026 — قارن برامج الأحزاب",
@@ -148,6 +149,14 @@
     {
       "id": "gooseexpat",
       "source": "Goose Expat",
+      "topics": [
+        "internationals",
+        "election"
+      ]
+    },
+    {
+      "id": "wahlheymat",
+      "source": "Wahlheymat",
       "topics": [
         "internationals",
         "election"

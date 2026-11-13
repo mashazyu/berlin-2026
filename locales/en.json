@@ -1,12 +1,14 @@
 {
   "metadata": {
-    "homeTitle": "Berlin 2026 — compare the 10 most popular parties’ programs",
+    "homeTitle": "Wahl-Kompass - Berlin 2026 — compare the 10 most popular parties’ programs",
     "homeDescription": "Official programs for Berlin’s Abgeordnetenhaus election on 20 September 2026: transport, housing, climate, security and more. Independent — not voting advice.",
-    "aboutTitle": "About — Berlin 2026",
-    "aboutDescription": "Who builds Berlin 2026: Nina compares party programs and develops the project; Masha handles the technical side. Independent, not affiliated with any party.",
-    "privacyTitle": "Privacy Policy — Berlin 2026",
-    "privacyDescription": "How Berlin 2026 handles personal data under the GDPR.",
-    "aiDisclosureTitle": "AI Disclosure — Berlin 2026",
+    "aboutTitle": "About — Wahl-Kompass - Berlin 2026",
+    "aboutDescription": "Who builds Wahl-Kompass - Berlin 2026: Nina compares party programs and develops the project; Masha handles the technical side. Independent, not affiliated with any party.",
+    "medienTitle": "Media coverage — Wahl-Kompass - Berlin 2026",
+    "medienDescription": "Berlin and national coverage of parties in the Abgeordnetenhaus and Bund politics — from left, centre and right-leaning outlets.",
+    "privacyTitle": "Privacy Policy — Wahl-Kompass - Berlin 2026",
+    "privacyDescription": "How Wahl-Kompass - Berlin 2026 handles personal data under the GDPR.",
+    "aiDisclosureTitle": "AI Disclosure — Wahl-Kompass - Berlin 2026",
     "aiDisclosureDescription": "How we use AI for site text and the program comparison — and why people stay responsible for ideas, content, and accuracy.",
     "keywords": [
       "Berlin",
@@ -23,18 +25,42 @@
       "health",
       "migration"
     ],
-    "impressumTitle": "Impressum — Berlin 2026",
-    "impressumDescription": "Legal notice (Impressum) for the Berlin 2026 project: responsible party, contact, and liability."
+    "impressumTitle": "Impressum — Wahl-Kompass - Berlin 2026",
+    "impressumDescription": "Legal notice (Impressum) for the Wahl-Kompass - Berlin 2026 project: responsible party, contact, and liability."
   },
   "brand": {
-    "name": "Berlin 2026",
+    "name": "Wahl-Kompass - Berlin 2026",
     "tagline": "Party positions side by side"
   },
   "navigation": {
     "comparison": "Comparison",
     "motivation": "Motivation",
     "privacy": "Privacy",
-    "about": "About"
+    "about": "About",
+    "media": "Media"
+  },
+  "media": {
+    "kicker": "Press overview",
+    "title": "Media coverage",
+    "subtitle": "Articles about parties with seats in the Abgeordnetenhaus and Bund-level politics — from left, centre, right and Berlin outlets. No ranking, no endorsement: sources and filters only.",
+    "scopeHeading": "Level",
+    "leanHeading": "Outlet lean",
+    "filterAll": "All",
+    "filterBerlin": "Berlin",
+    "filterBund": "Bund",
+    "filterAllLean": "All",
+    "leanLeft": "Left",
+    "leanCenter": "Centre",
+    "leanRight": "Right",
+    "leanLocal": "Berlin local",
+    "statTotal": "Matched",
+    "statSources": "Outlets",
+    "showing": "Showing {count} of {total}",
+    "updated": "Updated {date}",
+    "empty": "No matching articles right now. Try another filter.",
+    "openSource": "Source",
+    "disclaimer": "No assessment, no analysis: only headlines from public RSS feeds, filtered for parties and institutions. Each item links to the original outlet.",
+    "partialErrors": "Some feeds could not be loaded ({sources})."
   },
   "hero": {
     "headline": "Berlin state election 2026 — compare party programs",
@@ -156,6 +182,14 @@
         "internationals",
         "election"
       ]
+    },
+    {
+      "id": "wahlheymat",
+      "source": "Wahlheymat",
+      "topics": [
+        "internationals",
+        "election"
+      ]
     }
   ],
   "footer": {
@@ -199,6 +233,8 @@
   "about": {
     "title": "About",
     "body": "Berlin 2026 is an independent project comparing party programs ahead of the 2026 Berlin state election. Official programs are published only in German — we translate them into languages spoken in Berlin.\n\nNina compares the programs and develops the project; Masha handles the technical side. In parallel we work on [Water for All / Wasser für alle](https://www.water4all.com.de) — an open atlas of free drinking water in Berlin. The project makes access to water visible and helps residents push for new drinking fountains.",
+    "reportTitle": "Project report",
+    "reportBody": "A short public summary (15.10.2026) of who we reached and what we learned — before and after election day. [Download the PDF](/reports/public-project-story.pdf).",
     "contributeTitle": "How you can help",
     "contributeBody": "If you’d like to support the project, the most useful thing is to spread the word — share it with people who might find it helpful.\n\nYou can also print our flyer (German, English, Turkish, Kurdish, Polish, Russian, Ukrainian, Arabic, Spanish, Vietnamese, Italian) and put it up where people in Berlin will see it — cafés, noticeboards, community spaces. [Download the PDF](/flyers/berlin-2026-flyer.pdf).\n\nAnd if you spot a mistake on the site — wrong wording or a factual error — please tell us so we can fix it. Select the passage on the page to open a report, or write to us via Contact.\n\nYou can also improve translations yourself — open a pull request with fixes, or add or edit locale files directly in our [GitHub repository](https://github.com/mashazyu/berlin-2026)."
   },

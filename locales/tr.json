@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "homeTitle": "Berlin 2026 — en popüler 10 partinin programlarını karşılaştırın",
+    "homeTitle": "Wahl-Kompass - Berlin 2026 — en popüler 10 partinin programlarını karşılaştırın",
     "homeDescription": "20 Eylül 2026 Berlin eyalet seçimleri: 10 partinin resmi programları — ulaşım, konut, iklim, güvenlik ve daha fazlası. Bağımsız, oy tavsiyesi yok.",
-    "aboutTitle": "Hakkında — Berlin 2026",
-    "aboutDescription": "Berlin 2026’yı kim yapıyor: Nina programları karşılaştırıyor ve projeyi geliştiriyor; Masha teknik taraftan sorumlu. Bağımsız, hiçbir partiyle bağlantılı değil.",
-    "aiDisclosureTitle": "Yapay Zekâ Açıklaması — Berlin 2026",
+    "aboutTitle": "Hakkında — Wahl-Kompass - Berlin 2026",
+    "aboutDescription": "Wahl-Kompass - Berlin 2026’yı kim yapıyor: Nina programları karşılaştırıyor ve projeyi geliştiriyor; Masha teknik taraftan sorumlu. Bağımsız, hiçbir partiyle bağlantılı değil.",
+    "aiDisclosureTitle": "Yapay Zekâ Açıklaması — Wahl-Kompass - Berlin 2026",
     "aiDisclosureDescription": "Site metinlerini ve parti programı karşılaştırmasını hazırlarken yapay zekâyı nasıl kullandığımız — ve fikir, içerik ile doğruluktan insanların nasıl sorumlu kaldığı.",
     "keywords": [
       "Berlin",
@@ -23,14 +23,15 @@
     ]
   },
   "brand": {
-    "name": "Berlin 2026",
+    "name": "Wahl-Kompass - Berlin 2026",
     "tagline": "Parti tutumları yan yana"
   },
   "navigation": {
     "comparison": "Karşılaştırma",
     "motivation": "Motivasyon",
     "privacy": "Gizlilik",
-    "about": "Hakkında"
+    "about": "Hakkında",
+    "media": "Medya"
   },
   "hero": {
     "headline": "Berlin 2026 eyalet seçimleri — parti programlarını karşılaştırın",
@@ -152,6 +153,14 @@
         "internationals",
         "election"
       ]
+    },
+    {
+      "id": "wahlheymat",
+      "source": "Wahlheymat",
+      "topics": [
+        "internationals",
+        "election"
+      ]
     }
   ],
   "footer": {
@@ -195,6 +204,8 @@
   "about": {
     "title": "Hakkında",
     "body": "Berlin 2026, 2026 Berlin eyalet seçimleri öncesinde farklı politika alanlarında parti programlarını karşılaştıran bağımsız bir projedir. Resmi programlar yalnızca Almanca yayımlanır — biz onları Berlin’de konuşulan dillere çeviriyoruz.\n\nNina programları karşılaştırıyor ve projeyi geliştiriyor; Masha teknik taraftan sorumlu. Paralel olarak [Water for All / Wasser für alle](https://www.water4all.com.de) üzerinde çalışıyoruz — Berlin’deki ücretsiz içme suyu noktalarının açık atlası. Proje suya erişimi görünür kılar ve sakinlerin yeni çeşmeler için ses çıkarmasına yardımcı olur.",
+    "reportTitle": "Proje raporu",
+    "reportBody": "Kime ulaştığımız ve seçim gününden önce ve sonra ne öğrendiğimize dair kısa bir kamuya açık özet (15.10.2026). [PDF’yi indir](/reports/public-project-story.pdf).",
     "contributeTitle": "Nasıl yardımcı olabilirsiniz",
     "contributeBody": "Projeyi desteklemek istiyorsanız en iyisi duyurmak: işine yarayacak insanlarla paylaşın.\n\nAyrıca el ilanımızı (Almanca, İngilizce, Türkçe, Kürtçe, Lehçe, Rusça, Ukraynaca, Arapça, İspanyolca, Vietnamca, İtalyanca) yazdırıp Berlin’de insanların göreceği yerlere asabilirsiniz — kafeler, duyuru panoları, mahalle alanları. [PDF’yi indir](/flyers/berlin-2026-flyer.pdf).\n\nSitede bir hata görürseniz — yanlış bir ifade veya yanlış bir bilgi — lütfen bize bildirin, düzeltelim. Bildirmek için sayfadaki metni seçin ya da İletişim üzerinden yazın.\n\nÇevirileri kendiniz de iyileştirebilirsiniz — düzeltmelerle bir pull request açın ya da dil dosyalarını doğrudan [GitHub deposumuzda](https://github.com/mashazyu/berlin-2026) ekleyin veya düzenleyin."
   },

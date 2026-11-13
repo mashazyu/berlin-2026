@@ -30,7 +30,8 @@
     "comparison": "Karşılaştırma",
     "motivation": "Motivasyon",
     "privacy": "Gizlilik",
-    "about": "Hakkında"
+    "about": "Hakkında",
+    "media": "Medya"
   },
   "hero": {
     "headline": "Berlin 2026 eyalet seçimleri — parti programlarını karşılaştırın",
@@ -148,6 +149,14 @@
     {
       "id": "gooseexpat",
       "source": "Goose Expat",
+      "topics": [
+        "internationals",
+        "election"
+      ]
+    },
+    {
+      "id": "wahlheymat",
+      "source": "Wahlheymat",
       "topics": [
         "internationals",
         "election"
