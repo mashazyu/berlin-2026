@@ -1,12 +1,14 @@
 {
   "metadata": {
-    "homeTitle": "Berlin 2026 — Wahlprogramme der 10 populärsten Parteien im Vergleich",
+    "homeTitle": "Wahl-Kompass - Berlin 2026 — Wahlprogramme der 10 populärsten Parteien im Vergleich",
     "homeDescription": "Offizielle Programme zur Abgeordnetenhauswahl am 20. September 2026: Verkehr, Wohnen, Klima, Sicherheit u. a. Unabhängig, keine Wahlempfehlung.",
-    "aboutTitle": "Über uns — Berlin 2026",
-    "aboutDescription": "Wer hinter Berlin 2026 steckt: Nina vergleicht die Programme und treibt das Projekt voran; Mascha macht die Technik. Unabhängig, ohne Parteibindung.",
-    "privacyTitle": "Datenschutzerklärung — Berlin 2026",
-    "privacyDescription": "Wie Berlin 2026 personenbezogene Daten nach der DSGVO verarbeitet.",
-    "aiDisclosureTitle": "KI-Hinweis — Berlin 2026",
+    "aboutTitle": "Über uns — Wahl-Kompass - Berlin 2026",
+    "aboutDescription": "Wer hinter Wahl-Kompass - Berlin 2026 steckt: Nina vergleicht die Programme und treibt das Projekt voran; Mascha macht die Technik. Unabhängig, ohne Parteibindung.",
+    "medienTitle": "Medienbericht — Wahl-Kompass - Berlin 2026",
+    "medienDescription": "Berliner und bundesweite Berichte über Parteien im Abgeordnetenhaus und auf Bundesebene — aus linken, mittleren und rechten Medien.",
+    "privacyTitle": "Datenschutzerklärung — Wahl-Kompass - Berlin 2026",
+    "privacyDescription": "Wie Wahl-Kompass - Berlin 2026 personenbezogene Daten nach der DSGVO verarbeitet.",
+    "aiDisclosureTitle": "KI-Hinweis — Wahl-Kompass - Berlin 2026",
     "aiDisclosureDescription": "Wie wir KI für Website-Texte und den Programmvergleich nutzen — und warum Menschen für Ideen, Inhalt und Richtigkeit verantwortlich bleiben.",
     "keywords": [
       "Berlin",
@@ -22,18 +24,42 @@
       "Gesundheit",
       "Migration"
     ],
-    "impressumTitle": "Impressum — Berlin 2026",
-    "impressumDescription": "Impressum des Projekts Berlin 2026: Anbieter, Kontakt und Haftung."
+    "impressumTitle": "Impressum — Wahl-Kompass - Berlin 2026",
+    "impressumDescription": "Impressum des Projekts Wahl-Kompass - Berlin 2026: Anbieter, Kontakt und Haftung."
   },
   "brand": {
-    "name": "Berlin 2026",
+    "name": "Wahl-Kompass - Berlin 2026",
     "tagline": "Parteipositionen nebeneinander"
   },
   "navigation": {
     "comparison": "Vergleich",
     "motivation": "Motivation",
     "privacy": "Datenschutz",
-    "about": "Über uns"
+    "about": "Über uns",
+    "media": "Medien"
+  },
+  "media": {
+    "kicker": "Presseüberblick",
+    "title": "Medienbericht",
+    "subtitle": "Artikel zu Parteien mit Sitzen im Abgeordnetenhaus und zur Bundespolitik — aus linken, mittleren, rechten und Berliner Medien. Keine Bewertung, keine Empfehlung: nur Quellen und Filter.",
+    "scopeHeading": "Ebene",
+    "leanHeading": "Ausrichtung",
+    "filterAll": "Alle",
+    "filterBerlin": "Berlin",
+    "filterBund": "Bund",
+    "filterAllLean": "Alle",
+    "leanLeft": "Links",
+    "leanCenter": "Mitte",
+    "leanRight": "Rechts",
+    "leanLocal": "Berlin lokal",
+    "statTotal": "Treffer",
+    "statSources": "Medien",
+    "showing": "{count} von {total}",
+    "updated": "Stand {date}",
+    "empty": "Keine passenden Artikel. Anderen Filter wählen.",
+    "openSource": "Quelle",
+    "disclaimer": "Keine Bewertung, keine Analyse: nur Schlagzeilen aus öffentlichen RSS-Feeds, gefiltert nach Parteien und Institutionen. Jeder Eintrag verlinkt auf das Original.",
+    "partialErrors": "Einige Feeds konnten nicht geladen werden ({sources})."
   },
   "hero": {
     "headline": "Abgeordnetenhauswahl 2026 — Programme im Vergleich",
@@ -206,6 +232,8 @@
   "about": {
     "title": "Über uns",
     "body": "Berlin 2026 ist ein unabhängiges Projekt zum Vergleich von Parteiprogrammen vor der Abgeordnetenhauswahl 2026 in Berlin. Offizielle Programme erscheinen nur auf Deutsch — wir übersetzen sie in Sprachen, die in Berlin gesprochen werden.\n\nNina vergleicht die Programme und treibt das Projekt voran, Mascha sorgt für die Technik. Parallel arbeiten wir an [Wasser für alle / Water for All](https://www.water4all.com.de/de) — einem offenen Atlas freier Trinkwasserstellen in Berlin. Das Projekt macht den Zugang zu Wasser sichtbar und hilft vor Ort, sich für neue Trinkbrunnen einzusetzen.",
+    "reportTitle": "Projektbericht",
+    "reportBody": "Ein kurzer öffentlicher Überblick (15.10.2026) darüber, wen wir erreicht haben und was wir gelernt haben — vor und nach dem Wahltag. [PDF herunterladen](/reports/public-project-story.de.pdf).",
     "contributeTitle": "Wie Sie helfen können",
     "contributeBody": "Wenn Sie das Projekt unterstützen möchten, hilft uns am meisten, wenn Sie es weitererzählen — an Menschen, denen es nützlich sein könnte.\n\nSie können auch unseren Flyer ausdrucken (Deutsch, Englisch, Türkisch, Kurdisch, Polnisch, Russisch, Ukrainisch, Arabisch, Spanisch, Vietnamesisch, Italienisch) und dort aushängen, wo ihn Menschen in Berlin sehen — Cafés, schwarze Bretter, Nachbarschaftsorte. [PDF herunterladen](/flyers/berlin-2026-flyer.pdf).\n\nUnd wenn Ihnen auf der Website ein Fehler auffällt — eine ungenaue Formulierung oder ein Sachfehler — schreiben Sie uns bitte, damit wir ihn korrigieren können. Markieren Sie die Stelle auf der Seite, um eine Meldung zu öffnen, oder erreichen Sie uns über Kontakt.\n\nSie können Übersetzungen auch selbst verbessern — öffnen Sie einen Pull Request mit Korrekturen, oder ergänzen bzw. bearbeiten Sie die Locale-Dateien direkt in unserem [GitHub-Repository](https://github.com/mashazyu/berlin-2026)."
   },

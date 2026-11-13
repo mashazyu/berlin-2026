@@ -31,6 +31,8 @@ export type Translations = {
     homeDescription: string
     aboutTitle: string
     aboutDescription: string
+    medienTitle: string
+    medienDescription: string
     privacyTitle: string
     privacyDescription: string
     impressumTitle: string
@@ -47,7 +49,41 @@ export type Translations = {
     motivation: string
     comparison: string
     about: string
+    media: string
     privacy: string
+  }
+  media: {
+    kicker: string
+    title: string
+    subtitle: string
+    timeHeading: string
+    partyHeading: string
+    topicHeading: string
+    scopeHeading: string
+    leanHeading: string
+    filterAll: string
+    filterBerlin: string
+    filterBund: string
+    filterAllLean: string
+    filterAllParties: string
+    leanLeft: string
+    leanCenter: string
+    leanRight: string
+    timeAll: string
+    time24h: string
+    time7d: string
+    time30d: string
+    timeSinceElection: string
+    statTotal: string
+    statSources: string
+    showing: string
+    updated: string
+    empty: string
+    openSource: string
+    disclaimer: string
+    partialErrors: string
+    inactiveTitle: string
+    inactiveBody: string
   }
   hero: {
     headline: string

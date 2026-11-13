@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "homeTitle": "Berlin 2026 — bernameyên 10 partiyên herî naskirî berawird bike",
+    "homeTitle": "Wahl-Kompass - Berlin 2026 — bernameyên 10 partiyên herî naskirî berawird bike",
     "homeDescription": "Bernameyên fermî yên hilbijartina Abgeordnetenhaus a Berlînê di 20ê Îlonê 2026an de: veguhestin, xanî, avhewa, ewlehî û zêdetir. Serbixwe — ne şîreta dengdanê ye.",
-    "aboutTitle": "Derbarê — Berlin 2026",
-    "aboutDescription": "Kî li pişt Berlin 2026 e: Nina bernameyên partiyan berawird dike û proje pêş dixe; Masha aliyê teknîkî digire ser xwe. Serbixwe, bê girêdana bi tu partiyê re.",
-    "aiDisclosureTitle": "Daxuyaniya AI — Berlin 2026",
+    "aboutTitle": "Derbarê — Wahl-Kompass - Berlin 2026",
+    "aboutDescription": "Kî li pişt Wahl-Kompass - Berlin 2026 e: Nina bernameyên partiyan berawird dike û proje pêş dixe; Masha aliyê teknîkî digire ser xwe. Serbixwe, bê girêdana bi tu partiyê re.",
+    "aiDisclosureTitle": "Daxuyaniya AI — Wahl-Kompass - Berlin 2026",
     "aiDisclosureDescription": "Em AI di nivîsên malperê û berawirdkirina bernameyan de çawa bi kar tînin — û çima mirov ji bo raman, naverok û rastiyê berpirsiyar dimînin.",
     "keywords": [
       "Berlîn",
@@ -23,14 +23,15 @@
     ]
   },
   "brand": {
-    "name": "Berlin 2026",
+    "name": "Wahl-Kompass - Berlin 2026",
     "tagline": "Helwestên partiyan li kêleka hev"
   },
   "navigation": {
     "comparison": "Berawird",
     "motivation": "Sedem",
     "privacy": "Nepenîtî",
-    "about": "Derbarê"
+    "about": "Derbarê",
+    "media": "Medya"
   },
   "hero": {
     "headline": "Hilbijartina herêmî ya Berlînê 2026 — bernameyên partiyan berawird bike",
@@ -203,6 +204,8 @@
   "about": {
     "title": "Derbarê",
     "body": "Berlin 2026 projejeke serbixwe ye ku berî hilbijartina herêmî ya Berlînê ya 2026an bernameyên partiyan berawird dike. Bernameyên fermî tenê bi Almanî derdikevin — em wan wergerînin zimanên ku li Berlînê tên axaftin.\n\nNina bernameyan berawird dike û proje pêş dixe; Masha aliyê teknîkî digire ser xwe. Di heman demê de em li ser [Water for All / Wasser für alle](https://www.water4all.com.de) dixebitin — atlasekî vekirî yê ava vexwarinê ya belaş li Berlînê. Proje gihîştina avê xuya dike û alîkariya niştecîhan dike ku ji bo kaniyên nû bixebitin.",
+    "reportTitle": "Rapora proje",
+    "reportBody": "Kurteyekî giştî ya kurt (15.10.2026): em gihîştin kê û berî û piştî roja hilbijartinê em çi fêr bûn. [PDF daxîne](/reports/public-project-story.pdf).",
     "contributeTitle": "Tu dikarî çawa alîkarî bikî",
     "contributeBody": "Heke tu dixwazî proje piştgirî bikî, ya herî bikêr belavkirin e — bi kesên ku dibe jê sûdê bigirin re parve bike.\n\nTu dikarî herwiha fîşeya me çap bikî (Almanî, Îngilîzî, Tirkî, Kurdî, Polonî, Rûsî, Ûkraynî, Erebî, Spanî, Viyetnamî, Îtalî) û li cihên ku mirov li Berlînê dibînin daliqînî — kafê, tablên agahiyê, cihên civakî. [PDF daxîne](/flyers/berlin-2026-flyer.pdf).\n\nÛ heke tu li ser malperê xeletiyekê bibînî — gotineke şaş an xeletiyeke rastîn — ji me re bêje da em sererast bikin. Beşê li ser rûpelê hilbijêre da forma ragihandinê veke, an jî bi riya Têkiliyê ji me re binivîse.\n\nTu dikarî wergeran jî xwe bi xwe baştir bikî — pull request-ekê bi sererastkirinan veke, an jî pelên zimanê rasterast di [depoya me ya GitHub](https://github.com/mashazyu/berlin-2026) de biguherîne."
   },

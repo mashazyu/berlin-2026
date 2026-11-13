@@ -43,6 +43,13 @@ describe("localized pages", () => {
       cy.document().its("documentElement.lang").should("eq", CONTENT_LANG[lang])
       cy.get("main").should("exist")
     })
+
+    it(`medien /${lang}/medien loads`, () => {
+      cy.visit(`/${lang}/medien`, { failOnStatusCode: true })
+      cy.document().its("documentElement.lang").should("eq", CONTENT_LANG[lang])
+      cy.get("main").should("exist")
+      cy.get("main h1").should("exist")
+    })
   }
 
   it("privacy for non-en/de redirects to German", () => {

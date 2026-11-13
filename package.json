@@ -13,7 +13,7 @@
     "build:www": "pnpm --filter @kompass/www build",
     "build:polit": "pnpm --filter @kompass/polit build",
     "build:apps": "pnpm --filter @kompass/www --filter @kompass/polit build",
-    "start": "next start",
+    "start": "node scripts/start-next.mjs",
     "lint": "eslint . --ignore-pattern .next --ignore-pattern next-env.d.ts",
     "lint:apps": "pnpm --filter @kompass/www --filter @kompass/polit lint",
     "type-check": "tsc --noEmit --incremental false",

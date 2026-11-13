@@ -10,17 +10,21 @@ import {
   handleSectionLinkClick,
   scrollToSection,
 } from "@/lib/scroll-to-section"
+import { isElectionEnded } from "@/lib/seo/election"
 import { cn } from "@/lib/utils"
 
 export function SiteHeader() {
   const { language, translations: t } = useLanguage()
   const pathname = usePathname()
   const [open, setOpen] = useState(false)
+  const showMedia = isElectionEnded()
 
   const homePath = `/${language}`
   const aboutPath = `/${language}/about`
+  const mediaPath = `/${language}/medien`
   const onHome = pathname === homePath || pathname === `${homePath}/`
   const onAbout = pathname === aboutPath || pathname === `${aboutPath}/`
+  const onMedia = pathname === mediaPath || pathname === `${mediaPath}/`
 
   const sectionLinks = [
     { id: "comparison", label: t.navigation.comparison },
@@ -90,6 +94,16 @@ export function SiteHeader() {
                 </Link>
               )
             )}
+            {showMedia ? (
+              <Link
+                href={mediaPath}
+                className={cn(navLinkClass, onMedia && "text-foreground")}
+                aria-current={onMedia ? "page" : undefined}
+                onClick={closeMenu}
+              >
+                {t.navigation.media}
+              </Link>
+            ) : null}
             <Link
               href={aboutPath}
               className={cn(navLinkClass, onAbout && "text-foreground")}
@@ -147,6 +161,16 @@ export function SiteHeader() {
               </Link>
             )
           )}
+          {showMedia ? (
+            <Link
+              href={mediaPath}
+              className={cn(mobileLinkClass, onMedia && "bg-muted")}
+              aria-current={onMedia ? "page" : undefined}
+              onClick={closeMenu}
+            >
+              {t.navigation.media}
+            </Link>
+          ) : null}
           <Link
             href={aboutPath}
             className={cn(mobileLinkClass, onAbout && "bg-muted")}

@@ -2,7 +2,13 @@ import type { Translations } from "@/lib/i18n/types"
 import type { MetadataRoute } from "next"
 import { metaDescription } from "@/lib/seo/meta-helpers"
 
-export type PageKey = "home" | "about" | "privacy" | "impressum" | "aiDisclosure"
+export type PageKey =
+  | "home"
+  | "about"
+  | "medien"
+  | "privacy"
+  | "impressum"
+  | "aiDisclosure"
 
 type ChangeFrequency = NonNullable<MetadataRoute.Sitemap[number]["changeFrequency"]>
 
@@ -43,6 +49,15 @@ export const PAGES: Record<PageKey, PageConfig> = {
     getMetadata: (t) => ({
       title: t.metadata.aboutTitle,
       description: metaDescription(t.metadata.aboutDescription),
+    }),
+  },
+  medien: {
+    path: "/medien",
+    priority: 0.7,
+    changeFrequency: "hourly",
+    getMetadata: (t) => ({
+      title: t.metadata.medienTitle,
+      description: metaDescription(t.metadata.medienDescription),
     }),
   },
   privacy: {
