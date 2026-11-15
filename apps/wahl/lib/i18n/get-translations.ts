@@ -62,12 +62,13 @@ function withGermanLegalFallback(
 
 const enTranslations = injectContactEmail(en as Translations)
 const deTranslations = injectContactEmail(
-  deepMergeWithFallback(en as Translations, de as Partial<Translations>)
+  deepMergeWithFallback(en as Translations, de as unknown as Partial<Translations>)
 )
 
-function buildLanguage(lang: Language, overlay: Partial<Translations>): Translations {
+/** Locale JSON overlays omit EN/DE-only legal keys; merge + German legal fill those in. */
+function buildLanguage(lang: Language, overlay: unknown): Translations {
   const merged = injectContactEmail(
-    deepMergeWithFallback(en as Translations, overlay)
+    deepMergeWithFallback(en as Translations, overlay as Partial<Translations>)
   )
   return withGermanLegalFallback(lang, merged, deTranslations)
 }
@@ -75,15 +76,15 @@ function buildLanguage(lang: Language, overlay: Partial<Translations>): Translat
 export const languages: Record<Language, Translations> = {
   en: enTranslations,
   de: deTranslations,
-  tr: buildLanguage("tr", tr as Partial<Translations>),
-  uk: buildLanguage("uk", uk as Partial<Translations>),
-  pl: buildLanguage("pl", pl as Partial<Translations>),
-  ru: buildLanguage("ru", ru as Partial<Translations>),
-  ar: buildLanguage("ar", ar as Partial<Translations>),
-  es: buildLanguage("es", es as Partial<Translations>),
-  ku: buildLanguage("ku", ku as Partial<Translations>),
-  vi: buildLanguage("vi", vi as Partial<Translations>),
-  it: buildLanguage("it", it as Partial<Translations>),
+  tr: buildLanguage("tr", tr),
+  uk: buildLanguage("uk", uk),
+  pl: buildLanguage("pl", pl),
+  ru: buildLanguage("ru", ru),
+  ar: buildLanguage("ar", ar),
+  es: buildLanguage("es", es),
+  ku: buildLanguage("ku", ku),
+  vi: buildLanguage("vi", vi),
+  it: buildLanguage("it", it),
 }
 
 export function getTranslations(lang: Language): Translations {
