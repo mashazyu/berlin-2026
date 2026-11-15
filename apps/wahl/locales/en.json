@@ -50,12 +50,13 @@
     "leanHeading": "Outlet lean",
     "filterAll": "All",
     "filterBerlin": "Berlin",
-    "filterBund": "Bund",
+    "filterGermany": "Germany",
     "filterAllLean": "All",
     "filterAllParties": "All parties",
     "leanLeft": "Left",
     "leanCenter": "Centre",
     "leanRight": "Right",
+    "leanLocal": "Local",
     "timeAll": "All",
     "time24h": "24 hours",
     "time7d": "7 days",
@@ -70,7 +71,12 @@
     "disclaimer": "No assessment, no analysis: only headlines from public RSS feeds, filtered for parties and institutions. Each item links to the original outlet.",
     "partialErrors": "Some feeds could not be loaded ({sources}).",
     "inactiveTitle": "Opens after election day",
-    "inactiveBody": "Press coverage of the new Abgeordnetenhaus starts once polls close on 20 September 2026 — left, centre and right outlets, plus Berlin papers, in one place."
+    "inactiveBody": "Press coverage of the new Abgeordnetenhaus starts once polls close on 20 September 2026 — left, centre and right outlets, plus Berlin papers, in one place.",
+    "sourcesHeading": "Sources",
+    "sourcesOpen": "Sources",
+    "sourcesDone": "Done",
+    "sourcesSelectAll": "All",
+    "sourcesClear": "None"
   },
   "hero": {
     "headline": "Berlin state election 2026 — compare party programs",

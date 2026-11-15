@@ -46,12 +46,13 @@
     "leanHeading": "Khuynh hướng",
     "filterAll": "Tất cả",
     "filterBerlin": "Berlin",
-    "filterBund": "Bund",
+    "filterGermany": "Đức",
     "filterAllLean": "Tất cả",
     "filterAllParties": "Tất cả đảng",
     "leanLeft": "Tả",
     "leanCenter": "Trung",
     "leanRight": "Hữu",
+    "leanLocal": "Địa phương",
     "timeAll": "Tất cả",
     "time24h": "24 giờ",
     "time7d": "7 ngày",
@@ -66,7 +67,12 @@
     "disclaimer": "Không đánh giá, không phân tích: chỉ tiêu đề từ RSS công khai, lọc theo đảng và thể chế. Mỗi mục dẫn tới tờ gốc.",
     "partialErrors": "Một số nguồn không tải được ({sources}).",
     "inactiveTitle": "Mở sau ngày bầu cử",
-    "inactiveBody": "Tin truyền thông về Abgeordnetenhaus mới bắt đầu khi các điểm bỏ phiếu đóng cửa ngày 20 tháng 9 năm 2026 — báo tả, trung, hữu và báo Berlin trong một chỗ."
+    "inactiveBody": "Tin truyền thông về Abgeordnetenhaus mới bắt đầu khi các điểm bỏ phiếu đóng cửa ngày 20 tháng 9 năm 2026 — báo tả, trung, hữu và báo Berlin trong một chỗ.",
+    "sourcesHeading": "Nguồn",
+    "sourcesOpen": "Nguồn",
+    "sourcesDone": "Xong",
+    "sourcesSelectAll": "Tất cả",
+    "sourcesClear": "Bỏ chọn"
   },
   "hero": {
     "headline": "Bầu cử bang Berlin 2026 — so sánh chương trình các đảng",

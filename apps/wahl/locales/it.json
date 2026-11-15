@@ -46,12 +46,13 @@
     "leanHeading": "Orientamento",
     "filterAll": "Tutti",
     "filterBerlin": "Berlino",
-    "filterBund": "Bund",
+    "filterGermany": "Germania",
     "filterAllLean": "Tutti",
     "filterAllParties": "Tutti i partiti",
     "leanLeft": "Sinistra",
     "leanCenter": "Centro",
     "leanRight": "Destra",
+    "leanLocal": "Locali",
     "timeAll": "Tutti",
     "time24h": "24 ore",
     "time7d": "7 giorni",
@@ -66,7 +67,12 @@
     "disclaimer": "Nessuna valutazione né analisi: solo titoli da feed RSS pubblici, filtrati per partiti e istituzioni. Ogni voce punta all’originale.",
     "partialErrors": "Alcuni feed non sono stati caricati ({sources}).",
     "inactiveTitle": "Si apre dopo il giorno delle elezioni",
-    "inactiveBody": "La rassegna stampa sul nuovo Abgeordnetenhaus inizia a seggi chiusi il 20 settembre 2026 — media di sinistra, centro e destra e giornali berlinesi in un unico posto."
+    "inactiveBody": "La rassegna stampa sul nuovo Abgeordnetenhaus inizia a seggi chiusi il 20 settembre 2026 — media di sinistra, centro e destra e giornali berlinesi in un unico posto.",
+    "sourcesHeading": "Fonti",
+    "sourcesOpen": "Fonti",
+    "sourcesDone": "Fatto",
+    "sourcesSelectAll": "Tutte",
+    "sourcesClear": "Nessuna"
   },
   "hero": {
     "headline": "Elezioni regionali a Berlino 2026 — confronta i programmi",

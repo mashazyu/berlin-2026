@@ -49,12 +49,13 @@
     "leanHeading": "Ausrichtung",
     "filterAll": "Alle",
     "filterBerlin": "Berlin",
-    "filterBund": "Bund",
+    "filterGermany": "Deutschland",
     "filterAllLean": "Alle",
     "filterAllParties": "Alle Parteien",
     "leanLeft": "Links",
     "leanCenter": "Mitte",
     "leanRight": "Rechts",
+    "leanLocal": "Lokal",
     "timeAll": "Alle",
     "time24h": "24 Stunden",
     "time7d": "7 Tage",
@@ -69,7 +70,12 @@
     "disclaimer": "Keine Bewertung, keine Analyse: nur Schlagzeilen aus öffentlichen RSS-Feeds, gefiltert nach Parteien und Institutionen. Jeder Eintrag verlinkt auf das Original.",
     "partialErrors": "Einige Feeds konnten nicht geladen werden ({sources}).",
     "inactiveTitle": "Startet nach dem Wahltag",
-    "inactiveBody": "Die Presseübersicht zum neuen Abgeordnetenhaus beginnt, sobald die Wahllokale am 20. September 2026 schließen — linke, mittlere und rechte Medien sowie Berliner Zeitungen an einem Ort."
+    "inactiveBody": "Die Presseübersicht zum neuen Abgeordnetenhaus beginnt, sobald die Wahllokale am 20. September 2026 schließen — linke, mittlere und rechte Medien sowie Berliner Zeitungen an einem Ort.",
+    "sourcesHeading": "Quellen",
+    "sourcesOpen": "Quellen",
+    "sourcesDone": "Fertig",
+    "sourcesSelectAll": "Alle",
+    "sourcesClear": "Keine"
   },
   "hero": {
     "headline": "Abgeordnetenhauswahl 2026 — Programme im Vergleich",

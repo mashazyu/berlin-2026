@@ -1,21 +1,19 @@
 "use client"
 
-import { useMemo, useState, type ReactNode } from "react"
-import { ExternalLink } from "lucide-react"
+import { useEffect, useMemo, useState, type ReactNode } from "react"
+import { ExternalLink, ListFilter, X } from "lucide-react"
 import { FeedbackFab } from "@/components/feedback-fab"
 import { SiteFooter } from "@/components/site-footer"
 import { SiteHeader } from "@/components/site-header"
 import { useLanguage } from "@/components/language-provider"
 import { selectionChipClassName, metaTagClassName } from "@/lib/chip-styles"
 import type { TopicGroup } from "@/lib/comparison/types"
-import type { MediaLean, MediaScope } from "@/lib/media/feeds"
+import { MEDIA_FEEDS, type MediaLean, type MediaScope } from "@/lib/media/feeds"
 import { MEDIA_TOPIC_GROUPS } from "@/lib/media/keywords"
 import type { MediaFetchResult, MediaItem } from "@/lib/media/types"
 import { ELECTION_DATE } from "@/lib/seo/election"
 import { cn } from "@/lib/utils"
 
-type ScopeFilter = "all" | MediaScope
-type LeanFilter = "all" | Exclude<MediaLean, "local">
 type TimeFilter = "all" | "24h" | "7d" | "30d" | "since_election"
 
 /** Canonical party chips — keyword hits map onto these labels. */
@@ -31,7 +29,38 @@ const PARTY_FILTERS = [
 
 type PartyId = (typeof PARTY_FILTERS)[number]["id"]
 
+const LEAN_ORDER: Exclude<MediaLean, "local">[] = ["left", "center", "right"]
+
 const DAY_MS = 86_400_000
+
+type Outlet = {
+  source: string
+  lean: MediaLean
+  scopes: Set<MediaScope>
+}
+
+function buildOutlets(): Outlet[] {
+  const bySource = new Map<string, Outlet>()
+  for (const feed of MEDIA_FEEDS) {
+    const existing = bySource.get(feed.source)
+    if (existing) {
+      existing.scopes.add(feed.scope)
+      // Prefer political lean over "local" when both exist for one brand
+      if (existing.lean === "local" && feed.lean !== "local") {
+        existing.lean = feed.lean
+      }
+    } else {
+      bySource.set(feed.source, {
+        source: feed.source,
+        lean: feed.lean,
+        scopes: new Set([feed.scope]),
+      })
+    }
+  }
+  return [...bySource.values()]
+}
+
+const ALL_OUTLETS = buildOutlets()
 
 function formatDate(iso: string | null, language: string): string {
   if (!iso) return "—"
@@ -96,27 +125,55 @@ function inTimeRange(
   return true
 }
 
+function outletsForScope(scope: MediaScope): Outlet[] {
+  return ALL_OUTLETS.filter((outlet) => outlet.scopes.has(scope))
+}
+
+function sourcesForScope(scope: MediaScope): string[] {
+  return outletsForScope(scope).map((outlet) => outlet.source)
+}
+
 export function MediaPageClient({ data }: { data: MediaFetchResult }) {
   const { language, translations: t } = useLanguage()
   const m = t.media
   const groupLabels = t.comparison.groups
-  const [scope, setScope] = useState<ScopeFilter>("all")
-  const [lean, setLean] = useState<LeanFilter>("all")
+  const [scope, setScope] = useState<MediaScope>("berlin")
+  const [sources, setSources] = useState<string[]>(() =>
+    sourcesForScope("berlin")
+  )
   const [time, setTime] = useState<TimeFilter>("since_election")
   const [parties, setParties] = useState<PartyId[]>(() =>
     PARTY_FILTERS.map((party) => party.id)
   )
   const [topics, setTopics] = useState<TopicGroup[]>(() => [...MEDIA_TOPIC_GROUPS])
+  const [sourcesOpen, setSourcesOpen] = useState(false)
   const nowMs = useMemo(() => Date.now(), [data.fetchedAt])
+
+  const scopeOutlets = useMemo(() => outletsForScope(scope), [scope])
+
+  useEffect(() => {
+    setSources(sourcesForScope(scope))
+  }, [scope])
+
+  useEffect(() => {
+    if (!sourcesOpen) return
+    const onKey = (event: KeyboardEvent) => {
+      if (event.key === "Escape") setSourcesOpen(false)
+    }
+    window.addEventListener("keydown", onKey)
+    return () => window.removeEventListener("keydown", onKey)
+  }, [sourcesOpen])
 
   const filtered = useMemo(() => {
     const allParties = parties.length === PARTY_FILTERS.length
     const allTopics = topics.length === MEDIA_TOPIC_GROUPS.length
+    const sourceSet = new Set(sources)
 
     return data.items.filter((item) => {
       if (!inTimeRange(item.publishedAt, time, nowMs)) return false
-      if (scope !== "all" && item.scope !== scope) return false
-      if (lean !== "all" && item.lean !== lean) return false
+      if (item.scope !== scope) return false
+      if (sources.length === 0) return false
+      if (!sourceSet.has(item.source)) return false
 
       if (parties.length === 0) return false
       if (!allParties && !parties.some((partyId) => itemHasParty(item, partyId))) {
@@ -131,22 +188,21 @@ export function MediaPageClient({ data }: { data: MediaFetchResult }) {
 
       return true
     })
-  }, [data.items, scope, lean, time, parties, topics, nowMs])
+  }, [data.items, scope, sources, time, parties, topics, nowMs])
 
-  const timedItems = useMemo(
-    () => data.items.filter((item) => inTimeRange(item.publishedAt, time, nowMs)),
-    [data.items, time, nowMs]
+  const timedScopedItems = useMemo(
+    () =>
+      data.items.filter(
+        (item) =>
+          item.scope === scope && inTimeRange(item.publishedAt, time, nowMs)
+      ),
+    [data.items, scope, time, nowMs]
   )
 
   const counts = useMemo(() => {
-    const base = timedItems
+    const base = timedScopedItems
     return {
       total: base.length,
-      berlin: base.filter((i) => i.scope === "berlin").length,
-      bund: base.filter((i) => i.scope === "bund").length,
-      left: base.filter((i) => i.lean === "left").length,
-      center: base.filter((i) => i.lean === "center").length,
-      right: base.filter((i) => i.lean === "right").length,
       parties: Object.fromEntries(
         PARTY_FILTERS.map((party) => [
           party.id,
@@ -159,8 +215,48 @@ export function MediaPageClient({ data }: { data: MediaFetchResult }) {
           base.filter((item) => item.topicHits.includes(group)).length,
         ])
       ) as Record<TopicGroup, number>,
+      sources: Object.fromEntries(
+        scopeOutlets.map((outlet) => [
+          outlet.source,
+          base.filter((item) => item.source === outlet.source).length,
+        ])
+      ) as Record<string, number>,
     }
-  }, [timedItems])
+  }, [timedScopedItems, scopeOutlets])
+
+  const outletsByLean = useMemo(() => {
+    const groups: {
+      lean: Exclude<MediaLean, "local"> | "local"
+      label: string
+      outlets: Outlet[]
+    }[] = []
+
+    for (const lean of LEAN_ORDER) {
+      const outlets = scopeOutlets.filter((outlet) => outlet.lean === lean)
+      if (outlets.length === 0) continue
+      groups.push({
+        lean,
+        label:
+          lean === "left"
+            ? m.leanLeft
+            : lean === "center"
+              ? m.leanCenter
+              : m.leanRight,
+        outlets,
+      })
+    }
+
+    const localOutlets = scopeOutlets.filter((outlet) => outlet.lean === "local")
+    if (localOutlets.length > 0) {
+      groups.push({
+        lean: "local",
+        label: m.leanLocal,
+        outlets: localOutlets,
+      })
+    }
+
+    return groups
+  }, [scopeOutlets, m.leanLeft, m.leanCenter, m.leanRight, m.leanLocal])
 
   const timeChips: { id: TimeFilter; label: string }[] = [
     { id: "all", label: m.timeAll },
@@ -170,17 +266,23 @@ export function MediaPageClient({ data }: { data: MediaFetchResult }) {
     { id: "since_election", label: m.timeSinceElection },
   ]
 
-  const scopeChips: { id: ScopeFilter; label: string; count: number }[] = [
-    { id: "all", label: m.filterAll, count: counts.total },
-    { id: "berlin", label: m.filterBerlin, count: counts.berlin },
-    { id: "bund", label: m.filterBund, count: counts.bund },
-  ]
-
-  const leanChips: { id: LeanFilter; label: string; count: number }[] = [
-    { id: "all", label: m.filterAllLean, count: counts.total },
-    { id: "left", label: m.leanLeft, count: counts.left },
-    { id: "center", label: m.leanCenter, count: counts.center },
-    { id: "right", label: m.leanRight, count: counts.right },
+  const scopeTabs: { id: MediaScope; label: string; count: number }[] = [
+    {
+      id: "berlin",
+      label: m.filterBerlin,
+      count: data.items.filter(
+        (item) =>
+          item.scope === "berlin" && inTimeRange(item.publishedAt, time, nowMs)
+      ).length,
+    },
+    {
+      id: "bund",
+      label: m.filterGermany,
+      count: data.items.filter(
+        (item) =>
+          item.scope === "bund" && inTimeRange(item.publishedAt, time, nowMs)
+      ).length,
+    },
   ]
 
   function toggleParty(partyId: PartyId) {
@@ -197,6 +299,22 @@ export function MediaPageClient({ data }: { data: MediaFetchResult }) {
         ? current.filter((id) => id !== group)
         : [...current, group]
     )
+  }
+
+  function toggleSource(source: string) {
+    setSources((current) =>
+      current.includes(source)
+        ? current.filter((id) => id !== source)
+        : [...current, source]
+    )
+  }
+
+  function selectAllSources() {
+    setSources(scopeOutlets.map((outlet) => outlet.source))
+  }
+
+  function clearSources() {
+    setSources([])
   }
 
   if (!data.active) {
@@ -223,11 +341,31 @@ export function MediaPageClient({ data }: { data: MediaFetchResult }) {
     )
   }
 
+  const leanLabels = {
+    left: m.leanLeft,
+    center: m.leanCenter,
+    right: m.leanRight,
+  }
+
+  const outletPanel = (
+    <OutletPanel
+      heading={m.sourcesHeading}
+      groups={outletsByLean}
+      sources={sources}
+      counts={counts.sources}
+      onToggle={toggleSource}
+      onSelectAll={selectAllSources}
+      onClear={clearSources}
+      selectAllLabel={m.sourcesSelectAll}
+      clearLabel={m.sourcesClear}
+    />
+  )
+
   return (
     <div className="min-h-screen bg-background">
       <SiteHeader />
       <main>
-        <div className="mx-auto max-w-5xl px-4 py-14 sm:px-6 sm:py-20">
+        <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6 sm:py-20">
           <p className="text-sm font-medium text-muted-foreground">{m.kicker}</p>
           <h1 className="mt-2 font-display text-3xl font-semibold tracking-[-0.01em] sm:text-4xl">
             {m.title}
@@ -236,29 +374,94 @@ export function MediaPageClient({ data }: { data: MediaFetchResult }) {
             {m.subtitle}
           </p>
 
-          <div className="mt-10 grid grid-cols-2 gap-3 sm:grid-cols-4">
-            <StatCard label={m.statTotal} value={filtered.length} />
-            <StatCard
-              label={m.filterBerlin}
-              value={filtered.filter((i) => i.scope === "berlin").length}
-            />
-            <StatCard
-              label={m.filterBund}
-              value={filtered.filter((i) => i.scope === "bund").length}
-            />
-            <StatCard
-              label={m.statSources}
-              value={new Set(filtered.map((i) => i.source)).size}
-            />
+          <label
+            htmlFor="media-time-filter"
+            className="mt-8 flex w-full items-center justify-end gap-2 text-sm font-medium text-foreground"
+          >
+            <span>{m.timeHeading}</span>
+            <select
+              id="media-time-filter"
+              value={time}
+              onChange={(event) => setTime(event.target.value as TimeFilter)}
+              className={cn(
+                selectionChipClassName(false),
+                "cursor-pointer pe-8 font-medium"
+              )}
+            >
+              {timeChips.map((chip) => (
+                <option key={chip.id} value={chip.id}>
+                  {chip.label}
+                </option>
+              ))}
+            </select>
+          </label>
+
+          <div
+            className="mt-6 border-b border-border"
+            role="tablist"
+            aria-label={m.scopeHeading}
+          >
+            <div className="-mb-px flex gap-0">
+              {scopeTabs.map((tab) => {
+                const active = scope === tab.id
+                return (
+                  <button
+                    key={tab.id}
+                    type="button"
+                    role="tab"
+                    id={`media-scope-${tab.id}`}
+                    aria-selected={active}
+                    aria-controls="media-scope-panel"
+                    className={cn(
+                      "relative -mb-px border-b-2 px-5 py-3 font-display text-base font-semibold tracking-[-0.01em] transition-colors sm:text-lg",
+                      active
+                        ? "border-primary text-foreground"
+                        : "border-transparent text-muted-foreground hover:border-border hover:text-foreground"
+                    )}
+                    onClick={() => setScope(tab.id)}
+                  >
+                    {tab.label}
+                    <span
+                      className={cn(
+                        "ms-2 font-sans text-sm font-medium tabular-nums",
+                        active ? "text-primary" : "text-muted-foreground/70"
+                      )}
+                    >
+                      {tab.count}
+                    </span>
+                  </button>
+                )
+              })}
+            </div>
           </div>
 
-          <div className="mt-10 space-y-5">
-            <div>
-              <p className="mb-2 text-sm font-medium text-foreground">
-                {m.partyHeading}
-              </p>
-              <div className="flex flex-wrap items-center gap-2 sm:flex-nowrap sm:justify-between">
-                <div className="flex min-w-0 flex-wrap gap-2">
+          <div
+            id="media-scope-panel"
+            role="tabpanel"
+            aria-labelledby={`media-scope-${scope}`}
+            className="mt-8 grid gap-8 lg:grid-cols-[minmax(0,1fr)_16rem]"
+          >
+            <div className="min-w-0">
+              <div className="flex flex-wrap items-center justify-end gap-3 lg:hidden">
+                <button
+                  type="button"
+                  className={cn(
+                    selectionChipClassName(sourcesOpen),
+                    "gap-1.5"
+                  )}
+                  onClick={() => setSourcesOpen(true)}
+                  aria-expanded={sourcesOpen}
+                >
+                  <ListFilter className="size-3.5" aria-hidden />
+                  {m.sourcesOpen}
+                  <span className="tabular-nums opacity-70">
+                    {sources.length}/{scopeOutlets.length}
+                  </span>
+                </button>
+              </div>
+
+              <div className="mt-6 space-y-5 lg:mt-0">
+                <FilterRow label={m.partyHeading}>
                   {PARTY_FILTERS.map((party) => {
                     const active = parties.includes(party.id)
                     return (
@@ -276,156 +479,208 @@ export function MediaPageClient({ data }: { data: MediaFetchResult }) {
                       </button>
                     )
                   })}
-                </div>
-                <label
-                  htmlFor="media-time-filter"
-                  className="flex shrink-0 items-center gap-2 text-sm font-medium text-foreground sm:ms-auto"
-                >
-                  <span>{m.timeHeading}</span>
-                  <select
-                    id="media-time-filter"
-                    value={time}
-                    onChange={(event) =>
-                      setTime(event.target.value as TimeFilter)
-                    }
-                    className={cn(
-                      selectionChipClassName(false),
-                      "cursor-pointer pe-8 font-medium"
-                    )}
-                  >
-                    {timeChips.map((chip) => (
-                      <option key={chip.id} value={chip.id}>
-                        {chip.label}
-                      </option>
-                    ))}
-                  </select>
-                </label>
+                </FilterRow>
+
+                <FilterRow label={m.topicHeading}>
+                  {MEDIA_TOPIC_GROUPS.map((group) => {
+                    const active = topics.includes(group)
+                    return (
+                      <button
+                        key={group}
+                        type="button"
+                        className={selectionChipClassName(active)}
+                        onClick={() => toggleTopic(group)}
+                        aria-pressed={active}
+                      >
+                        {groupLabels[group]}
+                        <span className="ms-1.5 tabular-nums opacity-70">
+                          {counts.topics[group]}
+                        </span>
+                      </button>
+                    )
+                  })}
+                </FilterRow>
               </div>
+
+              <p className="mt-6 text-sm text-muted-foreground">
+                {m.showing
+                  .replace("{count}", String(filtered.length))
+                  .replace("{total}", String(timedScopedItems.length))}
+                {data.fetchedAt
+                  ? ` · ${m.updated.replace("{date}", formatDate(data.fetchedAt, language))}`
+                  : null}
+              </p>
+
+              <ul className="mt-4 divide-y divide-border border-y border-border">
+                {filtered.length === 0 ? (
+                  <li className="py-10 text-center text-muted-foreground">
+                    {m.empty}
+                  </li>
+                ) : (
+                  filtered.map((item) => (
+                    <MediaRow
+                      key={item.id}
+                      item={item}
+                      language={language}
+                      leanLabels={leanLabels}
+                      groupLabels={groupLabels}
+                      scopeBerlin={m.filterBerlin}
+                      scopeGermany={m.filterGermany}
+                      openLabel={m.openSource}
+                    />
+                  ))
+                )}
+              </ul>
+
+              <p className="mt-10 text-sm leading-relaxed text-muted-foreground">
+                {m.disclaimer}
+              </p>
+
+              {data.feedErrors.length > 0 ? (
+                <p className="mt-3 text-xs text-muted-foreground/80">
+                  {m.partialErrors.replace(
+                    "{sources}",
+                    [...new Set(data.feedErrors.map((e) => e.source))].join(", ")
+                  )}
+                </p>
+              ) : null}
             </div>
 
-            <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between sm:gap-8">
-              <FilterRow label={m.scopeHeading} className="min-w-0">
-                {scopeChips.map((chip) => (
-                  <button
-                    key={chip.id}
-                    type="button"
-                    className={selectionChipClassName(scope === chip.id)}
-                    onClick={() => setScope(chip.id)}
-                    aria-pressed={scope === chip.id}
-                  >
-                    {chip.label}
-                    <span className="ms-1.5 tabular-nums opacity-70">
-                      {chip.count}
-                    </span>
-                  </button>
-                ))}
-              </FilterRow>
-              <FilterRow
-                label={m.leanHeading}
-                className="min-w-0 sm:ms-auto sm:text-end"
-                chipsClassName="sm:justify-end"
-              >
-                {leanChips.map((chip) => (
-                  <button
-                    key={chip.id}
-                    type="button"
-                    className={selectionChipClassName(lean === chip.id)}
-                    onClick={() => setLean(chip.id)}
-                    aria-pressed={lean === chip.id}
-                  >
-                    {chip.label}
-                    <span className="ms-1.5 tabular-nums opacity-70">
-                      {chip.count}
-                    </span>
-                  </button>
-                ))}
-              </FilterRow>
-            </div>
-
-            <FilterRow label={m.topicHeading}>
-              {MEDIA_TOPIC_GROUPS.map((group) => {
-                const active = topics.includes(group)
-                return (
-                  <button
-                    key={group}
-                    type="button"
-                    className={selectionChipClassName(active)}
-                    onClick={() => toggleTopic(group)}
-                    aria-pressed={active}
-                  >
-                    {groupLabels[group]}
-                    <span className="ms-1.5 tabular-nums opacity-70">
-                      {counts.topics[group]}
-                    </span>
-                  </button>
-                )
-              })}
-            </FilterRow>
+            <aside className="hidden lg:block">
+              <div className="sticky top-24 border border-border bg-section-muted/40 p-4">
+                {outletPanel}
+              </div>
+            </aside>
           </div>
-
-          <p className="mt-6 text-sm text-muted-foreground">
-            {m.showing
-              .replace("{count}", String(filtered.length))
-              .replace("{total}", String(data.items.length))}
-            {data.fetchedAt
-              ? ` · ${m.updated.replace("{date}", formatDate(data.fetchedAt, language))}`
-              : null}
-          </p>
-
-          <ul className="mt-6 divide-y divide-border border-y border-border">
-            {filtered.length === 0 ? (
-              <li className="py-10 text-center text-muted-foreground">
-                {m.empty}
-              </li>
-            ) : (
-              filtered.map((item) => (
-                <MediaRow
-                  key={item.id}
-                  item={item}
-                  language={language}
-                  leanLabels={{
-                    left: m.leanLeft,
-                    center: m.leanCenter,
-                    right: m.leanRight,
-                  }}
-                  groupLabels={groupLabels}
-                  scopeBerlin={m.filterBerlin}
-                  scopeBund={m.filterBund}
-                  openLabel={m.openSource}
-                />
-              ))
-            )}
-          </ul>
-
-          <p className="mt-10 text-sm leading-relaxed text-muted-foreground">
-            {m.disclaimer}
-          </p>
-
-          {data.feedErrors.length > 0 ? (
-            <p className="mt-3 text-xs text-muted-foreground/80">
-              {m.partialErrors.replace(
-                "{sources}",
-                [...new Set(data.feedErrors.map((e) => e.source))].join(", ")
-              )}
-            </p>
-          ) : null}
         </div>
       </main>
       <SiteFooter />
       <FeedbackFab />
+
+      {sourcesOpen ? (
+        <div className="fixed inset-0 z-50 lg:hidden">
+          <button
+            type="button"
+            className="absolute inset-0 bg-foreground/40"
+            aria-label={m.sourcesDone}
+            onClick={() => setSourcesOpen(false)}
+          />
+          <div
+            role="dialog"
+            aria-modal="true"
+            aria-label={m.sourcesHeading}
+            className="absolute inset-x-0 bottom-0 max-h-[80vh] overflow-y-auto rounded-t-xl border border-border bg-background p-5 shadow-lg"
+          >
+            <div className="mb-4 flex items-center justify-between gap-3">
+              <p className="font-display text-lg font-semibold tracking-[-0.01em]">
+                {m.sourcesHeading}
+              </p>
+              <button
+                type="button"
+                className={selectionChipClassName(false)}
+                onClick={() => setSourcesOpen(false)}
+              >
+                <X className="size-3.5" aria-hidden />
+                {m.sourcesDone}
+              </button>
+            </div>
+            {outletPanel}
+          </div>
+        </div>
+      ) : null}
     </div>
   )
 }
 
-function StatCard({ label, value }: { label: string; value: number }) {
+function OutletPanel({
+  heading,
+  groups,
+  sources,
+  counts,
+  onToggle,
+  onSelectAll,
+  onClear,
+  selectAllLabel,
+  clearLabel,
+}: {
+  heading: string
+  groups: {
+    lean: string
+    label: string
+    outlets: Outlet[]
+  }[]
+  sources: string[]
+  counts: Record<string, number>
+  onToggle: (source: string) => void
+  onSelectAll: () => void
+  onClear: () => void
+  selectAllLabel: string
+  clearLabel: string
+}) {
   return (
-    <div className="border border-border bg-section-muted px-4 py-3">
-      <p className="text-xs font-medium uppercase tracking-wide text-muted-foreground">
-        {label}
-      </p>
-      <p className="mt-1 font-display text-2xl font-semibold tabular-nums">
-        {value}
-      </p>
+    <div>
+      <div className="flex items-center justify-between gap-2">
+        <p className="text-sm font-medium text-foreground">{heading}</p>
+        <div className="flex gap-1">
+          <button
+            type="button"
+            className="text-xs font-medium text-muted-foreground underline-offset-2 hover:text-foreground hover:underline"
+            onClick={onSelectAll}
+          >
+            {selectAllLabel}
+          </button>
+          <span className="text-xs text-muted-foreground/50" aria-hidden>
+            ·
+          </span>
+          <button
+            type="button"
+            className="text-xs font-medium text-muted-foreground underline-offset-2 hover:text-foreground hover:underline"
+            onClick={onClear}
+          >
+            {clearLabel}
+          </button>
+        </div>
+      </div>
+
+      <div className="mt-4 space-y-5">
+        {groups.map((group) => (
+          <div key={group.lean}>
+            <p className="mb-2 text-xs font-medium uppercase tracking-wide text-muted-foreground">
+              {group.label}
+            </p>
+            <ul className="space-y-1.5">
+              {group.outlets.map((outlet) => {
+                const active = sources.includes(outlet.source)
+                return (
+                  <li key={outlet.source}>
+                    <label
+                      className={cn(
+                        "flex cursor-pointer items-center gap-2 rounded px-2 py-1.5 text-sm transition-colors",
+                        active
+                          ? "bg-background text-foreground"
+                          : "text-muted-foreground hover:bg-background/70 hover:text-foreground"
+                      )}
+                    >
+                      <input
+                        type="checkbox"
+                        className="size-3.5 accent-primary"
+                        checked={active}
+                        onChange={() => onToggle(outlet.source)}
+                      />
+                      <span className="min-w-0 flex-1 truncate">
+                        {outlet.source}
+                      </span>
+                      <span className="tabular-nums text-xs opacity-70">
+                        {counts[outlet.source] ?? 0}
+                      </span>
+                    </label>
+                  </li>
+                )
+              })}
+            </ul>
+          </div>
+        ))}
+      </div>
     </div>
   )
 }
@@ -455,7 +710,7 @@ function MediaRow({
   leanLabels,
   groupLabels,
   scopeBerlin,
-  scopeBund,
+  scopeGermany,
   openLabel,
 }: {
   item: MediaItem
@@ -463,7 +718,7 @@ function MediaRow({
   leanLabels: { left: string; center: string; right: string }
   groupLabels: Record<TopicGroup, string>
   scopeBerlin: string
-  scopeBund: string
+  scopeGermany: string
   openLabel: string
 }) {
   const lean = leanLabel(item.lean, leanLabels)
@@ -481,7 +736,7 @@ function MediaRow({
           <span className={metaTagClassName()}>{item.source}</span>
           {lean ? <span className={metaTagClassName()}>{lean}</span> : null}
           <span className={metaTagClassName()}>
-            {item.scope === "berlin" ? scopeBerlin : scopeBund}
+            {item.scope === "berlin" ? scopeBerlin : scopeGermany}
           </span>
           {partyLabels(item.partyHits).map((party) => (
             <span key={party} className={metaTagClassName()}>

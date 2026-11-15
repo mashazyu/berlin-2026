@@ -46,12 +46,13 @@
     "leanHeading": "Orientación",
     "filterAll": "Todos",
     "filterBerlin": "Berlín",
-    "filterBund": "Bund",
+    "filterGermany": "Alemania",
     "filterAllLean": "Todos",
     "filterAllParties": "Todos los partidos",
     "leanLeft": "Izquierda",
     "leanCenter": "Centro",
     "leanRight": "Derecha",
+    "leanLocal": "Local",
     "timeAll": "Todos",
     "time24h": "24 horas",
     "time7d": "7 días",
@@ -66,7 +67,12 @@
     "disclaimer": "Sin valoración ni análisis: solo titulares de feeds RSS públicos, filtrados por partidos e instituciones. Cada ítem enlaza al medio original.",
     "partialErrors": "No se pudieron cargar algunos feeds ({sources}).",
     "inactiveTitle": "Se abre tras el día de las elecciones",
-    "inactiveBody": "La cobertura de prensa sobre el nuevo Abgeordnetenhaus empieza cuando cierren los colegios el 20 de septiembre de 2026: medios de izquierda, centro y derecha, más periódicos de Berlín, en un solo sitio."
+    "inactiveBody": "La cobertura de prensa sobre el nuevo Abgeordnetenhaus empieza cuando cierren los colegios el 20 de septiembre de 2026: medios de izquierda, centro y derecha, más periódicos de Berlín, en un solo sitio.",
+    "sourcesHeading": "Fuentes",
+    "sourcesOpen": "Fuentes",
+    "sourcesDone": "Listo",
+    "sourcesSelectAll": "Todas",
+    "sourcesClear": "Ninguna"
   },
   "hero": {
     "headline": "Elecciones regionales de Berlín 2026: compara los programas",

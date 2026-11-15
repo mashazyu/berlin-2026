@@ -46,12 +46,13 @@
     "leanHeading": "Medya eğilimi",
     "filterAll": "Tümü",
     "filterBerlin": "Berlin",
-    "filterBund": "Bund",
+    "filterGermany": "Almanya",
     "filterAllLean": "Tümü",
     "filterAllParties": "Tüm partiler",
     "leanLeft": "Sol",
     "leanCenter": "Merkez",
     "leanRight": "Sağ",
+    "leanLocal": "Yerel",
     "timeAll": "Tümü",
     "time24h": "24 saat",
     "time7d": "7 gün",
@@ -66,7 +67,12 @@
     "disclaimer": "Değerlendirme yok, analiz yok: yalnızca kamuya açık RSS beslemelerinden manşetler; partiler ve kurumlara göre filtrelenir. Her öğe orijinal yayına bağlanır.",
     "partialErrors": "Bazı beslemeler yüklenemedi ({sources}).",
     "inactiveTitle": "Seçim gününden sonra açılır",
-    "inactiveBody": "Yeni Abgeordnetenhaus hakkındaki basın özeti, sandıklar 20 Eylül 2026’da kapandıktan sonra başlar — sol, merkez ve sağ medya ile Berlin gazeteleri tek yerde."
+    "inactiveBody": "Yeni Abgeordnetenhaus hakkındaki basın özeti, sandıklar 20 Eylül 2026’da kapandıktan sonra başlar — sol, merkez ve sağ medya ile Berlin gazeteleri tek yerde.",
+    "sourcesHeading": "Kaynaklar",
+    "sourcesOpen": "Kaynaklar",
+    "sourcesDone": "Tamam",
+    "sourcesSelectAll": "Tümü",
+    "sourcesClear": "Hiçbiri"
   },
   "hero": {
     "headline": "Berlin 2026 eyalet seçimleri — parti programlarını karşılaştırın",

@@ -46,12 +46,13 @@
     "leanHeading": "Profil medium",
     "filterAll": "Wszystkie",
     "filterBerlin": "Berlin",
-    "filterBund": "Bund",
+    "filterGermany": "Niemcy",
     "filterAllLean": "Wszystkie",
     "filterAllParties": "Wszystkie partie",
     "leanLeft": "Lewica",
     "leanCenter": "Centrum",
     "leanRight": "Prawica",
+    "leanLocal": "Lokalne",
     "timeAll": "Wszystkie",
     "time24h": "24 godziny",
     "time7d": "7 dni",
@@ -66,7 +67,12 @@
     "disclaimer": "Bez ocen i analizy: tylko nagłówki z publicznych kanałów RSS, filtrowane według partii i instytucji. Każdy wpis prowadzi do oryginału.",
     "partialErrors": "Nie udało się wczytać niektórych kanałów ({sources}).",
     "inactiveTitle": "Dostępne po dniu wyborów",
-    "inactiveBody": "Przegląd prasy o nowym Abgeordnetenhaus zaczyna się po zamknięciu lokali 20 września 2026 — media lewicowe, centrowe i prawicowe oraz berlińskie gazety w jednym miejscu."
+    "inactiveBody": "Przegląd prasy o nowym Abgeordnetenhaus zaczyna się po zamknięciu lokali 20 września 2026 — media lewicowe, centrowe i prawicowe oraz berlińskie gazety w jednym miejscu.",
+    "sourcesHeading": "Źródła",
+    "sourcesOpen": "Źródła",
+    "sourcesDone": "Gotowe",
+    "sourcesSelectAll": "Wszystkie",
+    "sourcesClear": "Żadne"
   },
   "hero": {
     "headline": "Wybory landowe w Berlinie 2026 — porównaj programy partii",

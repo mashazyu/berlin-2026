@@ -63,17 +63,23 @@ export type Translations = {
     leanHeading: string
     filterAll: string
     filterBerlin: string
-    filterBund: string
+    filterGermany: string
     filterAllLean: string
     filterAllParties: string
     leanLeft: string
     leanCenter: string
     leanRight: string
+    leanLocal: string
     timeAll: string
     time24h: string
     time7d: string
     time30d: string
     timeSinceElection: string
+    sourcesHeading: string
+    sourcesOpen: string
+    sourcesDone: string
+    sourcesSelectAll: string
+    sourcesClear: string
     statTotal: string
     statSources: string
     showing: string

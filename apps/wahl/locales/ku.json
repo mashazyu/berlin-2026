@@ -46,12 +46,13 @@
     "leanHeading": "Meyla medyayê",
     "filterAll": "Hemû",
     "filterBerlin": "Berlîn",
-    "filterBund": "Bund",
+    "filterGermany": "Almanya",
     "filterAllLean": "Hemû",
     "filterAllParties": "Hemû partî",
     "leanLeft": "Çep",
     "leanCenter": "Navend",
     "leanRight": "Rast",
+    "leanLocal": "Herêmî",
     "timeAll": "Hemû",
     "time24h": "24 saet",
     "time7d": "7 roj",
@@ -66,7 +67,12 @@
     "disclaimer": "Bê nirxandin, bê analîz: tenê sernivîsên ji RSS-ên giştî, li gorî partî û saziyan hatine fîlterkirin. Her tişt ber bi weşana orjînal ve diçe.",
     "partialErrors": "Hin feed nehatin barkirin ({sources}).",
     "inactiveTitle": "Piştî roja hilbijartinê vedibe",
-    "inactiveBody": "Kurteya çapemeniyê ya Abgeordnetenhausa nû piştî girtina sindoqan di 20ê îlona 2026an de dest pê dike — medyaya çep, navend û rast û rojnameyên Berlînê di cihekî de."
+    "inactiveBody": "Kurteya çapemeniyê ya Abgeordnetenhausa nû piştî girtina sindoqan di 20ê îlona 2026an de dest pê dike — medyaya çep, navend û rast û rojnameyên Berlînê di cihekî de.",
+    "sourcesHeading": "Çavkanî",
+    "sourcesOpen": "Çavkanî",
+    "sourcesDone": "Temam",
+    "sourcesSelectAll": "Hemû",
+    "sourcesClear": "Yek jî"
   },
   "hero": {
     "headline": "Hilbijartina herêmî ya Berlînê 2026 — bernameyên partiyan berawird bike",
