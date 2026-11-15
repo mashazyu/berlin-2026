@@ -154,8 +154,9 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - name: Install Cypress binary
         run: pnpm exec cypress install
+      # pnpm start → scripts/start-next.mjs serves apps/wahl
       - name: Build
-        run: pnpm build
+        run: pnpm build:wahl
       - name: Cypress
         uses: cypress-io/github-action@v7
         with:
@@ -167,6 +168,7 @@ jobs:
           command: pnpm test:e2e
         env:
           CYPRESS_BASE_URL: http://127.0.0.1:3000
+          PORT: "3000"
       - name: Upload Cypress screenshots
         if: failure()
         uses: actions/upload-artifact@v7
