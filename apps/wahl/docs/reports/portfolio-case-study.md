@@ -16,7 +16,7 @@ Numbers cited here are locked in [`_metrics-summary.md`](./_metrics-summary.md).
 | Content / program comparison / project development | **Nina** |
 | Product, engineering, analytics, shipping | **Masha** |
 
-Related civic work: [Water for All](https://www.water4all.com.de) (drinking-water atlas for Berlin).
+Related civic work: [Water for All](https://www.water4all.org.de) (drinking-water atlas for Berlin).
 
 ---
 

@@ -135,7 +135,7 @@ Fragen zum Projekt, Korrekturen, Partnerschaften oder Übersetzungen? Schreiben 
 **Website:** [www.berlin-2026.de](https://www.berlin-2026.de) (Rebranding zu [wahl.kompass.berlin](https://wahl.kompass.berlin))  
 **Über uns & KI-Hinweis:** [Über uns](https://www.berlin-2026.de/de/about) · [KI-Hinweis](https://www.berlin-2026.de/de/ai-disclosure)
 
-Schwesterprojekt: [Wasser für alle](https://www.water4all.com.de/de) — offener Atlas freier Trinkwasserstellen in Berlin.
+Schwesterprojekt: [Wasser für alle](https://www.water4all.org.de/de) — offener Atlas freier Trinkwasserstellen in Berlin.
 
 <p class="footnote"><em>Zu den Zahlen:</em> Die Reichweite stammt aus datenschutzfreundlicher Website-Analyse vom Eintreffen der ersten Besuchenden (Anfang September) bis Mitte Oktober 2026. Angaben zur Nutzungstiefe beziehen sich auf den Zeitraum ab Mitte September, in dem detailliert gemessen wurde. Themenöffnungen sind unvollständig (die Messung begann spät). Zahlen sind zur Lesbarkeit gerundet.</p>
 

@@ -4,6 +4,8 @@
     "homeDescription": "Bernameyên fermî yên hilbijartina Abgeordnetenhaus a Berlînê di 20ê Îlonê 2026an de: veguhestin, xanî, avhewa, ewlehî û zêdetir. Serbixwe — ne şîreta dengdanê ye.",
     "aboutTitle": "Derbarê — Wahl-Kompass - Berlin 2026",
     "aboutDescription": "Kî li pişt Wahl-Kompass - Berlin 2026 e: Nina bernameyên partiyan berawird dike û proje pêş dixe; Masha aliyê teknîkî digire ser xwe. Serbixwe, bê girêdana bi tu partiyê re.",
+    "medienTitle": "Medya — Wahl-Kompass - Berlin 2026",
+    "medienDescription": "Nûçeyên Berlînê û neteweyî derbarê partiyên di Abgeordnetenhaus û siyaseta Bund de — ji medyaya çep, navend û rast.",
     "aiDisclosureTitle": "Daxuyaniya AI — Wahl-Kompass - Berlin 2026",
     "aiDisclosureDescription": "Em AI di nivîsên malperê û berawirdkirina bernameyan de çawa bi kar tînin — û çima mirov ji bo raman, naverok û rastiyê berpirsiyar dimînin.",
     "keywords": [
@@ -32,6 +34,29 @@
     "privacy": "Nepenîtî",
     "about": "Derbarê",
     "media": "Medya"
+  },
+  "media": {
+    "kicker": "Kurteya çapemeniyê",
+    "title": "Nûçeyên medyayê",
+    "subtitle": "Gotarên derbarê partiyên xwedî kursî li Abgeordnetenhaus û siyaseta Bund — ji medyaya çep, navend, rast û Berlînê. Bê rêzkirin, bê piştgirî: tenê çavkanî û fîlter.",
+    "scopeHeading": "Asta",
+    "leanHeading": "Meyla medyayê",
+    "filterAll": "Hemû",
+    "filterBerlin": "Berlîn",
+    "filterBund": "Bund",
+    "filterAllLean": "Hemû",
+    "leanLeft": "Çep",
+    "leanCenter": "Navend",
+    "leanRight": "Rast",
+    "leanLocal": "Berlîn herêmî",
+    "statTotal": "Li hev hatin",
+    "statSources": "Medya",
+    "showing": "{count} ji {total}",
+    "updated": "Nûvekirî {date}",
+    "empty": "Niha gotarên li hev nînin. Fîlterek din biceribîne.",
+    "openSource": "Çavkanî",
+    "disclaimer": "Bê nirxandin, bê analîz: tenê sernivîsên ji RSS-ên giştî, li gorî partî û saziyan hatine fîlterkirin. Her tişt ber bi weşana orjînal ve diçe.",
+    "partialErrors": "Hin feed nehatin barkirin ({sources})."
   },
   "hero": {
     "headline": "Hilbijartina herêmî ya Berlînê 2026 — bernameyên partiyan berawird bike",
@@ -203,7 +228,7 @@
   },
   "about": {
     "title": "Derbarê",
-    "body": "Berlin 2026 projejeke serbixwe ye ku berî hilbijartina herêmî ya Berlînê ya 2026an bernameyên partiyan berawird dike. Bernameyên fermî tenê bi Almanî derdikevin — em wan wergerînin zimanên ku li Berlînê tên axaftin.\n\nNina bernameyan berawird dike û proje pêş dixe; Masha aliyê teknîkî digire ser xwe. Di heman demê de em li ser [Water for All / Wasser für alle](https://www.water4all.com.de) dixebitin — atlasekî vekirî yê ava vexwarinê ya belaş li Berlînê. Proje gihîştina avê xuya dike û alîkariya niştecîhan dike ku ji bo kaniyên nû bixebitin.",
+    "body": "Berlin 2026 projejeke serbixwe ye ku berî hilbijartina herêmî ya Berlînê ya 2026an bernameyên partiyan berawird dike. Bernameyên fermî tenê bi Almanî derdikevin — em wan wergerînin zimanên ku li Berlînê tên axaftin.\n\nNina bernameyan berawird dike û proje pêş dixe; Masha aliyê teknîkî digire ser xwe. Di heman demê de em li ser [Water for All / Wasser für alle](https://www.water4all.org.de) dixebitin — atlasekî vekirî yê ava vexwarinê ya belaş li Berlînê. Proje gihîştina avê xuya dike û alîkariya niştecîhan dike ku ji bo kaniyên nû bixebitin.",
     "reportTitle": "Rapora proje",
     "reportBody": "Kurteyekî giştî ya kurt (15.10.2026): em gihîştin kê û berî û piştî roja hilbijartinê em çi fêr bûn. [PDF daxîne](/reports/public-project-story.pdf).",
     "contributeTitle": "Tu dikarî çawa alîkarî bikî",

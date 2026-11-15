@@ -132,6 +132,6 @@ Questions about the project, corrections, partnerships, or translations? We woul
 **Site:** [www.berlin-2026.de](https://www.berlin-2026.de) (rebranding to [wahl.kompass.berlin](https://wahl.kompass.berlin))  
 **About & AI disclosure:** [About](https://www.berlin-2026.de/en/about) · [AI disclosure](https://www.berlin-2026.de/en/ai-disclosure)
 
-Sister civic work: [Water for All](https://www.water4all.com.de) — an open atlas of free drinking water in Berlin.
+Sister civic work: [Water for All](https://www.water4all.org.de) — an open atlas of free drinking water in Berlin.
 
 <p class="footnote"><em>About the numbers:</em> Reach figures are from privacy-respecting site analytics from when visitors first arrived (early September) through mid-October 2026. Engagement depth uses the instrumented window from mid-September. Topic opens are incomplete (tracking started late). We round for readability.</p>

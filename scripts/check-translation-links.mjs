@@ -75,11 +75,16 @@ function normalizeLinkForRouteCheck(link, lang) {
   return resolved
 }
 
+const PUBLIC_DIRS = [
+  path.join(ROOT, "public"),
+  path.join(ROOT, "apps", "wahl", "public"),
+]
+
 function publicAssetExists(href) {
   const withoutHash = href.split("#")[0].split("?")[0]
   if (!withoutHash.startsWith("/")) return false
   const rel = withoutHash.replace(/^\//, "")
-  return fs.existsSync(path.join(ROOT, "public", rel))
+  return PUBLIC_DIRS.some((dir) => fs.existsSync(path.join(dir, rel)))
 }
 
 function main() {

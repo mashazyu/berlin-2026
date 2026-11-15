@@ -4,6 +4,8 @@
     "homeDescription": "Chương trình chính thức cho bầu cử Viện Dân biểu Berlin ngày 20 tháng 9 năm 2026: giao thông, nhà ở, khí hậu, an ninh và nhiều chủ đề khác. Độc lập — không phải lời khuyên bỏ phiếu.",
     "aboutTitle": "Giới thiệu — Wahl-Kompass - Berlin 2026",
     "aboutDescription": "Ai làm Wahl-Kompass - Berlin 2026: Nina so sánh chương trình các đảng và phát triển dự án; Masha lo phần kỹ thuật. Độc lập, không thuộc đảng nào.",
+    "medienTitle": "Truyền thông — Wahl-Kompass - Berlin 2026",
+    "medienDescription": "Tin Berlin và toàn liên bang về các đảng trong Abgeordnetenhaus và chính trị Bund — từ báo chí khuynh hướng tả, trung và hữu.",
     "aiDisclosureTitle": "Công bố về AI — Wahl-Kompass - Berlin 2026",
     "aiDisclosureDescription": "Chúng tôi dùng AI thế nào cho nội dung trang và bảng so sánh — và vì sao con người vẫn chịu trách nhiệm về ý tưởng, nội dung và độ chính xác.",
     "keywords": [
@@ -32,6 +34,29 @@
     "privacy": "Bảo vệ dữ liệu",
     "about": "Giới thiệu",
     "media": "Truyền thông"
+  },
+  "media": {
+    "kicker": "Tổng quan báo chí",
+    "title": "Tin truyền thông",
+    "subtitle": "Bài viết về các đảng có ghế trong Abgeordnetenhaus và chính trị liên bang — từ báo tả, trung, hữu và Berlin. Không xếp hạng, không ủng hộ: chỉ nguồn và bộ lọc.",
+    "scopeHeading": "Cấp",
+    "leanHeading": "Khuynh hướng",
+    "filterAll": "Tất cả",
+    "filterBerlin": "Berlin",
+    "filterBund": "Bund",
+    "filterAllLean": "Tất cả",
+    "leanLeft": "Tả",
+    "leanCenter": "Trung",
+    "leanRight": "Hữu",
+    "leanLocal": "Berlin địa phương",
+    "statTotal": "Khớp",
+    "statSources": "Tờ báo",
+    "showing": "Hiển thị {count} / {total}",
+    "updated": "Cập nhật {date}",
+    "empty": "Không có bài phù hợp. Hãy thử bộ lọc khác.",
+    "openSource": "Nguồn",
+    "disclaimer": "Không đánh giá, không phân tích: chỉ tiêu đề từ RSS công khai, lọc theo đảng và thể chế. Mỗi mục dẫn tới tờ gốc.",
+    "partialErrors": "Một số nguồn không tải được ({sources})."
   },
   "hero": {
     "headline": "Bầu cử bang Berlin 2026 — so sánh chương trình các đảng",
@@ -203,7 +228,7 @@
   },
   "about": {
     "title": "Giới thiệu",
-    "body": "Berlin 2026 là dự án độc lập so sánh chương trình các đảng trước bầu cử bang Berlin 2026. Chương trình chính thức chỉ có tiếng Đức — chúng tôi dịch sang các ngôn ngữ được nói ở Berlin.\n\nNina so sánh chương trình và phát triển dự án; Masha lo phần kỹ thuật. Song song chúng tôi làm [Water for All / Wasser für alle](https://www.water4all.com.de) — bản đồ mở về nước uống miễn phí ở Berlin. Dự án giúp thấy rõ tiếp cận nước và vận động thêm đài nước uống.",
+    "body": "Berlin 2026 là dự án độc lập so sánh chương trình các đảng trước bầu cử bang Berlin 2026. Chương trình chính thức chỉ có tiếng Đức — chúng tôi dịch sang các ngôn ngữ được nói ở Berlin.\n\nNina so sánh chương trình và phát triển dự án; Masha lo phần kỹ thuật. Song song chúng tôi làm [Water for All / Wasser für alle](https://www.water4all.org.de) — bản đồ mở về nước uống miễn phí ở Berlin. Dự án giúp thấy rõ tiếp cận nước và vận động thêm đài nước uống.",
     "reportTitle": "Báo cáo dự án",
     "reportBody": "Tóm tắt công khai ngắn (15.10.2026) về những ai chúng tôi tiếp cận và điều chúng tôi học được — trước và sau ngày bầu cử. [Tải PDF](/reports/public-project-story.pdf).",
     "contributeTitle": "Bạn có thể giúp gì",
