@@ -1,6 +1,6 @@
 import type { Language } from "@/lib/i18n"
 
-const GUIDE_BASE = "https://www.water4all.com.de"
+const GUIDE_BASE = "https://www.water4all.org.de"
 
 /** Water for All fountain request guide (language-aware). */
 export function guideHref(language: Language): string {
