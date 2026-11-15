@@ -19,10 +19,8 @@ export function SiteHeader() {
 
   const homePath = `/${language}`
   const aboutPath = `/${language}/about`
-  const mediaPath = `/${language}/medien`
   const onHome = pathname === homePath || pathname === `${homePath}/`
   const onAbout = pathname === aboutPath || pathname === `${aboutPath}/`
-  const onMedia = pathname === mediaPath || pathname === `${mediaPath}/`
 
   const sectionLinks = [
     { id: "comparison", label: t.navigation.comparison },
@@ -93,14 +91,6 @@ export function SiteHeader() {
               )
             )}
             <Link
-              href={mediaPath}
-              className={cn(navLinkClass, onMedia && "text-foreground")}
-              aria-current={onMedia ? "page" : undefined}
-              onClick={closeMenu}
-            >
-              {t.navigation.media}
-            </Link>
-            <Link
               href={aboutPath}
               className={cn(navLinkClass, onAbout && "text-foreground")}
               aria-current={onAbout ? "page" : undefined}
@@ -157,14 +147,6 @@ export function SiteHeader() {
               </Link>
             )
           )}
-          <Link
-            href={mediaPath}
-            className={cn(mobileLinkClass, onMedia && "bg-muted")}
-            aria-current={onMedia ? "page" : undefined}
-            onClick={closeMenu}
-          >
-            {t.navigation.media}
-          </Link>
           <Link
             href={aboutPath}
             className={cn(mobileLinkClass, onAbout && "bg-muted")}
