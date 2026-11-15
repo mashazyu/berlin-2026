@@ -4,6 +4,8 @@
     "homeDescription": "Programmi ufficiali per le elezioni alla Camera dei deputati di Berlino del 20 settembre 2026: trasporti, casa, clima, sicurezza e altro. Indipendente: non è un consiglio di voto.",
     "aboutTitle": "Il progetto — Wahl-Kompass - Berlin 2026",
     "aboutDescription": "Chi c’è dietro Wahl-Kompass - Berlin 2026: Nina confronta i programmi dei partiti e porta avanti il progetto; Masha si occupa della tecnica. Indipendente, senza legami con nessun partito.",
+    "medienTitle": "Media — Wahl-Kompass - Berlin 2026",
+    "medienDescription": "Copertura berlinese e nazionale sui partiti nell’Abgeordnetenhaus e sulla politica Bund — da testate di sinistra, centro e destra.",
     "aiDisclosureTitle": "Informativa sull’IA — Wahl-Kompass - Berlin 2026",
     "aiDisclosureDescription": "Come usiamo l’IA per i testi del sito e il confronto dei programmi — e perché restano le persone responsabili di idee, contenuti e accuratezza.",
     "keywords": [
@@ -32,6 +34,29 @@
     "privacy": "Privacy",
     "about": "Il progetto",
     "media": "Media"
+  },
+  "media": {
+    "kicker": "Rassegna stampa",
+    "title": "Copertura mediatica",
+    "subtitle": "Articoli sui partiti con seggi nell’Abgeordnetenhaus e sulla politica federale — da media di sinistra, centro, destra e berlinesi. Nessuna classifica né endorsement: solo fonti e filtri.",
+    "scopeHeading": "Livello",
+    "leanHeading": "Orientamento",
+    "filterAll": "Tutti",
+    "filterBerlin": "Berlino",
+    "filterBund": "Bund",
+    "filterAllLean": "Tutti",
+    "leanLeft": "Sinistra",
+    "leanCenter": "Centro",
+    "leanRight": "Destra",
+    "leanLocal": "Berlino locale",
+    "statTotal": "Corrispondenze",
+    "statSources": "Testate",
+    "showing": "Mostrati {count} di {total}",
+    "updated": "Aggiornato {date}",
+    "empty": "Nessun articolo corrispondente. Prova un altro filtro.",
+    "openSource": "Fonte",
+    "disclaimer": "Nessuna valutazione né analisi: solo titoli da feed RSS pubblici, filtrati per partiti e istituzioni. Ogni voce punta all’originale.",
+    "partialErrors": "Alcuni feed non sono stati caricati ({sources})."
   },
   "hero": {
     "headline": "Elezioni regionali a Berlino 2026 — confronta i programmi",

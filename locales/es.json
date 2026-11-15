@@ -4,6 +4,8 @@
     "homeDescription": "Programas oficiales para las elecciones a la Cámara de Representantes de Berlín el 20 de septiembre de 2026: transporte, vivienda, clima, seguridad y más. Independiente: no es una recomendación de voto.",
     "aboutTitle": "Sobre el proyecto — Wahl-Kompass - Berlin 2026",
     "aboutDescription": "Quién está detrás de Wahl-Kompass - Berlin 2026: Nina compara los programas de los partidos y saca adelante el proyecto; Masha se ocupa de la técnica. Independiente, sin vínculo con ningún partido.",
+    "medienTitle": "Medios — Wahl-Kompass - Berlin 2026",
+    "medienDescription": "Cobertura berlinesa y nacional sobre partidos en el Abgeordnetenhaus y la política federal — de medios de izquierda, centro y derecha.",
     "aiDisclosureTitle": "Aviso sobre la IA — Wahl-Kompass - Berlin 2026",
     "aiDisclosureDescription": "Cómo usamos la IA en los textos del sitio y en la comparación de programas, y por qué las personas siguen siendo responsables de las ideas, el contenido y la exactitud.",
     "keywords": [
@@ -32,6 +34,29 @@
     "privacy": "Privacidad",
     "about": "Sobre el proyecto",
     "media": "Medios"
+  },
+  "media": {
+    "kicker": "Resumen de prensa",
+    "title": "Cobertura mediática",
+    "subtitle": "Artículos sobre partidos con escaños en el Abgeordnetenhaus y política federal — de medios de izquierda, centro, derecha y berlineses. Sin ranking ni respaldo: solo fuentes y filtros.",
+    "scopeHeading": "Nivel",
+    "leanHeading": "Orientación",
+    "filterAll": "Todos",
+    "filterBerlin": "Berlín",
+    "filterBund": "Bund",
+    "filterAllLean": "Todos",
+    "leanLeft": "Izquierda",
+    "leanCenter": "Centro",
+    "leanRight": "Derecha",
+    "leanLocal": "Berlín local",
+    "statTotal": "Coincidencias",
+    "statSources": "Medios",
+    "showing": "Mostrando {count} de {total}",
+    "updated": "Actualizado {date}",
+    "empty": "No hay artículos que coincidan. Prueba otro filtro.",
+    "openSource": "Fuente",
+    "disclaimer": "Sin valoración ni análisis: solo titulares de feeds RSS públicos, filtrados por partidos e instituciones. Cada ítem enlaza al medio original.",
+    "partialErrors": "No se pudieron cargar algunos feeds ({sources})."
   },
   "hero": {
     "headline": "Elecciones regionales de Berlín 2026: compara los programas",

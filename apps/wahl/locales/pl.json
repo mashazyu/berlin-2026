@@ -4,6 +4,8 @@
     "homeDescription": "Oficjalne programy 10 partii do wyborów w Berlinie 20 września 2026: transport, mieszkania, klimat, bezpieczeństwo. Niezależnie, bez rekomendacji.",
     "aboutTitle": "O projekcie — Wahl-Kompass - Berlin 2026",
     "aboutDescription": "Kto tworzy Wahl-Kompass - Berlin 2026: Nina porównuje programy partii i rozwija projekt; Masha odpowiada za stronę techniczną. Niezależny, bez powiązań z żadną partią.",
+    "medienTitle": "Media — Wahl-Kompass - Berlin 2026",
+    "medienDescription": "Berliner i ogólnokrajowe doniesienia o partiach w Abgeordnetenhaus i polityce Bund — z mediów lewicowych, centrowych i prawicowych.",
     "aiDisclosureTitle": "Informacja o AI — Wahl-Kompass - Berlin 2026",
     "aiDisclosureDescription": "Jak korzystamy z AI przy tworzeniu tekstów na stronie i porównywaniu programów partii — oraz jak ludzie pozostają odpowiedzialni za idee, treść i rzetelność.",
     "keywords": [
@@ -32,6 +34,29 @@
     "privacy": "Prywatność",
     "about": "O projekcie",
     "media": "Media"
+  },
+  "media": {
+    "kicker": "Przegląd prasy",
+    "title": "Relacje medialne",
+    "subtitle": "Artykuły o partiach z mandatami w Abgeordnetenhaus i o polityce federalnej — z mediów lewicowych, centrowych, prawicowych i berlińskich. Bez rankingu i poparcia: tylko źródła i filtry.",
+    "scopeHeading": "Poziom",
+    "leanHeading": "Profil medium",
+    "filterAll": "Wszystkie",
+    "filterBerlin": "Berlin",
+    "filterBund": "Bund",
+    "filterAllLean": "Wszystkie",
+    "leanLeft": "Lewica",
+    "leanCenter": "Centrum",
+    "leanRight": "Prawica",
+    "leanLocal": "Berlin lokalnie",
+    "statTotal": "Dopasowane",
+    "statSources": "Media",
+    "showing": "Pokazano {count} z {total}",
+    "updated": "Aktualizacja {date}",
+    "empty": "Brak pasujących artykułów. Wybierz inny filtr.",
+    "openSource": "Źródło",
+    "disclaimer": "Bez ocen i analizy: tylko nagłówki z publicznych kanałów RSS, filtrowane według partii i instytucji. Każdy wpis prowadzi do oryginału.",
+    "partialErrors": "Nie udało się wczytać niektórych kanałów ({sources})."
   },
   "hero": {
     "headline": "Wybory landowe w Berlinie 2026 — porównaj programy partii",

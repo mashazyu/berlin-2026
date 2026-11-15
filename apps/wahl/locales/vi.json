@@ -4,6 +4,8 @@
     "homeDescription": "Chương trình chính thức cho bầu cử Viện Dân biểu Berlin ngày 20 tháng 9 năm 2026: giao thông, nhà ở, khí hậu, an ninh và nhiều chủ đề khác. Độc lập — không phải lời khuyên bỏ phiếu.",
     "aboutTitle": "Giới thiệu — Wahl-Kompass - Berlin 2026",
     "aboutDescription": "Ai làm Wahl-Kompass - Berlin 2026: Nina so sánh chương trình các đảng và phát triển dự án; Masha lo phần kỹ thuật. Độc lập, không thuộc đảng nào.",
+    "medienTitle": "Truyền thông — Wahl-Kompass - Berlin 2026",
+    "medienDescription": "Tin Berlin và toàn liên bang về các đảng trong Abgeordnetenhaus và chính trị Bund — từ báo chí khuynh hướng tả, trung và hữu.",
     "aiDisclosureTitle": "Công bố về AI — Wahl-Kompass - Berlin 2026",
     "aiDisclosureDescription": "Chúng tôi dùng AI thế nào cho nội dung trang và bảng so sánh — và vì sao con người vẫn chịu trách nhiệm về ý tưởng, nội dung và độ chính xác.",
     "keywords": [
@@ -32,6 +34,29 @@
     "privacy": "Bảo vệ dữ liệu",
     "about": "Giới thiệu",
     "media": "Truyền thông"
+  },
+  "media": {
+    "kicker": "Tổng quan báo chí",
+    "title": "Tin truyền thông",
+    "subtitle": "Bài viết về các đảng có ghế trong Abgeordnetenhaus và chính trị liên bang — từ báo tả, trung, hữu và Berlin. Không xếp hạng, không ủng hộ: chỉ nguồn và bộ lọc.",
+    "scopeHeading": "Cấp",
+    "leanHeading": "Khuynh hướng",
+    "filterAll": "Tất cả",
+    "filterBerlin": "Berlin",
+    "filterBund": "Bund",
+    "filterAllLean": "Tất cả",
+    "leanLeft": "Tả",
+    "leanCenter": "Trung",
+    "leanRight": "Hữu",
+    "leanLocal": "Berlin địa phương",
+    "statTotal": "Khớp",
+    "statSources": "Tờ báo",
+    "showing": "Hiển thị {count} / {total}",
+    "updated": "Cập nhật {date}",
+    "empty": "Không có bài phù hợp. Hãy thử bộ lọc khác.",
+    "openSource": "Nguồn",
+    "disclaimer": "Không đánh giá, không phân tích: chỉ tiêu đề từ RSS công khai, lọc theo đảng và thể chế. Mỗi mục dẫn tới tờ gốc.",
+    "partialErrors": "Một số nguồn không tải được ({sources})."
   },
   "hero": {
     "headline": "Bầu cử bang Berlin 2026 — so sánh chương trình các đảng",
