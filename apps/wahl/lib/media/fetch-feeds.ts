@@ -7,6 +7,7 @@ import {
   matchesAny,
   normalizeText,
 } from "@/lib/media/keywords"
+import type { MediaListFilters } from "@/lib/media/query"
 import type { MediaFetchResult, MediaItem } from "@/lib/media/types"
 import { isElectionEnded } from "@/lib/seo/election"
 
@@ -158,14 +159,22 @@ function dedupeKey(title: string, source: string): string {
   return `${source}::${normalizeText(title).replace(/\s+/g, " ").slice(0, 120)}`
 }
 
-export async function fetchMediaCoverage(): Promise<MediaFetchResult> {
+function sortMediaItems(items: MediaItem[]): MediaItem[] {
+  return [...items].sort((a, b) => {
+    if (b.score !== a.score) return b.score - a.score
+    const da = a.publishedAt ? Date.parse(a.publishedAt) : 0
+    const db = b.publishedAt ? Date.parse(b.publishedAt) : 0
+    return db - da
+  })
+}
+
+/** Live RSS pull — all matched items (no display cap). */
+export async function collectLiveMediaItems(): Promise<{
+  items: MediaItem[]
+  feedErrors: MediaFetchResult["feedErrors"]
+  fetchedAt: string
+}> {
   const fetchedAt = new Date().toISOString()
-
-  // No ingest until polls close on election day.
-  if (!isElectionEnded()) {
-    return { active: false, items: [], fetchedAt, feedErrors: [] }
-  }
-
   const feedErrors: MediaFetchResult["feedErrors"] = []
   const collected: MediaItem[] = []
   const seen = new Set<string>()
@@ -268,17 +277,117 @@ export async function fetchMediaCoverage(): Promise<MediaFetchResult> {
     }
   }
 
-  collected.sort((a, b) => {
-    if (b.score !== a.score) return b.score - a.score
-    const da = a.publishedAt ? Date.parse(a.publishedAt) : 0
-    const db = b.publishedAt ? Date.parse(b.publishedAt) : 0
-    return db - da
+  return {
+    items: sortMediaItems(collected),
+    feedErrors,
+    fetchedAt,
+  }
+}
+
+/**
+ * Cron / manual ingest: pull RSS and upsert into the persistent archive.
+ */
+export async function ingestMediaArchive(): Promise<{
+  active: boolean
+  total: number
+  added: number
+  backend: "postgres" | "local" | null
+  feedErrors: MediaFetchResult["feedErrors"]
+  fetchedAt: string
+}> {
+  const fetchedAt = new Date().toISOString()
+  if (!isElectionEnded()) {
+    return {
+      active: false,
+      total: 0,
+      added: 0,
+      backend: null,
+      feedErrors: [],
+      fetchedAt,
+    }
+  }
+
+  const { upsertMediaArchive } = await import("@/lib/media/archive")
+  const live = await collectLiveMediaItems()
+  const saved = await upsertMediaArchive(live.items, live.fetchedAt)
+  return {
+    active: true,
+    total: saved.total,
+    added: saved.added,
+    backend: saved.backend,
+    feedErrors: live.feedErrors,
+    fetchedAt: live.fetchedAt,
+  }
+}
+
+/** Default SSR / first-paint filters (Berlin tab, UI defaults). */
+export function defaultMediaListFilters(): MediaListFilters {
+  const sources = [
+    ...new Set(
+      MEDIA_FEEDS.filter((feed) => feed.scope === "berlin").map(
+        (feed) => feed.source
+      )
+    ),
+  ]
+  return {
+    scope: "berlin",
+    sources,
+    partyKeywords: "all",
+    topics: "all",
+    time: "since_election",
+  }
+}
+
+/**
+ * Page load: first page of the archive (newest 20).
+ * If empty (first deploy), seed once from live RSS.
+ * Regular growth comes from `/api/media/ingest` (Vercel Cron).
+ */
+export async function fetchMediaCoverage(): Promise<MediaFetchResult> {
+  const fetchedAt = new Date().toISOString()
+
+  if (!isElectionEnded()) {
+    return {
+      active: false,
+      items: [],
+      nextCursor: null,
+      total: 0,
+      fetchedAt,
+      feedErrors: [],
+    }
+  }
+
+  const { loadMediaArchive, upsertMediaArchive } = await import(
+    "@/lib/media/archive"
+  )
+  const { queryMediaItems, MEDIA_PAGE_SIZE } = await import(
+    "@/lib/media/query"
+  )
+
+  const archive = await loadMediaArchive()
+  let feedErrors: MediaFetchResult["feedErrors"] = []
+
+  if (!archive || archive.items.length === 0) {
+    const live = await collectLiveMediaItems()
+    feedErrors = live.feedErrors
+    try {
+      await upsertMediaArchive(live.items, live.fetchedAt)
+    } catch {
+      // Fall through — query may still be empty; client shows empty state.
+    }
+  }
+
+  const page = await queryMediaItems({
+    filters: defaultMediaListFilters(),
+    limit: MEDIA_PAGE_SIZE,
   })
 
   return {
-    active: true,
-    items: collected.slice(0, 80),
-    fetchedAt,
+    active: page.active,
+    items: page.items,
+    nextCursor: page.nextCursor,
+    total: page.total,
+    fetchedAt: page.fetchedAt || fetchedAt,
     feedErrors,
   }
 }

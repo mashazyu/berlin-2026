@@ -61,3 +61,6 @@ next-env.d.ts
 
 # Local analytics exports (regenerate charts from a local copy)
 apps/wahl/stats/
+
+# Local media RSS archive (Vercel Blob in production)
+apps/wahl/.data/

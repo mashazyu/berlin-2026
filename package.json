@@ -4,7 +4,8 @@
   "private": true,
   "packageManager": "pnpm@9.8.0",
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "pnpm --filter @kompass/wahl dev",
+    "dev:root": "next dev --turbopack",
     "dev:wahl": "pnpm --filter @kompass/wahl dev",
     "dev:www": "pnpm --filter @kompass/www dev",
     "dev:polit": "pnpm --filter @kompass/polit dev",

@@ -56,6 +56,14 @@ pnpm build:apps           # www + polit production builds
 - Attach **both** apex and `www` domains  
 - Copy env vars for **wahl** from the live berlin project (www/polit need little/none)
 
+**Wahl media archive (RSS self-store)**
+
+- Cron: `apps/wahl/vercel.json` → `GET /api/media/ingest` every 4 hours  
+- Storage: Vercel Postgres / Neon (`POSTGRES_URL` or `DATABASE_URL`); table `media_items`, retention ~400 days  
+- Local fallback without DB: `apps/wahl/.data/media-archive.json`  
+- Auth: set `CRON_SECRET` on the wahl project (Vercel Cron sends `Authorization: Bearer …`)  
+- Medien page reads the archive; first visit seeds from live RSS if empty
+
 **First deploy tip:** Creating a project does not always build. Use Deployments → Create Deployment on `main`, or push a commit. If Ignored Build Step skips the first run, clear it once, deploy, then re-enable.
 
 ## Cutover (wahl) — do later, deliberately

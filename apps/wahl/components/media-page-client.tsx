@@ -1,6 +1,14 @@
 "use client"
 
-import { useEffect, useMemo, useState, type ReactNode } from "react"
+import {
+  useCallback,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+  type ReactNode,
+} from "react"
+import { useInView } from "react-intersection-observer"
 import { ExternalLink, ListFilter, X } from "lucide-react"
 import { FeedbackFab } from "@/components/feedback-fab"
 import { SiteFooter } from "@/components/site-footer"
@@ -11,10 +19,17 @@ import type { TopicGroup } from "@/lib/comparison/types"
 import { MEDIA_FEEDS, type MediaLean, type MediaScope } from "@/lib/media/feeds"
 import { MEDIA_TOPIC_GROUPS } from "@/lib/media/keywords"
 import type { MediaFetchResult, MediaItem } from "@/lib/media/types"
-import { ELECTION_DATE } from "@/lib/seo/election"
 import { cn } from "@/lib/utils"
 
 type TimeFilter = "all" | "24h" | "7d" | "30d" | "since_election"
+
+type MediaItemsResponse = {
+  items: MediaItem[]
+  nextCursor: string | null
+  fetchedAt: string
+  total: number
+  active: boolean
+}
 
 /** Canonical party chips — keyword hits map onto these labels. */
 const PARTY_FILTERS = [
@@ -30,8 +45,6 @@ const PARTY_FILTERS = [
 type PartyId = (typeof PARTY_FILTERS)[number]["id"]
 
 const LEAN_ORDER: Exclude<MediaLean, "local">[] = ["left", "center", "right"]
-
-const DAY_MS = 86_400_000
 
 type Outlet = {
   source: string
@@ -97,40 +110,30 @@ function partyLabels(hits: string[]): string[] {
   return out
 }
 
-function itemHasParty(item: MediaItem, partyId: PartyId): boolean {
-  const party = PARTY_FILTERS.find((entry) => entry.id === partyId)
-  if (!party) return false
-  return party.keywords.some((keyword) => item.partyHits.includes(keyword))
-}
-
-/** Election-day poll close in Europe/Berlin (CEST on 2026-09-20). */
-function electionUnlockMs(): number {
-  return Date.parse(`${ELECTION_DATE}T18:00:00+02:00`)
-}
-
-function inTimeRange(
-  iso: string | null,
-  filter: TimeFilter,
-  nowMs: number
-): boolean {
-  if (filter === "all") return true
-  if (!iso) return false
-  const published = Date.parse(iso)
-  if (Number.isNaN(published)) return false
-  if (filter === "since_election") return published >= electionUnlockMs()
-  const age = nowMs - published
-  if (filter === "24h") return age >= 0 && age <= DAY_MS
-  if (filter === "7d") return age >= 0 && age <= 7 * DAY_MS
-  if (filter === "30d") return age >= 0 && age <= 30 * DAY_MS
-  return true
-}
-
 function outletsForScope(scope: MediaScope): Outlet[] {
   return ALL_OUTLETS.filter((outlet) => outlet.scopes.has(scope))
 }
 
 function sourcesForScope(scope: MediaScope): string[] {
   return outletsForScope(scope).map((outlet) => outlet.source)
+}
+
+function buildMediaItemsUrl(input: {
+  scope: MediaScope
+  sources: string[]
+  parties: PartyId[]
+  topics: TopicGroup[]
+  time: TimeFilter
+  cursor?: string | null
+}): string {
+  const params = new URLSearchParams()
+  params.set("scope", input.scope)
+  params.set("time", input.time)
+  params.set("sources", input.sources.join(","))
+  params.set("parties", input.parties.join(","))
+  params.set("topics", input.topics.join(","))
+  if (input.cursor) params.set("cursor", input.cursor)
+  return `/api/media/items?${params.toString()}`
 }
 
 export function MediaPageClient({ data }: { data: MediaFetchResult }) {
@@ -147,13 +150,21 @@ export function MediaPageClient({ data }: { data: MediaFetchResult }) {
   )
   const [topics, setTopics] = useState<TopicGroup[]>(() => [...MEDIA_TOPIC_GROUPS])
   const [sourcesOpen, setSourcesOpen] = useState(false)
-  const nowMs = useMemo(() => Date.now(), [data.fetchedAt])
+  const [items, setItems] = useState<MediaItem[]>(data.items)
+  const [nextCursor, setNextCursor] = useState<string | null>(data.nextCursor)
+  const [total, setTotal] = useState(data.total)
+  const [fetchedAt, setFetchedAt] = useState(data.fetchedAt)
+  const [loadingMore, setLoadingMore] = useState(false)
+  const [loadingFilters, setLoadingFilters] = useState(false)
+  const skipFilterFetch = useRef(true)
+  const loadMoreBlocked = useRef(false)
 
   const scopeOutlets = useMemo(() => outletsForScope(scope), [scope])
 
-  useEffect(() => {
-    setSources(sourcesForScope(scope))
-  }, [scope])
+  const { ref: sentinelRef, inView } = useInView({
+    rootMargin: "240px 0px",
+    threshold: 0,
+  })
 
   useEffect(() => {
     if (!sourcesOpen) return
@@ -164,65 +175,115 @@ export function MediaPageClient({ data }: { data: MediaFetchResult }) {
     return () => window.removeEventListener("keydown", onKey)
   }, [sourcesOpen])
 
-  const filtered = useMemo(() => {
-    const allParties = parties.length === PARTY_FILTERS.length
-    const allTopics = topics.length === MEDIA_TOPIC_GROUPS.length
-    const sourceSet = new Set(sources)
-
-    return data.items.filter((item) => {
-      if (!inTimeRange(item.publishedAt, time, nowMs)) return false
-      if (item.scope !== scope) return false
-      if (sources.length === 0) return false
-      if (!sourceSet.has(item.source)) return false
-
-      if (parties.length === 0) return false
-      if (!allParties && !parties.some((partyId) => itemHasParty(item, partyId))) {
-        return false
-      }
-
-      if (topics.length === 0) return false
-      if (!allTopics) {
-        if (item.topicHits.length === 0) return false
-        if (!topics.some((group) => item.topicHits.includes(group))) return false
-      }
-
-      return true
-    })
-  }, [data.items, scope, sources, time, parties, topics, nowMs])
-
-  const timedScopedItems = useMemo(
+  const filterKey = useMemo(
     () =>
-      data.items.filter(
-        (item) =>
-          item.scope === scope && inTimeRange(item.publishedAt, time, nowMs)
-      ),
-    [data.items, scope, time, nowMs]
+      JSON.stringify({
+        scope,
+        sources: [...sources].sort(),
+        time,
+        parties: [...parties].sort(),
+        topics: [...topics].sort(),
+      }),
+    [scope, sources, time, parties, topics]
   )
 
-  const counts = useMemo(() => {
-    const base = timedScopedItems
-    return {
-      total: base.length,
-      parties: Object.fromEntries(
-        PARTY_FILTERS.map((party) => [
-          party.id,
-          base.filter((item) => itemHasParty(item, party.id)).length,
-        ])
-      ) as Record<PartyId, number>,
-      topics: Object.fromEntries(
-        MEDIA_TOPIC_GROUPS.map((group) => [
-          group,
-          base.filter((item) => item.topicHits.includes(group)).length,
-        ])
-      ) as Record<TopicGroup, number>,
-      sources: Object.fromEntries(
-        scopeOutlets.map((outlet) => [
-          outlet.source,
-          base.filter((item) => item.source === outlet.source).length,
-        ])
-      ) as Record<string, number>,
+  useEffect(() => {
+    if (skipFilterFetch.current) {
+      skipFilterFetch.current = false
+      return
     }
-  }, [timedScopedItems, scopeOutlets])
+
+    let cancelled = false
+    const controller = new AbortController()
+
+    async function loadPage() {
+      setLoadingFilters(true)
+      setNextCursor(null)
+      loadMoreBlocked.current = false
+      try {
+        const response = await fetch(
+          buildMediaItemsUrl({ scope, sources, parties, topics, time }),
+          { signal: controller.signal }
+        )
+        if (!response.ok) throw new Error(`HTTP ${response.status}`)
+        const page = (await response.json()) as MediaItemsResponse
+        if (cancelled) return
+        setItems(page.items)
+        setNextCursor(page.nextCursor)
+        setTotal(page.total)
+        setFetchedAt(page.fetchedAt)
+      } catch (error) {
+        if (cancelled || (error instanceof DOMException && error.name === "AbortError")) {
+          return
+        }
+        setItems([])
+        setNextCursor(null)
+        setTotal(0)
+      } finally {
+        if (!cancelled) setLoadingFilters(false)
+      }
+    }
+
+    void loadPage()
+    return () => {
+      cancelled = true
+      controller.abort()
+    }
+    // filterKey captures the filter deps used inside
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [filterKey])
+
+  const loadMore = useCallback(async () => {
+    if (!nextCursor || loadingMore || loadingFilters || loadMoreBlocked.current) {
+      return
+    }
+    setLoadingMore(true)
+    try {
+      const response = await fetch(
+        buildMediaItemsUrl({
+          scope,
+          sources,
+          parties,
+          topics,
+          time,
+          cursor: nextCursor,
+        })
+      )
+      if (!response.ok) throw new Error(`HTTP ${response.status}`)
+      const page = (await response.json()) as MediaItemsResponse
+      setItems((current) => {
+        const seen = new Set(current.map((item) => item.id))
+        const appended = page.items.filter((item) => !seen.has(item.id))
+        return [...current, ...appended]
+      })
+      setNextCursor(page.nextCursor)
+      setTotal(page.total)
+      setFetchedAt(page.fetchedAt)
+      loadMoreBlocked.current = false
+    } catch {
+      // Stop auto-retry while the sentinel stays in view; reset on filter change.
+      loadMoreBlocked.current = true
+    } finally {
+      setLoadingMore(false)
+    }
+  }, [
+    nextCursor,
+    loadingMore,
+    loadingFilters,
+    scope,
+    sources,
+    parties,
+    topics,
+    time,
+  ])
+
+  useEffect(() => {
+    if (!inView) {
+      loadMoreBlocked.current = false
+      return
+    }
+    void loadMore()
+  }, [inView, loadMore])
 
   const outletsByLean = useMemo(() => {
     const groups: {
@@ -266,24 +327,15 @@ export function MediaPageClient({ data }: { data: MediaFetchResult }) {
     { id: "since_election", label: m.timeSinceElection },
   ]
 
-  const scopeTabs: { id: MediaScope; label: string; count: number }[] = [
-    {
-      id: "berlin",
-      label: m.filterBerlin,
-      count: data.items.filter(
-        (item) =>
-          item.scope === "berlin" && inTimeRange(item.publishedAt, time, nowMs)
-      ).length,
-    },
-    {
-      id: "bund",
-      label: m.filterGermany,
-      count: data.items.filter(
-        (item) =>
-          item.scope === "bund" && inTimeRange(item.publishedAt, time, nowMs)
-      ).length,
-    },
+  const scopeTabs: { id: MediaScope; label: string }[] = [
+    { id: "berlin", label: m.filterBerlin },
+    { id: "bund", label: m.filterGermany },
   ]
+
+  function changeScope(next: MediaScope) {
+    setScope(next)
+    setSources(sourcesForScope(next))
+  }
 
   function toggleParty(partyId: PartyId) {
     setParties((current) =>
@@ -352,7 +404,6 @@ export function MediaPageClient({ data }: { data: MediaFetchResult }) {
       heading={m.sourcesHeading}
       groups={outletsByLean}
       sources={sources}
-      counts={counts.sources}
       onToggle={toggleSource}
       onSelectAll={selectAllSources}
       onClear={clearSources}
@@ -418,17 +469,9 @@ export function MediaPageClient({ data }: { data: MediaFetchResult }) {
                         ? "border-primary text-foreground"
                         : "border-transparent text-muted-foreground hover:border-border hover:text-foreground"
                     )}
-                    onClick={() => setScope(tab.id)}
+                    onClick={() => changeScope(tab.id)}
                   >
                     {tab.label}
-                    <span
-                      className={cn(
-                        "ms-2 font-sans text-sm font-medium tabular-nums",
-                        active ? "text-primary" : "text-muted-foreground/70"
-                      )}
-                    >
-                      {tab.count}
-                    </span>
                   </button>
                 )
               })}
@@ -473,9 +516,6 @@ export function MediaPageClient({ data }: { data: MediaFetchResult }) {
                         aria-pressed={active}
                       >
                         {party.label}
-                        <span className="ms-1.5 tabular-nums opacity-70">
-                          {counts.parties[party.id]}
-                        </span>
                       </button>
                     )
                   })}
@@ -493,9 +533,6 @@ export function MediaPageClient({ data }: { data: MediaFetchResult }) {
                         aria-pressed={active}
                       >
                         {groupLabels[group]}
-                        <span className="ms-1.5 tabular-nums opacity-70">
-                          {counts.topics[group]}
-                        </span>
                       </button>
                     )
                   })}
@@ -504,20 +541,20 @@ export function MediaPageClient({ data }: { data: MediaFetchResult }) {
 
               <p className="mt-6 text-sm text-muted-foreground">
                 {m.showing
-                  .replace("{count}", String(filtered.length))
-                  .replace("{total}", String(timedScopedItems.length))}
-                {data.fetchedAt
-                  ? ` · ${m.updated.replace("{date}", formatDate(data.fetchedAt, language))}`
+                  .replace("{count}", String(items.length))
+                  .replace("{total}", String(total))}
+                {fetchedAt
+                  ? ` · ${m.updated.replace("{date}", formatDate(fetchedAt, language))}`
                   : null}
               </p>
 
               <ul className="mt-4 divide-y divide-border border-y border-border">
-                {filtered.length === 0 ? (
+                {items.length === 0 && !loadingFilters ? (
                   <li className="py-10 text-center text-muted-foreground">
                     {m.empty}
                   </li>
                 ) : (
-                  filtered.map((item) => (
+                  items.map((item) => (
                     <MediaRow
                       key={item.id}
                       item={item}
@@ -531,6 +568,13 @@ export function MediaPageClient({ data }: { data: MediaFetchResult }) {
                   ))
                 )}
               </ul>
+
+              <div
+                ref={sentinelRef}
+                className="flex min-h-10 items-center justify-center text-sm text-muted-foreground"
+              >
+                {loadingMore || loadingFilters ? "…" : null}
+              </div>
 
               <p className="mt-10 text-sm leading-relaxed text-muted-foreground">
                 {m.disclaimer}
@@ -596,7 +640,6 @@ function OutletPanel({
   heading,
   groups,
   sources,
-  counts,
   onToggle,
   onSelectAll,
   onClear,
@@ -610,7 +653,6 @@ function OutletPanel({
     outlets: Outlet[]
   }[]
   sources: string[]
-  counts: Record<string, number>
   onToggle: (source: string) => void
   onSelectAll: () => void
   onClear: () => void
@@ -669,9 +711,6 @@ function OutletPanel({
                       />
                       <span className="min-w-0 flex-1 truncate">
                         {outlet.source}
-                      </span>
-                      <span className="tabular-nums text-xs opacity-70">
-                        {counts[outlet.source] ?? 0}
                       </span>
                     </label>
                   </li>

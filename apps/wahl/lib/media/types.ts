@@ -23,6 +23,10 @@ export type MediaFetchResult = {
   /** False before polls close — no RSS ingest yet. */
   active: boolean
   items: MediaItem[]
+  /** Keyset cursor for the next page, or null when exhausted. */
+  nextCursor: string | null
+  /** Total rows matching the current filters (not just this page). */
+  total: number
   fetchedAt: string
   feedErrors: { feedId: string; source: string; message: string }[]
 }
