@@ -11,6 +11,6 @@
   },
   "devDependencies": {
     "next": "15.5.28",
-    "typescript": "^5"
+    "typescript": "^6"
   }
 }
